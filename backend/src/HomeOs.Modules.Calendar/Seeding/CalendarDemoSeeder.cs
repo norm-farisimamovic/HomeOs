@@ -4,19 +4,20 @@ using HomeOs.Platform.Entities;
 using HomeOs.Platform.Members;
 using HomeOs.Platform.Seeding;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace HomeOs.Modules.Calendar.Seeding;
 
 /// <summary>Dev-only: seeds a couple of events into the demo household so the calendar isn't empty.</summary>
 public sealed class CalendarDemoSeeder(
-    IHostEnvironment env, IHouseholdLookup households, IMemberDirectory members, CalendarDbContext db) : IDataSeeder
+    IHostEnvironment env, IConfiguration config, IHouseholdLookup households, IMemberDirectory members, CalendarDbContext db) : IDataSeeder
 {
     public int Order => 130;
 
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
-        if (!env.IsDevelopment()) return;
+        if (!DemoMode.IsEnabled(env, config)) return;
         if (await households.FindHouseholdIdByNameAsync("Demo Home", cancellationToken) is not { } hid) return;
         if (await db.Events.AnyAsync(e => e.HouseholdId == hid, cancellationToken)) return;
 

@@ -3,19 +3,20 @@ using HomeOs.Modules.Automations.Persistence;
 using HomeOs.Platform.Members;
 using HomeOs.Platform.Seeding;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace HomeOs.Modules.Automations.Seeding;
 
 /// <summary>Dev-only: seeds a couple of example automation rules into the demo household.</summary>
 public sealed class AutomationsDemoSeeder(
-    IHostEnvironment env, IHouseholdLookup households, IMemberDirectory members, AutomationsDbContext db) : IDataSeeder
+    IHostEnvironment env, IConfiguration config, IHouseholdLookup households, IMemberDirectory members, AutomationsDbContext db) : IDataSeeder
 {
     public int Order => 170;
 
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
-        if (!env.IsDevelopment()) return;
+        if (!DemoMode.IsEnabled(env, config)) return;
         if (await households.FindHouseholdIdByNameAsync("Demo Home", cancellationToken) is not { } hid) return;
         if (await db.Automations.AnyAsync(a => a.HouseholdId == hid, cancellationToken)) return;
 

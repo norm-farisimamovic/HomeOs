@@ -3,18 +3,19 @@ using HomeOs.Modules.Shopping.Persistence;
 using HomeOs.Platform.Members;
 using HomeOs.Platform.Seeding;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace HomeOs.Modules.Shopping.Seeding;
 
 /// <summary>Dev-only: seeds a couple of shared lists into the demo household (idempotent).</summary>
-public sealed class ShoppingDemoSeeder(IHostEnvironment env, IHouseholdLookup households, ShoppingDbContext db) : IDataSeeder
+public sealed class ShoppingDemoSeeder(IHostEnvironment env, IConfiguration config, IHouseholdLookup households, ShoppingDbContext db) : IDataSeeder
 {
     public int Order => 160;
 
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
-        if (!env.IsDevelopment()) return;
+        if (!DemoMode.IsEnabled(env, config)) return;
         if (await households.FindHouseholdIdByNameAsync("Demo Home", cancellationToken) is not { } hid) return;
         if (await db.Lists.AnyAsync(l => l.HouseholdId == hid, cancellationToken)) return;
 

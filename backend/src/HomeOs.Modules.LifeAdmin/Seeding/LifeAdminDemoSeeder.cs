@@ -6,20 +6,21 @@ using HomeOs.Platform.Members;
 using HomeOs.Platform.Reminders;
 using HomeOs.Platform.Seeding;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace HomeOs.Modules.LifeAdmin.Seeding;
 
 /// <summary>Dev-only: seeds a few life-admin records — one expiring soon — and their auto-reminders.</summary>
 public sealed class LifeAdminDemoSeeder(
-    IHostEnvironment env, IHouseholdLookup households, IMemberDirectory members,
+    IHostEnvironment env, IConfiguration config, IHouseholdLookup households, IMemberDirectory members,
     LifeAdminDbContext db, IReminderService reminders, IAppText text) : IDataSeeder
 {
     public int Order => 160;
 
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
-        if (!env.IsDevelopment()) return;
+        if (!DemoMode.IsEnabled(env, config)) return;
         if (await households.FindHouseholdIdByNameAsync("Demo Home", cancellationToken) is not { } hid) return;
         if (await db.Records.AnyAsync(r => r.HouseholdId == hid, cancellationToken)) return;
 

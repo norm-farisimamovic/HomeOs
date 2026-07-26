@@ -4,19 +4,20 @@ using HomeOs.Platform.Entities;
 using HomeOs.Platform.Members;
 using HomeOs.Platform.Seeding;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace HomeOs.Modules.Notes.Seeding;
 
 /// <summary>Dev-only: seeds a couple of notes into the demo household.</summary>
 public sealed class NotesDemoSeeder(
-    IHostEnvironment env, IHouseholdLookup households, IMemberDirectory members, NotesDbContext db) : IDataSeeder
+    IHostEnvironment env, IConfiguration config, IHouseholdLookup households, IMemberDirectory members, NotesDbContext db) : IDataSeeder
 {
     public int Order => 150;
 
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
-        if (!env.IsDevelopment()) return;
+        if (!DemoMode.IsEnabled(env, config)) return;
         if (await households.FindHouseholdIdByNameAsync("Demo Home", cancellationToken) is not { } hid) return;
         if (await db.Notes.AnyAsync(n => n.HouseholdId == hid, cancellationToken)) return;
 

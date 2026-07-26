@@ -4,13 +4,14 @@ using HomeOs.Platform.Entities;
 using HomeOs.Platform.Members;
 using HomeOs.Platform.Seeding;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace HomeOs.Modules.Tasks.Seeding;
 
 /// <summary>Dev-only: seeds a handful of realistic tasks into the demo household so the app has data to show.</summary>
 public sealed class TasksDemoSeeder(
-    IHostEnvironment env, IHouseholdLookup households, IMemberDirectory members, TasksDbContext db) : IDataSeeder
+    IHostEnvironment env, IConfiguration config, IHouseholdLookup households, IMemberDirectory members, TasksDbContext db) : IDataSeeder
 {
     /// <inheritdoc />
     public int Order => 110; // after the demo household (20)
@@ -18,7 +19,7 @@ public sealed class TasksDemoSeeder(
     /// <inheritdoc />
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
-        if (!env.IsDevelopment()) return;
+        if (!DemoMode.IsEnabled(env, config)) return;
 
         if (await households.FindHouseholdIdByNameAsync("Demo Home", cancellationToken) is not { } householdId) return;
         if (await db.Tasks.AnyAsync(t => t.HouseholdId == householdId, cancellationToken)) return;

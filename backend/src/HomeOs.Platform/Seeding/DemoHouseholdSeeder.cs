@@ -3,15 +3,19 @@ using HomeOs.Platform.Members;
 using HomeOs.Platform.Persistence;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
+
+using HomeOs.Platform.Seeding;
 
 namespace HomeOs.Platform.Seeding;
 
 /// <summary>
-/// Dev-only: creates a demo household ("Demo Home") with two members so a fresh install has something to
-/// explore. Login: <c>demo@homeos.local</c> / <c>Demo1234!</c>. Idempotent; never runs outside Development.
+/// Creates a demo household ("Demo Home") with two members so a fresh install has something to explore.
+/// Login: <c>demo@imel.ba</c> / <c>Demo1234!</c> (override the password with <c>Demo:Password</c>).
+/// Idempotent. Runs in Development, or in production when <c>Demo:Enabled=true</c> — see <see cref="DemoMode"/>.
 /// </summary>
-public sealed class DemoHouseholdSeeder(IHostEnvironment env, UserManager<Member> users, PlatformDbContext db) : IDataSeeder
+public sealed class DemoHouseholdSeeder(IHostEnvironment env, IConfiguration config, UserManager<Member> users, PlatformDbContext db) : IDataSeeder
 {
     /// <inheritdoc />
     public int Order => 20;
@@ -19,7 +23,7 @@ public sealed class DemoHouseholdSeeder(IHostEnvironment env, UserManager<Member
     /// <inheritdoc />
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
-        if (!env.IsDevelopment()) return;
+        if (!DemoMode.IsEnabled(env, config)) return;
         if (await db.Households.AnyAsync(h => h.Name == "Demo Home", cancellationToken)) return;
 
         var household = new Household("Demo Home");
@@ -42,7 +46,7 @@ public sealed class DemoHouseholdSeeder(IHostEnvironment env, UserManager<Member
             DisplayName = Member.FullName(firstName, lastName),
             HouseholdId = householdId,
         };
-        var result = await users.CreateAsync(member, "Demo1234!");
+        var result = await users.CreateAsync(member, config["Demo:Password"] ?? "Demo1234!");
         if (result.Succeeded) await users.AddToRoleAsync(member, role);
     }
 }

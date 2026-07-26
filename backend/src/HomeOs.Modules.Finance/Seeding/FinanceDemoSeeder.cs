@@ -4,19 +4,20 @@ using HomeOs.Platform.Entities;
 using HomeOs.Platform.Members;
 using HomeOs.Platform.Seeding;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace HomeOs.Modules.Finance.Seeding;
 
 /// <summary>Dev-only: seeds a few transactions + bills into the demo household so Finance has data to show.</summary>
 public sealed class FinanceDemoSeeder(
-    IHostEnvironment env, IHouseholdLookup households, IMemberDirectory members, FinanceDbContext db) : IDataSeeder
+    IHostEnvironment env, IConfiguration config, IHouseholdLookup households, IMemberDirectory members, FinanceDbContext db) : IDataSeeder
 {
     public int Order => 120;
 
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
-        if (!env.IsDevelopment()) return;
+        if (!DemoMode.IsEnabled(env, config)) return;
         if (await households.FindHouseholdIdByNameAsync("Demo Home", cancellationToken) is not { } hid) return;
         if (await db.Transactions.AnyAsync(t => t.HouseholdId == hid, cancellationToken)) return;
 

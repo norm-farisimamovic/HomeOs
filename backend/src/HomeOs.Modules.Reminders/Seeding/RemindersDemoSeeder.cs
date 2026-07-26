@@ -4,19 +4,20 @@ using HomeOs.Platform.Entities;
 using HomeOs.Platform.Members;
 using HomeOs.Platform.Seeding;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
 namespace HomeOs.Modules.Reminders.Seeding;
 
 /// <summary>Dev-only: seeds a few reminders into the demo household.</summary>
 public sealed class RemindersDemoSeeder(
-    IHostEnvironment env, IHouseholdLookup households, IMemberDirectory members, RemindersDbContext db) : IDataSeeder
+    IHostEnvironment env, IConfiguration config, IHouseholdLookup households, IMemberDirectory members, RemindersDbContext db) : IDataSeeder
 {
     public int Order => 140;
 
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
-        if (!env.IsDevelopment()) return;
+        if (!DemoMode.IsEnabled(env, config)) return;
         if (await households.FindHouseholdIdByNameAsync("Demo Home", cancellationToken) is not { } hid) return;
         if (await db.Reminders.AnyAsync(r => r.HouseholdId == hid, cancellationToken)) return;
 

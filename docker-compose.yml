@@ -37,6 +37,9 @@ services:
       Email__Smtp__User: ${SMTP_USER:-}
       Email__Smtp__Password: ${SMTP_PASSWORD:-}
       Email__Smtp__UseSsl: ${SMTP_SSL:-false}
+      # Demo data (optional — seeds a "Demo Home" household with sample content + a demo login).
+      Demo__Enabled: ${DEMO_ENABLED:-false}
+      Demo__Password: ${DEMO_PASSWORD:-}
       # AI assistant (optional — free Groq/Gemini key, or Anthropic).
       Assistant__Provider: ${ASSISTANT_PROVIDER:-openai}
       Assistant__ApiKey: ${ASSISTANT_API_KEY:-}
