@@ -1,0 +1,63 @@
+# Home OS — full stack on one small VPS. One image serves the API + the PWA (same origin), MySQL holds the
+# data, Caddy terminates HTTPS. Copy .env.example → .env, fill it in, then `docker compose up -d --build`.
+services:
+  db:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: homeos
+      MYSQL_USER: homeos
+      MYSQL_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD in .env}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?set DB_ROOT_PASSWORD in .env}
+    command: --default-authentication-plugin=caching_sha2_password
+    volumes:
+      - dbdata:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-p${DB_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+
+  api:
+    build: .            # the root Dockerfile builds the SPA + API into one image
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      # App auto-creates the schema + applies migrations on boot.
+      ConnectionStrings__HomeOsDb: "Server=db;Port=3306;Database=homeos;User Id=homeos;Password=${DB_PASSWORD};SslMode=None;AllowPublicKeyRetrieval=True"
+      # Same-origin: the app is served from https://${APP_DOMAIN}. (CORS origin kept for any cross-origin clients.)
+      Cors__Origins__0: "https://${APP_DOMAIN:?set APP_DOMAIN in .env}"
+      Frontend__BaseUrl: "https://${APP_DOMAIN}"
+      # Email (optional — omit to disable outgoing mail).
+      Email__From: ${SMTP_FROM:-}
+      Email__Smtp__Host: ${SMTP_HOST:-}
+      Email__Smtp__Port: ${SMTP_PORT:-587}
+      Email__Smtp__User: ${SMTP_USER:-}
+      Email__Smtp__Password: ${SMTP_PASSWORD:-}
+      Email__Smtp__UseSsl: ${SMTP_SSL:-false}
+      # AI assistant (optional — free Groq/Gemini key, or Anthropic).
+      Assistant__Provider: ${ASSISTANT_PROVIDER:-openai}
+      Assistant__ApiKey: ${ASSISTANT_API_KEY:-}
+      Assistant__BaseUrl: ${ASSISTANT_BASE_URL:-}
+      Assistant__Model: ${ASSISTANT_MODEL:-}
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on: [api]
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:?set APP_DOMAIN in .env}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  dbdata:
+  caddy_data:
+  caddy_config:

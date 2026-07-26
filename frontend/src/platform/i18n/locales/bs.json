@@ -1,0 +1,781 @@
+{
+  "app": {
+    "name": "Home OS",
+    "tagline": "Sve obaveze vašeg doma na jednom povezanom mjestu."
+  },
+  "nav": {
+    "group": {
+      "apps": "Aplikacije",
+      "household": "Domaćinstvo"
+    },
+    "dashboard": "Početna",
+    "tasks": "Zadaci",
+    "boards": "Ploče",
+    "calendar": "Kalendar",
+    "reminders": "Podsjetnici",
+    "notes": "Bilješke",
+    "finance": "Finansije",
+    "life": "Papirologija",
+    "household": "Domaćinstvo",
+    "notifications": "Obavijesti",
+    "apps": "Aplikacije",
+    "automations": "Automatizacije",
+    "audit": "Dnevnik",
+    "settings": "Postavke",
+    "profile": "Profil",
+    "shopping": "Kupovina",
+    "chat": "Chat",
+    "assistant": "Asistent"
+  },
+  "dashboard": {
+    "morning": "Dobro jutro, {{name}}",
+    "afternoon": "Dobar dan, {{name}}",
+    "evening": "Dobra večer, {{name}}",
+    "subtitle": "Evo šta se dešava u vašem domu danas.",
+    "quickAdd": "Brzi unos",
+    "household": "Domaćinstvo",
+    "role": "Uloga",
+    "appComing": "Vaše aplikacije stižu ovdje",
+    "widgetsHint": "Widgeti za Zadatke, Kalendar i Finansije popunit će ovo kako te aplikacije budu dodane.",
+    "moveUp": "Pomjeri gore",
+    "moveDown": "Pomjeri dolje",
+    "drag": "Povuci za promjenu redoslijeda",
+    "arrange": "Rasporedi",
+    "show": "Prikaži",
+    "hide": "Sakrij",
+    "widgets": {
+      "weather": "Vremenska prognoza",
+      "spending": "Troškovi po kategoriji",
+      "thisMonth": "Ovaj mjesec"
+    },
+    "due": {
+      "today": "Danas",
+      "tomorrow": "Sutra",
+      "inDays": "za {{count}} d",
+      "overdue": "kasni {{count}} d"
+    }
+  },
+  "today": {
+    "dueToday": "Rok danas",
+    "overdue": "U kašnjenju",
+    "events": "Događaji",
+    "billsWeek": "Računi uskoro",
+    "tasks": "Zadaci s rokom",
+    "web": "Šta je povezano",
+    "comingUp": "Uskoro",
+    "todayLabel": "Danas",
+    "allClear": "Sve čisto",
+    "allClearSub": "Nema ničega na redu. Uživajte!"
+  },
+  "common": {
+    "language": "Jezik",
+    "theme": "Tema",
+    "search": "Pretraga",
+    "searchPlaceholder": "Traži zadatke, račune, bilješke, ljude…",
+    "comingSoon": "Uskoro",
+    "comingSoonSub": "Ova aplikacija stiže u narednoj fazi razvoja.",
+    "viewAll": "Vidi sve",
+    "loading": "Učitavanje…",
+    "error": "Nešto je pošlo po zlu.",
+    "retry": "Pokušaj ponovo",
+    "edit": "Uredi",
+    "cancel": "Odustani",
+    "save": "Sačuvaj",
+    "saved": "Sačuvano.",
+    "delete": "Obriši",
+    "confirm": "Potvrdi",
+    "required": "obavezno polje",
+    "noResults": "Nema rezultata",
+    "reload": "Osvježi",
+    "crashTitle": "Nešto se pokvarilo",
+    "crashSub": "Ovaj dio se nije mogao prikazati. Pokušajte ponovo ili osvježite stranicu.",
+    "repeat": "Ponavljanje",
+    "download": "Preuzmi",
+    "add": "Dodaj",
+    "done": "Gotovo"
+  },
+  "palette": {
+    "actions": "Kreiraj",
+    "goto": "Idi na"
+  },
+  "household": {
+    "title": "Vaše domaćinstvo",
+    "subManager": "Članovi, uloge i ko šta vidi.",
+    "subMember": "Ljudi u vašem domu.",
+    "members": "Članovi",
+    "you": "Vi",
+    "invite": "Pozovi člana",
+    "inviteSub": "Dobit će email link za pridruživanje domaćinstvu.",
+    "inviteRequired": "Ime i email su obavezni.",
+    "sendInvite": "Pošalji pozivnicu",
+    "pending": "Pozivnice na čekanju",
+    "cancelInvite": "Otkaži",
+    "remove": "Ukloni",
+    "confirmRemove": "Ukloniti {{name}} iz domaćinstva?",
+    "fName": "Ime",
+    "fFirstName": "Ime",
+    "fLastName": "Prezime",
+    "fRole": "Uloga",
+    "role": {
+      "owner": "Vlasnik",
+      "admin": "Admin",
+      "adult": "Odrasla osoba",
+      "child": "Dijete",
+      "guest": "Gost"
+    },
+    "joinTitle": "Pridruži se: {{household}}",
+    "joinSub": "Pridružujete se kao {{email}}. Odaberite lozinku za završetak.",
+    "acceptJoin": "Pridruži se domaćinstvu",
+    "inviteInvalid": "Ova pozivnica nije važeća",
+    "inviteInvalidSub": "Možda je istekla ili je već iskorištena.",
+    "confirmRemoveTitle": "Ukloniti člana?",
+    "confirmCancelInvite": {
+      "title": "Otkazati pozivnicu?",
+      "message": "Pozivnica za {{name}} će biti poništena."
+    },
+    "toast": {
+      "invited": "Pozivnica poslana.",
+      "inviteCancelled": "Pozivnica otkazana.",
+      "memberRemoved": "Član uklonjen.",
+      "roleChanged": "Uloga promijenjena.",
+      "memberUpdated": "Član ažuriran."
+    },
+    "renamed": "Naziv domaćinstva promijenjen.",
+    "editMember": "Uredi člana",
+    "emailHint": "Email je i korisničko ime za prijavu. Promjena odmah stupa na snagu."
+  },
+  "profile": {
+    "title": "Vaš profil",
+    "sub": "Vaše ime, jezik i lozinka.",
+    "details": "Podaci",
+    "firstName": "Ime",
+    "lastName": "Prezime",
+    "currency": "Valuta",
+    "password": "Lozinka",
+    "current": "Trenutna lozinka",
+    "new": "Nova lozinka",
+    "changePassword": "Promijeni lozinku",
+    "pwChanged": "Lozinka promijenjena.",
+    "saved": "Profil sačuvan.",
+    "digest": "Sedmični/dnevni pregled",
+    "digestOff": "Isključeno",
+    "digestDaily": "Dnevno",
+    "digestWeekly": "Sedmično",
+    "digestPreview": "Pošalji probno",
+    "digestHint": "Email sažetak onoga što vas čeka. Šalje se na vaš jezik.",
+    "digestSent": "Probni pregled je poslan na vaš email.",
+    "digestEmpty": "Trenutno nemate ništa nadolazeće za pregled.",
+    "avatarSaved": "Slika sačuvana.",
+    "avatarRemoved": "Slika uklonjena.",
+    "changePhoto": "Promijeni sliku",
+    "removePhoto": "Ukloni sliku"
+  },
+  "settings": {
+    "title": "Postavke",
+    "sub": "Kako Home OS izgleda i ponaša se na ovom uređaju.",
+    "appearance": "Izgled",
+    "theme": "Tema",
+    "light": "Svijetla",
+    "dark": "Tamna",
+    "system": "Sistemska",
+    "density": "Gustoća",
+    "cozy": "Prostrano",
+    "compact": "Zbijeno",
+    "language": "Jezik",
+    "more": "Više",
+    "householdSub": "Članovi, uloge i pozivnice.",
+    "data": "Podaci i privatnost",
+    "export": "Izvezi moje podatke",
+    "exportSub": "Preuzmite kopiju svih podataka svog domaćinstva (JSON). Vaši podaci ostaju vaši.",
+    "exportDone": "Podaci izvezeni.",
+    "accent": "Boja naglaska",
+    "accents": {
+      "default": "Zelena",
+      "blue": "Plava",
+      "violet": "Ljubičasta",
+      "rose": "Roza",
+      "amber": "Jantar",
+      "cyan": "Tirkizna"
+    }
+  },
+  "notifications": {
+    "title": "Obavijesti",
+    "sub": "Šta stiže u vaš inbox.",
+    "email": "Šalji mi email o",
+    "emailSub": "Home OS šalje email za ono što je važno.",
+    "cat": {
+      "taskAssigned": "Zadatak mi je dodijeljen",
+      "invite": "Pozvan/a sam u domaćinstvo",
+      "billDue": "Račun uskoro dospijeva",
+      "reminder": "Podsjetnik se oglasi",
+      "shared": "Podijeljeno s tobom",
+      "mention": "Spominjanje u chatu"
+    },
+    "markAllRead": "Označi sve pročitano",
+    "recent": "Nedavno",
+    "emptyTitle": "Još ništa",
+    "emptySub": "Obavijesti o vašem domu će se pojaviti ovdje."
+  },
+  "tasks": {
+    "title": "Zadaci",
+    "sub": "Rokovi, prioriteti i ko je zadužen.",
+    "newTask": "Novi zadatak",
+    "editTask": "Uredi zadatak",
+    "createTask": "Kreiraj zadatak",
+    "modalSub": "Postavite rok i osobu — i cijelo domaćinstvo ga vidi.",
+    "titleRequired": "Unesite naziv zadatka.",
+    "markDone": "Označi kao gotovo",
+    "emptyTitle": "Ovdje još nema zadataka",
+    "emptySub": "Dodajte prvi zadatak i pojavit će se u cijelom domu.",
+    "fTitle": "Šta treba uraditi",
+    "fTitlePh": "Zakazati servis peći",
+    "fDue": "Rok",
+    "fAssignee": "Ko je zadužen",
+    "anyone": "Bilo ko",
+    "fPriority": "Prioritet",
+    "fTags": "Oznake",
+    "fTagsPh": "dom, računi (odvojeno zarezom)",
+    "fVisibility": "Ko to vidi",
+    "fDetails": "Detalji",
+    "fDetailsPh": "Sve što sljedeća osoba treba znati…",
+    "filter": {
+      "all": "Sve",
+      "open": "Otvoreno",
+      "done": "Gotovo"
+    },
+    "bucket": {
+      "overdue": "Probijen rok",
+      "today": "Danas",
+      "later": "Kasnije",
+      "someday": "Bez datuma",
+      "done": "Gotovo"
+    },
+    "priority": {
+      "low": "Nizak",
+      "normal": "Srednji",
+      "high": "Visok"
+    },
+    "visibility": {
+      "private": "Privatno",
+      "household": "Cijelo domaćinstvo",
+      "shared": "Odabrani ljudi"
+    },
+    "delete": "Obriši zadatak",
+    "confirmComplete": {
+      "title": "Označiti kao gotovo?",
+      "message": "Zadatak „{{title}}“ će biti označen kao završen."
+    },
+    "confirmDelete": {
+      "title": "Obrisati zadatak?",
+      "message": "Ovo trajno briše „{{title}}“."
+    },
+    "toast": {
+      "created": "Zadatak dodan.",
+      "updated": "Zadatak ažuriran.",
+      "deleted": "Zadatak obrisan.",
+      "completed": "Zadatak označen kao gotov.",
+      "reopened": "Zadatak ponovo otvoren."
+    },
+    "newSubtask": "Novi podzadatak"
+  },
+  "finance": {
+    "title": "Finansije",
+    "sub": "Novac ovog mjeseca — prihodi, troškovi i šta dospijeva.",
+    "income": "Prihodi",
+    "spent": "Potrošeno",
+    "balance": "Ostalo ovaj mjesec",
+    "dueSoon": "Uskoro dospijeva ({{n}})",
+    "transactions": "Transakcije",
+    "upcomingBills": "Računi na redu",
+    "whoPaid": "Ko je platio",
+    "paidTotal": "Plaćeno",
+    "owed": "potražuje",
+    "owes": "duguje",
+    "noBills": "Još nema računa.",
+    "inDays_one": "za {{count}} dan",
+    "inDays_few": "za {{count}} dana",
+    "inDays_other": "za {{count}} dana",
+    "emptyTitle": "Još nema transakcija",
+    "emptySub": "Dodajte prvi trošak ili prihod i dom vidi ukupan pregled.",
+    "addTx": "Dodaj transakciju",
+    "addTxSub": "Zabilježite trošak ili prihod domaćinstva.",
+    "addBill": "Dodaj račun",
+    "addBillSub": "Ponavljajući ili jednokratni račun — da ga niko ne zaboravi.",
+    "kind": "Vrsta",
+    "expense": "Trošak",
+    "amount": "Iznos",
+    "category": "Kategorija",
+    "categoryPh": "Namirnice, režije…",
+    "date": "Datum",
+    "paidBy": "Platio/la",
+    "me": "Ja",
+    "note": "Bilješka",
+    "notePh": "Neobavezan detalj…",
+    "txRequired": "Unesite iznos i kategoriju.",
+    "billRequired": "Unesite naziv, iznos i datum dospijeća.",
+    "billName": "Naziv računa",
+    "billNamePh": "BH Telecom, Netflix…",
+    "nextDue": "Sljedeće dospijeće",
+    "cadence": "Ponavljanje",
+    "whoPays": "Ko plaća",
+    "cadences": {
+      "monthly": "Mjesečno",
+      "quarterly": "Kvartalno",
+      "yearly": "Godišnje",
+      "oneoff": "Jednokratno"
+    },
+    "confirmDeleteTx": {
+      "title": "Obrisati transakciju?",
+      "message": "Ovo trajno briše ovu transakciju."
+    },
+    "confirmDeleteBill": {
+      "title": "Obrisati račun?",
+      "message": "Ovo trajno briše „{{name}}“."
+    },
+    "toast": {
+      "txAdded": "Transakcija dodana.",
+      "txDeleted": "Transakcija obrisana.",
+      "billAdded": "Račun dodan.",
+      "billDeleted": "Račun obrisan.",
+      "budgetSaved": "Budžet sačuvan.",
+      "budgetDeleted": "Budžet obrisan."
+    },
+    "budget": {
+      "title": "Budžeti",
+      "empty": "Postavite mjesečni limit po kategoriji.",
+      "category": "Kategorija",
+      "limit": "Limit",
+      "deleteTitle": "Obriši budžet?",
+      "deleteMsg": "Obrisati budžet za „{{category}}“?"
+    },
+    "currencyChanged": "Valuta promijenjena."
+  },
+  "calendar": {
+    "title": "Kalendar",
+    "sub": "Sve na jednom mjestu — događaji, rokovi zadataka i računi.",
+    "newEvent": "Novi događaj",
+    "editEvent": "Uredi događaj",
+    "modalSub": "Dodajte datum i vrijeme — cijelo domaćinstvo ga vidi.",
+    "today": "Danas",
+    "prev": "Prethodni mjesec",
+    "next": "Sljedeći mjesec",
+    "legend": {
+      "calendar": "Događaji",
+      "tasks": "Zadaci",
+      "finance": "Računi",
+      "reminders": "Podsjetnici",
+      "life": "Isteci"
+    },
+    "upcoming": "Nadolazeći događaji",
+    "emptyTitle": "Nema nadolazećih događaja",
+    "emptySub": "Dodajte prvi događaj i pojavit će se u kalendaru.",
+    "required": "Naziv i datum su obavezni.",
+    "fTitle": "Naziv",
+    "fTitlePh": "Roditeljski sastanak",
+    "fDate": "Datum",
+    "fTime": "Vrijeme",
+    "fLocation": "Mjesto",
+    "fLocationPh": "Škola, dom zdravlja…",
+    "fNotes": "Bilješke",
+    "shareWith": "Ko će vidjeti",
+    "noOneToShare": "Nema drugih članova za dijeljenje.",
+    "confirmDelete": {
+      "title": "Obrisati događaj?",
+      "message": "Ovo trajno briše „{{title}}“."
+    },
+    "toast": {
+      "created": "Događaj dodan.",
+      "updated": "Događaj ažuriran.",
+      "deleted": "Događaj obrisan."
+    },
+    "view": {
+      "month": "Mjesec",
+      "week": "Sedmica",
+      "day": "Dan"
+    },
+    "dayEmpty": "Ništa za ovaj dan",
+    "dayEmptySub": "Kliknite da dodate događaj."
+  },
+  "reminders": {
+    "title": "Podsjetnici",
+    "sub": "Mali podsjeti za vas i ukućane — na vrijeme.",
+    "newReminder": "Novi podsjetnik",
+    "editReminder": "Uredi podsjetnik",
+    "modalSub": "Zakažite ga za osobu i vrijeme — pojavit će se i u kalendaru.",
+    "required": "Naziv i datum su obavezni.",
+    "markDone": "Označi kao gotovo",
+    "fTitle": "Naziv",
+    "fTitlePh": "Popiti lijek",
+    "fDate": "Datum",
+    "fTime": "Vrijeme",
+    "fFor": "Za koga",
+    "forMe": "Za mene",
+    "fNotes": "Bilješke",
+    "visPrivate": "Samo za nas (privatno)",
+    "emptyTitle": "Nema podsjetnika",
+    "emptySub": "Dodajte prvi podsjetnik i nećete ništa zaboraviti.",
+    "bucket": {
+      "overdue": "Zakašnjeli",
+      "today": "Danas",
+      "upcoming": "Nadolazeći",
+      "done": "Gotovo"
+    },
+    "confirmDone": {
+      "title": "Označiti kao gotovo?",
+      "message": "Podsjetnik „{{title}}“ će biti označen kao gotov."
+    },
+    "confirmDelete": {
+      "title": "Obrisati podsjetnik?",
+      "message": "Ovo trajno briše „{{title}}“."
+    },
+    "toast": {
+      "created": "Podsjetnik dodan.",
+      "updated": "Podsjetnik ažuriran.",
+      "deleted": "Podsjetnik obrisan."
+    }
+  },
+  "notes": {
+    "title": "Bilješke",
+    "sub": "Zajedničke bilješke doma — lozinke, recepti, ideje.",
+    "newNote": "Nova bilješka",
+    "editNote": "Uredi bilješku",
+    "modalSub": "Zapišite šta god treba — možete i podijeliti s ukućanima.",
+    "required": "Naziv je obavezan.",
+    "fTitle": "Naslov",
+    "fTitlePh": "Wi-Fi lozinka",
+    "fContent": "Sadržaj",
+    "fContentPh": "Napišite bilješku…",
+    "fTags": "Oznake",
+    "fTagsPh": "dom, kuhinja (odvojeno zarezom)",
+    "pin": "Zakači",
+    "unpin": "Otkači",
+    "emptyTitle": "Još nema bilješki",
+    "emptySub": "Dodajte prvu bilješku i imajte je nadohvat ruke.",
+    "confirmDelete": {
+      "title": "Obrisati bilješku?",
+      "message": "Ovo trajno briše „{{title}}“."
+    },
+    "toast": {
+      "created": "Bilješka dodana.",
+      "updated": "Bilješka ažurirana.",
+      "deleted": "Bilješka obrisana."
+    },
+    "newEntry": "Nova bilješka dana",
+    "mode": {
+      "all": "Sve",
+      "notes": "Bilješke",
+      "journal": "Dnevnik"
+    }
+  },
+  "life": {
+    "title": "Papirologija",
+    "sub": "Dokumenti, garancije i obnove — s automatskim podsjetnikom pred istek.",
+    "newRecord": "Novi zapis",
+    "editRecord": "Uredi zapis",
+    "modalSub": "Sačuvajte dokument ili obnovu; datum isteka sam kreira podsjetnik.",
+    "required": "Naziv je obavezan.",
+    "fTitle": "Naziv",
+    "fTitlePh": "Lična karta, garancija za TV…",
+    "fCategory": "Vrsta",
+    "fExpires": "Ističe",
+    "fProvider": "Izdavač / firma",
+    "fProviderPh": "MUP, Gorenje, osiguranje…",
+    "fNotes": "Bilješke",
+    "expiryHint": "Ako postavite datum isteka, automatski se kreira podsjetnik 7 dana ranije.",
+    "category": {
+      "document": "Dokument",
+      "warranty": "Garancija",
+      "insurance": "Osiguranje",
+      "subscription": "Pretplata",
+      "contact": "Kontakt",
+      "other": "Ostalo"
+    },
+    "inDays_one": "za {{count}} dan",
+    "inDays_few": "za {{count}} dana",
+    "inDays_other": "za {{count}} dana",
+    "expired": "isteklo",
+    "expiringSoon": "Ističe uskoro",
+    "allRecords": "Svi zapisi",
+    "emptyTitle": "Još nema zapisa",
+    "emptySub": "Dodajte dokument ili obnovu i ne brinite o isteku.",
+    "confirmDelete": {
+      "title": "Obrisati zapis?",
+      "message": "Ovo trajno briše „{{title}}“ (i njegov podsjetnik)."
+    },
+    "toast": {
+      "created": "Zapis dodan.",
+      "updated": "Zapis ažuriran.",
+      "deleted": "Zapis obrisan."
+    }
+  },
+  "kanban": {
+    "title": "Ploča",
+    "sub": "Povucite zadatke kroz kolone — isti zadaci kao u aplikaciji Zadaci.",
+    "col": {
+      "todo": "Za uraditi",
+      "doing": "U toku",
+      "done": "Gotovo"
+    },
+    "empty": "Prevucite zadatak ovdje",
+    "allBoards": "Sve table",
+    "general": "Općenito",
+    "newBoard": "Nova tabla",
+    "boardName": "Naziv table",
+    "boardDeleted": "Tabla obrisana.",
+    "deleteBoardTitle": "Obriši tablu?",
+    "deleteBoardMsg": "Obrisati tablu „{{name}}“? Zadaci ostaju (bez table).",
+    "board": "Tabla"
+  },
+  "automations": {
+    "title": "Automatizacije",
+    "sub": "Pravila „kad se ovo desi, uradi ono“ — dom radi za vas.",
+    "newRule": "Novo pravilo",
+    "editRule": "Uredi pravilo",
+    "modalSub": "Odaberite okidač i akciju.",
+    "required": "Naziv je obavezan.",
+    "fName": "Naziv pravila",
+    "fNamePh": "Obavijesti me o računima",
+    "fWhen": "Kada (okidač)",
+    "fThen": "Onda (akcija)",
+    "fMessage": "Poruka (neobavezno)",
+    "fMessagePh": "Dodan je novi račun",
+    "on": "Uključeno",
+    "off": "Isključeno",
+    "emptyTitle": "Još nema pravila",
+    "emptySub": "Napravite prvo pravilo — npr. kad se doda račun, obavijesti me.",
+    "triggers": {
+      "task_completed": "Zadatak je završen",
+      "bill_added": "Dodan je račun",
+      "event_scheduled": "Zakazan je događaj",
+      "chat_message": "Poslana je poruka u chatu"
+    },
+    "actions": {
+      "notify": "Obavijesti me"
+    },
+    "confirmDelete": {
+      "title": "Obrisati pravilo?",
+      "message": "Ovo trajno briše „{{name}}“."
+    },
+    "toast": {
+      "created": "Pravilo dodano.",
+      "updated": "Pravilo ažurirano.",
+      "deleted": "Pravilo obrisano."
+    }
+  },
+  "audit": {
+    "title": "Dnevnik aktivnosti",
+    "sub": "Ko je šta uradio u domaćinstvu — vidljivo samo vlasniku i adminu.",
+    "empty": "Još nema zabilježenih aktivnosti.",
+    "noAccess": "Nemate pristup",
+    "noAccessSub": "Dnevnik mogu vidjeti samo vlasnik i admin.",
+    "system": "Sistem",
+    "actions": {
+      "task_completed": "Zadatak završen",
+      "bill_added": "Dodan račun",
+      "event_scheduled": "Zakazan događaj",
+      "member_invited": "Član pozvan",
+      "member_roleChanged": "Uloga promijenjena",
+      "member_removed": "Član uklonjen"
+    }
+  },
+  "auth": {
+    "eyebrow": "Jedno domaćinstvo. Jedan sistem.",
+    "headline1": "Račun otvara zadatak. Zadatak sjeda u",
+    "headlineEm": "kalendar",
+    "headline2": ".",
+    "blurb": "Zadaci, novac, bilješke, obnove i podsjetnici za sve pod istim krovom — povezani, tako da se ništa ne unosi dvaput.",
+    "foot": "Napravljeno da se nadograđuje — svaka aplikacija je ravnopravna.",
+    "signin": "Prijava",
+    "signup": "Novi nalog",
+    "welcome": "Dobro došli nazad",
+    "welcomeSub": "Prijavite se i nastavite tamo gdje ste stali.",
+    "startHome": "Pokrenite svoje domaćinstvo",
+    "startSub": "Prvo kreirajte domaćinstvo — ostale možete pozvati za minutu.",
+    "email": "Email",
+    "password": "Lozinka",
+    "displayName": "Ime",
+    "firstName": "Ime",
+    "lastName": "Prezime",
+    "householdName": "Naziv domaćinstva",
+    "createHome": "Kreiraj domaćinstvo",
+    "createOne": "Otvori nalog",
+    "noAccount": "Novi ste ovdje?",
+    "haveAccount": "Već imate nalog?",
+    "invalidEmail": "Neispravan email",
+    "passwordMin": "Lozinka mora imati najmanje 8 znakova",
+    "required": "Obavezno polje",
+    "genericError": "Nešto je pošlo po zlu",
+    "logout": "Odjava",
+    "checkEmailTitle": "Potvrdite email",
+    "checkEmailSub": "Poslali smo link za potvrdu na {{email}}. Otvorite ga da aktivirate domaćinstvo.",
+    "resend": "Pošalji ponovo",
+    "resent": "Poslano — provjerite inbox",
+    "confirming": "Potvrđivanje emaila…",
+    "confirmFailed": "Nismo mogli potvrditi email",
+    "confirmFailedSub": "Link je možda istekao ili je već iskorišten. Pokušajte se prijaviti ili se registrujte ponovo.",
+    "forgot": "Zaboravili ste lozinku?",
+    "forgotTitle": "Reset lozinke",
+    "forgotSub": "Unesite email i poslat ćemo vam link za novu lozinku.",
+    "sendReset": "Pošalji link",
+    "resetSentTitle": "Provjerite email",
+    "resetSentSub": "Ako nalog postoji, poslali smo link za reset na {{email}}.",
+    "resetTitle": "Nova lozinka",
+    "resetSub": "Postavite novu lozinku za svoj nalog.",
+    "newPassword": "Nova lozinka",
+    "resetDone": "Lozinka je promijenjena. Prijavite se.",
+    "resetFailed": "Link nije važeći ili je istekao.",
+    "resendConfirmation": "Pošalji potvrdu ponovo",
+    "notConfirmedHint": "Niste potvrdili email? Pošaljite link ponovo.",
+    "rememberMe": "Zapamti me"
+  },
+  "status": {
+    "title": "Status sistema",
+    "api": "API",
+    "database": "Baza podataka",
+    "online": "Na mreži",
+    "offline": "Nedostupno",
+    "checking": "Provjera…"
+  },
+  "apps": {
+    "title": "Aplikacije",
+    "sub": "Uključite ili isključite aplikacije i odredite čemu svaka ima pristup.",
+    "installed": "Instalirane aplikacije",
+    "coreSection": "Osnovne (uvijek uključene)",
+    "core": "Osnovna",
+    "coreHint": "Osnovne aplikacije se ne mogu isključiti.",
+    "on": "Uključeno",
+    "off": "Isključeno",
+    "permissions": "Dozvole",
+    "readOnly": "Samo vlasnik ili administrator može mijenjati aplikacije.",
+    "cap": {
+      "read": "Čitanje",
+      "write": "Izmjene"
+    },
+    "toast": {
+      "enabled": "{{name}} je uključena.",
+      "disabled": "{{name}} je isključena.",
+      "capsSaved": "Dozvole za {{name}} su sačuvane."
+    },
+    "desc": {
+      "dashboard": "Početni pregled — sve što je bitno danas na jednom mjestu.",
+      "household": "Članovi domaćinstva, pozivnice i uloge.",
+      "notifications": "Sve obavijesti na jednom mjestu.",
+      "audit": "Zapis aktivnosti za vlasnika i administratore.",
+      "apps": "Upravljanje aplikacijama i njihovim dozvolama.",
+      "settings": "Postavke aplikacije i naloga.",
+      "tasks": "Zadaci s rokovima, prioritetima i zaduženim osobama.",
+      "kanban": "Tabla zadataka po kolonama (Za uraditi / U toku / Gotovo).",
+      "finance": "Troškovi, prihodi, pretplate i računi.",
+      "calendar": "Svi događaji domaćinstva na jednom kalendaru.",
+      "reminders": "Jednokratni i ponavljajući podsjetnici.",
+      "notes": "Bilješke i dnevnik s oznakama.",
+      "life": "Dokumenti, garancije, obnove i važni kontakti.",
+      "automations": "Pravila „kad se ovo desi, uradi ono“.",
+      "shopping": "Dijeljene kućne liste (kupovina, planiranje).",
+      "chat": "Razgovor među članovima domaćinstva, uživo."
+    }
+  },
+  "recurrence": {
+    "None": "Bez ponavljanja",
+    "Daily": "Dnevno",
+    "Weekly": "Sedmično",
+    "Monthly": "Mjesečno",
+    "Yearly": "Godišnje"
+  },
+  "links": {
+    "title": "Povezano",
+    "add": "Poveži",
+    "searchPh": "Traži zadatak, račun, događaj…"
+  },
+  "shopping": {
+    "title": "Liste",
+    "sub": "Dijeljene kućne liste — svi u domu vide i uređuju.",
+    "newList": "Nova lista",
+    "newListPh": "Naziv liste",
+    "addItem": "Dodaj stavku…",
+    "emptyTitle": "Još nema lista",
+    "emptySub": "Napravite prvu dijeljenu listu.",
+    "deleteListTitle": "Obriši listu?",
+    "deleteListMsg": "Obrisati listu „{{name}}“?",
+    "allDone": "Sve kupljeno",
+    "remaining": "{{count}} preostalo"
+  },
+  "assistant": {
+    "title": "Pomoćnik",
+    "placeholder": "Pitajte bilo šta o svom domaćinstvu…",
+    "send": "Pošalji",
+    "thinking": "Razmišljam…",
+    "done": "Gotovo.",
+    "hint": "Pitajte me ili mi recite šta da uradim:",
+    "ex1": "Šta me čeka ove sedmice?",
+    "ex2": "Podsjeti me sljedeće sedmice da platim struju",
+    "notConfigured": "AI pomoćnik nije podešen. Dodajte besplatan ključ (Groq ili Gemini) kao Assistant:ApiKey u konfiguraciju.",
+    "pageTitle": "Vaš AI asistent",
+    "pageSub": "Privatan razgovor — samo vi. Odvojeno od porodičnog chata.",
+    "emptyTitle": "Kako vam mogu pomoći?",
+    "clear": "Očisti razgovor",
+    "ex3": "Kako da podijelim bilješku s domaćinstvom?"
+  },
+  "weather": {
+    "clear": "Vedro",
+    "partly": "Djelimično oblačno",
+    "cloudy": "Oblačno",
+    "fog": "Magla",
+    "rain": "Kiša",
+    "snow": "Snijeg",
+    "showers": "Pljuskovi",
+    "storm": "Grmljavina",
+    "title": "Vrijeme",
+    "unavailable": "Trenutno nedostupno"
+  },
+  "chat": {
+    "title": "Chat domaćinstva",
+    "sub": "Poruke uživo za sve u domu.",
+    "placeholder": "Napišite poruku…",
+    "send": "Pošalji",
+    "emptyTitle": "Još nema poruka",
+    "emptySub": "Započnite razgovor s domaćinstvom.",
+    "assistant": "Asistent",
+    "toReminder": "Napravi podsjetnik",
+    "reminderCreated": "Podsjetnik napravljen za {{date}}",
+    "hint": "Spomeni člana s @ime da ga obavijestiš. (AI asistent je na posebnoj stranici „Asistent“.)"
+  },
+  "attachments": {
+    "title": "Prilozi",
+    "add": "Dodaj fajl"
+  },
+  "onboarding": {
+    "title": "Dobro došli u Home OS 👋",
+    "sub": "Vaše domaćinstvo je spremno. Krenite s par koraka ili učitajte primjere.",
+    "loadExamples": "Učitaj primjere",
+    "seedDone": "Primjeri dodani — pogledajte aplikacije!",
+    "step": {
+      "task": "Dodaj prvi zadatak",
+      "shopping": "Napravi listu za kupovinu",
+      "invite": "Pozovi člana"
+    },
+    "seed": {
+      "task1": "Kupiti namirnice",
+      "task2": "Platiti račun za struju",
+      "note": "Ideje za vikend",
+      "reminder": "Provjeriti poštu",
+      "shoppingList": "Sedmična kupovina",
+      "item1": "Mlijeko",
+      "item2": "Hljeb",
+      "item3": "Kafa"
+    }
+  },
+  "scoreboard": {
+    "title": "Bodovi domaćinstva",
+    "points": "{{points}} bod.",
+    "tasksDone": "{{count}} završenih zadataka",
+    "emptyTitle": "Još nema bodova",
+    "emptySub": "Završite zadatak da skupite bodove."
+  },
+  "households": {
+    "yours": "Vaša domaćinstva",
+    "create": "Novo domaćinstvo",
+    "created": "Domaćinstvo napravljeno",
+    "namePh": "Naziv domaćinstva"
+  }
+}

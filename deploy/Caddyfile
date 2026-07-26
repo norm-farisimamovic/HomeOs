@@ -1,0 +1,6 @@
+# Auto-HTTPS for the whole app (API + PWA are same origin). Point APP_DOMAIN's A record at the VPS first;
+# Caddy then fetches + renews a free Let's Encrypt certificate automatically.
+{$APP_DOMAIN} {
+	reverse_proxy api:8080
+	encode gzip
+}

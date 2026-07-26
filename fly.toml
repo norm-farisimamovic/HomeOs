@@ -1,0 +1,22 @@
+# Fly.io deploy (free-tier friendly alternative to a VPS). `fly launch --no-deploy` then `fly deploy`.
+# Provide MySQL + secrets separately:  fly secrets set ConnectionStrings__HomeOsDb="..." Assistant__ApiKey="..." ...
+app = "homeos"
+primary_region = "fra"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  ASPNETCORE_ENVIRONMENT = "Production"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 512

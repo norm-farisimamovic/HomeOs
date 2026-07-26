@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="Shouldly" Version="4.3.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\HomeOs.Modules.Tasks\HomeOs.Modules.Tasks.csproj" />
+    <ProjectReference Include="..\..\src\HomeOs.Modules.Finance\HomeOs.Modules.Finance.csproj" />
+    <ProjectReference Include="..\..\src\HomeOs.Modules.Calendar\HomeOs.Modules.Calendar.csproj" />
+    <ProjectReference Include="..\..\src\HomeOs.Modules.Reminders\HomeOs.Modules.Reminders.csproj" />
+    <ProjectReference Include="..\..\src\HomeOs.Modules.Notes\HomeOs.Modules.Notes.csproj" />
+    <ProjectReference Include="..\..\src\HomeOs.Modules.LifeAdmin\HomeOs.Modules.LifeAdmin.csproj" />
+    <ProjectReference Include="..\..\src\HomeOs.Modules.Automations\HomeOs.Modules.Automations.csproj" />
+    <ProjectReference Include="..\..\src\HomeOs.Modules.Shopping\HomeOs.Modules.Shopping.csproj" />
+    <ProjectReference Include="..\..\src\HomeOs.Modules.Chat\HomeOs.Modules.Chat.csproj" />
+  </ItemGroup>
+
+</Project>

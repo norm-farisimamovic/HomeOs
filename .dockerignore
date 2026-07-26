@@ -1,0 +1,11 @@
+**/bin/
+**/obj/
+**/node_modules/
+frontend/dist/
+**/*.user
+.git/
+.github/
+**/*.md
+.vscode/
+.claude/
+scratchpad/

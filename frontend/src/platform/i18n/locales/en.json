@@ -1,0 +1,779 @@
+{
+  "app": {
+    "name": "Home OS",
+    "tagline": "Your household's life admin in one connected place."
+  },
+  "nav": {
+    "group": {
+      "apps": "Apps",
+      "household": "Household"
+    },
+    "dashboard": "Dashboard",
+    "tasks": "Tasks",
+    "boards": "Boards",
+    "calendar": "Calendar",
+    "reminders": "Reminders",
+    "notes": "Notes",
+    "finance": "Finance",
+    "life": "Life admin",
+    "household": "Household",
+    "notifications": "Notifications",
+    "apps": "Apps",
+    "automations": "Automations",
+    "audit": "Audit log",
+    "settings": "Settings",
+    "profile": "Profile",
+    "shopping": "Shopping",
+    "chat": "Chat",
+    "assistant": "Assistant"
+  },
+  "dashboard": {
+    "morning": "Good morning, {{name}}",
+    "afternoon": "Good afternoon, {{name}}",
+    "evening": "Good evening, {{name}}",
+    "subtitle": "Here's what's happening in your home today.",
+    "quickAdd": "Quick capture",
+    "household": "Household",
+    "role": "Role",
+    "appComing": "Your apps land here",
+    "widgetsHint": "Tasks, Calendar and Finance widgets fill this in as those apps are added.",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "drag": "Drag to reorder",
+    "arrange": "Arrange",
+    "show": "Show",
+    "hide": "Hide",
+    "widgets": {
+      "weather": "Weather",
+      "spending": "Spending by category",
+      "thisMonth": "This month"
+    },
+    "due": {
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "inDays": "in {{count}}d",
+      "overdue": "{{count}}d overdue"
+    }
+  },
+  "today": {
+    "dueToday": "Due today",
+    "overdue": "Overdue",
+    "events": "Events",
+    "billsWeek": "Bills due soon",
+    "tasks": "Tasks due",
+    "web": "What's connected",
+    "comingUp": "Coming up",
+    "todayLabel": "Today",
+    "allClear": "All clear",
+    "allClearSub": "Nothing coming up. Enjoy!"
+  },
+  "common": {
+    "language": "Language",
+    "theme": "Theme",
+    "search": "Search",
+    "searchPlaceholder": "Search tasks, bills, notes, people…",
+    "comingSoon": "Coming soon",
+    "comingSoonSub": "This app arrives in a future milestone.",
+    "viewAll": "View all",
+    "loading": "Loading…",
+    "error": "Something went wrong.",
+    "retry": "Try again",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saved": "Saved.",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "required": "required field",
+    "noResults": "No results",
+    "reload": "Reload",
+    "crashTitle": "Something broke",
+    "crashSub": "This part couldn't be shown. Try again, or reload the page.",
+    "repeat": "Repeat",
+    "download": "Download",
+    "add": "Add",
+    "done": "Done"
+  },
+  "palette": {
+    "actions": "Create",
+    "goto": "Go to"
+  },
+  "household": {
+    "title": "Your household",
+    "subManager": "Members, roles, and who can see what.",
+    "subMember": "The people in your home.",
+    "members": "Members",
+    "you": "You",
+    "invite": "Invite member",
+    "inviteSub": "They'll get an email link to join your household.",
+    "inviteRequired": "Name and email are required.",
+    "sendInvite": "Send invite",
+    "pending": "Pending invites",
+    "cancelInvite": "Cancel",
+    "remove": "Remove",
+    "confirmRemove": "Remove {{name}} from the household?",
+    "fName": "Name",
+    "fFirstName": "First name",
+    "fLastName": "Last name",
+    "fRole": "Role",
+    "role": {
+      "owner": "Owner",
+      "admin": "Admin",
+      "adult": "Adult",
+      "child": "Child",
+      "guest": "Guest"
+    },
+    "joinTitle": "Join {{household}}",
+    "joinSub": "You're joining as {{email}}. Choose a password to finish.",
+    "acceptJoin": "Join the household",
+    "inviteInvalid": "This invite isn't valid",
+    "inviteInvalidSub": "It may have expired or already been used.",
+    "confirmRemoveTitle": "Remove member?",
+    "confirmCancelInvite": {
+      "title": "Cancel invite?",
+      "message": "The invite for {{name}} will be revoked."
+    },
+    "toast": {
+      "invited": "Invite sent.",
+      "inviteCancelled": "Invite cancelled.",
+      "memberRemoved": "Member removed.",
+      "roleChanged": "Role changed.",
+      "memberUpdated": "Member updated."
+    },
+    "renamed": "Household renamed.",
+    "editMember": "Edit member",
+    "emailHint": "The email is also the login username. A change takes effect immediately."
+  },
+  "profile": {
+    "title": "Your profile",
+    "sub": "Your name, language and password.",
+    "details": "Details",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "currency": "Currency",
+    "password": "Password",
+    "current": "Current password",
+    "new": "New password",
+    "changePassword": "Change password",
+    "pwChanged": "Password changed.",
+    "saved": "Profile saved.",
+    "digest": "Weekly/daily digest",
+    "digestOff": "Off",
+    "digestDaily": "Daily",
+    "digestWeekly": "Weekly",
+    "digestPreview": "Send preview",
+    "digestHint": "An email summary of what's coming up. Sent in your language.",
+    "digestSent": "A preview digest was sent to your email.",
+    "digestEmpty": "Nothing upcoming to preview right now.",
+    "avatarSaved": "Photo saved.",
+    "avatarRemoved": "Photo removed.",
+    "changePhoto": "Change photo",
+    "removePhoto": "Remove photo"
+  },
+  "settings": {
+    "title": "Settings",
+    "sub": "How Home OS looks and behaves on this device.",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "density": "Density",
+    "cozy": "Cozy",
+    "compact": "Compact",
+    "language": "Language",
+    "more": "More",
+    "householdSub": "Members, roles and invites.",
+    "data": "Data & privacy",
+    "export": "Export my data",
+    "exportSub": "Download a copy of all your household data (JSON). Your data stays yours.",
+    "exportDone": "Data exported.",
+    "accent": "Accent colour",
+    "accents": {
+      "default": "Green",
+      "blue": "Blue",
+      "violet": "Violet",
+      "rose": "Rose",
+      "amber": "Amber",
+      "cyan": "Cyan"
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "sub": "What reaches your inbox.",
+    "email": "Email me about",
+    "emailSub": "Home OS sends email for the things that matter.",
+    "cat": {
+      "taskAssigned": "A task is assigned to me",
+      "invite": "I'm invited to a household",
+      "billDue": "A bill is coming due",
+      "reminder": "A reminder goes off",
+      "shared": "Shared with you",
+      "mention": "Chat mention"
+    },
+    "markAllRead": "Mark all read",
+    "recent": "Recent",
+    "emptyTitle": "Nothing yet",
+    "emptySub": "Notifications about your home will show up here."
+  },
+  "tasks": {
+    "title": "Tasks",
+    "sub": "Due dates, priorities and who's holding it.",
+    "newTask": "New task",
+    "editTask": "Edit task",
+    "createTask": "Create task",
+    "modalSub": "Give it a date and an owner and the whole home sees it.",
+    "titleRequired": "Give the task a name.",
+    "markDone": "Mark done",
+    "emptyTitle": "Nothing here yet",
+    "emptySub": "Add your first task and it shows up across the home.",
+    "fTitle": "What needs doing",
+    "fTitlePh": "Book the boiler service",
+    "fDue": "Due",
+    "fAssignee": "Who's doing it",
+    "anyone": "Anyone",
+    "fPriority": "Priority",
+    "fTags": "Tags",
+    "fTagsPh": "home, bills (comma-separated)",
+    "fVisibility": "Who can see it",
+    "fDetails": "Details",
+    "fDetailsPh": "Anything the next person needs to know…",
+    "filter": {
+      "all": "All",
+      "open": "Open",
+      "done": "Done"
+    },
+    "bucket": {
+      "overdue": "Overdue",
+      "today": "Today",
+      "later": "Later",
+      "someday": "No date",
+      "done": "Done"
+    },
+    "priority": {
+      "low": "Low",
+      "normal": "Normal",
+      "high": "High"
+    },
+    "visibility": {
+      "private": "Private",
+      "household": "Whole home",
+      "shared": "Chosen people"
+    },
+    "delete": "Delete task",
+    "confirmComplete": {
+      "title": "Mark as done?",
+      "message": "Task “{{title}}” will be marked complete."
+    },
+    "confirmDelete": {
+      "title": "Delete task?",
+      "message": "This permanently deletes “{{title}}”."
+    },
+    "toast": {
+      "created": "Task added.",
+      "updated": "Task updated.",
+      "deleted": "Task deleted.",
+      "completed": "Task marked done.",
+      "reopened": "Task reopened."
+    },
+    "newSubtask": "New sub-task"
+  },
+  "finance": {
+    "title": "Finance",
+    "sub": "This month's money — income, spending and what's coming due.",
+    "income": "Income",
+    "spent": "Spent",
+    "balance": "Left this month",
+    "dueSoon": "Due soon ({{n}})",
+    "transactions": "Transactions",
+    "upcomingBills": "Upcoming bills",
+    "whoPaid": "Who paid",
+    "paidTotal": "Paid",
+    "owed": "owed",
+    "owes": "owes",
+    "noBills": "No bills yet.",
+    "inDays_one": "in {{count}} day",
+    "inDays_other": "in {{count}} days",
+    "emptyTitle": "No transactions yet",
+    "emptySub": "Add your first expense or income and the home sees the totals.",
+    "addTx": "Add transaction",
+    "addTxSub": "Log an expense or income for the household.",
+    "addBill": "Add bill",
+    "addBillSub": "A recurring or one-off bill so nobody forgets it.",
+    "kind": "Type",
+    "expense": "Expense",
+    "amount": "Amount",
+    "category": "Category",
+    "categoryPh": "Groceries, Utilities…",
+    "date": "Date",
+    "paidBy": "Paid by",
+    "me": "Me",
+    "note": "Note",
+    "notePh": "Optional detail…",
+    "txRequired": "Enter an amount and a category.",
+    "billRequired": "Enter a name, amount and due date.",
+    "billName": "Bill name",
+    "billNamePh": "BH Telecom, Netflix…",
+    "nextDue": "Next due",
+    "cadence": "Repeats",
+    "whoPays": "Who pays",
+    "cadences": {
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "yearly": "Yearly",
+      "oneoff": "One-off"
+    },
+    "confirmDeleteTx": {
+      "title": "Delete transaction?",
+      "message": "This permanently deletes this transaction."
+    },
+    "confirmDeleteBill": {
+      "title": "Delete bill?",
+      "message": "This permanently deletes “{{name}}”."
+    },
+    "toast": {
+      "txAdded": "Transaction added.",
+      "txDeleted": "Transaction deleted.",
+      "billAdded": "Bill added.",
+      "billDeleted": "Bill deleted.",
+      "budgetSaved": "Budget saved.",
+      "budgetDeleted": "Budget deleted."
+    },
+    "budget": {
+      "title": "Budgets",
+      "empty": "Set a monthly limit per category.",
+      "category": "Category",
+      "limit": "Limit",
+      "deleteTitle": "Delete budget?",
+      "deleteMsg": "Delete the budget for “{{category}}”?"
+    },
+    "currencyChanged": "Currency changed."
+  },
+  "calendar": {
+    "title": "Calendar",
+    "sub": "Everything in one place — events, task due dates and bills.",
+    "newEvent": "New event",
+    "editEvent": "Edit event",
+    "modalSub": "Give it a date and time — the whole home sees it.",
+    "today": "Today",
+    "prev": "Previous month",
+    "next": "Next month",
+    "legend": {
+      "calendar": "Events",
+      "tasks": "Tasks",
+      "finance": "Bills",
+      "reminders": "Reminders",
+      "life": "Renewals"
+    },
+    "upcoming": "Upcoming events",
+    "emptyTitle": "No upcoming events",
+    "emptySub": "Add your first event and it shows up on the calendar.",
+    "required": "A title and date are required.",
+    "fTitle": "Title",
+    "fTitlePh": "Parents' meeting",
+    "fDate": "Date",
+    "fTime": "Time",
+    "fLocation": "Location",
+    "fLocationPh": "School, clinic…",
+    "fNotes": "Notes",
+    "shareWith": "Who can see it",
+    "noOneToShare": "No other members to share with.",
+    "confirmDelete": {
+      "title": "Delete event?",
+      "message": "This permanently deletes “{{title}}”."
+    },
+    "toast": {
+      "created": "Event added.",
+      "updated": "Event updated.",
+      "deleted": "Event deleted."
+    },
+    "view": {
+      "month": "Month",
+      "week": "Week",
+      "day": "Day"
+    },
+    "dayEmpty": "Nothing on this day",
+    "dayEmptySub": "Click to add an event."
+  },
+  "reminders": {
+    "title": "Reminders",
+    "sub": "Little nudges for you and your household — on time.",
+    "newReminder": "New reminder",
+    "editReminder": "Edit reminder",
+    "modalSub": "Schedule it for a person and time — it shows on the calendar too.",
+    "required": "A title and date are required.",
+    "markDone": "Mark done",
+    "fTitle": "Title",
+    "fTitlePh": "Take medicine",
+    "fDate": "Date",
+    "fTime": "Time",
+    "fFor": "For whom",
+    "forMe": "For me",
+    "fNotes": "Notes",
+    "visPrivate": "Just us (private)",
+    "emptyTitle": "No reminders",
+    "emptySub": "Add your first reminder and never forget a thing.",
+    "bucket": {
+      "overdue": "Overdue",
+      "today": "Today",
+      "upcoming": "Upcoming",
+      "done": "Done"
+    },
+    "confirmDone": {
+      "title": "Mark as done?",
+      "message": "Reminder “{{title}}” will be marked done."
+    },
+    "confirmDelete": {
+      "title": "Delete reminder?",
+      "message": "This permanently deletes “{{title}}”."
+    },
+    "toast": {
+      "created": "Reminder added.",
+      "updated": "Reminder updated.",
+      "deleted": "Reminder deleted."
+    }
+  },
+  "notes": {
+    "title": "Notes",
+    "sub": "Your household's shared notes — passwords, recipes, ideas.",
+    "newNote": "New note",
+    "editNote": "Edit note",
+    "modalSub": "Jot down anything — you can share it with the household too.",
+    "required": "A title is required.",
+    "fTitle": "Title",
+    "fTitlePh": "Wi-Fi password",
+    "fContent": "Content",
+    "fContentPh": "Write your note…",
+    "fTags": "Tags",
+    "fTagsPh": "home, kitchen (comma-separated)",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "emptyTitle": "No notes yet",
+    "emptySub": "Add your first note and keep it close.",
+    "confirmDelete": {
+      "title": "Delete note?",
+      "message": "This permanently deletes “{{title}}”."
+    },
+    "toast": {
+      "created": "Note added.",
+      "updated": "Note updated.",
+      "deleted": "Note deleted."
+    },
+    "newEntry": "New journal entry",
+    "mode": {
+      "all": "All",
+      "notes": "Notes",
+      "journal": "Journal"
+    }
+  },
+  "life": {
+    "title": "Life admin",
+    "sub": "Documents, warranties and renewals — with an automatic reminder before they expire.",
+    "newRecord": "New record",
+    "editRecord": "Edit record",
+    "modalSub": "Save a document or renewal; an expiry date auto-creates a reminder.",
+    "required": "A title is required.",
+    "fTitle": "Title",
+    "fTitlePh": "ID card, TV warranty…",
+    "fCategory": "Type",
+    "fExpires": "Expires",
+    "fProvider": "Provider / company",
+    "fProviderPh": "Bank, manufacturer, insurer…",
+    "fNotes": "Notes",
+    "expiryHint": "Set an expiry date and a reminder is created automatically 7 days before.",
+    "category": {
+      "document": "Document",
+      "warranty": "Warranty",
+      "insurance": "Insurance",
+      "subscription": "Subscription",
+      "contact": "Contact",
+      "other": "Other"
+    },
+    "inDays_one": "in {{count}} day",
+    "inDays_other": "in {{count}} days",
+    "expired": "expired",
+    "expiringSoon": "Expiring soon",
+    "allRecords": "All records",
+    "emptyTitle": "No records yet",
+    "emptySub": "Add a document or renewal and never miss an expiry.",
+    "confirmDelete": {
+      "title": "Delete record?",
+      "message": "This permanently deletes “{{title}}” (and its reminder)."
+    },
+    "toast": {
+      "created": "Record added.",
+      "updated": "Record updated.",
+      "deleted": "Record deleted."
+    }
+  },
+  "kanban": {
+    "title": "Board",
+    "sub": "Drag tasks across columns — the same tasks as in the Tasks app.",
+    "col": {
+      "todo": "To do",
+      "doing": "Doing",
+      "done": "Done"
+    },
+    "empty": "Drop a task here",
+    "allBoards": "All boards",
+    "general": "General",
+    "newBoard": "New board",
+    "boardName": "Board name",
+    "boardDeleted": "Board deleted.",
+    "deleteBoardTitle": "Delete board?",
+    "deleteBoardMsg": "Delete the board “{{name}}”? Its tasks stay (unboarded).",
+    "board": "Board"
+  },
+  "automations": {
+    "title": "Automations",
+    "sub": "\"When this happens, do that\" rules — let your home work for you.",
+    "newRule": "New rule",
+    "editRule": "Edit rule",
+    "modalSub": "Pick a trigger and an action.",
+    "required": "A name is required.",
+    "fName": "Rule name",
+    "fNamePh": "Notify me about bills",
+    "fWhen": "When (trigger)",
+    "fThen": "Then (action)",
+    "fMessage": "Message (optional)",
+    "fMessagePh": "A new bill was added",
+    "on": "On",
+    "off": "Off",
+    "emptyTitle": "No rules yet",
+    "emptySub": "Create your first rule — e.g. when a bill is added, notify me.",
+    "triggers": {
+      "task_completed": "A task is completed",
+      "bill_added": "A bill is added",
+      "event_scheduled": "An event is scheduled",
+      "chat_message": "A chat message is posted"
+    },
+    "actions": {
+      "notify": "Notify me"
+    },
+    "confirmDelete": {
+      "title": "Delete rule?",
+      "message": "This permanently deletes “{{name}}”."
+    },
+    "toast": {
+      "created": "Rule added.",
+      "updated": "Rule updated.",
+      "deleted": "Rule deleted."
+    }
+  },
+  "audit": {
+    "title": "Activity log",
+    "sub": "Who did what in the household — visible to the owner and admins only.",
+    "empty": "No activity recorded yet.",
+    "noAccess": "No access",
+    "noAccessSub": "Only the owner and admins can see the log.",
+    "system": "System",
+    "actions": {
+      "task_completed": "Task completed",
+      "bill_added": "Bill added",
+      "event_scheduled": "Event scheduled",
+      "member_invited": "Member invited",
+      "member_roleChanged": "Role changed",
+      "member_removed": "Member removed"
+    }
+  },
+  "auth": {
+    "eyebrow": "One household. One system.",
+    "headline1": "The bill books the task. The task lands on the",
+    "headlineEm": "calendar",
+    "headline2": ".",
+    "blurb": "Tasks, money, notes, renewals and reminders for everyone under one roof — connected, so nothing has to be entered twice.",
+    "foot": "Built to be extended — every app is a first-class citizen.",
+    "signin": "Sign in",
+    "signup": "Create account",
+    "welcome": "Welcome back",
+    "welcomeSub": "Sign in to pick up where your household left off.",
+    "startHome": "Start your home",
+    "startSub": "Create the household first — you can invite everyone else in a minute.",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "Name",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "householdName": "Household name",
+    "createHome": "Create household",
+    "createOne": "Create one",
+    "noAccount": "New here?",
+    "haveAccount": "Already have an account?",
+    "invalidEmail": "Invalid email",
+    "passwordMin": "Password must be at least 8 characters",
+    "required": "Required",
+    "genericError": "Something went wrong",
+    "logout": "Sign out",
+    "checkEmailTitle": "Confirm your email",
+    "checkEmailSub": "We sent a confirmation link to {{email}}. Open it to activate your household.",
+    "resend": "Resend email",
+    "resent": "Sent — check your inbox",
+    "confirming": "Confirming your email…",
+    "confirmFailed": "Couldn't confirm your email",
+    "confirmFailedSub": "The link may have expired or already been used. Try signing in, or register again.",
+    "forgot": "Forgot your password?",
+    "forgotTitle": "Reset password",
+    "forgotSub": "Enter your email and we'll send you a link to set a new password.",
+    "sendReset": "Send reset link",
+    "resetSentTitle": "Check your email",
+    "resetSentSub": "If an account exists, we've sent a reset link to {{email}}.",
+    "resetTitle": "New password",
+    "resetSub": "Set a new password for your account.",
+    "newPassword": "New password",
+    "resetDone": "Password changed. Please sign in.",
+    "resetFailed": "This link is invalid or has expired.",
+    "resendConfirmation": "Resend confirmation email",
+    "notConfirmedHint": "Haven't confirmed your email? Resend the link.",
+    "rememberMe": "Remember me"
+  },
+  "status": {
+    "title": "System status",
+    "api": "API",
+    "database": "Database",
+    "online": "Online",
+    "offline": "Offline",
+    "checking": "Checking…"
+  },
+  "apps": {
+    "title": "Apps",
+    "sub": "Turn apps on or off and control what each one can access.",
+    "installed": "Installed apps",
+    "coreSection": "Core (always on)",
+    "core": "Core",
+    "coreHint": "Core apps can't be turned off.",
+    "on": "On",
+    "off": "Off",
+    "permissions": "Permissions",
+    "readOnly": "Only an owner or admin can change apps.",
+    "cap": {
+      "read": "Read",
+      "write": "Write"
+    },
+    "toast": {
+      "enabled": "{{name}} turned on.",
+      "disabled": "{{name}} turned off.",
+      "capsSaved": "Permissions for {{name}} saved."
+    },
+    "desc": {
+      "dashboard": "Your home screen — everything that matters today in one place.",
+      "household": "Household members, invites and roles.",
+      "notifications": "All your notifications in one place.",
+      "audit": "Activity log for the owner and admins.",
+      "apps": "Manage apps and their permissions.",
+      "settings": "App and account settings.",
+      "tasks": "Tasks with due dates, priorities and who's responsible.",
+      "kanban": "A board of tasks in columns (To do / Doing / Done).",
+      "finance": "Expenses, income, subscriptions and bills.",
+      "calendar": "The whole household's events on one calendar.",
+      "reminders": "One-off and recurring reminders.",
+      "notes": "Notes and journal with tags.",
+      "life": "Documents, warranties, renewals and key contacts.",
+      "automations": "\"When this happens, do that\" rules.",
+      "shopping": "Shared household lists (shopping, planning).",
+      "chat": "Live chat between household members."
+    }
+  },
+  "recurrence": {
+    "None": "Doesn't repeat",
+    "Daily": "Daily",
+    "Weekly": "Weekly",
+    "Monthly": "Monthly",
+    "Yearly": "Yearly"
+  },
+  "links": {
+    "title": "Linked",
+    "add": "Link",
+    "searchPh": "Search a task, bill, event…"
+  },
+  "shopping": {
+    "title": "Lists",
+    "sub": "Shared household lists — everyone in the home sees and edits them.",
+    "newList": "New list",
+    "newListPh": "List name",
+    "addItem": "Add an item…",
+    "emptyTitle": "No lists yet",
+    "emptySub": "Create your first shared list.",
+    "deleteListTitle": "Delete list?",
+    "deleteListMsg": "Delete the list “{{name}}”?",
+    "allDone": "All done",
+    "remaining": "{{count}} left"
+  },
+  "assistant": {
+    "title": "Assistant",
+    "placeholder": "Ask anything about your household…",
+    "send": "Send",
+    "thinking": "Thinking…",
+    "done": "Done.",
+    "hint": "Ask me something, or tell me what to do:",
+    "ex1": "What's coming up this week?",
+    "ex2": "Remind me next week to pay the electricity bill",
+    "notConfigured": "The AI assistant isn't set up. Add a free key (Groq or Gemini) as Assistant:ApiKey to the configuration.",
+    "pageTitle": "Your AI assistant",
+    "pageSub": "A private conversation — just you. Separate from the household chat.",
+    "emptyTitle": "How can I help?",
+    "clear": "Clear conversation",
+    "ex3": "How do I share a note with the household?"
+  },
+  "weather": {
+    "clear": "Clear",
+    "partly": "Partly cloudy",
+    "cloudy": "Cloudy",
+    "fog": "Fog",
+    "rain": "Rain",
+    "snow": "Snow",
+    "showers": "Showers",
+    "storm": "Storm",
+    "title": "Weather",
+    "unavailable": "Currently unavailable"
+  },
+  "chat": {
+    "title": "Household chat",
+    "sub": "Live messages for everyone in the home.",
+    "placeholder": "Write a message…",
+    "send": "Send",
+    "emptyTitle": "No messages yet",
+    "emptySub": "Start the conversation with your household.",
+    "assistant": "Assistant",
+    "toReminder": "Create reminder",
+    "reminderCreated": "Reminder created for {{date}}",
+    "hint": "Mention a member with @name to notify them. (The AI assistant lives on the separate \"Assistant\" page.)"
+  },
+  "attachments": {
+    "title": "Attachments",
+    "add": "Add file"
+  },
+  "onboarding": {
+    "title": "Welcome to Home OS 👋",
+    "sub": "Your household is ready. Start with a few steps or load some examples.",
+    "loadExamples": "Load examples",
+    "seedDone": "Examples added — take a look around!",
+    "step": {
+      "task": "Add your first task",
+      "shopping": "Create a shopping list",
+      "invite": "Invite a member"
+    },
+    "seed": {
+      "task1": "Buy groceries",
+      "task2": "Pay the electricity bill",
+      "note": "Weekend ideas",
+      "reminder": "Check the mail",
+      "shoppingList": "Weekly shop",
+      "item1": "Milk",
+      "item2": "Bread",
+      "item3": "Coffee"
+    }
+  },
+  "scoreboard": {
+    "title": "Household scoreboard",
+    "points": "{{points}} pts",
+    "tasksDone": "{{count}} tasks done",
+    "emptyTitle": "No points yet",
+    "emptySub": "Complete a task to start scoring."
+  },
+  "households": {
+    "yours": "Your households",
+    "create": "New household",
+    "created": "Household created",
+    "namePh": "Household name"
+  }
+}

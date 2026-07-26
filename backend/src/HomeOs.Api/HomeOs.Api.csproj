@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\HomeOs.Platform\HomeOs.Platform.csproj" />
+    <ProjectReference Include="..\HomeOs.Modules.Tasks\HomeOs.Modules.Tasks.csproj" />
+    <ProjectReference Include="..\HomeOs.Modules.Finance\HomeOs.Modules.Finance.csproj" />
+    <ProjectReference Include="..\HomeOs.Modules.Calendar\HomeOs.Modules.Calendar.csproj" />
+    <ProjectReference Include="..\HomeOs.Modules.Reminders\HomeOs.Modules.Reminders.csproj" />
+    <ProjectReference Include="..\HomeOs.Modules.Notes\HomeOs.Modules.Notes.csproj" />
+    <ProjectReference Include="..\HomeOs.Modules.LifeAdmin\HomeOs.Modules.LifeAdmin.csproj" />
+    <ProjectReference Include="..\HomeOs.Modules.Automations\HomeOs.Modules.Automations.csproj" />
+    <ProjectReference Include="..\HomeOs.Modules.Shopping\HomeOs.Modules.Shopping.csproj" />
+    <ProjectReference Include="..\HomeOs.Modules.Chat\HomeOs.Modules.Chat.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.29">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>71136b4f-a6c2-40a3-a2fa-3ee31885e626</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

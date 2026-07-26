@@ -1,0 +1,90 @@
+/*
+ * Home OS design tokens — the single source of truth for color, type, radius, shadow, motion.
+ * Palette built from house materials: slate, pine, brass. Each module owns a hue; anything that
+ * travels between modules carries its origin hue (the "thread"). Light is default; dark applies via
+ * system preference and via [data-theme="dark"]. Every app + primitive consumes these — never raw values.
+ */
+:root {
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-body: "Instrument Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --r-xs: 6px; --r-sm: 9px; --r-md: 13px; --r-lg: 18px; --r-xl: 26px; --r-pill: 999px;
+  --sp: 4px;
+  --shadow-1: 0 1px 2px rgba(10, 20, 15, .06), 0 1px 1px rgba(10, 20, 15, .04);
+  --shadow-2: 0 4px 14px rgba(10, 20, 15, .08), 0 1px 3px rgba(10, 20, 15, .05);
+  --shadow-3: 0 24px 60px rgba(8, 16, 12, .18), 0 4px 14px rgba(8, 16, 12, .10);
+  --ease: cubic-bezier(.2, .7, .3, 1);
+  --rail: 250px;
+  --tap: 38px;
+
+  /* light theme */
+  --bg: #ECEFEA; --bg-grain: #E4E8E1;
+  --surface: #FFFFFF; --surface-2: #F5F7F2; --surface-3: #EDF0EA;
+  --line: #DCE1D8; --line-strong: #C6CDC0;
+  --text: #141A16; --text-2: #5A655D; --text-3: #8A948C;
+  --brand: #24685A; --brand-2: #1B5348; --brand-soft: #DCEAE4; --on-brand: #FFFFFF;
+  --brass: #9C7318; --brass-soft: #F3E8CC;
+  --danger: #AF4229; --danger-soft: #F8E1DB;
+  --warn: #8B6410; --ok: #2C7A52;
+  --focus: #24685A;
+
+  /* module hues — chips, dots and cross-module threads */
+  --m-tasks: #4F7DD9; --m-boards: #8168B5; --m-calendar: #C2603A; --m-reminders: #C4437B;
+  --m-notes: #2E8F6E; --m-finance: #B08322; --m-life: #2F8AA6; --m-lists: #6E8B3D; --m-meals: #C97C2E;
+}
+
+html[data-density="compact"] { --tap: 32px; }
+
+/* Accent (brand) overrides — per-member personalization. `--brand-soft` uses color-mix so it stays
+   theme-aware (tints the current surface) without needing separate light/dark rules. */
+:root[data-accent="blue"]   { --brand: #4F7DD9; --brand-2: #3E67BE; --on-brand: #FFFFFF; --focus: #4F7DD9; --brand-soft: color-mix(in srgb, #4F7DD9 16%, var(--surface)); }
+:root[data-accent="violet"] { --brand: #8168B5; --brand-2: #6B54A0; --on-brand: #FFFFFF; --focus: #8168B5; --brand-soft: color-mix(in srgb, #8168B5 16%, var(--surface)); }
+:root[data-accent="rose"]   { --brand: #C4437B; --brand-2: #A83566; --on-brand: #FFFFFF; --focus: #C4437B; --brand-soft: color-mix(in srgb, #C4437B 16%, var(--surface)); }
+:root[data-accent="amber"]  { --brand: #B08322; --brand-2: #946C17; --on-brand: #FFFFFF; --focus: #B08322; --brand-soft: color-mix(in srgb, #B08322 16%, var(--surface)); }
+:root[data-accent="cyan"]   { --brand: #2F8AA6; --brand-2: #22718A; --on-brand: #FFFFFF; --focus: #2F8AA6; --brand-soft: color-mix(in srgb, #2F8AA6 16%, var(--surface)); }
+/* Slightly brighter brand for dark mode so accents keep contrast on dark surfaces. */
+:root[data-theme="dark"][data-accent="blue"]   { --brand: #7FA4EA; --brand-2: #5E88DC; --on-brand: #08120F; --focus: #7FA4EA; }
+:root[data-theme="dark"][data-accent="violet"] { --brand: #A992D8; --brand-2: #8C74C0; --on-brand: #08120F; --focus: #A992D8; }
+:root[data-theme="dark"][data-accent="rose"]   { --brand: #E274A5; --brand-2: #C85589; --on-brand: #08120F; --focus: #E274A5; }
+:root[data-theme="dark"][data-accent="amber"]  { --brand: #D6AB57; --brand-2: #BC9138; --on-brand: #08120F; --focus: #D6AB57; }
+:root[data-theme="dark"][data-accent="cyan"]   { --brand: #5FB4CE; --brand-2: #3F98B4; --on-brand: #08120F; --focus: #5FB4CE; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"])[data-accent="blue"]   { --brand: #7FA4EA; --brand-2: #5E88DC; --on-brand: #08120F; --focus: #7FA4EA; }
+  :root:not([data-theme="light"])[data-accent="violet"] { --brand: #A992D8; --brand-2: #8C74C0; --on-brand: #08120F; --focus: #A992D8; }
+  :root:not([data-theme="light"])[data-accent="rose"]   { --brand: #E274A5; --brand-2: #C85589; --on-brand: #08120F; --focus: #E274A5; }
+  :root:not([data-theme="light"])[data-accent="amber"]  { --brand: #D6AB57; --brand-2: #BC9138; --on-brand: #08120F; --focus: #D6AB57; }
+  :root:not([data-theme="light"])[data-accent="cyan"]   { --brand: #5FB4CE; --brand-2: #3F98B4; --on-brand: #08120F; --focus: #5FB4CE; }
+}
+
+/* dark — system preference, unless forced light */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0D110F; --bg-grain: #111614;
+    --surface: #161B18; --surface-2: #1C2320; --surface-3: #232B27;
+    --line: #2A332E; --line-strong: #3A453E;
+    --text: #E9EEEA; --text-2: #9BA69E; --text-3: #6F7A73;
+    --brand: #59B096; --brand-2: #7ACBB2; --brand-soft: #17302A; --on-brand: #08120F;
+    --brass: #D6AB57; --brass-soft: #2E2716;
+    --danger: #E37C61; --danger-soft: #361C16;
+    --warn: #D6AB57; --ok: #5FBE8B;
+    --focus: #7ACBB2;
+    --m-tasks: #7FA4EA; --m-boards: #A992D8; --m-calendar: #E08B62; --m-reminders: #E274A5;
+    --m-notes: #5FBE99; --m-finance: #D6AB57; --m-life: #5FB4CE; --m-lists: #9CB868; --m-meals: #E5A25F;
+  }
+}
+
+/* dark — manual toggle */
+:root[data-theme="dark"] {
+  --bg: #0D110F; --bg-grain: #111614;
+  --surface: #161B18; --surface-2: #1C2320; --surface-3: #232B27;
+  --line: #2A332E; --line-strong: #3A453E;
+  --text: #E9EEEA; --text-2: #9BA69E; --text-3: #6F7A73;
+  --brand: #59B096; --brand-2: #7ACBB2; --brand-soft: #17302A; --on-brand: #08120F;
+  --brass: #D6AB57; --brass-soft: #2E2716;
+  --danger: #E37C61; --danger-soft: #361C16;
+  --warn: #D6AB57; --ok: #5FBE8B;
+  --focus: #7ACBB2;
+  --m-tasks: #7FA4EA; --m-boards: #A992D8; --m-calendar: #E08B62; --m-reminders: #E274A5;
+  --m-notes: #5FBE99; --m-finance: #D6AB57; --m-life: #5FB4CE; --m-lists: #9CB868; --m-meals: #E5A25F;
+}

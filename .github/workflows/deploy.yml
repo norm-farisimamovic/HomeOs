@@ -1,0 +1,37 @@
+name: Deploy
+
+# Auto-deploy on every push to main. Requires repo secrets (Settings → Secrets and variables → Actions):
+#   VPS_HOST      – your server's IP/hostname
+#   VPS_USER      – SSH user (e.g. root or a deploy user)
+#   VPS_SSH_KEY   – a private SSH key authorized on the server
+# The server must have Docker + the repo cloned at ~/homeos with a filled-in .env (see .env.example).
+#
+# Prefer Fly.io instead? Replace the job below with:
+#   - uses: superfly/flyctl-actions/setup-flyctl@master
+#   - run: flyctl deploy --remote-only
+#     env: { FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }} }
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: deploy-main
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy over SSH (pull + rebuild the stack)
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            set -e
+            cd ~/homeos
+            git pull --ff-only
+            docker compose up -d --build
+            docker image prune -f
