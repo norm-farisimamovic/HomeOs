@@ -24,18 +24,25 @@ public sealed class DemoHouseholdSeeder(IHostEnvironment env, IConfiguration con
     public async Task SeedAsync(CancellationToken cancellationToken = default)
     {
         if (!DemoMode.IsEnabled(env, config)) return;
-        if (await db.Households.AnyAsync(h => h.Name == "Demo Home", cancellationToken)) return;
 
-        var household = new Household("Demo Home");
-        db.Households.Add(household);
-        await db.SaveChangesAsync(cancellationToken);
+        // Get-or-create so a partially-seeded state (household created but a member missing) self-heals on
+        // the next run instead of being locked out by a household-level "already exists" check.
+        var household = await db.Households.FirstOrDefaultAsync(h => h.Name == "Demo Home", cancellationToken);
+        if (household is null)
+        {
+            household = new Household("Demo Home");
+            db.Households.Add(household);
+            await db.SaveChangesAsync(cancellationToken);
+        }
 
-        await CreateAsync(household.Id, "demo@imel.ba", "Imel", "Demo", HouseholdRoles.Owner);
-        await CreateAsync(household.Id, "faris@homeos.local", "Faris", "Demo", HouseholdRoles.Adult);
+        await EnsureMemberAsync(household.Id, "demo@imel.ba", "Imel", "Demo", HouseholdRoles.Owner);
+        await EnsureMemberAsync(household.Id, "faris@homeos.local", "Faris", "Demo", HouseholdRoles.Adult);
     }
 
-    private async Task CreateAsync(Guid householdId, string email, string firstName, string lastName, string role)
+    private async Task EnsureMemberAsync(Guid householdId, string email, string firstName, string lastName, string role)
     {
+        if (await users.FindByEmailAsync(email) is not null) return;
+
         var member = new Member
         {
             UserName = email,
@@ -46,7 +53,11 @@ public sealed class DemoHouseholdSeeder(IHostEnvironment env, IConfiguration con
             DisplayName = Member.FullName(firstName, lastName),
             HouseholdId = householdId,
         };
-        var result = await users.CreateAsync(member, config["Demo:Password"] ?? "Demo1234!");
+        // Empty ("") counts as unset — fall back to the default rather than an invalid empty password.
+        var password = config["Demo:Password"];
+        if (string.IsNullOrWhiteSpace(password)) password = "Demo1234!";
+
+        var result = await users.CreateAsync(member, password);
         if (result.Succeeded) await users.AddToRoleAsync(member, role);
     }
 }
