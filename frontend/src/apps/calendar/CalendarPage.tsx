@@ -134,6 +134,7 @@ export function CalendarPage() {
 
       {view !== 'day' && (
         <div className="card" style={{ marginBottom: 14 }}>
+          <div className="cal-scroll">
           <div className={`cal-grid${view === 'week' ? ' week' : ''}`}>
             {weekdays.map((w) => <div key={w} className="cal-wd">{w}</div>)}
             {days.map((d) => {
@@ -154,6 +155,7 @@ export function CalendarPage() {
                 </button>
               )
             })}
+          </div>
           </div>
         </div>
       )}
