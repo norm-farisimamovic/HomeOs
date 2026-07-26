@@ -1,8 +1,5 @@
 using System.Net.Http.Json;
 using System.Text.Json.Nodes;
-using HomeOs.Platform.Digest;
-using HomeOs.Platform.Members;
-using HomeOs.Platform.Reminders;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
@@ -16,9 +13,9 @@ public sealed record AssistantReply(bool Configured, string Text, IReadOnlyList<
 
 /// <summary>
 /// A household assistant: natural-language questions and commands turned into real actions through an LLM's
-/// tool-use. It only uses **kernel contracts** (schedule a reminder, read "what's coming up"), so it works
-/// for the current member with the same auth/visibility as the rest of the app, and a new app that registers
-/// an <see cref="IUpcomingProvider"/> becomes answerable with no change here. Provider-agnostic: talks to an
+/// tool-use. Every action is an <see cref="IAssistantTool"/> discovered from DI, so a new app becomes
+/// <em>actionable</em> ("create a task", "add a note") just by registering a tool — no change here. Tools run
+/// for the current member with the same auth/visibility as the rest of the app. Provider-agnostic: talks to an
 /// OpenAI-compatible endpoint (Groq, Gemini, OpenRouter, Ollama — all have free options) or Anthropic,
 /// selected by config; disabled until a key is set.
 /// </summary>
@@ -39,8 +36,8 @@ public interface IAssistant
 
 /// <inheritdoc />
 public sealed class AssistantService(
-    IConfiguration config, IHttpClientFactory httpFactory, ICurrentMember me,
-    IReminderService reminders, IEnumerable<IUpcomingProvider> upcoming, ILogger<AssistantService> logger)
+    IConfiguration config, IHttpClientFactory httpFactory,
+    IEnumerable<IAssistantTool> tools, ILogger<AssistantService> logger)
     : IAssistant
 {
     private const int MaxToolRounds = 5;
@@ -258,80 +255,47 @@ public sealed class AssistantService(
         }
     }
 
-    // ---- Tools (executed for the current member) ----
+    // ---- Tools (discovered from DI; executed for the current member) ----
 
     private async Task<(string result, string? action)> RunToolAsync(string name, JsonObject input, CancellationToken ct)
     {
-        switch (name)
+        var tool = tools.FirstOrDefault(t => t.Name == name);
+        if (tool is null) return ($"Unknown tool '{name}'.", null);
+        try
         {
-            case "add_reminder":
-            {
-                var title = input["title"]?.GetValue<string>()?.Trim();
-                if (string.IsNullOrWhiteSpace(title) || !DateOnly.TryParse(input["date"]?.GetValue<string>(), out var date))
-                    return ("Error: title and a valid date (YYYY-MM-DD) are required.", null);
-                TimeOnly? time = TimeOnly.TryParse(input["time"]?.GetValue<string>(), out var tt) ? tt : null;
-                await reminders.ScheduleAsync(new ScheduledReminder(
-                    me.HouseholdId, me.Id, me.Id, title, date, time, "assistant", Guid.NewGuid()), ct);
-                return ($"Reminder '{title}' scheduled for {date:yyyy-MM-dd}.", $"Reminder: {title} ({date:yyyy-MM-dd})");
-            }
-            case "list_upcoming":
-            {
-                var days = ReadInt(input["days"]) ?? 7;
-                var today = DateOnly.FromDateTime(DateTime.UtcNow);
-                var items = new List<UpcomingItem>();
-                foreach (var provider in upcoming)
-                    items.AddRange(await provider.GetUpcomingAsync(me.HouseholdId, me.Id, today, today.AddDays(Math.Clamp(days, 1, 60)), ct));
-                if (items.Count == 0) return ("Nothing coming up in that window.", null);
-                return (string.Join('\n', items.OrderBy(i => i.Date).Select(i => $"- {i.Date:yyyy-MM-dd} [{i.Kind}] {i.Title}")), null);
-            }
-            default:
-                return ($"Unknown tool '{name}'.", null);
+            var r = await tool.InvokeAsync(input, ct);
+            return (r.Message, r.Action);
+        }
+        catch (Exception ex)
+        {
+            logger.LogError(ex, "Assistant tool {Tool} failed.", name);
+            return ($"Error running '{name}'.", null);
         }
     }
 
-    // Tool parameter schema, shared by both providers' tool declarations.
-    private static JsonObject AddReminderParams() => new()
+    // OpenAI-style tool declarations, built from every registered tool.
+    private JsonArray OpenAiTools()
     {
-        ["type"] = "object",
-        ["properties"] = new JsonObject
-        {
-            ["title"] = new JsonObject { ["type"] = "string", ["description"] = "What to be reminded about." },
-            ["date"] = new JsonObject { ["type"] = "string", ["description"] = "Date in YYYY-MM-DD." },
-            ["time"] = new JsonObject { ["type"] = "string", ["description"] = "Optional time HH:mm." },
-        },
-        ["required"] = new JsonArray("title", "date"),
-    };
+        var arr = new JsonArray();
+        foreach (var t in tools)
+            arr.Add(new JsonObject { ["type"] = "function", ["function"] = new JsonObject { ["name"] = t.Name, ["description"] = t.Description, ["parameters"] = t.Parameters } });
+        return arr;
+    }
 
-    private static JsonObject ListUpcomingParams() => new()
+    // Anthropic-style tool declarations, built from every registered tool.
+    private JsonArray AnthropicTools()
     {
-        ["type"] = "object",
-        ["properties"] = new JsonObject { ["days"] = new JsonObject { ["type"] = "integer", ["description"] = "How many days ahead (default 7)." } },
-    };
-
-    private static JsonArray OpenAiTools() =>
-    [
-        new JsonObject { ["type"] = "function", ["function"] = new JsonObject { ["name"] = "add_reminder", ["description"] = "Schedule a reminder for the current member.", ["parameters"] = AddReminderParams() } },
-        new JsonObject { ["type"] = "function", ["function"] = new JsonObject { ["name"] = "list_upcoming", ["description"] = "List the member's upcoming tasks, bills and reminders over the next N days.", ["parameters"] = ListUpcomingParams() } },
-    ];
-
-    private static JsonArray AnthropicTools() =>
-    [
-        new JsonObject { ["name"] = "add_reminder", ["description"] = "Schedule a reminder for the current member.", ["input_schema"] = AddReminderParams() },
-        new JsonObject { ["name"] = "list_upcoming", ["description"] = "List the member's upcoming tasks, bills and reminders over the next N days.", ["input_schema"] = ListUpcomingParams() },
-    ];
+        var arr = new JsonArray();
+        foreach (var t in tools)
+            arr.Add(new JsonObject { ["name"] = t.Name, ["description"] = t.Description, ["input_schema"] = t.Parameters });
+        return arr;
+    }
 
     private static JsonObject ParseArgs(string? json)
     {
         if (string.IsNullOrWhiteSpace(json)) return [];
         try { return JsonNode.Parse(json) as JsonObject ?? []; }
         catch (System.Text.Json.JsonException) { return []; }
-    }
-
-    private static int? ReadInt(JsonNode? node)
-    {
-        if (node is null) return null;
-        try { return (int)node.GetValue<double>(); }
-        catch { try { return node.GetValue<int>(); } catch { return int.TryParse(node.ToString(), out var v) ? v : null; } }
     }
 
     private string Fallback() => _authFailed

@@ -84,6 +84,9 @@ public static class PlatformServiceCollectionExtensions
         // Works with any OpenAI-compatible provider (Groq/Gemini/OpenRouter/Ollama — free tiers) or Anthropic.
         services.AddHttpClient("assistant");
         services.AddScoped<IAssistant, AssistantService>();
+        // Built-in assistant tools; modules add their own (e.g. "create a task") via IAssistantTool.
+        services.AddScoped<Assistant.IAssistantTool, Assistant.AddReminderTool>();
+        services.AddScoped<Assistant.IAssistantTool, Assistant.ListUpcomingTool>();
 
         // Weather proxy for the dashboard widget (Open-Meteo, keyless).
         services.AddHttpClient("weather");

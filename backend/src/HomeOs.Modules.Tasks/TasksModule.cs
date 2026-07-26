@@ -42,6 +42,8 @@ public static class TasksModule
         services.AddScoped<ISearchProvider, TasksSearchProvider>();
         // Contribute upcoming tasks to the digest.
         services.AddScoped<IUpcomingProvider, TasksUpcomingProvider>();
+        // Let the assistant create tasks ("napravi zadatak…").
+        services.AddScoped<HomeOs.Platform.Assistant.IAssistantTool, Assistant.AddTaskTool>();
 
         // Announce this app (and the Kanban board view, which is a second surface over the same task data).
         services.AddSingleton<IAppModule, TasksAppModule>();
