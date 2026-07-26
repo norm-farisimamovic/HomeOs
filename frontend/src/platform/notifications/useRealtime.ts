@@ -2,6 +2,8 @@ import { useEffect } from 'react'
 import { HubConnectionBuilder, LogLevel } from '@microsoft/signalr'
 import { useQueryClient } from '@tanstack/react-query'
 import { toast } from '@/platform/ui/toastStore'
+import { playPing } from '@/platform/ui/sound'
+import { useMe } from '@/platform/auth/useAuth'
 import { notificationKeys } from './api'
 
 /**
@@ -11,6 +13,8 @@ import { notificationKeys } from './api'
  */
 export function useNotificationsRealtime() {
   const qc = useQueryClient()
+  const { data: me } = useMe()
+  const myId = me?.id
 
   useEffect(() => {
     const connection = new HubConnectionBuilder()
@@ -21,7 +25,7 @@ export function useNotificationsRealtime() {
 
     connection.on('notify', (payload: { title?: string }) => {
       void qc.invalidateQueries({ queryKey: notificationKeys.feed })
-      if (payload?.title) toast.info(payload.title)
+      if (payload?.title) { toast.info(payload.title); playPing() }
     })
 
     // A household member changed data anywhere → refetch everything the current screen is showing
@@ -30,13 +34,17 @@ export function useNotificationsRealtime() {
       void qc.invalidateQueries()
     })
 
-    // A new household chat message → refresh the chat stream.
-    connection.on('chatMessage', () => {
+    // A new household chat message → refresh the chat stream, and ping/toast if it's from someone else.
+    connection.on('chatMessage', (payload: { senderId?: string; senderName?: string; text?: string }) => {
       void qc.invalidateQueries({ queryKey: ['chat'] })
+      if (payload?.senderId && payload.senderId !== myId) {
+        playPing()
+        if (!window.location.pathname.startsWith('/chat')) toast.info(`${payload.senderName ?? ''}: ${payload.text ?? ''}`.trim())
+      }
     })
 
     connection.start().catch(() => { /* ignore — realtime is an enhancement, not required */ })
 
     return () => { void connection.stop() }
-  }, [qc])
+  }, [qc, myId])
 }
