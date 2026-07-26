@@ -27,6 +27,16 @@ public static class DatabaseInitializer
 
         if (config.GetValue("Database:AutoMigrate", true))
         {
+            // Fresh containers: MySQL may still be initializing even after its healthcheck passes, so the
+            // first connection can fail transiently. Wait for the DB to actually accept connections before
+            // migrating, so a first-boot timing race never leaves the schema uncreated.
+            var platform = services.GetRequiredService<PlatformDbContext>();
+            if (!await WaitForDatabaseAsync(platform, logger, cancellationToken))
+            {
+                logger.LogError("Database did not become reachable in time; skipping migrations. The app will start, but the database may be unavailable.");
+                return;
+            }
+
             // Migrate every registered context (platform + each module) — no special-casing.
             foreach (var target in services.GetServices<MigratableContext>())
             {
@@ -68,5 +78,28 @@ public static class DatabaseInitializer
             }
             logger.LogInformation("Seeding complete.");
         }
+    }
+
+    /// <summary>
+    /// Polls until the database accepts connections (or a timeout), so migrations don't get skipped when a
+    /// freshly-started MySQL container isn't ready yet. ~60s max (30 × 2s) — ample for first-time init.
+    /// </summary>
+    private static async Task<bool> WaitForDatabaseAsync(DbContext ctx, ILogger logger, CancellationToken ct)
+    {
+        const int maxAttempts = 30;
+        for (var attempt = 1; attempt <= maxAttempts; attempt++)
+        {
+            try
+            {
+                if (await ctx.Database.CanConnectAsync(ct)) return true;
+            }
+            catch
+            {
+                // Server not accepting connections yet — retry.
+            }
+            if (attempt == 1) logger.LogInformation("Waiting for the database to become available…");
+            await Task.Delay(TimeSpan.FromSeconds(2), ct);
+        }
+        return false;
     }
 }
