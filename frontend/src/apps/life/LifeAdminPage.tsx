@@ -26,8 +26,9 @@ function RecordRow({ record, onEdit }: { record: LifeRecord; onEdit: (r: LifeRec
   return (
     <div className="row-item task-row">
       <div className="body">
-        <div className="ttl">{record.title} <span className="chip">{t(`life.category.${record.category.toLowerCase()}`)}</span></div>
+        <div className="ttl">{record.title}</div>
         <div className="meta">
+          <span className="chip">{t(`life.category.${record.category.toLowerCase()}`)}</span>
           {expiryChip}
           {record.provider && <span className="chip">{record.provider}</span>}
           {record.notes && <span className="chip">{record.notes}</span>}

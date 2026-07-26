@@ -428,6 +428,12 @@ span.board-tab > button:first-child { padding: 5px 4px 5px 12px; }
 .shop-add { padding: 11px 16px; border-top: 1px solid var(--line); }
 .shop-add .inp.sm { flex: 1; }
 .shop-newlist .inp.sm { width: 160px; }
+@media (max-width: 900px) {
+  /* "New list" (input + button) becomes a full-width row instead of wrapping messily. */
+  .page-h .actions.shop-newlist { width: 100%; }
+  .shop-newlist .inp.sm { flex: 1; width: auto; min-width: 0; }
+  .shop-newlist .btn { flex: none; }
+}
 
 /* Small icon badge used on dashboard widgets. */
 .empty-ico.sm { width: 26px; height: 26px; }
