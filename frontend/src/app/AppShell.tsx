@@ -92,7 +92,7 @@ export function AppShell() {
   const closeRail = () => document.body.classList.remove('rail-open')
   // Mobile: the hamburger opens the off-canvas rail; desktop: it collapses the rail to icons.
   const onHamburger = () => {
-    if (window.matchMedia('(max-width: 760px)').matches) document.body.classList.toggle('rail-open')
+    if (window.matchMedia('(max-width: 900px)').matches) document.body.classList.toggle('rail-open')
     else toggleRail()
   }
 

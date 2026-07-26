@@ -27,7 +27,7 @@
 .rail-foot .who .h { font-size: 11px; color: var(--text-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 /* Collapsed rail (desktop): icons with a tiny label underneath. */
-@media (min-width: 761px) {
+@media (min-width: 901px) {
   .shell.rail-collapsed { --rail: 78px; }
   .rail-collapsed .brand { justify-content: center; padding: 16px 0 12px; }
   .rail-collapsed .brand .nm { display: none; }
@@ -52,7 +52,8 @@
   cursor: pointer; transition: .15s var(--ease);
 }
 .searchbox:hover { border-color: var(--line-strong); color: var(--text-2); }
-.searchbox .kbd { margin-left: auto; }
+.searchbox > span:first-of-type { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.searchbox .kbd { margin-left: auto; flex: none; }
 .kbd { font-family: var(--font-mono); font-size: 10.5px; padding: 2px 6px; border-radius: 5px; background: var(--surface-2); border: 1px solid var(--line); color: var(--text-3); white-space: nowrap; }
 .top .spacer { flex: 1; }
 .langbtn .code { font-family: var(--font-mono); font-size: 11.5px; letter-spacing: .06em; }
@@ -114,9 +115,8 @@
 .rail-scrim { display: none; }
 
 @media (max-width: 1080px) { .g4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .web { display: none; } }
-@media (max-width: 900px) { .g3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   /* Off-canvas drawer + tap-outside/X to close */
   .shell { grid-template-columns: 1fr; }
   .rail { position: fixed; top: 0; bottom: 0; left: 0; width: min(85vw, 300px); transform: translateX(-102%);
@@ -162,10 +162,10 @@
 }
 
 /* Never let a stray wide element scroll the whole page sideways on mobile. */
-@media (max-width: 760px) { .main, .scroll { overflow-x: hidden; } }
+@media (max-width: 900px) { .main, .scroll { overflow-x: hidden; } }
 
 .menu-btn { display: none; }
-@media (max-width: 760px) { .menu-btn { display: inline-flex; } }
+@media (max-width: 900px) { .menu-btn { display: inline-flex; } }
 .err-boundary { padding: 48px 16px; }
 
 /* ─── Notification bell badge + feed rows ────────────────────────────────── */
@@ -226,7 +226,7 @@
 .kb-card-m { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
 .kb-card-m .kb-assignee { margin-left: auto; }
 .kb-empty { text-align: center; font-size: 12px; color: var(--text-3); padding: 14px 6px; border: 1px dashed var(--line); border-radius: var(--r-sm); }
-@media (max-width: 760px) { .kb-board { grid-template-columns: 1fr; } }
+@media (max-width: 900px) { .kb-board { grid-template-columns: 1fr; } }
 
 /* ─── Calendar (month grid) ──────────────────────────────────────────────── */
 .cal-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
@@ -252,7 +252,7 @@
 .cal-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 /* On phones the 7-column month can't shrink to unreadable slivers — keep cells legible and let the grid
    scroll sideways inside its card instead (never the page body). */
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .cal-scroll { margin: 0 -1px; }
   .cal-grid { min-width: 560px; }
   .cal-cell { min-height: 74px; padding: 5px; }
