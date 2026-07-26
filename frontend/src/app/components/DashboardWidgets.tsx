@@ -35,18 +35,23 @@ export function DashboardWidgets({ enabledAppIds }: { enabledAppIds: Set<string>
     setHidden(next); localStorage.setItem(HIDDEN_KEY, JSON.stringify(next))
   }
 
+  const reorder = (ids: string[], from: number, to: number) => {
+    const [moved] = ids.splice(from, 1)
+    if (moved === undefined) return
+    ids.splice(to, 0, moved)
+  }
   const move = (id: string, delta: number) => {
     const ids = ordered.map((w) => w.id)
     const from = ids.indexOf(id); const to = from + delta
     if (from < 0 || to < 0 || to >= ids.length) return
-    ids.splice(to, 0, ids.splice(from, 1)[0]); persistOrder(ids)
+    reorder(ids, from, to); persistOrder(ids)
   }
   const onDrop = (targetId: string) => {
     if (!dragId || dragId === targetId) return
     const ids = ordered.map((w) => w.id)
     const from = ids.indexOf(dragId); const to = ids.indexOf(targetId)
     if (from < 0 || to < 0) return
-    ids.splice(to, 0, ids.splice(from, 1)[0]); persistOrder(ids); setDragId(null)
+    reorder(ids, from, to); persistOrder(ids); setDragId(null)
   }
 
   return (
