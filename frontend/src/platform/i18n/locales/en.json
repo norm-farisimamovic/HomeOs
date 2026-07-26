@@ -210,7 +210,8 @@
       "billDue": "A bill is coming due",
       "reminder": "A reminder goes off",
       "shared": "Shared with you",
-      "mention": "Chat mention"
+      "mention": "Chat mention",
+      "assistant": "Assistant"
     },
     "markAllRead": "Mark all read",
     "recent": "Recent",

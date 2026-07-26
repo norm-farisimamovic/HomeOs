@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import type { ComponentType } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { AtSign, Bell, BellRing, CalendarClock, CheckCheck, CheckSquare, Mail, Share2, Wallet } from 'lucide-react'
+import { AtSign, Bell, BellRing, CalendarClock, CheckCheck, CheckSquare, Mail, Share2, Sparkles, Wallet } from 'lucide-react'
 import { toast } from '@/platform/ui/toastStore'
 import {
   useMarkAllRead, useMarkNotificationRead, useNotificationPrefs, useNotifications, useSaveNotificationPrefs,
@@ -10,11 +10,11 @@ import {
 import type { NotificationPref } from '@/platform/notifications/api'
 
 const catIcon: Record<string, ComponentType<{ size?: number }>> = {
-  taskAssigned: CheckSquare, reminder: BellRing, billDue: Wallet, shared: Share2, invite: Mail, renewal: CalendarClock, mention: AtSign,
+  taskAssigned: CheckSquare, reminder: BellRing, billDue: Wallet, shared: Share2, invite: Mail, renewal: CalendarClock, mention: AtSign, assistant: Sparkles,
 }
 const catHue: Record<string, string> = {
   taskAssigned: 'var(--m-tasks)', reminder: 'var(--m-reminders)', billDue: 'var(--m-finance)',
-  shared: 'var(--m-calendar)', invite: 'var(--brand)', renewal: 'var(--m-life)', mention: 'var(--m-boards)',
+  shared: 'var(--m-calendar)', invite: 'var(--brand)', renewal: 'var(--m-life)', mention: 'var(--m-boards)', assistant: 'var(--brand)',
 }
 
 export function NotificationsPage() {

@@ -210,7 +210,8 @@
       "billDue": "Račun uskoro dospijeva",
       "reminder": "Podsjetnik se oglasi",
       "shared": "Podijeljeno s tobom",
-      "mention": "Spominjanje u chatu"
+      "mention": "Spominjanje u chatu",
+      "assistant": "Asistent"
     },
     "markAllRead": "Označi sve pročitano",
     "recent": "Nedavno",
