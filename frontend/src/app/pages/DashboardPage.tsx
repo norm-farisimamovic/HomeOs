@@ -94,7 +94,7 @@ export function DashboardPage() {
       </div>
 
       <div className="grid g3" style={{ alignItems: 'start' }}>
-        <div style={{ gridColumn: 'span 2', display: 'flex', flexDirection: 'column', gap: 14 }}>
+        <div className="dash-main" style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
           {isNewHousehold && <OnboardingCard />}
           <AssistantWidget />
           <div className="card">
@@ -135,7 +135,7 @@ export function DashboardPage() {
           </div>
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+        <div className="dash-side" style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
           {/* Registry-driven, member-reorderable widget column (weather, scoreboard, household, apps…). */}
           <DashboardWidgets enabledAppIds={enabledAppIds} />
           <ApiStatus />

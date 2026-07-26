@@ -4,7 +4,7 @@ import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
   Archive, Bell, Blocks, Calendar, CheckSquare, Home, Kanban, LogOut, Mail, Menu, MessageCircle,
-  Moon, ScrollText, Search, Settings, ShoppingCart, Sparkles, StickyNote, Sun, User, Users, Wallet, Zap,
+  Moon, ScrollText, Search, Settings, ShoppingCart, Sparkles, StickyNote, Sun, User, Users, Wallet, X, Zap,
 } from 'lucide-react'
 import { useUiStore } from '@/platform/ui/uiStore'
 import { useLogout, useMe } from '@/platform/auth/useAuth'
@@ -99,10 +99,13 @@ export function AppShell() {
   return (
     <div className={`shell${railCollapsed ? ' rail-collapsed' : ''}`}>
       <GlobalLoadingBar />
+      {/* Tap-outside backdrop to close the mobile drawer (a real element — a ::after can't be clicked). */}
+      <div className="rail-scrim" onClick={closeRail} aria-hidden="true" />
       <aside className="rail">
         <div className="brand">
           <span className="mark"><Home size={18} /></span>
           <span className="nm">Home<span>OS</span></span>
+          <button className="rail-close" type="button" onClick={closeRail} aria-label={t('common.close')}><X size={18} /></button>
         </div>
 
         <nav className="nav">

@@ -92,7 +92,8 @@
     "repeat": "Repeat",
     "download": "Download",
     "add": "Add",
-    "done": "Done"
+    "done": "Done",
+    "close": "Close"
   },
   "palette": {
     "actions": "Create",

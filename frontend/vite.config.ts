@@ -34,6 +34,13 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    // Emit classic `@media (max-width: …)` instead of the Level-4 range form `(width <= …)`. esbuild
+    // produces the range syntax at modern targets, but many mobile/older browsers ignore it — which
+    // silently kills every responsive rule (mobile menu, grid collapse…). A low cssTarget keeps the
+    // widely-supported syntax; it doesn't affect which CSS features we can use.
+    cssTarget: 'chrome61',
+  },
   resolve: {
     alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
   },
