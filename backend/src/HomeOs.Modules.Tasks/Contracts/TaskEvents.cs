@@ -14,6 +14,12 @@ public sealed record TaskUpdated(Guid TaskId, Guid HouseholdId) : IDomainEvent;
 /// <summary>Raised after a task is completed. <paramref name="CompletedById"/> is who ticked it off.</summary>
 public sealed record TaskCompleted(Guid TaskId, Guid HouseholdId, Guid? AssigneeId, string Title, Guid CompletedById) : IDomainEvent;
 
+/// <summary>
+/// Raised whenever a task gains an assignee — on creation or when the assignee changes on an edit.
+/// <paramref name="ActorId"/> is who assigned it (so the assignee isn't notified about their own action).
+/// </summary>
+public sealed record TaskAssigned(Guid TaskId, Guid HouseholdId, Guid AssigneeId, Guid ActorId, string Title, DateOnly? DueDate) : IDomainEvent;
+
 /// <summary>Raised after a completed task is re-opened (un-ticked).</summary>
 public sealed record TaskReopened(Guid TaskId, Guid HouseholdId) : IDomainEvent;
 

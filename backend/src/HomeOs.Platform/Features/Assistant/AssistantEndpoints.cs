@@ -1,6 +1,4 @@
 using HomeOs.Platform.Assistant;
-using HomeOs.Platform.Members;
-using HomeOs.Platform.Notifications;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
@@ -17,8 +15,7 @@ public static class AssistantEndpoints
         group.MapGet("/status", (IAssistant assistant) => Results.Ok(new { configured = assistant.Configured }))
             .WithName("AssistantStatus");
 
-        group.MapPost("/chat", async (ChatRequest req, IAssistant assistant, ICurrentMember me,
-            INotificationService notifications, CancellationToken ct) =>
+        group.MapPost("/chat", async (ChatRequest req, IAssistant assistant, CancellationToken ct) =>
         {
             var history = (req.Messages ?? [])
                 .Where(m => !string.IsNullOrWhiteSpace(m.Text))
@@ -27,13 +24,10 @@ public static class AssistantEndpoints
                 .ToList();
             if (history.Count == 0) return Results.BadRequest();
 
+            // No echo notification here: the chat reply already confirms what was done, open screens refresh
+            // via the audit "changed" broadcast, and the real notifications still fire (the assignee gets a
+            // task-assigned alert; a reminder alerts when it's due) — so notifying the asker too would double up.
             var reply = await assistant.ChatAsync(history, ct);
-
-            // Anything the assistant actually did → a live in-app notification, so the member sees it on the
-            // bell (and any open screen refreshes via the audit "changed" broadcast the write already fired).
-            foreach (var action in reply.Actions)
-                await notifications.NotifyAsync(me.HouseholdId, me.Id, "assistant", action, null, "/", alsoEmail: false, cancellationToken: ct);
-
             return Results.Ok(new ChatResponse(reply.Configured, reply.Text, reply.Actions));
         }).WithName("AssistantChat");
 

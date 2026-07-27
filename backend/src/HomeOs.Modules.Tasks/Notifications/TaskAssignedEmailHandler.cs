@@ -13,12 +13,14 @@ namespace HomeOs.Modules.Tasks.Notifications;
 /// pattern: an app reacts to a domain event and uses the shared <see cref="INotificationService"/>.
 /// </summary>
 public sealed class TaskAssignedEmailHandler(IMemberDirectory members, INotificationService notifications, IAppText text)
-    : IEventHandler<TaskCreated>
+    : IEventHandler<TaskAssigned>
 {
     /// <inheritdoc />
-    public async Task Handle(TaskCreated domainEvent, CancellationToken cancellationToken)
+    public async Task Handle(TaskAssigned domainEvent, CancellationToken cancellationToken)
     {
-        if (domainEvent.AssigneeId is not { } assigneeId || assigneeId == domainEvent.OwnerId) return;
+        // Don't notify the person who did the assigning (e.g. assigning a task to yourself).
+        var assigneeId = domainEvent.AssigneeId;
+        if (assigneeId == domainEvent.ActorId) return;
 
         var people = await members.GetHouseholdMembersAsync(domainEvent.HouseholdId, cancellationToken);
         var assignee = people.FirstOrDefault(m => m.Id == assigneeId);

@@ -64,6 +64,8 @@ public sealed class AddTaskTool(ICurrentMember me, TasksDbContext db, IMemberDir
         db.Tasks.Add(task);
         await db.SaveChangesAsync(ct);
         await bus.PublishAsync(new TaskCreated(task.Id, task.HouseholdId, task.OwnerId, task.AssigneeId, task.DueDate, task.Title), ct);
+        if (assigneeId is { } aid)
+            await bus.PublishAsync(new TaskAssigned(task.Id, task.HouseholdId, aid, me.Id, task.Title, task.DueDate), ct);
 
         var when = due is { } dd ? $" (due {dd.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture)})" : string.Empty;
         var forWhom = assigneeName is not null ? $" for {assigneeName}" : string.Empty;

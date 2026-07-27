@@ -122,6 +122,8 @@ public static class TasksEndpoints
         db.Tasks.Add(task);
         await db.SaveChangesAsync(ct);
         await bus.PublishAsync(new TaskCreated(task.Id, task.HouseholdId, task.OwnerId, task.AssigneeId, task.DueDate, task.Title), ct);
+        if (task.AssigneeId is { } newAssignee)
+            await bus.PublishAsync(new TaskAssigned(task.Id, task.HouseholdId, newAssignee, me.Id, task.Title, task.DueDate), ct);
 
         var names = await directory.GetNamesAsync(me.HouseholdId, ct);
         return Results.Created($"/api/tasks/{task.Id}", task.ToDto(Today(), names, me));
@@ -135,11 +137,15 @@ public static class TasksEndpoints
         var task = await Editable(db, me, id, ct);
         if (task is null) return Results.NotFound();
 
+        var previousAssignee = task.AssigneeId;
         task.Update(req.Title, req.Description, ParseDate(req.DueDate), req.AssigneeId,
             ParsePriority(req.Priority), ParseVisibility(req.Visibility), req.Tags ?? [], ParseRecurrence(req.Recurrence));
         task.SetBoard(req.BoardId);
         await db.SaveChangesAsync(ct);
         await bus.PublishAsync(new TaskUpdated(task.Id, task.HouseholdId), ct);
+        // Newly assigned to someone (not just re-saved) → notify that person.
+        if (task.AssigneeId is { } assignee && assignee != previousAssignee)
+            await bus.PublishAsync(new TaskAssigned(task.Id, task.HouseholdId, assignee, me.Id, task.Title, task.DueDate), ct);
 
         var names = await directory.GetNamesAsync(me.HouseholdId, ct);
         return Results.Ok(task.ToDto(Today(), names, me));
