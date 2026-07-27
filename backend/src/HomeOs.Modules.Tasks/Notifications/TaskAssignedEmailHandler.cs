@@ -18,9 +18,9 @@ public sealed class TaskAssignedEmailHandler(IMemberDirectory members, INotifica
     /// <inheritdoc />
     public async Task Handle(TaskAssigned domainEvent, CancellationToken cancellationToken)
     {
-        // Don't notify the person who did the assigning (e.g. assigning a task to yourself).
+        // Notify the assignee even when they assigned it to themselves — people want the reminder/email that
+        // a task is now theirs. Too noisy? They can turn the "taskAssigned" email off in their preferences.
         var assigneeId = domainEvent.AssigneeId;
-        if (assigneeId == domainEvent.ActorId) return;
 
         var people = await members.GetHouseholdMembersAsync(domainEvent.HouseholdId, cancellationToken);
         var assignee = people.FirstOrDefault(m => m.Id == assigneeId);

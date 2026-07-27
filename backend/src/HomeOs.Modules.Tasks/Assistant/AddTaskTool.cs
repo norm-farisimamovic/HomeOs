@@ -1,5 +1,6 @@
 using System.Globalization;
 using System.Text.Json.Nodes;
+using System.Text.RegularExpressions;
 using HomeOs.Modules.Tasks.Contracts;
 using HomeOs.Modules.Tasks.Domain;
 using HomeOs.Modules.Tasks.Persistence;
@@ -41,22 +42,35 @@ public sealed class AddTaskTool(ICurrentMember me, TasksDbContext db, IMemberDir
 
     public async Task<AssistantToolResult> InvokeAsync(JsonObject args, CancellationToken ct)
     {
-        var title = args["title"]?.GetValue<string>()?.Trim();
-        if (string.IsNullOrWhiteSpace(title)) return new AssistantToolResult("Error: a task title is required.");
+        var raw = args["title"]?.GetValue<string>()?.Trim();
+        if (string.IsNullOrWhiteSpace(raw)) return new AssistantToolResult("Error: a task title is required.");
+        var title = raw;
 
         DateOnly? due = DateOnly.TryParse(args["due_date"]?.GetValue<string>(), out var d) ? d : null;
         var priority = Enum.TryParse<TaskPriority>(args["priority"]?.GetValue<string>(), ignoreCase: true, out var p) ? p : TaskPriority.Normal;
         var details = args["details"]?.GetValue<string>();
 
-        // Resolve an assignee by name (case-insensitive; matches full or first name). Unknown → unassigned.
+        // Assignee: prefer the explicit param; otherwise the model often left "za <ime>" / "for <name>" in the
+        // title — pull that out and, only if it resolves to a real member, assign it and strip it from the title.
         Guid? assigneeId = null;
         string? assigneeName = null;
-        var wanted = args["assignee"]?.GetValue<string>()?.Trim();
-        if (!string.IsNullOrWhiteSpace(wanted))
+        var candidate = args["assignee"]?.GetValue<string>()?.Trim();
+        var stripFrom = -1;
+        if (string.IsNullOrWhiteSpace(candidate))
+        {
+            var mm = Regex.Match(title, @"\s+(za|for)\s+(.+)$", RegexOptions.IgnoreCase);
+            if (mm.Success) { candidate = mm.Groups[2].Value.Trim(); stripFrom = mm.Index; }
+        }
+        if (!string.IsNullOrWhiteSpace(candidate))
         {
             var people = await members.GetHouseholdMembersAsync(me.HouseholdId, ct);
-            var match = ResolveMember(people, wanted);
-            if (match is not null) { assigneeId = match.Id; assigneeName = match.DisplayName; }
+            var match = ResolveMember(people, candidate);
+            if (match is not null)
+            {
+                assigneeId = match.Id;
+                assigneeName = match.DisplayName;
+                if (stripFrom >= 0) title = title[..stripFrom].Trim();
+            }
         }
 
         var task = TaskItem.Create(me.HouseholdId, me.Id, title, details, due, assigneeId, priority, Visibility.Household, tags: null);
