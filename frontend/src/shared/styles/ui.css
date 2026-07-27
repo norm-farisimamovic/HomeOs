@@ -73,6 +73,8 @@
 
 /* ---------- cards ---------- */
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-1); }
+/* A self-contained padded card (auth / confirm / error pages that don't use the card-h/card-b structure). */
+.card-pad { padding: 26px; }
 .card-h { display: flex; align-items: center; gap: 10px; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--line); }
 .card-h .t { display: flex; align-items: center; gap: 9px; min-width: 0; }
 .card-b { padding: 14px 16px; }

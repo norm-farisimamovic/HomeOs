@@ -21,10 +21,12 @@ export function AcceptInvitePage() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState<string | null>(null)
 
+  const existingAccount = invite?.accountExists ?? false
+
   const submit = async () => {
-    if (password.length < 8) { setError(t('auth.passwordMin')); return }
+    if (!existingAccount && password.length < 8) { setError(t('auth.passwordMin')); return }
     try {
-      await accept.mutateAsync(password)
+      await accept.mutateAsync(existingAccount ? '' : password)
       await qc.invalidateQueries({ queryKey: meQueryKey })
       navigate('/')
     } catch (e) {
@@ -51,13 +53,18 @@ export function AcceptInvitePage() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
             <div>
               <h2>{t('household.joinTitle', { household: invite.householdName })}</h2>
-              <p className="hint" style={{ marginTop: 6 }}>{t('household.joinSub', { email: invite.email })}</p>
+              <p className="hint" style={{ marginTop: 6 }}>
+                {existingAccount ? t('household.joinExisting', { email: invite.email }) : t('household.joinSub', { email: invite.email })}
+              </p>
             </div>
             {error && <div className="err-msg" role="alert"><span>{error}</span></div>}
-            <div className="field">
-              <label>{t('auth.password')}</label>
-              <input className="inp" type="password" autoComplete="new-password" value={password} onChange={(e) => setPassword(e.target.value)} />
-            </div>
+            {!existingAccount && (
+              <div className="field">
+                <label>{t('auth.password')}</label>
+                <input className="inp" type="password" autoComplete="new-password" value={password} onChange={(e) => setPassword(e.target.value)}
+                  onKeyDown={(e) => { if (e.key === 'Enter') void submit() }} />
+              </div>
+            )}
             <button className="btn primary" type="button" onClick={() => void submit()} disabled={accept.isPending}>
               {t('household.acceptJoin')}
             </button>

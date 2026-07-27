@@ -33,6 +33,8 @@ export interface InviteInfo {
   email: string
   displayName: string
   role: string
+  /** True when this email already has an account — joining is a linked membership (no password). */
+  accountExists: boolean
 }
 
 /** Registration result — strict flow returns a confirmation prompt, not a session. */

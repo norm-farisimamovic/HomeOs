@@ -143,7 +143,8 @@
     },
     "renamed": "Household renamed.",
     "editMember": "Edit member",
-    "emailHint": "The email is also the login username. A change takes effect immediately."
+    "emailHint": "The email is also the login username. A change takes effect immediately.",
+    "joinExisting": "You already have an account for {{email}}. Join this household — you use your existing sign-in and switch between households."
   },
   "profile": {
     "title": "Your profile",

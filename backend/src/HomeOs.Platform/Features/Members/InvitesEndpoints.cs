@@ -27,13 +27,15 @@ public static class InvitesEndpoints
         return app;
     }
 
-    private static async Task<IResult> GetAsync(string token, PlatformDbContext db, CancellationToken ct)
+    private static async Task<IResult> GetAsync(string token, PlatformDbContext db, UserManager<Member> userManager, CancellationToken ct)
     {
         var invite = await db.HouseholdInvites.AsNoTracking().FirstOrDefaultAsync(i => i.Token == token, ct);
         if (invite is null || !invite.IsPending) return Results.NotFound();
 
         var householdName = await db.Households.Where(h => h.Id == invite.HouseholdId).Select(h => h.Name).FirstOrDefaultAsync(ct);
-        return Results.Ok(new { householdName, invite.Email, invite.DisplayName, invite.Role });
+        // If this email already has an account, accepting adds a linked membership (no password needed).
+        var accountExists = await userManager.FindByEmailAsync(invite.Email) is not null;
+        return Results.Ok(new { householdName, invite.Email, invite.DisplayName, invite.Role, accountExists });
     }
 
     private static async Task<IResult> AcceptAsync(
@@ -42,8 +44,45 @@ public static class InvitesEndpoints
     {
         var invite = await db.HouseholdInvites.FirstOrDefaultAsync(i => i.Token == token, ct);
         if (invite is null || !invite.IsPending) return Results.NotFound();
-        if (await userManager.FindByEmailAsync(invite.Email) is not null)
-            return Results.Conflict(new { message = text["error.invite.accountExists"] });
+
+        // Existing account → the same person joins this household as a linked membership (no new email/
+        // password). They sign in with their existing account and switch between households.
+        var existing = await userManager.FindByEmailAsync(invite.Email);
+        if (existing is not null)
+        {
+            var alreadyHere = await db.Users.FirstOrDefaultAsync(
+                u => u.PersonId == existing.PersonId && u.HouseholdId == invite.HouseholdId, ct);
+            if (alreadyHere is not null)
+            {
+                invite.Accept();
+                await db.SaveChangesAsync(ct);
+                await signInManager.SignInAsync(alreadyHere, isPersistent: true);
+                return Results.Ok(new { alreadyHere.Id });
+            }
+
+            var linkId = Guid.NewGuid();
+            var linked = new Member
+            {
+                UserName = $"hh-{linkId:N}",
+                Email = $"{linkId:N}@switch.local",
+                EmailConfirmed = true,
+                FirstName = existing.FirstName,
+                LastName = existing.LastName,
+                DisplayName = existing.DisplayName,
+                HouseholdId = invite.HouseholdId,
+                PersonId = existing.PersonId,
+                PreferredCulture = existing.PreferredCulture,
+                PreferredCurrency = existing.PreferredCurrency,
+            };
+            var link = await userManager.CreateAsync(linked);
+            if (!link.Succeeded)
+                return Results.ValidationProblem(link.Errors.GroupBy(e => e.Code).ToDictionary(g => g.Key, g => g.Select(e => e.Description).ToArray()));
+            await userManager.AddToRoleAsync(linked, invite.Role);
+            invite.Accept();
+            await db.SaveChangesAsync(ct);
+            await signInManager.SignInAsync(linked, isPersistent: true);
+            return Results.Ok(new { linked.Id });
+        }
 
         var member = new Member
         {
