@@ -3,6 +3,8 @@
 
 .rail { background: var(--bg-grain); border-right: 1px solid var(--line); display: flex; flex-direction: column; min-height: 0; position: relative; z-index: 30; }
 .brand { display: flex; align-items: center; gap: 10px; padding: 16px 14px 12px; min-height: 60px; }
+.brand-link { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; flex: 1; min-width: 0; border-radius: var(--r-sm); }
+.brand-link:hover { opacity: .85; }
 .brand .mark { width: 30px; height: 30px; border-radius: 9px; flex: none; display: grid; place-items: center; background: var(--brand); color: var(--on-brand); box-shadow: var(--shadow-1); }
 .brand .nm { font-family: var(--font-display); font-weight: 800; letter-spacing: -.03em; font-size: 16px; white-space: nowrap; }
 .brand .nm span { color: var(--text-3); font-weight: 400; }
@@ -30,6 +32,7 @@
 @media (min-width: 901px) {
   .shell.rail-collapsed { --rail: 78px; }
   .rail-collapsed .brand { justify-content: center; padding: 16px 0 12px; }
+  .rail-collapsed .brand-link { flex: none; justify-content: center; }
   .rail-collapsed .brand .nm { display: none; }
   .rail-collapsed .nav { padding: 4px 8px 12px; }
   .rail-collapsed .nav-grp { display: none; }

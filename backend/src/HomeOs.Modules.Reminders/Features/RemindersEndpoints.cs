@@ -45,7 +45,19 @@ public static class RemindersEndpoints
         if (string.IsNullOrWhiteSpace(req.Title) || ParseDate(req.RemindOn) is not { } remindOn)
             return Results.ValidationProblem(new Dictionary<string, string[]> { ["request"] = [text["error.reminder.required"]] });
 
-        var reminder = Reminder.Create(me.HouseholdId, me.Id, req.ForMemberId ?? me.Id, req.Title,
+        // Guard against accidental duplicates (double-submit, etc.): an identical active reminder → reuse it.
+        var forMember = req.ForMemberId ?? me.Id;
+        var titleTrim = req.Title.Trim();
+        var duplicate = await db.Reminders.FirstOrDefaultAsync(
+            r => r.HouseholdId == me.HouseholdId && r.ForMemberId == forMember && !r.IsDone
+                 && r.Title == titleTrim && r.RemindOn == remindOn, ct);
+        if (duplicate is not null)
+        {
+            var dupNames = await dir.GetNamesAsync(me.HouseholdId, ct);
+            return Results.Ok(ToDto(duplicate, Today(), dupNames, me));
+        }
+
+        var reminder = Reminder.Create(me.HouseholdId, me.Id, forMember, req.Title,
             remindOn, ParseTime(req.RemindAt), req.Notes, ParseVisibility(req.Visibility), ParseRecurrence(req.Recurrence));
 
         db.Reminders.Add(reminder);

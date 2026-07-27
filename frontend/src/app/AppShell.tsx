@@ -103,8 +103,10 @@ export function AppShell() {
       <div className="rail-scrim" onClick={closeRail} aria-hidden="true" />
       <aside className="rail">
         <div className="brand">
-          <span className="mark"><Home size={18} /></span>
-          <span className="nm">Home<span>OS</span></span>
+          <NavLink to="/" end className="brand-link" onClick={closeRail}>
+            <span className="mark"><Home size={18} /></span>
+            <span className="nm">Home<span>OS</span></span>
+          </NavLink>
           <button className="rail-close" type="button" onClick={closeRail} aria-label={t('common.close')}><X size={18} /></button>
         </div>
 

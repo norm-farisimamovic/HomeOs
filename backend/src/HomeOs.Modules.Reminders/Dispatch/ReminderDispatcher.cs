@@ -1,4 +1,5 @@
 using HomeOs.Modules.Reminders.Persistence;
+using HomeOs.Platform.Entities;
 using HomeOs.Platform.Localization;
 using HomeOs.Platform.Members;
 using HomeOs.Platform.Notifications;
@@ -62,16 +63,28 @@ public sealed class ReminderDispatcher(IServiceScopeFactory scopeFactory, IAppTe
             var stage = LeadSchedule.StageToFire(daysUntil, LeadSchedule.Reminders, reminder.NotifiedLeadDays);
             if (stage is null) continue;
 
-            var culture = await CultureFor(directory, cultures, reminder.HouseholdId, reminder.ForMemberId, ct);
-            // The lead-up stages carry an "in N days"/"tomorrow" prefix; the day-of alert is just the reminder.
-            var lead = daysUntil <= 0 ? null
-                : daysUntil == 1 ? text.T(culture, "reminder.tomorrow")
-                : text.T(culture, "reminder.inDays", daysUntil);
-            var body = string.Join("\n", new[] { lead, reminder.Notes }.Where(s => !string.IsNullOrWhiteSpace(s)));
+            // Populate the household's member→culture cache once.
+            await CultureFor(directory, cultures, reminder.HouseholdId, reminder.ForMemberId, ct);
+            var memberCultures = cultures[reminder.HouseholdId];
 
-            await notifications.NotifyAsync(
-                reminder.HouseholdId, reminder.ForMemberId, "reminder",
-                reminder.Title, string.IsNullOrEmpty(body) ? null : body, "/reminders", alsoEmail: true, cancellationToken: ct);
+            // A Household reminder nudges everyone in the home; a private one only its target member.
+            var targets = reminder.Visibility == Visibility.Household
+                ? memberCultures.Keys.ToList()
+                : new List<Guid> { reminder.ForMemberId };
+
+            foreach (var targetId in targets)
+            {
+                var culture = memberCultures.TryGetValue(targetId, out var c) && !string.IsNullOrWhiteSpace(c) ? c : "bs";
+                // The lead-up stages carry an "in N days"/"tomorrow" prefix; the day-of alert is just the reminder.
+                var lead = daysUntil <= 0 ? null
+                    : daysUntil == 1 ? text.T(culture, "reminder.tomorrow")
+                    : text.T(culture, "reminder.inDays", daysUntil);
+                var body = string.Join("\n", new[] { lead, reminder.Notes }.Where(s => !string.IsNullOrWhiteSpace(s)));
+
+                await notifications.NotifyAsync(
+                    reminder.HouseholdId, targetId, "reminder",
+                    reminder.Title, string.IsNullOrEmpty(body) ? null : body, "/reminders", alsoEmail: true, cancellationToken: ct);
+            }
             reminder.MarkNotified(stage.Value);
             sent++;
         }

@@ -1,3 +1,5 @@
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.Json.Nodes;
 using HomeOs.Platform.Digest;
 using HomeOs.Platform.Members;
@@ -28,9 +30,14 @@ public sealed class AddReminderTool(ICurrentMember me, IReminderService reminder
         if (string.IsNullOrWhiteSpace(title) || !DateOnly.TryParse(args["date"]?.GetValue<string>(), out var date))
             return new AssistantToolResult("Error: title and a valid date (YYYY-MM-DD) are required.");
         TimeOnly? time = TimeOnly.TryParse(args["time"]?.GetValue<string>(), out var tt) ? tt : null;
-        await reminders.ScheduleAsync(new ScheduledReminder(me.HouseholdId, me.Id, me.Id, title, date, time, "assistant", Guid.NewGuid()), ct);
+        // Deterministic source id from who/what/when → if the model fires the tool twice, ScheduleAsync
+        // upserts instead of creating a duplicate reminder.
+        var sourceId = DeterministicId($"{me.Id}|{title.ToLowerInvariant()}|{date:yyyy-MM-dd}");
+        await reminders.ScheduleAsync(new ScheduledReminder(me.HouseholdId, me.Id, me.Id, title, date, time, "assistant", sourceId), ct);
         return new AssistantToolResult($"Reminder '{title}' scheduled for {date:yyyy-MM-dd}.", $"Reminder: {title} ({date:yyyy-MM-dd})");
     }
+
+    private static Guid DeterministicId(string seed) => new(MD5.HashData(Encoding.UTF8.GetBytes(seed)));
 }
 
 /// <summary>Assistant tool: list the member's upcoming items from every registered <see cref="IUpcomingProvider"/>.</summary>
