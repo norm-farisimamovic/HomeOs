@@ -4,7 +4,7 @@ import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
   Archive, Bell, Blocks, Calendar, CheckSquare, Home, Kanban, LogOut, Mail, Menu, MessageCircle,
-  Moon, ScrollText, Search, Settings, ShoppingCart, Sparkles, StickyNote, Sun, User, Users, Wallet, X, Zap,
+  FileBarChart, Moon, ScrollText, Search, Settings, ShoppingCart, Sparkles, StickyNote, Sun, User, Users, Wallet, X, Zap,
 } from 'lucide-react'
 import { useUiStore } from '@/platform/ui/uiStore'
 import { useLogout, useMe } from '@/platform/auth/useAuth'
@@ -49,6 +49,7 @@ const NAV: NavEntry[] = [
   { to: '/household', labelKey: 'nav.household', icon: Users, hue: 'var(--text-3)' },
   { to: '/notifications', labelKey: 'nav.notifications', icon: Mail, hue: 'var(--text-3)' },
   { to: '/automations', labelKey: 'nav.automations', icon: Zap, hue: 'var(--text-3)', appId: 'automations' },
+  { to: '/reports', labelKey: 'nav.reports', icon: FileBarChart, hue: 'var(--text-3)' },
   { to: '/audit', labelKey: 'nav.audit', icon: ScrollText, hue: 'var(--text-3)', managerOnly: true },
   { to: '/apps', labelKey: 'nav.apps', icon: Blocks, hue: 'var(--text-3)' },
   { to: '/settings', labelKey: 'nav.settings', icon: Settings, hue: 'var(--text-3)' },

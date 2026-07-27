@@ -15,19 +15,39 @@ const THREAD_KEY = 'homeos.assistant.thread'
  * bubble on every screen that opens a small panel where you pick Assistant or Chat. Hidden on those two
  * full pages (where it would be redundant).
  */
+const CHAT_READ_KEY = 'homeos.chat.lastRead'
+
 export function FloatingChatDock() {
   const { t } = useTranslation()
   const { pathname } = useLocation()
   const [open, setOpen] = useState(false)
   const [tab, setTab] = useState<Tab>('assistant')
+  // Chat query lives here too so the bubble can show an unread badge even when closed.
+  const { data: messages } = useQuery({ queryKey: chatKeys.all, queryFn: chatApi.list })
+  const [lastRead, setLastRead] = useState<string>(() => localStorage.getItem(CHAT_READ_KEY) ?? '')
+
+  const markChatRead = () => {
+    const newest = messages?.[messages.length - 1]?.sentAt
+    if (newest && newest !== lastRead) { setLastRead(newest); localStorage.setItem(CHAT_READ_KEY, newest) }
+  }
+
+  // Baseline on first load (so old history isn't counted), then clear while viewing the chat tab.
+  useEffect(() => {
+    if (!messages?.length) return
+    if (!lastRead || (open && tab === 'chat')) markChatRead()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [messages, open, tab])
+
+  const unread = lastRead ? (messages ?? []).filter((m) => !m.mine && m.sentAt > lastRead).length : 0
 
   if (pathname.startsWith('/chat') || pathname.startsWith('/assistant')) return null
 
   return (
     <>
       {!open && (
-        <button className="dock-fab" type="button" onClick={() => setOpen(true)} aria-label={t('dock.open')} title={t('dock.open')}>
+        <button className="dock-fab" type="button" onClick={() => { setOpen(true) }} aria-label={t('dock.open')} title={t('dock.open')}>
           <MessagesSquare size={22} />
+          {unread > 0 && <span className="dock-badge">{unread > 9 ? '9+' : unread}</span>}
         </button>
       )}
       {open && (

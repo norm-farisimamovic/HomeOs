@@ -364,6 +364,8 @@ span.board-tab > button:first-child { padding: 5px 4px 5px 12px; }
   border: none; background: var(--brand); color: var(--on-brand); box-shadow: var(--shadow-2); cursor: pointer;
   display: grid; place-items: center; transition: transform .12s, filter .12s; }
 .dock-fab:hover { transform: translateY(-2px); filter: brightness(1.06); }
+.dock-badge { position: absolute; top: -2px; right: -2px; min-width: 20px; height: 20px; padding: 0 5px; border-radius: 99px;
+  background: var(--danger); color: #fff; font-size: 11px; font-weight: 700; line-height: 20px; text-align: center; box-shadow: 0 0 0 2px var(--bg); }
 .dock-panel { position: fixed; right: 20px; bottom: 20px; z-index: 95; display: flex; flex-direction: column;
   width: min(380px, calc(100vw - 24px)); height: min(560px, calc(100dvh - 90px));
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); box-shadow: var(--shadow-2); overflow: hidden; }

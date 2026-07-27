@@ -25,7 +25,8 @@
     "profile": "Profil",
     "shopping": "Kupovina",
     "chat": "Chat",
-    "assistant": "Asistent"
+    "assistant": "Asistent",
+    "reports": "Izvještaji"
   },
   "dashboard": {
     "morning": "Dobro jutro, {{name}}",
@@ -788,5 +789,32 @@
   },
   "dock": {
     "open": "Asistent i chat"
+  },
+  "reports": {
+    "title": "Izvještaji",
+    "sub": "Preuzmi PDF izvještaje o svom domaćinstvu.",
+    "download": "Preuzmi PDF",
+    "category": "Kategorija",
+    "amount": "Iznos",
+    "date": "Datum",
+    "type": "Vrsta",
+    "who": "Ko",
+    "name": "Naziv",
+    "due": "Rok",
+    "task": "Zadatak",
+    "priority": "Prioritet",
+    "status": "Status",
+    "done": "Gotovo",
+    "finance": {
+      "title": "Finansije",
+      "desc": "Prihodi, troškovi po kategoriji, transakcije i računi.",
+      "byCategory": "Troškovi po kategoriji",
+      "transactions": "Transakcije",
+      "bills": "Računi"
+    },
+    "tasks": {
+      "title": "Zadaci",
+      "desc": "Svi zadaci — zaduženi, rokovi, prioriteti i status."
+    }
   }
 }

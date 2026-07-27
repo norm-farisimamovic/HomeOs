@@ -25,7 +25,8 @@
     "profile": "Profile",
     "shopping": "Shopping",
     "chat": "Chat",
-    "assistant": "Assistant"
+    "assistant": "Assistant",
+    "reports": "Reports"
   },
   "dashboard": {
     "morning": "Good morning, {{name}}",
@@ -786,5 +787,32 @@
   },
   "dock": {
     "open": "Assistant & chat"
+  },
+  "reports": {
+    "title": "Reports",
+    "sub": "Download PDF reports about your household.",
+    "download": "Download PDF",
+    "category": "Category",
+    "amount": "Amount",
+    "date": "Date",
+    "type": "Type",
+    "who": "Who",
+    "name": "Name",
+    "due": "Due",
+    "task": "Task",
+    "priority": "Priority",
+    "status": "Status",
+    "done": "Done",
+    "finance": {
+      "title": "Finance",
+      "desc": "Income, spending by category, transactions and bills.",
+      "byCategory": "Spending by category",
+      "transactions": "Transactions",
+      "bills": "Bills"
+    },
+    "tasks": {
+      "title": "Tasks",
+      "desc": "All tasks — assignee, due dates, priorities and status."
+    }
   }
 }
