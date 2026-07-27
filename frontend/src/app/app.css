@@ -85,6 +85,18 @@
 .stat .l { font-size: 11.5px; color: var(--text-2); margin-top: 1px; }
 .stat[data-m] .n { color: var(--mc); }
 
+/* Finance KPI cards — a tidy responsive grid instead of full-width bars. */
+.fin-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-bottom: 16px; }
+.fin-stat { position: relative; overflow: hidden; padding: 15px 16px 13px; border-radius: var(--r-lg);
+  background: color-mix(in srgb, var(--mc) 6%, var(--surface)); border: 1px solid color-mix(in srgb, var(--mc) 22%, var(--line));
+  box-shadow: var(--shadow-1); }
+.fin-stat::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--mc); }
+.fin-stat .n { font-family: var(--font-display); font-weight: 800; letter-spacing: -.03em; line-height: 1.1;
+  color: var(--mc); font-size: clamp(18px, 2.2vw, 25px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fin-stat .l { font-size: 12px; color: var(--text-2); margin-top: 4px; }
+@media (max-width: 1080px) { .fin-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 420px) { .fin-stats { grid-template-columns: 1fr; } }
+
 /* connection map — the "everything connects" signature */
 .web { width: 270px; flex: none; }
 .web svg { width: 100%; height: auto; display: block; }

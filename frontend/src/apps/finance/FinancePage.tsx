@@ -54,11 +54,11 @@ export function FinancePage() {
         </div>
       </div>
 
-      <div className="stats" style={{ marginBottom: 16 }}>
-        <div className="stat" data-m style={mc('var(--m-finance)')}><div className="n">{money(summary?.income ?? 0, cur)}</div><div className="l">{t('finance.income')}</div></div>
-        <div className="stat" data-m style={mc('var(--danger)')}><div className="n">{money(summary?.spent ?? 0, cur)}</div><div className="l">{t('finance.spent')}</div></div>
-        <div className="stat" data-m style={mc('var(--brand)')}><div className="n">{money(summary?.balance ?? 0, cur)}</div><div className="l">{t('finance.balance')}</div></div>
-        <div className="stat" data-m style={mc('var(--m-reminders)')}><div className="n">{money(summary?.dueSoonAmount ?? 0, cur)}</div><div className="l">{t('finance.dueSoon', { n: summary?.dueSoonCount ?? 0 })}</div></div>
+      <div className="fin-stats">
+        <div className="fin-stat" style={mc('var(--m-finance)')}><div className="n">{money(summary?.income ?? 0, cur)}</div><div className="l">{t('finance.income')}</div></div>
+        <div className="fin-stat" style={mc('var(--danger)')}><div className="n">{money(summary?.spent ?? 0, cur)}</div><div className="l">{t('finance.spent')}</div></div>
+        <div className="fin-stat" style={mc('var(--brand)')}><div className="n">{money(summary?.balance ?? 0, cur)}</div><div className="l">{t('finance.balance')}</div></div>
+        <div className="fin-stat" style={mc('var(--m-reminders)')}><div className="n">{money(summary?.dueSoonAmount ?? 0, cur)}</div><div className="l">{t('finance.dueSoon', { n: summary?.dueSoonCount ?? 0 })}</div></div>
       </div>
 
       <div className="grid g3" style={{ alignItems: 'start' }}>
