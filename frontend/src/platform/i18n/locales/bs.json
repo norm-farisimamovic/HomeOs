@@ -778,6 +778,11 @@
     "yours": "Vaša domaćinstva",
     "create": "Novo domaćinstvo",
     "created": "Domaćinstvo napravljeno",
-    "namePh": "Naziv domaćinstva"
+    "namePh": "Naziv domaćinstva",
+    "current": "Trenutno",
+    "switch": "Prebaci",
+    "name": "Naziv domaćinstva",
+    "createHint": "Napravi zasebno domaćinstvo koje ti pripada (npr. „Kuća\" i „Posao\"). Prebacuješ se između njih iz ovog menija.",
+    "manageHint": "Kreiranje novog domaćinstva ne traži novi email — pravi povezani nalog za tebe, pa te ne dira validacija za pozivanje članova."
   }
 }

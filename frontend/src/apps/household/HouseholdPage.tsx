@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Check, Pencil, Trash2, UserPlus, X } from 'lucide-react'
+import { Check, Home, Pencil, Plus, Trash2, UserPlus, X } from 'lucide-react'
 import { useMe } from '@/platform/auth/useAuth'
 import { Avatar } from '@/shared/components/Avatar'
 import { confirm } from '@/platform/ui/confirmStore'
+import { toast } from '@/platform/ui/toastStore'
+import { useSwitchHousehold, useSwitchableHouseholds } from '@/platform/households/api'
 import { ROLES, type HouseholdMember } from './api'
 import { useCancelInvite, useChangeRole, useHouseholdMembers, useInvites, useRemoveMember, useRenameHousehold } from './hooks'
 import { InviteModal } from './InviteModal'
 import { EditMemberModal } from './EditMemberModal'
+import { CreateHouseholdModal } from './CreateHouseholdModal'
 
 export function HouseholdPage() {
   const { t } = useTranslation()
@@ -19,9 +22,17 @@ export function HouseholdPage() {
   const removeMember = useRemoveMember()
   const cancelInvite = useCancelInvite()
   const rename = useRenameHousehold()
+  const { data: myHouseholds = [] } = useSwitchableHouseholds()
+  const switchTo = useSwitchHousehold()
   const [inviteOpen, setInviteOpen] = useState(false)
+  const [createHouseholdOpen, setCreateHouseholdOpen] = useState(false)
   const [editName, setEditName] = useState<string | null>(null)
   const [editMember, setEditMember] = useState<HouseholdMember | null>(null)
+
+  const onSwitchHousehold = (householdId: string) => {
+    if (switchTo.isPending) return
+    switchTo.mutate(householdId, { onSuccess: () => window.location.assign('/'), onError: () => toast.error(t('common.error')) })
+  }
 
   const saveName = () => {
     const v = (editName ?? '').trim()
@@ -124,7 +135,32 @@ export function HouseholdPage() {
         </div>
       )}
 
+      <div className="card" style={{ marginTop: 14 }}>
+        <div className="card-h">
+          <div className="t"><h3>{t('households.yours')}</h3></div>
+          <button className="btn sm" type="button" onClick={() => setCreateHouseholdOpen(true)}><Plus size={14} />{t('households.create')}</button>
+        </div>
+        <div className="card-b flush">
+          {myHouseholds.map((h) => (
+            <div className="row-item" key={h.householdId}>
+              <span className="empty-ico sm" style={{ ['--mc' as string]: 'var(--brand)' }}><Home size={15} /></span>
+              <div className="body">
+                <div className="ttl">{h.householdName}{h.current && <span className="chip solid">{t('households.current')}</span>}</div>
+                <div className="meta">{h.roles}</div>
+              </div>
+              <div className="end">
+                {!h.current && (
+                  <button className="btn sm ghost" type="button" disabled={switchTo.isPending} onClick={() => onSwitchHousehold(h.householdId)}>{t('households.switch')}</button>
+                )}
+              </div>
+            </div>
+          ))}
+          <p className="hint" style={{ padding: '10px 16px 0' }}>{t('households.manageHint')}</p>
+        </div>
+      </div>
+
       {inviteOpen && <InviteModal onClose={() => setInviteOpen(false)} />}
+      {createHouseholdOpen && <CreateHouseholdModal onClose={() => setCreateHouseholdOpen(false)} />}
       {editMember && <EditMemberModal member={editMember} onClose={() => setEditMember(null)} />}
     </div>
   )

@@ -776,6 +776,11 @@
     "yours": "Your households",
     "create": "New household",
     "created": "Household created",
-    "namePh": "Household name"
+    "namePh": "Household name",
+    "current": "Current",
+    "switch": "Switch",
+    "name": "Household name",
+    "createHint": "Create a separate household you own (e.g. \"Home\" and \"Work\"). Switch between them from here.",
+    "manageHint": "Creating a household never asks for another email — it makes a linked account for you, so the member-invite checks never get in the way."
   }
 }
