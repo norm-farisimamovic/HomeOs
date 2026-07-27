@@ -21,8 +21,9 @@ public sealed class AddTaskTool(ICurrentMember me, TasksDbContext db, IMemberDir
     public string Name => "add_task";
 
     public string Description => "Create a to-do task for the household (optional due date, priority, and an " +
-        "assignee by name). Use this when the user wants a task/to-do, not a reminder. Assign it when the user " +
-        "names a person ('za Ana', 'for Mirza') so that person gets notified.";
+        "assignee by name). Use this when the user wants a task/to-do, not a reminder. Whenever the user names " +
+        "a person to be responsible — in ANY grammatical form, e.g. 'za Ana', 'zaduži Farisa', 'zadužena osoba " +
+        "Faris Imamović', 'for Mirza' — set the 'assignee' field to that name so they get notified.";
 
     public JsonObject Parameters => new()
     {
@@ -54,9 +55,7 @@ public sealed class AddTaskTool(ICurrentMember me, TasksDbContext db, IMemberDir
         if (!string.IsNullOrWhiteSpace(wanted))
         {
             var people = await members.GetHouseholdMembersAsync(me.HouseholdId, ct);
-            var match = people.FirstOrDefault(m => m.DisplayName.Equals(wanted, StringComparison.OrdinalIgnoreCase))
-                ?? people.FirstOrDefault(m => m.DisplayName.Split(' ').FirstOrDefault()?.Equals(wanted, StringComparison.OrdinalIgnoreCase) == true)
-                ?? people.FirstOrDefault(m => m.DisplayName.Contains(wanted, StringComparison.OrdinalIgnoreCase));
+            var match = ResolveMember(people, wanted);
             if (match is not null) { assigneeId = match.Id; assigneeName = match.DisplayName; }
         }
 
@@ -71,4 +70,46 @@ public sealed class AddTaskTool(ICurrentMember me, TasksDbContext db, IMemberDir
         var forWhom = assigneeName is not null ? $" for {assigneeName}" : string.Empty;
         return new AssistantToolResult($"Task '{title}'{forWhom}{when} created.", $"Task: {title}{forWhom}{when}");
     }
+
+    /// <summary>
+    /// Resolves a member from a free-text name, tolerating Bosnian grammatical cases ("Farisa Imamovica" →
+    /// "Faris Imamović") and diacritics — the assistant often passes a declined form of the name.
+    /// </summary>
+    private static MemberSummary? ResolveMember(IReadOnlyList<MemberSummary> people, string wanted)
+    {
+        var w = Fold(wanted);
+        if (w.Length == 0) return null;
+
+        var exact = people.FirstOrDefault(m => Fold(m.DisplayName) == w);
+        if (exact is not null) return exact;
+
+        var contains = people.FirstOrDefault(m => w.Contains(Fold(m.DisplayName)) || Fold(m.DisplayName).Contains(w));
+        if (contains is not null) return contains;
+
+        // Token stem overlap — the strongest score wins (needs at least one matching name part).
+        var wantedTokens = w.Split(new[] { ' ', ',', '.' }, StringSplitOptions.RemoveEmptyEntries);
+        MemberSummary? best = null;
+        var bestScore = 0;
+        foreach (var m in people)
+        {
+            var nameTokens = Fold(m.DisplayName).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            var score = nameTokens.Count(nt => wantedTokens.Any(wt => StemMatch(nt, wt)));
+            if (score > bestScore) { bestScore = score; best = m; }
+        }
+        return bestScore > 0 ? best : null;
+    }
+
+    // Two name parts match if they share a long-enough prefix (so a case suffix like -a/-u/-om is ignored).
+    private static bool StemMatch(string a, string b)
+    {
+        if (a.Length < 3 || b.Length < 3) return a == b;
+        var n = Math.Min(a.Length, b.Length);
+        var i = 0;
+        while (i < n && a[i] == b[i]) i++;
+        return i >= 3 && i >= n - 2;
+    }
+
+    // Lowercase + fold Bosnian diacritics so "Imamović" and "imamovica" compare equal at the stem.
+    private static string Fold(string s) => s.Trim().ToLowerInvariant()
+        .Replace("dž", "dz").Replace('ć', 'c').Replace('č', 'c').Replace('š', 's').Replace('ž', 'z').Replace('đ', 'd');
 }
