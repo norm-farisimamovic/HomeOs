@@ -6,6 +6,7 @@ single **connected** place, shared between members, with email notifications. It
 and new apps plug in as first-class citizens without touching existing code.
 
 - 📋 **Product & roadmap:** [DEVELOPMENT.md](DEVELOPMENT.md)
+- 🏛️ **Architecture & code structure (report):** [docs/arhitektura-izvjestaj.html](docs/arhitektura-izvjestaj.html) — why the codebase is laid out as a modular monolit + vertical slices, a file-by-file walkthrough of a module (Notes), the frontend `platform`/`shared`/`apps` split, and tests. Open in a browser.
 - 🧭 **Engineering standards:** `.claude/skills/` (`dotnet-backend`, `react-frontend`, `project-manager`)
 - 🗄️ **Database, migrations & seeding:** [docs/SEEDING.md](docs/SEEDING.md)
 - 🚀 **Deployment + SMTP setup:** [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)

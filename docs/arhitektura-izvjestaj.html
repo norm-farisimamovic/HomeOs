@@ -1,0 +1,553 @@
+<title>Home OS — Arhitektura koda</title>
+<style>
+  :root {
+    --paper: #f6f7f9;
+    --card: #ffffff;
+    --ink: #191e28;
+    --muted: #5a6473;
+    --faint: #8a93a2;
+    --line: #e3e7ed;
+    --line-strong: #cfd5de;
+    --accent: #4a5bd4;
+    --accent-soft: #eef0fc;
+    --good: #2f8f5b;
+    --code-bg: #f0f2f6;
+    --shadow: 0 1px 2px rgba(20,28,45,.05), 0 8px 28px rgba(20,28,45,.06);
+    /* modul-boje za dijagram */
+    --m-finance: #3f7cd6;
+    --m-tasks:   #d67a3f;
+    --m-cal:     #6b52c9;
+    --m-notes:   #2f9d8a;
+    --m-chat:    #c9527e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #0e1219;
+      --card: #151b25;
+      --ink: #e7ebf2;
+      --muted: #98a3b4;
+      --faint: #69748a;
+      --line: #232b38;
+      --line-strong: #303a4a;
+      --accent: #8b98ff;
+      --accent-soft: #1b2233;
+      --good: #57c98a;
+      --code-bg: #10151e;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+      --m-finance: #5b93e0;
+      --m-tasks:   #e0975b;
+      --m-cal:     #9a84e6;
+      --m-notes:   #4bbda8;
+      --m-chat:    #e0759b;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0e1219; --card: #151b25; --ink: #e7ebf2; --muted: #98a3b4;
+    --faint: #69748a; --line: #232b38; --line-strong: #303a4a; --accent: #8b98ff;
+    --accent-soft: #1b2233; --good: #57c98a; --code-bg: #10151e;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.35);
+    --m-finance:#5b93e0; --m-tasks:#e0975b; --m-cal:#9a84e6; --m-notes:#4bbda8; --m-chat:#e0759b;
+  }
+  :root[data-theme="light"] {
+    --paper: #f6f7f9; --card: #ffffff; --ink: #191e28; --muted: #5a6473;
+    --faint: #8a93a2; --line: #e3e7ed; --line-strong: #cfd5de; --accent: #4a5bd4;
+    --accent-soft: #eef0fc; --good: #2f8f5b; --code-bg: #f0f2f6;
+    --shadow: 0 1px 2px rgba(20,28,45,.05), 0 8px 28px rgba(20,28,45,.06);
+    --m-finance:#3f7cd6; --m-tasks:#d67a3f; --m-cal:#6b52c9; --m-notes:#2f9d8a; --m-chat:#c9527e;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .mono {
+    font-family: ui-monospace, "SF Mono", "JetBrains Mono", "Cascadia Code", Menlo, Consolas, monospace;
+  }
+  .wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 4.5rem 1.5rem 6rem;
+  }
+
+  /* ---- header ---- */
+  .eyebrow {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: .72rem;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 1rem;
+  }
+  h1 {
+    font-size: clamp(2rem, 5vw, 2.9rem);
+    line-height: 1.08;
+    letter-spacing: -.02em;
+    margin: 0 0 1rem;
+    text-wrap: balance;
+    font-weight: 700;
+  }
+  .lede {
+    font-size: 1.16rem;
+    color: var(--muted);
+    max-width: 60ch;
+    margin: 0;
+  }
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1.4rem;
+    margin-top: 1.8rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--line);
+    font-size: .82rem;
+    color: var(--faint);
+  }
+  .meta-row .mono { color: var(--muted); }
+
+  /* ---- sections ---- */
+  section { margin-top: 3.6rem; }
+  h2 {
+    font-size: 1.5rem;
+    letter-spacing: -.01em;
+    margin: 0 0 .35rem;
+    display: flex;
+    align-items: baseline;
+    gap: .7rem;
+  }
+  h2 .num {
+    font-family: ui-monospace, Menlo, monospace;
+    font-size: .8rem;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .section-sub { color: var(--muted); margin: 0 0 1.6rem; max-width: 62ch; }
+  h3 { font-size: 1.05rem; margin: 2rem 0 .6rem; }
+  p { max-width: 66ch; }
+  a { color: var(--accent); }
+
+  /* ---- thesis callout ---- */
+  .thesis {
+    background: var(--accent-soft);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 10px;
+    padding: 1.3rem 1.5rem;
+    margin: 1.8rem 0;
+  }
+  .thesis p { margin: 0; font-size: 1.08rem; color: var(--ink); max-width: none; }
+  .thesis .tag {
+    display: block;
+    font-family: ui-monospace, Menlo, monospace;
+    font-size: .68rem;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: .5rem;
+  }
+
+  /* ---- kernel / module diagram ---- */
+  .diagram {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.6rem;
+    box-shadow: var(--shadow);
+    margin: 1.4rem 0;
+  }
+  .apps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: .6rem;
+  }
+  .chip {
+    border: 1px solid var(--line-strong);
+    border-top: 3px solid var(--mc, var(--accent));
+    border-radius: 8px;
+    padding: .6rem .7rem;
+    background: var(--paper);
+    text-align: center;
+  }
+  .chip b { display: block; font-size: .9rem; }
+  .chip span { font-size: .72rem; color: var(--faint); }
+  .plug-row {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    color: var(--faint);
+    font-size: 1.1rem;
+    margin: .6rem 0;
+    letter-spacing: .5em;
+  }
+  .kernel {
+    border: 1px dashed var(--accent);
+    background: var(--accent-soft);
+    border-radius: 8px;
+    padding: 1rem 1.1rem;
+    text-align: center;
+  }
+  .kernel .k-title {
+    font-family: ui-monospace, Menlo, monospace;
+    font-size: .8rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: .5rem;
+    font-weight: 600;
+  }
+  .kernel .k-svc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .4rem;
+  }
+  .kernel .k-svc span {
+    font-size: .74rem;
+    background: var(--card);
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    padding: .2rem .65rem;
+    color: var(--muted);
+  }
+  .rule-note { font-size: .82rem; color: var(--faint); text-align: center; margin: .9rem 0 0; }
+
+  /* ---- table ---- */
+  .table-scroll { overflow-x: auto; margin: 1.2rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+  th, td { text-align: left; padding: .7rem .9rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: .74rem; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); font-weight: 600; }
+  td:first-child { font-weight: 600; white-space: nowrap; }
+  tbody tr:last-child td { border-bottom: none; }
+
+  /* ---- file tree ---- */
+  .tree {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    margin: 1rem 0 1.6rem;
+  }
+  .tree-head {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    padding: .7rem 1.1rem;
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+    font-family: ui-monospace, Menlo, monospace;
+    font-size: .8rem;
+    color: var(--muted);
+  }
+  .tree-head .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--mc, var(--accent)); flex: none; }
+  .row {
+    display: grid;
+    grid-template-columns: minmax(180px, 260px) 1fr;
+    gap: .5rem 1.2rem;
+    padding: .55rem 1.1rem;
+    border-bottom: 1px solid var(--line);
+    align-items: baseline;
+  }
+  .row:last-child { border-bottom: none; }
+  .row .path {
+    font-family: ui-monospace, Menlo, monospace;
+    font-size: .82rem;
+    color: var(--ink);
+    word-break: break-word;
+  }
+  .row .path .dir { color: var(--accent); }
+  .row .desc { font-size: .88rem; color: var(--muted); }
+  .row.folder { background: color-mix(in srgb, var(--accent-soft) 55%, transparent); }
+  .row.folder .path { font-weight: 600; }
+  @media (max-width: 560px) {
+    .row { grid-template-columns: 1fr; gap: .15rem; }
+  }
+
+  /* ---- code snippet ---- */
+  pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 1.1rem 1.2rem;
+    overflow-x: auto;
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+    font-size: .82rem;
+    line-height: 1.7;
+    margin: 1rem 0;
+  }
+  pre .c { color: var(--faint); font-style: italic; }
+  pre .k { color: var(--accent); }
+  pre .s { color: var(--good); }
+
+  /* ---- takeaways ---- */
+  .takeaways { display: grid; gap: .8rem; margin-top: 1.4rem; }
+  .take {
+    display: flex;
+    gap: .9rem;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+    box-shadow: var(--shadow);
+  }
+  .take .qmark { font-family: ui-monospace, Menlo, monospace; color: var(--accent); font-weight: 700; flex: none; }
+  .take p { margin: 0; max-width: none; font-size: .95rem; }
+
+  footer {
+    margin-top: 4rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--line);
+    font-size: .8rem;
+    color: var(--faint);
+  }
+  code.inline {
+    font-family: ui-monospace, Menlo, monospace;
+    font-size: .85em;
+    background: var(--code-bg);
+    padding: .1rem .4rem;
+    border-radius: 5px;
+  }
+</style>
+
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Tehnički izvještaj · Arhitektura</p>
+    <h1>Home OS: zašto je kod posložen ovako</h1>
+    <p class="lede">Home OS nije obična CRUD aplikacija nego <strong>platforma</strong>. Zadatak izričito traži da se nove aplikacije dodaju kao punopravni dio sistema — <strong>bez diranja postojećeg koda</strong>. Cijela struktura izvire iz tog jednog zahtjeva.</p>
+    <div class="meta-row">
+      <span>Backend · <span class="mono">.NET 8 / C#</span></span>
+      <span>Frontend · <span class="mono">React 19 + TypeScript</span></span>
+      <span>Obrazac · <span class="mono">Modularni monolit + vertical slices</span></span>
+    </div>
+  </header>
+
+  <section>
+    <h2><span class="num">01</span> Glavni razlog</h2>
+    <p class="section-sub">Jedna odluka objašnjava sve ostalo: sistem mora biti <em>otvoren za proširenje, a zatvoren za izmjenu</em>.</p>
+    <p>U zadatku se traži 8 ugrađenih aplikacija (Dashboard, Tasks, Kanban, Calendar, Reminders, Notes, Finance, Life admin) koje se ponašaju kao dodaci na zajedničku osnovu. Ako svaka nova aplikacija zahtijeva prepravku postojećih, sistem se ne skalira i svaka izmjena nosi rizik. Zato je kod podijeljen tako da je <strong>svaka aplikacija samostalan modul</strong> koji se "ukopča" u zajedničku <strong>platformu (kernel)</strong>.</p>
+    <div class="thesis">
+      <p>„Moduli se ne poznaju međusobno. Kad dodam novu aplikaciju, ne diram nijedan postojeći modul — samo napišem novi <span class="mono">HomeOs.Modules.X</span> i on se sam registruje u platformu preko manifesta i event busa."</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span> Kernel i moduli</h2>
+    <p class="section-sub">Sve zajedničko živi u jednoj jezgri. Aplikacije koriste jezgru; jezgra ne zna za pojedinačne aplikacije. Moduli međusobno ne komuniciraju direktno — samo kroz kernel.</p>
+    <div class="diagram">
+      <div class="apps">
+        <div class="chip" style="--mc: var(--m-finance)"><b>Finance</b><span>Modul</span></div>
+        <div class="chip" style="--mc: var(--m-tasks)"><b>Tasks</b><span>Modul</span></div>
+        <div class="chip" style="--mc: var(--m-cal)"><b>Calendar</b><span>Modul</span></div>
+        <div class="chip" style="--mc: var(--m-notes)"><b>Notes</b><span>Modul</span></div>
+        <div class="chip" style="--mc: var(--m-chat)"><b>Chat …</b><span>Modul</span></div>
+      </div>
+      <div class="plug-row" aria-hidden="true">↕ ↕ ↕ ↕ ↕</div>
+      <div class="kernel">
+        <div class="k-title">HomeOs.Platform — kernel</div>
+        <div class="k-svc">
+          <span>Event bus</span><span>Registar aplikacija</span><span>Članovi</span>
+          <span>Pristup / dozvole</span><span>Veze entiteta</span><span>Pretraga</span>
+          <span>Notifikacije</span><span>Kalendar</span><span>Lokalizacija</span>
+        </div>
+      </div>
+      <p class="rule-note">Pravilo zavisnosti: <span class="mono">Modul → Platform</span> (nikad <span class="mono">Modul → Modul</span>)</p>
+    </div>
+    <h3>Vertikalni slojevi unutar modula</h3>
+    <p>Umjesto klasične podjele po tehničkim slojevima (svi kontroleri na jednom mjestu, svi servisi na drugom), svaka funkcionalnost je <strong>zaokružena cjelina</strong>: domenski model, endpointi i pristup bazi stoje zajedno. Kad radiš na jednoj funkciji, sve ti je u istom modulu — lakše se čita, lakše testira, manje sudaranja pri radu više ljudi.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span> Tehnološke odluke</h2>
+    <p class="section-sub">Zašto baš ovaj stack — svaka stavka ima praktičan razlog.</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Odluka</th><th>Zašto</th></tr></thead>
+        <tbody>
+          <tr><td>.NET 8 (LTS) / C#</td><td>Instalirana verzija, dugoročna podrška (LTS) i dobra besplatna hosting podrška.</td></tr>
+          <tr><td>Modularni monolit<br><span class="mono" style="font-size:.8em;color:var(--faint)">a ne mikroservisi</span></td><td>Izolacija i modularnost mikroservisa, ali bez njihove operativne kompleksnosti — jedan deploy, jedna baza, bez mrežne latencije. Modul se kasnije lako izdvoji ako zatreba.</td></tr>
+          <tr><td>MySQL + EF Core (Pomelo)</td><td>Provjerena besplatna baza; EF Core znači manje ručnog SQL-a i migracije "u kodu".</td></tr>
+          <tr><td>SignalR</td><td>Real-time (chat, žive notifikacije) bez ručnog WebSocket koda.</td></tr>
+          <tr><td>React 19 + TanStack Query + Zustand</td><td>Jasna podjela odgovornosti: TanStack Query drži podatke sa servera, Zustand drži stanje UI-a. Ne miješaju se.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span> Primjer: modul Finance</h2>
+    <p class="section-sub">Isti obrazac vrijedi za svaki modul. Evo gdje se šta nalazi i za šta služi — prvo backend, pa frontend.</p>
+
+    <h3>Backend — <span class="mono">backend/src/HomeOs.Modules.Finance/</span></h3>
+    <div class="tree">
+      <div class="tree-head" style="--mc: var(--m-finance)"><span class="dot"></span> HomeOs.Modules.Finance</div>
+      <div class="row"><div class="path"><span class="dir">Domain/</span> Bill · Budget · Transaction<span>.cs</span></div><div class="desc">Domenski modeli — šta modul zna: račun, budžet, transakcija. Čista poslovna logika, bez baze i HTTP-a.</div></div>
+      <div class="row"><div class="path"><span class="dir">Features/</span> FinanceEndpoints<span>.cs</span> · FinanceDtos<span>.cs</span></div><div class="desc">API rute (<span class="mono">/api/finance</span>) i DTO-ovi — ono što se šalje frontendu. Ovdje je "vertikalni slice" logike.</div></div>
+      <div class="row"><div class="path"><span class="dir">Persistence/</span> FinanceDbContext<span>.cs</span> · Migrations/</div><div class="desc">EF Core kontekst (mapiranje na MySQL) i migracije — vlastita šema baze modula.</div></div>
+      <div class="row"><div class="path"><span class="dir">Contracts/</span> FinanceEvents<span>.cs</span></div><div class="desc">Događaji koje modul objavljuje na event bus (npr. "račun dospijeva"). Način na koji drugi reaguju bez direktne zavisnosti.</div></div>
+      <div class="row"><div class="path"><span class="dir">Search/</span> FinanceSearchProvider<span>.cs</span></div><div class="desc">Priključak na globalnu pretragu — modul doprinosi svoje rezultate.</div></div>
+      <div class="row"><div class="path"><span class="dir">Calendar/</span> BillsCalendarSource<span>.cs</span></div><div class="desc">Priključak na zajednički kalendar — datumi dospijeća računa se pojave u kalendaru.</div></div>
+      <div class="row"><div class="path"><span class="dir">Digest/</span> · <span class="dir">Dispatch/</span></div><div class="desc">Doprinos dnevnom sažetku i pozadinski servis koji šalje podsjetnik (u aplikaciji + email) prije dospijeća računa.</div></div>
+      <div class="row"><div class="path"><span class="dir">Seeding/</span> FinanceDemoSeeder<span>.cs</span></div><div class="desc">Demo podaci za prikaz i testiranje.</div></div>
+      <div class="row folder"><div class="path">FinanceModule<span>.cs</span> ★</div><div class="desc">Najvažniji fajl: ovdje se modul <strong>ukopčava u platformu</strong> — registruje bazu, event handlere, priključke i svoj manifest. Vidi ispod.</div></div>
+    </div>
+
+    <p>U <span class="mono">FinanceModule.cs</span> se vidi cijela filozofija — modul <em>sam sebe</em> prijavi platformi kroz standardne priključke, a host ga automatski pokupi:</p>
+    <pre><span class="c">// Composition za Finance app — host ga registruje isto kao bilo koju drugu app.</span>
+<span class="k">public static</span> IServiceCollection AddFinanceModule(...) {
+    services.AddDbContextPool&lt;FinanceDbContext&gt;(...);   <span class="c">// vlastita baza</span>
+    services.AddEventHandlers(...);                    <span class="c">// sluša event bus</span>
+    services.AddScoped&lt;ICalendarSource, BillsCalendarSource&gt;();  <span class="c">// → kalendar</span>
+    services.AddScoped&lt;ISearchProvider, FinanceSearchProvider&gt;(); <span class="c">// → pretraga</span>
+    services.AddHostedService&lt;BillDispatcher&gt;();        <span class="c">// → podsjetnici</span>
+    services.AddSingleton&lt;IAppModule, FinanceAppModule&gt;(); <span class="c">// → najavi app</span>
+}
+
+<span class="c">// Manifest: ime, ikona, boja, rute, dozvole — platforma iz ovoga gradi nav i pristup.</span>
+<span class="k">new</span> AppManifest(<span class="s">"finance"</span>, <span class="s">"nav.finance"</span>, ..., <span class="s">"/finance"</span>, <span class="s">"/api/finance"</span>,
+                [<span class="s">"read:finance"</span>, <span class="s">"write:finance"</span>]);</pre>
+
+    <h3>Frontend — <span class="mono">frontend/src/apps/finance/</span></h3>
+    <p>Frontend je <strong>ogledalo backenda</strong>: <span class="mono">platform/</span> je kernel (registar aplikacija, auth, i18n, pretraga), a <span class="mono">apps/&lt;ime&gt;/</span> je po jedna aplikacija. Aplikacije se registruju na zajedničke površine i ne uvoze jedna drugu.</p>
+    <div class="tree">
+      <div class="tree-head" style="--mc: var(--m-finance)"><span class="dot"></span> apps/finance</div>
+      <div class="row folder"><div class="path">FinancePage<span>.tsx</span></div><div class="desc">Glavni ekran aplikacije — pregled mjeseca, transakcije, nadolazeći računi. Sastavlja sve ostale dijelove.</div></div>
+      <div class="row"><div class="path">hooks<span>.ts</span></div><div class="desc">TanStack Query hookovi (<span class="mono">useBills</span>, <span class="mono">useTransactions</span> …) — dohvat i keširanje podataka sa servera.</div></div>
+      <div class="row"><div class="path">api<span>.ts</span></div><div class="desc">Tanak sloj poziva prema <span class="mono">/api/finance</span> — sve mrežne funkcije na jednom mjestu.</div></div>
+      <div class="row"><div class="path">AddTransactionModal<span>.tsx</span> · AddBillModal<span>.tsx</span></div><div class="desc">Forme (modali) za unos transakcije i računa.</div></div>
+      <div class="row"><div class="path">BudgetsCard<span>.tsx</span> · CurrencyPicker<span>.tsx</span></div><div class="desc">Manje komponente ekrana — kartica budžeta i izbor valute.</div></div>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem">Zajedničko (dugmad, modal, avatar, prilozi) živi u <span class="mono">shared/</span>, a platformske stvari (novac, veze, notifikacije, i18n) u <span class="mono">platform/</span> — pa ih svaka aplikacija samo uvozi, ne prepisuje.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span> Kako je backend organizovan</h2>
+    <p class="section-sub">Čest pitanje: „ima li servisni sloj?" — Nema klasičnog. I to je namjerna odluka.</p>
+    <p>Backend ne koristi teški <span class="mono">Service</span> / <span class="mono">Repository</span> sloj kroz koji sve prolazi. Umjesto toga koristi <strong>Minimal APIs + vertical slice</strong>: svaka ruta je jedna funkcija (handler), a sve što joj treba <strong>ubaci se kroz parametre</strong> (dependency injection). Otvoriš handler i vidiš cijelu radnju od početka do kraja — validacija → baza → odgovor — bez skakanja kroz tri sloja.</p>
+    <pre><span class="c">// Ruta = jedna funkcija. Zavisnosti dolaze kroz parametre (DI).</span>
+<span class="k">private static async</span> Task&lt;IResult&gt; ListBudgetsAsync(
+    ICurrentMember me,      <span class="c">// ko je ulogovan  (platformski servis)</span>
+    FinanceDbContext db,    <span class="c">// baza modula     (EF Core, direktno)</span>
+    CancellationToken ct) {
+    <span class="c">// ... EF Core upit direktno, bez repository omotača:</span>
+    <span class="k">var</span> budgets = <span class="k">await</span> db.Budgets.Where(b =&gt; b.HouseholdId == me.HouseholdId)...
+}</pre>
+    <div class="thesis">
+      <p>„Ne koristimo teški servisni sloj jer bi za ovakve module bio suvišan boilerplate. Svaka ruta je samostalan <em>slice</em> — logika je na jednom mjestu i čita se odozgo. Zajedničke stvari (korisnik, prevodi, novac, događaji) su apstrahovane kao <strong>platformski servisi</strong> i ubacuju se kroz dependency injection. Najmanje koda uz jasne granice."</p>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem">Servisi <em>postoje</em> — ali samo za zajedničke stvari u kernelu: <span class="mono">ICurrentMember</span> (ko je ulogovan), <span class="mono">IAppText</span> (prevodi), event bus, konverzija valuta. Modul ih koristi kroz interfejs, ne pravi svoje kopije.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span> Kompletan modul: Notes (bilješke)</h2>
+    <p class="section-sub">Cijeli modul, fajl po fajl — šta je u svakom i za šta služi. Isti raspored ima svaki modul, pa kad razumiješ ovaj, razumiješ sve.</p>
+    <div class="tree">
+      <div class="tree-head" style="--mc: var(--m-notes)"><span class="dot"></span> HomeOs.Modules.Notes</div>
+
+      <div class="row folder"><div class="path">HomeOs.Modules.Notes<span>.csproj</span></div><div class="desc">Definicija projekta. <strong>Referencira samo <span class="mono">HomeOs.Platform</span></strong> — nijedan drugi modul. To je fizički dokaz izolacije: Notes ne <em>može</em> uvesti Finance ni da hoće. Uz to dodaje EF Core Design paket (za migracije).</div></div>
+
+      <div class="row folder"><div class="path">NotesModule<span>.cs</span> ★</div><div class="desc">„Prijava na platformu". Registruje bazu, event-handlere, seeder i pretragu; sadrži <span class="mono">NotesAppModule</span> (manifest: id <span class="mono">notes</span>, ikona, boja, rute <span class="mono">/notes</span> i <span class="mono">/api/notes</span>, dozvole <span class="mono">read/write:notes</span>) i <span class="mono">NotesHostModule</span> koji host automatski pokupi pri pokretanju.</div></div>
+
+      <div class="row" style="background:color-mix(in srgb, var(--m-notes) 10%, transparent)"><div class="path"><span class="dir">Domain/</span> Note<span>.cs</span></div><div class="desc"><strong>Srce modula.</strong> Entitet bilješke. Privatni konstruktor + tvornička <span class="mono">Create</span> i metode <span class="mono">Update</span>/<span class="mono">SetPinned</span>. Ovdje su pravila: čisti razmake, max 12 tagova, <span class="mono">SharedWith</span> se puni samo kad je vidljivost <em>Shared</em>. Sva svojstva su <span class="mono">private set</span> — ne mogu se prepraviti spolja. Nosi i <span class="mono">EntryDate</span> (kad postoji → bilješka je dnevnički zapis).</div></div>
+
+      <div class="row" style="background:color-mix(in srgb, var(--m-notes) 10%, transparent)"><div class="path"><span class="dir">Features/</span> NotesEndpoints<span>.cs</span></div><div class="desc">API rute i njihova logika: <span class="mono">GET /</span> (lista), <span class="mono">POST /</span> (nova), <span class="mono">PUT /{id}</span> (izmjena), <span class="mono">POST /{id}/pin</span> (zakači), <span class="mono">DELETE /{id}</span>. Tu su i pomoćne funkcije za <strong>vidljivost i dozvole</strong>: <span class="mono">VisibleQuery</span> (grubi filter u bazi), <span class="mono">CanSee</span> (fina provjera), <span class="mono">Editable</span> (smije li mijenjati/brisati), <span class="mono">ToDto</span> (pretvori u izlazni oblik).</div></div>
+
+      <div class="row" style="background:color-mix(in srgb, var(--m-notes) 10%, transparent)"><div class="path"><span class="dir">Features/</span> NoteDtos<span>.cs</span></div><div class="desc">Oblici podataka koji putuju do/od frontenda: <span class="mono">NoteDto</span> (šta se vraća, uklj. <span class="mono">CanEdit</span>), <span class="mono">SaveNoteRequest</span> (unos za create/update) i <span class="mono">PinNoteRequest</span>. DTO ≠ domenski model — namjerno, da baza i API mogu evoluirati odvojeno.</div></div>
+
+      <div class="row" style="background:color-mix(in srgb, var(--m-notes) 10%, transparent)"><div class="path"><span class="dir">Persistence/</span> NotesDbContext<span>.cs</span></div><div class="desc">Most prema MySQL-u. Mapira <span class="mono">Note</span> na tabelu <span class="mono">Notes</span>: primarni ključ, maksimalne dužine (naslov 200, sadržaj 8000), enum <span class="mono">Visibility</span> se čuva kao tekst, i indeks (household + pinned + updated) za brzo listanje.</div></div>
+
+      <div class="row" style="background:color-mix(in srgb, var(--m-notes) 10%, transparent)"><div class="path"><span class="dir">Persistence/</span> NotesDbContextFactory<span>.cs</span></div><div class="desc">Pomoćna „design-time" tvornica da alat <span class="mono">dotnet ef</span> može praviti migracije bez pokretanja cijele aplikacije. Čisto razvojni alat.</div></div>
+
+      <div class="row" style="background:color-mix(in srgb, var(--m-notes) 10%, transparent)"><div class="path"><span class="dir">Persistence/</span> Migrations/</div><div class="desc"><strong>Auto-generisano.</strong> Istorija promjena šeme baze (npr. „dodano polje EntryDate"). Ne piše se ručno — generiše ga EF, a služi da se baza može ponovljivo nadograditi.</div></div>
+
+      <div class="row" style="background:color-mix(in srgb, var(--m-notes) 10%, transparent)"><div class="path"><span class="dir">Contracts/</span> NoteEvents<span>.cs</span></div><div class="desc">Javne „poruke" modula — <span class="mono">NoteCreated</span> događaj koji se objavi na event bus kad nastane bilješka. Drugi mogu slušati, a da ne znaju ništa o Notes modulu.</div></div>
+
+      <div class="row" style="background:color-mix(in srgb, var(--m-notes) 10%, transparent)"><div class="path"><span class="dir">Search/</span> NotesSearchProvider<span>.cs</span></div><div class="desc">Utikač u globalnu pretragu — pretraži naslov/sadržaj, poštujući vidljivost, i vrati do 5 rezultata s linkom na <span class="mono">/notes</span>.</div></div>
+
+      <div class="row" style="background:color-mix(in srgb, var(--m-notes) 10%, transparent)"><div class="path"><span class="dir">Seeding/</span> NotesDemoSeeder<span>.cs</span></div><div class="desc">Samo za demo/razvoj — ubaci nekoliko primjera bilješki (Wi-Fi lozinka, recept…) u „Demo Home" domaćinstvo, i to samo ako je demo režim uključen i ako bilješki još nema.</div></div>
+    </div>
+
+    <div class="thesis">
+      <p>Vidljivost bilješke je <span class="mono">Private</span> / <span class="mono">Household</span> / <span class="mono">Shared</span>. Logika u <span class="mono">NotesEndpoints</span> poštuje to: autor vidi svoje, svi vide <em>Household</em>, kod <em>Shared</em> samo izabrani članovi (<span class="mono">SharedWith</span>), a „manager" (Owner/Admin) vidi sve osim tuđih privatnih. Isti obrazac dozvola dijele svi moduli kroz platformu.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span> Frontend: platform, shared, apps</h2>
+    <p class="section-sub">Tri foldera s jasnom podjelom uloga. Pravilo: <span class="mono">apps</span> smiju koristiti <span class="mono">platform</span> i <span class="mono">shared</span> — ali nikad jedna aplikacija drugu.</p>
+
+    <h3><span class="mono">platform/</span> — jezgra (kernel) na klijentu</h3>
+    <p>„Mozak" frontenda: <strong>sposobnosti</strong> koje aplikacije koriste, a ne prave same — podaci, prijava, real-time, registri. Nije UI.</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Folder</th><th>Za šta služi</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">api/</td><td>Centralni HTTP klijent — <span class="mono">api.get/post/put/del</span> i <span class="mono">ApiError</span>. Svaki poziv prema backendu ide kroz ovo.</td></tr>
+          <tr><td class="mono">apps/</td><td>Klijentski <strong>registar aplikacija</strong> — povuče manifeste sa backenda, i <span class="mono">useApps()</span> iz njih gradi navigaciju i rute. Parnjak backendovom <span class="mono">IAppModule</span>.</td></tr>
+          <tr><td class="mono">auth/</td><td>Prijava/odjava i trenutni korisnik (<span class="mono">useAuth</span>) + tipovi.</td></tr>
+          <tr><td class="mono">query/</td><td>Konfiguracija TanStack Query klijenta (keš, retry politika).</td></tr>
+          <tr><td class="mono">notifications/</td><td>Notifikacije + <strong>SignalR real-time</strong> klijent (<span class="mono">useRealtime</span>) — žive poruke i obavijesti.</td></tr>
+          <tr><td class="mono">search/</td><td>Poziv globalne pretrage koju moduli pune (vidi <span class="mono">NotesSearchProvider</span>).</td></tr>
+          <tr><td class="mono">i18n/</td><td>Prevodi (react-i18next) — <span class="mono">locales/en.json</span>, <span class="mono">bs.json</span>. Bosanski + engleski.</td></tr>
+          <tr><td class="mono">money/</td><td>Formatiranje i konverzija novca (<span class="mono">formatMoney</span>).</td></tr>
+          <tr><td class="mono">members/ · households/ · links/ · attachments/ · audit/</td><td>Pristup zajedničkim platformskim stvarima: članovi, domaćinstva, veze entiteta, prilozi, dnevnik promjena.</td></tr>
+          <tr><td class="mono">surfaces/</td><td><strong>Tačke proširenja</strong> — npr. <span class="mono">dashboardWidgets</span> gdje aplikacije ubacuju svoje widgete na dashboard.</td></tr>
+          <tr><td class="mono">ui/</td><td>Zustand store-ovi za <strong>UI stanje</strong>: toastovi, potvrde (confirm), zvuk, opšte stanje sučelja.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3><span class="mono">shared/</span> — zajedničke UI cigle</h3>
+    <p>„Glupe", reupotrebljive komponente i stilovi — bez poslovne logike. Svaka aplikacija ih slaže po svom.</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Šta</th><th>Sadržaj</th></tr></thead>
+        <tbody>
+          <tr><td class="mono">components/</td><td><span class="mono">Modal</span>, <span class="mono">Avatar</span>, <span class="mono">Attachments</span>, <span class="mono">LinkedItems</span>, <span class="mono">Toaster</span>, <span class="mono">ConfirmHost</span>, <span class="mono">ErrorBoundary</span> (hvata greške u UI-u), <span class="mono">GlobalLoadingBar</span>, <span class="mono">Req</span> (oznaka obaveznog polja).</td></tr>
+          <tr><td class="mono">styles/</td><td><span class="mono">tokens.css</span> — dizajn tokeni (boje, razmaci, module-boje); <span class="mono">ui.css</span> — zajedničke klase. Jedno mjesto za izgled cijele aplikacije.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3><span class="mono">apps/</span> — same aplikacije</h3>
+    <p>Po jedan folder za svaku aplikaciju (<span class="mono">finance</span>, <span class="mono">notes</span>, <span class="mono">tasks</span>, <span class="mono">calendar</span>…). Ogledalo backend modula. Svaka ima svoj ekran, hookove i API sloj, a sve zajedničko uvozi iz <span class="mono">platform/</span> i <span class="mono">shared/</span>.</p>
+
+    <div class="thesis">
+      <p>„<span class="mono">platform</span> je kernel — sposobnosti (podaci, prijava, real-time, registri). <span class="mono">shared</span> su reupotrebljive UI komponente i stilovi. <span class="mono">apps</span> su same aplikacije. Aplikacije koriste prva dva, ali nikad jedna drugu — isto pravilo kao na backendu."</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">08</span> Testovi</h2>
+    <p class="section-sub">Ciljani na najrizičnije stvari — arhitekturno pravilo, autorizaciju i domensku logiku.</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Test projekat</th><th>Šta pokriva</th></tr></thead>
+        <tbody>
+          <tr><td>Architecture.Tests<br><span class="mono" style="font-size:.8em;color:var(--faint)">★ najvažniji</span></td><td><strong>ModuleIsolationTests</strong> automatski provjerava da nijedan modul ne referencira drugi modul — pravilo „moduli se ne poznaju" nije samo dogovor, <strong>test pada</strong> ako ga neko prekrši. Uz to <strong>RecurrenceTests</strong> (logika ponavljanja).</td></tr>
+          <tr><td>Api.Tests</td><td><strong>AuthorizationTests</strong> — provjera pristupa i dozvola na API-ju.</td></tr>
+          <tr><td>Modules.Tasks.Tests</td><td>Domenska logika Tasks modula — <strong>TaskItemTests</strong> i <strong>LeadScheduleTests</strong> (raspored podsjetnika).</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem"><strong>Pošteno stanje:</strong> testovi postoje i pokrivaju kritične tačke, ali <em>nije</em> pokriveno sve — frontend za sada nema testove. To je svjesno na roadmapu, ne propust.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">09</span> Šta je dobit</h2>
+    <div class="takeaways">
+      <div class="take"><span class="qmark">→</span><p><strong>Otvoreno za proširenje, zatvoreno za izmjenu.</strong> Nova aplikacija ne zahtijeva promjenu postojeće — manji rizik od kvarova.</p></div>
+      <div class="take"><span class="qmark">→</span><p><strong>Brži razvoj i lakši onboarding.</strong> Ista mentalna slika na backendu i frontendu; svaki modul je zaokružen i predvidiv.</p></div>
+      <div class="take"><span class="qmark">→</span><p><strong>Tačno ono što zadatak traži.</strong> Proširivost je srž zadatka, a ne naknadna misao — arhitektura je izvedena iz tog zahtjeva.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    Home OS · interni tehnički izvještaj o arhitekturi · pripremljeno za pregled sa timom.
+  </footer>
+
+</div>
