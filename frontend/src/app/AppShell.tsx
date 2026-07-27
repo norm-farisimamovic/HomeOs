@@ -19,6 +19,7 @@ import { NoteModal } from '@/apps/notes/NoteModal'
 import { ReminderModal } from '@/apps/reminders/ReminderModal'
 import { CommandPalette } from '@/app/components/CommandPalette'
 import { HouseholdMenu } from '@/app/components/HouseholdMenu'
+import { FloatingChatDock } from '@/app/components/FloatingChatDock'
 import './app.css'
 
 interface NavEntry {
@@ -197,6 +198,8 @@ export function AppShell() {
           </ErrorBoundary>
         </div>
       </div>
+
+      <FloatingChatDock />
 
       {quick === 'task' && <TaskModal onClose={() => setQuick(null)} />}
       {quick === 'note' && <NoteModal onClose={() => setQuick(null)} />}
