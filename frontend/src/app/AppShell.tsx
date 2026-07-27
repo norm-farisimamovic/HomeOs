@@ -180,7 +180,6 @@ export function AppShell() {
                   <button type="button" onClick={() => { setMenuOpen(false); navigate('/profile') }}><User size={15} />{t('nav.profile')}</button>
                   <button type="button" onClick={() => { setMenuOpen(false); navigate('/settings') }}><Settings size={15} />{t('nav.settings')}</button>
                   <button type="button" onClick={() => { setMenuOpen(false); navigate('/household') }}><Users size={15} />{t('nav.household')}</button>
-                  <div className="sep" />
                   <HouseholdMenu />
                   <div className="sep" />
                   <button type="button" className="danger" onClick={() => void onLogout()}><LogOut size={15} />{t('auth.logout')}</button>
