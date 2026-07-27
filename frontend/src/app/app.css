@@ -162,6 +162,9 @@
   .stat .n { font-size: 20px; }
 
   .page-h h1 { font-size: 1.6rem; }
+  /* Stack header: title/subtitle full width (no squished, cut-off subtitle), action buttons below. */
+  .page-h { flex-direction: column; align-items: stretch; }
+  .page-h .actions { width: 100%; }
 }
 
 /* Never let a stray wide element scroll the whole page sideways on mobile. */
