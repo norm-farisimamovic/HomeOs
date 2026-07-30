@@ -88,3 +88,39 @@ export function useExamMutations() {
 
   return { start, saveAnswer, finish, remove }
 }
+
+/** How many articles of a law are fetched per page. */
+export const LAW_PAGE_SIZE = 25
+
+/** The laws whose full text ships with the app. */
+export function useLaws() {
+  return useQuery({ queryKey: examKeys.laws, queryFn: examsApi.laws, staleTime: 60 * 60 * 1000 })
+}
+
+/**
+ * One law's articles, paged. Reference data that only changes with a release, so it is cached hard —
+ * scrolling a law and coming back should not refetch.
+ */
+export function useLawText(code: string, query: string) {
+  return useInfiniteQuery({
+    queryKey: examKeys.law(code, query),
+    queryFn: ({ pageParam }) => examsApi.law(code, query, pageParam, LAW_PAGE_SIZE),
+    initialPageParam: 0,
+    getNextPageParam: (lastPage, pages) => {
+      const loaded = pages.reduce((n, p) => n + p.articles.length, 0)
+      return loaded < lastPage.matchCount ? loaded : undefined
+    },
+    enabled: !!code,
+    staleTime: 60 * 60 * 1000,
+  })
+}
+
+/** A single article — what the "read this article" popup shows. */
+export function useArticle(code: string | null, key: string | null) {
+  return useQuery({
+    queryKey: examKeys.article(code ?? '', key ?? ''),
+    queryFn: () => examsApi.article(code!, key!),
+    enabled: !!code && !!key,
+    staleTime: 60 * 60 * 1000,
+  })
+}

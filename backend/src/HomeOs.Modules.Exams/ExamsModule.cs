@@ -1,6 +1,7 @@
 using HomeOs.Modules.Exams.Bank;
 using HomeOs.Modules.Exams.Features;
 using HomeOs.Modules.Exams.Grading;
+using HomeOs.Modules.Exams.Laws;
 using HomeOs.Modules.Exams.Persistence;
 using HomeOs.Modules.Exams.Search;
 using HomeOs.Platform;
@@ -34,6 +35,8 @@ public static class ExamsModule
         services.AddSingleton(new MigratableContext(typeof(ExamsDbContext)));
         // Reference data: the embedded JSON is parsed once for the life of the process.
         services.AddSingleton<QuestionBank>();
+        // The four laws' full text, so a question's article citation is readable in place.
+        services.AddSingleton<LawLibrary>();
         services.AddScoped<AnswerGrader>();
         services.AddScoped<ISearchProvider, ExamsSearchProvider>();
         services.AddSingleton<IAppModule, ExamsAppModule>();

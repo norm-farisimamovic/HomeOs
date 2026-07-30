@@ -12,8 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!-- The question bank ships inside the DLL, so the module stays self-contained (no files to copy on deploy). -->
+    <!-- The question bank and the law texts ship inside the DLL, so the module stays self-contained. -->
     <EmbeddedResource Include="Bank\Data\*.json" />
+    <EmbeddedResource Include="Laws\Data\*.json" />
   </ItemGroup>
 
   <PropertyGroup>

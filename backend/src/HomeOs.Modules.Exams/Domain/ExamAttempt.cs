@@ -94,18 +94,25 @@ public sealed class ExamAnswer
     /// <summary>Short explanation of the mark — for open questions this is the examiner's (AI) feedback.</summary>
     public string? Feedback { get; private set; }
 
-    /// <summary>True when an AI examiner graded this answer (false = rule/keyword based).</summary>
+    /// <summary>True when an AI examiner graded this answer (false = decided locally by comparing options).</summary>
     public bool AiGraded { get; private set; }
+
+    /// <summary>
+    /// False when the answer could not be marked at all (a written question with no AI examiner available).
+    /// Ungraded answers are excluded from the attempt's points, so a missing key never costs the candidate marks.
+    /// </summary>
+    public bool Graded { get; private set; } = true;
 
     /// <summary>Records (or replaces) the member's answer while the attempt is still open.</summary>
     public void Answer(string given) => Given = given.Trim();
 
     /// <summary>Applies the grader's verdict.</summary>
-    public void Score(decimal points, bool correct, string? feedback, bool aiGraded)
+    public void Score(decimal points, bool correct, string? feedback, bool aiGraded, bool graded = true)
     {
         Points = points;
         Correct = correct;
         Feedback = feedback;
         AiGraded = aiGraded;
+        Graded = graded;
     }
 }

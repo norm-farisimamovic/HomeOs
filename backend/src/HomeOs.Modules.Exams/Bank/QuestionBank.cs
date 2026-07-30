@@ -48,7 +48,7 @@ public sealed record BankQuestion
     /// <summary>Model answer for open questions — the yardstick for marking, not a required wording.</summary>
     public string? Answer { get; init; }
 
-    /// <summary>Key terms an acceptable open answer should touch; used to mark when no AI examiner is configured.</summary>
+    /// <summary>Key points an acceptable open answer should touch; handed to the AI examiner as the marking guide.</summary>
     public IReadOnlyList<string> Keywords { get; init; } = [];
 
     /// <summary>Why the answer is what it is — shown after the exam.</summary>
@@ -96,7 +96,10 @@ public sealed class QuestionBank
         var assembly = Assembly.GetExecutingAssembly();
         var questions = new List<BankQuestion>();
 
-        foreach (var name in assembly.GetManifestResourceNames().Where(n => n.EndsWith(".json", StringComparison.OrdinalIgnoreCase)).Order())
+        // Only the bank's own files — the assembly also carries the law texts (Laws/Data).
+        foreach (var name in assembly.GetManifestResourceNames()
+            .Where(n => n.Contains(".Bank.Data.", StringComparison.Ordinal))
+            .Order())
         {
             using var stream = assembly.GetManifestResourceStream(name)!;
             var parsed = JsonSerializer.Deserialize<List<BankQuestion>>(stream, JsonOptions) ?? [];

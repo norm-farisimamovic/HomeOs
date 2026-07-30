@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { useSearchParams } from 'react-router-dom'
 import { BookOpen, Eye, EyeOff, Search } from 'lucide-react'
 import type { StudyQuestion } from './api'
+import { ArticleLink } from './ArticleLink'
 import { LawPicker } from './LawPicker'
 import { useExamSubjects, useStudyQuestions } from './hooks'
 
@@ -10,7 +11,7 @@ import { useExamSubjects, useStudyQuestions } from './hooks'
  * Revision mode: the questions of the chosen laws with the answers **already visible** — nothing to
  * guess, nothing marked. The answers can be hidden to turn the same list into a self-test.
  */
-export function StudyPanel() {
+export function StudyPanel({ onOpenLaw }: { onOpenLaw?: (law: string, articleKey: string) => void }) {
   const { t } = useTranslation()
   const [params] = useSearchParams()
   const { data: subjects } = useExamSubjects()
@@ -63,7 +64,9 @@ export function StudyPanel() {
       {!isLoading && questions.length > 0 && (
         <div className="card">
           <div className="card-b flush">
-            {questions.map((q, i) => <StudyRow key={q.id} question={q} index={i + 1} showAnswer={showAnswers} />)}
+            {questions.map((q, i) => (
+              <StudyRow key={q.id} question={q} index={i + 1} showAnswer={showAnswers} onOpenLaw={onOpenLaw} />
+            ))}
           </div>
           {hasNextPage && (
             <div className="modal-f exam-more">
@@ -79,7 +82,12 @@ export function StudyPanel() {
 }
 
 /** One bank question with its answer — shown outright while revising, foldable for a self-test. */
-function StudyRow({ question, index, showAnswer }: { question: StudyQuestion; index: number; showAnswer: boolean }) {
+function StudyRow({ question, index, showAnswer, onOpenLaw }: {
+  question: StudyQuestion
+  index: number
+  showAnswer: boolean
+  onOpenLaw?: (law: string, articleKey: string) => void
+}) {
   const { t } = useTranslation()
   const [revealed, setRevealed] = useState(false)
   const open = showAnswer || revealed
@@ -90,7 +98,9 @@ function StudyRow({ question, index, showAnswer }: { question: StudyQuestion; in
         <span className="meta">
           <span className="chip">{index}.</span>
           <span className="chip" data-m style={{ ['--mc' as string]: 'var(--m-exams)' }}>{question.lawShort}</span>
-          {question.article && <span className="chip">{question.article}</span>}
+          {question.article && (
+            <ArticleLink law={question.law} articleKey={question.articleKey} citation={question.article} onOpenLaw={onOpenLaw} />
+          )}
           {question.topic && <span className="chip hide-sm">{question.topic}</span>}
         </span>
         <p className="text">{question.text}</p>

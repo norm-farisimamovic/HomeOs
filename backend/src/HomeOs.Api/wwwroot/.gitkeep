@@ -1,0 +1,2 @@
+# The built PWA is copied here (Dockerfile does this on deploy); the directory itself must exist so
+# the API's static-file/SPA-fallback middleware has a web root in dev and in tests.

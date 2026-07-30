@@ -1,0 +1,1265 @@
+{
+ "code": "insp",
+ "articles": [
+  {
+   "key": "1",
+   "label": "Član 1",
+   "title": "Predmet zakona",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "Ovim zakonom uređuje se vršenje poslova inspekcijskog nadzora iz nadležnosti Kantonalne uprave za inspekcijske poslove Tuzlanskog kantona (u daljem tekstu: Kantonalna uprava) radi obezbjeđenja kontrole nad primjenom izvršavanja kantonalnih i drugih zakona, drugih propisa i opštih akata, organizacija i poslovi Kantonalne uprave, inspekcijski poslovi, kantonalne inspekcije i njihov djelokrug, postupak inspekcijskog nadzora, prava, obaveze i odgovornosti kantonalnih inspektora, prava i obaveze subjekata nadzora, preventivno djelovanje kantonalnih inspektora u vršenju inspekcijskog nadzora i druga pitanja koja su značajna za funkcionisanje inspekcijskog nadzora u Tuzlanskom kantonu (u daljem tekstu: Kanton)."
+  },
+  {
+   "key": "2",
+   "label": "Član 2",
+   "title": "Pojmovi korišćeni u zakonu",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "Pojmovi korišćeni u ovom zakonu imaju sledeće značenje:\na) kantonalni inspektor - državni službenik sa posebnim ovlašćenjima i odgovornostima;\nb) inspekcijski nadzor - vrsta upravnog nadzora koja se ostvaruje neposrednim uvidom u zakonitost rada, poslovanja i postupanja pravnih lica, fizičkih lica koja obavljaju određenu djelatnost i građana \"fizičkih lica\" u pogledu pridržavanja zakona i drugih propisa, te preduzimanje upravnih i drugih mjera za koje su ovlašćeni zakonom, odnosno drugim propisom (u daljem tekstu: zakoni i drugi propisi);\nc) inspekcijski poslovi - poslovi za koje su ovlašćeni inspektori u okviru inspekcijskog nadzora, a to su:\n1) preventivni - preduzimanje mjera i radnji radi sprečavanja povrede propisa,\n2) korektivni - donošenje rješenja o otklanjanju nedostataka, zabrani preduzimanja radnji koje su u suprotnosti sa zakonima i drugim propisima i drugih upravnih mjera i radnji za koje je inspektor ovlašćen posebnim zakonom ili drugim propisom,\n3) represivni - podnošenje prijava, odnosno zahtjeva nadležnom organu za pokretanje odgovarajućeg postupka, ako povreda propisa predstavlja prekršaj ili krivično djelo i izdavanje prekršajnog naloga,\n4) inspekcijski pregled - neposredni pregled poslovnih prostorija i drugih objekata, sredstava rada, procesa rada i zaštite na radu, proizvoda, robe i usluga, isprava i druge dokumentacije, kao i druge radnje u skladu sa svrhom inspekcijskog nadzora kod pravnih lica, fizičkih lica koja obavljaju određenu djelatnost i građana \"fizičkih lica\",\n5) kontrolni inspekcijski pregled - kontrola u izvršenju i postupanju subjekta nadzora po naloženim upravnim i drugim mjerama u postupku otklanjanja uočenih nepravilnosti;\nd) subjekt nadzora - subjekt nad kojim se vrši inspekcijski pregled iz tačke c) alineja 4) ovog člana;\ne) objekt nadzora - organizacioni dio subjekta nadzora kod pravnih lica i obrtnika koji imaju organizacionu jedinicu u svom sastavu, a kod fizičkih lica koja obavljaju određenu djelatnost i građana \"fizičkih lica\", subjekt nadzora je ujedno i objekt nadzora;\nf) stručna institucija - ovlašćena organizacija za ispitivanje i ocjenjivanje usaglašenosti stanja i proizvoda sa propisima;\ng) ček lista - lista provjera sačinjena na osnovu zakona i drugog propisa koja definiše konkretan predmet, pravni osnov, te mjere koje inspektor može preduzeti u skladu sa zakonom i drugim propisima, u slučaju da prilikom inspekcijskog nadzora utvrdi njihovu povredu."
+  },
+  {
+   "key": "3",
+   "label": "Član 3",
+   "title": "Vršenje inspekcijskog nadzora",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "Inspekcijski nadzor vrši se:\na) preduzimanjem inspekcijskih radnji na utvrđivanju stanja radi izvršavanja zakona i drugih propisa kod subjekta nadzora,\nb) nalaganjem upravnih mjera radi sprečavanja i otklanjanja nezakonitosti u izvršavanju zakona i drugih propisa (u daljem tekstu: upravne mjere),\nc) preduzimanjem preventivnih mjera u skladu sa zakonom i drugim propisima i\nd) preduzimanjem drugih mjera i radnji određenih ovim zakonom i drugim propisom."
+  },
+  {
+   "key": "4",
+   "label": "Član 4",
+   "title": "Uloga i značaj inspekcijskog nadzora",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "Inspekcijskim nadzorom obezbjeđuje se zakonitost i zaštita javnog i privatnog interesa u skladu sa zakonom."
+  },
+  {
+   "key": "5",
+   "label": "Član 5",
+   "title": "Inspekcijski nadzor",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "Inspekcijski nadzor organizovan prema ovom zakonu je djelatnost od opšteg interesa za Kanton."
+  },
+  {
+   "key": "6",
+   "label": "Član 6",
+   "title": "Organizovanje inspekcijskog nadzora",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "(1) Inspekcijski nadzor, prema ovom zakonu, vrše kantonalne inspekcije organizovane u Kantonalnoj upravi, osim inspekcija koje su na drugi način organizovane u skladu sa zakonom, radi obavljanja inspekcijskog nadzora.\n(2) Poslovi inspekcijskog nadzora iz nadležnosti Kantona mogu se, u skladu sa ustavnim određenjima, kantonalnim zakonom povjeriti opštini i gradu.\n(3) Stručni nadzor nad radom opštinskih i gradskih inspekcija nad provođenjem kantonalnih propisa vrši Kantonalna uprava."
+  },
+  {
+   "key": "7",
+   "label": "Član 7",
+   "title": "Radno-pravni status kantonalnih inspektora",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "Na radno-pravni status kantonalnih inspektora i druga pitanja koja nisu uređena ovim zakonom shodno se primjenjuju zakoni i drugi propisi koji važe za zaposlene u organima uprave u Kantonu, osim u pitanjima koja su ovim zakonom drugačije regulisana."
+  },
+  {
+   "key": "8",
+   "label": "Član 8",
+   "title": "Lica koja vrše inspekcijski nadzor",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "(1) Inspekcijski nadzor vrše glavni kantonalni inspektori i kantonalni inspektori kao državni službenici sa posebnim ovlašćenjima i odgovornostima.\n(2) U vršenju inspekcijskog nadzora glavni kantonalni inspektor i kantonalni inspektor je samostalan u granicama ovlasti propisanih ovim zakonom i materijalnim propisima nad čijim provođenjem glavni kantonalni inspektor i kantonalni inspektor vrši inspekcijski nadzor.\n(3) Nije dopušteno uticati na rad glavnog kantonalnog inspektora i kantonalnog inspektora, odnosno sprečavati ga da izvrši inspekcijski nadzor i odredi upravne i druge mjere koje u određenoj situaciji mora preduzeti.\n(4) O svakom nedopuštenom postupanju iz stava (3) ovog člana koje sadrži elemente krivičnog djela, glavni kantonalni inspektor i kantonalni inspektor je dužan podnijeti krivičnu prijavu nadležnom tužilaštvu.\n(5) Odredbe ovog zakona koje se odnose na prava, obaveze i ovlašćenja kantonalnog inspektora u postupku vršenja inspekcijskog nadzora, odnose se i na glavnog kantonalnog inspektora kada on vrši inspekcijski nadzor."
+  },
+  {
+   "key": "9",
+   "label": "Član 9",
+   "title": "Načela vršenja inspekcijskog nadzora",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "(1) U postupku vršenja inspekcijskog nadzora, kantonalni inspektor se pridržava načela zakonitosti, javnosti, odgovornosti, učinkovitosti, ekonomičnosti, profesionalne nepristrasnosti, dosljednosti, nediskriminacije i političke nezavisnosti.\n(2) U postupku inspekcijskog nadzora kantonalni inspektor pridržava se načela pravičnosti tako da mjera naložena od strane kantonalnog inspektora bude srazmjerna težini učinjene povrede.\n(3) Postupak inspekcijskog nadzora, pravila, procedure i ček liste dostupni su javnosti. Kantonalni inspektor pruža stručnu pomoć subjektu nadzora u vezi propisa iz oblasti vršenja inspekcijskog nadzora i drugim mjerama preventivnog djelovanja."
+  },
+  {
+   "key": "10",
+   "label": "Član 10",
+   "title": "Nalaganje upravne mjere",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "Kod nalaganja upravne mjere subjektu nadzora, ako je dopušteno propisom na koji se odnosi inspekcijski nadzor, kantonalni inspektor će naložiti upravnu mjeru koja je blaža, ako se tom mjerom postiže svrha radi koje se mjera nalaže."
+  },
+  {
+   "key": "11",
+   "label": "Član 11",
+   "title": "Preventivne aktivnosti inspekcija",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "Kantonalni inspektor u vršenju inspekcijskog nadzora nadležan je preduzimati preventivne mjere u cilju sprečavanja nastupanja štetnih posljedica zbog nedostataka i nepravilnosti u provedbi zakona i drugih propisa, čije izvršenje nadzire."
+  },
+  {
+   "key": "12",
+   "label": "Član 12",
+   "title": "Etički kodeks",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "(1) U svom radu kantonalni inspektor je dužan da se rukovodi načelima Etičkog kodeksa koji je važeći za državne službenike u Federaciji Bosne i Hercegovine i Etičkog kodeksa za kantonalne inspektore kojeg donosi direktor Kantonalne uprave.\n(2) Ukoliko kantonalni inspektor u obavljanju svojih poslova postupa protivno pravilima utvrđenim u etičkim kodeksima iz stava (1) ovog člana, čini laku povredu službene dužnosti, osim ako je njegovo postupanje obuhvaćeno nekom od težih povreda službene dužnosti iz radnog odnosa predviđenih Zakonom o državnoj službi u Tuzlanskom kantonu (\"Službene novine Tuzlanskog kantona\", br. 7/17, 10/17, 10/18, 14/18 i 8/21 - u daljem tekstu: Zakon o državnoj službi)."
+  },
+  {
+   "key": "13",
+   "label": "Član 13",
+   "title": "Obavještavanje o počinjenom krivičnom djelu",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "Kantonalni inspektor je dužan obavijestiti nadležno tužilaštvo o saznanjima o eventualno počinjenom krivičnom djelu do kojih je došao u toku inspekcijskog nadzora."
+  },
+  {
+   "key": "14",
+   "label": "Član 14",
+   "title": "Propisivanje inspekcijskog nadzora",
+   "chapter": "I. OSNOVNE ODREDBE",
+   "text": "Inspekcijski nadzor i nalaganje upravnih i drugih mjera i radnji propisuje se zakonom."
+  },
+  {
+   "key": "15",
+   "label": "Član 15",
+   "title": "Preventivno djelovanje kantonalnih inspektora",
+   "chapter": "II. PREVENTIVNO DJELOVANJE KANTONALNIH INSPEKTORA U VRŠENJU INSPEKCIJSKOG NADZORA",
+   "text": "U vršenju inspekcijskog nadzora, kantonalni inspektor preduzima preventivne mjere i radnje radi sprečavanja povrede zakona i drugih propisa, sprečavanja nastajanja štetnih posljedica i otklanjanja uzroka koji bi doveli do štetnih posljedica, u cilju zaštite javnog i privatnog interesa."
+  },
+  {
+   "key": "16",
+   "label": "Član 16",
+   "title": "Preventivne mjere",
+   "chapter": "II. PREVENTIVNO DJELOVANJE KANTONALNIH INSPEKTORA U VRŠENJU INSPEKCIJSKOG NADZORA",
+   "text": "(1) U preduzimanju preventivnih mjera, kantonalni inspektor dužan je naročito da:\na) upoznaje subjekte nadzora o obavezama iz zakona i drugih propisa i sankcijama u slučajevima njihovog nepridržavanja,\nb) ukazuje na štetne posljedice koje mogu nastati zbog nepridržavanja zakona i drugih propisa i predlaže mjere za otklanjanje uzroka koji mogu dovesti do štetnih posljedica i o tome donosi rješenje,\nc) upoznaje subjekte nadzora o pravima i obavezama koje imaju u postupku inspekcijskog nadzora,\nd) izvještava nadležne organe o uočenim nedostacima koji nisu posebno propisani i sankcionisani zakonima i drugim propisima,\ne) ukazuje nadležnim organima na teškoće u primjeni zakona i drugih propisa u postupku ostvarivanja prava i obaveza subjekata nadzora kod tih organa, sa ciljem da se taj postupak, što je moguće više, olakša i pojednostavi za subjekta nadzora,\nf) daje informacije i savjete subjektima nadzora o djelotvornijem načinu izvršenja zakona i drugih propisa,\ng) upoznaje subjekte nadzora sa olakšicama utvrđenim zakonom i drugim propisima,\nh) nastoji obezbijediti što potpunije podatke o subjektu nadzora,\ni) gradi povjerenje sa subjektima nadzora (pravnim i fizičkim licima), koja mu se obraćaju zbog povrede zakona i drugih propisa,\nj) ostvaruje saradnju sa udruženjima građana, odgovarajućim službama i drugim pravnim i fizičkim licima koja mu mogu dati bliže podatke o subjektima nadzora,\nk) kantonalni inspektori međusobno sarađuju i pomažu se u radu i nastoje da jedni drugima daju što potpunije i brže informacije sa kojima raspolažu, kako bi ostvarili što efikasnije preventivno djelovanje u postupku inspekcijskog nadzora u skladu sa ovim zakonom.\n(2) Subjekt nadzora je dužan da postupi po rješenju kantonalnog inspektora o naloženim preventivnim mjerama iz stava (1) tačka b) ovog člana."
+  },
+  {
+   "key": "17",
+   "label": "Član 17",
+   "title": "Kantonalna uprava za inspekcijske poslove",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "(1) Kantonalne inspekcije određene ovim zakonom u sastavu su Kantonalne uprave.\n(2) Kantonalna uprava je samostalna kantonalna uprava.\n(3) Sjedište Kantonalne uprave je u Tuzli."
+  },
+  {
+   "key": "18",
+   "label": "Član 18",
+   "title": "Poslovi Kantonalne uprave",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "Kantonalna uprava obavlja sledeće poslove, i to:\na) prati stanje u upravnim oblastima za koje je nadležna i podnosi izvještaje o radu Vladi Tuzlanskog kantona (u daljem tekstu: Vlada Kantona),\nb) podnosi posebne izvještaje o preduzetim upravnim i drugim mjerama Vladi Kantona,\nc) inspekcijske poslove iz nadležnosti kantonalnih inspekcija koje su ovim zakonom organizovane u njenom sastavu,\nd) obavlja inspekcijski nadzor nad vršenjem javnih ovlašćenja i preduzima mjere u skladu sa ovim zakonom,\ne) donosi provedbene propise, opšte i pojedinačne upravne i druge akte iz svoje nadležnosti,\nf) preduzima upravne i druge mjere u vršenju inspekcijskog nadzora,\ng) ostvaruje saradnju sa nadležnim organima u Kantonu i Federaciji Bosne i Hercegovine (u daljem tekstu: Federacija BiH),\nh) koordinira rad kantonalnih inspektora,\ni) donosi programe i planove vršenja inspekcijskog nadzora,\nj) vodi evidenciju o svim subjektima nadzora,\nk) vodi evidenciju o izvršenim inspekcijskim nadzorima,\nl) vodi evidenciju o radu svakog kantonalnog inspektora,\nm) vodi evidenciju o službenim iskaznicama i značkama kantonalnih inspektora,\nn) donosi program stručne obuke kantonalnih inspektora,\no) učestvuje u stručnoj pripremi kantonalnih propisa nad kojim inspekcijski nadzor vrši kantonalna inspekcija,\np) pored nadzora nad primjenom kantonalnih propisa, vrši inspekcijski nadzor nad primjenom i drugih propisa donesenih od nadležnih organa Federacije BiH i Bosne i Hercegovine, u skladu sa zakonom,\nr) obavlja i druge upravne i stručne poslove određene zakonima i drugim propisima."
+  },
+  {
+   "key": "19",
+   "label": "Član 19",
+   "title": "Unutrašnja organizacija Kantonalne uprave",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "(1) Unutrašnja organizacija Kantonalne uprave utvrđuje se pravilnikom o unutrašnjoj organizaciji.\n(2) Pravilnik iz stava (1) ovog člana donosi direktor Kantonalne uprave, uz saglasnost Vlade Kantona."
+  },
+  {
+   "key": "20",
+   "label": "Član 20",
+   "title": "Odnos Kantonalne uprave prema Vladi Kantona",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "Na odnos Kantonalne uprave prema Vladi Kantona, shodno se primjenjuju odredbe važećeg zakona koje uređuju odnos organa uprave i upravnih organizacija prema organima izvršne vlasti."
+  },
+  {
+   "key": "21",
+   "label": "Član 21",
+   "title": "Rukovođenje Kantonalnom upravom",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "(1) Kantonalnom upravom rukovodi direktor.\n(2) Direktora Kantonalne uprave imenuje i razrješava Vlada Kantona u skladu sa zakonom.\n(3) Direktor Kantonalne uprave za svoj rad odgovara Vladi Kantona."
+  },
+  {
+   "key": "22",
+   "label": "Član 22",
+   "title": "Direktor Kantonalne uprave",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "Direktor Kantonalne uprave:\na) rukovodi, predstavlja i zastupa Kantonalnu upravu,\nb) organizuje i obezbjeđuje zakonito i efikasno vršenje inspekcijskog nadzora iz nadležnosti kantonalnih inspekcija koje su u sastavu Kantonalne uprave,\nc) donosi propise i druge akte za koje je ovlašćen ovim zakonom i drugim propisima,\nd) obavlja i druge poslove iz nadležnosti Kantonalne uprave koji su određeni ovim zakonom i drugim propisima."
+  },
+  {
+   "key": "23",
+   "label": "Član 23",
+   "title": "Povjeravanje stručnih poslova inspekcije specijalizovanim institucijama",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "(1) Obavljanje određenih stručnih poslova za potrebe inspekcijskog nadzora (ispitivanje kvaliteta roba i proizvoda, određene ekspertize, mjerenja, ispitivanja, uzimanje uzoraka i sl.), koji zahtijevaju posebnu tehničku opremu i specijalizovane stručnjake ili primjenu naučnih metoda i tehničkih postupaka, može se povjeriti ovlašćenim stručnim institucijama koje obavljaju takve poslove.\n(2) O povjeravanju stručnih poslova iz stava (1) ovog člana odlučuje direktor Kantonalne uprave."
+  },
+  {
+   "key": "24",
+   "label": "Član 24",
+   "title": "Planiranje i izvještavanje o inspekcijskom nadzoru",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "(1) Kantonalna uprava donosi godišnji plan rada i mjesečne planove rada o obavljanju inspekcijskog nadzora.\n(2) Prilikom izrade plana inspekcijskog nadzora iz stava (1) ovog člana, planiraće se veći broj inspekcijskih kontrola kod subjekta nadzora koji obavlja djelatnost sa povećanim stepenom rizika za život, zdravlje i imovinu građana.\n(3) Planovi o vršenju inspekcijskog nadzora su službena tajna.\n(4) Kod izrade planova posebno se mora voditi računa, gdje god je to moguće, da se inspekcijski nadzor vrši putem mješovitih inspekcijskih timova zavisno od oblasti inspekcijskog nadzora i subjekta nadzora.\n(5) Direktor Kantonalne uprave, u određenim slučajevima donosi poseban program inspekcijskog nadzora za određene vanredne situacije.\n(6) Prema posebnom programu iz stava (5) ovog člana, inspekcijski nadzor u određenoj oblasti ili ciljanoj grupi subjekata nadzora biće javan i promovisaće se putem medija, ili na drugi prikladan način sa ciljem da djeluje edukativno kod subjekata nadzora kao i na pripremu tog subjekta za inspekcijsku kontrolu.\n(7) Glavni kantonalni inspektor podnosi mjesečni izvještaj direktoru Kantonalne uprave, a direktor resornom kantonalnom ministarstvu iz odgovarajuće upravne oblasti.\n(8) Kantonalna uprava dužna je svoj godišnji izvještaj o provođenju federalnih zakona i drugih federalnih propisa dostaviti Federalnoj upravi za inspekcijske poslove (u daljem tekstu: Federalna uprava)."
+  },
+  {
+   "key": "25",
+   "label": "Član 25",
+   "title": "Izvještavanje kantonalne inspekcije",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "(1) Kantonalni inspektor dužan je dostaviti mjesečni i godišnji izvještaj o svom radu glavnom kantonalnom inspektoru koji služi za izradu mjesečnog i godišnjeg izvještaja.\n(2) Sadržaj izvještaja o radu kantonalnog inspektora određuje direktor Kantonalne uprave."
+  },
+  {
+   "key": "26",
+   "label": "Član 26",
+   "title": "Normativi za vršenje inspekcijskih nadzora",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "Direktor Kantonalne uprave utvrđuje normative (broj inspekcijskih nadzora u određenom vremenskom periodu) vršenja inspekcijskog nadzora iz nadležnosti kantonalnih inspekcija u sastavu Kantonalne uprave u saradnji sa glavnim kantonalnim inpektorom."
+  },
+  {
+   "key": "27",
+   "label": "Član 27",
+   "title": "Vrijeme trajanja inspekcijskog nadzora",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "(1) Vršenje redovnog inspekcijskog nadzora kod istog subjekta nadzora nije ograničeno brojem dana na godišnjem nivou.\n(2) Izuzetno, redovni inspekcijski nadzor tržišno-turističko-ugostiteljske inspekcije i inspekcije rada kod istog subjekta nadzora može trajati najduže 12 dana godišnje.\n(3) Ako se radi o subjektu nadzora koji ima jednu ili više organizacionih jedinica, inspekcijski nadzor iz stava (2) ovog člana može trajati duže od 12 dana godišnje.\n(4) Ako inspekcijski nadzor traje manje od četiri sata računa se kao pola dana, a ako inspekcijski nadzor traje više od četiri sata, računa se kao jedan dan.\n(5) Izuzetno, ako postoje opravdane indicije o značajnom kršenju zakona, ili ako se nadzor zahtijeva zbog obima da inspekcijski pregled traje duže, direktor Kantonalne uprave može rješenjem odrediti da inspekcijski nadzor kod subjekta nadzora traje i duže od 12 dana, ali ne duže od 20 dana godišnje.\n(6) Odgovorno lice subjekta nadzora može odbiti saradnju u inspekcijskom nadzoru jedne vrste inspekcije, ako inspektor nema rješenje o dozvoli prekoračenja broja dana inspekcijskog nadzora."
+  },
+  {
+   "key": "28",
+   "label": "Član 28",
+   "title": "Evidencije o inspekcijskom nadzoru",
+   "chapter": "III. ORGANIZACIJA KANTONALNE UPRAVE",
+   "text": "(1) Kantonalna uprava vodi evidenciju o inspekcijskom nadzoru za sve kantonalne inspekcije u svom sastavu.\n(2) Evidenciju o inspekcijskim nadzorima i preduzetim mjerama vodi i svaki kantonalni inspektor.\n(3) Direktor Kantonalne uprave donijeće Pravilnik o elektronskom vođenju evidencije o inspekcijskom nadzoru."
+  },
+  {
+   "key": "29",
+   "label": "Član 29",
+   "title": "Postavljanje glavnih kantonalnih inspektora i kantonalnih inspektora",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "(1) Glavni kantonalni inspektori i kantonalni inspektori postavljaju se u skladu sa zakonom.\n(2) U slučaju spriječenosti za obavljanje poslova glavnog kantonalnog inspektora direktor Kantonalne uprave ovlastiće posebnim rješenjem drugog državnog službenika iz Kantonalne uprave, koji ispunjava sve opšte i posebne uslove za postavljenje na navedeno radno mjesto, za obavljanje poslova glavnog kantonalnog inspektora za vrijeme njegove spriječenosti da obavlja te poslove."
+  },
+  {
+   "key": "30",
+   "label": "Član 30",
+   "title": "Status kantonalnih inspektora",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "Glavni kantonalni inspektori i kantonalni inspektori su državni službenici sa posebnim ovlašćenjima."
+  },
+  {
+   "key": "31",
+   "label": "Član 31",
+   "title": "Uslovi za postavljenje glavnih kantonalnih inspektora i kantonalnih inspektora",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "(1) Glavni kantonalni inspektor i kantonalni inspektor može biti lice koje ispunjava uslove propisane Zakonom o državnoj službi i podzakonskim propisima donesenim na osnovu tog zakona i koje ispunjava druge uslove predviđene posebnim propisom.\n(2) Ukoliko je to posebnim propisom predviđeno, glavni kantonalni inspektor i kantonalni inspektor mora imati i položen odgovarajući stručni, odnosno specijalistički ispit, a radni staž u trajanju i na onim poslovima kako je predviđeno tim propisom.\n(3) Kada to potreba službe zahtijeva, direktor Kantonalne uprave može, izuzetno, ovlastiti i drugog državnog službenika tog organa uprave koji ispunjava uslove iz stavova (1) i (2) ovog člana da izvrši inspekcijski nadzor i odredi upravne, prekršajne i druge mjere iz nadležnosti kantonalne inspekcije, o čemu direktor Kantonalne uprave donosi pismeno rješenje."
+  },
+  {
+   "key": "32",
+   "label": "Član 32",
+   "title": "Povjeravanje kantonalnom inspektoru vršenje i drugog vida inspekcijskog nadzora",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "Kantonalnom inspektoru se može povjeriti vršenje i drugog vida inspekcijskog nadzora, ako ispunjava uslove predviđene zakonom."
+  },
+  {
+   "key": "33",
+   "label": "Član 33",
+   "title": "Glavni kantonalni inspektori",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "U Kantonalnoj upravi, glavni kantonalni inspektori su:\na) glavni kantonalni inspektor za poljoprivredu, vode i šumarstvo,\nb) glavni kantonalni inspektor za urbanizam, građevinarstvo, ekologiju i industriju,\nc) glavni kantonalni tržišni inspektor,\nd) glavni kantonalni inspektor rada, zaštite na radu i socijalne zaštite,\ne) glavni kantonalni inspektor za zdravstvo i hranu,\nf) glavni kantonalni inspektor za obrazovanje, nauku, kulturu i sport,\ng) glavni kantonalni inspektor za saobraćaj i ceste i\nh) glavni kantonalni inspektor za veterinarstvo."
+  },
+  {
+   "key": "34",
+   "label": "Član 34",
+   "title": "Inspektorska zvanja",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "U Kantonalnoj upravi, kantonalni inspektori su:\na) poljoprivredni inspektor,\nb) poljoprivredni inspektor za stočarstvo,\nc) vodni inspektor,\nd) šumarski inspektor,\ne) veterinarski inspektor,\nf) urbanističko-građevinski inspektor,\ng) inspektor zaštite okolice,\nh) termoenergetski inspektor,\ni) elektroenergetski inspektor,\nj) rudarski inspektor,\nk) geološki inspektor,\nl) tržišno-turističko-ugostiteljski inspektor,\nm) saobraćajni inspektor,\nn) inspektor za ceste,\no) inspektor rada za oblast radnih odnosa,\np) inspektor rada za oblast zaštite na radu,\nr) inspektor socijalne zaštite, zaštite civilnih žrtava rata i zaštite porodice sa djecom,\ns) inspektor za predškolsko i osnovno obrazovanje,\nš) inspektor za srednje obrazovanje i obrazovanje odraslih,\nt) inspektor za visoko obrazovanje i nauku,\nu) inspektor za kulturu i šport,\nv) sanitarni inspektor,\nz) zdravstveni inspektor,\nž) farmaceutski inspektor,\naa) inspektor za hranu."
+  },
+  {
+   "key": "35",
+   "label": "Član 35",
+   "title": "Stručno obrazovanje kantonalnih inspektora",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "Kantonalni inspektor je obavezan da se neprestano stručno obrazuje i usavršava za obavljanje poslova inspekcijskog nadzora u skladu sa programom stručne obuke kantonalnih inspektora, kojeg donosi direktor Kantonalne uprave u skladu sa zakonom."
+  },
+  {
+   "key": "36",
+   "label": "Član 36",
+   "title": "Ograničenje kantonalnog inspektora u obavljanju drugih poslova",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "(1) Glavni kantonalni inspektor i kantonalni inspektor ne može obavljati privredne, trgovačke ili druge djelatnosti i poslove za sebe ili drugog poslodavca iz oblasti i na području na kojem vrši inspekcijski nadzor, niti učestvovati u radu stručnih komisija i tijela organa uprave koji daju dozvole, mišljenja ili druge akte za izdavanje dozvola za obavljanje djelatnosti koje podliježu tom inspekcijskom nadzoru.\n(2) Zabrana iz stava (1) ovog člana ne odnosi se na naučni i istraživački rad, poslove edukacije i obrazovanja, ako zakonom nije drugačije određeno.\n(3) Glavni kantonalni inspektor i kantonalni inspektor može obavljati dopunsku djelatnost za koju se plaća naknada u slučajevima propisanim Uredbom o poslovima osnovne djelatnosti, dopunskim poslovima osnovne djelatnosti i poslovima pomoćne djelatnosti iz nadležnosti organa državne službe u Tuzlanskom kantonu koje obavljaju državni službenici i namještenici, uslovima za vršenje tih poslova i ostvarivanju određenih prava iz radnog odnosa (\"Službene novine Tuzlanskog kantona\", br. 9/17 i 11/17), na način i pod uslovima propisanim navedenom Uredbom.\n(4) U pismenoj saglasnosti direktora Kantonalne uprave kojom se odobrava obavljanje dopunske djelatnosti, obavezno se navodi period za koji se saglasnost daje, a istekom tog perioda saglasnost prestaje da važi."
+  },
+  {
+   "key": "37",
+   "label": "Član 37",
+   "title": "Poseban dodatak na platu",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "Osnovna plata direktora, glavnog kantonalnog inspektora i kantonalnog inspektora uvećava se za procenat od 30% kao dodatak za obavljanje poslova sa posebnim ovlašćenjima i uslovima rada."
+  },
+  {
+   "key": "38",
+   "label": "Član 38",
+   "title": "Čuvanje službene i druge tajne u radu kantonalnog inspektora",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "(1) Kantonalni inspektor dužan je čuvati službenu i svaku drugu tajnu sa kojom se upozna u vršenju inspekcijskog nadzora.\n(2) Kantonalni inspektor je dužan čuvati tajnost prijave i druge informacije koje se tiču inspekcijskog nadzora, što uključuje i dokumentaciju, dokaze i podatke utvrđene ili nastale u inspekcijskom nadzoru.\n(3) Dužnost čuvanja tajne u smislu stavova (1) i (2) ovog člana traje i nakon prestanka obavljanja dužnosti kantonalnog inspektora."
+  },
+  {
+   "key": "39",
+   "label": "Član 39",
+   "title": "Iskaznica i značka kantonalnog inspektora",
+   "chapter": "IV. INSPEKCIJSKI POSLOVI, INSPEKTORI I NJIHOV STATUS",
+   "text": "(1) Glavni kantonalni inspektor i kantonalni inspektor ima iskaznicu i značku kojom dokazuje svoje službeno svojstvo, identitet i ovlašćenja predviđena zakonom.\n(2) Glavnom kantonalnom inspektoru i kantonalnom inspektoru iskaznicu i značku izdaje direktor Kantonalne uprave.\n(3) Izgled i oblik značke propisuje se posebnim pravilnikom kojeg donosi direktor Kantonalne uprave."
+  },
+  {
+   "key": "40",
+   "label": "Član 40",
+   "title": "Inspekcije u sastavu Kantonalne uprave",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "U sastav Kantonalne uprave ulaze sledeće inspekcije:\na) poljoprivredna inspekcija,\nb) vodna inspekcija,\nc) šumarska inspekcija,\nd) veterinarska inspekcija,\ne) urbanističko-građevinska inspekcija,\nf) inspekcija zaštite okolice,\ng) termoenergetska inspekcija,\nh) elektroenergetska inspekcija,\ni) rudarska inspekcija,\nj) geološka inspekcija,\nk) tržišno-turističko-ugostiteljska inspekcija,\nl) saobraćajna inspekcija,\nm) inspekcija za ceste,\nn) inspekcija rada za oblast radnih odnosa,\no) inspekcija rada za oblast zaštite na radu,\np) inspekcija socijalne zaštite, zaštite civilnih žrtava rata i zaštite porodice sa djecom,\nr) inspekcija za naobrazbu i znanost,\ns) inspekcija za kulturu i šport,\nš) sanitarna inspekcija,\nt) zdravstvena inspekcija,\nu) farmaceutska inspekcija,\nv) inspekcija za hranu.\n1. KANTONALNA POLJOPRIVREDNA INSPEKCIJA"
+  },
+  {
+   "key": "41",
+   "label": "Član 41",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna poljoprivredna inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) gospodarenje, korišćenje, zaštitu i uređenje poljoprivrednog zemljišta,\nb) prostorno uređenje u odnosu na poljoprivredno zemljište,\nc) korišćenje i promet vještačkog đubriva i zaštitnih materijala,\nd) sjemenarstvo i sadni materijal, ispunjavanje tehničko-proizvodnih uslova za registraciju uvoznika i distributera sjemena i sadnog materijala poljoprivrednog bilja,\ne) proizvodnju, odabir i trgovinu uzgojno vrijednim životinjama i provođenje uzgojnih programa,\nf) pregled matičnih knjiga i uzgojnih upisnika, te druge dokumentacije koja se odnosi na proizvodnju i trgovinu uzgojno vrijednim životinjama,\ng) ispitivanje proizvodnih osobina uzgojno vrijednih životinja, testiranje na potomstvo te ispravnost popisa matičnih grla svih vrsta uzgojno vrijednih životinja i izdavanje rodovnika i potvrda o porijeklu,\nh) provođenje zaštite izvornih i zaštićenih pasmina i sojeva te vođenje njihova popisa,\ni) uvođenje u proizvodnju novih pasmina, sojeva i hibrida,\nj) proizvodnju i trgovinu sjemena, jajnih ćelija i zametka,\nk) kontrolu obavljanja vještačkog osjemenjivanja i prirodnog pripusta te vođenja popisa o osjemenjivanju i prirodnom pripustu,\nl) obilježavanje uzgojno vrijednih životinja,\nm) držanje i iskorišćavanje domaćih životinja,\nn) neovlašćeno ulaženje domaćih životinja na tuđi posjed, odnosno tuđe poljoprivredno zemljište,\no) rad ovlašćenih ustanova i uzgojnih organizacija u provođenju uzgoja uzgojno vrijednih životinja,\np) proizvodnju i obradu duhana,\nr) proizvodnju i promet vina i rakije,\ns) voćnjake i vinograde,\nš) uzgoj, selekciju i uvoz domaćih životinja, registraciju uzgajivača i proizvođača, kao i uvoznika domaćih životinja,\nt) ribnjake i ribolovna područja,\nu) ispunjavanje tehničko-proizvodnih uslova za registraciju objekata za proizvodnju i uzgoj domaćih životinja,\nv) proizvodnju, promet i upotrebu stočne hrane i ispunjavanje tehničko-proizvodnih uslova za registraciju objekata za proizvodnju i skladištenje stočne hrane,\nz) poticajne mjere u primarnoj poljoprivrednoj proizvodnji,\nž) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n2. KANTONALNA VODNA INSPEKCIJA"
+  },
+  {
+   "key": "42",
+   "label": "Član 42",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna vodna inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) vode, kvalitet voda, korišćenje voda,\nb) uređenje vodotoka i vodoprivrednih objekata,\nc) eksploataciju mineralnih sirovina iz korita vodotoka (šljunak, pijesak, kamen),\nd) izgradnju objekata u vodotoku ili u blizini vodotoka,\ne) upravljanje vodoprivredom i vođenje vodoprivrednog katastra,\nf) provođenje međudržavnih i međunarodnih obaveza za vode,\ng) vršenje javnih ovlasti od javnih preduzeća za vodna područja i drugih pravnih lica u primjeni zakona i drugih propisa o vodama,\nh) zaštitu od voda,\nj) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n3. KANTONALNA ŠUMARSKA INSPEKCIJA"
+  },
+  {
+   "key": "43",
+   "label": "Član 43",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna šumarska inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) zaštitu i čuvanje šuma,\nb) gospodarenje šumama i šumskim zemljištem,\nc) zaštitu šuma od bolesti i štetočina,\nd) upravljanje šumama i šumskim zemljištem,\ne) šumske radove, objekte, pilane i dr.,\nf) katastar šuma i šumskog zemljišta,\ng) sjemenarstvo i sadne materijale u šumarstvu,\nh) promet drveta i šumskih proizvoda,\ni) vršenje javnih ovlasti u primjeni zakona i drugih propisa o šumama,\nj) lovstvo (zaštita i uzgoj divljači, uređenje lovišta, lovljenje i dr.),\nk) unapređenje lovstva,\nl) rad lovačkih organizacija,\nm) korišćenje i upotrebu Zaštićenog pejzaža \"Konjuh\",\nn) stanje kvaliteta prirode i provođenje mjera zaštite prirode,\no) izdavanje saglasnosti za aktivnosti u zaštićenim područjima u skladu sa zakonom i drugim propisima,\np) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n4. KANTONALNA VETERINARSKA INSPEKCIJA"
+  },
+  {
+   "key": "44",
+   "label": "Član 44",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna veterinarska inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) zdravstvenu zaštitu životinja, kretanje i transport,\nb) suzbijanje i otklanjanje zaraznih bolesti životinja,\nc) zdravstvenu ispravnost sirovina i proizvoda životinjskog porijekla u proizvodnji, preradi i prometu,\nd) ispunjavanje veterinarsko-zdravstvenih uslova za objekte za proizvodnju proizvoda životinjskog porijekla, njihovo držanje i uskladištenje, promet i dr. kao i druge objekte (za proizvodnju hrane, oplodnju i dr.),\ne) obavljanje veterinarske djelatnosti, upotrebu veterinarskih lijekova i sjemena za vještačku oplodnju,\nf) proizvodnju, promet i upotrebu hrane za životinje,\ng) organizovanje i obavljanje veterinarske djelatnosti u veterinarskim organizacijama i samostalnoj veterinarskoj praksi,\nh) vršenje javnih ovlasti u primjeni zakona i drugih propisa o veterinarstvu,\ni) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n5. KANTONALNA URBANISTIČKO - GRAĐEVINSKA INSPEKCIJA"
+  },
+  {
+   "key": "45",
+   "label": "Član 45",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna urbanističko-građevinska inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) izradu dokumenata prostornog uređenja koje donosi Skupština Tuzlanskog kantona i dokumenata za koje Ministarstvo prostornog uređenja i zaštite okolice Tuzlanskog kantona (u daljem tekstu: Ministarstvo prostornog uređenja), daje suglasnost prije njihovog usvajanja,\nb) ostvarivanje i provedbu prostornog plana Kantona i prostornog plana područja posebnih obilježja Kantona,\nc) stručnu ocjenu na temelju koje se donose urbanističko-tehnički uvjeti za građevine za koje je nadležno Ministarstvo prostornog uređenja,\nd) usuglašenost lokacijske informacije odnosno urbanističke suglasnosti sa planskim dokumentima i stručnom ocjenom za građevine za koje Ministarstvo prostornog uređenja izdaje lokacijsku informaciju, odnosno urbanističku suglasnost,\ne) izgradnju i korištenje građevina i drugih zahvata u prostoru za koje odobrenje za građenje izdaje Ministarstvo prostornog uređenja,\nf) kvalitet ugrađenih građevinskih materijala, poluproizvoda i proizvoda u građevinama i zahvatima u prostoru iz svoje nadležnosti,\ng) obavljanje i drugih inspekcijskih poslova sukladno ovlaštenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i ravnatelja Kantonalne uprave.\n6. KANTONALNA INSPEKCIJA ZAŠTITE OKOLICE"
+  },
+  {
+   "key": "46",
+   "label": "Član 46",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna inspekcija zaštite okolice vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) vršenje neposrednog inspekcijskog nadzora nad provođenjem zakona i drugih propisa iz oblasti zaštite okolice, zaštite vazduha, upravljanja otpadom i zaštite od buke u dijelu koji se odnosi na nadležnost kantonalne inspekcije definisanu posebnim propisom,\nb) vršenje neposrednog inspekcijskog nadzora nad provođenjem federalnih zakona i drugih federalnih propisa, u dijelu koji je prenesen u nadležnost Kantona, iz oblasti zaštite okolice,\nc) preduzimanje upravnih i drugih mjera, po izvršenom inspekcijskom nadzoru, u skladu sa zakonom,\nd) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n7. KANTONALNA TERMOENERGETSKA INSPEKCIJA"
+  },
+  {
+   "key": "47",
+   "label": "Član 47",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna termoenergetska inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) planiranje, projektovanje, gradnju, rekonstrukciju, korišćenje i remont termoenergetskih postrojenja, uređaja i posuda pod pritiskom, ocjenu tehničke ispravnosti i bezbijednosti,\nb) termoenergetske standarde i normative,\nc) tehničko upravljanje termoenergetskim sistemom,\nd) postupanje po zahtjevima građana i pravnih lica za pregled termoenergetskih objekata, postrojenja i instalacija u domenu ovog vida inspekcijskog nadzora,\ne) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n8. KANTONALNA ELEKTROENERGETSKA INSPEKCIJA"
+  },
+  {
+   "key": "48",
+   "label": "Član 48",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna elektroenergetska inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) propise, standarde, tehničke normative i opšte akte u postupku projektovanja, planiranja, proizvodnje, izgradnje, rekonstrukcije, eksploatacije i održavanja elektroenergetskih objekata, postrojenja, instalacija, uređaja i opreme, i to postrojenjima koja nisu stavljena u nadležnost federalnog inspektora, pri čemu je samostalan, kao i pri odlučivanju o preduzimanju upravnih i drugih mjera,\nb) ispitivanje uzroka nesretnih slučajeva i havarija na objektima i postrojenjima koja su u domenu njegovog nadzora,\nc) vođenje evidencije o izvršenim inspekcijskim pregledima,\nd) vršenje uviđaja po zahtjevima građana i pravnih lica na postrojenjima i uređajima iz domena njegovog nadzora,\ne) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n9. KANTONALNA RUDARSKA INSPEKCIJA"
+  },
+  {
+   "key": "49",
+   "label": "Član 49",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna rudarska inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) eksploataciju mineralnih sirovina,\nb) tehničke mjere pri obavljanju rudarske djelatnosti,\nc) zaštitu na radu pri eksploataciji mineralnih sirovina,\nd) zaštitu od požara i eksplozije pri eksploataciji mineralnih sirovina,\ne) izgradnju i održavanje rudarskih objekata, postrojenja i uređaja,\nf) transport, uskladištenje i rukovanje eksplozivnim materijalom,\ng) rudarska mjerenja, pravilnu izradu i redovno dopunjavanje rudarskih planova-karata i ostalu dokumentaciju potrebnu za pravilno tehničko i racionalno izvođenje rudarskih radova,\nh) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n10. KANTONALNA GEOLOŠKA INSPEKCIJA"
+  },
+  {
+   "key": "50",
+   "label": "Član 50",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna geološka inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) vršenje nadzora da li investitori posjeduju rješenja o odobrenju izvođenja geoloških istraživanja za mineralne sirovine,\nb) vršenje nadzora u pogledu izvođenja radova kako je to predviđeno projektnom i tehničkom dokumentacijom,\nc) vršenje nadzora u pogledu usaglašenosti geoloških istraživanja sa zakonima i tehničkim propisima, kao i normativima i standardima koji se odnose na izvođenje tih radova,\nd) vršenje nadzora u pogledu provođenja propisanih mjera zaštite građana, imovine i okoliša pri izvođenju geoloških istraživanja,\ne) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n11. KANTONALNA TRŽIŠNO-TURISTIČKO-UGOSTITELJSKA INSPEKCIJA"
+  },
+  {
+   "key": "51",
+   "label": "Član 51",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna tržišno-turističko-ugostiteljska inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) obavljanje trgovine i obrta,\nb) standarde i kvalitet proizvoda u proizvodnji i prometu,\nc) mjerne jedinice, robne i uslužne žigove i oznake kvaliteta i porijekla proizvoda,\nd) cijene proizvoda i usluga, naknade, takse (osim sudskih i upravnih), pretplate i ostale naknade koje se zaračunavaju po posebnim propisima,\ne) robne rezerve,\nf) zaštitu izuma i tehničkih unapređenja,\ng) zaštitu prava potrošača,\nh) obavljanje ugostiteljske i turističke djelatnosti,\ni) kategorizaciju ugostiteljskih i turističkih objekata,\nj) zaštitu dobara od posebnog značaja za turizam (prirodne rijetkosti, kulturno-istorijski spomenici, etnografske znamenitosti i dr.),\nk) zaštitu prava korisnika ugostiteljskih i turističkih usluga,\nl) reklamiranje ugostiteljsko-turističke ponude,\nm) kontrolu rada turističkih zajednica,\nn) obračun, naplatu i uplatu boravišne takse i turističke članarine,\no) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n12. KANTONALNA SAOBRAĆAJNA INSPEKCIJA"
+  },
+  {
+   "key": "52",
+   "label": "Član 52",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna saobraćajna inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) ispunjavanje uslova za obavljanje djelatnosti javnog prevoza i prevoza za vlastite potrebe,\nb) obavljanje javnog prevoza putnika i tereta u unutrašnjem cestovnom saobraćaju,\nc) obavljanje javnog vanlinijskog prevoza putnika autobusima i taksi prevoz,\nd) obavljanje prevoza za vlastite potrebe,\ne) rad autobusnih stanica i ispunjavanje propisanih uslova u vezi kategorizacije istih,\nf) rad stanica tehničkog pregleda vozila u pogledu ispunjavanja tehničko eksploatacionih uslova i tehničke ispravnosti vozila kojima se vrše pojedine vrste prevoza,\ng) kontrolu radnog vremena i obavezni odmor mobilnih radnika u drumskom prevozu u skladu sa Zakonom o radnom vremenu, obaveznim odmorima mobilnih radnika i uređajima za evidentiranje u drumskom prevozu (\"Službeni glasnik Bosne i Hercegovine\", br. 48/10 i 66/16),\nh) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n13. KANTONALNA INSPEKCIJA ZA CESTE"
+  },
+  {
+   "key": "53",
+   "label": "Član 53",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna inspekcija za ceste vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) radove na izgradnji, rekonstrukciji i održavanju javnih regionalnih cesta,\nb) upravljanje i zaštitu javnih regionalnih cesta i njezine infrastrukture,\nc) radove koji se obavljaju na javnoj regionalnoj cesti u zaštitnom i cestovnom pojasu,\nd) radove na redovnom i vanrednom održavanju javnih regionalnih cesta,\ne) uslove odvijanja saobraćaja na javnim regionalnim cestama (prekomjerno opterećenje, prekoračenje ukupne mase i osovinskog opterećenja, obezbjeđenje preglednosti na raskrsnicama i u krivinama),\nf) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n14. KANTONALNA INSPEKCIJA RADA ZA OBLAST RADNIH ODNOSA"
+  },
+  {
+   "key": "54",
+   "label": "Član 54",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna inspekcija rada za oblast radnih odnosa vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) vršenje poslova inspekcijskog nadzora nad primjenom zakona i drugih propisa donesenih na osnovu zakona, kojima se uređuje oblast radnih odnosa i u skladu sa ovlašćenjima i nadležnostima propisanim zakonom, te na način i u postupku propisanom zakonom,\nb) postupanje po pismenim ili usmenim predstavkama, odnosno, zahtjevima za izvršenje inspekcijskog nadzora u vezi povreda prava iz radnog odnosa i propisa nad kojima vrši inspekcijski nadzor u granicama svoje nadležnosti,\nc) blagovremeno i u zakonom propisanim rokovima dostavljanje pismenih obavijesti podnosiocima predstavki odnosno zahtjeva za izvršenje inspekcijskog nadzora,\nd) otkazivanje ugovora o radu,\ne) kontrolu radno-pravnog položaja i zaštitu prava zaposlenika u radnom odnosu kod poslodavca (obračun i isplata plata, radno vrijeme, odmori, odsustva i dr.),\nf) kontrolu obaveza poslodavca da zaposlenike prijavi na penziono i zdravstveno osiguranje, u skladu sa posebnim propisima,\ng) kontrolu zapošljavanja stranaca,\nh) kontrolu zaposlenika u ostvarivanju prava iz radnog odnosa,\ni) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n15. KANTONALNA INSPEKCIJA RADA ZA OBLAST ZAŠTITE NA RADU"
+  },
+  {
+   "key": "55",
+   "label": "Član 55",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna inspekcija rada za oblast zaštite na radu vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) vršenje poslova inspekcijskog nadzora nad primjenom zakona i drugih propisa donesenih na osnovu zakona, kojima se uređuje oblast zaštite na radu i u skladu sa ovlašćenjima i nadležnostima propisanim zakonom, te na način i u postupku propisanom zakonom,\nb) postupanje po pismenim ili usmenim predstavkama odnosno zahtjevima za izvršenje inspekcijskog nadzora u vezi povreda propisa nad kojima vrši inspekcijski nadzor u granicama svoje nadležnosti,\nc) blagovremeno i u zakonom propisanim rokovima dostavljanje pismenih obavijesti podnosiocima predstavki odnosno zahtjeva za izvršenje inspekcijskog nadzora,\nd) kontrolu zaštite na radu,\ne) kontrolu zabrane upotrebe duhanskih proizvoda,\nf) kontrolu primjene propisanih mjera zaštite na radu u projektnoj dokumentaciji tehničko-tehnoloških procesa, kao i kontrolu kod izgradnje, izvođenja i eksploatacije objekata,\ng) kontrolu primijenjenosti propisa pri projektovanju i proizvodnji sredstava rada i sredstava rada iz uvoza,\nh) kontrolu redovnog održavanja i ispitivanja sredstava rada, fizičkih, hemijskih ili bioloških štetnosti,\ni) kontrolu obezbjeđenja uslova rada zaposlenika, izloženosti opasnostima i štetnostima i preduzetih mjera za njihovo otklanjanje,\nj) kontrolu obezbjeđenja i provođenja psiho-fizičke zaštite zaposlenika, a u zavisnosti od tehničko-tehnoloških procesa rada,\nk) kontrolu obučenosti zaposlenika iz oblasti zaštite na radu, vezano za radna mjesta i tehničko-tehnološki proces rada,\nl) kontrolu korišćenja odgovarajućih sredstava lične zaštite,\nm) vršenje uviđaja na licu mjesta svakog smrtnog slučaja, nesreće koja je zadesila dva ili veći broj radnika i teže povrede na radu,\nn) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n16. KANTONALNA INSPEKCIJA SOCIJALNE ZAŠTITE, ZAŠTITE CIVILNIH ŽRTAVA RATA I ZAŠTITE PORODICE SA DJECOM"
+  },
+  {
+   "key": "56",
+   "label": "Član 56",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna inspekcija socijalne zaštite, zaštite civilnih žrtava rata i zaštite porodice sa djecom vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) vršenje inspekcijskog nadzora iz oblasti socijalne zaštite, zaštite civilnih žrtava rata i zaštite porodice sa djecom, na osnovu i u granicama ovlašćenja utvrđenim zakonom i podzakonskim aktima i odlučivanje o preduzimanju upravnih i drugih mjera,\nb) zakonitost, rad, poslovanje i postupanje subjekata nadzora u oblasti profesionalne rehabilitacije, osposobljavanja i zapošljavanja lica sa invaliditetom na području Kantona,\nc) vršenje inspekcijskog nadzora nad radom udruženja i fondacija registrovanih u Kantonu i koja imaju sjedište na Kantonu, na osnovu i u granicama zakonskih ovlašćenja,\nd) vršenje nadzora po pitanjima ispunjavanja uslova utvrđenih zakonom za osnivanje, odnosno rad ustanove socijalne zaštite,\ne) kontrolu zaštite prava maloljetnika, djece i lica pod starateljstvom u korišćenju socijalne pomoći,\nf) kontrolu zaštite prava porodice sa djecom,\ng) kontrolu preduzimanja mjera na zaštiti interesa korisnika socijalne zaštite do imenovanja novog staraoca,\nh) kontrolu zaštite imovine djece bez roditeljskog staranja i lica pod starateljstvom,\ni) kontrolu zaštite korisnika kojima su uskraćena ili ograničena prava,\nj) kontrolu sprečavanja smještaja lica u drugu porodicu koja nije podobna da primi dijete na smještaj,\nk) kontrolu obezbjeđenja ustanova koje ne prime lice koje je uputio nadležni organ starateljstva,\nl) kontrolu postupanja po odluci o izdržavanju kod svake isplate stalnih novčanih primanja,\nm) vršenje kontrole otpusta korisnika iz ustanove suprotno zakonu,\nn) kontrolu vođenja evidencije i dokumentacije o licima pod starateljstvom,\no) kontrolu vođenja evidencije i dokumentacije o usvojenoj djeci,\np) kontrolu vođenja evidencije o izdržavanju djece i roditelja,\nr) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n17. KANTONALNA INSPEKCIJA ZA NAOBRAZBU I ZNANOST"
+  },
+  {
+   "key": "57",
+   "label": "Član 57",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna inspekcija za naobrazbu i znanost vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) zakonitost i uvjete rada u predškolskim ustanovama,\nb) ispunjenost uvjeta i posjedovanje odobrenja za obavljanje djelatnosti predškolskog odgoja,\nc) provođenje standarda i normativa za ustanove naobrazbe,\nd) zakonitost i rad ustanova iz oblasti osnovnog odgoja i naobrazbe i rad ustanova srednje naobrazbe i odgoja,\ne) ostvarivanje nastavnih planova i programa,\nf) uporabu udžbenika i nastavnih sredstava,\ng) organizaciju školske godine, te realizaciju fonda nastavnih sati,\nh) ocjenjivanje nastavnika i stručnih suradnika,\ni) organizaciju izleta, ekskurzija i drugih oblika odgojno-obrazovnog rada,\nj) prijem zaposlenika u osnovnim i srednjim školama,\nk) izdavanje svjedodžbi i drugih javnih isprava i vođenje propisane dokumentacije i evidencije u obrazovnim ustanovama,\nl) zakonitost rada organizatora naobrazbe odraslih,\nm) potpisivanje ugovora između polaznika i organizatora naobrazbe odraslih,\nn) izdavanje isprava od strane formalnih i neformalnih organizatora naobrazbe odraslih,\no) upis polaznika naobrazbe odraslih,\np) ispunjavanje uvjeta osoba koje izvode programe naobrazbe odraslih,\nr) vođenje andragoške dokumentacije kod organizatora naobrazbe odraslih,\ns) zakonitost rada visokoškolskih ustanova,\nš) organizaciju akademske godine i upis studenata,\nt) ostvarivanje obrazovno-odgojne i znanstveno-nastavne djelatnosti,\nu) postupak za izbor nastavnika i suradnika visokoškolskih ustanova,\nv) izbor rektora, ravnatelja i imenovanje dekana u visokoškolskim ustanovama,\nz) osnivanje i rad učeničkih i studentskih zadruga, upravljanje i druga pitanja iz oblasti učeničkih i studentskih zadruga,\nž) obavljanje i drugih inspekcijskih poslova sukladno ovlaštenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i ravnatelja Kantonalne uprave.\n17a. KANTONALNA INSPEKCIJA ZA KULTURU I ŠPORT"
+  },
+  {
+   "key": "57a",
+   "label": "Član 57a",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna inspekcija za kulturu i šport vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) zaštitu i korištenje kulturno-historijskog nasljeđa, muzejsku, arhivsku, bibliotečku, izdavačku, pozorišnu, estradnu i druge djelatnosti kulture,\nb) zakonitost rada ustanova kulture i drugih pravnih osoba koje obavljaju djelatnost kulture kao i samostalnih stvaralaca u oblasti kulture,\nc) status i djelovanje estradnih umjetnika,\nd) osnivanje, organiziranje i financiranje udruga i zajednica tehničke kulture i tehničko stvaralaštvo,\ne) osnivanje, izdavanje, uređivanje i prestanak rada javnih glasila,\nf) prava i slobode građana vezanih za javno informiranje,\ng) uvjete i način obavljanja izdavačke djelatnosti,\nh) postojanje propisanih općih uvjeta za registraciju i djelovanje športskih organizacija,\ni) ispunjavanje uvjeta za obavljanje zadataka u športu,\nj) obavljanje sistematskih i zdravstvenih pregleda,\nk) ispunjavanje propisima određenih pravila za organizaciju natjecanja,\nl) ostvarivanje prava športista i stručnih kadrova i športskih organizacija,\nm) namjensku uporabu novčanih sredstava,\nn) upravljanje i namjensku uporabu športskih objekata,\no) drugi nadzor u smislu primjene zakonskih propisa koji reguliraju oblast športa,\np) donošenje upravnih mjera i kontrolu provođenja sukladno posebnom zakonu,\nr) obavljanje i drugih inspekcijskih poslova sukladno ovlaštenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantontonalnog inspektora i ravnatelja Kantonalne uprave.\n18. KANTONALNA SANITARNA INSPEKCIJA"
+  },
+  {
+   "key": "58",
+   "label": "Član 58",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna sanitarna inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) primjenu zakona i drugih propisa donesenih na temelju zakona kojima se uređuje sanitarna oblast, sukladno ovlaštenjima i nadležnostima propisanim zakonom,\nb) kontrolu provedbe općih i posebnih mjera za sprječavanje i suzbijanje zaraznih bolesti,\nc) kontrolu sanitarno-tehničkih i higijenskih uvjeta u odgojno-obrazovnim ustanovama, ustanovama u oblasti zdravstva, dječije i socijalne zaštite, sredstvima javnog prijevoza i drugim javnim mjestima, od značaja za osiguranje sanitarne, higijenske i protivepidemijske zaštite,\nd) kontrolu zdravstvenog stanja zaposlenih u djelatnostima i na poslovima koji su pod sanitarnom inspekcijskom kontrolom,\ne) nadzor nad obavljanjem obvezne dezinfekcije, dezinsekcije i deratizacije,\nf) obavljanje i drugih inspekcijskih poslova sukladno ovlaštenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i ravnatelja Kantonalne uprave.\n19. KANTONALNA ZDRAVSTVENA INSPEKCIJA"
+  },
+  {
+   "key": "59",
+   "label": "Član 59",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna zdravstvena inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) nadzor nad organiziranjem i obavljanjem zdravstvene djelatnosti u javnim i privatnim zdravstvenim ustanovama i privatnoj praksi u zdravstvu,\nb) nadzor nad radom zdravstvenih radnika u obavljanju zdravstvene djelatnosti,\nc) kontrolu vođenja medicinske dokumentacije i evidencija u oblasti zdravstva,\nd) sadržaj i kvalitet pruženih zdravstvenih usluga,\ne) kontrolu primjene Zakona o pravima, obvezama i odgovornostima pacijenata (\"Službene novine Federacije Bosne i Hercegovine\", broj: 40/10),\nf) nadzor nad provođenjem javnih programa i mjera zdravstvene zaštite,\ng) nadzor nad upravljanjem medicinskih otpadom,\nh) obavljanje i drugih inspekcijskih poslova sukladno ovlaštenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i ravnatelja Kantonalne uprave.\n20. KANTONALNA FARMACEUTSKA INSPEKCIJA"
+  },
+  {
+   "key": "60",
+   "label": "Član 60",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna farmaceutska inspekcija vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) način organizovanja i obavljanja apotekarske djelatnosti u svim organizacionim oblicima u kojima se vrši promet lijekova i medicinskih sredstava na malo,\nb) ispunjenost uslova u pogledu prostora, opreme i kadra u svim organizacionim oblicima koji obavljaju apotekarsku djelatnost,\nc) promet lijekova i medicinskih sredstava na malo,\nd) nabavku, smještaj, čuvanje i izdavanje lijekova i medicinskih sredstava,\ne) režim propisivanja i izdavanja lijekova,\nf) izradu i promet galenskih i magistralnih lijekova u apotekama,\ng) način vođenja i korišćenja odgovarajuće dokumentacije i evidencije u apotekarskoj djelatnosti,\nh) maloprodajnu maržu lijekova,\ni) zbrinjavanje farmaceutskog otpada,\nj) obezbjeđenje uslova u pogledu prostora, opreme i kadra za primjenu lijekova i medicinskih sredstava u zdravstvenim ustanovama,\nk) sadržaj i kavlitet pruženih usluga, kao i zakonitost rada osoblja koje obavlja apotekarsku djelatnost,\nl) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave.\n21. KANTONALNA INSPEKCIJA ZA HRANU"
+  },
+  {
+   "key": "61",
+   "label": "Član 61",
+   "title": "Opis poslova",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Kantonalna inspekcija za hranu vrši inspekcijski nadzor nad provođenjem zakona i drugih propisa koji se odnose na:\na) zdravstvenu ispravnost i higijenu hrane u proizvodnji i preradi hrane koja nije pod nadzorom veterinarske inspekcije,\nb) zdravstvenu ispravnost i higijenu hrane u maloprodaji osim u objektima pod nadzorom veterinarske inspekcije,\nc) zdravstvenu ispravnost materijala u dodiru sa hranom u proizvodnji i na tržištu,\nd) preduzimanje preventivnih mjera i radnji radi sprečavanja povrede zakona i drugih propisa, sprečavanja nastajanja štetnih posljedica i otklanjanja uzroka koji bi doveli do štetnih posljedica, ukoliko iste nisu nastupile, u cilju zaštite javnog i privatnog interesa,\ne) predlaganje mjera za otklanjanje uzroka koji mogu dovesti do štetnih posljedica,\nf) obavljanje i drugih inspekcijskih poslova u skladu sa ovlašćenjima datim u pojedinim zakonima i drugim propisima, a po nalogu glavnog kantonalnog inspektora i direktora Kantonalne uprave."
+  },
+  {
+   "key": "62",
+   "label": "Član 62",
+   "title": "Obavljanje drugih poslova inspekcija",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "Pored poslova inspekcijskog nadzora propisanih članovima 41. do 61. ovog zakona inspekcije u sastavu Kantonalne uprave vrše i druge poslove koji se odnose na:\na) sprovođenje svih usvojenih procedura vezanih za inspekcijski nadzor i rad Kantonalne uprave, koje su u svom radu dužni primjenjivati državni službenici sa posebnim ovlašćenjima,\nb) izradu analiza, izvještaja i informacija o obavljenim inspekcijskim pregledima iz svoje oblasti,\nc) davanje informacija i podataka neophodnih za izradu prednacrta, nacrta i prijedloga zakona, drugih propisa i opštih akata iz svoje oblasti,\nd) izradu mjesečnih izvještaja i njihovo dostavljanje neposredno nadređenom,\ne) sačinjavanje operativnih planova po usmenom ili pismenom zahtjevu neposredno nadređenog,\nf) izradu analiza, informacija, izvještaja i drugih stručnih materijala kojima se predlažu mjere za poboljšanje stanja u oblasti koju nadzire.\n22. OSTALE INSPEKCIJE"
+  },
+  {
+   "key": "63",
+   "label": "Član 63",
+   "title": "Organizovanje inspekcija u drugim organima i način vršenja inspekcijskog nadzora",
+   "chapter": "V. INSPEKCIJE I NJIHOV DJELOKRUG",
+   "text": "(1) Ako je neophodno zbog prirode djelatnosti i funkcionalne povezanosti sa drugim poslovima državne uprave u određenoj oblasti, kantonalnim zakonom mogu se organizovati inspekcije i u sastavu drugih kantonalnih organa uprave ili odrediti vršenje inspekcijskog nadzora u sklopu drugih radnih mjesta u tim organima, naročito kada se radi o manjem obimu inspekcijskih poslova.\n(2) Odredbe stava (1) ovog člana ne odnose se na inspekcije određene ovim zakonom.\n(3) Kada je inspekcijski nadzor organizovan u okviru drugog kantonalnog organa uprave ili je vršenje inspekcijskog nadzora određeno u okviru drugog radnog mjesta u organu uprave, na način vršenja ovog inspekcijskog nadzora primjenjuju se odredbe članova od 70. do159. ovog zakona, ukoliko posebnim zakonom nije drugačije propisano.\n(4) Ukoliko nije drugačije propisano zakonom, na općinske i gradske inspekcije, kada vrše inspekcijski nadzor nad primjenom zakonskih propisa kojima je određena nadležnost općinskih i gradskih inspekcija, kao i nad primjenom općinskih i gradskih propisa, primjenjivat će se odredbe ovog zakona koje se odnose na poglavlje VII pod nazivom \"Postupak inspekcijskog nadzora\", poglavlje VIII pod nazivom \"Dostava pismena u inspekcijskom nadzoru\" i poglavlje XI pod nazivom \"Kaznene odredbe\", na način da se sve što je istima propisano za kantonalne inspekcije i kantonalne inspektore, uz potrebne izmjene, primjenjuje i na općinske/gradske inspekcije i općinske/gradske inspektore."
+  },
+  {
+   "key": "64",
+   "label": "Član 64",
+   "title": "Nadležnost kantonalne inspekcije",
+   "chapter": "VI. NADLEŽNOST INSPEKCIJA",
+   "text": "(1) Kantonalna inspekcija vrši inspekcijski nadzor nad primjenom propisa u okviru nadležnosti određenih ovim zakonom i drugim propisima.\n(2) Kantonalna inspekcija obavlja inspekcijski nadzor iz svoje nadležnosti na cijelom području Kantona."
+  },
+  {
+   "key": "65",
+   "label": "Član 65",
+   "title": "Vršenje inspekcijskog nadzora kad nije određena nadležnost",
+   "chapter": "VI. NADLEŽNOST INSPEKCIJA",
+   "text": "Kada je kantonalnim propisom propisan inspekcijski nadzor, a nije određeno koji će ga organ vršiti, za te poslove nadležna je kantonalna inspekcija iz odgovarajuće upravne oblasti."
+  },
+  {
+   "key": "66",
+   "label": "Član 66",
+   "title": "Zabrana vršenja inspekcijskog nadzora iz nadležnosti druge inspekcije",
+   "chapter": "VI. NADLEŽNOST INSPEKCIJA",
+   "text": "Kantonalni inspektor iz jedne upravne oblasti ne može vršiti inspekcijski nadzor iz nadležnosti kantonalne inspekcije iz druge upravne oblasti, osim u slučajevima i pod uslovima određenim ovim zakonom."
+  },
+  {
+   "key": "67",
+   "label": "Član 67",
+   "title": "Dopuštenost vršenja inspekcijskog nadzora iz nadležnosti druge inspekcije",
+   "chapter": "VI. NADLEŽNOST INSPEKCIJA",
+   "text": "(1) Kada je potrebno hitno izvršiti inspekcijski nadzor radi zaštite javnog interesa, kantonalni inspektor iz jedne upravne oblasti može izvršiti inspekcijski nadzor i odrediti upravne, prekršajne i druge mjere iz nadležnosti druge kantonalne inspekcije, ukoliko ispunjava zakonom predviđene uslove za to radno mjesto, o čemu direktor Kantonalne uprave donosi rješenje.\n(2) O izvršenom inspekcijskom nadzoru iz stava (1) ovog člana, obavijestiće se nadležni glavni kantonalni inspektor u roku od tri dana od dana izvršenja inspekcijskog nadzora."
+  },
+  {
+   "key": "68",
+   "label": "Član 68",
+   "title": "Prijedlog za rješavanje sukoba nadležnosti između kantonalnih inspekcija",
+   "chapter": "VI. NADLEŽNOST INSPEKCIJA",
+   "text": "Kada nastane sukob nadležnosti između kantonalnih inspekcija određenih ovim zakonom, prijedlog za rješavanje tog sukoba podnosi kantonalna inspekcija koja je posljednja postupala ili kantonalna inspekcija koja smatra da je nadležna za postupanje, u roku od tri dana od dana saznanja o sukobu nadležnosti."
+  },
+  {
+   "key": "69",
+   "label": "Član 69",
+   "title": "Rješavanje sukoba nadležnosti između kantonalnih inspekcija",
+   "chapter": "VI. NADLEŽNOST INSPEKCIJA",
+   "text": "Sukob nadležnosti između kantonalnih inspekcija u sastavu Kantonalne uprave rješava direktor Kantonalne uprave."
+  },
+  {
+   "key": "70",
+   "label": "Član 70",
+   "title": "Ovlašćenja kantonalnih inspektora",
+   "chapter": "A) PRAVA, OBAVEZE I ODGOVORNOSTI KANTONALNIH INSPEKTORA",
+   "text": "(1) Nadležni kantonalni inspektor u vršenju inspekcijskog nadzora ima prava, obaveze i odgovornosti propisane ovim zakonom, drugim propisima i opštim aktima.\n(2) Nadležni kantonalni inspektor ovlašćen je da:\na) utvrđuje identitet subjekta nadzora i drugih lica od značaja za inspekcijski nadzor,\nb) pregleda poslovne i druge prostorije za koje ima opravdan razlog smatrati da su podložne inspekcijskom nadzoru, objekte i opremu, postrojenja, uređaje, instalacije, proces rada i proizvode,\nc) utvrđuje da li subjekt nadzora ima rješenje o upisu u sudski registar ili odgovarajuće odobrenje za obavljanje djelatnosti i akt o ispunjavanju minimalno-tehničkih, kadrovskih i drugih uslova za obavljanje djelatnosti,\nd) nadzire način obavljanja djelatnosti - proces rada, bezbijednost robe i kvalitet proizvoda i pruženih usluga,\ne) vrši uvid u poslovne knjige i drugu službenu dokumentaciju koja je od značaja za vršenje inspekcijskog nadzora,\nf) vrši uvid u statut, opšte i pojedinačne akte, ugovore od značaja za vršenje inspekcijskog nadzora i pojedinačne akte imovinsko-pravnog karaktera,\ng) saslušava stranke, svjedoke i druga lica čija izjava je od značaja za utvrđivanje činjenica u vršenju inspekcijskog nadzora,\nh) uzima besplatne uzorke proizvoda i drugih roba i materijala radi laboratorijske i druge stručne analize,\ni) preduzima upravne i druge mjere u skladu sa ovim i drugim zakonima,\nj) preduzima preventivne aktivnosti u vršenju inspekcijskog nadzora,\nk) obavlja i sve druge službene radnje u svrhu inspekcijskog nadzora.\n(3) Pored ovlašćenja iz stava (1) ovog člana, kantonalni inspektor ima prava i obaveze u skladu sa posebnim propisima da preduzima sledeće radnje:\na) po saznanju da se određena stambena prostorija koristi u svrhu obavljanja poslovne djelatnosti, kantonalni inspektor može da ulazi i pregleda tu stambenu prostoriju i izvrši inspekcijski nadzor uz dobrovoljni pristanak vlasnika prostorije ili prethodno pribavljenu naredbu nadležnog suda,\nb) zaustavlja i kontroliše svako vozilo koje učestvuje u unutrašnjem cestovnom saobraćaju (osim vozila vojske i policije),\nc) zabranjuje pristup mjestu na kojem se obavlja uviđaj ili druga inspekcijska radnja;\nd) zabranjuje obavljanje radnji koje mogu izazvati opasnost po život, zdravlje, okoliš i nanijeti materijalnu štetu,\ne) omogućava subjektu nadzora sudjelovanje u svim inspekcijskim radnjama i izjašnjavanje o činjenicama i okolnostima bitnim za utvrđivanje potpunog i pravilnog činjeničnog stanja, kao i zaštitu njegovih prava i pravnih interesa,\nf) podnosi obavještenje nadležnom tužilaštvu, u skladu sa odredbom člana 13. ovog zakona.\n(4) Kantonalni inspektor, dužan je obaviti inspekcijski nadzor na način da što manje ometa redovan proces rada odnosno obavljanje djelatnosti kod subjekta nadzora."
+  },
+  {
+   "key": "71",
+   "label": "Član 71",
+   "title": "Primjena međunarodnih konvencija",
+   "chapter": "A) PRAVA, OBAVEZE I ODGOVORNOSTI KANTONALNIH INSPEKTORA",
+   "text": "Kantonalni inspektori dužni su primjenjivati međunarodne konvencije koje je ratifikovala Bosna i Hercegovina."
+  },
+  {
+   "key": "72",
+   "label": "Član 72",
+   "title": "Obaveza vršenja inspekcijskog nadzora",
+   "chapter": "A) PRAVA, OBAVEZE I ODGOVORNOSTI KANTONALNIH INSPEKTORA",
+   "text": "(1) Kantonalna uprava je dužna obezbijediti a nadležni kantonalni inspektor izvršiti, na poziv organa zakonodavne, izvršne ili sudske vlasti, inspekcijski nadzor u bilo koje vrijeme u toku 24 sata, ukoliko se radi o povredi na radu ili teškoj nesreći na radu, protivpravnom prometu raznih vrsta roba, predmeta ili životinja, proizvoda životinjskog porijekla, nezakonitom radnom angažmanu stranaca ili drugih lica, nezakonitom obavljanju neke djelatnosti, nastanku incidentnih situacija, kao i opasnosti po život i zdravlje ljudi i materijalnih dobara, kao i u drugim situacijama po procjeni direktora Kantonalne uprave ili glavnog kantonalnog inspektora.\n(2) Vršenje inspekcijskog nadzora obezbjeđuje se kako kroz redovno radno vrijeme tako i pripravnošću i određivanjem obavljanja određenih poslova u neradne dane (dane vikenda, državnih i vjerskih praznika).\n(3) Pripravnost je poseban oblik rada kada kantonalni inspektor ne mora biti prisutan u prostorijama Kantonalne uprave, ali mora biti dostupan radi obavljanja hitnih poslova.\n(4) Način organizovanja pripravnosti kantonalnih inspektora utvrđuje se opštim aktom Kantonalne uprave kojeg donosi direktor.\n(5) Vrijeme pripravnosti za rad ne smatra se radnim vremenom."
+  },
+  {
+   "key": "73",
+   "label": "Član 73",
+   "title": "Prisustvo drugog lica prilikom vršenja inspekcijskog nadzora",
+   "chapter": "A) PRAVA, OBAVEZE I ODGOVORNOSTI KANTONALNIH INSPEKTORA",
+   "text": "Ako je subjekt nadzora nepoznat ili se ne odazove pozivu kantonalnog inspektora da mu omogući vršenje inspekcijskog nadzora, kantonalni inspektor će izvršiti inspekcijski nadzor u skladu sa nastalim okolnostima, uz prisustvo drugog lica."
+  },
+  {
+   "key": "74",
+   "label": "Član 74",
+   "title": "Omogućavanje vršenja inspekcijskog nadzora",
+   "chapter": "B) PRAVA I OBAVEZE SUBJEKATA NADZORA",
+   "text": "(1) Subjekt nadzora dužan je omogućiti kantonalnom inspektoru vršenje inspekcijskog nadzora u skladu sa nalogom za inspekcijski nadzor ili na traženje kantonalnog inspektora.\n(2) Inspekcijski nadzor kod subjekta nadzora dužno je omogućiti i svako drugo lice koje ima veze sa poslovima na koje se odnosi inspekcijski nadzor kod subjekta nadzora.\n(3) Subjekt nadzora dužan je nadležnom kantonalnom inspektoru dati na uvid poslovne knjige i drugu službenu dokumentaciju, podatke, materijale i obavijesti koje su mu potrebne za pravilno utvrđivanje svih činjenica i okolnosti u vršenju inspekcijskog nadzora odmah na licu mjesta ili naknadno u roku koji mu odredi kantonalni inspektor.\n(4) Subjekt nadzora dužan je na zahtjev kantonalnog inspektora odrediti ovlašćeno lice koje će biti prisutno za vrijeme vršenja inspekcijskog nadzora i na traženje kantonalnog inspektora pripremiti i staviti mu na raspolaganje službenu dokumentaciju u cilju efikasnog vršenja inspekcijskog nadzora."
+  },
+  {
+   "key": "75",
+   "label": "Član 75",
+   "title": "Obavještavanje Kantonalne uprave",
+   "chapter": "B) PRAVA I OBAVEZE SUBJEKATA NADZORA",
+   "text": "Subjekt nadzora dužan je odmah obavijestiti Kantonalnu upravu o svakom smrtnom slučaju, nesreći koja je zadesila dva ili veći broj radnika, težoj povredi na radu, profesionalnom oboljenju, kao i o svakoj pojavi koja bi mogla ugroziti život ili zdravlje radnika na radu."
+  },
+  {
+   "key": "76",
+   "label": "Član 76",
+   "title": "Davanje potrebnih podataka i dokumentacije",
+   "chapter": "B) PRAVA I OBAVEZE SUBJEKATA NADZORA",
+   "text": "Ako se u toku vršenja inspekcijskog nadzora ocijeni da su za pravilno utvrđivanje činjenica potrebni podaci i dokumentacija i drugih lica zaposlenih kod subjekta nadzora ili su ta lica u poslovnom odnosu sa subjektom nadzora, na zahtjev kantonalnog inspektora subjekt nadzora je dužan dati na uvid i te podatke i dokumentaciju."
+  },
+  {
+   "key": "77",
+   "label": "Član 77",
+   "title": "Odbijanje saradnje sa kantonalnim inspektorom",
+   "chapter": "B) PRAVA I OBAVEZE SUBJEKATA NADZORA",
+   "text": "Subjekt nadzora ima pravo odbiti saradnju sa kantonalnim inspektorom ukoliko inspektor nije predočio rješenje o dozvoli prekoračenja broja dana inspekcijskog nadzora, odnosno ukoliko subjekt nadzora predoči materijalne dokaze da je kantonalni inspektor prekoračio utvrđene normative za obavljanje inspekcijskog nadzora."
+  },
+  {
+   "key": "78",
+   "label": "Član 78",
+   "title": "Izjašnjavanje o činjenicama i dokazima",
+   "chapter": "B) PRAVA I OBAVEZE SUBJEKATA NADZORA",
+   "text": "Kada kantonalni inspektor utvrđuje činjenično stanje u postupku inspekcijskog nadzora, subjekt nadzora ima pravo da se izjasni o svim činjenicama i dokazima koji su izneseni u postupku inspekcijskog nadzora."
+  },
+  {
+   "key": "79",
+   "label": "Član 79",
+   "title": "Pravo na stručnu pomoć",
+   "chapter": "B) PRAVA I OBAVEZE SUBJEKATA NADZORA",
+   "text": "Subjekt nadzora ima pravo na pružanje stručne pomoći od strane kantonalnog inspektora koji vrši inspekcijski nadzor a koja se odnosi na upućivanje na propise iz oblasti vršenja inspekcijskog nadzora i preventivno djelovanje."
+  },
+  {
+   "key": "80",
+   "label": "Član 80",
+   "title": "Pravna sredstva na akte kantonalnog inspektora",
+   "chapter": "B) PRAVA I OBAVEZE SUBJEKATA NADZORA",
+   "text": "Subjekt nadzora ima pravo da podnosi redovna i vanredna pravna sredstva na akte koje mu dostavi kantonalni inspektor, a posebno u dijelu koji se odnosi na naloženu upravnu mjeru."
+  },
+  {
+   "key": "81",
+   "label": "Član 81",
+   "title": "Edukacija subjekata nadzora",
+   "chapter": "B) PRAVA I OBAVEZE SUBJEKATA NADZORA",
+   "text": "Subjekti nadzora obavezni su da se edukuju o svim pitanjima iz okvira svoje djelatnosti, a posebno o zakonima i drugim propisima koje primjenjuju u svom radu."
+  },
+  {
+   "key": "82",
+   "label": "Član 82",
+   "title": "Obezbjeđenje prevodioca u postupku inspekcijskog nadzora",
+   "chapter": "B) PRAVA I OBAVEZE SUBJEKATA NADZORA",
+   "text": "(1) Subjekt nadzora koji ne koristi ili ne razumije jezik na kojem se vodi postupak inspekcijskog nadzora obezbijediće prevodioca koji poznaje jezik subjekta nadzora.\n(2) Subjekt nadzora obezbijediće prevodioca i za strana lica koja su u momentu vršenja inspekcijskog nadzora zatečena na radnom mjestu kod subjekta nadzora.\n(3) Troškove prevođenja iz stavova (1) i (2) ovog člana snosi subjekt nadzora.\n(4) Ukoliko subjekt nadzora ne obezbijedi prevodioca, prevodioca je dužan obezbijediti kantonalni inspektor na trošak subjekta nadzora sa liste stalnih sudskih tumača za jezik subjekta nadzora."
+  },
+  {
+   "key": "83",
+   "label": "Član 83",
+   "title": "Primjena Zakona o upravnom postupku",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Zakon o upravnom postupku (\"Službene novine Federacije Bosne i Hercegovine\", br. 2/98 i 48/99) shodno se primjenjuje na vršenje inspekcijskog nadzora u svim pitanjima koja nisu drugačije propisana ovim ili drugim kantonalnim zakonom."
+  },
+  {
+   "key": "84",
+   "label": "Član 84",
+   "title": "Dužnost pridržavanja načela",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Kantonalni inspektor dužan je u vršenju inspekcijskog nadzora pridržavati se načela utvrđenih ovim zakonom."
+  },
+  {
+   "key": "85",
+   "label": "Član 85",
+   "title": "Pokretanje postupka inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Postupak inspekcijskog nadzora pokreće se po službenoj dužnosti."
+  },
+  {
+   "key": "86",
+   "label": "Član 86",
+   "title": "Zahtjev za vršenje inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Inspekcijski nadzor u skladu sa ovim zakonom, pored programa rada iz člana 24. ovog zakona, izvršiće se i na zahtjev:\na) Vlade Kantona,\nb) kantonalnog ministra, direktora kantonalne uprave i direktora kantonalne upravne organizacije,\nc) drugih organa državne službe, kao i organa i tijela zakonodavne i izvršne vlasti u Bosni i Hercegovini."
+  },
+  {
+   "key": "87",
+   "label": "Član 87",
+   "title": "Zahtjev za vršenje inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Pravna i fizička lica mogu podnijeti zahtjev ili prijedlog (u daljem tekstu: predstavka) nadležnoj kantonalnoj inspekciji da izvrši inspekcijski nadzor i preduzme sve upravne i druge mjere iz svoje nadležnosti.\n(2) Na način podnošenja predstavki iz stava (1) ovog člana primjenjuju se odredbe Zakona o upravnom postupku koje se odnose na način predaje podnesaka.\n(3) Nadležna kantonalna inspekcija obavijestiće o preduzetim mjerama podnosioca predstavke pismeno, u roku od 15 dana od dana okončanja inspekcijskog nadzora.\n(4) Odredba stava (3) ovog člana ne odnose se na anonimne predstavke."
+  },
+  {
+   "key": "88",
+   "label": "Član 88",
+   "title": "Ponovljeni zahtjev za vršenje inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Ukoliko se predstavka odnosi na pitanje koje je povodom ranije predstavke istog podnosioca već bilo predmet razmatranja, ponovna predstavka u istoj stvari uzeće se u postupak samo ako su u njoj iznesene nove činjenice ili ako prilikom razmatranja ranije predstavke nisu uzete u obzir sve okolnosti od značaja za njihovu pravilnu ocjenu."
+  },
+  {
+   "key": "89",
+   "label": "Član 89",
+   "title": "Obaveze organa uprave i pravnih lica sa javnim ovlašćenjima",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Organi uprave i pravna lica koja imaju javna ovlašćenja dužni su obavijestiti nadležnu kantonalnu inspekciju o svim nezakonitim radnjama za koje su saznali u obavljanju svojih poslova, a značajne su za rad kantonalne inspekcije.\n(2) Organi uprave i pravna lica iz stava (1) ovog člana dužni su, uz obavijest, dostaviti i sve dokaze sa kojima raspolažu (zapisnik o saslušanju određenog lica, zapisnik o uviđaju, fotografije i sl.)."
+  },
+  {
+   "key": "90",
+   "label": "Član 90",
+   "title": "Obaveze kantonalnih inspektora prema pravnim licima sa javnim ovlašćenjima",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Ako pravna lica sa javnim ovlašćenjima ne vrše povjerene poslove u skladu sa zakonom i drugim propisima, kantonalni inspektor koji vrši inspekcijski nadzor će pismeno obavijestiti organ koji je povjerio javna ovlašćenja, kako bi isti preduzeo mjere za obezbjeđenje da se javna ovlašćenja vrše u skladu sa zakonom i drugim propisima.\n(2) Kantonalni inspektor će provesti inspekcijski nadzor koji se odnosi na kontrolu sadržaja i uslova pod kojim se javna ovlašćenja vrše."
+  },
+  {
+   "key": "91",
+   "label": "Član 91",
+   "title": "Nalog za vršenje inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Inspekcijski nadzor kantonalni inspektor vrši na osnovu naloga za inspekcijski nadzor.\n(2) Nalog za inspekcijski nadzor iz stava (1) ovog člana izdaje glavni kantonalni inspektor ili direktor Kantonalne uprave, odnosno lice koje direktor Kantonalne uprave ovlasti.\n(3) Nalog se izdaje u pismenom obliku i sadrži:\na) naziv Kantonalne uprave, broj naloga i datum izdavanja,\nb) ime, prezime i svojstvo lica koje izdaje nalog u skladu sa stavom (2) ovog člana i naziv inspektorata,\nc) ime i prezime kantonalnog inspektora koji će izvršiti inspekcijski nadzor,\nd) datum početka vršenja inspekcijskog nadzora,\ne) naziv vozila i registracijske oznake,\nf) naziv subjekta i objekta inspekcijskog nadzora,\ng) ček listu,\nh) pouku subjektu nadzora da ometanje kantonalnog inspektora u radu predstavlja prekršaj,\ni) potpis izdavaoca naloga i otisak pečata.\n(4) Ukoliko se prema okolnostima slučaja ne može jasno odrediti subjekt nadzora, kantonalni inspektor može izdati nalog za inspekcijski nadzor i isti potpisati na terenu, uz obavezu da pomenuti nalog kantonalni inspektor predoči glavnom kantonalnom inspektoru u roku od 24 sata, koji će ga svojim potpisom verifikovati kao akt u predmetu.\n(5) Ako kod istog subjekta nadzora, inspekcijski nadzor istovremeno vrši više kantonalnih inspektora iz različitih upravnih oblasti, svakom kantonalnom inspektoru se izdaje pojedinačni nalog za inspekcijski nadzor za oblast koju nadzire.\n(6) U slučaju potrebe za preduzimanjem hitnih mjera zbog zaštite javnog interesa, glavni kantonalni inspektor može kantonalnom inspektoru izdati usmeni nalog za vršenje inspekcijskog nadzora, uz obavezu da u roku od 24 sata od dana izdavanja usmenog naloga kantonalnom inspektoru potpiše pismeni nalog.\n(7) U slučaju da kantonalni inspektor u postupku provođenja inspekcijskog nadzora utvrdi potrebnim da izvrši širi inspekcijski nadzor izvan ček liste naznačene u nalogu za inspekcijski nadzor iz stava (1) ovog člana, ima pravo vršiti i druge radnje u skladu sa zakonom.\n(8) Nalog za inspekcijski nadzor glavnom kantonalnom inspektoru verifikuje direktor Kantonalne uprave u roku iz stava (4) ovog člana."
+  },
+  {
+   "key": "92",
+   "label": "Član 92",
+   "title": "Predočavanje naloga za vršenje inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Nalog za inspekcijski nadzor, po pravilu, ne dostavlja se, niti predaje subjektu nadzora nego mu se isti na njegov zahtjev samo predočava prilikom inspekcijskog nadzora.\n(2) Protiv naloga za inspekcijski nadzor ne može se izjaviti žalba."
+  },
+  {
+   "key": "93",
+   "label": "Član 93",
+   "title": "Obim i složenost inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Na osnovu ček liste utvrđuje se obim i složenost inspekcijskog nadzora."
+  },
+  {
+   "key": "94",
+   "label": "Član 94",
+   "title": "Povreda zakona i drugih propisa",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Kada u inspekcijskom nadzoru kantonalni inspektor utvrdi povredu zakona i drugih propisa, a za preduzimanje upravnih ili drugih mjera nadležna je druga kantonalna inspekcija, odnosno drugi organ uprave, dužan je bez odlaganja sačiniti službenu zabilješku i putem glavnog inspektora obavijestiti nadležnu inspekciju, odnosno organ uprave."
+  },
+  {
+   "key": "95",
+   "label": "Član 95",
+   "title": "Predstavljanje kantonalnog inspektora subjektu nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Prije početka vršenja inspekcijskog nadzora kantonalni inspektor će se predstaviti subjektu nadzora uz predočenu značku i službenu iskaznicu."
+  },
+  {
+   "key": "95a",
+   "label": "Član 95a",
+   "title": "Obveza kantonalnog inspektora za izuzeće",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Kantonalni inspektor izuzet će se od rada u predmetu:\na) ako je u predmetu u kome se vodi inspekcijski postupak: stranka, suovlaštenik, odnosno suobveznik, svjedok, vještak, punomoćnik ili zakonski zastupnik stranke u postupku,\nb) ako je sa strankom u postupku, zastupnikom ili punomoćnikom stranke srodnik po krvi u pravoj liniji, a u pobočnoj liniji do četvrtog stupnja zaključno, bračni partner ili srodnik po tazbini do drugog stupnja zaključno, pa i onda kad je brak prestao,\nc) ako je sa strankom u postupku, zastupnikom ili punomoćnikom stranke u odnosu staratelja, usvojitelja, usvojenika ili hranitelja."
+  },
+  {
+   "key": "95b",
+   "label": "Član 95b",
+   "title": "Postupanje kantonalnog inspektora po saznanju za razloge za njegovo izuzeće",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Kantonalni inspektor, čim sazna da postoji koji od razloga za izuzeće iz članka 95a. ovog zakona, dužan je da prekine svaki daljnji rad na predmetu i da o tome u pisanoj formi obavijesti ravnatelja Kantonalne uprave.\n(2) Ako kantonalni inspektor smatra da postoje druge okolnosti koje opravdavaju njegovo izuzeće, obavijestit će o tome ravnatelja Kantonalne uprave ne prekidajući rad."
+  },
+  {
+   "key": "95c",
+   "label": "Član 95c",
+   "title": "Zahtjev stranke za izuzeće kantonalnog inspektora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Stranka u inspekcijskom postupku može zahtijevati izuzeće kantonalnog inspektora iz razloga navedenih u članku 95a. ovog zakona, a i kad postoje druge okolnosti koje dovode u sumnju njegovu nepristrasnost.\n(2) U zahtjevu za izuzeće, stranka mora navesti okolnosti i činjenice zbog kojih smatra da postoji neki od razloga za izuzeće.\n(3) Kantonalni inspektor za kojeg je stranka u postupku zahtijevala izuzeće iz nekog od razloga navedenog u članku 95a. ovog zakona, ne može, sve do donošenja zaključka o ovom zahtjevu, obavljati nikakve radnje u inspekcijskom postupku, osim onih koje ne trpe odgađanje.\n(4) Zahtjev za izuzeće kantonalnog inspektora stranka podnosi u pisanoj formi ravnatelju Kantonalne uprave, putem pošte ili neposrednom predajom na centralnu pisarnicu Ureda za zajedničke poslove kantonalnih organa Tuzlanskog kantona."
+  },
+  {
+   "key": "95d",
+   "label": "Član 95d",
+   "title": "Odlučivanje o zahtjevu za izuzeće",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) O izuzeću kantonalnog inspektora odlučuje ravnatelj Kantonalne uprave, u roku od 15 dana od dana prijema zahtjeva.\n(2) O izuzeću kantonalnog inspektora odlučuje se zaključkom.\n(3) U zaključku o izuzeću kantonalnog inspektora odredit će se kantonalni inspektor koji će postupati u predmetu u kome je izuzeće određeno.\n(4) Protiv zaključka kojim se odlučuje o izuzeću kantonalnog inspektora nije dopuštena žalba."
+  },
+  {
+   "key": "96",
+   "label": "Član 96",
+   "title": "Sudjelovanje subjekta nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) U vršenju inspekcijskog nadzora sudjeluje subjekt nadzora, odnosno odgovorno ili drugo ovlašćeno lice.\n(2) Izuzetno, u slučajevima i pod uslovima određenim ovim zakonom ili drugim propisom, kantonalni inspektor može izvršiti inspekcijski nadzor i bez sudjelovanja ovlašćenog lica subjekta nadzora, uz prisustvo zatečenog lica koje je radno angažovano kod subjekta nadzora."
+  },
+  {
+   "key": "97",
+   "label": "Član 97",
+   "title": "Mjesto vršenja inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Inspekcijski nadzor obavlja se na mjestu gdje treba utvrditi činjenice o izvršavanju zakona i drugih propisa na koje se odnosi predmet inspekcijskog nadzora, što se određuje, po pravilu, nalogom za vršenje inspekcijskog nadzora.\n(2) Ako se inspekcijski nadzor vrši u poslovnim prostorijama subjekta nadzora, odgovorno ili drugo ovlašćeno lice subjekta nadzora dužno je kantonalnom inspektoru obezbijediti odgovarajuće uslove za rad."
+  },
+  {
+   "key": "98",
+   "label": "Član 98",
+   "title": "Poziv subjektu nadzora za dostavu dokumentacije",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Ako je potrebno, kantonalni inspektor može pozvati subjekta nadzora da mu u prostorije Kantonalne uprave dostavi potrebnu dokumentaciju i druge spise, radi vršenja inspekcijskog nadzora."
+  },
+  {
+   "key": "99",
+   "label": "Član 99",
+   "title": "Vrijeme vršenja inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Kantonalni inspektor može vršiti inspekcijski nadzor kod subjekta nadzora bez prethodne najave u bilo koje vrijeme u toku dana ili noći u toku njegovog radnog vremena, na mjestu koje je podložno inspekcijskom nadzoru, a izuzetno i izvan radnog vremena, ukoliko postoji opravdana potreba za vršenje inspekcijskog nadzora, kako je to navedeno u nalogu za inspekcijski nadzor.\n(2) Ako se inspekcijski nadzor vrši u poslovnim prostorijama subjekta nadzora i ne može se završiti u toku njegovog radnog vremena, kantonalni inspektor može, ako je potrebno, i ako postoje mogućnosti, izvršiti privremeno pečaćenje poslovnog prostora, ili dijela poslovnog prostora, ili samo opreme u tom prostoru u kojem se nalaze stvari ili dokumentacija na koje se odnose radnje inspekcijskog nadzora, a u cilju dovršenja započetog inspekcijskog nadzora.\n(3) O privremenom pečaćenju poslovnog prostora ili opreme iz stava (2) ovog člana, donosi se zaključak protiv kojeg se ne može izjaviti žalba.\n(4) Zaključak iz stava (3) ovog člana može se priložiti uz zapisnik o izvršenom inspekcijskom nadzoru."
+  },
+  {
+   "key": "100",
+   "label": "Član 100",
+   "title": "Utvrđivanje podataka o subjektu nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) U inspekcijskom nadzoru nadležni kantonalni inspektor utvrđuje, po pravilu, za svakog subjekta nadzora:\na) identifikaciju subjekta nadzora (za fizičko lice identitet, a za pravno lice oblik njegovog organizovanja, lice ovlašćeno za predstavljanje i zastupanje pravnog lica, odgovorno lice u pravnom licu prema aktu o upisu u sudski registar ili drugom aktu iz kojeg proizilazi odgovornost lica za povredu zakona), pri čemu je obavezan utvrditi za subjekta nadzora podatke propisane članovima 55. i 62. Zakona o prekršajima (\"Službene novine Federacije Bosne i Hercegovine\", broj: 63/14),\nb) posjedovanje isprava za obavljanje djelatnosti i rada, a posebno o:\n1) registraciji (upis u sudski i druge registre),\n2) dozvoli za rad (obrtnica, odobrenje, licenca za rad i sl.).\n(2) U inspekcijskom nadzoru nadležni kantonalni inspektor utvrđuje, po pravilu, za svakog subjekta nadzora da li posjeduje isprave za obavljanje djelatnosti i rada, a posebno:\na) odobrenje, u skladu sa zakonom, za priključak na komunalne, elektro, gasne i druge instalacije,\nb) dopuštenost rada sa sredstvima i resursima sa kojima se obavlja djelatnost (važenje koncesije, tehnički pregled, registracija, atest i sl.),\nc) da li je kod subjekta nadzora zaposlen stranac bez radne dozvole ili sa radnom dozvolom kojoj je istekla važnost, izuzev kategorija stranaca koji ne moraju imati radnu dozvolu u skladu sa posebnim propisima,\nd) da li subjekt nadzora ima i druge isprave koje mora posjedovati u skladu sa zakonom i drugim propisom.\n(3) Kantonalni inspektor će utvrditi i druge činjenice koje su značajne za postupak inspekcijskog nadzora."
+  },
+  {
+   "key": "101",
+   "label": "Član 101",
+   "title": "Dužnost omogućavanja rada inspektoru",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Subjekt nadzora i svako drugo lice ne smije sprečavati i otežavati kantonalnom inspektoru vršenje inspekcijskog pregleda."
+  },
+  {
+   "key": "102",
+   "label": "Član 102",
+   "title": "Uzimanje uzoraka proizvoda",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Ako je u inspekcijskom nadzoru potrebno utvrditi odgovaraju li proizvodi u proizvodnji ili u prometu propisanom i deklarisanom sastavu, odnosno propisanom i deklarisanom kvalitetu, kantonalni inspektor može uzeti uzorke tih proizvoda u propisanoj količini i propisanom broju uzoraka i dati ih na ispitivanje ovlašćenoj instituciji.\n(2) Za ispitivanje kvaliteta kantonalni inspektor može uzeti od istog proizvoda najviše tri uzorka i u količini koja je potrebna za ispitivanje.\n(3) O uzimanju uzoraka proizvoda, kantonalni inspektor dužan je sastaviti zapisnik.\n(4) O rezultatu obavljenog ispitivanja proizvoda, kantonalni inspektor će u pismenom obliku obavijestiti subjekta nadzora, najkasnije u roku od tri dana od dana prijema nalaza od ovlašćene institucije koja je ispitivanje obavila odnosno kako je to predviđeno posebnim propisima."
+  },
+  {
+   "key": "103",
+   "label": "Član 103",
+   "title": "Ponavljanje ispitivanja kvaliteta proizvoda",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Ako je subjekt nadzora nezadovoljan nalazom ispitivanja proizvoda, ima pravo tražiti od kantonalnog inspektora da se ispitivanje ponovi, na uzorku uzetom za potrebe superanalize i istom metodom kod druge organizacije ovlašćene za ispitivanje kvaliteta proizvoda.\n(2) Zahtjev za ponavljanje ispitivanja kvaliteta proizvoda u smislu stava (1) ovog člana podnosi se u pismenoj formi u roku od tri dana od dana dostavljanja nalaza prvog ispitivanja.\n(3) Ako rezultat ponovljenog ispitivanja kvaliteta proizvoda nije saglasan sa prvim nalazom, mjerodavan je nalaz ponovljenog ispitivanja."
+  },
+  {
+   "key": "104",
+   "label": "Član 104",
+   "title": "Uzorkovanje",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Subjekt nadzora dužan je kantonalnom inspektoru besplatno dati potrebnu količinu uzorka proizvoda za ispitivanje kvaliteta.\n(2) Troškove ispitivanja uzoraka proizvoda snosi subjekt nadzora, ako se utvrdi da uzorak ne odgovara kvalitetu propisanom zakonom i drugim propisom, ako drugačije nije regulisano posebnim propisom.\n(3) Ako uzorak proizvoda odgovara kvalitetu propisanom zakonom ili drugim propisom, troškovi ispitivanja iz ovog člana padaju na teret sredstava kantonalnog budžeta, ako drugačije nije regulisano posebnim propisom."
+  },
+  {
+   "key": "105",
+   "label": "Član 105",
+   "title": "Način uzorkovanja",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Direktor Kantonalne uprave će pravilnikom propisati način uzimanja uzoraka proizvoda, kao i dostavljanje tih uzoraka na ispitivanje ovlašćenim institucijama."
+  },
+  {
+   "key": "106",
+   "label": "Član 106",
+   "title": "Sudjelovanje subjekta nadzora u obavljanju inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Subjekt nadzora dužan je odrediti lice koje će sudjelovati u inspekcijskim radnjama na utvrđivanju činjenica u predmetu inspekcijskog nadzora.\n(2) Lice iz stava (1) ovog člana, dužno je kantonalnom inspektoru dati na uvid poslovne knjige, dokumentaciju i druge dokaze potrebne za pravilno utvrđivanje činjeničnog stanja.\n(3) Kantonalni inspektor može tražiti i od drugih zaposlenih lica, kao i od lica koja su u poslovnom odnosu sa subjektom nadzora, potrebne podatke i druge dokaze za pravilno utvrđivanje činjeničnog stanja.\n(4) Kantonalni inspektor svoje zahtjeve iz ovog člana iznosi usmeno, a prema okolnostima to može odrediti i bzaključkom.\n(5) Protiv zaključka iz stava (4) ovog člana ne može se izjaviti žalba."
+  },
+  {
+   "key": "107",
+   "label": "Član 107",
+   "title": "Izjašnjavanje subjekta nadzora o činjenicama i dokazima u inspekcijskom nadzoru",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Kod vršenja inspekcijskog nadzora kantonalni inspektor samostalno određuje koje će dokaze koristiti za utvrđivanje činjeničnog stanja.\n(2) Kantonalni inspektor će upoznati subjekta nadzora sa dokazima koji nisu kod njega pribavljeni i omogućiti mu da se o njima izjasni.\n(3) Subjekt nadzora je dužan na traženje kantonalnog inspektora dati usmeno, odnosno pismeno izjašnjenje o činjenicama i dokazima koji su izneseni, odnosno utvrđeni u postupku inspekcijskog nadzora."
+  },
+  {
+   "key": "108",
+   "label": "Član 108",
+   "title": "Privremeno oduzimanje poslovne i druge dokumentacije",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) U inspekcijskom nadzoru kantonalni inspektor može privremeno oduzeti poslovnu i drugu dokumentaciju radi provjere autentičnosti i tačnosti navoda u njoj.\n(2) Zaključkom će se odrediti u kojem će se roku vratiti dokumentacija, osim ako se ona prilaže kao dokaz u prekršajnom ili krivičnom postupku.\n(3) O privremenom oduzimanju dokumentacije kantonalni inspektor izdaje potvrdu u kojoj će se navesti šta je oduzeto sa potpunom identifikacijom (naziv dokumenta, izdavalac, broj, datum i dr.).\n(4) Protiv zaključka iz stava (2) ovog člana, nije dozvoljena žalba."
+  },
+  {
+   "key": "109",
+   "label": "Član 109",
+   "title": "Pozivanje odgovornih i drugih lica",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) U inspekcijskom nadzoru kantonalni inspektor može pozvati u Kantonalnu upravu ili na mjesto obavljanja inspekcijskog nadzora odgovorno lice subjekta nadzora i svako drugo lice radi saslušanja, ili davanja potrebnih podataka za pravilno utvrđivanje činjeničnog stanja od značaja za vršenje inspekcijskog nadzora.\n(2) Lica iz stava (1) ovog člana mogu se pozvati u radne dane u vremenu od 6 do 22 sata, a izuzetno i izvan tog vremena, i u sve dane, ako se radi o hitnosti.\n(3) Poziv se upućuje u pismenom obliku, a izuzetno i usmeno ili drugim sredstvima komunikacije."
+  },
+  {
+   "key": "110",
+   "label": "Član 110",
+   "title": "Postupak kantonalnog inspektora u slučaju nemogućnosti vršenja inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Ako kantonalni inspektor iz objektivnih razloga ne može obaviti inspekcijski nadzor, pismenim putem će pozvati subjekta nadzora da u određeno vrijeme i određeni datum pristupi u prostorije Kantonalne uprave i donese svu traženu dokumentaciju.\n(2) Subjekt nadzora je dužan dostaviti traženu dokumentaciju po pismenom pozivu kantonalnog inspektora iz stava (1) ovog člana."
+  },
+  {
+   "key": "111",
+   "label": "Član 111",
+   "title": "Odazivanje pozivu kantonalnog inspektora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Pozvano lice dužno je odazvati se pozivu kantonalnog inspektora ili opravdati izostanak u roku od 24 sata od dana kada je bilo dužno odazvati se pozivu."
+  },
+  {
+   "key": "112",
+   "label": "Član 112",
+   "title": "Radnje inspekcijskog postupka kod drugih lica koja nisu subjekt nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Kantonalni inspektor ima pravo obaviti inspekcijske radnje i kod drugih lica koja nisu subjekt nadzora, ako se kod tih lica obavlja djelatnost, nalaze stvari, drugi predmeti, isprave i sl., koji su od značaja za inspekcijski nadzor kod subjekta nadzora.\n(2) Ako lice iz stava (1) ovog člana ne dopusti kantonalnom inspektoru da obavi potrebne inspekcijske radnje, on može prema tom licu preduzeti iste mjere kao i prema subjektu nadzora."
+  },
+  {
+   "key": "113",
+   "label": "Član 113",
+   "title": "Pomoć policije u obavljanju inspekcijskog nadzora",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Ako se u vršenju inspekcijskog nadzora onemogući kantonalnom inspektoru obavljanje nadzora pružanjem fizičkog otpora, ili ako se takav otpor osnovano očekuje, on može zatražiti pomoć nadležne policije.\n(2) Nadležna policija obavezna je pružiti potrebnu zaštitu i omogućiti da se obavi inspekcijski nadzor i na usmeni zahtjev kantonalnog inspektora, glavnog kantonalnog inspektora i direktora Kantonalne uprave, iako o istom nije bila prethodno obaviještena."
+  },
+  {
+   "key": "114",
+   "label": "Član 114",
+   "title": "Zapisnik o inspekcijskom nadzoru",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) O svakom obavljenom inspekcijskom nadzoru kantonalni inspektor je obavezan sačiniti zapisnik i u njemu navesti činjenično stanje utvrđeno inspekcijskim nadzorom.\n(2) O manje važnim radnjama u postupku i izjavama subjekata nadzora, kao i u slučaju nemogućnosti izvršenja inspekcijskog nadzora, kantonalni inspektor sačinjava službenu zabilješku.\n(3) Ako je inspekcijski nadzor obavilo istovremeno više kantonalnih inspektora iz različitih upravnih oblasti, svaki kantonalni inspektor sačinjava poseban zapisnik.\n(4) Zapisnik sadrži, osim elemenata propisanih u Zakonu o upravnom postupku, i navode koje je neophodno navesti u obavljanju inspekcijskog nadzora.\n(5) Obrazac zapisnika o inspekcijskom nadzoru iz stava (1) ovog člana odrediće direktor Kantonalne uprave."
+  },
+  {
+   "key": "115",
+   "label": "Član 115",
+   "title": "Mjesto sačinjavanja zapisnika o inspekcijskom nadzoru",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Zapisnik o inspekcijskom nadzoru se sačinjava na licu mjesta i u toku obavljanja inspekcijskog nadzora, osim u slučajevima iz člana 110. ovog zakona.\n(2) U složenijem inspekcijskom nadzoru, zapisnik se može sačiniti i završiti u službenim prostorijama Kantonalne uprave u roku od tri dana od dana završenog inspekcijskog nadzora.\n(3) Jedan primjerak zapisnika predaje se licu koje je zatečeno i prisustvovalo inspekcijskom nadzoru kod subjekta nadzora, odmah nakon sačinjavanja.\n(4) Ukoliko subjekt nadzora nije prisustvovao inspekcijskom nadzoru, dostavlja mu se jedan primjerak zapisnika sa pozivom da se izjasni o navodima iz zapisnika, uz upozorenje da će se smatrati da nema primjedbi, ako u određenom roku ne dostavi svoje primjedbe."
+  },
+  {
+   "key": "116",
+   "label": "Član 116",
+   "title": "Primjedbe na zapisnik o inspekcijskom nadzoru",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Subjekt nadzora, odnosno odgovorno ili drugo ovlašćeno lice subjekta nadzora ima pravo staviti primjedbe na zapisnik o obavljenom inspekcijskom nadzoru.\n(2) Primjedbe se stavljaju istovremeno sa sačinjavanjem zapisnika, ili u slučaju iz stava (2) i stava (4) člana 115. ovog zakona u roku od tri dana od dana prijema zapisnika.\n(3) Primjedbe na zapisnik, odnosno izjava da nema primjedbi, unosi se u zapisnik.\n(4) Ukoliko se primjedbe na zapisnik prilažu uz zapisnik, one se ovjeravaju potpisom i pečatom odgovornog lica u subjektu nadzora.\n(5) Ako ovlašćeno lice subjekta nadzora ne stavi primjedbe na zapisnik u roku iz stava (2) ovog člana, niti da pismenu izjavu da nema primjedbi, smatra se da nema primjedbi na zapisnik."
+  },
+  {
+   "key": "117",
+   "label": "Član 117",
+   "title": "Dokazna snaga zapisnika o inspekcijskom nadzoru",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Zapisnik o inspekcijskom nadzoru ima dokaznu snagu javne isprave."
+  },
+  {
+   "key": "118",
+   "label": "Član 118",
+   "title": "Obaveza čitanja zapisnika o inspekcijskom nadzoru",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "Kantonalni inspektor je dužan pročitati sadržaj zapisnika o inspekcijskom nadzoru subjektu nadzora."
+  },
+  {
+   "key": "119",
+   "label": "Član 119",
+   "title": "Razmatranje primjedbi na zapisnik o inspekcijskom nadzoru",
+   "chapter": "C) POSTUPAK INSPEKCIJSKOG NADZORA",
+   "text": "(1) Kantonalni inspektor razmotriće primjedbe na zapisnik o obavljenom inspekcijskom nadzoru i, prema potrebi, upotpuniti inspekcijske radnje na koje se primjedbe odnose.\n(2) O primjedbama na zapisnik posebno se ne odlučuje, već se cijene i obrazlažu u postupku donošenja upravnog akta."
+  },
+  {
+   "key": "120",
+   "label": "Član 120",
+   "title": "Upravne mjere koje inspektor određuje u inspekcijskom nadzoru",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "Kada nadležni kantonalni inspektor, u postupku vršenja inspekcijskog nadzora utvrdi da subjekt nadzora ne postupa u skladu sa propisima obavezan je rješenjem naložiti sledeće upravne mjere:\na) narediti da se utvrđeni nedostaci, propusti i nepravilnosti otklone u propisanom roku, odnosno roku koji odredi kantonalni inspektor,\nb) privremeno zabraniti djelatnost, odnosno rad subjektu nadzora, koja se obavlja suprotno zakonu i drugim propisima,\nc) privremeno zabraniti rad i oduzeti robu licu koje stavlja robu u promet bez odobrenja nadležnog organa, odnosno koja nije u okviru njegove registrovane djelatnosti, ako drugačije nije regulisano posebnim propisima,\nd) privremeno oduzeti robu koja je pribavljena suprotno zakonu i drugim propisom ili služi prometu, odnosno izvršenju poslova i radnji koje su u suprotnosti sa propisima,\ne) narediti subjektu nadzora da preduzme odgovarajuće mjere i radnje u cilju otklanjanja uočenih nepravilnosti odnosno propusta,\nf) narediti uništavanje robe koja je oduzeta u vršenju inspekcijskog nadzora zbog toga što je protivpravno nastala ili služi prometu odnosno izvršenju radnji koje su u suprotnosti s propisima,\ng) zabraniti subjektu nadzora dalje radno angažovanje zatečenih lica bez regulisanog radno-pravnog statusa u skladu sa zakonom,\nh) privremeno oduzeti imovinu i novac, odnosno, privremeno staviti van upotrebe sredstva rada zatečena u postupku protivpravnog vršenja poslovne djelatnosti do konačnosti rješenja,\ni) naložiti isključivanje iz saobraćaja svakog vozila, osim vozila vojske i policije,\nj) zabraniti pristup mjestu na kojem se vrši uviđaj ili druge inspekcijske radnje,\nk) ukoliko kantonalni inspektor u vršenju inspekcijskog nadzora utvrdi da subjekt nadzora obavlja djelatnost bez registracije ili odobrenja nadležnog organa, odmah će zabraniti rad subjektu nadzora,\nl) ukoliko kantonalni inspektor u vršenju redovnog inspekcijskog nadzora utvrdi da subjekt nadzora ne ispunjava uslove za obavljanje djelatnosti, narediće privremenu zabranu obavljanja djelatnosti do ispunjavanja propisanih uslova,\nm) narediti i druge upravne mjere u skladu sa posebnim zakonom."
+  },
+  {
+   "key": "121",
+   "label": "Član 121",
+   "title": "Javno objavljivanje upravne mjere",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "(1) Upravnu mjeru kantonalni inspektor će javno objaviti ako se objavom postiže potpunija svrha inspekcijskog nadzora.\n(2) Upravna mjera javno se objavljuje na oglasnoj tabli subjekta nadzora, u sjedištu subjekta nadzora, u javnim glasilima ili na drugi pogodan način."
+  },
+  {
+   "key": "122",
+   "label": "Član 122",
+   "title": "Žalba na rješenje o zabrani rada",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "(1) Zabrana rada počinje teći od dana uručenja rješenja subjektu nadzora.\n(2) Kod zabrane rada žalba ne odlaže izvršenje rješenja u sledećim slučajevima:\na) ako bi poslovanje i radnje subjekta nadzora dovele u opasnost život i zdravlje ljudi, bilja i životinja, ili nastanak veće materijalne štete,\nb) ako subjekt nadzora ne ispunjava uslove za obavljanje djelatnosti ili obavlja djelatnost bez odobrenja nadležnog organa,\nc) ako bi nastavak rada ugrozio bezbijednost saobraćaja odnosno bezbijedan transport roba i bezbijednost ljudi,\nd) ako bi nastavak rada mogao dovesti do ugrožavanja javnog interesa,\ne) i u drugim slučajevima propisanim posebnim propisima."
+  },
+  {
+   "key": "123",
+   "label": "Član 123",
+   "title": "Pečaćenje poslovnih prostorija subjekta nadzora",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "(1) Kada je subjektu nadzora zabranjen rad kantonalni inspektor će u skladu sa materijalnim propisom, pečaćenjem, otiskom pečata u pečatnom vosku ili na drugi odgovarajući način (natpis, traka i slično) zatvoriti poslovne prostorije u kojima je zabranjen rad, odnosno zapečatiti ili na drugi odgovarajući način zabraniti rad s predmetima sa kojima je počinjen prekršaj, kao mjerom obezbjeđenja izvršenja rješenja.\n(2) Zatvaranje poslovnih prostorija odnosno zabranu rada s predmetima sa kojima je počinjen prekršaj, u smislu stava (1) ovog člana, kantonalni inspektor će odrediti u rješenju kojim je određena zabrana rada.\n(3) O pečaćenju ili na drugi način zatvaranju poslovnih prostorija, odnosno pečaćenju ili na drugi način izdavanju zabrane rada s predmetima sa kojima je počinjen prekršaj, kantonalni inspektor će sastaviti zapisnik.\n(4) Ako kantonalni inspektor procijeni da privremena mjera zabrane rada može biti nasilno narušena ili u kratkom roku od strane subjekta nadzora ili drugih lica neizvršena, obavijestiće nadležno ministarstvo unutrašnjih poslova o naloženoj mjeri zabrane rada i mjeri obezbjeđenja iste.\n(5) Direktor Kantonalne uprave će za slučajeve u kojima je određena zabrana rada, donijeti propis o načinu pečaćenja i drugim oblicima zatvaranja poslovnih prostorija, odnosno načinu pečaćenja i drugim oblicima stavljanja zabrane rada s predmetima sa kojima je počinjen prekršaj."
+  },
+  {
+   "key": "124",
+   "label": "Član 124",
+   "title": "Određivanje upravne mjere prema drugom licu koje nije subjekt nadzora",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "(1) Ako je subjektu nadzora omogućeno nezakonitom radnjom drugog lica da može obavljati djelatnost, odnosno raditi protivno propisima, kantonalni inspektor će odrediti upravnu mjeru tom licu da odmah ili u određenom roku otkloni svoje nezakonite radnje.\n(2) Protiv lica koje je učinilo nezakonitu radnju u smislu stava (1) ovog člana kantonalni inspektor može preduzeti i druge upravne mjere, kao prema subjektu nadzora kojem je omogućeno obavljanje djelatnosti protivno propisima."
+  },
+  {
+   "key": "125",
+   "label": "Član 125",
+   "title": "Usmeno određivanje upravne mjere",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "(1) U inspekcijskom nadzoru kantonalni inspektor će subjektu nadzora usmeno odrediti upravnu mjeru i istovremeno narediti da se odmah izvrši:\na) u slučajevima kada je to određeno posebnim propisima,\nb) kada je u nastaloj situaciji neophodno, prema ocjeni inspektora radi zaštite javnog interesa, hitno preduzeti mjere i radnje na otklanjanju neposredne opasnosti po život i zdravlje ljudi ili nastanak veće materijalne štete,\n(2) Usmeno određene upravne mjere unose se u zapisnik o inspekcijskom nadzoru."
+  },
+  {
+   "key": "126",
+   "label": "Član 126",
+   "title": "Rok za donošenje rješenja za usmeno naloženu upravnu mjeru",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "Usmeno naložena upravna mjera je odmah izvršna a kantonalni inspektor donosi pismeno rješenje u roku od tri dana od dana usmeno naložene upravne mjere."
+  },
+  {
+   "key": "127",
+   "label": "Član 127",
+   "title": "Rok za donošenje rješenja za usmeno nalaganje zatvaranja poslovnog objekta",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "Ako kantonalni inspektor, u skladu sa ovima zakonom, usmeno naloži zatvaranje poslovnog objekta, odnosno drugog mjesta rada, donijeće i pismeno rješenje u roku od 24 sata od momenta usmeno naložene upravne mjere."
+  },
+  {
+   "key": "128",
+   "label": "Član 128",
+   "title": "Privremeno oduzimanje robe ili predmeta ili stavljanje pod nadzor",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "(1) Kantonalni inspektor može prilikom vršenja inspekcijskog nadzora privremeno oduzeti ili staviti pod nadzor robu, proizvode, predmete, prirodne sirovine i druge materijale. (u daljem tekstu: roba ili predmeti), ukoliko utvrdi da su protivpravno nastali ili stavljeni u promet ili namijenjeni prometu ili izvršenju radnji i poslova koji su u suprotnosti sa propisima, kao i u drugim slučajevima predviđenim posebnim propisima.\n(2) Kantonalni inspektor može privremeno oduzeti i novac koji potiče od prodaje robe ili predmeta iz stava (1) ovog člana.\n(3) Privremeno oduzeta roba ili predmeti popisuju se u potvrdi o privremenom oduzimanju robe ili predmeta, u kojoj će se navesti šta je oduzeto sa potpunom identifikacijom (naziv robe ili predmeta, vrsta, količina, jedinica mjere, deklarisana ili procijenjena vrijednost, datum, vrijeme, mjesto oduzimanja, lice od kojeg su roba ili predmeti oduzeti i vlasnik predmeta i robe).\n(4) Kantonalni inspektor može odrediti vještaka da izvrši procjenu vrijednosti, stanje i kvalitet privremeno oduzete robe ili predmeta."
+  },
+  {
+   "key": "129",
+   "label": "Član 129",
+   "title": "Postupanje sa privremeno i trajno oduzetom robom ili predmetima",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "(1) Roba ili predmeti privremeno oduzeti u postupku inspekcijskog nadzora od strane kantonalnih inspektora Kantonalne uprave predaju se Kantonalnoj direkciji robnih rezervi (u daljem tekstu: Kantonalna direkcija), radi skladištenja, čuvanja i postupanja sa privremeno oduzetom robom ili predmetima do i nakon pravosnažnog okončanja postupka pred sudom ili drugim organom.\n(2) Prilikom predaje privremeno oduzete robe ili predmeta Kantonalnoj direkciji, kantonalni inspektor je dužan izvršiti pregled deklaracija i rokova upotrebe robe. Robu sa proteklim rokom, kantonalni inspektor će zapisnički popisati i predložiti Kantonalnoj direkciji da istu uništi na zakonom propisani način.\n(3) Kantonalna direkcija je odgovorna za čuvanje privremeno i trajno oduzete robe ili predmeta u skladu sa zakonom.\n(4) Ukoliko su privremeno oduzeta roba ili predmeti podložni brzom kvarenju ili njihovo čuvanje iziskuje nesrazmjerno visoke troškove ili ako ne postoje odgovarajući uslovi za skladištenje, zbog kojih može doći do propadanja privremeno oduzete robe ili predmeta ili je rok upotrebe robe ili predmeta kraći od 30 dana, Kantonalna direkcija će iste bez odlaganja prodati ili ustupiti humanitarnim organizacijama ili socijalnim ustanovama ili uništiti, o čemu odlučuje direktor Kantonalne direkcije, u skladu sa propisom iz člana 132. ovog zakona.\n(5) Sredstva ostvarena prodajom robe ili predmeta iz stava (4) ovog člana uplaćuju se na depozitni račun Budžeta Kantona.\n(6) Privremeno oduzeti novac predaje se u sudski depozit, kao i stvari od veće vrijednosti ako su prikladne za takav način čuvanja."
+  },
+  {
+   "key": "130",
+   "label": "Član 130",
+   "title": "Čuvanje privremeno oduzete robe ili predmeta od strane drugih lica",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "(1) Ukoliko se ne radi o robi ili predmetima iz člana 129. stav (4) ovog zakona, privremeno oduzeta roba ili predmeti mogu se ostaviti na čuvanje i kod subjekta nadzora od kojeg su roba ili predmeti privremeno oduzeti ili kod drugog organa ili pravnog i drugog lica.\n(2) Subjekt iz stava (1) ovog člana je odgovoran za čuvanje robe ili predmeta.\n(3) Troškove smještaja i čuvanja privremeno oduzete robe ili predmeta snosi lice, subjekt nadzora od kojeg su roba ili predmeti privremeno oduzeti, ako posebnim propisima nije drugačije određeno. O troškovima odlučuje kantonalni inspektor zaključkom u skladu sa pravilima upravnog postupka.\n(4) Pravo na naknadu troškova iz stava (3) ovog člana, nema subjekt nadzora od kojeg su roba ili predmeti privremeno oduzeti, ako su kod njega ostavljeni na čuvanje.\n(5) Smještaj i čuvanje privremeno oduzete robe ili predmeta traje do preuzimanja iste od strane Kantonalne direkcije, ukoliko nije drugačije određeno."
+  },
+  {
+   "key": "131",
+   "label": "Član 131",
+   "title": "Upravna mjera oduzimanja i uništenja",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "(1) U vršenju inspekcijskog nadzora kantonalni inspektor će upravnom mjerom narediti oduzimanje robe ili predmeta od subjekta nadzora i njihovo uništenje, ukoliko je istima zabranjen promet, kao i u drugim slučajevima određenim posebnim propisima.\n(2) Oduzeta roba ili predmeti popisuju se u potvrdi o oduzimanju robe ili predmeta u koju se unose podaci iz člana 128. stav (3) ovog zakona.\n(3) O oduzimanju i uništenju robe ili predmeta kantonalni inspektor donosi rješenje koje se dostavlja subjektu nadzora.\n(4) Protiv rješenja iz stava (3) ovog člana, dozvoljena je žalba koja ne odlaže izvršenje rješenja, ukoliko posebnim propisom nije drugačije određeno.\n(5) O žalbi iz stava (4) ovog člana odlučuje organ određen posebnim propisom.\n(6) Troškove uništenja snosi subjekt nadzora od koga su roba ili predmeti oduzeti, ako posebnim propisima nije drugačije određeno.\n(7) Sva pitanja koja se tiču smještaja i daljeg postupanja sa navedenom robom ili predmetima, regulisaće se propisom iz člana 132. ovog zakona."
+  },
+  {
+   "key": "132",
+   "label": "Član 132",
+   "title": "Postupak i procedura sa oduzetom robom",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "Vlada Kantona, na usaglašen prijedlog direktora Kantonalne uprave i direktora Kantonalne direkcije, donijeće propis kojim se regulišu postupak smještaja, čuvanja i način postupanja sa privremeno i trajno oduzetom robom ili predmetima u inspekcijskom postupku."
+  },
+  {
+   "key": "133",
+   "label": "Član 133",
+   "title": "Rješenje kantonalnog inspektora o upravnim mjerama",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "(1) Upravne mjere kantonalni inspektor određuje rješenjem.\n(2) Rješenje mora biti u pisanom obliku i obavezno sadrži:\na) naziv Kantonalne uprave koja donosi rješenje,\nb) broj i datum rješenja,\nc) uvod: naziv inspekcije koja donosi rješenje i odredbe propisa o nadležnosti inspekcije da može donijeti rješenje o upravnoj mjeri,\nd) dispozitiv: naziv subjekta nadzora kojem se određuje upravna mjera sa kratkim i određenim navođenjem šta se upravnom mjerom naređuje ili zabranjuje;\ne) u dispozitivu se navodi i rok do kojeg se određena upravna mjera mora izvršiti, nalog da je subjekt nadzora obavezan kantonalnog inspektora obavijestiti o izvršenoj upravnoj mjeri i da izjavljena žalba na rješenje ne odlaže njegovo izvršenje, ukoliko je propisano da žalba ne odlaže izvršenje rješenja,\nf) obrazloženje: navodi se nalog kojim je određeno obavljanje i predmet inspekcijskog nadzora, vrijeme kad je pregled obavljen, utvrđeno činjenično stanje i navod u čemu se sastoje povrede materijalnog propisa na koji se odnosi pregled,\ng) u obrazloženju se navodi i da je subjektu nadzora dostavljen zapisnik o izvršenom inspekcijskom nadzoru, konstatacija je li stavljen prigovor na zapisnik, ocjena osnovanosti prigovora i da li je eventualno upotpunjavan inspekcijski postupak i kakav je njegov rezultat,\nh) na kraju obrazloženja navode se odredbe materijalnog propisa ili ovog zakona koje propisuju ovlašćenje inspektora da može odrediti upravnu mjeru kakva je određena u dispozitivu,\ni) kada žalba ne odlaže izvršenje rješenja u obrazloženju rješenja navodi se i propis kojim je to određeno,\nj) uputstvo o pravnom lijeku: sadrži obavještenje o pravu na podnošenje žalbe, kome se podnosi, u kojem roku, sa kolikom upravnom taksom i kako se može podnijeti.\n(3) Kada se protiv rješenja može pokrenuti upravni spor u uputstvu o pravnom lijeku navodi se kojem se sudu podnosi tužba i u kojem roku.\n(4) Rješenje potpisuje kantonalni inspektor koji je donio rješenje, a ovjerava se otiskom pečata Kantonalne uprave."
+  },
+  {
+   "key": "134",
+   "label": "Član 134",
+   "title": "Rješenje o upravnim mjerama koje su odmah izvršne",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "Kada se određuju upravne mjere koje se moraju odmah izvršiti ili odmah započeti njihovo izvršenje, rješenje o upravnoj mjeri u obrazloženju sadrži, po pravilu, razlog zbog kojeg se donosi takvo rješenje i navođenje propisa na osnovu kojeg je određena upravna mjera."
+  },
+  {
+   "key": "135",
+   "label": "Član 135",
+   "title": "Rok za donošenje rješenja o upravnim mjerama",
+   "chapter": "D) UPRAVNE I DRUGE MJERE",
+   "text": "Rješenje kojim se nalažu upravne mjere, kantonalni inspektor donosi u zakonom propisanom roku, a kod usmeno naloženih upravnih mjera rješenje donosi u rokovima utvrđenim u članovima 126. i 127. ovog zakona."
+  },
+  {
+   "key": "136",
+   "label": "Član 136",
+   "title": "Žalba na rješenje i zaključak kantonalnog inspektora",
+   "chapter": "E) PRAVNI LIJEKOVI PROTIV RJEŠENJA I ZAKLJUČAKA KANTONALNIH INSPEKTORA",
+   "text": "(1) Na rješenje kantonalnog inspektora o naloženim upravnim mjerama može se izjaviti žalba u roku od osam dana od dana prijema rješenja, ako ovim ili drugom zakonom nije drugačije određeno.\n(2) O žalbi na rješenje kantonalnog inspektora koje je doneseno po kantonalnim propisima rješava nadležno kantonalno ministarstvo iz upravne oblasti na koju se odnosi inspekcijski nadzor, ako zakonom nije određeno da o žalbi rješava drugi organ.\n(3) Žalba na rješenje kantonalnog inspektora o upravnim mjerama odgađa izvršenje rješenja ako ovim ili posebnim zakonom nije drugačije određeno.\n(4) Žalba na rješenje kantonalnog inspektora o naloženoj upravnoj mjeri iz člana 120. stav (1) tačka g) ovog zakona ne odgađa izvršenje rješenja.\n(5) Odredbe stavova od (1) do (4) ovog člana odnose se i na zaključak kantonalnog inspektora protiv kojeg je dopuštena žalba."
+  },
+  {
+   "key": "137",
+   "label": "Član 137",
+   "title": "Rok za rješavanje žalbe",
+   "chapter": "E) PRAVNI LIJEKOVI PROTIV RJEŠENJA I ZAKLJUČAKA KANTONALNIH INSPEKTORA",
+   "text": "Žalbu na rješenje i zaključak kantonalnog inspektora nadležni drugostepeni organ dužan je riješiti u roku od 30 dana od dana predaje žalbe ako posebnim propisom nije određen kraći rok."
+  },
+  {
+   "key": "138",
+   "label": "Član 138",
+   "title": "Upravni spor",
+   "chapter": "E) PRAVNI LIJEKOVI PROTIV RJEŠENJA I ZAKLJUČAKA KANTONALNIH INSPEKTORA",
+   "text": "Protiv rješenja kantonalnog ministarstva donesenog po žalbi protiv rješenja i zaključka kantonalnog inspektora kada rješava po kantonalnim propisima, može se, u skladu sa posebnim zakonom, pokrenuti upravni spor pred nadležnim sudom."
+  },
+  {
+   "key": "139",
+   "label": "Član 139",
+   "title": "Postupanje po rješenju i izvršenje upravne mjere",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "Subjekt nadzora je obavezan postupiti po rješenju kantonalnog inspektora i izvršiti upravnu mjeru koja mu je rješenjem naložena, u roku utvrđenom u rješenju."
+  },
+  {
+   "key": "140",
+   "label": "Član 140",
+   "title": "Dužnost obavještavanja kantonalnog inspektora o izvršenju upravne mjere",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Kada se upravna mjera sastoji od radnji koje subjekt nadzora mora izvršiti u određenom roku, subjekt nadzora dužan je o izvršenju tih radnji odmah u pismenom obliku obavijestiti kantonalnog inspektora koji je donio rješenje o upravnoj mjeri, a najkasnije u roku od tri dana nakon što je rješenje postalo izvršno.\n(2) Obavijest se može i usmeno saopštiti na zapisnik u Kantonalnoj upravi.\n(3) Uz obavijest prilažu se i odgovarajući dokazi, ako se njima dokazuje izvršenje upravne mjere."
+  },
+  {
+   "key": "141",
+   "label": "Član 141",
+   "title": "Praćenje izvršenja upravne mjere",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Kantonalni inspektor prati izvršenje upravne mjere po službenoj dužnosti na osnovu obavljenog kontrolnog inspekcijskog pregleda i drugih dokaza i saznanja.\n(2) Izvršenje upravne mjere utvrđuje se u pravilu posebnim zapisnikom, a u manje složenim predmetima ili kada se radi samo o izvršenju jedne radnje, može se sastaviti službena zabilješka.\n(3) Nakon što rješenje kantonalnog inspektora o naloženoj upravnoj mjeri postane izvršno, kantonalni inspektor je dužan u roku od 60 dana od nastupanja izvršnosti, potpuno samostalno i bez naloga za inspekcijski nadzor, izvršiti kontrolni inspekcijski pregled, odnosno izvršiti kontrolu izvršenja izdatog rješenja o naloženoj upravnoj mjeri.\n(4) U izuzetnim situacijama rok iz stava (3) ovog člana može biti produžen."
+  },
+  {
+   "key": "142",
+   "label": "Član 142",
+   "title": "Produženje roka izvršenja upravne mjere",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Nadležni kantonalni inspektor može na zahtjev subjekta nadzora produžiti rok izvršenja upravne mjere ukoliko propisom, na osnovu kojeg je upravna mjera naložena, nije izričito propisana zabrana odgađanja izvršenja rješenja.\n(2) Rok izvršenja upravne mjere može se produžiti ako su ispunjeni sledeći uslovi:\na) subjekt nadzora ima dokaz o registraciji i dozvolu za rad, a upravna mjera se odnosi na otklanjanje drugih propusta i nepravilnosti,\nb) subjekt nadzora je započeo sa izvršenjem upravne mjere,\nc) da se na osnovu cjelokupnog ponašanja subjekta nadzora osnovano može očekivati da će izvršiti upravnu mjeru u produženom roku za izvršenje,\nd) da je subjekt nadzora podnio zahtjev za produženje roka prije isteka roka za izvršenje.\n(3) O zahtjevu za produženje roka za izvršenje upravne mjere odlučuje kantonalni inspektor koji je donio rješenje i u tom smislu donosi zaključak, kao upravni akt protiv kojeg se ne može izjaviti žalba, a izvršenje upravne mjere može se produžiti do 30 dana."
+  },
+  {
+   "key": "143",
+   "label": "Član 143",
+   "title": "Odgoda izvršenja rješenja o upravnoj mjeri zabrane rada",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Izvršenje rješenja o zabrani rada subjektu nadzora koje je postalo konačno, nadležni kantonalni inspektor može odgoditi na zahtjev subjekta nadzora, ako je protiv tog rješenja pokrenut upravni spor kod nadležnog suda i ako bi izvršenje rješenja o zabrani rada nanijelo subjektu nadzora štetu koja bi se kasnije teško mogla popraviti, a odlaganje nije protivno javnom interesu.\n(2) Izvršenje rješenja iz stava (1) ovog člana će se odgoditi do donošenja sudske odluke i iz drugih razloga ako to javni interes dozvoljava.\n(3) Uz zahtjev za odgodu izvršenja rješenja prilaže se dokaz o podnesenoj tužbi nadležnom sudu.\n(4) O svakom podnesenom zahtjevu za odgodu izvršenja rješenja kantonalni inspektor dužan je donijeti rješenje u roku od tri dana od dana prijema zahtjeva.\n(5) Zahtjevu za odgodu izvršenja ne može se udovoljiti ukoliko je zakonom ili drugim propisom na osnovu kojeg je upravna mjera naložena, izričito propisano da se izvršenje mora provesti odmah po donošenju rješenja."
+  },
+  {
+   "key": "144",
+   "label": "Član 144",
+   "title": "Zaključak o dozvoli prisilnog izvršenja rješenja o upravnoj mjeri",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Kad subjekt nadzora nije u roku koji mu je određen izvršio upravnu mjeru koja se sastoji u nenovčanoj obavezi ili je izvršio samo djelimično, kantonalni inspektor je dužan donijeti zaključak o dozvoli prisilnog izvršenja rješenja kojim je mjera određena.\n(2) Zaključak o dozvoli prisilnog izvršenja rješenja kantonalni inspektor je dužan donijeti odmah po isteku roka za njegovo izvršenje i kad utvrdi da upravne mjere nisu izvršene kako su određene rješenjem, a najkasnije u roku od pet dana od proteka roka iz člana 141. stavovi (3) i (4) ovog zakona.\n(3) Zaključak o dozvoli prisilnog izvršenja donosi se i kad su usmeno određene upravne mjere i odmah naređeno njihovo izvršenje, ako te mjere nisu izvršene.\n(4) Izvršnost rješenja o upravnim mjerama utvrđuje se prema Zakonu o upravnom postupku.\n(5) Kantonalni inspektor će donijeti zaključak o prisilnom izvršenju u roku iz stava (2) ovog člana i ako je subjektu nadzora zaprijećeno prinudnim sredstvima, ukoliko ne postupi po nalogu kantonalnog inspektora, a ostavljeni rok je bezuspješno protekao."
+  },
+  {
+   "key": "145",
+   "label": "Član 145",
+   "title": "Sadržaj zaključka o prisilnom izvršenju",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Protiv zaključka o prisilnom izvršenju nije dozvoljena žalba, a isti postaje izvršan dostavljanjem subjektu nadzora.\n(2) Zaključak o prisilnom izvršenju obavezno u dispozitivu sadrži podatke:\na) o subjektu nadzora i zakonskom osnovu za donošenje zaključka,\nb) podatke o rješenju koje se izvršava, kad je postalo izvršno i da subjekt nadzora nije postupio po nalogu kantonalnog inspektora u određenom roku,\nc) način prisilnog izvršenja,\nd) datum, odnosno rok prisilnog izvršenja i organi koji će provesti prisilno izvršenje, odnosno asistirati kod prisilnog izvršenja (ukoliko se prisilno izvršenje provodi putem drugog lica), odnosno da će se izvršenik kazniti novčanom kaznom i iznos te kazne (ako se prisilno izvršenje mora provesti novčanim kažnjavanjem),\ne) uputstvo da protiv zaključka nije dopuštena žalba,\nf) potpis kantonalnog inspektora i otisak pečata Kantonalne uprave.\n(3) Način prisilnog izvršenja i sredstva izvršenja moraju biti takvi da se izvršenje provede na način i po postupku koji je najpovoljniji za subjekt nadzora.\n(4) Ako je neophodno iz posebnih razloga zaštite javnog interesa, prisilno izvršenje može se provesti i na dan državnog praznika, nedjeljom i noću.\n(5) Rok prisilnog izvršenja mora se odrediti tako da se sa izvršenjem počne najkasnije tri dana nakon uručenja zaključka o prisilnom izvršenju subjektu nadzora i da se izvrši najdalje u roku od 15 dana od dana donošenja zaključka.\n(6) Zaključak o dozvoli prisilnog izvršenja sadrži sve dijelove kao i rješenje o upravnim mjerama."
+  },
+  {
+   "key": "146",
+   "label": "Član 146",
+   "title": "Izvršenje upravne mjere putem drugog lica",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Ukoliko subjekt nadzora nije izvršio upravnu mjeru ili je nije izvršio u cijelosti, a ona je takve prirode da je može izvršiti i drugo lice, kantonalni inspektor će donijeti zaključak o dozvoli izvršenja putem drugog lica na trošak subjekta nadzora.\n(2) U zaključku o dozvoli izvršenja putem drugog lica, subjekt nadzora će se i opomenuti da izvrši upravnu mjeru u određenom roku, a ako to ne učini da će se izvršenje provesti putem drugog lica na trošak subjekta nadzora.\n(3) U zaključku o dozvoli izvršenja kantonalni inspektor će navesti lice putem kojeg će se izvršiti upravna mjera, a posebnim zaključkom može odrediti subjektu nadzora da položi određeni novčani iznos na račun budžeta Kantona na ime podmirenja troškova izvršenja putem drugog lica.\n(4) Zaključak o obavezi polaganja iznosa iz stava (3) ovog člana je izvršan danom dostave subjektu nadzora.\n(5) Izbor ovlašćenih subjekata za izvršenje upravne mjere kao i propis o načinu izvršenja upravne mjere putem drugog lica donijeće direktor Kantonalne uprave. Izbor najpovoljnije ponude vrši se u skladu sa Zakonom o javnim nabavkama (\"Službeni glasnik Bosne i Hercegovine\", broj: 39/14)."
+  },
+  {
+   "key": "147",
+   "label": "Član 147",
+   "title": "Nadzor nad izvršenjem upravne mjere",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Kantonalni inspektor koji je donio zaključak o dozvoli izvršenja putem drugog lica vrši nadzor nad izvršavanjem upravne mjere.\n(2) U vršenju nadzora, kantonalni inspektor pazi da se izvršenje provede pravilno i u skladu sa zaključkom o dozvoli izvršenja, te daje uputstva neposrednom izvršiocu ili licu koje rukovodi njihovim radom."
+  },
+  {
+   "key": "148",
+   "label": "Član 148",
+   "title": "Izvršenje upravne mjere prisilom sa novčanim kažnjavanjem",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Ako subjekt nadzora nije izvršio upravnu mjeru koja se sastoji u nenovčanoj obavezi, a ta se mjera ne može izvršiti putem drugog lica, već je mora izvršiti lično samo subjektnadzora, kantonalni inspektor će subjektu nadzora izreći novčanu kaznu radi prisiljavanja na izvršenje upravne mjere i istovremeno će mu odrediti novi rok za izvršenje, uz prijetnju novom i većom novčanom kaznom.\n(2) Novčana kazna izriče se u iznosu koji je određen propisom na osnovu kojeg je upravna mjera određena.\n(3) Ako propisom iz stava (2) ovog člana nije određen iznos novčane kazne koju može izreći kantonalni inspektor, novčana kazna za fizičko lice iznosi od 500,00 KM do 3.000,00 KM, a za pravno lice od 2.000,00 KM do 10.000,00 KM."
+  },
+  {
+   "key": "149",
+   "label": "Član 149",
+   "title": "Zaključak o izricanju novčane kazne",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Novčanu kaznu subjektu nadzora kantonalni inspektor izriče posebnim zaključkom protiv kojeg nije dozvoljena žalba.\n(2) Novčana kazna plaća se u roku od pet dana od dana prijema zaključka.\n(3) Uplata novčane kazne se vrši na račun Budžeta Kantona.\n(4) Odredbe članova 134. i 135. ovog zakona na odgovarajući način primjenjuju se i na postupanje kantonalnog inspektora prema ovom članu."
+  },
+  {
+   "key": "150",
+   "label": "Član 150",
+   "title": "Izvršenje upravne mjere neposrednom fizičkom prisilom",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Ako subjekt nadzora nije izvršio upravnu mjeru, a prema prirodi obaveze ta se mjera može izvršiti neposrednom fizičkom prisilom na subjekt nadzora, kantonalni inspektor će na taj način izvršiti upravnu mjeru.\n(2) Fizička prisila mora biti primjerena predmetu izvršenja i srazmjerna otporu izvršenja.\n(3) Izvršenje neposrednom fizičkom prisilom provodi se na način određenim zaključkom o dozvoli izvršenja."
+  },
+  {
+   "key": "151",
+   "label": "Član 151",
+   "title": "Izvršenje usmeno određene upravne mjere neposrednom fizičkom prisilom",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "Zavisno o nastalim okolnostima, ako je neophodno, kantonalni inspektor može odrediti da se neposrednom fizičkom prisilom izvrši i usmeno određena upravna mjera."
+  },
+  {
+   "key": "152",
+   "label": "Član 152",
+   "title": "Zapisnik o prisilnom izvršenju upravne mjere",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Postupak i način provođenja zaključka o prisilnom izvršenju, kantonalni inspektor konstatuje u zapisniku o prisilnom izvršenju upravne mjere.\n(2) Zapisnik je dokaz o toku i sadržaju radnji koje su provedene u postupku prisilnog izvršenja.\n(3) Zapisnik se ulaže u spis predmeta a kopija zapisnika uručuje se subjektu nadzora."
+  },
+  {
+   "key": "153",
+   "label": "Član 153",
+   "title": "Prekid i obustava izvršenja upravne mjere",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Izvršenje rješenja o upravnoj mjeri koje je započeto može se prekinuti samo zbog posebnih okolnosti izazvanih višom silom, a nastaviće se čim one prestanu, o čemu se subjekt nadzora i ostali učesnici u izvršenju obavještavaju usmeno.\n(2) Ukoliko se izvršenje ne može nastaviti istog dana, kantonalni inspektor će o prekidu donijeti poseban zaključak protiv kojeg nije dopuštena žalba."
+  },
+  {
+   "key": "154",
+   "label": "Član 154",
+   "title": "Obustavljanje postupka prisilnog izvršenja",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Kantonalni inspektor će obustaviti postupak prisilnog izvršenja ukoliko se utvrdi:\na) da je obaveza subjekta nadzora već izvršena,\nb) da je njeno izvršenje nemoguće zbog objektivne okolnosti,\nc) da se provodi prema licu koje nije u obavezi,\nd) ako je upravni akt na osnovu koga je donesen zaključak o izvršenju poništen, odnosno ukinut.\n(2) O obustavi izvršenja upravne mjere kantonalni inspektor donosi zaključak protiv kojeg nije dopuštena žalba."
+  },
+  {
+   "key": "155",
+   "label": "Član 155",
+   "title": "Izvršenje upravne mjere radi obezbjeđenja",
+   "chapter": "F) IZVRŠENJE UPRAVNIH MJERA",
+   "text": "(1) Ako se osnovano očekuje da će izvršenje rješenja o upravnoj mjeri biti spriječeno ili znatno otežano kada ono postane izvršno, kantonalni inspektor može zaključkom dozvoliti prisilno izvršenje tog rješenja i prije njegove izvršnosti prema pravilima Zakona o upravnom postupku.\n(2) O dozvoli prisilnog izvršenja rješenja o upravnoj mjeri, prije njegove izvršnosti kantonalni inspektor donosi poseban zaključak.\n(3) Izvršenje rješenja prije njegove izvršnosti može se odrediti u cjelini za sve mjere iz rješenja ili samo za one za koje postoji opasnost iz stava (1) ovog člana.\n(4) Protiv zaključka o izvršenju upravne mjere radi obezbjeđenja može se izjaviti žalba u roku od tri dana od dana uručenja, a izjavljena žalba ne odlaže izvršenje rješenja."
+  },
+  {
+   "key": "156",
+   "label": "Član 156",
+   "title": "Dostava pismena subjektu nadzora",
+   "chapter": "VIII. DOSTAVA PISMENA U INSPEKCIJSKOM NADZORU",
+   "text": "Dostava pismena subjektu nadzora (poziv, zapisnik, zaključak, rješenje i drugi akti) vrši se prema pravilima Zakona o upravnom postupku, osim u slučajevima koji su drugačije regulisani ovim zakonom."
+  },
+  {
+   "key": "157",
+   "label": "Član 157",
+   "title": "Mjesto i vrijeme dostave pismena",
+   "chapter": "VIII. DOSTAVA PISMENA U INSPEKCIJSKOM NADZORU",
+   "text": "(1) Kada se dostava pismena vrši ličnim uručenjem pismeno se uručuje u poslovnim prostorijama u sjedištu subjekta nadzora, odnosno na svakom mjestu na kojem je pismeno moguće uručiti subjektu nadzora, ukoliko subjekt nadzora nema poslovne prostorije.\n(2) Kada se dostava pismena vrši putem pošte, smatraće se da je dostavljanje izvršeno po isteku pet radnih dana od dana predaje pismena na poštu, ako je pismeno poslato na adresu sjedišta pravnog lica iz sudskog registra, odnosno adresu registra prebivališta ili boravišta za fizičko lice."
+  },
+  {
+   "key": "158",
+   "label": "Član 158",
+   "title": "Oglašavanje pismena",
+   "chapter": "VIII. DOSTAVA PISMENA U INSPEKCIJSKOM NADZORU",
+   "text": "(1) Ako se dostava pismena ne može izvršiti na način propisan u članu 157. ovog zakona zbog toga što se ne može odrediti mjesto gdje se subjekt nadzora nalazi ili zbog toga što odbija primiti dostavu, kantonalni inspektor će pismeno istaći na oglasnoj tabli u Kantonalnoj upravi.\n(2) Istekom tri dana od dana isticanja pismena na oglasnoj tabli smatraće se da je pismeno predano subjektu nadzora.\n(3) O izvršenoj dostavi iz stava (2) ovog člana i razlozima zbog kojih je tako postupljeno kantonalni inspektor će sastaviti službenu zabilješku i uložit će je u spis predmeta."
+  },
+  {
+   "key": "159",
+   "label": "Član 159",
+   "title": "Potvrda prijema pismena",
+   "chapter": "VIII. DOSTAVA PISMENA U INSPEKCIJSKOM NADZORU",
+   "text": "(1) Prijem pismena subjekt nadzora potvrđuje na dostavnici svojim potpisom na kojoj sam ispisuje slovima datum prijema.\n(2) Ako je subjekt nadzora pravno lice, potvrdu o prijemu ovjeriće pečatom.\n(3) Potvrda prijema zapisnika o inspekcijskom nadzoru, rješenja i zaključaka inspektora, može se staviti i na primjerku tih akata koji ostaju inspektoru u spisu."
+  },
+  {
+   "key": "160",
+   "label": "Član 160",
+   "title": "Pružanje stručne pomoći",
+   "chapter": "IX. ODNOSI IZMEĐU INSPEKCIJA",
+   "text": "(1) Kantonalna uprava pruža stručnu pomoć u radu opštinskim i gradskim inspekcijama i koordinira njihov rad, ako se radi o izvršavanju poslova iz nadležnosti koja je kantonalnim zakonom prenesena na opštinu, odnosno grad.\n(2) Zahtjevi inspekcije za stručnu pomoć od strane druge inspekcije smatraju se hitnim i prema njima se mora postupiti najkasnije u roku od sedam dana od dana prijema zahtjeva.\n(3) Direktor Kantonalne uprave utvrđuje oblike saradnje i druge aktivnosti kantonalne, opštinske i gradske inspekcije (zajednički inspekcijski pregledi i dr.) od zajedničkog interesa za vršenje inspekcijskog nadzora u Kantonu, uz saglasnost gradonačelnika i načelnika opštine na čijem području je potrebno provesti zajednički inspekcijski nadzor."
+  },
+  {
+   "key": "161",
+   "label": "Član 161",
+   "title": "Odnosi kantonalne, opštinske i gradske inspekcije",
+   "chapter": "IX. ODNOSI IZMEĐU INSPEKCIJA",
+   "text": "Kada kantonalna inspekcija utvrdi da je potrebno hitno izvršiti inspekcijski nadzor i preduzeti određene upravne mjere iz nadležnosti koja je kantonalnim zakonom prenesena na opštinu, odnosno grad, glavni kantonalni inspektor ili direktor Kantonalne uprave naložiće u pismenoj formi opštinskoj, odnosno gradskoj inspekciji da izvrši određeni inspekcijski nadzor i preduzme upravne mjere i o tome obavijesti glavnog kantonalnog inspektora ili direktora Kantonalne uprave."
+  },
+  {
+   "key": "162",
+   "label": "Član 162",
+   "title": "Saradnja kantonalne inspekcije sa drugim organima",
+   "chapter": "IX. ODNOSI IZMEĐU INSPEKCIJA",
+   "text": "(1) Kantonalne inspekcije dužne su sarađivati sa drugim državnim organima, pravnim licima, udruženjima, sredstvima javnog informisanja, građanima i drugim subjektima u pitanjima od značaja za efikasno sprovođenje propisa nad kojima vrše inspekcijski nadzor, kao i radi sprečavanja i otklanjanja štetnih posljedica.\n(2) Kantonalni inspektor dužan je obavijestiti nadležni organ ukoliko prilikom vršenja inspekcijskog nadzora uoči određene nejasnoće i nedostatke u primjeni zakona i drugih propisa nad kojima vrši inspekcijski nadzor."
+  },
+  {
+   "key": "163",
+   "label": "Član 163",
+   "title": "Sredstva za rad Kantonalne uprave",
+   "chapter": "X. SREDSTVA ZA RAD KANTONALNE UPRAVE",
+   "text": "Sredstva za rad Kantonalne uprave obezbjeđujeju se u Budžetu Kantona."
+  },
+  {
+   "key": "164",
+   "label": "Član 164",
+   "title": "Prekršaji i prekršajne kazne",
+   "chapter": "XI. KAZNENE ODREDBE",
+   "text": "(1) Novčanom kaznom od 4.000,00 KM do 15.000,00 KM kazniće se za prekršaj pravno lice, ako:\na) ne postupi u skladu sa rješenjem kantonalnog inspektora u postupku preduzimanja preventivnih mjera (član 16. stav (2)),\nb) kantonalnog inspektora onemogući, ili mu znatno oteža vršenje inspekcijskog nadzora ili obavljanje radnje inspekcijskog postupka (član 74. stav (1) i član 101.),\nc) ne postupi u skladu sa članom 75.,\nd) ne sudjeluje u vršenju inspekcijskog nadzora ili nije odredio lice koje će sudjelovati u inspekcijskom nadzoru (član 96. i član 106. stav (1)),\ne) ne posjeduje ispravu za obavljanje djelatnosti i rada iz člana 100. stav (1) tačka b),\nf) kantonalnom inspektoru ne da uzorak proizvoda za ispitivanje kvaliteta (član 104. stav (1)),\ng) ne dostavi traženu dokumentaciju po pismenom pozivu kantonalnog inspektora (član 110.),\nh) ne odazove se pozivu kantonalnog inspektora niti opravda izostanak (član 111.),\ni) ne izvrši upravnu mjeru u roku i na način koji je kantonalni inspektor naredio (članovi 120., 124. i 125.),\nj) u ostavljenom roku ne obavijesti kantonalnog inspektora o izvršenju upravne mjere (član 140.),\nk) spriječi da se upravna mjera izvrši putem drugog lica (član 146.).\n(2) Za prekršaj iz stava (1) ovog člana kazniće se i odgovorno lice u pravnom licu novčanom kaznom od 1.000,00 KM do 2.000,00 KM.\n(3) Za prekršaj iz stava (1) ovog člana kazniće se i odgovorno fizičko lice novčanom kaznom od 1.000,00 KM do 1.500,00 KM."
+  },
+  {
+   "key": "165",
+   "label": "Član 165",
+   "title": "Prekršaji i prekršajne kazne",
+   "chapter": "XI. KAZNENE ODREDBE",
+   "text": "(1) Novčanom kaznom iz člana 164. stav (3) ovog zakona kazniće se za prekršaj i svako drugo fizičko lice koje je učinilo prekršaj iz člana 164. stav (1) ovog zakona, ukoliko je od strane subjekta nadzora to lice određeno da sudjeluje u inspekcijskom nadzoru.\n(2) Novčanom kaznom iz člana 164. stav (3) ovog zakona kazniće se za prekršaj lice koje je subjekt nadzora odredio da sudjeluje u inspekcijskim radnjama ako kantonalnom inspektoru da lažnu prijavu ili lažne podatke, koji su u inspekcijskom postupku uzeti kao dokaz (član 106. stav (2)).\n(3) Novčanom kaznom iz članka 164. stavak (3) ovog zakona kaznit će se za prekršaj svaka osoba koja kantonalnom inspektoru ne da tražene podatke i druge dokaze za pravilno utvrđivanje činjeničnog stanja (članak 106. stavak (3)).\n(4) Novčanom kaznom iz člana 164. stav (3) ovog zakona kazniće se za prekršaj i svako drugo lice ako sprečava ili otežava kantonalnom inspektoru vršenje inspekcijskog nadzora (član 101.)."
+  },
+  {
+   "key": "166",
+   "label": "Član 166",
+   "title": "Donošenje pravilnika o unutrašnjoj organizaciji",
+   "chapter": "XII. PRELAZNE I ZAVRŠNE ODREDBE",
+   "text": "(1) Kantonalna uprava je dužna u roku od 30 dana od dana stupanja na snagu ovog zakona, donijeti novi pravilnik o unutrašnjoj organizaciji, u skladu sa odredbama ovog zakona, kao i propisa koji regulišu radno-pravni status državnih službenika i unutrašnju organizaciju i ustrojstvo kantonalnih organa.\n(2) U roku od 15 dana od dana donošenja pravilnika iz stava (1) ovog člana, direktor Kantonalne uprave dužan je donijeti rješenja kojima se glavni kantonalni inspektori i kantonalni inspektori, koji se na dan stupanja na snagu ovog zakona zateknu na radu u inspektoratima koji ovim zakonom prestaju postojati, postavljaju na radna mjesta u novoformiranim inspektoratima, za koja ispunjavaju uslove utvrđene tim pravilnikom.\n(3) Žalba na rješenje iz stava (2) ovog člana, ne odlaže njegovo izvršenje."
+  },
+  {
+   "key": "167",
+   "label": "Član 167",
+   "title": "Primjena dosadašnjih propisa",
+   "chapter": "XII. PRELAZNE I ZAVRŠNE ODREDBE",
+   "text": "Do donošenja provedbenih propisa i opštih akata određenih ovim zakonom, primjenjivaće se odgovarajućipropisi i opšti akti koji su bili na snazi do dana stupanja na snagu ovog zakona, ukoliko nisu u suprotnosti sa ovim zakonom."
+  },
+  {
+   "key": "168",
+   "label": "Član 168",
+   "title": "Inspekcijski postupci započeti prije dana stupanja na snagu ovog zakona",
+   "chapter": "XII. PRELAZNE I ZAVRŠNE ODREDBE",
+   "text": "Inspekcijski postupci započeti prema propisima koji su bili na snazi prije dana stupanja na snagu ovog zakona, završiće se prema tim propisima."
+  },
+  {
+   "key": "169",
+   "label": "Član 169",
+   "title": "Izvršenje rješenja",
+   "chapter": "XII. PRELAZNE I ZAVRŠNE ODREDBE",
+   "text": "Neizvršena rješenja kantonalnog inspektora, koja su postala izvršna prije dana stupanja na snagu ovog zakona, izvršiće se prema propisima koji su važili na dan izvršnosti rješenja, ukoliko je to povoljnije za subjekta nadzora."
+  },
+  {
+   "key": "170",
+   "label": "Član 170",
+   "title": "Započeti postupci iz radnih odnosa",
+   "chapter": "XII. PRELAZNE I ZAVRŠNE ODREDBE",
+   "text": "Svi postupci rješavanja o pravima, obavezama i odgovornostima proizašlih iz radnog odnosa direktora, glavnih kantonalnih inspektora i kantonalnih inspektora u Kantonalnoj upravi, započeti prije stupanja na snagu ovog zakona, okončaće se po odredbama zakona po kojima su započeti."
+  },
+  {
+   "key": "171",
+   "label": "Član 171",
+   "title": "Prestanak rada Komisije",
+   "chapter": "XII. PRELAZNE I ZAVRŠNE ODREDBE",
+   "text": "Komisija za čuvanje, prodaju, uništenje ili doniranje predmeta ili robe prestaje sa radom nakon okončanja svih predmeta koji se tiču oduzete robe, zaduženih prije stupanja na snagu ovog zakona, a isti će se okončati po propisima po kojima su započeti."
+  },
+  {
+   "key": "172",
+   "label": "Član 172",
+   "title": "Ravnopravnost polova",
+   "chapter": "XII. PRELAZNE I ZAVRŠNE ODREDBE",
+   "text": "Gramatička terminologija korišćena u ovom zakonu podrazumijeva oba pola."
+  },
+  {
+   "key": "173",
+   "label": "Član 173",
+   "title": "Prestanak važenja pojedinačnih rješenja",
+   "chapter": "XII. PRELAZNE I ZAVRŠNE ODREDBE",
+   "text": "Danom stupanja na snagu ovog zakona prestaju važiti sva rješenja o dopunskoj djelatnosti izdata državnim službenicima Kantonalne uprave prije stupanja na snagu ovog zakona."
+  },
+  {
+   "key": "174",
+   "label": "Član 174",
+   "title": "Prestanak važenja dosadašnjeg zakona",
+   "chapter": "XII. PRELAZNE I ZAVRŠNE ODREDBE",
+   "text": "Danom stupanja na snagu ovog zakona prestaje važiti Zakon o inspekcijama Tuzlanskog kantona - prečišćeni tekst (\"Službene novine Tuzlanskog kantona\", br. 10/12, 13/15 i 9/16)."
+  },
+  {
+   "key": "175",
+   "label": "Član 175",
+   "title": "Stupanje na snagu i objavljivanje zakona",
+   "chapter": "XII. PRELAZNE I ZAVRŠNE ODREDBE",
+   "text": "Ovaj zakon stupa na snagu osmog dana od dana objavljivanja u \"Službenim novinama Tuzlanskog kantona\".\nSamostalni članovi Zakona o izmjeni i dopunama\nZakona o inspekcijama Tuzlanskog kantona\n(\"Sl. novine Tuzlanskog kantona\", br. 11/2022)"
+  }
+ ]
+}

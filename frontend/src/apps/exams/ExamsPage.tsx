@@ -7,25 +7,37 @@ import { ExamSetup } from './ExamSetup'
 import { ExamRunner } from './ExamRunner'
 import { ExamResult } from './ExamResult'
 import { StudyPanel } from './StudyPanel'
+import { LawsPanel } from './LawsPanel'
 import { AttemptHistory } from './AttemptHistory'
 
-type Tab = 'exam' | 'study' | 'history'
+type Tab = 'exam' | 'study' | 'laws' | 'history'
+const TABS: Tab[] = ['exam', 'study', 'laws', 'history']
 
 /**
- * Exam practice for the professional exam: draw a paper from the question bank, answer it and get it
- * marked (multiple-choice by rule, written answers on meaning), plus a study mode over the same bank.
+ * Exam practice for the professional exam: draw a paper from the question bank and get it marked, revise
+ * the same bank with the answers shown, or read the four laws in full — every article a question cites.
  */
 export function ExamsPage() {
   const { t } = useTranslation()
   const [params, setParams] = useSearchParams()
   const [attemptId, setAttemptId] = useState<string | null>(null)
+  // Which law the reading tab is on, and the article to scroll to when arriving from a citation.
+  const [lawCode, setLawCode] = useState('zup')
+  const [jumpTo, setJumpTo] = useState<string | null>(null)
 
   // Global search links straight into study mode (`/exams?tab=study&law=…&q=…`).
-  const tab = (params.get('tab') as Tab | null) ?? 'exam'
+  const tab = (TABS.find((x) => x === params.get('tab')) ?? 'exam') as Tab
   const setTab = (next: Tab) => {
     const p = new URLSearchParams(params)
     p.set('tab', next)
     setParams(p, { replace: true })
+  }
+
+  /** Open a cited article in the reading tab. */
+  const openLaw = (law: string, articleKey: string) => {
+    setLawCode(law)
+    setJumpTo(articleKey)
+    setTab('laws')
   }
 
   const { data: attempt, isLoading } = useExamAttempt(attemptId)
@@ -39,10 +51,12 @@ export function ExamsPage() {
           <p className="sub">{t('exams.sub')}</p>
         </div>
         <div className="actions">
-          <div className="seg" role="tablist">
-            <button type="button" role="tab" aria-selected={tab === 'exam'} className={tab === 'exam' ? 'on' : ''} onClick={() => setTab('exam')}>{t('exams.tab.exam')}</button>
-            <button type="button" role="tab" aria-selected={tab === 'study'} className={tab === 'study' ? 'on' : ''} onClick={() => setTab('study')}>{t('exams.tab.study')}</button>
-            <button type="button" role="tab" aria-selected={tab === 'history'} className={tab === 'history' ? 'on' : ''} onClick={() => setTab('history')}>{t('exams.tab.history')}</button>
+          <div className="seg wrap" role="tablist">
+            {TABS.map((x) => (
+              <button key={x} type="button" role="tab" aria-selected={tab === x} className={tab === x ? 'on' : ''} onClick={() => setTab(x)}>
+                {t(`exams.tab.${x}`)}
+              </button>
+            ))}
           </div>
         </div>
       </div>
@@ -54,11 +68,17 @@ export function ExamsPage() {
             <div className="card"><div className="card-b"><p className="hint">{t('common.loading')}</p></div></div>
           )}
           {attempt && !attempt.finished && <ExamRunner attempt={attempt} onLeave={() => setAttemptId(null)} />}
-          {attempt && attempt.finished && <ExamResult attempt={attempt} onClose={() => setAttemptId(null)} />}
+          {attempt && attempt.finished && (
+            <ExamResult attempt={attempt} onClose={() => setAttemptId(null)} onOpenLaw={openLaw} />
+          )}
         </>
       )}
 
-      {tab === 'study' && <StudyPanel />}
+      {tab === 'study' && <StudyPanel onOpenLaw={openLaw} />}
+
+      {tab === 'laws' && (
+        <LawsPanel law={lawCode} jumpTo={jumpTo} onLawChange={(code) => { setLawCode(code); setJumpTo(null) }} />
+      )}
 
       {tab === 'history' && (
         <AttemptHistory

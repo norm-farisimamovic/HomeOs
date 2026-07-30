@@ -25,4 +25,15 @@ public static class GradeScale
     /// <summary>Rounds points to a whole percentage, guarding against an empty paper.</summary>
     public static int Percent(decimal earned, decimal max) =>
         max <= 0 ? 0 : (int)Math.Round(earned / max * 100m, MidpointRounding.AwayFromZero);
+
+    /// <summary>
+    /// The whole result from the points that could actually be marked. A paper where nothing was markable
+    /// (only written questions, no AI examiner) carries <c>Grade 0</c> — "not graded" rather than a failing 1.
+    /// </summary>
+    public static (int Percent, int Grade, bool Passed) From(decimal earned, decimal max)
+    {
+        if (max <= 0) return (0, 0, false);
+        var percent = Percent(earned, max);
+        return (percent, Grade(percent), Passed(percent));
+    }
 }

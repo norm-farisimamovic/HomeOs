@@ -30,6 +30,8 @@ export interface ExamQuestion {
   law: string
   lawShort: string
   article?: string | null
+  /** The article the citation points at, for linking into the law text; null when it names none. */
+  articleKey?: string | null
   topic?: string | null
   type: QuestionType
   text: string
@@ -40,6 +42,8 @@ export interface ExamQuestion {
   correct?: boolean | null
   feedback?: string | null
   aiGraded: boolean
+  /** False when the answer was left out of the score (written question, no AI examiner available). */
+  graded: boolean
   correctOptions: number[]
   modelAnswer?: string | null
   explanation?: string | null
@@ -58,6 +62,8 @@ export interface ExamAttempt {
   percent: number
   grade: number
   passed: boolean
+  /** How many written questions were left out of the score because no AI examiner was available. */
+  ungradedCount: number
   questions: ExamQuestion[]
 }
 
@@ -82,6 +88,7 @@ export interface StudyQuestion {
   law: string
   lawShort: string
   article?: string | null
+  articleKey?: string | null
   topic?: string | null
   type: QuestionType
   text: string
@@ -97,6 +104,44 @@ export interface StudyPage {
   questions: StudyQuestion[]
 }
 
+/** One article of a law, as it reads in the official text. */
+export interface LawArticle {
+  key: string
+  label: string
+  title: string
+  chapter: string
+  text: string
+}
+
+/** A law on the shelf. */
+export interface LawSummary {
+  code: string
+  title: string
+  shortTitle: string
+  gazette: string
+  articleCount: number
+}
+
+/** A page of a law's articles (filtered when a search term is given). */
+export interface LawPage {
+  code: string
+  title: string
+  shortTitle: string
+  gazette: string
+  articleCount: number
+  matchCount: number
+  articles: LawArticle[]
+}
+
+/** One article together with the law it belongs to. */
+export interface ArticleDetail {
+  code: string
+  title: string
+  shortTitle: string
+  gazette: string
+  article: LawArticle
+}
+
 /** Options for drawing a new paper. */
 export interface StartExam {
   laws: string[]
@@ -110,6 +155,9 @@ export const examKeys = {
   attempts: ['exams', 'attempts'] as const,
   attempt: (id: string) => ['exams', 'attempt', id] as const,
   study: (laws: string[], q: string) => ['exams', 'study', laws.join(','), q] as const,
+  laws: ['exams', 'laws'] as const,
+  law: (code: string, q: string) => ['exams', 'law', code, q] as const,
+  article: (code: string, key: string) => ['exams', 'article', code, key] as const,
 }
 
 export const examsApi = {
@@ -130,4 +178,20 @@ export const examsApi = {
     params.set('take', String(take))
     return api.get<StudyPage>(`/api/exams/study?${params.toString()}`)
   },
+
+  /** The laws whose full text ships with the app. */
+  laws: () => api.get<LawSummary[]>('/api/exams/laws'),
+
+  /** One page of a law's articles; `q` narrows it to the articles that mention the term. */
+  law: (code: string, q: string, skip: number, take: number) => {
+    const params = new URLSearchParams()
+    if (q) params.set('q', q)
+    params.set('skip', String(skip))
+    params.set('take', String(take))
+    return api.get<LawPage>(`/api/exams/laws/${code}?${params.toString()}`)
+  },
+
+  /** A single article — what the "read this article" popup shows. */
+  article: (code: string, key: string) =>
+    api.get<ArticleDetail>(`/api/exams/laws/${code}/articles/${encodeURIComponent(key)}`),
 }

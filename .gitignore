@@ -31,4 +31,8 @@ Thumbs.db
 # ---- Local tooling (not shared) ----
 .claude/settings.local.json
 
+# ---- Built SPA copied into the API for same-origin serving (keep the folder, not its contents) ----
+backend/src/HomeOs.Api/wwwroot/*
+!backend/src/HomeOs.Api/wwwroot/.gitkeep
+
 ZADATAK.pdf

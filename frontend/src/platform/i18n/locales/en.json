@@ -823,7 +823,8 @@
     "tab": {
       "exam": "Exam",
       "study": "Study",
-      "history": "History"
+      "history": "History",
+      "laws": "Laws"
     },
     "pickLaws": "Choose the laws",
     "bankSize": "{{n}} questions",
@@ -878,7 +879,11 @@
       "note": "Note",
       "blank": "(left blank)",
       "correctTag": "Correct",
-      "yoursTag": "Your pick"
+      "yoursTag": "Your pick",
+      "skipped": "not graded",
+      "notScored": "Not graded",
+      "notScoredSub": "None of the questions could be marked automatically. Your answers are below, next to the model ones.",
+      "ungradedNote": "{{n}} written question(s) were not graded (no AI examiner available) and are left out of the score — the model answers are in the review."
     },
     "grade": {
       "1": "fail",
@@ -922,6 +927,20 @@
     "customCount": "or type",
     "cappedTo": "For this selection the paper will hold {{n}} questions.",
     "localMarking": "Multiple-choice questions are checked locally — the correct answers ship with the app, no internet and no AI.",
-    "aiScope": "The AI is only used for questions you answer in your own words."
+    "aiScope": "The AI is only used for questions you answer in your own words.",
+    "article": {
+      "open": "Open the article",
+      "openLaw": "Open the whole law",
+      "loading": "Loading the article…",
+      "missing": "This article's text isn't available."
+    },
+    "laws": {
+      "title": "The laws — full text",
+      "articles": "{{n}} articles",
+      "searchPlaceholder": "Search article text or heading…",
+      "more": "Show more articles",
+      "emptyTitle": "No article matches that term",
+      "emptySub": "Try another term or another law."
+    }
   }
 }

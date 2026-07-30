@@ -742,3 +742,47 @@ span.board-tab > button:first-child { padding: 5px 4px 5px 12px; }
   .exams-page .card-h { flex-wrap: wrap; row-gap: 6px; }
   .exams-page .card-h > .t { min-width: 0; }
 }
+
+/* ── Law texts (readable articles, clickable citations) ────────────────────── */
+/* A citation chip that opens the article it points at. */
+.chip.link {
+  border: 0; cursor: pointer; font: inherit; font-size: 11.5px; gap: 4px;
+  background: color-mix(in srgb, var(--m-exams) 12%, var(--surface-2));
+  color: color-mix(in srgb, var(--m-exams) 70%, var(--text));
+  text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 2px;
+}
+.chip.link:hover { background: color-mix(in srgb, var(--m-exams) 22%, var(--surface-2)); text-decoration-style: solid; }
+
+.law-tabs { margin-bottom: 12px; }
+.law-head { margin-bottom: 12px; }
+.law-head .ttl { font-weight: 600; line-height: 1.35; }
+
+.law-article { padding: 16px; border-top: 1px solid var(--line); scroll-margin-top: 74px; }
+.law-article:first-child { border-top: 0; }
+.law-article > header { display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; margin-bottom: 8px; }
+.law-article > header h4 { font-family: var(--font-display); font-size: 15px; font-weight: 700; }
+.law-article > header .ttl { color: var(--text-2); font-size: 13.5px; }
+.law-article.target { background: color-mix(in srgb, var(--m-exams) 7%, var(--surface)); }
+
+.law-article-body { display: grid; gap: 7px; }
+.law-article-body .chapter {
+  font-size: 11px; letter-spacing: .04em; text-transform: uppercase; color: var(--text-3);
+}
+.law-article-body p { font-size: 14.5px; line-height: 1.62; white-space: pre-wrap; }
+.law-article-body .src { font-size: 11.5px; color: var(--text-3); margin-top: 4px; }
+
+/* "Not graded" review rows read as informational, not as a mistake. */
+.exam-review.skipped .head .ic { background: var(--text-3); }
+.exam-score.none .dial { background: var(--surface-2); border-color: var(--line-strong); }
+.exam-score .verdict .note {
+  display: flex; gap: 6px; align-items: flex-start; margin-top: 6px;
+  font-size: 12px; line-height: 1.45; color: var(--text-2);
+}
+.exam-score .verdict .note svg { flex: none; margin-top: 2px; }
+
+@media (max-width: 560px) {
+  .law-article { padding: 13px 14px; }
+  .law-article-body p { font-size: 14px; }
+  .law-tabs { width: 100%; }
+  .exam-score .verdict .note { justify-content: center; text-align: left; }
+}

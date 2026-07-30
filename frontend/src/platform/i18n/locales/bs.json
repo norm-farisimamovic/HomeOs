@@ -825,7 +825,8 @@
     "tab": {
       "exam": "Ispit",
       "study": "Učenje",
-      "history": "Historija"
+      "history": "Historija",
+      "laws": "Zakoni"
     },
     "pickLaws": "Izaberi zakone",
     "bankSize": "{{n}} pitanja",
@@ -880,7 +881,11 @@
       "note": "Napomena",
       "blank": "(nije upisano)",
       "correctTag": "Tačno",
-      "yoursTag": "Tvoj izbor"
+      "yoursTag": "Tvoj izbor",
+      "skipped": "nije ocijenjeno",
+      "notScored": "Nije ocijenjeno",
+      "notScoredSub": "Nijedno pitanje nije bilo moguće automatski ocijeniti. Odgovori su ispod, uz tačne.",
+      "ungradedNote": "{{n}} opisnih pitanja nije ocijenjeno (AI nije bio dostupan) i ne računa se u rezultat — tačni odgovori su u pregledu."
     },
     "grade": {
       "1": "nedovoljan",
@@ -924,6 +929,20 @@
     "customCount": "ili upiši",
     "cappedTo": "Za ovaj izbor test će imati {{n}} pitanja.",
     "localMarking": "Pitanja sa zaokruživanjem provjeravaju se lokalno — tačni odgovori su u aplikaciji, bez interneta i bez AI-a.",
-    "aiScope": "AI se koristi samo za pitanja koja se upisuju svojim riječima."
+    "aiScope": "AI se koristi samo za pitanja koja se upisuju svojim riječima.",
+    "article": {
+      "open": "Otvori član",
+      "openLaw": "Otvori cijeli zakon",
+      "loading": "Član se učitava…",
+      "missing": "Tekst ovog člana nije dostupan."
+    },
+    "laws": {
+      "title": "Zakoni — cijeli tekst",
+      "articles": "{{n}} članova",
+      "searchPlaceholder": "Traži po tekstu člana ili naslovu…",
+      "more": "Prikaži još članova",
+      "emptyTitle": "Nema člana za ovaj pojam",
+      "emptySub": "Probaj drugi pojam ili drugi zakon."
+    }
   }
 }

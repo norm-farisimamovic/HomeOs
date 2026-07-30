@@ -2,6 +2,7 @@ using System.Globalization;
 using HomeOs.Modules.Exams.Bank;
 using HomeOs.Modules.Exams.Domain;
 using HomeOs.Modules.Exams.Grading;
+using HomeOs.Modules.Exams.Laws;
 using HomeOs.Modules.Exams.Persistence;
 using HomeOs.Platform.Events;
 using HomeOs.Platform.Members;
@@ -34,14 +35,43 @@ public static class ExamEndpoints
 
         // `law` takes one code or a comma-separated list ("zup,znr") so revision can mix laws the same
         // way an exam paper does; omitting it studies the whole bank.
-        group.MapGet("/study", (string? law, string? q, int? skip, int? take, QuestionBank bank) =>
+        group.MapGet("/study", (string? law, string? q, int? skip, int? take, QuestionBank bank, LawLibrary library) =>
             {
                 var laws = ParseLaws(law);
                 var all = bank.Study(laws, q);
                 var page = all.Skip(Math.Max(skip ?? 0, 0)).Take(Math.Clamp(take ?? 50, 1, 200)).ToList();
-                return Results.Ok(new StudyPageDto(all.Count, [.. page.Select(ToStudyDto)]));
+                return Results.Ok(new StudyPageDto(all.Count, [.. page.Select(q => ToStudyDto(q, library))]));
             })
             .WithName("StudyExamQuestions");
+
+        // ---- The laws themselves, so a question's article citation can be read in place ----
+
+        group.MapGet("/laws", (LawLibrary library) =>
+                Results.Ok(library.All
+                    .Select(l => new LawSummaryDto(l.Code, l.Title, l.ShortTitle, l.Gazette, l.Articles.Count))
+                    .ToList()))
+            .WithName("ListLaws");
+
+        group.MapGet("/laws/{code}", (string code, string? q, int? skip, int? take, LawLibrary library) =>
+            {
+                var law = library.Find(code);
+                if (law is null) return Results.NotFound();
+                var matched = library.Search(code, q);
+                var page = matched.Skip(Math.Max(skip ?? 0, 0)).Take(Math.Clamp(take ?? 30, 1, 400)).ToList();
+                return Results.Ok(new LawPageDto(law.Code, law.Title, law.ShortTitle, law.Gazette,
+                    law.Articles.Count, matched.Count, [.. page.Select(ToArticleDto)]));
+            })
+            .WithName("GetLaw");
+
+        group.MapGet("/laws/{code}/articles/{key}", (string code, string key, LawLibrary library) =>
+            {
+                var law = library.Find(code);
+                var article = library.Article(code, key);
+                return law is null || article is null
+                    ? Results.NotFound()
+                    : Results.Ok(new ArticleDetailDto(law.Code, law.Title, law.ShortTitle, law.Gazette, ToArticleDto(article)));
+            })
+            .WithName("GetLawArticle");
 
         group.MapGet("/attempts", async (ICurrentMember me, ExamsDbContext db, CancellationToken ct) =>
             {
@@ -57,7 +87,7 @@ public static class ExamEndpoints
             .WithName("ListExamAttempts");
 
         group.MapPost("/attempts", async (StartExamRequest req, ICurrentMember me, ExamsDbContext db,
-            QuestionBank bank, CancellationToken ct) =>
+            QuestionBank bank, LawLibrary library, CancellationToken ct) =>
             {
                 var mode = Normalize(req.Mode);
                 var laws = (req.Laws ?? []).Where(l => LawCatalog.All.ContainsKey(l)).Distinct(StringComparer.OrdinalIgnoreCase).ToList();
@@ -72,15 +102,15 @@ public static class ExamEndpoints
 
                 db.Attempts.Add(attempt);
                 await db.SaveChangesAsync(ct);
-                return Results.Created($"/api/exams/attempts/{attempt.Id}", ToAttemptDto(attempt, bank));
+                return Results.Created($"/api/exams/attempts/{attempt.Id}", ToAttemptDto(attempt, bank, library));
             })
             .WithName("StartExamAttempt");
 
         group.MapGet("/attempts/{id:guid}", async (Guid id, ICurrentMember me, ExamsDbContext db,
-            QuestionBank bank, CancellationToken ct) =>
+            QuestionBank bank, LawLibrary library, CancellationToken ct) =>
             {
                 var attempt = await LoadAsync(db, me, id, tracking: false, ct);
-                return attempt is null ? Results.NotFound() : Results.Ok(ToAttemptDto(attempt, bank));
+                return attempt is null ? Results.NotFound() : Results.Ok(ToAttemptDto(attempt, bank, library));
             })
             .WithName("GetExamAttempt");
 
@@ -102,11 +132,11 @@ public static class ExamEndpoints
             .WithName("SaveExamAnswer");
 
         group.MapPost("/attempts/{id:guid}/finish", async (Guid id, ICurrentMember me, ExamsDbContext db,
-            QuestionBank bank, AnswerGrader grader, IEventBus bus, CancellationToken ct) =>
+            QuestionBank bank, AnswerGrader grader, LawLibrary library, IEventBus bus, CancellationToken ct) =>
             {
                 var attempt = await LoadAsync(db, me, id, tracking: true, ct);
                 if (attempt is null) return Results.NotFound();
-                if (attempt.IsFinished) return Results.Ok(ToAttemptDto(attempt, bank));
+                if (attempt.IsFinished) return Results.Ok(ToAttemptDto(attempt, bank, library));
 
                 var language = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
                 var open = new List<OpenSubmission>();
@@ -128,20 +158,23 @@ public static class ExamEndpoints
                 foreach (var answer in attempt.Answers)
                 {
                     if (!openVerdicts.TryGetValue(answer.QuestionId, out var verdict)) continue;
-                    answer.Score(verdict.Points, verdict.Correct, verdict.Feedback, verdict.AiGraded);
+                    answer.Score(verdict.Points, verdict.Correct, verdict.Feedback, verdict.AiGraded, verdict.Graded);
                 }
 
-                var earned = attempt.Answers.Sum(a => a.Points);
-                var max = attempt.Answers.Sum(a => a.MaxPoints);
-                var percent = GradeScale.Percent(earned, max);
-                attempt.Finish(earned, max, percent, GradeScale.Grade(percent), GradeScale.Passed(percent));
+                // Only what could actually be marked counts towards the score — a written question left
+                // ungraded (no AI examiner) is simply outside the total.
+                var graded = attempt.Answers.Where(a => a.Graded).ToList();
+                var earned = graded.Sum(a => a.Points);
+                var max = graded.Sum(a => a.MaxPoints);
+                var (percent, grade, passed) = GradeScale.From(earned, max);
+                attempt.Finish(earned, max, percent, grade, passed);
                 await db.SaveChangesAsync(ct);
 
                 // Announce it so automations ("when I finish an exam, notify me") and the audit stream can react.
                 await bus.PublishAsync(new AppActivity(me.HouseholdId, me.Id, "exam.finished",
                     $"{percent}% ({attempt.Grade})", "/exams"), ct);
 
-                return Results.Ok(ToAttemptDto(attempt, bank));
+                return Results.Ok(ToAttemptDto(attempt, bank, library));
             })
             .WithName("FinishExamAttempt");
 
@@ -180,7 +213,7 @@ public static class ExamEndpoints
             .FirstOrDefaultAsync(a => a.Id == id && a.HouseholdId == me.HouseholdId && a.MemberId == me.Id, ct);
     }
 
-    private static ExamAttemptDto ToAttemptDto(ExamAttempt attempt, QuestionBank bank)
+    private static ExamAttemptDto ToAttemptDto(ExamAttempt attempt, QuestionBank bank, LawLibrary library)
     {
         var finished = attempt.IsFinished;
         var questions = attempt.Answers
@@ -190,7 +223,7 @@ public static class ExamEndpoints
                 var q = bank.Find(a.QuestionId);
                 var law = q is not null && LawCatalog.All.TryGetValue(q.Law, out var meta) ? meta.Short : q?.Law ?? "";
                 return new ExamQuestionDto(
-                    a.QuestionId, a.Ordinal, q?.Law ?? "", law, q?.Article, q?.Topic,
+                    a.QuestionId, a.Ordinal, q?.Law ?? "", law, q?.Article, library.KeyFor(q?.Law, q?.Article), q?.Topic,
                     (q?.Type ?? QuestionType.Single).ToString().ToLowerInvariant(),
                     q?.Text ?? "", q?.Options ?? [], a.MaxPoints, a.Given,
                     // Everything below is the mark sheet — only ever sent once the paper is closed.
@@ -198,6 +231,7 @@ public static class ExamEndpoints
                     finished ? a.Correct : null,
                     finished ? a.Feedback : null,
                     finished && a.AiGraded,
+                    !finished || a.Graded,
                     finished ? q?.Correct ?? [] : [],
                     finished ? q?.Answer : null,
                     finished ? q?.Explanation : null);
@@ -205,15 +239,18 @@ public static class ExamEndpoints
             .ToList();
 
         return new ExamAttemptDto(attempt.Id, attempt.Laws, attempt.Mode, attempt.StartedAtUtc, attempt.FinishedAtUtc,
-            finished, attempt.EarnedPoints, attempt.MaxPoints, attempt.Percent, attempt.Grade, attempt.Passed, questions);
+            finished, attempt.EarnedPoints, attempt.MaxPoints, attempt.Percent, attempt.Grade, attempt.Passed,
+            questions.Count(q => q.Graded == false), questions);
     }
 
-    private static StudyQuestionDto ToStudyDto(BankQuestion q)
+    private static StudyQuestionDto ToStudyDto(BankQuestion q, LawLibrary library)
     {
         var law = LawCatalog.All.TryGetValue(q.Law, out var meta) ? meta.Short : q.Law;
-        return new StudyQuestionDto(q.Id, q.Law, law, q.Article, q.Topic, q.Type.ToString().ToLowerInvariant(),
-            q.Text, q.Options, q.Correct, q.Answer, q.Explanation);
+        return new StudyQuestionDto(q.Id, q.Law, law, q.Article, library.KeyFor(q.Law, q.Article), q.Topic,
+            q.Type.ToString().ToLowerInvariant(), q.Text, q.Options, q.Correct, q.Answer, q.Explanation);
     }
+
+    private static ArticleDto ToArticleDto(LawArticle a) => new(a.Key, a.Label, a.Title, a.Chapter, a.Text);
 }
 
 /// <summary>The laws on offer plus how the exam will be marked.</summary>
@@ -228,17 +265,24 @@ public sealed record StartExamRequest(IReadOnlyList<string>? Laws, int? Count, s
 /// <summary>Save what the candidate wrote/picked for one question.</summary>
 public sealed record SaveAnswerRequest(string? Answer);
 
-/// <summary>An attempt with its paper; mark-sheet fields fill in once it is finished.</summary>
+/// <summary>
+/// An attempt with its paper; mark-sheet fields fill in once it is finished. <c>UngradedCount</c> is how many
+/// written questions were left out of the score because no AI examiner was available.
+/// </summary>
 public sealed record ExamAttemptDto(
     Guid Id, string Laws, string Mode, DateTimeOffset StartedAtUtc, DateTimeOffset? FinishedAtUtc, bool Finished,
-    decimal EarnedPoints, decimal MaxPoints, int Percent, int Grade, bool Passed,
+    decimal EarnedPoints, decimal MaxPoints, int Percent, int Grade, bool Passed, int UngradedCount,
     IReadOnlyList<ExamQuestionDto> Questions);
 
-/// <summary>One question on the paper. Correct answers stay <c>null</c>/empty until the attempt is marked.</summary>
+/// <summary>
+/// One question on the paper. Correct answers stay <c>null</c>/empty until the attempt is marked.
+/// <c>ArticleKey</c> is the article the citation points at (for linking into the law text, null when unknown);
+/// <c>Graded</c> is false when the answer was left out of the score (written question, no AI examiner).
+/// </summary>
 public sealed record ExamQuestionDto(
-    string Id, int Ordinal, string Law, string LawShort, string? Article, string? Topic, string Type,
+    string Id, int Ordinal, string Law, string LawShort, string? Article, string? ArticleKey, string? Topic, string Type,
     string Text, IReadOnlyList<string> Options, decimal MaxPoints, string Given,
-    decimal? Points, bool? Correct, string? Feedback, bool AiGraded,
+    decimal? Points, bool? Correct, string? Feedback, bool AiGraded, bool Graded,
     IReadOnlyList<int> CorrectOptions, string? ModelAnswer, string? Explanation);
 
 /// <summary>A past attempt as it appears in the history list.</summary>
@@ -251,5 +295,19 @@ public sealed record StudyPageDto(int Total, IReadOnlyList<StudyQuestionDto> Que
 
 /// <summary>A question with its answer — study mode shows everything.</summary>
 public sealed record StudyQuestionDto(
-    string Id, string Law, string LawShort, string? Article, string? Topic, string Type,
+    string Id, string Law, string LawShort, string? Article, string? ArticleKey, string? Topic, string Type,
     string Text, IReadOnlyList<string> Options, IReadOnlyList<int> Correct, string? Answer, string? Explanation);
+
+/// <summary>A law on the shelf, for the law-text browser.</summary>
+public sealed record LawSummaryDto(string Code, string Title, string ShortTitle, string Gazette, int ArticleCount);
+
+/// <summary>A page of a law's articles (filtered by a search term when one is given).</summary>
+public sealed record LawPageDto(
+    string Code, string Title, string ShortTitle, string Gazette,
+    int ArticleCount, int MatchCount, IReadOnlyList<ArticleDto> Articles);
+
+/// <summary>One article as it reads in the official text.</summary>
+public sealed record ArticleDto(string Key, string Label, string Title, string Chapter, string Text);
+
+/// <summary>One article together with the law it belongs to — what the "read this article" popup needs.</summary>
+public sealed record ArticleDetailDto(string Code, string Title, string ShortTitle, string Gazette, ArticleDto Article);

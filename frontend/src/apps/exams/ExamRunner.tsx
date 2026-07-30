@@ -3,12 +3,8 @@ import { useTranslation } from 'react-i18next'
 import { Check, ChevronLeft, ChevronRight, Flag } from 'lucide-react'
 import { confirm } from '@/platform/ui/confirmStore'
 import type { ExamAttempt, ExamQuestion } from './api'
+import { formatPicked, isAnswered, parsePicked } from './answers'
 import { useExamMutations } from './hooks'
-
-/** Reads the wire format for picked options ("0,2") into a set of indices. */
-function parsePicked(given: string): number[] {
-  return given.split(',').map((p) => Number(p.trim())).filter((n) => Number.isInteger(n) && n >= 0)
-}
 
 /** Sits the paper: one question at a time, answers autosaved, then hand in for marking. */
 export function ExamRunner({ attempt, onLeave }: { attempt: ExamAttempt; onLeave: () => void }) {
@@ -28,7 +24,7 @@ export function ExamRunner({ attempt, onLeave }: { attempt: ExamAttempt; onLeave
   }, [])
 
   const question = attempt.questions[Math.min(index, attempt.questions.length - 1)]
-  const answered = attempt.questions.filter((q) => (answers[q.id] ?? '').trim().length > 0).length
+  const answered = attempt.questions.filter((q) => isAnswered(answers[q.id])).length
   const total = attempt.questions.length
 
   const persist = (questionId: string, answer: string, debounceMs: number) => {
@@ -49,8 +45,8 @@ export function ExamRunner({ attempt, onLeave }: { attempt: ExamAttempt; onLeave
     if (!question) return
     if (question.type === 'single') { setAnswer(String(option)); return }
     const picked = parsePicked(answers[question.id] ?? '')
-    const next = picked.includes(option) ? picked.filter((p) => p !== option) : [...picked, option].sort((a, b) => a - b)
-    setAnswer(next.join(','))
+    const next = picked.includes(option) ? picked.filter((p) => p !== option) : [...picked, option]
+    setAnswer(formatPicked(next))
   }
 
   const handIn = async () => {
@@ -110,7 +106,7 @@ export function ExamRunner({ attempt, onLeave }: { attempt: ExamAttempt; onLeave
             <button
               key={q.id}
               type="button"
-              className={`dot${i === index ? ' cur' : ''}${(answers[q.id] ?? '').trim() ? ' done' : ''}`}
+              className={`dot${i === index ? ' cur' : ''}${isAnswered(answers[q.id]) ? ' done' : ''}`}
               onClick={() => setIndex(i)}
               aria-label={t('exams.goToQuestion', { n: i + 1 })}
             />

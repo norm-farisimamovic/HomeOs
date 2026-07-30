@@ -1,5 +1,4 @@
 using System.Globalization;
-using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 using HomeOs.Modules.Exams.Bank;
@@ -13,7 +12,12 @@ namespace HomeOs.Modules.Exams.Grading;
 /// <param name="Correct">Whether the answer counts as correct (full marks).</param>
 /// <param name="Feedback">One sentence explaining the mark, in the candidate's language.</param>
 /// <param name="AiGraded">True when an AI examiner produced the verdict.</param>
-public sealed record Verdict(decimal Points, bool Correct, string? Feedback, bool AiGraded);
+/// <param name="Graded">
+/// False when the answer could not be marked at all (no AI examiner available). Such a question is left
+/// out of the score entirely — the candidate simply gets the model answer to read — so a missing key can
+/// never block finishing a paper or drag the grade down.
+/// </param>
+public sealed record Verdict(decimal Points, bool Correct, string? Feedback, bool AiGraded, bool Graded = true);
 
 /// <summary>A written answer waiting to be marked.</summary>
 /// <param name="Question">The bank question, including its model answer.</param>
@@ -21,18 +25,16 @@ public sealed record Verdict(decimal Points, bool Correct, string? Feedback, boo
 public sealed record OpenSubmission(BankQuestion Question, string Given);
 
 /// <summary>
-/// Marks exam answers. Multiple-choice is decided by comparing option sets. Written answers are marked on
-/// <em>meaning</em>: an AI examiner reads them against the model answer when one is configured
-/// (<c>Assistant:*</c> — the same provider the household assistant uses), and a key-term overlap check takes over
-/// when it is not, so the exam always produces a mark even offline.
+/// Marks exam answers. Multiple-choice is decided **locally** by comparing option sets — the correct
+/// answers ship with the app, so no network and no AI is involved. Written answers are marked on
+/// <em>meaning</em> by an AI examiner reading them against the model answer, using whichever provider is
+/// configured (<c>Assistant:*</c> — the same one the household assistant uses). When no examiner is
+/// available, written answers are **left ungraded** rather than guessed at: they drop out of the score and
+/// the candidate is simply shown the model answer.
 /// </summary>
 public sealed class AnswerGrader(IAssistant assistant, ILogger<AnswerGrader> logger)
 {
-    // A written answer must cover this share of the model answer's key terms for full / half marks.
-    private const double FullCredit = 0.7;
-    private const double HalfCredit = 0.4;
-
-    /// <summary>Whether an AI examiner is available (otherwise written answers are marked by key terms).</summary>
+    /// <summary>Whether an AI examiner is available (written answers are skipped when it is not).</summary>
     public bool AiAvailable => assistant.Configured;
 
     /// <summary>Marks a multiple-choice answer: every correct option, and no incorrect one.</summary>
@@ -45,8 +47,10 @@ public sealed class AnswerGrader(IAssistant assistant, ILogger<AnswerGrader> log
     }
 
     /// <summary>
-    /// Marks every written answer in one go. Unanswered ones score zero without troubling the model; the rest go
-    /// to the AI examiner in a single request (cheap and fast), falling back to key terms on any failure.
+    /// Marks every written answer in one go. Unanswered ones score zero without troubling the model; the rest
+    /// go to the AI examiner in a single request (cheap and fast). Anything the examiner can't mark — no key
+    /// configured, provider down, unusable reply — comes back <see cref="Verdict.Graded"/> = false so the
+    /// question is dropped from the score instead of being guessed at.
     /// </summary>
     /// <param name="submissions">The written answers on the paper.</param>
     /// <param name="language">Culture code for the feedback wording (<c>bs</c> or <c>en</c>).</param>
@@ -59,8 +63,12 @@ public sealed class AnswerGrader(IAssistant assistant, ILogger<AnswerGrader> log
 
         foreach (var s in submissions)
         {
+            // A blank answer needs no examiner — but it only counts as zero when there *is* one, otherwise
+            // the whole question sits outside the score like every other unmarkable written answer.
             if (string.IsNullOrWhiteSpace(s.Given))
-                verdicts[s.Question.Id] = new Verdict(0m, false, Text(language, "empty"), false);
+                verdicts[s.Question.Id] = assistant.Configured
+                    ? new Verdict(0m, false, Text(language, "empty"), false)
+                    : Ungraded(language);
             else
                 answered.Add(s);
         }
@@ -73,38 +81,15 @@ public sealed class AnswerGrader(IAssistant assistant, ILogger<AnswerGrader> log
             foreach (var (id, verdict) in aiVerdicts) verdicts[id] = verdict;
         }
 
-        // Anything the AI didn't (or couldn't) mark still gets a fair mark from key terms.
         foreach (var s in answered.Where(s => !verdicts.ContainsKey(s.Question.Id)))
-            verdicts[s.Question.Id] = GradeByKeywords(s.Question, s.Given, language);
+            verdicts[s.Question.Id] = Ungraded(language);
 
         return verdicts;
     }
 
-    /// <summary>
-    /// Marks a written answer without an AI: how much of the model answer's key vocabulary it covers. Words are
-    /// compared on their stems because Bosnian inflects heavily ("rješenje" / "rješenjem" / "rješenja").
-    /// </summary>
-    public static Verdict GradeByKeywords(BankQuestion question, string given, string language)
-    {
-        var keywords = question.Keywords.Count > 0
-            ? question.Keywords
-            : SignificantWords(question.Answer ?? string.Empty).Take(8).ToList();
-        if (keywords.Count == 0) return new Verdict(0m, false, Text(language, "manual"), false);
-
-        var answerStems = Stems(given);
-        var hits = keywords.Count(k => Stems(k).All(answerStems.Contains));
-        var coverage = (double)hits / keywords.Count;
-
-        // A one-word answer that happens to contain a key term shouldn't score full marks.
-        if (answerStems.Count < 3) coverage = Math.Min(coverage, HalfCredit);
-
-        return coverage switch
-        {
-            >= FullCredit => new Verdict(question.MaxPoints, true, Text(language, "good"), false),
-            >= HalfCredit => new Verdict(Math.Round(question.MaxPoints / 2m, 2), false, Text(language, "partial"), false),
-            _ => new Verdict(0m, false, Text(language, "weak"), false),
-        };
-    }
+    /// <summary>The verdict for a written answer no examiner could mark: outside the score, model answer shown.</summary>
+    private static Verdict Ungraded(string language) =>
+        new(0m, false, Text(language, "ungraded"), false, Graded: false);
 
     // ---- AI examiner ----
 
@@ -182,43 +167,16 @@ public sealed class AnswerGrader(IAssistant assistant, ILogger<AnswerGrader> log
             .Where(i => i >= 0),
     ];
 
-    /// <summary>Lower-cases, strips diacritics and punctuation so "Rješenje!" and "rjesenje" compare equal.</summary>
-    private static string Normalize(string text)
-    {
-        var lowered = text.ToLowerInvariant()
-            .Replace("đ", "dj", StringComparison.Ordinal)
-            .Replace("ž", "z", StringComparison.Ordinal)
-            .Replace("š", "s", StringComparison.Ordinal)
-            .Replace("č", "c", StringComparison.Ordinal)
-            .Replace("ć", "c", StringComparison.Ordinal);
-
-        var builder = new StringBuilder(lowered.Length);
-        foreach (var ch in lowered.Normalize(NormalizationForm.FormD))
-        {
-            if (CharUnicodeInfo.GetUnicodeCategory(ch) == UnicodeCategory.NonSpacingMark) continue;
-            builder.Append(char.IsLetterOrDigit(ch) ? ch : ' ');
-        }
-        return builder.ToString();
-    }
-
-    /// <summary>Words worth matching on — normalized, de-duplicated, without one/two-letter noise.</summary>
-    private static IEnumerable<string> SignificantWords(string text) =>
-        Normalize(text).Split(' ', StringSplitOptions.RemoveEmptyEntries).Where(w => w.Length > 3).Distinct();
-
-    /// <summary>Stems of every significant word (first 5 characters), the unit key terms are matched on.</summary>
-    private static HashSet<string> Stems(string text) =>
-        [.. SignificantWords(text).Select(w => w.Length > 5 ? w[..5] : w)];
-
     private static string Text(string language, string key)
     {
         var en = language.StartsWith("en", StringComparison.OrdinalIgnoreCase);
         return key switch
         {
             "empty" => en ? "No answer given." : "Odgovor nije upisan.",
-            "good" => en ? "Covers the key points." : "Odgovor pokriva ključne elemente.",
-            "partial" => en ? "Partly correct — some key points are missing." : "Djelimično tačno — nedostaju neki ključni elementi.",
-            "weak" => en ? "The key points of the model answer are missing." : "Nedostaju ključni elementi tačnog odgovora.",
-            _ => en ? "Compare your answer with the model answer." : "Uporedite svoj odgovor sa tačnim odgovorom.",
+            "ungraded" => en
+                ? "Not graded — no AI examiner was available, so this question is left out of the score. Compare your answer with the model answer."
+                : "Nije ocijenjeno — AI ispitivač nije bio dostupan, pa se pitanje ne računa u rezultat. Uporedi svoj odgovor sa tačnim.",
+            _ => en ? "Compare your answer with the model answer." : "Uporedi svoj odgovor sa tačnim odgovorom.",
         };
     }
 }
