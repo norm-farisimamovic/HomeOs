@@ -94,6 +94,35 @@ By default emails (invites, task-assigned) are **logged to the API console** —
 real email, set `Email:Smtp:*` (via user-secrets in dev, env vars in prod). Providers + exact keys are in
 [docs/DEPLOYMENT.md §3](docs/DEPLOYMENT.md). Use **port 587** (STARTTLS).
 
+## Exam prep (`/exams`)
+
+A study app for the professional exam, with **727 questions** written from four laws:
+
+| Law | Questions |
+|-----|-----------|
+| Zakon o upravnom postupku FBiH | 300 |
+| Zakon o inspekcijama Tuzlanskog kantona | 150 |
+| Zakon o državnoj službi u Tuzlanskom kantonu | 145 |
+| Zakon o zaštiti na radu FBiH | 132 |
+
+**Ispit** — pick the laws (one, several for a mix, or all), the length (a preset or any number from 5 to 100)
+and the question mix (multiple-choice / written / both), sit the paper one question at a time, and get a
+**1–5 grade** with a full answer review (pass mark 60%).
+
+**Ponavljanje** — the same law picker over the whole bank, but with the **answers shown outright**: nothing to
+guess, nothing marked, each question followed by the correct option (or the model answer) and its article. An
+eye toggle hides the answers if you'd rather self-test. Searchable, and reachable from ⌘K.
+
+Multiple-choice questions are **checked locally** — the correct answers ship inside the app, no internet and no
+AI. Written answers are marked **on meaning, not wording**: the same AI provider the household assistant uses
+(`Assistant:*`, Groq by default) reads them against the model answer and returns feedback in your language.
+**Without an API key the app still works** — written answers fall back to a diacritic- and inflection-tolerant
+key-term marker.
+
+Growing the bank is a code change, not a migration: add a JSON file under
+`backend/src/HomeOs.Modules.Exams/Bank/Data/` (it is embedded into the DLL and validated by
+`HomeOs.Modules.Exams.Tests`).
+
 ## Health & diagnostics
 
 - `GET /health` — liveness (process up)

@@ -1,0 +1,747 @@
+[
+  {
+    "id": "zup-251",
+    "law": "zup",
+    "article": "Član 264",
+    "topic": "Ništavost rješenja",
+    "type": "open",
+    "text": "Nabrojte razloge zbog kojih se rješenje oglašava ništavim.",
+    "answer": "Ništavim se oglašava rješenje: 1) koje je doneseno u stvari iz sudske nadležnosti ili u stvari o kojoj se uopće ne može rješavati u upravnom postupku; 2) koje bi svojim izvršenjem moglo prouzrokovati djelo kažnjivo po krivičnom zakonu; 3) čije izvršenje uopće nije moguće; 4) koje je donio organ bez prethodnog zahtjeva stranke, a stranka na njega nije naknadno izričito ili prećutno pristala; 5) koje sadrži nepravilnost koja je po izričitoj zakonskoj odredbi predviđena kao razlog ništavosti.",
+    "keywords": ["sudska nadležnost", "kažnjivo djelo", "izvršenje nije moguće", "bez zahtjeva stranke", "izričita zakonska odredba"],
+    "explanation": "Član 264. ZUP-a."
+  },
+  {
+    "id": "zup-252",
+    "law": "zup",
+    "article": "Član 265",
+    "topic": "Ništavost rješenja",
+    "type": "single",
+    "text": "U kojem roku se rješenje može oglasiti ništavim?",
+    "options": [
+      "U roku od godinu dana",
+      "U svako doba, po službenoj dužnosti ili po prijedlogu stranke, tužioca ili ombudsmena",
+      "U roku od pet godina",
+      "Samo dok rješenje nije izvršeno"
+    ],
+    "correct": [1],
+    "explanation": "Član 265. stav 1.; rješenje se može oglasiti ništavim u cijelosti ili djelimično."
+  },
+  {
+    "id": "zup-253",
+    "law": "zup",
+    "article": "Član 265",
+    "topic": "Ništavost rješenja",
+    "type": "single",
+    "text": "Ko oglašava rješenje ništavim?",
+    "options": [
+      "Isključivo sud",
+      "Organ koji ga je donio ili drugostepeni organ, a ako drugostepenog organa nema — odgovarajuća vlada (član 261. stav 1.)",
+      "Isključivo Vlada Federacije",
+      "Tužilac"
+    ],
+    "correct": [1],
+    "explanation": "Član 265. stav 3.; protiv tog rješenja dopuštena je žalba (stav 4.)."
+  },
+  {
+    "id": "zup-254",
+    "law": "zup",
+    "article": "Član 266",
+    "topic": "Pravne posljedice",
+    "type": "open",
+    "text": "Koja je razlika u pravnim posljedicama poništavanja i ukidanja rješenja?",
+    "answer": "Poništavanjem rješenja i oglašavanjem rješenja ništavim poništavaju se i sve pravne posljedice koje je takvo rješenje proizvelo (djeluje unazad — ex tunc). Ukidanjem rješenja ne poništavaju se pravne posljedice koje je rješenje već proizvelo do dana ukidanja, već se samo onemogućava daljnje proizvođenje pravnih posljedica (djeluje ubuduće — ex nunc).",
+    "keywords": ["poništavanje ukida i posljedice", "unazad", "ukidanje djeluje ubuduće", "posljedice do dana ukidanja ostaju"],
+    "explanation": "Član 266. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-255",
+    "law": "zup",
+    "article": "Član 266",
+    "topic": "Pravne posljedice",
+    "type": "single",
+    "text": "Organ koji sazna za rješenje kojim je povrijeđen zakon, a povreda može biti razlog za obnovu, poništavanje, ukidanje ili mijenjanje rješenja:",
+    "options": [
+      "Nema nikakvu obavezu",
+      "Dužan je bez odgađanja o tome obavijestiti organ nadležan za pokretanje postupka i donošenje rješenja",
+      "Sam poništava rješenje",
+      "Obavještava samo stranku"
+    ],
+    "correct": [1],
+    "explanation": "Član 266. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-256",
+    "law": "zup",
+    "article": "Član 267",
+    "topic": "Izvršenje rješenja",
+    "type": "multi",
+    "text": "Kada prvostepeno rješenje postaje izvršno? (više tačnih odgovora)",
+    "options": [
+      "Istekom roka za žalbu, ako žalba nije izjavljena",
+      "Dostavom stranci, ako žalba nije dopuštena ili ako žalba ne odgađa izvršenje",
+      "Dostavom stranci rješenja kojim se žalba odbacuje ili odbija",
+      "Danom donošenja rješenja, u svakom slučaju"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 267. stav 2. tačke 1–4. ZUP-a."
+  },
+  {
+    "id": "zup-257",
+    "law": "zup",
+    "article": "Član 267",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Ako rješenjem nije određen rok za izvršenje radnje, rješenje postaje izvršno:",
+    "options": ["Odmah", "U roku od 15 dana od dana donošenja rješenja", "U roku od 30 dana", "U roku od 8 dana"],
+    "correct": [1],
+    "explanation": "Član 267. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-258",
+    "law": "zup",
+    "article": "Član 267",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Nakon kojeg roka se ne može više tražiti izvršenje rješenja?",
+    "options": [
+      "Nakon isteka jedne godine od izvršnosti",
+      "Nakon isteka pet godina od dana kad je rješenje postalo izvršno",
+      "Nakon isteka tri godine",
+      "Rok nije ograničen"
+    ],
+    "correct": [1],
+    "explanation": "Član 267. stav 7. ZUP-a."
+  },
+  {
+    "id": "zup-259",
+    "law": "zup",
+    "article": "Član 269",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Radi čega se provodi izvršenje rješenja donesenog u upravnom postupku?",
+    "options": [
+      "Radi ostvarivanja novčanih potraživanja ili nenovčanih obaveza",
+      "Samo radi naplate novčanih kazni",
+      "Samo radi rušenja bespravnih objekata",
+      "Radi izmjene rješenja"
+    ],
+    "correct": [0],
+    "explanation": "Član 269. ZUP-a."
+  },
+  {
+    "id": "zup-260",
+    "law": "zup",
+    "article": "Član 270",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Kad postoji mogućnost da se izvršenje provede na više načina:",
+    "options": [
+      "Bira se najbrži način",
+      "Izvršenje će se provesti na onaj način i primjenom onog sredstva koje dovodi do cilja, a koje je po izvršenika najblaže",
+      "Bira ga tražilac izvršenja",
+      "Bira se najjeftiniji način"
+    ],
+    "correct": [1],
+    "explanation": "Član 270. stav 1. ZUP-a — načelo najblažeg sredstva."
+  },
+  {
+    "id": "zup-261",
+    "law": "zup",
+    "article": "Član 270",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Kada se radnje izvršenja mogu provoditi nedjeljom, praznikom ili noću?",
+    "options": [
+      "Nikada",
+      "Samo iznimno, ako postoji opasnost od nastanka znatne štete i ako je organ koji provodi izvršenje izdao pismeni nalog",
+      "Uvijek kad to traži tražilac izvršenja",
+      "Uvijek, bez ograničenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 270. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-262",
+    "law": "zup",
+    "article": "Član 271",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Protiv koga se provodi izvršenje?",
+    "options": [
+      "Protiv bilo koje osobe koja ima interes",
+      "Protiv osobe koja je obavezna ispuniti obavezu (izvršenik), odnosno njenih nasljednika ili pravnih slijednika",
+      "Samo protiv pravnih lica",
+      "Protiv tražioca izvršenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 271. stav 1.; izvršenje se provodi po službenoj dužnosti (kad to nalaže javni interes) ili na prijedlog stranke."
+  },
+  {
+    "id": "zup-263",
+    "law": "zup",
+    "article": "Član 273",
+    "topic": "Izvršenje rješenja",
+    "type": "open",
+    "text": "Kojim putem se provodi izvršenje nenovčanih obaveza, a kojim izvršenje novčanih potraživanja?",
+    "answer": "Izvršenje radi ispunjenja nenovčanih obaveza provodi se administrativnim putem (administrativno izvršenje, koje provode organi uprave). Izvršenje radi ispunjenja novčanih potraživanja provodi se sudskim putem; izuzetno, izvršenje novčanih potraživanja iz primanja na osnovu radnog odnosa može se provesti administrativnim putem uz pristanak izvršenika.",
+    "keywords": ["nenovčane administrativno", "novčane sudskim putem", "izuzetak primanja iz radnog odnosa", "pristanak izvršenika"],
+    "explanation": "Član 273. ZUP-a."
+  },
+  {
+    "id": "zup-264",
+    "law": "zup",
+    "article": "Član 274",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Ko provodi administrativno izvršenje?",
+    "options": [
+      "Uvijek drugostepeni organ",
+      "Organ uprave koji je o stvari rješavao u prvom stepenu, ako posebnim propisom nije određen drugi organ",
+      "Nadležni sud",
+      "Organ unutrašnjih poslova"
+    ],
+    "correct": [1],
+    "explanation": "Član 274. stav 1.; organi unutrašnjih poslova dužni su pružiti pomoć u provođenju izvršenja (stav 4.)."
+  },
+  {
+    "id": "zup-265",
+    "law": "zup",
+    "article": "Član 275",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Šta je potrebno da bi se moglo pristupiti administrativnom izvršenju rješenja?",
+    "options": [
+      "Samo izvršno rješenje",
+      "Zaključak o dozvoli izvršenja, kojim se utvrđuje da je rješenje postalo izvršno i određuje način izvršenja",
+      "Presuda suda",
+      "Saglasnost izvršenika"
+    ],
+    "correct": [1],
+    "explanation": "Član 275. stav 1.; protiv tog zaključka dopuštena je žalba drugostepenom organu."
+  },
+  {
+    "id": "zup-266",
+    "law": "zup",
+    "article": "Član 275",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "U kojem roku se donosi zaključak o dozvoli izvršenja rješenja donesenog po službenoj dužnosti?",
+    "options": [
+      "Bez odgađanja, a najkasnije u roku od 30 dana od izvršnosti, s mogućnošću produženja još do 30 dana",
+      "U roku od 8 dana",
+      "U roku od 15 dana bez mogućnosti produženja",
+      "U roku od 60 dana"
+    ],
+    "correct": [0],
+    "explanation": "Član 275. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-267",
+    "law": "zup",
+    "article": "Član 277",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Šta se može pobijati žalbom u postupku administrativnog izvršenja?",
+    "options": [
+      "I pravilnost rješenja koje se izvršava",
+      "Samo izvršenje — njome se ne može pobijati pravilnost rješenja koje se izvršava; žalba ne odgađa započeto izvršenje",
+      "Ništa, žalba nije dopuštena",
+      "Samo visina troškova izvršenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 277. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-268",
+    "law": "zup",
+    "article": "Član 278",
+    "topic": "Izvršenje rješenja",
+    "type": "multi",
+    "text": "Kada je organ dužan po službenoj dužnosti obustaviti započeto izvršenje i poništiti provedene radnje? (više tačnih odgovora)",
+    "options": [
+      "Ako se utvrdi da je obaveza izvršena",
+      "Ako izvršenje uopće nije bilo dopušteno ili je provedeno prema osobi koja nije u obavezi",
+      "Ako tražilac izvršenja odustane od zahtjeva, odnosno ako je izvršno rješenje poništeno ili ukinuto",
+      "Ako izvršenik uloži žalbu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 278. stav 1.; sama žalba ne odgađa započeto izvršenje (član 277. stav 2.)."
+  },
+  {
+    "id": "zup-269",
+    "law": "zup",
+    "article": "Član 282",
+    "topic": "Izvršenje nenovčanih obaveza",
+    "type": "single",
+    "text": "Ako se obaveza izvršenika sastoji u radnji koju može izvršiti i druga osoba, a izvršenik je ne izvrši:",
+    "options": [
+      "Obaveza se gasi",
+      "Radnja će se izvršiti preko druge osobe, na trošak izvršenika, uz prethodnu pismenu opomenu izvršeniku",
+      "Izvršenik se kažnjava zatvorom",
+      "Postupak se obustavlja"
+    ],
+    "correct": [1],
+    "explanation": "Član 282. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-270",
+    "law": "zup",
+    "article": "Član 283",
+    "topic": "Izvršenje nenovčanih obaveza",
+    "type": "single",
+    "text": "Kad je predmet izvršenja radnja koju umjesto izvršenika ne može izvršiti druga osoba, ili je izvršenik dužan nešto dopustiti ili trpjeti:",
+    "options": [
+      "Izvršenje nije moguće",
+      "Organ će izvršenika prisiliti na ispunjenje obaveze izricanjem novčanih kazni, uz prethodnu prijetnju prisilnim sredstvom i ostavljeni rok",
+      "Predmet se ustupa sudu",
+      "Obaveza se pretvara u novčanu"
+    ],
+    "correct": [1],
+    "explanation": "Član 283. st. 1. i 2.; naplaćena novčana kazna se ne vraća (stav 4.)."
+  },
+  {
+    "id": "zup-271",
+    "law": "zup",
+    "article": "Član 284",
+    "topic": "Izvršenje nenovčanih obaveza",
+    "type": "single",
+    "text": "Kada se izvršenje nenovčane obaveze može provesti neposrednom prisilom?",
+    "options": [
+      "Uvijek, kao prvo sredstvo",
+      "Ako se izvršenje ne može uopće ili ne može pravovremeno provesti izvršenjem preko drugih osoba ili izricanjem novčanih kazni, a propisima nije drugačije određeno",
+      "Nikada",
+      "Samo uz odobrenje suda"
+    ],
+    "correct": [1],
+    "explanation": "Član 284. ZUP-a."
+  },
+  {
+    "id": "zup-272",
+    "law": "zup",
+    "article": "Član 285",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Ako je izvršenje provedeno, a rješenje se kasnije poništi ili izmijeni, izvršenik ima pravo:",
+    "options": [
+      "Samo na naknadu troškova",
+      "Tražiti da mu se vrati ono što mu je oduzeto, odnosno da se vrati u stanje koje proizilazi iz novog rješenja",
+      "Na novčanu kaznu protiv organa",
+      "Nema nikakvo pravo"
+    ],
+    "correct": [1],
+    "explanation": "Član 285. stav 1.; o tome rješava organ koji je donio zaključak o dozvoli izvršenja."
+  },
+  {
+    "id": "zup-273",
+    "law": "zup",
+    "article": "Član 286",
+    "topic": "Izvršenje radi osiguranja",
+    "type": "single",
+    "text": "Kada se može dopustiti izvršenje rješenja i prije nego što je ono postalo izvršno?",
+    "options": [
+      "Uvijek na zahtjev stranke",
+      "Radi osiguranja izvršenja — ako bi bez toga izvršenje nakon izvršnosti moglo biti osujećeno ili znatno otežano",
+      "Nikada",
+      "Samo kad se radi o novčanim potraživanjima"
+    ],
+    "correct": [1],
+    "explanation": "Član 286. stav 1.; žalba protiv takvog zaključka ne odgađa provođenje izvršenja."
+  },
+  {
+    "id": "zup-274",
+    "law": "zup",
+    "article": "Član 289",
+    "topic": "Izvršenje radi osiguranja",
+    "type": "single",
+    "text": "Kada se donosi privremeni zaključak o osiguranju?",
+    "options": [
+      "Nakon što rješenje postane pravomoćno",
+      "Prije donošenja rješenja o obavezi, ako obaveza postoji ili je učinjena vjerovatnom, a postoji opasnost da će stranka osujetiti ili znatno otežati izvršenje",
+      "Samo u postupku po žalbi",
+      "Samo u sudskom izvršenju"
+    ],
+    "correct": [1],
+    "explanation": "Član 289. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-275",
+    "law": "zup",
+    "article": "Član 290",
+    "topic": "Izvršenje radi osiguranja",
+    "type": "single",
+    "text": "Ako se utvrdi da obaveza za čije je osiguranje donesen privremeni zaključak pravno ne postoji:",
+    "options": [
+      "Nema posljedica",
+      "Predlagač u čiju je korist zaključak donesen naknadit će protivnoj stranci štetu, a ako je zaključak isposlovan iz obijesti, kaznit će se novčanom kaznom",
+      "Šteta se naknađuje iz budžeta",
+      "Zaključak ostaje na snazi"
+    ],
+    "correct": [1],
+    "explanation": "Član 290. st. 1. i 3. ZUP-a."
+  },
+  {
+    "id": "zup-276",
+    "law": "zup",
+    "article": "Član 291",
+    "topic": "Provođenje zakona",
+    "type": "single",
+    "text": "Mogu li institucije koje imaju javne ovlasti same primjenjivati prisilne mjere privođenja ili dovođenja?",
+    "options": [
+      "Mogu, bez ograničenja",
+      "Ne mogu — obraćaju se kantonalnom organu uprave nadležnom za poslove opće uprave radi primjene te mjere",
+      "Mogu uz saglasnost stranke",
+      "Mogu samo noću"
+    ],
+    "correct": [1],
+    "explanation": "Član 291. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-277",
+    "law": "zup",
+    "article": "Član 292",
+    "topic": "Provođenje zakona",
+    "type": "open",
+    "text": "Koje uslove mora ispunjavati osoba kojoj se daje ovlaštenje za vođenje upravnog postupka i rješavanje u upravnim stvarima?",
+    "answer": "Ovlaštenje se može dati samo osobi koja ima zakonom propisanu odgovarajuću stručnu spremu, radno iskustvo i položen stručni ispit. Te osobe polažu stručni ispit prema federalnim propisima koji se odnose na polaganje stručnog ispita službenika federalnih organa uprave.",
+    "keywords": ["stručna sprema", "radno iskustvo", "položen stručni ispit"],
+    "explanation": "Član 292. ZUP-a."
+  },
+  {
+    "id": "zup-278",
+    "law": "zup",
+    "article": "Član 293",
+    "topic": "Provođenje zakona",
+    "type": "single",
+    "text": "U kojem roku je službena osoba dužna pismeno obavijestiti stranku o razlozima zbog kojih rješenje nije doneseno u zakonskom roku?",
+    "options": [
+      "U roku od 3 dana od dana isteka roka za rješavanje",
+      "U roku od 8 dana",
+      "U roku od 15 dana",
+      "Nema takve obaveze"
+    ],
+    "correct": [0],
+    "explanation": "Član 293. stav 2.; obavještenje se istovremeno dostavlja i odgovornim osobama iz stava 1."
+  },
+  {
+    "id": "zup-279",
+    "law": "zup",
+    "article": "Član 293",
+    "topic": "Provođenje zakona",
+    "type": "single",
+    "text": "Šta čini službena osoba ako je njenom krivicom došlo do neizvršenja procesnih radnji zbog kojih rješenje nije moglo biti doneseno u zakonskom roku?",
+    "options": [
+      "Prekršaj",
+      "Težu povredu radne dužnosti",
+      "Krivično djelo",
+      "Ništa — nema odgovornosti"
+    ],
+    "correct": [1],
+    "explanation": "Član 293. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-280",
+    "law": "zup",
+    "article": "Član 294",
+    "topic": "Provođenje zakona",
+    "type": "single",
+    "text": "Koliko često su općinski načelnik i gradonačelnik obavezni podnijeti izvještaj o rješavanju upravnih stvari?",
+    "options": ["Kvartalno", "Jedanput godišnje, gradskom odnosno općinskom vijeću", "Polugodišnje", "Na zahtjev vijeća"],
+    "correct": [1],
+    "explanation": "Član 294. stav 1.; primjerak se dostavlja i kantonalnom organu uprave nadležnom za opću upravu."
+  },
+  {
+    "id": "zup-281",
+    "law": "zup",
+    "article": "Član 294",
+    "topic": "Provođenje zakona",
+    "type": "multi",
+    "text": "Šta naročito sadrži godišnji izvještaj o rješavanju upravnih stvari? (više tačnih odgovora)",
+    "options": [
+      "Broj podnesenih zahtjeva stranaka i broj postupaka pokrenutih po službenoj dužnosti",
+      "Način i rokove rješavanja u prvostepenom i drugostepenom postupku te broj poništenih odnosno ukinutih upravnih akata",
+      "Broj odbačenih zahtjeva, obustavljenih postupaka, primijenjenih prisilnih mjera i neriješenih predmeta",
+      "Spisak imena svih stranaka"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 294. stav 6. ZUP-a."
+  },
+  {
+    "id": "zup-282",
+    "law": "zup",
+    "article": "Član 296",
+    "topic": "Provođenje zakona",
+    "type": "single",
+    "text": "Ko daje objašnjenja o primjeni odredaba ZUP-a?",
+    "options": [
+      "Vrhovni sud Federacije",
+      "Federalno ministarstvo pravde — na traženje i po službenoj dužnosti radi jedinstvene primjene zakona",
+      "Vlada Federacije",
+      "Kantonalna ministarstva pravde"
+    ],
+    "correct": [1],
+    "explanation": "Član 296. ZUP-a."
+  },
+  {
+    "id": "zup-283",
+    "law": "zup",
+    "article": "Član 297",
+    "topic": "Nadzor",
+    "type": "single",
+    "text": "Ko vrši nadzor nad provođenjem ZUP-a kad organi rješavaju na osnovu federalnog zakona ili drugog federalnog propisa?",
+    "options": [
+      "Kantonalni organ uprave nadležan za poslove pravosuđa",
+      "Federalno ministarstvo pravde",
+      "Vlada Federacije",
+      "Upravni inspektorat kantona"
+    ],
+    "correct": [1],
+    "explanation": "Član 297. stav 1.; nadzor se ostvaruje prvenstveno putem upravne inspekcije (stav 3.)."
+  },
+  {
+    "id": "zup-284",
+    "law": "zup",
+    "article": "Član 297",
+    "topic": "Nadzor",
+    "type": "single",
+    "text": "Ko vrši nadzor nad provođenjem ZUP-a kad se rješava na osnovu kantonalnog zakona ili propisa općinskog/gradskog vijeća?",
+    "options": [
+      "Federalno ministarstvo pravde",
+      "Kantonalni organ uprave nadležan za poslove pravosuđa",
+      "Općinsko vijeće",
+      "Vlada kantona"
+    ],
+    "correct": [1],
+    "explanation": "Član 297. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-285",
+    "law": "zup",
+    "article": "Član 298",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koji je raspon novčane kazne za prekršaj institucije koja ima javne ovlasti iz člana 298. ZUP-a?",
+    "options": ["Od 500 do 2.000 KM", "Od 2.000 do 8.000 KM", "Od 1.500 do 6.000 KM", "Od 1.000 do 4.000 KM"],
+    "correct": [1],
+    "explanation": "Član 298. stav 1.; za odgovornu osobu 300 do 1.200 KM (stav 2.)."
+  },
+  {
+    "id": "zup-286",
+    "law": "zup",
+    "article": "Član 298",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koliki je raspon novčane kazne za odgovornu osobu za prekršaj iz člana 298. ZUP-a?",
+    "options": ["Od 100 do 500 KM", "Od 300 do 1.200 KM", "Od 200 do 800 KM", "Od 150 do 600 KM"],
+    "correct": [1],
+    "explanation": "Član 298. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-287",
+    "law": "zup",
+    "article": "Član 299",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koji je raspon kazne za prekršaje iz člana 299. ZUP-a (npr. nepružanje pravne pomoći, onemogućavanje razgledanja spisa)?",
+    "options": ["Od 2.000 do 8.000 KM", "Od 1.500 do 6.000 KM (odgovorna osoba 200 do 800 KM)", "Od 1.000 do 4.000 KM", "Od 500 do 3.000 KM"],
+    "correct": [1],
+    "explanation": "Član 299. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-288",
+    "law": "zup",
+    "article": "Član 300",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koji je raspon kazne za prekršaje iz člana 300. ZUP-a (npr. neizuzimanje službene osobe kad su ispunjeni uslovi za izuzeće)?",
+    "options": ["Od 1.000 do 4.000 KM (odgovorna osoba 150 do 600 KM)", "Od 2.000 do 8.000 KM", "Od 1.500 do 6.000 KM", "Od 300 do 1.200 KM"],
+    "correct": [0],
+    "explanation": "Član 300. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-289",
+    "law": "zup",
+    "article": "Član 298",
+    "topic": "Kaznene odredbe",
+    "type": "multi",
+    "text": "Koje od navedenih radnji predstavljaju prekršaj iz člana 298. ZUP-a? (više tačnih odgovora)",
+    "options": [
+      "Odbijanje prijema pismenog podneska ili neizdavanje potvrde o prijemu podneska",
+      "Nedonošenje rješenja po zahtjevu stranke u propisanom roku",
+      "Nedostavljanje žalbe sa spisima drugostepenom organu u propisanom roku",
+      "Održavanje usmene rasprave izvan sjedišta organa"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 298. stav 1. tačke 2., 9. i 10.; održavanje rasprave izvan sjedišta je dopušteno (član 153.)."
+  },
+  {
+    "id": "zup-290",
+    "law": "zup",
+    "article": "Član 302",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Ko se smatra odgovornom osobom u općinskoj službi za upravu u smislu kaznenih odredaba ZUP-a?",
+    "options": [
+      "Samo općinski načelnik",
+      "Općinski načelnik, kao i službenik ovlašten za rješavanje u upravnim stvarima ili za poduzimanje radnji u postupku, odnosno drugi zaduženi službenik",
+      "Samo šef pisarnice",
+      "Predsjedavajući općinskog vijeća"
+    ],
+    "correct": [1],
+    "explanation": "Član 302. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-291",
+    "law": "zup",
+    "article": "Član 272",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Na koje se načine provodi izvršenje rješenja?",
+    "options": [
+      "Samo administrativnim putem",
+      "Administrativnim putem (organi uprave po ZUP-u/posebnom zakonu) i, u slučajevima predviđenim ZUP-om, sudskim putem",
+      "Samo sudskim putem",
+      "Isključivo preko organa unutrašnjih poslova"
+    ],
+    "correct": [1],
+    "explanation": "Član 272. ZUP-a."
+  },
+  {
+    "id": "zup-292",
+    "law": "zup",
+    "article": "Član 280",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Šta je osnov za sudsko izvršenje rješenja donesenog u upravnom postupku?",
+    "options": [
+      "Zaključak o dozvoli izvršenja",
+      "Rješenje koje sadrži potvrdu izvršnosti",
+      "Zapisnik o poravnanju",
+      "Nalog upravne inspekcije"
+    ],
+    "correct": [1],
+    "explanation": "Član 280. stav 2.; neosnovanu potvrdu izvršnosti ukida rješenjem organ koji ju je stavio."
+  },
+  {
+    "id": "zup-293",
+    "law": "zup",
+    "article": "Član 279",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "U čiju korist se naplaćuje novčana kazna izrečena po ZUP-u?",
+    "options": [
+      "Uvijek u korist Federacije",
+      "U korist Federacije, kantona, općine odnosno grada — zavisno od toga čiji je organ izrekao kaznu",
+      "U korist stranke",
+      "U korist suda"
+    ],
+    "correct": [1],
+    "explanation": "Član 279. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-294",
+    "law": "zup",
+    "article": "Član 268",
+    "topic": "Izvršenje zaključaka",
+    "type": "single",
+    "text": "Kada postaje izvršan zaključak protiv kojeg se ne može izjaviti posebna žalba?",
+    "options": [
+      "Istekom roka od 15 dana",
+      "Priopćenjem, odnosno dostavom stranci",
+      "Danom donošenja",
+      "Danom pravosnažnosti rješenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 268. stav 2.; odredbe o izvršenju rješenja važe i za izvršenje zaključka (stav 5.)."
+  },
+  {
+    "id": "zup-295",
+    "law": "zup",
+    "article": "Član 267",
+    "topic": "Izvršenje rješenja",
+    "type": "single",
+    "text": "Ako se rješenje odnosi na dvije ili više stranaka koje učestvuju s istovjetnim zahtjevima, žalba koju podnese bilo koja od njih:",
+    "options": [
+      "Ne utiče na izvršnost prema ostalima",
+      "Sprečava izvršnost rješenja",
+      "Odnosi se samo na podnosioca",
+      "Automatski se smatra žalbom svih stranaka u pogledu merituma"
+    ],
+    "correct": [1],
+    "explanation": "Član 267. stav 6. ZUP-a."
+  },
+  {
+    "id": "zup-296",
+    "law": "zup",
+    "article": "Član 303",
+    "topic": "Prelazne odredbe",
+    "type": "single",
+    "text": "Kako se rješavaju upravni predmeti koji nisu riješeni do dana stupanja na snagu ZUP-a?",
+    "options": [
+      "Po ranijim propisima",
+      "Po odredbama ovog zakona",
+      "Obustavljaju se",
+      "Prenose se na drugostepeni organ"
+    ],
+    "correct": [1],
+    "explanation": "Član 303. ZUP-a."
+  },
+  {
+    "id": "zup-297",
+    "law": "zup",
+    "article": "Član 305",
+    "topic": "Prelazne odredbe",
+    "type": "single",
+    "text": "Kada zakon stupa na snagu?",
+    "options": [
+      "Danom objavljivanja",
+      "Osmog dana od dana objavljivanja u \"Službenim novinama Federacije BiH\"",
+      "Petnaestog dana od objavljivanja",
+      "Prvog dana narednog mjeseca"
+    ],
+    "correct": [1],
+    "explanation": "Član 305. ZUP-a."
+  },
+  {
+    "id": "zup-298",
+    "law": "zup",
+    "article": "Član 283",
+    "topic": "Izvršenje nenovčanih obaveza",
+    "type": "single",
+    "text": "Koliki je maksimalni iznos prisilne novčane kazne koja se izriče prvi put u postupku izvršenja?",
+    "options": ["Do 50 DM (ekvivalent u KM)", "Do 500 KM", "Do 1.000 KM", "Nije ograničen"],
+    "correct": [0],
+    "explanation": "Član 283. stav 3.; svaka kasnija kazna može se ponovo izreći u istom iznosu, a naplaćena kazna se ne vraća."
+  },
+  {
+    "id": "zup-299",
+    "law": "zup",
+    "article": "Član 288",
+    "topic": "Izvršenje radi osiguranja",
+    "type": "single",
+    "text": "U kojem opsegu se može provoditi izvršenje privremenog rješenja?",
+    "options": [
+      "U punom opsegu kao i konačno rješenje",
+      "Samo u onom opsegu i u onim slučajevima u kojima je dopušteno izvršenje radi osiguranja",
+      "Ne može se uopće izvršavati",
+      "Samo uz pristanak izvršenika"
+    ],
+    "correct": [1],
+    "explanation": "Član 288. ZUP-a."
+  },
+  {
+    "id": "zup-300",
+    "law": "zup",
+    "article": "Član 293",
+    "topic": "Provođenje zakona",
+    "type": "single",
+    "text": "Ko je odgovoran za pravilnu i dosljednu primjenu ZUP-a i za rješavanje upravnih stvari u zakonskim rokovima?",
+    "options": [
+      "Isključivo službena osoba koja vodi postupak",
+      "Rukovodioci federalnih i kantonalnih organa uprave, gradonačelnik, općinski načelnik i rukovodioci institucija s javnim ovlastima",
+      "Upravna inspekcija",
+      "Vlada Federacije"
+    ],
+    "correct": [1],
+    "explanation": "Član 293. stav 1.; oni su obavezni i osigurati kontinuirano stručno usavršavanje službenika."
+  }
+]

@@ -1,0 +1,657 @@
+[
+  {
+    "id": "insp-001",
+    "law": "insp",
+    "article": "Član 1",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Šta se uređuje Zakonom o inspekcijama Tuzlanskog kantona?",
+    "options": [
+      "Samo organizacija Kantonalne uprave za inspekcijske poslove",
+      "Vršenje poslova inspekcijskog nadzora iz nadležnosti Kantonalne uprave, organizacija i poslovi Kantonalne uprave, kantonalne inspekcije i njihov djelokrug, postupak inspekcijskog nadzora, prava i obaveze inspektora i subjekata nadzora te preventivno djelovanje",
+      "Prekršajni postupak u Tuzlanskom kantonu",
+      "Radno-pravni status svih državnih službenika"
+    ],
+    "correct": [1],
+    "explanation": "Član 1. Zakona o inspekcijama TK (\"Sl. novine TK\", br. 12/20, 1/22, 5/22-ispr. i 11/22)."
+  },
+  {
+    "id": "insp-002",
+    "law": "insp",
+    "article": "Član 2",
+    "topic": "Pojmovi",
+    "type": "open",
+    "text": "Šta je inspekcijski nadzor u smislu Zakona o inspekcijama TK?",
+    "answer": "Inspekcijski nadzor je vrsta upravnog nadzora koja se ostvaruje neposrednim uvidom u zakonitost rada, poslovanja i postupanja pravnih lica, fizičkih lica koja obavljaju određenu djelatnost i građana (fizičkih lica) u pogledu pridržavanja zakona i drugih propisa, te preduzimanje upravnih i drugih mjera za koje je inspektor ovlašten zakonom odnosno drugim propisom.",
+    "keywords": ["vrsta upravnog nadzora", "neposredni uvid", "zakonitost rada poslovanja", "preduzimanje upravnih mjera"],
+    "explanation": "Član 2. tačka b) Zakona."
+  },
+  {
+    "id": "insp-003",
+    "law": "insp",
+    "article": "Član 2",
+    "topic": "Pojmovi",
+    "type": "single",
+    "text": "Ko je kantonalni inspektor prema ovom zakonu?",
+    "options": [
+      "Namještenik Kantonalne uprave",
+      "Državni službenik sa posebnim ovlašćenjima i odgovornostima",
+      "Zaposlenik ovlaštene stručne institucije",
+      "Član inspekcijske komisije Vlade Kantona"
+    ],
+    "correct": [1],
+    "explanation": "Član 2. tačka a) i član 30. Zakona."
+  },
+  {
+    "id": "insp-004",
+    "law": "insp",
+    "article": "Član 2",
+    "topic": "Pojmovi",
+    "type": "multi",
+    "text": "Koji su inspekcijski poslovi prema članu 2. Zakona? (više tačnih odgovora)",
+    "options": [
+      "Preventivni — preduzimanje mjera i radnji radi sprečavanja povrede propisa",
+      "Korektivni — donošenje rješenja o otklanjanju nedostataka, zabrani radnji suprotnih propisima i drugih upravnih mjera",
+      "Represivni — podnošenje prijava odnosno zahtjeva za pokretanje postupka i izdavanje prekršajnog naloga",
+      "Zakonodavni — donošenje kantonalnih zakona"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 2. tačka c) — uz to i inspekcijski pregled te kontrolni inspekcijski pregled."
+  },
+  {
+    "id": "insp-005",
+    "law": "insp",
+    "article": "Član 2",
+    "topic": "Pojmovi",
+    "type": "single",
+    "text": "Šta je ček lista?",
+    "options": [
+      "Spisak subjekata nadzora koje treba kontrolisati u toku godine",
+      "Lista provjera sačinjena na osnovu zakona i drugog propisa koja definiše konkretan predmet, pravni osnov i mjere koje inspektor može preduzeti u slučaju utvrđene povrede",
+      "Popis oduzete robe",
+      "Obrazac zapisnika o inspekcijskom nadzoru"
+    ],
+    "correct": [1],
+    "explanation": "Član 2. tačka g); na osnovu ček liste utvrđuje se obim i složenost inspekcijskog nadzora (član 93.)."
+  },
+  {
+    "id": "insp-006",
+    "law": "insp",
+    "article": "Član 2",
+    "topic": "Pojmovi",
+    "type": "single",
+    "text": "Šta je kontrolni inspekcijski pregled?",
+    "options": [
+      "Prvi pregled kod novog subjekta nadzora",
+      "Kontrola u izvršenju i postupanju subjekta nadzora po naloženim upravnim i drugim mjerama u postupku otklanjanja uočenih nepravilnosti",
+      "Pregled koji vrši glavni kantonalni inspektor nad radom inspektora",
+      "Pregled dokumentacije u prostorijama Kantonalne uprave"
+    ],
+    "correct": [1],
+    "explanation": "Član 2. tačka c) alineja 5. Zakona."
+  },
+  {
+    "id": "insp-007",
+    "law": "insp",
+    "article": "Član 3",
+    "topic": "Osnovne odredbe",
+    "type": "multi",
+    "text": "Na koje se načine vrši inspekcijski nadzor? (više tačnih odgovora)",
+    "options": [
+      "Preduzimanjem inspekcijskih radnji na utvrđivanju stanja radi izvršavanja zakona i drugih propisa kod subjekta nadzora",
+      "Nalaganjem upravnih mjera radi sprečavanja i otklanjanja nezakonitosti",
+      "Preduzimanjem preventivnih mjera u skladu sa zakonom i drugim propisima",
+      "Donošenjem podzakonskih akata za oblast koja se nadzire"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 3. tačke a)–d) Zakona."
+  },
+  {
+    "id": "insp-008",
+    "law": "insp",
+    "article": "Član 5",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Kakav status ima inspekcijski nadzor organizovan prema ovom zakonu?",
+    "options": [
+      "Djelatnost od opšteg interesa za Kanton",
+      "Privredna djelatnost",
+      "Djelatnost od lokalnog značaja",
+      "Povjerena javna ovlast"
+    ],
+    "correct": [0],
+    "explanation": "Član 5. Zakona."
+  },
+  {
+    "id": "insp-009",
+    "law": "insp",
+    "article": "Član 6",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Ko vrši stručni nadzor nad radom opštinskih i gradskih inspekcija nad provođenjem kantonalnih propisa?",
+    "options": ["Vlada Kantona", "Kantonalna uprava za inspekcijske poslove", "Federalna uprava za inspekcijske poslove", "Nadležno kantonalno ministarstvo"],
+    "correct": [1],
+    "explanation": "Član 6. stav 3.; poslovi inspekcijskog nadzora iz nadležnosti Kantona mogu se kantonalnim zakonom povjeriti opštini i gradu (stav 2.)."
+  },
+  {
+    "id": "insp-010",
+    "law": "insp",
+    "article": "Član 8",
+    "topic": "Samostalnost inspektora",
+    "type": "single",
+    "text": "Šta vrijedi za samostalnost inspektora u vršenju inspekcijskog nadzora?",
+    "options": [
+      "Inspektor postupa isključivo po nalogu direktora",
+      "Inspektor je samostalan u granicama ovlasti propisanih zakonom i materijalnim propisima, i nije dopušteno uticati na njegov rad niti ga sprečavati da izvrši nadzor i odredi mjere",
+      "Inspektor mora tražiti saglasnost ministarstva za svaku mjeru",
+      "Inspektor postupa po nalogu subjekta nadzora"
+    ],
+    "correct": [1],
+    "explanation": "Član 8. st. 2. i 3. Zakona."
+  },
+  {
+    "id": "insp-011",
+    "law": "insp",
+    "article": "Član 8",
+    "topic": "Samostalnost inspektora",
+    "type": "single",
+    "text": "Šta je dužan učiniti inspektor kad nedopušteno uticanje na njegov rad sadrži elemente krivičnog djela?",
+    "options": [
+      "Obavijestiti direktora Kantonalne uprave",
+      "Podnijeti krivičnu prijavu nadležnom tužilaštvu",
+      "Zabraniti rad subjektu nadzora",
+      "Zatražiti pomoć policije"
+    ],
+    "correct": [1],
+    "explanation": "Član 8. stav 4. Zakona."
+  },
+  {
+    "id": "insp-012",
+    "law": "insp",
+    "article": "Član 9",
+    "topic": "Načela",
+    "type": "open",
+    "text": "Kojih se načela kantonalni inspektor pridržava u postupku vršenja inspekcijskog nadzora?",
+    "answer": "Načela zakonitosti, javnosti, odgovornosti, učinkovitosti, ekonomičnosti, profesionalne nepristrasnosti, dosljednosti, nediskriminacije i političke nezavisnosti, kao i načela pravičnosti — tako da naložena mjera bude srazmjerna težini učinjene povrede. Postupak, pravila, procedure i ček liste dostupni su javnosti, a inspektor pruža stručnu pomoć subjektu nadzora.",
+    "keywords": ["zakonitost javnost odgovornost", "učinkovitost ekonomičnost", "profesionalna nepristrasnost", "nediskriminacija politička nezavisnost", "srazmjernost pravičnost"],
+    "explanation": "Član 9. Zakona."
+  },
+  {
+    "id": "insp-013",
+    "law": "insp",
+    "article": "Član 10",
+    "topic": "Načela",
+    "type": "single",
+    "text": "Kakvu upravnu mjeru će inspektor naložiti kad je to dopušteno propisom?",
+    "options": [
+      "Uvijek najstrožu",
+      "Blažu mjeru, ako se tom mjerom postiže svrha radi koje se mjera nalaže",
+      "Mjeru koju predloži subjekt nadzora",
+      "Mjeru koju odredi glavni kantonalni inspektor"
+    ],
+    "correct": [1],
+    "explanation": "Član 10. Zakona — načelo najblažeg sredstva."
+  },
+  {
+    "id": "insp-014",
+    "law": "insp",
+    "article": "Član 12",
+    "topic": "Etički kodeks",
+    "type": "single",
+    "text": "Šta čini kantonalni inspektor koji postupa protivno pravilima etičkih kodeksa?",
+    "options": [
+      "Prekršaj po ovom zakonu",
+      "Laku povredu službene dužnosti, osim ako je postupanje obuhvaćeno nekom od težih povreda iz Zakona o državnoj službi",
+      "Krivično djelo",
+      "Ništa — kodeks nije obavezujući"
+    ],
+    "correct": [1],
+    "explanation": "Član 12. stav 2. Zakona."
+  },
+  {
+    "id": "insp-015",
+    "law": "insp",
+    "article": "Član 13",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Šta je inspektor dužan učiniti sa saznanjima o eventualno počinjenom krivičnom djelu do kojih je došao u toku nadzora?",
+    "options": [
+      "Zadržati ih kao službenu tajnu",
+      "Obavijestiti nadležno tužilaštvo",
+      "Obavijestiti subjekta nadzora",
+      "Unijeti ih samo u zapisnik"
+    ],
+    "correct": [1],
+    "explanation": "Član 13. Zakona."
+  },
+  {
+    "id": "insp-016",
+    "law": "insp",
+    "article": "Član 16",
+    "topic": "Preventivno djelovanje",
+    "type": "multi",
+    "text": "Koje preventivne mjere je inspektor dužan naročito preduzimati? (više tačnih odgovora)",
+    "options": [
+      "Upoznavati subjekte nadzora o obavezama iz propisa i sankcijama u slučaju nepridržavanja",
+      "Ukazivati na štetne posljedice i predlagati mjere za otklanjanje uzroka, o čemu donosi rješenje",
+      "Davati informacije i savjete o djelotvornijem načinu izvršenja propisa i upoznavati subjekte sa olakšicama",
+      "Odmah izricati novčane kazne pri prvom nadzoru"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 16. stav 1. tačke a)–k) Zakona."
+  },
+  {
+    "id": "insp-017",
+    "law": "insp",
+    "article": "Član 16",
+    "topic": "Preventivno djelovanje",
+    "type": "single",
+    "text": "Da li je subjekt nadzora dužan postupiti po rješenju inspektora o naloženim preventivnim mjerama?",
+    "options": ["Nije — preventivne mjere su preporuka", "Dužan je postupiti", "Dužan je samo ako se saglasi", "Dužan je samo pravno lice"],
+    "correct": [1],
+    "explanation": "Član 16. stav 2.; nepostupanje je prekršaj po članu 164. stav 1. tačka a)."
+  },
+  {
+    "id": "insp-018",
+    "law": "insp",
+    "article": "Član 17",
+    "topic": "Organizacija",
+    "type": "single",
+    "text": "Kakav je status i gdje je sjedište Kantonalne uprave za inspekcijske poslove TK?",
+    "options": [
+      "Organ u sastavu ministarstva pravosuđa, sjedište u Živinicama",
+      "Samostalna kantonalna uprava sa sjedištem u Tuzli",
+      "Upravna organizacija Vlade FBiH sa sjedištem u Sarajevu",
+      "Služba Skupštine Kantona sa sjedištem u Tuzli"
+    ],
+    "correct": [1],
+    "explanation": "Član 17. Zakona."
+  },
+  {
+    "id": "insp-019",
+    "law": "insp",
+    "article": "Član 18",
+    "topic": "Organizacija",
+    "type": "multi",
+    "text": "Koje poslove obavlja Kantonalna uprava? (više tačnih odgovora)",
+    "options": [
+      "Prati stanje u upravnim oblastima za koje je nadležna i podnosi izvještaje Vladi Kantona",
+      "Vodi evidencije o subjektima nadzora, izvršenim nadzorima, radu svakog inspektora te o službenim iskaznicama i značkama",
+      "Donosi programe i planove vršenja inspekcijskog nadzora i program stručne obuke inspektora",
+      "Donosi kantonalne zakone iz oblasti koje nadzire"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 18. tačke a)–r) Zakona; zakone donosi Skupština Kantona."
+  },
+  {
+    "id": "insp-020",
+    "law": "insp",
+    "article": "Član 19",
+    "topic": "Organizacija",
+    "type": "single",
+    "text": "Ko donosi pravilnik o unutrašnjoj organizaciji Kantonalne uprave i uz čiju saglasnost?",
+    "options": [
+      "Vlada Kantona, uz saglasnost direktora",
+      "Direktor Kantonalne uprave, uz saglasnost Vlade Kantona",
+      "Skupština Kantona samostalno",
+      "Nadležno ministarstvo, uz saglasnost Vlade"
+    ],
+    "correct": [1],
+    "explanation": "Član 19. stav 2. Zakona."
+  },
+  {
+    "id": "insp-021",
+    "law": "insp",
+    "article": "Član 21",
+    "topic": "Organizacija",
+    "type": "single",
+    "text": "Ko imenuje i razrješava direktora Kantonalne uprave i kome on odgovara za svoj rad?",
+    "options": [
+      "Skupština Kantona; odgovara Skupštini",
+      "Vlada Kantona; odgovara Vladi Kantona",
+      "Premijer Kantona; odgovara premijeru",
+      "Federalna uprava; odgovara Federalnoj upravi"
+    ],
+    "correct": [1],
+    "explanation": "Član 21. st. 2. i 3. Zakona."
+  },
+  {
+    "id": "insp-022",
+    "law": "insp",
+    "article": "Član 23",
+    "topic": "Organizacija",
+    "type": "single",
+    "text": "Ko odlučuje o povjeravanju određenih stručnih poslova (ekspertize, mjerenja, ispitivanja, uzimanje uzoraka) ovlaštenim stručnim institucijama?",
+    "options": ["Glavni kantonalni inspektor", "Direktor Kantonalne uprave", "Vlada Kantona", "Nadležni kantonalni ministar"],
+    "correct": [1],
+    "explanation": "Član 23. stav 2. Zakona."
+  },
+  {
+    "id": "insp-023",
+    "law": "insp",
+    "article": "Član 24",
+    "topic": "Planiranje i izvještavanje",
+    "type": "single",
+    "text": "Kakav je status planova o vršenju inspekcijskog nadzora?",
+    "options": ["Javni su i objavljuju se", "Službena su tajna", "Dostupni su samo subjektima nadzora", "Objavljuju se u Službenim novinama TK"],
+    "correct": [1],
+    "explanation": "Član 24. stav 3. Zakona."
+  },
+  {
+    "id": "insp-024",
+    "law": "insp",
+    "article": "Član 24",
+    "topic": "Planiranje i izvještavanje",
+    "type": "single",
+    "text": "Kod izrade plana inspekcijskog nadzora, kod kojih subjekata se planira veći broj inspekcijskih kontrola?",
+    "options": [
+      "Kod najvećih poslodavaca",
+      "Kod subjekata koji obavljaju djelatnost sa povećanim stepenom rizika za život, zdravlje i imovinu građana",
+      "Kod subjekata koji su ranije kažnjavani",
+      "Kod subjekata koji posluju sa javnim sektorom"
+    ],
+    "correct": [1],
+    "explanation": "Član 24. stav 2. Zakona."
+  },
+  {
+    "id": "insp-025",
+    "law": "insp",
+    "article": "Član 24",
+    "topic": "Planiranje i izvještavanje",
+    "type": "single",
+    "text": "Kome glavni kantonalni inspektor podnosi mjesečni izvještaj, a kome direktor Kantonalne uprave?",
+    "options": [
+      "Vladi Kantona; Skupštini Kantona",
+      "Direktoru Kantonalne uprave; resornom kantonalnom ministarstvu iz odgovarajuće upravne oblasti",
+      "Federalnoj upravi; Vladi Kantona",
+      "Nadležnom ministru; premijeru"
+    ],
+    "correct": [1],
+    "explanation": "Član 24. stav 7.; godišnji izvještaj o provođenju federalnih propisa dostavlja se Federalnoj upravi (stav 8.)."
+  },
+  {
+    "id": "insp-026",
+    "law": "insp",
+    "article": "Član 27",
+    "topic": "Trajanje nadzora",
+    "type": "single",
+    "text": "Koliko najduže godišnje može trajati redovni inspekcijski nadzor tržišno-turističko-ugostiteljske inspekcije i inspekcije rada kod istog subjekta nadzora?",
+    "options": ["8 dana", "12 dana", "20 dana", "Nije ograničeno"],
+    "correct": [1],
+    "explanation": "Član 27. stav 2.; kod ostalih inspekcija redovni nadzor nije ograničen brojem dana (stav 1.)."
+  },
+  {
+    "id": "insp-027",
+    "law": "insp",
+    "article": "Član 27",
+    "topic": "Trajanje nadzora",
+    "type": "single",
+    "text": "Kako se računa trajanje inspekcijskog nadzora?",
+    "options": [
+      "Svaki nadzor se računa kao jedan dan",
+      "Ako traje manje od četiri sata računa se kao pola dana, a ako traje više od četiri sata kao jedan dan",
+      "Računa se po satima",
+      "Računa se samo vrijeme provedeno kod subjekta nadzora, bez putovanja"
+    ],
+    "correct": [1],
+    "explanation": "Član 27. stav 4. Zakona."
+  },
+  {
+    "id": "insp-028",
+    "law": "insp",
+    "article": "Član 27",
+    "topic": "Trajanje nadzora",
+    "type": "single",
+    "text": "Ko i do koliko dana može odobriti da inspekcijski nadzor traje duže od 12 dana godišnje?",
+    "options": [
+      "Glavni kantonalni inspektor, do 15 dana",
+      "Direktor Kantonalne uprave rješenjem, ali ne duže od 20 dana godišnje",
+      "Vlada Kantona, bez ograničenja",
+      "Nadležni ministar, do 30 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 27. stav 5.; uslov je opravdana indicija o značajnom kršenju zakona ili obim nadzora."
+  },
+  {
+    "id": "insp-029",
+    "law": "insp",
+    "article": "Član 27",
+    "topic": "Trajanje nadzora",
+    "type": "single",
+    "text": "Kada odgovorno lice subjekta nadzora može odbiti saradnju u inspekcijskom nadzoru jedne vrste inspekcije?",
+    "options": [
+      "Kad god smatra da je nadzor nepotreban",
+      "Ako inspektor nema rješenje o dozvoli prekoračenja broja dana inspekcijskog nadzora",
+      "Ako je nadzor izvan radnog vremena",
+      "Ako inspektor nije najavio nadzor"
+    ],
+    "correct": [1],
+    "explanation": "Član 27. stav 6. i član 77. Zakona."
+  },
+  {
+    "id": "insp-030",
+    "law": "insp",
+    "article": "Član 29",
+    "topic": "Status inspektora",
+    "type": "single",
+    "text": "Šta se dešava u slučaju spriječenosti glavnog kantonalnog inspektora za obavljanje poslova?",
+    "options": [
+      "Poslove preuzima direktor Kantonalne uprave",
+      "Direktor Kantonalne uprave posebnim rješenjem ovlašćuje drugog državnog službenika koji ispunjava sve opšte i posebne uslove za to radno mjesto",
+      "Poslovi miruju do njegovog povratka",
+      "Poslove preuzima najstariji inspektor po stažu"
+    ],
+    "correct": [1],
+    "explanation": "Član 29. stav 2. Zakona."
+  },
+  {
+    "id": "insp-031",
+    "law": "insp",
+    "article": "Član 31",
+    "topic": "Status inspektora",
+    "type": "single",
+    "text": "Koje uslove mora ispunjavati lice koje se postavlja za kantonalnog inspektora?",
+    "options": [
+      "Samo uslove iz Zakona o državnoj službi",
+      "Uslove propisane Zakonom o državnoj službi i podzakonskim propisima te druge uslove predviđene posebnim propisom, uključujući, ako je propisano, položen odgovarajući stručni odnosno specijalistički ispit i traženi radni staž",
+      "Isključivo visoku stručnu spremu",
+      "Uslove koje odredi glavni kantonalni inspektor"
+    ],
+    "correct": [1],
+    "explanation": "Član 31. st. 1. i 2. Zakona."
+  },
+  {
+    "id": "insp-032",
+    "law": "insp",
+    "article": "Član 33",
+    "topic": "Status inspektora",
+    "type": "multi",
+    "text": "Koji su glavni kantonalni inspektori u Kantonalnoj upravi TK? (više tačnih odgovora)",
+    "options": [
+      "Glavni kantonalni inspektor za poljoprivredu, vode i šumarstvo",
+      "Glavni kantonalni inspektor rada, zaštite na radu i socijalne zaštite",
+      "Glavni kantonalni inspektor za saobraćaj i ceste te glavni kantonalni inspektor za veterinarstvo",
+      "Glavni kantonalni inspektor za finansije i poreze"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 33. tačke a)–h) Zakona (ukupno osam glavnih kantonalnih inspektora)."
+  },
+  {
+    "id": "insp-033",
+    "law": "insp",
+    "article": "Član 33",
+    "topic": "Status inspektora",
+    "type": "single",
+    "text": "Koliko glavnih kantonalnih inspektora predviđa član 33. Zakona?",
+    "options": ["Šest", "Sedam", "Osam", "Deset"],
+    "correct": [2],
+    "explanation": "Član 33. tačke a)–h) — osam glavnih kantonalnih inspektora."
+  },
+  {
+    "id": "insp-034",
+    "law": "insp",
+    "article": "Član 35",
+    "topic": "Status inspektora",
+    "type": "single",
+    "text": "Kakva je obaveza kantonalnog inspektora u pogledu stručnog obrazovanja?",
+    "options": [
+      "Nema posebnu obavezu",
+      "Obavezan je neprestano se stručno obrazovati i usavršavati u skladu sa programom stručne obuke koji donosi direktor Kantonalne uprave",
+      "Obavezan je jednom godišnje položiti ispit",
+      "Obavezan je pohađati obuku samo pri zaposlenju"
+    ],
+    "correct": [1],
+    "explanation": "Član 35. Zakona."
+  },
+  {
+    "id": "insp-035",
+    "law": "insp",
+    "article": "Član 36",
+    "topic": "Ograničenja inspektora",
+    "type": "open",
+    "text": "Koja ograničenja u obavljanju drugih poslova važe za kantonalnog inspektora?",
+    "answer": "Ne može obavljati privredne, trgovačke ili druge djelatnosti i poslove za sebe ili drugog poslodavca iz oblasti i na području na kojem vrši inspekcijski nadzor, niti učestvovati u radu stručnih komisija i tijela organa uprave koja daju dozvole, mišljenja ili druge akte za izdavanje dozvola za djelatnosti koje podliježu tom nadzoru. Zabrana se ne odnosi na naučni i istraživački rad te poslove edukacije i obrazovanja. Dopunsku djelatnost može obavljati u skladu s posebnom uredbom, uz pismenu saglasnost direktora u kojoj se navodi period važenja.",
+    "keywords": ["ne može obavljati djelatnost iz oblasti nadzora", "ne učestvuje u komisijama koje daju dozvole", "izuzetak naučni i istraživački rad", "dopunska djelatnost uz saglasnost direktora"],
+    "explanation": "Član 36. Zakona."
+  },
+  {
+    "id": "insp-036",
+    "law": "insp",
+    "article": "Član 37",
+    "topic": "Status inspektora",
+    "type": "single",
+    "text": "Za koliki procenat se uvećava osnovna plata direktora, glavnog kantonalnog inspektora i kantonalnog inspektora?",
+    "options": ["10%", "20%", "30%", "40%"],
+    "correct": [2],
+    "explanation": "Član 37. — dodatak za obavljanje poslova sa posebnim ovlašćenjima i uslovima rada."
+  },
+  {
+    "id": "insp-037",
+    "law": "insp",
+    "article": "Član 38",
+    "topic": "Čuvanje tajne",
+    "type": "single",
+    "text": "Koliko dugo traje dužnost kantonalnog inspektora da čuva službenu i drugu tajnu?",
+    "options": [
+      "Do okončanja inspekcijskog postupka",
+      "I nakon prestanka obavljanja dužnosti kantonalnog inspektora",
+      "Pet godina od saznanja",
+      "Do pravosnažnosti rješenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 38. stav 3.; obaveza obuhvata i tajnost prijave, dokumentacije, dokaza i podataka."
+  },
+  {
+    "id": "insp-038",
+    "law": "insp",
+    "article": "Član 39",
+    "topic": "Status inspektora",
+    "type": "single",
+    "text": "Ko izdaje iskaznicu i značku kantonalnom inspektoru?",
+    "options": ["Vlada Kantona", "Direktor Kantonalne uprave", "Glavni kantonalni inspektor", "Nadležno ministarstvo"],
+    "correct": [1],
+    "explanation": "Član 39. stav 2.; izgled i oblik značke propisuje se pravilnikom direktora."
+  },
+  {
+    "id": "insp-039",
+    "law": "insp",
+    "article": "Član 40",
+    "topic": "Inspekcije",
+    "type": "multi",
+    "text": "Koje od navedenih inspekcija ulaze u sastav Kantonalne uprave TK? (više tačnih odgovora)",
+    "options": [
+      "Urbanističko-građevinska inspekcija i inspekcija zaštite okolice",
+      "Tržišno-turističko-ugostiteljska inspekcija i inspekcija za ceste",
+      "Sanitarna, zdravstvena, farmaceutska inspekcija i inspekcija za hranu",
+      "Poreska inspekcija"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 40. Zakona; poreski nadzor nije u nadležnosti Kantonalne uprave za inspekcijske poslove."
+  },
+  {
+    "id": "insp-040",
+    "law": "insp",
+    "article": "Član 11 i 15",
+    "topic": "Preventivno djelovanje",
+    "type": "single",
+    "text": "Zbog čega inspektor preduzima preventivne mjere i radnje?",
+    "options": [
+      "Radi bržeg okončanja postupka",
+      "Radi sprečavanja povrede propisa, sprečavanja nastajanja štetnih posljedica i otklanjanja uzroka koji bi doveli do štetnih posljedica, u cilju zaštite javnog i privatnog interesa",
+      "Radi smanjenja broja žalbi",
+      "Radi ispunjenja mjesečnog plana"
+    ],
+    "correct": [1],
+    "explanation": "Čl. 11. i 15. Zakona."
+  },
+  {
+    "id": "insp-041",
+    "law": "insp",
+    "article": "Član 7",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Koji propisi se shodno primjenjuju na radno-pravni status kantonalnih inspektora?",
+    "options": [
+      "Zakon o radu FBiH",
+      "Zakoni i drugi propisi koji važe za zaposlene u organima uprave u Kantonu, osim u pitanjima koja su ovim zakonom drugačije regulisana",
+      "Isključivo ovaj zakon",
+      "Kolektivni ugovor za privredu"
+    ],
+    "correct": [1],
+    "explanation": "Član 7. Zakona."
+  },
+  {
+    "id": "insp-042",
+    "law": "insp",
+    "article": "Član 26",
+    "topic": "Planiranje i izvještavanje",
+    "type": "single",
+    "text": "Ko utvrđuje normative (broj inspekcijskih nadzora u određenom periodu) za vršenje inspekcijskog nadzora?",
+    "options": [
+      "Vlada Kantona",
+      "Direktor Kantonalne uprave u saradnji sa glavnim kantonalnim inspektorom",
+      "Glavni kantonalni inspektor samostalno",
+      "Skupština Kantona"
+    ],
+    "correct": [1],
+    "explanation": "Član 26. Zakona."
+  },
+  {
+    "id": "insp-043",
+    "law": "insp",
+    "article": "Član 25",
+    "topic": "Planiranje i izvještavanje",
+    "type": "single",
+    "text": "Kome kantonalni inspektor dostavlja mjesečni i godišnji izvještaj o svom radu?",
+    "options": ["Direktoru Kantonalne uprave", "Glavnom kantonalnom inspektoru", "Nadležnom ministarstvu", "Vladi Kantona"],
+    "correct": [1],
+    "explanation": "Član 25. stav 1.; sadržaj izvještaja određuje direktor Kantonalne uprave."
+  },
+  {
+    "id": "insp-044",
+    "law": "insp",
+    "article": "Član 28",
+    "topic": "Evidencije",
+    "type": "single",
+    "text": "Ko vodi evidenciju o inspekcijskom nadzoru?",
+    "options": [
+      "Samo Kantonalna uprava",
+      "Kantonalna uprava za sve inspekcije u svom sastavu, a evidenciju o nadzorima i preduzetim mjerama vodi i svaki kantonalni inspektor",
+      "Samo svaki inspektor pojedinačno",
+      "Nadležno ministarstvo"
+    ],
+    "correct": [1],
+    "explanation": "Član 28. st. 1. i 2.; direktor donosi Pravilnik o elektronskom vođenju evidencije."
+  },
+  {
+    "id": "insp-045",
+    "law": "insp",
+    "article": "Član 14",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Kojim aktom se propisuje inspekcijski nadzor i nalaganje upravnih i drugih mjera i radnji?",
+    "options": ["Pravilnikom direktora", "Zakonom", "Odlukom Vlade Kantona", "Uredbom"],
+    "correct": [1],
+    "explanation": "Član 14. Zakona."
+  }
+]

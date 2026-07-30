@@ -1,0 +1,677 @@
+[
+  {
+    "id": "zup-056",
+    "law": "zup",
+    "article": "Član 57",
+    "topic": "Stranka i zastupanje",
+    "type": "single",
+    "text": "Ko može biti punomoćnik u upravnom postupku?",
+    "options": [
+      "Samo advokat",
+      "Svaka potpuno poslovno sposobna osoba, osim osobe koja se bavi nadripisarstvom",
+      "Samo srodnik stranke",
+      "Svaka punoljetna osoba, bez izuzetka"
+    ],
+    "correct": [1],
+    "explanation": "Član 57. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-057",
+    "law": "zup",
+    "article": "Član 57",
+    "topic": "Stranka i zastupanje",
+    "type": "single",
+    "text": "Ako se kao punomoćnik pojavi osoba koja se bavi nadripisarstvom, organ će:",
+    "options": [
+      "Obustaviti postupak",
+      "Zaključkom uskratiti daljnje zastupanje i odmah obavijestiti stranku",
+      "Prihvatiti zastupanje uz upozorenje",
+      "Kazniti stranku novčanom kaznom"
+    ],
+    "correct": [1],
+    "explanation": "Član 57. stav 2. — protiv zaključka je dopuštena posebna žalba koja ne odgađa izvršenje."
+  },
+  {
+    "id": "zup-058",
+    "law": "zup",
+    "article": "Član 58",
+    "topic": "Stranka i zastupanje",
+    "type": "single",
+    "text": "Kad se punomoć izdaje osobi koja nije advokat, a stranka nije pismena ili se ne može potpisati:",
+    "options": [
+      "Punomoć nije valjana",
+      "Umjesto potpisa stavlja se otisak prsta, uz prisustvo dvojice svjedoka koji se potpisuju na punomoć",
+      "Punomoć mora ovjeriti notar",
+      "Dovoljan je potpis jednog svjedoka"
+    ],
+    "correct": [1],
+    "explanation": "Član 58. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-059",
+    "law": "zup",
+    "article": "Član 60",
+    "topic": "Stranka i zastupanje",
+    "type": "single",
+    "text": "Šta se dešava sa punomoći u slučaju smrti stranke?",
+    "options": [
+      "Punomoć automatski prestaje",
+      "Punomoć ne prestaje, ali je pravni sljedbenik stranke može opozvati",
+      "Punomoć se produžava za godinu dana",
+      "Punomoć prelazi na organ koji vodi postupak"
+    ],
+    "correct": [1],
+    "explanation": "Član 60. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-060",
+    "law": "zup",
+    "article": "Član 62",
+    "topic": "Stranka i zastupanje",
+    "type": "single",
+    "text": "Stručni pomagač u upravnom postupku:",
+    "options": [
+      "Zastupa stranku u punom obimu",
+      "Daje stranci obavještenja i savjete, ali je ne zastupa",
+      "Ima ovlaštenja kao vještak",
+      "Donosi rješenje umjesto službene osobe"
+    ],
+    "correct": [1],
+    "explanation": "Član 62. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-061",
+    "law": "zup",
+    "article": "Član 63",
+    "topic": "Podnesci",
+    "type": "open",
+    "text": "Šta se sve podrazumijeva pod podnescima i na koje se sve načine podnesci mogu predati?",
+    "answer": "Podnesci su zahtjevi, obrasci za automatsku obradu podataka, prijedlozi, prijave, molbe, žalbe, prigovori i druga priopćenja kojima se pojedinci ili pravna lica obraćaju organima. Predaju se neposredno ili poštom pismeno, u formi elektronske isprave, usmeno na zapisnik kod organa, a mogu se izjavljivati i faksom ili telegrafski; kratka i hitna priopćenja mogu se dati i telefonski.",
+    "keywords": ["zahtjevi prijedlozi molbe žalbe prigovori", "neposredno ili poštom", "elektronska isprava", "usmeno na zapisnik", "telefonski kratka i hitna"],
+    "explanation": "Član 63. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-062",
+    "law": "zup",
+    "article": "Član 64",
+    "topic": "Podnesci",
+    "type": "single",
+    "text": "Kada se podnesak dostavljen elektronskim putem smatra dostavljenim?",
+    "options": [
+      "U trenutku slanja",
+      "U trenutku kad je organ stranci poslao potvrdu o prijemu podneska",
+      "Prvog narednog radnog dana",
+      "Kad ga službena osoba otvori"
+    ],
+    "correct": [1],
+    "explanation": "Član 64. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-063",
+    "law": "zup",
+    "article": "Član 64",
+    "topic": "Podnesci",
+    "type": "single",
+    "text": "Elektronski podnesci mogu se predati:",
+    "options": [
+      "Samo u toku radnog vremena organa",
+      "Svakog dana u toku 24 sata, a blagovremeni su ako su do isteka roka primljeni u sistem za prijem",
+      "Samo radnim danima od 8 do 16 sati",
+      "Samo uz prethodnu najavu organu"
+    ],
+    "correct": [1],
+    "explanation": "Član 64. stav 6. ZUP-a."
+  },
+  {
+    "id": "zup-064",
+    "law": "zup",
+    "article": "Član 65",
+    "topic": "Podnesci",
+    "type": "single",
+    "text": "Ako organ nije nadležan za prijem podneska, a podnosilac i pored upozorenja zahtijeva da se podnesak primi, službena osoba:",
+    "options": [
+      "Mora odbiti prijem",
+      "Dužna je primiti podnesak; ako organ utvrdi da nije nadležan, donijet će zaključak o odbacivanju zbog nenadležnosti i odmah ga dostaviti stranci",
+      "Poziva policiju",
+      "Podnesak vraća bez ikakvog akta"
+    ],
+    "correct": [1],
+    "explanation": "Član 65. stav 3. — protiv tog zaključka dopuštena je posebna žalba (stav 5.)."
+  },
+  {
+    "id": "zup-065",
+    "law": "zup",
+    "article": "Član 65",
+    "topic": "Podnesci",
+    "type": "single",
+    "text": "Da li se za potvrdu o prijemu podneska plaća taksa?",
+    "options": ["Da, prema tarifi", "Ne plaća se taksa", "Plaća se samo za elektronske podneske", "Plaća se samo pravnim licima"],
+    "correct": [1],
+    "explanation": "Član 65. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-066",
+    "law": "zup",
+    "article": "Član 66",
+    "topic": "Podnesci",
+    "type": "multi",
+    "text": "Šta podnesak naročito treba da sadrži? (više tačnih odgovora)",
+    "options": [
+      "Označenje organa kome se upućuje",
+      "Predmet na koji se odnosi zahtjev odnosno prijedlog",
+      "Ime i prezime i boravište (adresu) podnosioca, odnosno zastupnika ili punomoćnika",
+      "Obavezno mišljenje vještaka"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 66. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-067",
+    "law": "zup",
+    "article": "Član 67",
+    "topic": "Podnesci",
+    "type": "open",
+    "text": "Kako organ postupa s podneskom koji je nerazumljiv, nepotpun ili ima formalni nedostatak?",
+    "answer": "Podnesak se samo zbog toga ne može odbaciti. Organ je dužan poduzeti radnje da se nedostaci otklone i odrediti podnosiocu rok za to (uz upozorenje na posljedice). Ako podnosilac otkloni nedostatke u roku, smatra se da je podnesak od početka bio uredan; ako ih ne otkloni pa se ne može postupati, smatrat će se da podnesak nije ni podnesen, o čemu se donosi zaključak protiv kojeg je dopuštena posebna žalba.",
+    "keywords": ["ne može se odbaciti", "ostaviti rok za ispravku", "od početka uredan", "smatra se da nije podnesen", "zaključak posebna žalba"],
+    "explanation": "Član 67. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-068",
+    "law": "zup",
+    "article": "Član 69",
+    "topic": "Pozivanje",
+    "type": "single",
+    "text": "Pozivanje u upravnom postupku se, po pravilu, vrši:",
+    "options": ["Telefonom", "Pismenim putem, ako posebnim propisima nije predviđen drugi način", "Putem oglasne table", "Usmeno preko dostavljača"],
+    "correct": [1],
+    "explanation": "Član 69. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-069",
+    "law": "zup",
+    "article": "Član 71",
+    "topic": "Pozivanje",
+    "type": "single",
+    "text": "Može li neko biti pozvan da dođe u toku noći?",
+    "options": [
+      "Može, bez ograničenja",
+      "Niko ne može biti pozvan noću, osim izuzetno ako je to predviđeno posebnim propisima i radi se o hitnim i neodgodivim mjerama",
+      "Može, uz saglasnost pozvanog",
+      "Može samo ako je stranka"
+    ],
+    "correct": [1],
+    "explanation": "Član 71. stav 2. ZUP-a; u pozivu moraju biti navedene mjere i propis na osnovu kojeg se poziva."
+  },
+  {
+    "id": "zup-070",
+    "law": "zup",
+    "article": "Član 72",
+    "topic": "Pozivanje",
+    "type": "single",
+    "text": "Šta je dužna učiniti pozvana osoba koja je zbog bolesti ili drugog opravdanog razloga spriječena da dođe?",
+    "options": [
+      "Ništa, dovoljno je da ne dođe",
+      "Odmah po prijemu poziva izvijestiti organ koji je izdao poziv, a ako je razlog nastao kasnije — odmah po saznanju",
+      "Poslati punomoćnika bez najave",
+      "Dostaviti ljekarsko uvjerenje u roku od 30 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 72. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-071",
+    "law": "zup",
+    "article": "Član 72",
+    "topic": "Pozivanje",
+    "type": "single",
+    "text": "Koje mjere se mogu primijeniti prema osobi kojoj je poziv lično dostavljen, a koja se ne odazove i izostanak ne opravda?",
+    "options": [
+      "Samo pisano upozorenje",
+      "Privođenje (ako je prisustvo potrebno) i novčana kazna, te snošenje nastalih troškova — ali samo ako je to bilo naznačeno u pozivu",
+      "Pokretanje krivičnog postupka",
+      "Automatsko odbijanje zahtjeva stranke"
+    ],
+    "correct": [1],
+    "explanation": "Član 72. stav 3. — protiv zaključka o privođenju, kazni ili troškovima dopuštena je posebna žalba."
+  },
+  {
+    "id": "zup-072",
+    "law": "zup",
+    "article": "Član 73",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "O čemu se obavezno sastavlja zapisnik?",
+    "options": [
+      "O svakoj radnji u postupku bez izuzetka",
+      "O usmenoj raspravi ili drugoj važnijoj radnji u postupku i o važnijim usmenim izjavama stranaka ili trećih osoba",
+      "Samo o donošenju rješenja",
+      "Samo o izvođenju dokaza vještačenjem"
+    ],
+    "correct": [1],
+    "explanation": "Član 73. stav 1.; o manje važnim radnjama sastavlja se službena zabilješka u spisu."
+  },
+  {
+    "id": "zup-073",
+    "law": "zup",
+    "article": "Član 75",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "Šta vrijedi za ispravke u zapisniku?",
+    "options": [
+      "U zapisniku se smije brisati uz parafiranje",
+      "Ništa se ne smije brisati; precrtana mjesta moraju ostati čitljiva i ovjerava ih službena osoba, a u već potpisanom zapisniku ništa se ne smije dodavati ni mijenjati",
+      "Ispravke unosi zapisničar samostalno",
+      "Zapisnik se može prepisati bez naznake"
+    ],
+    "correct": [1],
+    "explanation": "Član 75. st. 1. i 2. — dopuna zaključenog zapisnika unosi se u dodatak zapisnika."
+  },
+  {
+    "id": "zup-074",
+    "law": "zup",
+    "article": "Član 77",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "Kakav pravni značaj ima uredno sastavljen zapisnik?",
+    "options": [
+      "Nema dokazni značaj",
+      "Javna je isprava i dokaz o toku i sadržini radnje postupka i datih izjava, ali je dozvoljeno dokazivati njegovu netačnost",
+      "Neoboriv je dokaz",
+      "Ima značaj samo ako ga potpiše stranka"
+    ],
+    "correct": [1],
+    "explanation": "Član 77. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-075",
+    "law": "zup",
+    "article": "Član 78",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "Kad u postupku u vezi sa žalbom kolegijalni organ odluči jednoglasno:",
+    "options": [
+      "Uvijek se mora sastaviti zapisnik o vijećanju i glasanju",
+      "Ne mora se sastavljati zapisnik o vijećanju i glasanju, već se može sastaviti službena zabilješka u spisu",
+      "Ne sastavlja se nikakav akt",
+      "Odluka se ne unosi u spis"
+    ],
+    "correct": [1],
+    "explanation": "Član 78. stav 1. — zabilješku ovjerava potpisom osoba koja predsjedava kolegijalnim organom."
+  },
+  {
+    "id": "zup-076",
+    "law": "zup",
+    "article": "Član 79",
+    "topic": "Razgledanje spisa",
+    "type": "multi",
+    "text": "Šta se ne može razgledati ni prepisivati? (više tačnih odgovora)",
+    "options": [
+      "Zapisnik o vijećanju i glasanju",
+      "Službeni referati i nacrti rješenja",
+      "Spisi koji se vode kao povjerljivi, ako bi se time mogla osujetiti svrha postupka ili se to protivi javnom interesu",
+      "Zapisnik o usmenoj raspravi"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 79. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-077",
+    "law": "zup",
+    "article": "Član 79",
+    "topic": "Razgledanje spisa",
+    "type": "single",
+    "text": "Ko, osim stranke, ima pravo razgledati spise i o svom trošku prepisati pojedine spise?",
+    "options": [
+      "Niko drugi",
+      "Ombudsmen i svaka druga osoba koja učini vjerovatnim svoj pravni interes, kao i društvena organizacija i udruženje građana ako postoji opravdan interes",
+      "Samo advokat stranke",
+      "Samo drugostepeni organ"
+    ],
+    "correct": [1],
+    "explanation": "Član 79. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-078",
+    "law": "zup",
+    "article": "Član 81",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Kada se, po pravilu, vrši dostavljanje pismena?",
+    "options": [
+      "Bilo kada, 24 sata dnevno",
+      "Samo radnim danom i to danju; izuzetno iz osobito važnih razloga i u neradni dan ili praznik",
+      "Samo nedjeljom",
+      "Samo u prijepodnevnim satima radnim danom"
+    ],
+    "correct": [1],
+    "explanation": "Član 81. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-079",
+    "law": "zup",
+    "article": "Član 83",
+    "topic": "Dostavljanje",
+    "type": "open",
+    "text": "Kada se dostavljanje mora izvršiti lično (obavezno osobno dostavljanje)?",
+    "answer": "Kad je takvo dostavljanje određeno ZUP-om ili drugim propisom, kad od dana dostavljanja počinje teći rok koji se po zakonu ne može produžavati, ili kad to odredi organ koji je naredio dostavljanje. Smatra se da je lično dostavljanje advokatu izvršeno i predajom pismena osobi zaposlenoj u advokatskom uredu.",
+    "keywords": ["određeno zakonom ili propisom", "rok koji se ne može produžavati", "kad odredi organ", "advokatski ured"],
+    "explanation": "Član 83. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-080",
+    "law": "zup",
+    "article": "Član 84",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Kod posrednog dostavljanja, kome se pismeno može predati ako se osoba ne zatekne u stanu?",
+    "options": [
+      "Bilo kome ko se zatekne pred zgradom",
+      "Nekom od odraslih članova domaćinstva, a ako se ni oni ne zateknu — susjedu, ako on na to pristane",
+      "Isključivo policijskom službeniku",
+      "Nikome, dostava se odgađa"
+    ],
+    "correct": [1],
+    "explanation": "Član 84. stav 1.; dostavljanje se ne može izvršiti osobi koja u istom postupku učestvuje sa suprotnim interesom (stav 3.)."
+  },
+  {
+    "id": "zup-081",
+    "law": "zup",
+    "article": "Član 86",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Kod dostavljanja pribijanjem saopćenja na vrata stana, dostavljanje se smatra izvršenim:",
+    "options": [
+      "Nakon 8 dana",
+      "Kad je saopćenje pribijeno na vrata, s tim da naknadno oštećenje ili uništenje saopćenja ne utiče na valjanost dostavljanja",
+      "Kad stranka stvarno preuzme pismeno",
+      "Nakon 15 dana od pribijanja"
+    ],
+    "correct": [1],
+    "explanation": "Član 86. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-082",
+    "law": "zup",
+    "article": "Član 92",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Kod dostavljanja javnim priopćenjem na oglasnoj tabli, dostavljanje se smatra izvršenim:",
+    "options": [
+      "Odmah po isticanju",
+      "Poslije isteka 15 dana od dana isticanja priopćenja, ako organ ne odredi duži rok",
+      "Poslije isteka 8 dana",
+      "Poslije isteka 30 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 92. ZUP-a."
+  },
+  {
+    "id": "zup-083",
+    "law": "zup",
+    "article": "Član 93",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Ako primalac bez zakonskog razloga odbije da primi pismeno:",
+    "options": [
+      "Dostavljanje se odgađa za sedam dana",
+      "Dostavljač će pismeno ostaviti u stanu ili na radnom mjestu ili ga pribiti na vrata, zabilježiti datum, sat i razlog odbijanja — i smatra se da je dostavljanje izvršeno",
+      "Pismeno se vraća organu i dostava se ponavlja",
+      "Pokreće se prekršajni postupak"
+    ],
+    "correct": [1],
+    "explanation": "Član 93. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-084",
+    "law": "zup",
+    "article": "Član 94",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Ako stranka u toku postupka promijeni prebivalište i o tome ne obavijesti organ, a dostavljač ne može saznati kuda se odselila:",
+    "options": [
+      "Postupak se obustavlja",
+      "Sva daljnja dostavljanja vrše se pribijanjem pismena na oglasnoj tabli organa, a dostavljanje se smatra izvršenim po isteku 15 dana",
+      "Postavlja se privremeni zastupnik",
+      "Rokovi prestaju teći"
+    ],
+    "correct": [1],
+    "explanation": "Član 94. st. 2. i 3. ZUP-a."
+  },
+  {
+    "id": "zup-085",
+    "law": "zup",
+    "article": "Član 95",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Šta predstavlja dokaz o izvršenom dostavljanju pismena?",
+    "options": ["Službena zabilješka", "Potvrda o dostavljanju (dostavnica)", "Izjava dostavljača", "Zapisnik o dostavi"],
+    "correct": [1],
+    "explanation": "Član 95. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-086",
+    "law": "zup",
+    "article": "Član 96",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Ako je pri dostavljanju učinjena greška u pogledu datuma ili osobe kojoj je pismeno predato, smatrat će se da je dostavljanje izvršeno:",
+    "options": [
+      "Datumom naznačenim na dostavnici",
+      "Onog datuma za koji se u postupku utvrdi da je osoba kojoj je pismeno namijenjeno stvarno dobila pismeno",
+      "Datumom otpreme pismena",
+      "Dostavljanje se smatra nevažećim"
+    ],
+    "correct": [1],
+    "explanation": "Član 96. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-087",
+    "law": "zup",
+    "article": "Član 88",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Punomoćnik za primanje pismena dužan je:",
+    "options": [
+      "Čuvati akt do kraja postupka",
+      "Svaki akt bez odgađanja poslati stranci",
+      "Odgovarati na akte umjesto stranke",
+      "Vratiti akt organu ako se stranka ne javi"
+    ],
+    "correct": [1],
+    "explanation": "Član 88. stav 2.; dostavljanjem njemu smatra se da je dostavljanje izvršeno stranci (stav 5.)."
+  },
+  {
+    "id": "zup-088",
+    "law": "zup",
+    "article": "Član 91",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Osobama koje su lišene slobode dostavljanje pismena se vrši:",
+    "options": ["Preko punomoćnika", "Preko uprave ustanove u kojoj se nalaze", "Putem oglasne table", "Preko organa unutrašnjih poslova"],
+    "correct": [1],
+    "explanation": "Član 91. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-089",
+    "law": "zup",
+    "article": "Član 97",
+    "topic": "Rokovi",
+    "type": "single",
+    "text": "Ko određuje rok za poduzimanje radnje ako on nije određen zakonom ili drugim propisom?",
+    "options": [
+      "Stranka",
+      "Službena osoba koja vodi postupak, s obzirom na okolnosti slučaja",
+      "Rukovodilac organa isključivo",
+      "Drugostepeni organ"
+    ],
+    "correct": [1],
+    "explanation": "Član 97. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-090",
+    "law": "zup",
+    "article": "Član 97",
+    "topic": "Rokovi",
+    "type": "single",
+    "text": "Do kada se može podnijeti molba za produženje roka koji je odredila službena osoba?",
+    "options": [
+      "Samo prije isteka roka",
+      "Prije isteka roka ili tri dana po isteku roka, ako postoje opravdani razlozi",
+      "U roku od osam dana po isteku roka",
+      "Bilo kada do donošenja rješenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 97. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-091",
+    "law": "zup",
+    "article": "Član 98",
+    "topic": "Rokovi",
+    "type": "open",
+    "text": "Kako se računa rok određen po danima, a kako rok određen po mjesecima ili godinama?",
+    "answer": "Kod roka po danima, dan u koji je izvršeno dostavljanje ili u koji pada događaj od kojeg se računa rok ne uračunava se u rok — početak roka je prvi naredni dan. Rok određen po mjesecima ili godinama završava se istekom onog dana koji po svom broju odgovara danu dostavljanja odnosno danu događaja; ako tog dana nema u posljednjem mjesecu, rok ističe posljednjeg dana tog mjeseca.",
+    "keywords": ["prvi naredni dan", "ne uračunava se dan dostavljanja", "isti broj dana u mjesecu", "posljednji dan mjeseca"],
+    "explanation": "Član 98. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-092",
+    "law": "zup",
+    "article": "Član 99",
+    "topic": "Rokovi",
+    "type": "single",
+    "text": "Ako posljednji dan roka pada u nedjelju ili na dan državnog praznika:",
+    "options": [
+      "Rok ističe tog dana",
+      "Rok ističe istekom prvog narednog radnog dana",
+      "Rok se produžava za sedam dana",
+      "Rok prestaje teći"
+    ],
+    "correct": [1],
+    "explanation": "Član 99. stav 2.; nedjeljni dani i praznici ne sprečavaju početak i tok rokova (stav 1.)."
+  },
+  {
+    "id": "zup-093",
+    "law": "zup",
+    "article": "Član 100",
+    "topic": "Rokovi",
+    "type": "single",
+    "text": "Kad je podnesak upućen poštom preporučeno, danom predaje organu smatra se:",
+    "options": ["Dan prijema u organu", "Dan predaje pošti", "Dan otpreme iz pošiljaočevog mjesta", "Prvi radni dan nakon predaje"],
+    "correct": [1],
+    "explanation": "Član 100. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-094",
+    "law": "zup",
+    "article": "Član 100",
+    "topic": "Rokovi",
+    "type": "single",
+    "text": "Za osobe lišene slobode danom predaje podneska organu smatra se:",
+    "options": [
+      "Dan kad podnesak stigne organu",
+      "Dan predaje podneska upravi ustanove u kojoj se osoba nalazi",
+      "Dan kad podnesak potpiše punomoćnik",
+      "Dan otpuštanja iz ustanove"
+    ],
+    "correct": [1],
+    "explanation": "Član 100. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-095",
+    "law": "zup",
+    "article": "Član 90",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Ako dostavljač u toku radnog vremena ne nađe osobu određenu za primanje pismena u pravnom licu:",
+    "options": [
+      "Dostava se odgađa za naredni dan",
+      "Predaju pismena može izvršiti bilo kojoj osobi zaposlenoj u tom organu ili pravnom licu koja se zatekne u prostorijama",
+      "Pismeno se pribija na vrata",
+      "Pismeno se vraća pošiljaocu"
+    ],
+    "correct": [1],
+    "explanation": "Član 90. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-096",
+    "law": "zup",
+    "article": "Član 85",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Ako je boravište osobe kojoj se dostavljanje ima izvršiti i pored istraživanja ostalo nepoznato, organ će:",
+    "options": [
+      "Obustaviti postupak",
+      "Postaviti toj osobi privremenog zastupnika i njemu predati pismeno",
+      "Objaviti pismeno u novinama",
+      "Odgoditi dostavu do saznanja adrese"
+    ],
+    "correct": [1],
+    "explanation": "Član 85. stav 2. u vezi sa članom 54. ZUP-a."
+  },
+  {
+    "id": "zup-097",
+    "law": "zup",
+    "article": "Član 82",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Gdje se, po pravilu, vrši dostavljanje pismena?",
+    "options": [
+      "Isključivo u prostorijama organa",
+      "U stanu ili na radnom mjestu gdje je zaposlena osoba kojoj se dostavlja, a advokatu u njegovom advokatskom uredu",
+      "Na oglasnoj tabli organa",
+      "Preko mjesne zajednice"
+    ],
+    "correct": [1],
+    "explanation": "Član 82. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-098",
+    "law": "zup",
+    "article": "Član 68",
+    "topic": "Podnesci",
+    "type": "single",
+    "text": "Ako podnesak sadrži više zahtjeva koji se moraju rješavati odvojeno, organ će:",
+    "options": [
+      "Odbaciti cijeli podnesak",
+      "Uzeti u rješavanje zahtjeve za koje je nadležan, a s ostalima postupiti po članu 65. stav 4. (proslijediti nadležnom organu ili odbaciti zbog nenadležnosti)",
+      "Vratiti podnesak stranci na ispravku",
+      "Riješiti sve zahtjeve bez obzira na nadležnost"
+    ],
+    "correct": [1],
+    "explanation": "Član 68. ZUP-a."
+  },
+  {
+    "id": "zup-099",
+    "law": "zup",
+    "article": "Član 76",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "Ako neka osoba neće da potpiše zapisnik ili se udalji prije zaključenja zapisnika:",
+    "options": [
+      "Zapisnik je ništav",
+      "To će se upisati u zapisnik uz navođenje razloga zbog kojeg je potpis uskraćen",
+      "Radnja se mora ponoviti",
+      "Zapisnik potpisuje stranka sa suprotnim interesom"
+    ],
+    "correct": [1],
+    "explanation": "Član 76. stav 7. ZUP-a."
+  },
+  {
+    "id": "zup-100",
+    "law": "zup",
+    "article": "Član 80",
+    "topic": "Dostavljanje",
+    "type": "single",
+    "text": "Na koje se sve načine vrši dostavljanje pismena?",
+    "options": [
+      "Isključivo preko pošte",
+      "Preko pošte, elektronskim putem ili preko službene osobe organa",
+      "Isključivo preko službene osobe organa",
+      "Isključivo putem oglasne table"
+    ],
+    "correct": [1],
+    "explanation": "Član 80. stav 2. ZUP-a."
+  }
+]

@@ -1,0 +1,757 @@
+[
+  {
+    "id": "zup-201",
+    "law": "zup",
+    "article": "Član 217",
+    "topic": "Ispravljanje grešaka",
+    "type": "single",
+    "text": "Greške u imenima ili brojevima, pisanju ili računanju i druge očigledne netačnosti u rješenju:",
+    "options": [
+      "Ispravljaju se samo u žalbenom postupku",
+      "Može ih u svako vrijeme ispraviti organ koji je donio rješenje, odnosno službena osoba koja ga je potpisala ili izdala",
+      "Ne mogu se ispravljati",
+      "Ispravlja ih drugostepeni organ po službenoj dužnosti"
+    ],
+    "correct": [1],
+    "explanation": "Član 217. stav 1.; o ispravci se donosi poseban zaključak koji čini sastavni dio izvornika rješenja."
+  },
+  {
+    "id": "zup-202",
+    "law": "zup",
+    "article": "Član 217",
+    "topic": "Ispravljanje grešaka",
+    "type": "single",
+    "text": "Od kada ispravka greške proizvodi pravni učinak?",
+    "options": [
+      "Od dana donošenja zaključka o ispravci",
+      "Od dana od kojeg proizvodi pravni učinak rješenje koje se ispravlja",
+      "Od dana pravosnažnosti rješenja",
+      "Ispravka nema pravni učinak"
+    ],
+    "correct": [1],
+    "explanation": "Član 217. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-203",
+    "law": "zup",
+    "article": "Član 218",
+    "topic": "Zaključak",
+    "type": "single",
+    "text": "O čemu se odlučuje zaključkom?",
+    "options": [
+      "O glavnoj upravnoj stvari",
+      "O pitanjima koja se tiču postupka i o drugim pitanjima u vezi s provođenjem postupka koja se ne rješavaju rješenjem",
+      "Samo o troškovima postupka",
+      "Samo o žalbi"
+    ],
+    "correct": [1],
+    "explanation": "Član 218. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-204",
+    "law": "zup",
+    "article": "Član 219",
+    "topic": "Zaključak",
+    "type": "single",
+    "text": "Kada se zaključak izdaje napismeno?",
+    "options": [
+      "Uvijek",
+      "Kada se protiv njega može izjaviti posebna žalba ili kad se može odmah tražiti njegovo izvršenje",
+      "Nikada, uvijek se priopćava usmeno",
+      "Samo na zahtjev stranke"
+    ],
+    "correct": [1],
+    "explanation": "Član 219. stav 3.; pismeni zaključak sadrži uvod, dispozitiv, obrazloženje i pouku o pravnom lijeku (stav 4.)."
+  },
+  {
+    "id": "zup-205",
+    "law": "zup",
+    "article": "Član 220",
+    "topic": "Zaključak",
+    "type": "single",
+    "text": "Kada se protiv zaključka može izjaviti posebna žalba?",
+    "options": [
+      "Uvijek",
+      "Samo kad je to ZUP-om ili drugim zakonom izričito predviđeno",
+      "Nikada",
+      "Samo ako ga je donio drugostepeni organ"
+    ],
+    "correct": [1],
+    "explanation": "Član 220. stav 1.; zaključci protiv kojih nije dopuštena posebna žalba pobijaju se žalbom protiv rješenja (stav 3.)."
+  },
+  {
+    "id": "zup-206",
+    "law": "zup",
+    "article": "Član 220",
+    "topic": "Zaključak",
+    "type": "single",
+    "text": "Da li žalba odgađa izvršenje zaključka?",
+    "options": [
+      "Uvijek odgađa",
+      "Ne odgađa, osim ako je zakonom ili samim zaključkom drugačije određeno",
+      "Odgađa samo u prvom stepenu",
+      "Odgađa samo ako to traži stranka"
+    ],
+    "correct": [1],
+    "explanation": "Član 220. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-207",
+    "law": "zup",
+    "article": "Član 221",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Ko, osim stranke, može izjaviti žalbu protiv rješenja kojim je povrijeđen zakon u korist pojedinca ili pravnog lica a na štetu javnog interesa?",
+    "options": [
+      "Bilo koji građanin",
+      "Tužilac, pravobranilac i drugi organi kad su zakonom ovlašteni",
+      "Samo Ombudsmen",
+      "Niko"
+    ],
+    "correct": [1],
+    "explanation": "Član 221. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-208",
+    "law": "zup",
+    "article": "Član 222",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Protiv rješenja Vlade Federacije i vlade kantona donesenog u prvom stepenu:",
+    "options": [
+      "Žalba je uvijek dopuštena",
+      "Ne može se izjaviti žalba, ali se može neposredno pokrenuti upravni spor",
+      "Žalba se izjavljuje Parlamentu",
+      "Može se izjaviti prigovor"
+    ],
+    "correct": [1],
+    "explanation": "Član 222. st. 5. i 6. ZUP-a."
+  },
+  {
+    "id": "zup-209",
+    "law": "zup",
+    "article": "Član 222",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Šta ZUP propisuje o odnosu žalbe i upravnog spora?",
+    "options": [
+      "Žalba i upravni spor se međusobno isključuju bez izuzetka",
+      "Žalba mora biti dozvoljena protiv svih prvostepenih rješenja u kojima je zakonom isključen upravni spor",
+      "Upravni spor se uvijek vodi prije žalbe",
+      "Žalba se može isključiti bez posebnog opravdanja"
+    ],
+    "correct": [1],
+    "explanation": "Član 222. stav 7.; žalba se, po pravilu, predviđa protiv svih prvostepenih rješenja radi dvostepenosti (stav 3.)."
+  },
+  {
+    "id": "zup-210",
+    "law": "zup",
+    "article": "Član 223",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Ko rješava o žalbi protiv prvostepenih rješenja općinskih službi za upravu donesenih na osnovu kantonalnog zakona?",
+    "options": [
+      "Općinsko vijeće",
+      "Nadležni kantonalni organ iz odgovarajuće upravne oblasti, ako kantonalnim zakonom nije utvrđena nadležnost drugog organa",
+      "Federalni organ uprave",
+      "Vlada kantona"
+    ],
+    "correct": [1],
+    "explanation": "Član 223. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-211",
+    "law": "zup",
+    "article": "Član 223",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Ko rješava o žalbi protiv prvostepenih rješenja općinskih službi za upravu donesenih na osnovu federalnog zakona?",
+    "options": [
+      "Vlada kantona",
+      "Nadležni federalni organ uprave iz odgovarajuće upravne oblasti, ako federalnim zakonom nije utvrđena nadležnost drugog organa",
+      "Kantonalni organ uprave",
+      "Općinski načelnik"
+    ],
+    "correct": [1],
+    "explanation": "Član 223. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-212",
+    "law": "zup",
+    "article": "Član 224",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Ko rješava o žalbi protiv prvostepenih rješenja kantonalnih organa uprave donesenih na osnovu federalnih propisa?",
+    "options": [
+      "Vlada kantona",
+      "Nadležni federalni organ uprave odnosno federalna ustanova iz odgovarajuće upravne oblasti",
+      "Vrhovni sud Federacije",
+      "Kantonalni organ određen zakonom kantona"
+    ],
+    "correct": [1],
+    "explanation": "Član 224. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-213",
+    "law": "zup",
+    "article": "Član 227",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Koji je opći rok za izjavljivanje žalbe protiv rješenja?",
+    "options": ["8 dana", "15 dana, ako zakonom nije drugačije određeno", "30 dana", "3 dana"],
+    "correct": [1],
+    "explanation": "Član 227. stav 1.; rok se za svaku osobu računa od dana dostavljanja rješenja."
+  },
+  {
+    "id": "zup-214",
+    "law": "zup",
+    "article": "Član 228",
+    "topic": "Žalba",
+    "type": "open",
+    "text": "Kakvo je dejstvo žalbe na izvršenje rješenja i kada se rješenje ipak može izvršiti u žalbenom roku?",
+    "answer": "U toku roka za žalbu rješenje se ne može izvršiti, a kad je žalba propisno izjavljena rješenje se ne može izvršiti sve dok se rješenje doneseno o žalbi ne dostavi stranci (suspenzivno dejstvo). Izuzetno, rješenje se može izvršiti u žalbenom roku i nakon izjavljene žalbe ako je to zakonom predviđeno, ako se radi o poduzimanju hitnih mjera, ili ako bi usljed odgađanja izvršenja stranci bila nanesena nepopravljiva šteta — pri čemu se može tražiti odgovarajuće osiguranje.",
+    "keywords": ["ne može se izvršiti", "suspenzivno dejstvo", "hitne mjere", "nepopravljiva šteta", "zakonom predviđeno"],
+    "explanation": "Član 228. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-215",
+    "law": "zup",
+    "article": "Član 229",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Mora li žalba biti posebno obrazložena?",
+    "options": [
+      "Da, inače se odbacuje",
+      "Ne mora — dovoljno je da žalilac izloži u kom je pogledu nezadovoljan rješenjem, uz označenje rješenja koje se pobija",
+      "Mora, ali samo u drugom stepenu",
+      "Mora sadržavati i prijedlog novog rješenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 229. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-216",
+    "law": "zup",
+    "article": "Član 229",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Mogu li se u žalbi iznositi nove činjenice i novi dokazi?",
+    "options": [
+      "Ne mogu",
+      "Mogu, ali je žalilac dužan obrazložiti zbog čega ih nije iznio u prvostepenom postupku",
+      "Mogu samo uz saglasnost prvostepenog organa",
+      "Mogu samo ako se radi o javnim ispravama"
+    ],
+    "correct": [1],
+    "explanation": "Član 229. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-217",
+    "law": "zup",
+    "article": "Član 229",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Koliki je rok koji se ostavlja protivnoj stranci da se izjasni o novim činjenicama i dokazima iznesenim u žalbi?",
+    "options": ["Ne kraći od 8 ni duži od 15 dana", "Tačno 15 dana", "Ne kraći od 3 ni duži od 8 dana", "30 dana"],
+    "correct": [0],
+    "explanation": "Član 229. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-218",
+    "law": "zup",
+    "article": "Član 230",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Kome se predaje žalba?",
+    "options": [
+      "Drugostepenom organu",
+      "Organu koji je donio prvostepeno rješenje (neposredno ili poštom)",
+      "Nadležnom sudu",
+      "Ministarstvu pravde"
+    ],
+    "correct": [1],
+    "explanation": "Član 230. stav 1.; žalba predata neposredno drugostepenom organu u pogledu roka se smatra kao da je predata prvostepenom."
+  },
+  {
+    "id": "zup-219",
+    "law": "zup",
+    "article": "Član 231",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Šta prvostepeni organ ispituje kad primi žalbu?",
+    "options": [
+      "Osnovanost žalbenih navoda",
+      "Da li je žalba dopuštena, pravovremena i izjavljena od ovlaštene osobe",
+      "Samo da li je plaćena taksa",
+      "Da li je stranka imala punomoćnika"
+    ],
+    "correct": [1],
+    "explanation": "Član 231. stav 1.; nedopuštenu, nepravovremenu ili od neovlaštene osobe izjavljenu žalbu odbacuje rješenjem."
+  },
+  {
+    "id": "zup-220",
+    "law": "zup",
+    "article": "Član 232",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Može li prvostepeni organ sam usvojiti žalbu?",
+    "options": [
+      "Ne, uvijek je prosljeđuje drugostepenom organu",
+      "Može — ako utvrdi da je žalba opravdana, a nije potrebno provoditi novi ispitni postupak, može stvar riješiti drugačije i novim rješenjem zamijeniti pobijano rješenje",
+      "Može samo uz saglasnost drugostepenog organa",
+      "Može samo ako se stranka odrekne žalbe"
+    ],
+    "correct": [1],
+    "explanation": "Član 232. stav 1.; protiv novog rješenja stranka ima pravo žalbe."
+  },
+  {
+    "id": "zup-221",
+    "law": "zup",
+    "article": "Član 235",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "U kojem roku je prvostepeni organ dužan poslati žalbu drugostepenom organu, ako sam nije zamijenio rješenje?",
+    "options": [
+      "Bez odgađanja, a najkasnije u roku od 8 dana od dana prijema žalbe",
+      "U roku od 15 dana",
+      "U roku od 30 dana",
+      "U roku od 3 dana"
+    ],
+    "correct": [0],
+    "explanation": "Član 235. stav 1.; uz žalbu prilaže sve spise predmeta."
+  },
+  {
+    "id": "zup-222",
+    "law": "zup",
+    "article": "Član 236",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Kako drugostepeni organ može odlučiti o žalbi?",
+    "options": [
+      "Samo je odbiti ili usvojiti",
+      "Može odbiti žalbu, poništiti rješenje u cijelosti ili djelimično, ili ga izmijeniti (a nedopuštenu/nepravovremenu žalbu odbaciti)",
+      "Samo poništiti rješenje",
+      "Samo vratiti predmet na ponovni postupak"
+    ],
+    "correct": [1],
+    "explanation": "Član 236. st. 1. i 3. ZUP-a."
+  },
+  {
+    "id": "zup-223",
+    "law": "zup",
+    "article": "Član 237",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Drugostepeni organ će odbiti žalbu i kad utvrdi da je u prvostepenom postupku bilo nedostataka:",
+    "options": [
+      "Nikada",
+      "Ako su ti nedostaci takvi da nisu mogli uticati na rješenje stvari",
+      "Ako se stranka ne protivi",
+      "Samo ako je rok za žalbu istekao"
+    ],
+    "correct": [1],
+    "explanation": "Član 237. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-224",
+    "law": "zup",
+    "article": "Član 238",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Ako drugostepeni organ utvrdi da je prvostepeno rješenje donio nenadležan organ:",
+    "options": [
+      "Odbit će žalbu",
+      "Poništit će to rješenje po službenoj dužnosti i dostaviti predmet nadležnom organu na rješavanje",
+      "Sam će riješiti stvar",
+      "Vratit će predmet istom organu"
+    ],
+    "correct": [1],
+    "explanation": "Član 238. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-225",
+    "law": "zup",
+    "article": "Član 239",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Kad drugostepeni organ poništi prvostepeno rješenje i vrati predmet na ponovni postupak, prvostepeni organ je dužan donijeti novo rješenje:",
+    "options": [
+      "U roku od 30 dana",
+      "Bez odgađanja, a najkasnije u roku od 15 dana od dana prijema predmeta",
+      "U roku od 60 dana",
+      "Bez određenog roka"
+    ],
+    "correct": [1],
+    "explanation": "Član 239. stav 2.; drugostepeni organ mora ukazati u kom pogledu treba upotpuniti postupak."
+  },
+  {
+    "id": "zup-226",
+    "law": "zup",
+    "article": "Član 240",
+    "topic": "Žalba",
+    "type": "multi",
+    "text": "U kojim slučajevima će drugostepeni organ poništiti prvostepeno rješenje i sam riješiti stvar? (više tačnih odgovora)",
+    "options": [
+      "Ako su dokazi pogrešno ocijenjeni ili je iz utvrđenih činjenica izveden pogrešan zaključak o činjeničnom stanju",
+      "Ako je pogrešno primijenjen pravni propis",
+      "Ako je u istoj upravnoj stvari već jednom poništeno prvostepeno rješenje, posebno ako prvostepeni organ nije postupio po drugostepenom rješenju",
+      "Ako je žalba nepravovremena"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 240. stav 1.; nepravovremena žalba se odbacuje (član 236. stav 1.)."
+  },
+  {
+    "id": "zup-227",
+    "law": "zup",
+    "article": "Član 240",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Ako je rješenje pravilno u pogledu činjenica i primjene zakona, ali se cilj može postići i drugim sredstvima povoljnijim za stranku, drugostepeni organ će:",
+    "options": ["Odbiti žalbu", "Izmijeniti prvostepeno rješenje u tom smislu", "Poništiti rješenje", "Vratiti predmet na ponovni postupak"],
+    "correct": [1],
+    "explanation": "Član 240. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-228",
+    "law": "zup",
+    "article": "Član 241",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Može li drugostepeni organ izmijeniti prvostepeno rješenje na štetu žalioca (reformatio in peius)?",
+    "options": [
+      "Nikada",
+      "Može, ali samo iz nekog od razloga predviđenih u čl. 260., 263. i 264. ZUP-a",
+      "Uvijek kad ocijeni da je to pravilno",
+      "Samo uz pristanak žalioca"
+    ],
+    "correct": [1],
+    "explanation": "Član 241. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-229",
+    "law": "zup",
+    "article": "Član 242",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "Šta mora sadržavati obrazloženje drugostepenog rješenja?",
+    "options": [
+      "Samo pravni osnov",
+      "Ocjenu svih navoda žalbe (uz mogućnost pozivanja na razloge iz prvostepenog rješenja ako su ti navodi već pravilno ocijenjeni)",
+      "Samo dispozitiv",
+      "Prepis prvostepenog rješenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 242. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-230",
+    "law": "zup",
+    "article": "Član 243",
+    "topic": "Šutnja uprave",
+    "type": "open",
+    "text": "Kako drugostepeni organ postupa po žalbi zbog 'šutnje uprave'?",
+    "answer": "Najkasnije u roku od tri dana od prijema žalbe traži da mu prvostepeni organ dostavi spise i pismeno iznese razloge zbog kojih rješenje nije doneseno; prvostepeni organ postupa u roku koji odredi drugostepeni, ne dužem od pet dana. Ako su razlozi opravdani ili je kriva stranka, odredit će prvostepenom organu rok za donošenje rješenja koji ne može biti duži od 15 dana. Ako razlozi nisu opravdani, drugostepeni organ će sam riješiti stvar prema spisima, a ako to nije moguće sam će provesti postupak i riješiti stvar; izuzetno može naložiti prvostepenom organu da prikupi podatke u roku ne dužem od osam dana. Takvo rješenje drugostepenog organa je konačno.",
+    "keywords": ["tri dana", "pet dana", "15 dana", "sam riješiti stvar", "konačno rješenje"],
+    "explanation": "Član 243. ZUP-a."
+  },
+  {
+    "id": "zup-231",
+    "law": "zup",
+    "article": "Član 244",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "U kojem roku se mora donijeti i dostaviti stranci rješenje o žalbi?",
+    "options": [
+      "Što prije, a najkasnije u roku od 30 dana od dana predaje žalbe, ako posebnim propisom nije određen kraći rok",
+      "U roku od 60 dana",
+      "U roku od 15 dana",
+      "Bez posebnog roka"
+    ],
+    "correct": [0],
+    "explanation": "Član 244. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-232",
+    "law": "zup",
+    "article": "Član 245",
+    "topic": "Žalba",
+    "type": "single",
+    "text": "U kojem roku prvostepeni organ mora dostaviti strankama drugostepeno rješenje?",
+    "options": ["3 dana", "5 dana od dana prijema spisa", "8 dana", "15 dana"],
+    "correct": [1],
+    "explanation": "Član 245. ZUP-a."
+  },
+  {
+    "id": "zup-233",
+    "law": "zup",
+    "article": "Član 246",
+    "topic": "Obnova postupka",
+    "type": "multi",
+    "text": "Koji su razlozi za obnovu postupka? (više tačnih odgovora)",
+    "options": [
+      "Saznanje za nove činjenice ili mogućnost upotrebe novih dokaza koji bi mogli dovesti do drugačijeg rješenja",
+      "Rješenje je doneseno na osnovu lažne isprave ili lažnog iskaza svjedoka ili vještaka",
+      "U donošenju rješenja učestvovala je službena osoba koja je po zakonu morala biti izuzeta",
+      "Stranka je nezadovoljna visinom troškova"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 246. tačke 1., 2. i 6. ZUP-a (ukupno 11 razloga)."
+  },
+  {
+    "id": "zup-234",
+    "law": "zup",
+    "article": "Član 246",
+    "topic": "Obnova postupka",
+    "type": "single",
+    "text": "Protiv kakvog rješenja se može tražiti obnova postupka?",
+    "options": [
+      "Protiv svakog rješenja",
+      "Protiv rješenja ili zaključka protiv kojeg nema redovnog pravnog lijeka u upravnom postupku (konačnog u upravnom postupku)",
+      "Samo protiv prvostepenog rješenja",
+      "Samo protiv rješenja koje nije izvršeno"
+    ],
+    "correct": [1],
+    "explanation": "Član 246. ZUP-a."
+  },
+  {
+    "id": "zup-235",
+    "law": "zup",
+    "article": "Član 247",
+    "topic": "Obnova postupka",
+    "type": "single",
+    "text": "Ko može pokrenuti obnovu postupka?",
+    "options": [
+      "Samo stranka",
+      "Stranka može tražiti obnovu, a organ koji je donio rješenje može je pokrenuti po službenoj dužnosti; tužilac pod istim uslovima kao stranka",
+      "Samo drugostepeni organ",
+      "Samo sud"
+    ],
+    "correct": [1],
+    "explanation": "Član 247. st. 1. i 4. ZUP-a."
+  },
+  {
+    "id": "zup-236",
+    "law": "zup",
+    "article": "Član 249",
+    "topic": "Obnova postupka",
+    "type": "single",
+    "text": "Koji je subjektivni rok u kojem stranka može tražiti obnovu postupka?",
+    "options": ["8 dana", "15 dana", "30 dana", "3 mjeseca"],
+    "correct": [2],
+    "explanation": "Član 249. stav 1. — 30 dana, računato zavisno od razloga obnove."
+  },
+  {
+    "id": "zup-237",
+    "law": "zup",
+    "article": "Član 249",
+    "topic": "Obnova postupka",
+    "type": "single",
+    "text": "Koji je krajnji (objektivni) rok nakon kojeg se obnova, po pravilu, ne može tražiti?",
+    "options": [
+      "Jedna godina od konačnosti",
+      "Pet godina od dostavljanja konačnog rješenja stranci",
+      "Tri godine",
+      "Deset godina"
+    ],
+    "correct": [1],
+    "explanation": "Član 249. stav 3.; izuzetno i poslije pet godina — samo iz razloga iz člana 246. tač. 2., 3. i 5."
+  },
+  {
+    "id": "zup-238",
+    "law": "zup",
+    "article": "Član 252",
+    "topic": "Obnova postupka",
+    "type": "single",
+    "text": "Ko rješava o prijedlogu za obnovu postupka?",
+    "options": [
+      "Uvijek prvostepeni organ",
+      "Organ koji je donio rješenje kojim je postupak okončan",
+      "Uvijek drugostepeni organ",
+      "Nadležni sud"
+    ],
+    "correct": [1],
+    "explanation": "Član 252. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-239",
+    "law": "zup",
+    "article": "Član 253",
+    "topic": "Obnova postupka",
+    "type": "single",
+    "text": "Kada će nadležni organ zaključkom ODBACITI prijedlog za obnovu postupka?",
+    "options": [
+      "Ako okolnosti ne bi mogle dovesti do drugačijeg rješenja",
+      "Ako prijedlog nije pravovremen, nije izjavljen od ovlaštene osobe, ili okolnost na kojoj se temelji nije učinjena vjerovatnom",
+      "Uvijek kad se radi o drugostepenom rješenju",
+      "Ako je rješenje već izvršeno"
+    ],
+    "correct": [1],
+    "explanation": "Član 253. st. 1. i 2.; ako okolnosti ne bi mogle dovesti do drugačijeg rješenja, prijedlog se odbija rješenjem (stav 3.)."
+  },
+  {
+    "id": "zup-240",
+    "law": "zup",
+    "article": "Član 255",
+    "topic": "Obnova postupka",
+    "type": "single",
+    "text": "Kakvo rješenje donosi organ u obnovljenom postupku?",
+    "options": [
+      "Uvijek poništava prijašnje rješenje",
+      "Može prijašnje rješenje ostaviti na snazi ili ga zamijeniti novim, pri čemu prijašnje rješenje može poništiti ili ukinuti",
+      "Uvijek donosi isto rješenje",
+      "Rješenje se ne donosi, već samo zaključak"
+    ],
+    "correct": [1],
+    "explanation": "Član 255. ZUP-a."
+  },
+  {
+    "id": "zup-241",
+    "law": "zup",
+    "article": "Član 257",
+    "topic": "Obnova postupka",
+    "type": "single",
+    "text": "Kakvo je dejstvo prijedloga za obnovu i zaključka kojim se obnova dopušta na izvršenje rješenja?",
+    "options": [
+      "Oba odgađaju izvršenje",
+      "Prijedlog, po pravilu, ne odgađa izvršenje, dok zaključak kojim se obnova dopušta odgađa izvršenje rješenja",
+      "Nijedan ne odgađa izvršenje",
+      "Samo prijedlog odgađa izvršenje"
+    ],
+    "correct": [1],
+    "explanation": "Član 257. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-242",
+    "law": "zup",
+    "article": "Član 258",
+    "topic": "Vanredni pravni lijekovi",
+    "type": "single",
+    "text": "Organ protiv čijeg je rješenja pravovremeno pokrenut upravni spor može do okončanja spora:",
+    "options": [
+      "Samo čekati presudu suda",
+      "Poništiti ili izmijeniti svoje rješenje ako uvažava sve zahtjeve tužbe i ako se time ne vrijeđa pravo stranke ili treće osobe",
+      "Povući rješenje bez ikakvog akta",
+      "Obustaviti upravni spor"
+    ],
+    "correct": [1],
+    "explanation": "Član 258. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-243",
+    "law": "zup",
+    "article": "Član 259",
+    "topic": "Zahtjev za zaštitu zakonitosti",
+    "type": "single",
+    "text": "Ko podiže zahtjev za zaštitu zakonitosti i u kojem roku?",
+    "options": [
+      "Stranka, u roku od 15 dana",
+      "Tužilac (federalni ili kantonalni), u roku od 30 dana od dostavljanja rješenja tužiocu, a ako mu nije dostavljeno — u roku od tri mjeseca od dostavljanja stranci",
+      "Ombudsmen, u roku od godinu dana",
+      "Drugostepeni organ, u roku od 60 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 259. st. 1–3.; inicijativu tužiocu mogu podnijeti stranka i druga zainteresirana osoba (stav 7.)."
+  },
+  {
+    "id": "zup-244",
+    "law": "zup",
+    "article": "Član 259",
+    "topic": "Zahtjev za zaštitu zakonitosti",
+    "type": "single",
+    "text": "Kako nadležni organ može odlučiti povodom zahtjeva za zaštitu zakonitosti?",
+    "options": [
+      "Može ukinuti pobijano rješenje ili odbiti zahtjev; protiv tog rješenja žalba nije dopuštena",
+      "Može samo izmijeniti rješenje",
+      "Može samo poništiti rješenje",
+      "Ne može mijenjati rješenje"
+    ],
+    "correct": [0],
+    "explanation": "Član 259. stav 6. ZUP-a."
+  },
+  {
+    "id": "zup-245",
+    "law": "zup",
+    "article": "Član 260",
+    "topic": "Pravo nadzora",
+    "type": "multi",
+    "text": "Kada će nadležni organ PONIŠTITI rješenje po pravu nadzora? (više tačnih odgovora)",
+    "options": [
+      "Ako je rješenje donio stvarno nenadležan organ (a nije riječ o razlogu ništavosti)",
+      "Ako je u istoj stvari ranije doneseno pravomoćno rješenje kojim je stvar drugačije riješena",
+      "Ako je rješenje doneseno kao posljedica prisile, iznude, ucjene, pritiska ili druge nedopuštene radnje",
+      "Ako je stranka nezadovoljna obrazloženjem"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 260. stav 1. tačke 1., 2. i 5. ZUP-a (ukupno pet razloga)."
+  },
+  {
+    "id": "zup-246",
+    "law": "zup",
+    "article": "Član 260",
+    "topic": "Pravo nadzora",
+    "type": "single",
+    "text": "Kada se rješenje može UKINUTI po pravu nadzora?",
+    "options": [
+      "Ako je njime očigledno povrijeđen materijalni zakon (a u stvarima s više stranaka suprotnih interesa — samo uz pristanak zainteresiranih stranaka)",
+      "Ako je povrijeđeno pravilo postupka",
+      "Ako je rješenje nejasno",
+      "Ako stranka to zatraži"
+    ],
+    "correct": [0],
+    "explanation": "Član 260. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-247",
+    "law": "zup",
+    "article": "Član 261",
+    "topic": "Pravo nadzora",
+    "type": "single",
+    "text": "U kojem roku se može donijeti rješenje o poništenju po pravu nadzora zbog mjesne nenadležnosti?",
+    "options": ["Pet godina", "Jedna godina od dana kad je rješenje postalo konačno", "Tri godine", "Bez ograničenja"],
+    "correct": [1],
+    "explanation": "Član 261. stav 3.; za razloge iz tač. 1., 2. i 3. rok je pet godina, a za prisilu/iznudu (tačka 5.) nema roka."
+  },
+  {
+    "id": "zup-248",
+    "law": "zup",
+    "article": "Član 261",
+    "topic": "Pravo nadzora",
+    "type": "single",
+    "text": "Protiv rješenja donesenog po pravu nadzora (član 260.):",
+    "options": [
+      "Dopuštena je žalba",
+      "Nije dopuštena žalba, ali se može neposredno pokrenuti upravni spor kod nadležnog suda",
+      "Dopušten je prigovor",
+      "Nema nikakvog pravnog sredstva"
+    ],
+    "correct": [1],
+    "explanation": "Član 261. stav 6. ZUP-a."
+  },
+  {
+    "id": "zup-249",
+    "law": "zup",
+    "article": "Član 262",
+    "topic": "Vanredni pravni lijekovi",
+    "type": "single",
+    "text": "Pravomoćno rješenje kojim je stranka stekla neko pravo može se ukinuti ili izmijeniti radi usklađivanja sa zakonom:",
+    "options": [
+      "Bez ikakvih uslova",
+      "Samo ako stranka koja je stekla pravo na to pristane i ako se time ne vrijeđa pravo treće osobe",
+      "Samo po nalogu suda",
+      "Samo ako je proteklo pet godina"
+    ],
+    "correct": [1],
+    "explanation": "Član 262. stav 1.; izmjena djeluje samo ubuduće (stav 3.)."
+  },
+  {
+    "id": "zup-250",
+    "law": "zup",
+    "article": "Član 263",
+    "topic": "Vanredno ukidanje",
+    "type": "open",
+    "text": "Kada se može vanredno ukinuti izvršno rješenje i kakvo pravo ima stranka koja time trpi štetu?",
+    "answer": "Izvršno rješenje može se ukinuti ako je to potrebno radi otklanjanja teške i neposredne opasnosti po život i zdravlje ljudi, javnu sigurnost, javni mir i poredak ili javni moral, ili radi otklanjanja poremećaja u privredi, ako se to ne bi moglo uspješno otkloniti drugim sredstvima kojima bi se manje diralo u stečena prava; može se ukinuti i samo djelimično, u opsegu neophodnom da se opasnost otkloni. Stranka koja usljed ukidanja trpi štetu ima pravo na naknadu samo stvarne štete.",
+    "keywords": ["teška i neposredna opasnost", "javna sigurnost javni mir", "poremećaj u privredi", "djelimično ukidanje", "naknada stvarne štete"],
+    "explanation": "Član 263. st. 1. i 4. ZUP-a."
+  }
+]

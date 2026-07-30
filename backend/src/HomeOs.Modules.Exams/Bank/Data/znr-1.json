@@ -1,0 +1,667 @@
+[
+  {
+    "id": "znr-001",
+    "law": "znr",
+    "article": "Član 1",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Šta se uređuje Zakonom o zaštiti na radu FBiH?",
+    "options": [
+      "Samo visina naknada za rad pod otežanim uvjetima",
+      "Prava, obaveze i odgovornosti poslodavaca i radnika u vezi sa provođenjem i poboljšanjem sigurnosti i zaštite zdravlja radnika na radu, opća načela prevencije i sistem pravila zaštite",
+      "Samo postupak inspekcijskog nadzora",
+      "Samo obaveze proizvođača radne opreme"
+    ],
+    "correct": [1],
+    "explanation": "Član 1. stav 1. Zakona o zaštiti na radu (\"Sl. novine FBiH\", br. 79/20)."
+  },
+  {
+    "id": "znr-002",
+    "law": "znr",
+    "article": "Član 2",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Koja direktiva Europske unije se preuzima ovim zakonom?",
+    "options": [
+      "Direktiva 2003/88/EZ o organizaciji radnog vremena",
+      "Direktiva Vijeća 89/391/EEZ o uvođenju mjera za podsticanje poboljšanja sigurnosti i zdravlja radnika na radu",
+      "Direktiva 98/24/EZ o hemijskim agensima",
+      "Direktiva 92/57/EEZ o gradilištima"
+    ],
+    "correct": [1],
+    "explanation": "Član 2. Zakona — okvirna direktiva o zaštiti na radu."
+  },
+  {
+    "id": "znr-003",
+    "law": "znr",
+    "article": "Član 3",
+    "topic": "Definicije pojmova",
+    "type": "open",
+    "text": "Ko se, u smislu Zakona o zaštiti na radu, smatra poslodavcem?",
+    "answer": "Poslodavac je pravno ili fizičko lice koje zapošljava jednog ili više radnika, uključujući i organe državne uprave. Poslodavcem se smatra i poljoprivrednik i fizičko lice koje samo ili sa članovima svoje porodice obavlja poljoprivrednu ili neku drugu djelatnost kao jedino ili glavno zanimanje.",
+    "keywords": ["pravno ili fizičko lice", "zapošljava jednog ili više radnika", "organi državne uprave", "poljoprivrednik"],
+    "explanation": "Član 3. stav 1. tačka a) Zakona."
+  },
+  {
+    "id": "znr-004",
+    "law": "znr",
+    "article": "Član 3",
+    "topic": "Definicije pojmova",
+    "type": "single",
+    "text": "Kako Zakon definiše rizik?",
+    "options": [
+      "Svaka opasna materija u radnoj okolini",
+      "Vjerovatnoća nastanka povrede, oboljenja ili oštećenja zdravlja radnika usljed opasnosti",
+      "Stanje neposredne opasnosti po život",
+      "Posljedica povrede na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 3. stav 1. tačka j) Zakona."
+  },
+  {
+    "id": "znr-005",
+    "law": "znr",
+    "article": "Član 3",
+    "topic": "Definicije pojmova",
+    "type": "open",
+    "text": "Šta je procjena rizika u smislu Zakona o zaštiti na radu?",
+    "answer": "Procjena rizika je sistematsko evidentiranje i procjenjivanje svih faktora u procesu rada koji mogu uzrokovati nastanak povreda na radu, oboljenja ili oštećenja zdravlja, te utvrđivanje mogućnosti odnosno načina sprječavanja, otklanjanja ili smanjenja rizika.",
+    "keywords": ["sistematsko evidentiranje", "faktori u procesu rada", "povrede oboljenja oštećenja zdravlja", "sprječavanje otklanjanje smanjenje rizika"],
+    "explanation": "Član 3. stav 1. tačka l) Zakona."
+  },
+  {
+    "id": "znr-006",
+    "law": "znr",
+    "article": "Član 3",
+    "topic": "Definicije pojmova",
+    "type": "single",
+    "text": "Šta su poslovi sa povećanim rizikom?",
+    "options": [
+      "Svi poslovi koji se obavljaju na otvorenom",
+      "Poslovi utvrđeni aktom o procjeni rizika na kojima i pored potpuno ili djelimično primijenjenih mjera postoje okolnosti koje mogu ugroziti sigurnost i zdravlje radnika",
+      "Poslovi koje obavljaju maloljetnici",
+      "Poslovi za koje je propisano skraćeno radno vrijeme"
+    ],
+    "correct": [1],
+    "explanation": "Član 3. stav 1. tačka m) Zakona."
+  },
+  {
+    "id": "znr-007",
+    "law": "znr",
+    "article": "Član 3",
+    "topic": "Definicije pojmova",
+    "type": "single",
+    "text": "Ko je radnik za zaštitu na radu?",
+    "options": [
+      "Lice izabrano da predstavlja zaposlene u oblasti sigurnosti i zaštite zdravlja",
+      "Lice kojem poslodavac povjeri izvršavanje stručnih poslova sigurnosti i zaštite zdravlja na radu",
+      "Inspektor rada",
+      "Doktor specijalista medicine rada"
+    ],
+    "correct": [1],
+    "explanation": "Član 3. stav 1. tačka f); povjerenik za zaštitu na radu je onaj koji predstavlja zaposlene (tačka g)."
+  },
+  {
+    "id": "znr-008",
+    "law": "znr",
+    "article": "Član 3",
+    "topic": "Definicije pojmova",
+    "type": "single",
+    "text": "Ko je povjerenik za zaštitu na radu?",
+    "options": [
+      "Lice kojem poslodavac povjeri stručne poslove zaštite na radu",
+      "Lice izabrano ili imenovano da predstavlja zaposlene u oblasti sigurnosti i zaštite zdravlja na radu kod poslodavca",
+      "Predstavnik ovlaštene organizacije",
+      "Član Vijeća za zaštitu na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 3. stav 1. tačka g) Zakona."
+  },
+  {
+    "id": "znr-009",
+    "law": "znr",
+    "article": "Član 3",
+    "topic": "Definicije pojmova",
+    "type": "single",
+    "text": "Šta je ovlaštena organizacija za zaštitu na radu?",
+    "options": [
+      "Zdravstvena ustanova koja obavlja medicinu rada",
+      "Privredno društvo ili ustanova specijalizovana za vršenje periodičnih pregleda iz oblasti zaštite na radu, procjene rizika i osposobljavanja radnika",
+      "Inspekcijski organ",
+      "Sindikalna organizacija"
+    ],
+    "correct": [1],
+    "explanation": "Član 3. stav 1. tačka i) Zakona."
+  },
+  {
+    "id": "znr-010",
+    "law": "znr",
+    "article": "Član 3",
+    "topic": "Definicije pojmova",
+    "type": "multi",
+    "text": "Šta se prema Zakonu smatra sredstvima za rad? (više tačnih odgovora)",
+    "options": [
+      "Objekti namijenjeni za rad sa pripadajućim prostorijama, instalacijama i uređajima, te prijevozna sredstva",
+      "Radna oprema — svaka mašina, uređaj, aparat, oruđe ili druga oprema koja se upotrebljava za rad",
+      "Sredstva i oprema lične zaštite pri radu te sirovine i materijali koji se koriste u procesu rada",
+      "Isključivo mašine sa pogonom"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 3. stav 1. tačka e) Zakona."
+  },
+  {
+    "id": "znr-011",
+    "law": "znr",
+    "article": "Član 5",
+    "topic": "Osnovne odredbe",
+    "type": "multi",
+    "text": "Ko ima pravo na sigurnost i zaštitu zdravlja na radu? (više tačnih odgovora)",
+    "options": [
+      "Radnik i lice koje je kod poslodavca na stručnom osposobljavanju",
+      "Učenici i studenti na praktičnoj nastavi te lice koje obavlja volonterski rad",
+      "Lice koje za vrijeme izdržavanja kazne zatvora radi u zatvorskoj radionici ili na gradilištu",
+      "Samo radnici zaposleni na neodređeno vrijeme"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 5. stav 1. tačke a)–h) Zakona."
+  },
+  {
+    "id": "znr-012",
+    "law": "znr",
+    "article": "Član 5",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Ko osigurava sigurnost i zaštitu zdravlja na radu licima koja učestvuju u javnim radovima?",
+    "options": ["Poslodavac", "Organizator radova", "Obrazovna ustanova", "Ustanova za izvršenje kazne zatvora"],
+    "correct": [1],
+    "explanation": "Član 5. stav 2. Zakona."
+  },
+  {
+    "id": "znr-013",
+    "law": "znr",
+    "article": "Član 7",
+    "topic": "Vijeće za zaštitu na radu",
+    "type": "single",
+    "text": "Koliko članova ima Vijeće za zaštitu na radu i na koji period se imenuju?",
+    "options": [
+      "Sedam članova na tri godine",
+      "Devet članova na period od četiri godine",
+      "Jedanaest članova na pet godina",
+      "Pet članova na dvije godine"
+    ],
+    "correct": [1],
+    "explanation": "Član 7. stav 2. Zakona; članove imenuje Vlada Federacije."
+  },
+  {
+    "id": "znr-014",
+    "law": "znr",
+    "article": "Član 7",
+    "topic": "Vijeće za zaštitu na radu",
+    "type": "single",
+    "text": "Koliko često Vijeće izvještava Vladu Federacije o svojim nalazima i ocjenama?",
+    "options": ["Najmanje jednom godišnje", "Kvartalno", "Svakih šest mjeseci", "Samo na zahtjev Vlade"],
+    "correct": [0],
+    "explanation": "Član 7. stav 5. tačka a) Zakona."
+  },
+  {
+    "id": "znr-015",
+    "law": "znr",
+    "article": "Član 7",
+    "topic": "Vijeće za zaštitu na radu",
+    "type": "single",
+    "text": "Ko čini Vijeće za zaštitu na radu?",
+    "options": [
+      "Isključivo predstavnici Vlade Federacije",
+      "Premijer Federacije, federalni ministar rada, federalni ministar zdravstva, po dva predstavnika poslodavaca i radnika te dva istaknuta stručnjaka",
+      "Predstavnici inspekcijskih organa",
+      "Predstavnici ovlaštenih organizacija za zaštitu na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 7. stav 2. Zakona."
+  },
+  {
+    "id": "znr-016",
+    "law": "znr",
+    "article": "Član 9",
+    "topic": "Opći zahtjevi",
+    "type": "multi",
+    "text": "Šta obuhvata sistem pravila i mjera zaštite na radu? (više tačnih odgovora)",
+    "options": [
+      "Pravila i mjere pri projektovanju, izradi, upotrebi, održavanju, pregledu i ispitivanju sredstava rada",
+      "Prilagođavanje procesa rada polu, dobi te fizičkim i psihičkim sposobnostima radnika",
+      "Zabranu stavljanja radnika u nepovoljniji položaj zbog aktivnosti preduzetih radi zaštite na radu",
+      "Obavezu radnika da sam nabavi zaštitnu opremu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 9. stav 1. Zakona; troškove zaštite nikada ne snosi radnik (čl. 19. i 31.)."
+  },
+  {
+    "id": "znr-017",
+    "law": "znr",
+    "article": "Član 9",
+    "topic": "Opći zahtjevi",
+    "type": "single",
+    "text": "Šta ministarstvo može učiniti usljed vremenskih neprilika (visoke ili niske temperature i sl.)?",
+    "options": [
+      "Narediti prekid svih radova",
+      "Izdati poslodavcima preporuke o provođenju posebnih mjera zaštite, a ako neprilike potraju duže od pet dana obaviti konsultacije sa reprezentativnim udruženjima poslodavaca i radnika",
+      "Skratiti radno vrijeme svim poslodavcima",
+      "Ne poduzima ništa — to je isključivo stvar poslodavca"
+    ],
+    "correct": [1],
+    "explanation": "Član 9. stav 5. Zakona."
+  },
+  {
+    "id": "znr-018",
+    "law": "znr",
+    "article": "Član 12",
+    "topic": "Elaborat o uređenju radilišta",
+    "type": "single",
+    "text": "U kojem roku poslodavac koji izvodi radove na radilištu duže od sedam dana mora dostaviti prijavu i elaborat o uređenju radilišta nadležnoj inspekciji rada?",
+    "options": [
+      "Najmanje osam dana prije početka rada na radilištu",
+      "U roku od osam dana od početka radova",
+      "Najmanje 15 dana prije početka radova",
+      "Odmah po završetku radova"
+    ],
+    "correct": [0],
+    "explanation": "Član 12. stav 2. Zakona."
+  },
+  {
+    "id": "znr-019",
+    "law": "znr",
+    "article": "Član 13",
+    "topic": "Elaborat o uređenju radilišta",
+    "type": "single",
+    "text": "Ako dva ili više poslodavaca koriste isti prostor za radilište, ko je obavezan obezbijediti jedinstveni elaborat o uređenju radilišta?",
+    "options": [
+      "Svaki poslodavac za sebe",
+      "Glavni izvođač, odnosno investitor",
+      "Nadležna inspekcija rada",
+      "Ovlaštena organizacija za zaštitu na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 13. Zakona; svaki poslodavac ipak provodi svoje mjere zaštite."
+  },
+  {
+    "id": "znr-020",
+    "law": "znr",
+    "article": "Član 11",
+    "topic": "Opći zahtjevi",
+    "type": "single",
+    "text": "Mogu li novi, obnovljeni ili rekonstruisani objekti i tehničko-tehnološki procesi početi sa radom bez upotrebne dozvole?",
+    "options": ["Mogu, uz saglasnost inspektora", "Ne mogu", "Mogu, ako je izrađen elaborat o uređenju radilišta", "Mogu privremeno, do 30 dana"],
+    "correct": [1],
+    "explanation": "Član 11. stav 3. Zakona."
+  },
+  {
+    "id": "znr-021",
+    "law": "znr",
+    "article": "Član 16",
+    "topic": "Sredstva za rad",
+    "type": "open",
+    "text": "Šta su proizvođači i uvoznici opasnih materija dužni dati uz te materije?",
+    "answer": "Dužni su dati uputstvo za sigurnu upotrebu i rukovanje (sigurnosni list) koje sadrži identifikacione podatke, podatke o fizičkim, hemijskim i biološkim karakteristikama, stepen opasnosti od požara i eksplozije, opasnosti po zdravlje, radioaktivnost, ekološke podatke, posebne zaštitne mjere, način skladištenja i označavanja, prijenos i transport te postupak otklanjanja opasnih materija — na jednom od službenih jezika u BiH odnosno Federaciji.",
+    "keywords": ["sigurnosni list", "uputstvo za sigurnu upotrebu", "opasnosti po zdravlje", "skladištenje i označavanje", "službeni jezik"],
+    "explanation": "Član 16. stav 2. Zakona."
+  },
+  {
+    "id": "znr-022",
+    "law": "znr",
+    "article": "Član 19",
+    "topic": "Opći zahtjevi",
+    "type": "single",
+    "text": "Mogu li poslodavci dati radnicima finansijsku naknadu u zamjenu za ispunjavanje zahtjeva standarda sigurnosti i zaštite zdravlja na radu?",
+    "options": [
+      "Mogu, uz saglasnost sindikata",
+      "Ne mogu",
+      "Mogu, ako radnik na to pristane",
+      "Mogu samo za poslove sa povećanim rizikom"
+    ],
+    "correct": [1],
+    "explanation": "Član 19. Zakona; mjere zaštite ne smiju radnicima prouzrokovati ni finansijske obaveze (član 31.)."
+  },
+  {
+    "id": "znr-023",
+    "law": "znr",
+    "article": "Član 21",
+    "topic": "Načela prevencije",
+    "type": "multi",
+    "text": "Koja od navedenih spadaju u opća načela prevencije? (više tačnih odgovora)",
+    "options": [
+      "Procjena, izbjegavanje i sprječavanje rizika te otklanjanje rizika na njihovom izvoru",
+      "Zamjena opasnih tehnoloških procesa ili metoda rada bezopasnim ili manje opasnim i zamjena opasnih materija bezopasnim",
+      "Davanje prednosti zajedničkim mjerama zaštite pred pojedinačnim",
+      "Isplata dodatka na plaću umjesto zaštitne opreme"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 21. Zakona; naknada umjesto zaštite je izričito zabranjena (član 19.)."
+  },
+  {
+    "id": "znr-024",
+    "law": "znr",
+    "article": "Član 22",
+    "topic": "Obaveze poslodavca",
+    "type": "open",
+    "text": "Navedite najmanje šest obaveza poslodavca iz člana 22. Zakona o zaštiti na radu.",
+    "answer": "Poslodavac je dužan: organizovati poslove sigurnosti i zaštite zdravlja na radu; vršiti procjenu rizika za svako radno mjesto i utvrditi poslove sa povećanim rizikom; omogućiti radniku da se prije stupanja na rad upozna sa mjerama zaštite; donijeti interni akt o zaštiti na radu; obavještavati radnike, sindikat i povjerenika o novim tehnologijama, opasnostima i štetnostima i izdavati uputstva za siguran rad; osposobljavati radnike za siguran rad; osigurati sredstva i opremu lične zaštite; osigurati periodične ljekarske preglede radnika na poslovima sa povećanim rizikom; osigurati periodične preglede sredstava rada i ispitivanja štetnosti i mikroklime; provoditi mjere zaštite od požara i prve pomoći; obavještavati inspekciju rada o smrtnom slučaju, težoj povredi i profesionalnom oboljenju.",
+    "keywords": ["organizovati poslove zaštite", "procjena rizika", "interni akt", "osposobljavanje radnika", "sredstva lične zaštite", "ljekarski pregledi", "obavijestiti inspekciju"],
+    "explanation": "Član 22. tačke a)–r) Zakona."
+  },
+  {
+    "id": "znr-025",
+    "law": "znr",
+    "article": "Član 23",
+    "topic": "Interni akt i procjena rizika",
+    "type": "single",
+    "text": "Šta je osnov za izradu internog akta o zaštiti na radu?",
+    "options": [
+      "Kolektivni ugovor",
+      "Akt o procjeni rizika na mjestu rada",
+      "Rješenje inspektora rada",
+      "Pravilnik o radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 23. stav 2. Zakona."
+  },
+  {
+    "id": "znr-026",
+    "law": "znr",
+    "article": "Član 23",
+    "topic": "Interni akt i procjena rizika",
+    "type": "single",
+    "text": "Šta poslodavac mora učiniti u slučaju promjene rizika u procesu rada?",
+    "options": [
+      "Ništa, akt vrijedi trajno",
+      "Izvršiti odgovarajuću izmjenu akta o procjeni rizika",
+      "Zatražiti saglasnost inspekcije",
+      "Donijeti novi kolektivni ugovor"
+    ],
+    "correct": [1],
+    "explanation": "Član 23. stav 3. Zakona."
+  },
+  {
+    "id": "znr-027",
+    "law": "znr",
+    "article": "Član 23",
+    "topic": "Interni akt i procjena rizika",
+    "type": "single",
+    "text": "Koga je poslodavac dužan konsultovati pri izradi internog akta o zaštiti na radu?",
+    "options": ["Inspektora rada", "Povjerenika za zaštitu na radu", "Ovlaštenu zdravstvenu ustanovu", "Federalno ministarstvo"],
+    "correct": [1],
+    "explanation": "Član 23. stav 5. Zakona."
+  },
+  {
+    "id": "znr-028",
+    "law": "znr",
+    "article": "Član 24",
+    "topic": "Obaveze poslodavca",
+    "type": "single",
+    "text": "Može li radnik zasnovati radni odnos prije nego što se utvrdi da njegovo zdravstveno stanje i psihofizičke sposobnosti odgovaraju zahtjevima radnog mjesta?",
+    "options": [
+      "Može, uz naknadni pregled u roku od 30 dana",
+      "Ne može",
+      "Može, ako je mlađi od 40 godina",
+      "Može, uz pisanu izjavu radnika"
+    ],
+    "correct": [1],
+    "explanation": "Član 24. stav 2.; zdravstveno stanje se utvrđuje ljekarskim uvjerenjem ovlaštene zdravstvene ustanove (medicina rada)."
+  },
+  {
+    "id": "znr-029",
+    "law": "znr",
+    "article": "Član 26",
+    "topic": "Opasne materije",
+    "type": "single",
+    "text": "Pod kojim uslovom poslodavac smije koristiti opasne materije?",
+    "options": [
+      "Uvijek, uz zaštitnu opremu",
+      "Samo ako iste radne rezultate ne može postići primjenom bezopasnih materija",
+      "Samo uz saglasnost inspekcije rada",
+      "Samo ako radnici na to pristanu"
+    ],
+    "correct": [1],
+    "explanation": "Član 26. stav 3. Zakona."
+  },
+  {
+    "id": "znr-030",
+    "law": "znr",
+    "article": "Član 26",
+    "topic": "Opasne materije",
+    "type": "open",
+    "text": "Kojim redoslijedom poslodavac primjenjuje pravila zaštite na radu ako koristi opasne materije?",
+    "answer": "Prvo koristiti zatvorene sisteme ako je to moguće; zatim odvoditi opasne materije sa mjesta nastanka odnosno izvan radne okoline (bez zagađivanja okoline); ako to nije moguće, ograničiti na najmanju moguću mjeru količinu opasnih materija, broj izloženih radnika i vrijeme izlaganja; i tek ako se time ne postigne zadovoljavajuća zaštita, osigurati da radnici koriste propisanu ličnu zaštitnu opremu. Koncentracija opasnih materija mora biti što niža i ispod granične vrijednosti izloženosti.",
+    "keywords": ["zatvoreni sistemi", "odvođenje sa mjesta nastanka", "ograničiti količinu broj radnika vrijeme", "lična zaštitna oprema", "granična vrijednost izloženosti"],
+    "explanation": "Član 26. st. 5. i 6. Zakona."
+  },
+  {
+    "id": "znr-031",
+    "law": "znr",
+    "article": "Član 28",
+    "topic": "Poslovi sa povećanim rizikom",
+    "type": "single",
+    "text": "Ko smije imati pristup radnom mjestu sa povećanim rizikom na kojem prijeti neposredna opasnost od povređivanja ili zdravstvenih oštećenja?",
+    "options": [
+      "Svi zaposleni",
+      "Samo radnici osposobljeni za siguran i zdrav rad, koji su dobili posebna uputstva, ispunjavaju zdravstvene uvjete i snabdjeveni su odgovarajućim sredstvima lične zaštite",
+      "Samo radnik za zaštitu na radu",
+      "Samo inspektor rada"
+    ],
+    "correct": [1],
+    "explanation": "Član 28. Zakona."
+  },
+  {
+    "id": "znr-032",
+    "law": "znr",
+    "article": "Član 29",
+    "topic": "Lična zaštitna oprema",
+    "type": "multi",
+    "text": "Koje su obaveze poslodavca u vezi sa sredstvima i opremom lične zaštite? (više tačnih odgovora)",
+    "options": [
+      "Obezbijediti radnicima sredstva i opremu lične zaštite",
+      "Osigurati da se održavaju u dobrom stanju",
+      "Isključiti iz upotrebe opremu na kojoj nastanu promjene zbog kojih postoji opasnost po sigurnost i zdravlje radnika",
+      "Naplatiti radnicima polovinu vrijednosti opreme"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 29. Zakona; mjere zaštite ne smiju radnicima prouzrokovati finansijske obaveze (član 31.)."
+  },
+  {
+    "id": "znr-033",
+    "law": "znr",
+    "article": "Član 30",
+    "topic": "Više poslodavaca na istom mjestu rada",
+    "type": "multi",
+    "text": "Kad više poslodavaca obavlja djelatnost na istom mjestu rada, obavezni su: (više tačnih odgovora)",
+    "options": [
+      "Sarađivati u cilju provođenja odredaba o sigurnosti i zaštiti zdravlja na radu",
+      "Usklađivati aktivnosti u cilju zaštite radnika i sprječavanja rizika",
+      "Obavijestiti jedni druge te radnike i/ili njihove predstavnike o rizicima na radu",
+      "Odrediti jednog poslodavca koji preuzima svu odgovornost"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 30. Zakona."
+  },
+  {
+    "id": "znr-034",
+    "law": "znr",
+    "article": "Član 33",
+    "topic": "Organizovanje poslova zaštite",
+    "type": "single",
+    "text": "U kojim djelatnostima i pri kojem broju radnika poslodavac može sam obavljati poslove zaštite na radu?",
+    "options": [
+      "U svim djelatnostima ako ima do 50 radnika",
+      "U trgovini, ugostiteljstvu i turizmu, finansijsko-tehničkim i poslovnim uslugama, obrazovanju, nauci i informacijama, zdravstvenoj i socijalnoj zaštiti i stambeno-komunalnim djelatnostima, ako ima do 30 radnika",
+      "U građevinarstvu i industriji, ako ima do 20 radnika",
+      "Nikada — uvijek mora angažovati ovlaštenu organizaciju"
+    ],
+    "correct": [1],
+    "explanation": "Član 33. stav 4. Zakona."
+  },
+  {
+    "id": "znr-035",
+    "law": "znr",
+    "article": "Član 33",
+    "topic": "Organizovanje poslova zaštite",
+    "type": "single",
+    "text": "Šta poslodavac čini ako se u nedostatku stručnog osoblja poslovi zaštite i prevencije ne mogu organizovati kod njega?",
+    "options": [
+      "Odustaje od tih poslova",
+      "Angažuje ovlaštenu organizaciju za zaštitu na radu",
+      "Traži odgodu od inspekcije",
+      "Poslove preuzima sindikat"
+    ],
+    "correct": [1],
+    "explanation": "Član 33. stav 2.; angažovanje ovlaštene organizacije ne oslobađa poslodavca odgovornosti (član 20. stav 3.)."
+  },
+  {
+    "id": "znr-036",
+    "law": "znr",
+    "article": "Član 20",
+    "topic": "Obaveze poslodavca",
+    "type": "single",
+    "text": "Da li angažovanje ovlaštene organizacije za zaštitu na radu oslobađa poslodavca odgovornosti za osiguranje preventivnih mjera?",
+    "options": ["Da, u potpunosti", "Ne", "Da, u dijelu koji je ugovoren", "Da, ako organizacija ima važeću dozvolu"],
+    "correct": [1],
+    "explanation": "Član 20. stav 3. Zakona."
+  },
+  {
+    "id": "znr-037",
+    "law": "znr",
+    "article": "Član 20",
+    "topic": "Obaveze poslodavca",
+    "type": "single",
+    "text": "Kada je poslodavac dužan osigurati preventivne mjere?",
+    "options": [
+      "Samo prije početka rada radnika",
+      "Prije početka rada radnika, u toku rada, kao i kod svake izmjene tehnološkog postupka",
+      "Samo nakon prve povrede na radu",
+      "Samo na zahtjev inspektora"
+    ],
+    "correct": [1],
+    "explanation": "Član 20. stav 2. Zakona."
+  },
+  {
+    "id": "znr-038",
+    "law": "znr",
+    "article": "Član 14",
+    "topic": "Sredstva za rad",
+    "type": "single",
+    "text": "Pod kojim uslovom se sredstva za rad koja podliježu obaveznim periodičnim pregledima smiju upotrebljavati?",
+    "options": [
+      "Bez ikakvih uslova, ako su nova",
+      "Samo ako posjeduju zapisnik odnosno ispravu kojom se dokazuje da udovoljavaju propisima",
+      "Ako ih je odobrio radnik za zaštitu na radu",
+      "Ako su starija od pet godina"
+    ],
+    "correct": [1],
+    "explanation": "Član 14. stav 3. u vezi sa članom 67. stav 1. Zakona."
+  },
+  {
+    "id": "znr-039",
+    "law": "znr",
+    "article": "Član 18",
+    "topic": "Sredstva za rad",
+    "type": "single",
+    "text": "Ko, pored poslodavca odnosno proizvođača/uvoznika, može izdati isprave iz čl. 10. i 16. stav 1. Zakona?",
+    "options": ["Inspekcija rada", "Ovlaštena organizacija za zaštitu na radu", "Ovlaštena zdravstvena ustanova", "Sindikat"],
+    "correct": [1],
+    "explanation": "Član 18. Zakona."
+  },
+  {
+    "id": "znr-040",
+    "law": "znr",
+    "article": "Član 4",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Šta je, u smislu Zakona, sigurnost i zaštita zdravlja na radu?",
+    "options": [
+      "Osiguranje takvih uvjeta na radu kojima se u najvećoj mogućoj mjeri sprječava nastanak povreda na radu, profesionalnih oboljenja i oboljenja u vezi sa radom i koji stvaraju pretpostavku za punu fizičku, psihičku i socijalnu sigurnost zaposlenih",
+      "Isplata naknade za rad pod otežanim uvjetima",
+      "Obaveza radnika da koristi zaštitnu opremu",
+      "Nadzor inspekcije rada nad poslodavcima"
+    ],
+    "correct": [0],
+    "explanation": "Član 4. Zakona."
+  },
+  {
+    "id": "znr-041",
+    "law": "znr",
+    "article": "Član 1",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Radi čega se propisuje posebna zaštita prema članu 1. stav 2. Zakona?",
+    "options": [
+      "Radi očuvanja duševnog i tjelesnog razvoja mladih, zaštite žena od rizika po materinstvo, zaštite lica sa invaliditetom i profesionalno oboljelih te očuvanja radne sposobnosti starijih radnika",
+      "Radi zaštite rukovodnog osoblja",
+      "Radi zaštite radnika stranih državljana",
+      "Radi zaštite sezonskih radnika"
+    ],
+    "correct": [0],
+    "explanation": "Član 1. stav 2. Zakona."
+  },
+  {
+    "id": "znr-042",
+    "law": "znr",
+    "article": "Član 6",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Kako se Zakon primjenjuje na pripadnike oružanih snaga i policijske službenike?",
+    "options": [
+      "Ne primjenjuje se nikada",
+      "Primjenjuje se do donošenja posebnih propisa, ali ne i ako su odredbe u suprotnosti sa propisima koji regulišu službu u oružanim snagama i policiji",
+      "Primjenjuje se bez izuzetka",
+      "Primjenjuje se samo na policijske službenike"
+    ],
+    "correct": [1],
+    "explanation": "Član 6. Zakona."
+  },
+  {
+    "id": "znr-043",
+    "law": "znr",
+    "article": "Član 25",
+    "topic": "Obaveze poslodavca",
+    "type": "single",
+    "text": "Šta obuhvata obaveza ispitivanja radne okoline?",
+    "options": [
+      "Samo mjerenje buke",
+      "Ispitivanje radne okoline, procjenu rizika i osiguranje zaštite zdravlja i sigurnosti radnika izloženih fizičkim, hemijskim i biološkim štetnostima na radu",
+      "Samo provjeru rasvjete",
+      "Samo mjerenje mikroklime jednom u pet godina"
+    ],
+    "correct": [1],
+    "explanation": "Član 25. Zakona."
+  },
+  {
+    "id": "znr-044",
+    "law": "znr",
+    "article": "Član 32",
+    "topic": "Obaveze poslodavca",
+    "type": "single",
+    "text": "Ko mora biti upoznat sa propisima iz oblasti sigurnosti i zaštite zdravlja na radu?",
+    "options": [
+      "Samo radnik za zaštitu na radu",
+      "Poslodavac, odnosno radnik koji organizuje ili rukovodi procesom rada",
+      "Samo povjerenik za zaštitu na radu",
+      "Samo inspektor"
+    ],
+    "correct": [1],
+    "explanation": "Član 32. Zakona."
+  },
+  {
+    "id": "znr-045",
+    "law": "znr",
+    "article": "Član 8",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Kakva je uloga sindikata prema Zakonu o zaštiti na radu?",
+    "options": [
+      "Sindikat vrši inspekcijski nadzor",
+      "Sindikat učestvuje u uređivanju i unaprjeđivanju sigurnosti i zaštite zdravlja radnika na radu u skladu sa zakonom, propisima i kolektivnim ugovorom",
+      "Sindikat donosi interni akt o zaštiti na radu",
+      "Sindikat izdaje dozvole ovlaštenim organizacijama"
+    ],
+    "correct": [1],
+    "explanation": "Član 8. Zakona."
+  }
+]

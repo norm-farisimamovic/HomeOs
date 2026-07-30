@@ -1,0 +1,812 @@
+[
+  {
+    "id": "insp-096",
+    "law": "insp",
+    "article": "Član 114",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "Šta je inspektor obavezan sačiniti o svakom obavljenom inspekcijskom nadzoru?",
+    "options": [
+      "Službenu zabilješku",
+      "Zapisnik u kojem navodi činjenično stanje utvrđeno inspekcijskim nadzorom",
+      "Rješenje",
+      "Izvještaj glavnom inspektoru"
+    ],
+    "correct": [1],
+    "explanation": "Član 114. stav 1.; o manje važnim radnjama i u slučaju nemogućnosti izvršenja nadzora sačinjava se službena zabilješka (stav 2.)."
+  },
+  {
+    "id": "insp-097",
+    "law": "insp",
+    "article": "Član 114",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "Kako se postupa ako je inspekcijski nadzor istovremeno obavilo više inspektora iz različitih upravnih oblasti?",
+    "options": [
+      "Sačinjava se jedan zajednički zapisnik",
+      "Svaki kantonalni inspektor sačinjava poseban zapisnik",
+      "Zapisnik sačinjava glavni inspektor",
+      "Zapisnik se ne sačinjava"
+    ],
+    "correct": [1],
+    "explanation": "Član 114. stav 3.; svakom inspektoru se izdaje i pojedinačni nalog (član 91. stav 5.)."
+  },
+  {
+    "id": "insp-098",
+    "law": "insp",
+    "article": "Član 115",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "Gdje i kada se sačinjava zapisnik o inspekcijskom nadzoru?",
+    "options": [
+      "Uvijek u prostorijama Kantonalne uprave u roku od osam dana",
+      "Na licu mjesta i u toku obavljanja nadzora; u složenijem nadzoru može se sačiniti i završiti u službenim prostorijama Kantonalne uprave u roku od tri dana od dana završenog nadzora",
+      "U roku od 15 dana, u prostorijama subjekta nadzora",
+      "Zapisnik se ne mora sačiniti ako nema nepravilnosti"
+    ],
+    "correct": [1],
+    "explanation": "Član 115. st. 1. i 2. Zakona."
+  },
+  {
+    "id": "insp-099",
+    "law": "insp",
+    "article": "Član 116",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "U kojem roku se stavljaju primjedbe na zapisnik kada je zapisnik sačinjen naknadno ili dostavljen subjektu nadzora?",
+    "options": ["Odmah, bez roka", "U roku od tri dana od dana prijema zapisnika", "U roku od osam dana", "U roku od 15 dana"],
+    "correct": [1],
+    "explanation": "Član 116. stav 2.; ako se ne stave primjedbe ni izjava da ih nema, smatra se da nema primjedbi (stav 5.)."
+  },
+  {
+    "id": "insp-100",
+    "law": "insp",
+    "article": "Član 117",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "Kakvu dokaznu snagu ima zapisnik o inspekcijskom nadzoru?",
+    "options": ["Dokaznu snagu privatne isprave", "Dokaznu snagu javne isprave", "Nema dokaznu snagu", "Dokaznu snagu vještačenja"],
+    "correct": [1],
+    "explanation": "Član 117. Zakona."
+  },
+  {
+    "id": "insp-101",
+    "law": "insp",
+    "article": "Član 119",
+    "topic": "Zapisnik",
+    "type": "single",
+    "text": "Kako se postupa sa primjedbama na zapisnik o inspekcijskom nadzoru?",
+    "options": [
+      "O njima se odlučuje posebnim zaključkom",
+      "Inspektor ih razmatra i po potrebi upotpunjuje inspekcijske radnje; o njima se posebno ne odlučuje, već se cijene i obrazlažu u postupku donošenja upravnog akta",
+      "Odbacuju se ako su podnesene pismeno",
+      "Prosljeđuju se drugostepenom organu"
+    ],
+    "correct": [1],
+    "explanation": "Član 119. Zakona."
+  },
+  {
+    "id": "insp-102",
+    "law": "insp",
+    "article": "Član 120",
+    "topic": "Upravne mjere",
+    "type": "open",
+    "text": "Navedite najmanje šest upravnih mjera koje kantonalni inspektor rješenjem nalaže kad utvrdi da subjekt nadzora ne postupa u skladu sa propisima.",
+    "answer": "Narediti da se utvrđeni nedostaci, propusti i nepravilnosti otklone u propisanom roku; privremeno zabraniti djelatnost odnosno rad koji se obavlja suprotno propisima; privremeno zabraniti rad i oduzeti robu licu koje robu stavlja u promet bez odobrenja; privremeno oduzeti robu pribavljenu suprotno propisima; narediti preduzimanje mjera i radnji radi otklanjanja nepravilnosti; narediti uništavanje protivpravno nastale oduzete robe; zabraniti dalje radno angažovanje zatečenih lica bez regulisanog radno-pravnog statusa; privremeno oduzeti imovinu i novac odnosno staviti van upotrebe sredstva rada; naložiti isključivanje vozila iz saobraćaja; zabraniti pristup mjestu uviđaja; odmah zabraniti rad subjektu koji radi bez registracije ili odobrenja; narediti privremenu zabranu djelatnosti do ispunjenja propisanih uslova.",
+    "keywords": ["otklanjanje nedostataka u roku", "privremena zabrana djelatnosti", "oduzimanje robe", "uništavanje robe", "zabrana radnog angažovanja", "zabrana rada bez registracije"],
+    "explanation": "Član 120. tačke a)–m) Zakona."
+  },
+  {
+    "id": "insp-103",
+    "law": "insp",
+    "article": "Član 120",
+    "topic": "Upravne mjere",
+    "type": "single",
+    "text": "Šta će inspektor učiniti ako utvrdi da subjekt nadzora obavlja djelatnost bez registracije ili odobrenja nadležnog organa?",
+    "options": [
+      "Ostaviti rok od 30 dana za registraciju",
+      "Odmah zabraniti rad subjektu nadzora",
+      "Izreći samo novčanu kaznu",
+      "Obavijestiti registarski sud i sačekati odluku"
+    ],
+    "correct": [1],
+    "explanation": "Član 120. tačka k) Zakona."
+  },
+  {
+    "id": "insp-104",
+    "law": "insp",
+    "article": "Član 121",
+    "topic": "Upravne mjere",
+    "type": "single",
+    "text": "Kada i gdje se upravna mjera javno objavljuje?",
+    "options": [
+      "Uvijek, u Službenim novinama TK",
+      "Ako se objavom postiže potpunija svrha inspekcijskog nadzora — na oglasnoj tabli subjekta nadzora, u njegovom sjedištu, u javnim glasilima ili na drugi pogodan način",
+      "Nikada",
+      "Samo na web stranici Kantonalne uprave"
+    ],
+    "correct": [1],
+    "explanation": "Član 121. Zakona."
+  },
+  {
+    "id": "insp-105",
+    "law": "insp",
+    "article": "Član 122",
+    "topic": "Zabrana rada",
+    "type": "multi",
+    "text": "U kojim slučajevima kod zabrane rada žalba NE odlaže izvršenje rješenja? (više tačnih odgovora)",
+    "options": [
+      "Ako bi poslovanje subjekta nadzora dovelo u opasnost život i zdravlje ljudi, bilja i životinja ili izazvalo veću materijalnu štetu",
+      "Ako subjekt nadzora ne ispunjava uslove za obavljanje djelatnosti ili obavlja djelatnost bez odobrenja nadležnog organa",
+      "Ako bi nastavak rada ugrozio bezbjednost saobraćaja ili doveo do ugrožavanja javnog interesa",
+      "Ako subjekt nadzora nije platio upravnu taksu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 122. stav 2. tačke a)–e) Zakona."
+  },
+  {
+    "id": "insp-106",
+    "law": "insp",
+    "article": "Član 122",
+    "topic": "Zabrana rada",
+    "type": "single",
+    "text": "Od kada počinje teći zabrana rada?",
+    "options": ["Od dana donošenja rješenja", "Od dana uručenja rješenja subjektu nadzora", "Od dana konačnosti rješenja", "Od dana objave na oglasnoj tabli"],
+    "correct": [1],
+    "explanation": "Član 122. stav 1. Zakona."
+  },
+  {
+    "id": "insp-107",
+    "law": "insp",
+    "article": "Član 123",
+    "topic": "Pečaćenje",
+    "type": "single",
+    "text": "Šta inspektor čini kad je subjektu nadzora zabranjen rad?",
+    "options": [
+      "Ništa dodatno — dovoljno je rješenje",
+      "Pečaćenjem, otiskom pečata u pečatnom vosku ili na drugi odgovarajući način (natpis, traka) zatvara poslovne prostorije u kojima je zabranjen rad, o čemu sastavlja zapisnik",
+      "Oduzima svu opremu",
+      "Poziva policiju da zatvori objekat"
+    ],
+    "correct": [1],
+    "explanation": "Član 123. st. 1. i 3.; mjera se određuje u rješenju kojim je određena zabrana rada."
+  },
+  {
+    "id": "insp-108",
+    "law": "insp",
+    "article": "Član 124",
+    "topic": "Upravne mjere",
+    "type": "single",
+    "text": "Šta ako je subjektu nadzora nezakonitom radnjom drugog lica omogućeno da radi protivno propisima?",
+    "options": [
+      "Mjera se određuje samo subjektu nadzora",
+      "Inspektor će i tom licu odrediti upravnu mjeru da odmah ili u određenom roku otkloni svoje nezakonite radnje, a može preduzeti i druge upravne mjere kao prema subjektu nadzora",
+      "Protiv tog lica se podnosi samo krivična prijava",
+      "Ne poduzima se ništa"
+    ],
+    "correct": [1],
+    "explanation": "Član 124. Zakona."
+  },
+  {
+    "id": "insp-109",
+    "law": "insp",
+    "article": "Član 125",
+    "topic": "Usmena upravna mjera",
+    "type": "multi",
+    "text": "Kada inspektor usmeno određuje upravnu mjeru i naređuje da se odmah izvrši? (više tačnih odgovora)",
+    "options": [
+      "U slučajevima kada je to određeno posebnim propisima",
+      "Kada je, prema ocjeni inspektora, radi zaštite javnog interesa neophodno hitno preduzeti mjere na otklanjanju neposredne opasnosti po život i zdravlje ljudi ili nastanak veće materijalne štete",
+      "Kad subjekt nadzora nije prisutan",
+      "Uvijek pri prvom nadzoru"
+    ],
+    "correct": [0, 1],
+    "explanation": "Član 125. stav 1.; usmeno određene mjere unose se u zapisnik (stav 2.)."
+  },
+  {
+    "id": "insp-110",
+    "law": "insp",
+    "article": "Član 126",
+    "topic": "Usmena upravna mjera",
+    "type": "single",
+    "text": "U kojem roku inspektor donosi pismeno rješenje za usmeno naloženu upravnu mjeru?",
+    "options": ["U roku od 24 sata", "U roku od tri dana od dana usmeno naložene upravne mjere", "U roku od pet dana", "U roku od osam dana"],
+    "correct": [1],
+    "explanation": "Član 126.; usmeno naložena upravna mjera je odmah izvršna."
+  },
+  {
+    "id": "insp-111",
+    "law": "insp",
+    "article": "Član 127",
+    "topic": "Usmena upravna mjera",
+    "type": "single",
+    "text": "U kojem roku inspektor donosi pismeno rješenje ako je usmeno naložio zatvaranje poslovnog objekta odnosno drugog mjesta rada?",
+    "options": ["U roku od 24 sata od momenta usmeno naložene upravne mjere", "U roku od tri dana", "U roku od pet dana", "U roku od osam dana"],
+    "correct": [0],
+    "explanation": "Član 127. Zakona."
+  },
+  {
+    "id": "insp-112",
+    "law": "insp",
+    "article": "Član 128",
+    "topic": "Oduzimanje robe",
+    "type": "single",
+    "text": "Šta sadrži potvrda o privremenom oduzimanju robe ili predmeta?",
+    "options": [
+      "Samo naziv robe",
+      "Naziv robe ili predmeta, vrstu, količinu, jedinicu mjere, deklarisanu ili procijenjenu vrijednost, datum, vrijeme i mjesto oduzimanja, lice od kojeg su oduzeti i vlasnika",
+      "Samo procijenjenu vrijednost",
+      "Ime inspektora i broj naloga"
+    ],
+    "correct": [1],
+    "explanation": "Član 128. stav 3.; inspektor može odrediti vještaka za procjenu vrijednosti, stanja i kvaliteta."
+  },
+  {
+    "id": "insp-113",
+    "law": "insp",
+    "article": "Član 129",
+    "topic": "Oduzimanje robe",
+    "type": "single",
+    "text": "Kome se predaje roba ili predmeti privremeno oduzeti u inspekcijskom nadzoru?",
+    "options": [
+      "Nadležnom sudu",
+      "Kantonalnoj direkciji robnih rezervi, radi skladištenja, čuvanja i postupanja do i nakon pravosnažnog okončanja postupka",
+      "Ostaju kod subjekta nadzora u svakom slučaju",
+      "Kantonalnom ministarstvu finansija"
+    ],
+    "correct": [1],
+    "explanation": "Član 129. stav 1.; privremeno oduzeti novac predaje se u sudski depozit (stav 6.)."
+  },
+  {
+    "id": "insp-114",
+    "law": "insp",
+    "article": "Član 129",
+    "topic": "Oduzimanje robe",
+    "type": "single",
+    "text": "Kako se postupa sa privremeno oduzetom robom podložnom brzom kvarenju ili sa rokom upotrebe kraćim od 30 dana?",
+    "options": [
+      "Čuva se do okončanja postupka",
+      "Kantonalna direkcija je bez odlaganja prodaje, ustupa humanitarnim organizacijama ili socijalnim ustanovama ili uništava, o čemu odlučuje direktor Kantonalne direkcije",
+      "Vraća se subjektu nadzora",
+      "Uništava je inspektor odmah na licu mjesta"
+    ],
+    "correct": [1],
+    "explanation": "Član 129. stav 4.; sredstva od prodaje uplaćuju se na depozitni račun Budžeta Kantona."
+  },
+  {
+    "id": "insp-115",
+    "law": "insp",
+    "article": "Član 131",
+    "topic": "Oduzimanje i uništenje",
+    "type": "single",
+    "text": "Kakav je pravni lijek protiv rješenja o oduzimanju i uništenju robe ili predmeta?",
+    "options": [
+      "Žalba nije dozvoljena",
+      "Dozvoljena je žalba koja ne odlaže izvršenje rješenja, ukoliko posebnim propisom nije drugačije određeno",
+      "Dozvoljena je žalba koja odlaže izvršenje",
+      "Može se pokrenuti samo upravni spor"
+    ],
+    "correct": [1],
+    "explanation": "Član 131. stav 4.; troškove uništenja snosi subjekt nadzora od koga su roba ili predmeti oduzeti."
+  },
+  {
+    "id": "insp-116",
+    "law": "insp",
+    "article": "Član 133",
+    "topic": "Rješenje inspektora",
+    "type": "open",
+    "text": "Šta obavezno sadrži rješenje kantonalnog inspektora o upravnim mjerama?",
+    "answer": "Naziv Kantonalne uprave koja donosi rješenje; broj i datum rješenja; uvod (naziv inspekcije i odredbe propisa o nadležnosti); dispozitiv (naziv subjekta nadzora i kratko i određeno navođenje šta se naređuje ili zabranjuje, rok izvršenja, nalog da subjekt obavijesti inspektora o izvršenju i da žalba ne odlaže izvršenje ako je tako propisano); obrazloženje (nalog za nadzor, predmet i vrijeme pregleda, utvrđeno činjenično stanje, povrede materijalnog propisa, konstatacija o zapisniku i prigovorima, odredbe koje ovlašćuju inspektora na mjeru); uputstvo o pravnom lijeku; potpis inspektora i otisak pečata Kantonalne uprave.",
+    "keywords": ["naziv uprave broj i datum", "uvod", "dispozitiv i rok", "obrazloženje", "uputstvo o pravnom lijeku", "potpis i pečat"],
+    "explanation": "Član 133. st. 2–4. Zakona."
+  },
+  {
+    "id": "insp-117",
+    "law": "insp",
+    "article": "Član 136",
+    "topic": "Pravni lijekovi",
+    "type": "single",
+    "text": "U kojem roku se može izjaviti žalba na rješenje kantonalnog inspektora o naloženim upravnim mjerama?",
+    "options": ["U roku od tri dana", "U roku od osam dana od dana prijema rješenja", "U roku od 15 dana", "U roku od 30 dana"],
+    "correct": [1],
+    "explanation": "Član 136. stav 1. — ako ovim ili drugim zakonom nije drugačije određeno."
+  },
+  {
+    "id": "insp-118",
+    "law": "insp",
+    "article": "Član 136",
+    "topic": "Pravni lijekovi",
+    "type": "single",
+    "text": "Ko rješava o žalbi na rješenje kantonalnog inspektora doneseno po kantonalnim propisima?",
+    "options": [
+      "Direktor Kantonalne uprave",
+      "Nadležno kantonalno ministarstvo iz upravne oblasti na koju se odnosi inspekcijski nadzor, ako zakonom nije određen drugi organ",
+      "Vlada Kantona",
+      "Federalna uprava za inspekcijske poslove"
+    ],
+    "correct": [1],
+    "explanation": "Član 136. stav 2. Zakona."
+  },
+  {
+    "id": "insp-119",
+    "law": "insp",
+    "article": "Član 136",
+    "topic": "Pravni lijekovi",
+    "type": "single",
+    "text": "Kakvo je opšte pravilo o dejstvu žalbe na rješenje inspektora o upravnim mjerama?",
+    "options": [
+      "Žalba nikad ne odgađa izvršenje",
+      "Žalba odgađa izvršenje rješenja, ako ovim ili posebnim zakonom nije drugačije određeno",
+      "Žalba odgađa izvršenje samo kod zabrane rada",
+      "Žalba se podnosi bez suspenzivnog dejstva samo pravnim licima"
+    ],
+    "correct": [1],
+    "explanation": "Član 136. stav 3.; izuzetak je npr. mjera zabrane radnog angažovanja lica bez regulisanog statusa (stav 4.)."
+  },
+  {
+    "id": "insp-120",
+    "law": "insp",
+    "article": "Član 137",
+    "topic": "Pravni lijekovi",
+    "type": "single",
+    "text": "U kojem roku je drugostepeni organ dužan riješiti žalbu na rješenje i zaključak kantonalnog inspektora?",
+    "options": ["U roku od 15 dana", "U roku od 30 dana od dana predaje žalbe, ako posebnim propisom nije određen kraći rok", "U roku od 60 dana", "Bez određenog roka"],
+    "correct": [1],
+    "explanation": "Član 137. Zakona."
+  },
+  {
+    "id": "insp-121",
+    "law": "insp",
+    "article": "Član 138",
+    "topic": "Pravni lijekovi",
+    "type": "single",
+    "text": "Šta se može pokrenuti protiv rješenja kantonalnog ministarstva donesenog po žalbi?",
+    "options": [
+      "Nova žalba Vladi Kantona",
+      "Upravni spor pred nadležnim sudom, u skladu sa posebnim zakonom",
+      "Prigovor direktoru Kantonalne uprave",
+      "Ništa — rješenje je pravosnažno"
+    ],
+    "correct": [1],
+    "explanation": "Član 138. Zakona."
+  },
+  {
+    "id": "insp-122",
+    "law": "insp",
+    "article": "Član 140",
+    "topic": "Izvršenje mjera",
+    "type": "single",
+    "text": "U kojem roku je subjekt nadzora dužan obavijestiti inspektora o izvršenju upravne mjere?",
+    "options": [
+      "Odmah u pismenom obliku, a najkasnije u roku od tri dana nakon što je rješenje postalo izvršno",
+      "U roku od osam dana",
+      "U roku od 15 dana",
+      "Nema obavezu obavještavanja"
+    ],
+    "correct": [0],
+    "explanation": "Član 140. stav 1.; obavijest se može i usmeno saopštiti na zapisnik u Kantonalnoj upravi."
+  },
+  {
+    "id": "insp-123",
+    "law": "insp",
+    "article": "Član 141",
+    "topic": "Izvršenje mjera",
+    "type": "single",
+    "text": "U kojem roku od nastupanja izvršnosti rješenja je inspektor dužan izvršiti kontrolni inspekcijski pregled?",
+    "options": ["U roku od 15 dana", "U roku od 30 dana", "U roku od 60 dana", "U roku od 90 dana"],
+    "correct": [2],
+    "explanation": "Član 141. stav 3. — potpuno samostalno i bez naloga za inspekcijski nadzor; u izuzetnim situacijama rok može biti produžen."
+  },
+  {
+    "id": "insp-124",
+    "law": "insp",
+    "article": "Član 142",
+    "topic": "Izvršenje mjera",
+    "type": "multi",
+    "text": "Koji uslovi moraju biti ispunjeni da bi se produžio rok izvršenja upravne mjere? (više tačnih odgovora)",
+    "options": [
+      "Subjekt nadzora ima dokaz o registraciji i dozvolu za rad, a mjera se odnosi na otklanjanje drugih propusta",
+      "Subjekt nadzora je započeo sa izvršenjem upravne mjere",
+      "Subjekt nadzora je podnio zahtjev za produženje prije isteka roka za izvršenje",
+      "Subjekt nadzora je platio novčanu kaznu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 142. stav 2. tačke a)–d) Zakona."
+  },
+  {
+    "id": "insp-125",
+    "law": "insp",
+    "article": "Član 142",
+    "topic": "Izvršenje mjera",
+    "type": "single",
+    "text": "Do koliko dana se može produžiti rok za izvršenje upravne mjere i kakav je pravni lijek?",
+    "options": [
+      "Do 15 dana; dopuštena je žalba",
+      "Do 30 dana; o zahtjevu odlučuje inspektor koji je donio rješenje zaključkom protiv kojeg se ne može izjaviti žalba",
+      "Do 60 dana; dopuštena je žalba",
+      "Rok se ne može produžiti"
+    ],
+    "correct": [1],
+    "explanation": "Član 142. stav 3. Zakona."
+  },
+  {
+    "id": "insp-126",
+    "law": "insp",
+    "article": "Član 143",
+    "topic": "Izvršenje mjera",
+    "type": "single",
+    "text": "Pod kojim uslovima se može odgoditi izvršenje konačnog rješenja o zabrani rada?",
+    "options": [
+      "Uvijek na zahtjev subjekta nadzora",
+      "Ako je protiv rješenja pokrenut upravni spor i ako bi izvršenje nanijelo subjektu nadzora štetu koja bi se kasnije teško mogla popraviti, a odlaganje nije protivno javnom interesu",
+      "Samo uz saglasnost ministarstva",
+      "Nikada"
+    ],
+    "correct": [1],
+    "explanation": "Član 143. stav 1.; o zahtjevu inspektor donosi rješenje u roku od tri dana od prijema zahtjeva."
+  },
+  {
+    "id": "insp-127",
+    "law": "insp",
+    "article": "Član 144",
+    "topic": "Prisilno izvršenje",
+    "type": "single",
+    "text": "Kada je inspektor dužan donijeti zaključak o dozvoli prisilnog izvršenja rješenja?",
+    "options": [
+      "Odmah po donošenju rješenja",
+      "Odmah po isteku roka za izvršenje kad utvrdi da upravne mjere nisu izvršene, a najkasnije u roku od pet dana od proteka roka za kontrolni pregled",
+      "U roku od 30 dana",
+      "Tek nakon pravosnažnosti rješenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 144. st. 1. i 2. Zakona."
+  },
+  {
+    "id": "insp-128",
+    "law": "insp",
+    "article": "Član 145",
+    "topic": "Prisilno izvršenje",
+    "type": "single",
+    "text": "Kakav je pravni lijek protiv zaključka o prisilnom izvršenju i kada postaje izvršan?",
+    "options": [
+      "Dopuštena je žalba; izvršan je nakon konačnosti",
+      "Nije dozvoljena žalba; postaje izvršan dostavljanjem subjektu nadzora",
+      "Dopuštena je žalba u roku od tri dana; ne odlaže izvršenje",
+      "Može se pokrenuti upravni spor"
+    ],
+    "correct": [1],
+    "explanation": "Član 145. stav 1. Zakona."
+  },
+  {
+    "id": "insp-129",
+    "law": "insp",
+    "article": "Član 145",
+    "topic": "Prisilno izvršenje",
+    "type": "single",
+    "text": "Kako se određuje rok prisilnog izvršenja?",
+    "options": [
+      "Bez ograničenja",
+      "Tako da se sa izvršenjem počne najkasnije tri dana nakon uručenja zaključka subjektu nadzora i da se izvrši najdalje u roku od 15 dana od dana donošenja zaključka",
+      "Da se počne odmah i završi u roku od 30 dana",
+      "Da se izvrši u roku od 60 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 145. stav 5.; ako je neophodno radi zaštite javnog interesa, izvršenje se može provesti i praznikom, nedjeljom i noću."
+  },
+  {
+    "id": "insp-130",
+    "law": "insp",
+    "article": "Član 146",
+    "topic": "Prisilno izvršenje",
+    "type": "single",
+    "text": "Kad se upravna mjera izvršava putem drugog lica, na čiji trošak se to čini?",
+    "options": [
+      "Na trošak Kantonalne uprave",
+      "Na trošak subjekta nadzora; inspektor mu posebnim zaključkom može odrediti da položi novčani iznos na račun budžeta Kantona na ime troškova",
+      "Troškove snosi izvršilac",
+      "Troškove dijele subjekt nadzora i uprava"
+    ],
+    "correct": [1],
+    "explanation": "Član 146. st. 1. i 3. Zakona."
+  },
+  {
+    "id": "insp-131",
+    "law": "insp",
+    "article": "Član 148",
+    "topic": "Prisilno izvršenje",
+    "type": "single",
+    "text": "Koliki je iznos novčane kazne radi prisiljavanja na izvršenje upravne mjere ako iznos nije određen posebnim propisom?",
+    "options": [
+      "Za fizičko lice 100–500 KM, za pravno lice 500–2.000 KM",
+      "Za fizičko lice 500,00–3.000,00 KM, a za pravno lice 2.000,00–10.000,00 KM",
+      "Za fizičko lice 1.000–5.000 KM, za pravno lice 5.000–15.000 KM",
+      "Jedinstveno 1.000 KM"
+    ],
+    "correct": [1],
+    "explanation": "Član 148. stav 3. Zakona."
+  },
+  {
+    "id": "insp-132",
+    "law": "insp",
+    "article": "Član 149",
+    "topic": "Prisilno izvršenje",
+    "type": "single",
+    "text": "U kojem roku se plaća novčana kazna izrečena zaključkom radi prisiljavanja na izvršenje?",
+    "options": ["U roku od tri dana", "U roku od pet dana od dana prijema zaključka", "U roku od osam dana", "U roku od 15 dana"],
+    "correct": [1],
+    "explanation": "Član 149. stav 2.; protiv zaključka nije dozvoljena žalba, a uplata se vrši na račun Budžeta Kantona."
+  },
+  {
+    "id": "insp-133",
+    "law": "insp",
+    "article": "Član 150",
+    "topic": "Prisilno izvršenje",
+    "type": "single",
+    "text": "Kakva mora biti neposredna fizička prisila pri izvršenju upravne mjere?",
+    "options": [
+      "Najstroža moguća",
+      "Primjerena predmetu izvršenja i srazmjerna otporu izvršenja, a provodi se na način određen zaključkom o dozvoli izvršenja",
+      "Isključivo uz asistenciju policije",
+      "Prisila nije dopuštena"
+    ],
+    "correct": [1],
+    "explanation": "Član 150. st. 2. i 3. Zakona."
+  },
+  {
+    "id": "insp-134",
+    "law": "insp",
+    "article": "Član 153",
+    "topic": "Prisilno izvršenje",
+    "type": "single",
+    "text": "Zbog čega se započeto izvršenje rješenja o upravnoj mjeri može prekinuti?",
+    "options": [
+      "Zbog bilo kojeg zahtjeva subjekta nadzora",
+      "Samo zbog posebnih okolnosti izazvanih višom silom, a nastavlja se čim one prestanu",
+      "Zbog isteka radnog vremena",
+      "Zbog podnesene žalbe"
+    ],
+    "correct": [1],
+    "explanation": "Član 153. stav 1.; ako se izvršenje ne može nastaviti istog dana, donosi se zaključak protiv kojeg nije dopuštena žalba."
+  },
+  {
+    "id": "insp-135",
+    "law": "insp",
+    "article": "Član 154",
+    "topic": "Prisilno izvršenje",
+    "type": "multi",
+    "text": "Kada će inspektor obustaviti postupak prisilnog izvršenja? (više tačnih odgovora)",
+    "options": [
+      "Ako je obaveza subjekta nadzora već izvršena",
+      "Ako je izvršenje nemoguće zbog objektivne okolnosti ili se provodi prema licu koje nije u obavezi",
+      "Ako je upravni akt na osnovu kojeg je donesen zaključak o izvršenju poništen odnosno ukinut",
+      "Ako subjekt nadzora podnese žalbu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 154. stav 1.; o obustavi se donosi zaključak protiv kojeg nije dopuštena žalba."
+  },
+  {
+    "id": "insp-136",
+    "law": "insp",
+    "article": "Član 155",
+    "topic": "Izvršenje radi obezbjeđenja",
+    "type": "single",
+    "text": "Kakav je pravni lijek protiv zaključka o izvršenju upravne mjere radi obezbjeđenja?",
+    "options": [
+      "Žalba nije dopuštena",
+      "Žalba u roku od tri dana od dana uručenja, koja ne odlaže izvršenje rješenja",
+      "Žalba u roku od osam dana, koja odlaže izvršenje",
+      "Samo upravni spor"
+    ],
+    "correct": [1],
+    "explanation": "Član 155. stav 4. Zakona."
+  },
+  {
+    "id": "insp-137",
+    "law": "insp",
+    "article": "Član 157",
+    "topic": "Dostava pismena",
+    "type": "single",
+    "text": "Kada se smatra da je izvršena dostava pismena putem pošte na adresu iz sudskog registra odnosno registra prebivališta?",
+    "options": [
+      "Danom predaje na poštu",
+      "Po isteku pet radnih dana od dana predaje pismena na poštu",
+      "Po isteku osam dana",
+      "Danom prijema potvrđenim potpisom"
+    ],
+    "correct": [1],
+    "explanation": "Član 157. stav 2. Zakona."
+  },
+  {
+    "id": "insp-138",
+    "law": "insp",
+    "article": "Član 158",
+    "topic": "Dostava pismena",
+    "type": "single",
+    "text": "Kada se smatra da je pismeno predano subjektu nadzora ako je istaknuto na oglasnoj tabli Kantonalne uprave?",
+    "options": ["Odmah po isticanju", "Istekom tri dana od dana isticanja", "Istekom osam dana", "Istekom 15 dana"],
+    "correct": [1],
+    "explanation": "Član 158. stav 2.; o tome inspektor sastavlja službenu zabilješku i ulaže je u spis."
+  },
+  {
+    "id": "insp-139",
+    "law": "insp",
+    "article": "Član 160",
+    "topic": "Odnosi između inspekcija",
+    "type": "single",
+    "text": "U kojem roku se mora postupiti po zahtjevu inspekcije za stručnu pomoć od strane druge inspekcije?",
+    "options": [
+      "U roku od tri dana",
+      "Najkasnije u roku od sedam dana od dana prijema zahtjeva — takvi zahtjevi smatraju se hitnim",
+      "U roku od 15 dana",
+      "U roku od 30 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 160. stav 2. Zakona."
+  },
+  {
+    "id": "insp-140",
+    "law": "insp",
+    "article": "Član 161",
+    "topic": "Odnosi između inspekcija",
+    "type": "single",
+    "text": "Kako se postupa kad kantonalna inspekcija utvrdi da je potrebno hitno izvršiti nadzor iz nadležnosti prenesene na opštinu odnosno grad?",
+    "options": [
+      "Kantonalni inspektor sam vrši nadzor bez ikakvih formalnosti",
+      "Glavni kantonalni inspektor ili direktor Kantonalne uprave pismeno nalaže opštinskoj odnosno gradskoj inspekciji da izvrši nadzor i preduzme upravne mjere te o tome obavijesti nalogodavca",
+      "Predmet se ustupa Federalnoj upravi",
+      "Postupak se obustavlja"
+    ],
+    "correct": [1],
+    "explanation": "Član 161. Zakona."
+  },
+  {
+    "id": "insp-141",
+    "law": "insp",
+    "article": "Član 164",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koji je raspon novčane kazne za prekršaj pravnog lica iz člana 164. Zakona?",
+    "options": [
+      "Od 1.000,00 do 5.000,00 KM",
+      "Od 4.000,00 KM do 15.000,00 KM",
+      "Od 2.000,00 do 10.000,00 KM",
+      "Od 500,00 do 3.000,00 KM"
+    ],
+    "correct": [1],
+    "explanation": "Član 164. stav 1. Zakona."
+  },
+  {
+    "id": "insp-142",
+    "law": "insp",
+    "article": "Član 164",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Kolika je novčana kazna za odgovorno lice u pravnom licu za prekršaje iz člana 164. Zakona?",
+    "options": [
+      "Od 500,00 do 1.000,00 KM",
+      "Od 1.000,00 KM do 2.000,00 KM",
+      "Od 2.000,00 do 3.000,00 KM",
+      "Od 100,00 do 1.000,00 KM"
+    ],
+    "correct": [1],
+    "explanation": "Član 164. stav 2.; za odgovorno fizičko lice 1.000,00–1.500,00 KM (stav 3.)."
+  },
+  {
+    "id": "insp-143",
+    "law": "insp",
+    "article": "Član 164",
+    "topic": "Kaznene odredbe",
+    "type": "multi",
+    "text": "Koje od navedenih radnji predstavljaju prekršaj iz člana 164. Zakona? (više tačnih odgovora)",
+    "options": [
+      "Onemogućavanje ili znatno otežavanje inspektoru vršenja inspekcijskog nadzora",
+      "Neizvršenje upravne mjere u roku i na način koji je inspektor naredio",
+      "Neobavještavanje inspektora o izvršenju upravne mjere u ostavljenom roku",
+      "Podnošenje žalbe na rješenje inspektora"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 164. stav 1. tačke b), i) i j); žalba je zakonom zagarantovano pravo."
+  },
+  {
+    "id": "insp-144",
+    "law": "insp",
+    "article": "Član 165",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Ko se još kažnjava novčanom kaznom iz člana 164. stav 3. Zakona?",
+    "options": [
+      "Samo odgovorno lice u pravnom licu",
+      "Lice koje je subjekt nadzora odredio da učestvuje u inspekcijskim radnjama ako inspektoru da lažnu prijavu ili lažne podatke, kao i svako drugo lice koje sprečava ili otežava inspektoru vršenje nadzora",
+      "Isključivo vlasnik subjekta nadzora",
+      "Prevodilac"
+    ],
+    "correct": [1],
+    "explanation": "Član 165. st. 2. i 4. Zakona."
+  },
+  {
+    "id": "insp-145",
+    "law": "insp",
+    "article": "Član 168 i 169",
+    "topic": "Prelazne odredbe",
+    "type": "single",
+    "text": "Kako se okončavaju inspekcijski postupci započeti prije stupanja na snagu ovog zakona i kako se izvršavaju ranija izvršna rješenja?",
+    "options": [
+      "Svi se okončavaju po novom zakonu",
+      "Postupci se završavaju po propisima po kojima su započeti, a neizvršena rješenja koja su postala izvršna prije stupanja na snagu izvršavaju se po propisima koji su važili na dan izvršnosti, ukoliko je to povoljnije za subjekta nadzora",
+      "Postupci se obustavljaju",
+      "Postupci se prenose na Federalnu upravu"
+    ],
+    "correct": [1],
+    "explanation": "Čl. 168. i 169. Zakona."
+  },
+  {
+    "id": "insp-146",
+    "law": "insp",
+    "article": "Član 174 i 175",
+    "topic": "Prelazne odredbe",
+    "type": "single",
+    "text": "Koji propis prestaje da važi danom stupanja na snagu ovog zakona i kada zakon stupa na snagu?",
+    "options": [
+      "Zakon o upravnom postupku FBiH; danom objavljivanja",
+      "Zakon o inspekcijama Tuzlanskog kantona - prečišćeni tekst (\"Sl. novine TK\", br. 10/12, 13/15 i 9/16); zakon stupa na snagu osmog dana od dana objavljivanja u \"Službenim novinama TK\"",
+      "Zakon o državnoj službi u TK; 15. dana od objavljivanja",
+      "Nijedan propis ne prestaje da važi"
+    ],
+    "correct": [1],
+    "explanation": "Čl. 174. i 175. Zakona."
+  },
+  {
+    "id": "insp-147",
+    "law": "insp",
+    "article": "Član 166",
+    "topic": "Prelazne odredbe",
+    "type": "single",
+    "text": "U kojem roku je Kantonalna uprava bila dužna donijeti novi pravilnik o unutrašnjoj organizaciji nakon stupanja na snagu zakona?",
+    "options": ["U roku od 15 dana", "U roku od 30 dana", "U roku od 60 dana", "U roku od 90 dana"],
+    "correct": [1],
+    "explanation": "Član 166. stav 1.; žalba na rješenja o postavljenju iz stava 2. ne odlaže njihovo izvršenje."
+  },
+  {
+    "id": "insp-148",
+    "law": "insp",
+    "article": "Član 163",
+    "topic": "Sredstva za rad",
+    "type": "single",
+    "text": "Iz čega se obezbjeđuju sredstva za rad Kantonalne uprave?",
+    "options": ["Iz naplaćenih kazni", "Iz Budžeta Kantona", "Iz naknada subjekata nadzora", "Iz Budžeta Federacije"],
+    "correct": [1],
+    "explanation": "Član 163. Zakona."
+  },
+  {
+    "id": "insp-149",
+    "law": "insp",
+    "article": "Član 162",
+    "topic": "Saradnja",
+    "type": "single",
+    "text": "Šta je inspektor dužan učiniti ako prilikom nadzora uoči nejasnoće i nedostatke u primjeni propisa nad kojima vrši nadzor?",
+    "options": [
+      "Ništa — primjenjuje propis kakav jeste",
+      "Obavijestiti nadležni organ",
+      "Obustaviti nadzor",
+      "Obavijestiti subjekta nadzora da propis nije primjenjiv"
+    ],
+    "correct": [1],
+    "explanation": "Član 162. stav 2. Zakona."
+  },
+  {
+    "id": "insp-150",
+    "law": "insp",
+    "article": "Član 139",
+    "topic": "Izvršenje mjera",
+    "type": "single",
+    "text": "Koju obavezu ima subjekt nadzora u pogledu rješenja kantonalnog inspektora?",
+    "options": [
+      "Da se izjasni o rješenju",
+      "Da postupi po rješenju i izvrši upravnu mjeru koja mu je naložena, u roku utvrđenom u rješenju",
+      "Da rješenje proslijedi svom advokatu",
+      "Da rješenje objavi na oglasnoj tabli"
+    ],
+    "correct": [1],
+    "explanation": "Član 139. Zakona."
+  }
+]

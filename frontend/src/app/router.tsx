@@ -23,6 +23,7 @@ import { LifeAdminPage } from '@/apps/life/LifeAdminPage'
 import { ShoppingPage } from '@/apps/shopping/ShoppingPage'
 import { ChatPage } from '@/apps/chat/ChatPage'
 import { AssistantPage } from '@/apps/assistant/AssistantPage'
+import { ExamsPage } from '@/apps/exams/ExamsPage'
 import { ReportsPage } from '@/app/pages/ReportsPage'
 import { AutomationsPage } from '@/apps/automations/AutomationsPage'
 import { HouseholdPage } from '@/apps/household/HouseholdPage'
@@ -58,6 +59,7 @@ export const router = createBrowserRouter([
       { path: 'shopping', element: <ShoppingPage /> },
       { path: 'chat', element: <ChatPage /> },
       { path: 'assistant', element: <AssistantPage /> },
+      { path: 'exams', element: <ExamsPage /> },
       { path: 'automations', element: <AutomationsPage /> },
       { path: 'reports', element: <ReportsPage /> },
       { path: 'apps', element: <AppsPage /> },

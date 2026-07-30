@@ -1,0 +1,762 @@
+[
+  {
+    "id": "zup-101",
+    "law": "zup",
+    "article": "Član 101",
+    "topic": "Povrat u pređašnje stanje",
+    "type": "open",
+    "text": "U kojim slučajevima se stranci dozvoljava povrat u pređašnje stanje?",
+    "answer": "Kad je iz opravdanih razloga propustila da u roku izvrši neku radnju postupka pa je zbog toga isključena od vršenja te radnje; kad je iz neznanja ili očiglednom omaškom podnesak pravovremeno poslala poštom ili predala nenadležnom organu; i kad je očiglednom omaškom prekoračila rok, ali je podnesak nadležni organ primio najkasnije tri dana poslije isteka roka, ako bi stranka zbog zakašnjenja izgubila neko pravo. Povrat se dozvoljava po prijedlogu stranke.",
+    "keywords": ["opravdani razlozi", "propustila radnju u roku", "nenadležnom organu", "tri dana", "po prijedlogu stranke"],
+    "explanation": "Član 101. st. 1–3. ZUP-a."
+  },
+  {
+    "id": "zup-102",
+    "law": "zup",
+    "article": "Član 103",
+    "topic": "Povrat u pređašnje stanje",
+    "type": "single",
+    "text": "U kojem roku se podnosi prijedlog za povrat u pređašnje stanje?",
+    "options": [
+      "U roku od 8 dana od dana kad je prestao razlog koji je prouzrokovao propuštanje, odnosno od saznanja za propuštanje",
+      "U roku od 15 dana od propuštanja",
+      "U roku od 30 dana",
+      "U roku od 3 dana"
+    ],
+    "correct": [0],
+    "explanation": "Član 103. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-103",
+    "law": "zup",
+    "article": "Član 103",
+    "topic": "Povrat u pređašnje stanje",
+    "type": "single",
+    "text": "Koji je krajnji (objektivni) rok poslije kojeg se povrat u pređašnje stanje više ne može tražiti?",
+    "options": ["Jedan mjesec od propuštanja", "Tri mjeseca od dana propuštanja", "Šest mjeseci od propuštanja", "Godinu dana od propuštanja"],
+    "correct": [1],
+    "explanation": "Član 103. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-104",
+    "law": "zup",
+    "article": "Član 104",
+    "topic": "Povrat u pređašnje stanje",
+    "type": "single",
+    "text": "Kome se podnosi prijedlog za povrat u pređašnje stanje i ko o njemu odlučuje?",
+    "options": [
+      "Drugostepenom organu, koji o njemu odlučuje rješenjem",
+      "Organu kod kojeg je trebalo izvršiti propuštenu radnju, koji o njemu odlučuje zaključkom",
+      "Sudu, koji odlučuje presudom",
+      "Rukovodiocu organa, koji odlučuje naredbom"
+    ],
+    "correct": [1],
+    "explanation": "Član 104. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-105",
+    "law": "zup",
+    "article": "Član 106",
+    "topic": "Povrat u pređašnje stanje",
+    "type": "single",
+    "text": "Kad je povrat u pređašnje stanje dozvoljen:",
+    "options": [
+      "Postupak počinje iznova od podnošenja zahtjeva",
+      "Postupak se vraća u ono stanje u kojem se nalazio prije propuštanja, a poništavaju se sva rješenja i zaključci doneseni u vezi s propuštanjem",
+      "Postupak se obustavlja",
+      "Rješenje ostaje na snazi"
+    ],
+    "correct": [1],
+    "explanation": "Član 106. stav 2. ZUP-a; sam prijedlog ne zaustavlja tok postupka (stav 1.)."
+  },
+  {
+    "id": "zup-106",
+    "law": "zup",
+    "article": "Član 107",
+    "topic": "Održavanje reda",
+    "type": "single",
+    "text": "Ko se stara o održavanju reda pri radu u postupku?",
+    "options": ["Stranka", "Službena osoba koja rukovodi radnjom postupka", "Rukovodilac organa", "Policijski službenik"],
+    "correct": [1],
+    "explanation": "Član 107. stav 1.; osoba koja prisustvuje radnji ne smije nositi oružje ili opasno oruđe (stav 3.)."
+  },
+  {
+    "id": "zup-107",
+    "law": "zup",
+    "article": "Član 108",
+    "topic": "Održavanje reda",
+    "type": "single",
+    "text": "Osoba koja učestvuje u radnji postupka može biti udaljena:",
+    "options": [
+      "Odmah, bez upozorenja",
+      "Tek pošto je prethodno bila opomenuta da će biti udaljena i pošto su joj predočene pravne posljedice takve mjere",
+      "Samo uz saglasnost stranke",
+      "Samo odlukom suda"
+    ],
+    "correct": [1],
+    "explanation": "Član 108. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-108",
+    "law": "zup",
+    "article": "Član 110",
+    "topic": "Održavanje reda",
+    "type": "single",
+    "text": "Žalba protiv zaključka o novčanoj kazni zbog narušavanja reda:",
+    "options": [
+      "Odgađa izvršenje kazne",
+      "Ne odgađa izvršenje te kazne",
+      "Nije dopuštena",
+      "Podnosi se sudu"
+    ],
+    "correct": [1],
+    "explanation": "Član 110. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-109",
+    "law": "zup",
+    "article": "Član 111",
+    "topic": "Troškovi postupka",
+    "type": "single",
+    "text": "Kad je postupak pokrenut po službenoj dužnosti okončan povoljno po stranku, troškove postupka snosi:",
+    "options": ["Stranka", "Organ koji je postupak pokrenuo", "Protivna stranka", "Budžet kantona"],
+    "correct": [1],
+    "explanation": "Član 111. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-110",
+    "law": "zup",
+    "article": "Član 112",
+    "topic": "Troškovi postupka",
+    "type": "single",
+    "text": "Do kada mora biti stavljen zahtjev za naknadu troškova da stranka ne bi izgubila pravo na naknadu?",
+    "options": [
+      "U roku od 15 dana po okončanju postupka",
+      "Prije donošenja rješenja kojim se rješava upravna stvar, na vrijeme da organ o njemu može odlučiti u rješenju",
+      "Zajedno sa žalbom",
+      "Bilo kada do pravosnažnosti"
+    ],
+    "correct": [1],
+    "explanation": "Član 112. stav 4.; službena osoba dužna je blagovremeno upozoriti stranku na to."
+  },
+  {
+    "id": "zup-111",
+    "law": "zup",
+    "article": "Član 112",
+    "topic": "Troškovi postupka",
+    "type": "single",
+    "text": "Troškovi za pravno zastupanje naknađuju se:",
+    "options": [
+      "Uvijek u punom iznosu",
+      "Samo u slučajevima kad je takvo zastupanje bilo nužno i opravdano",
+      "Nikada",
+      "Samo ako je zastupnik advokat"
+    ],
+    "correct": [1],
+    "explanation": "Član 112. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-112",
+    "law": "zup",
+    "article": "Član 113",
+    "topic": "Troškovi postupka",
+    "type": "single",
+    "text": "Troškove postupka u vezi s izvršenjem snosi:",
+    "options": [
+      "Organ koji provodi izvršenje",
+      "Izvršenik; ako se od njega ne mogu naplatiti — stranka po čijem je prijedlogu izvršenje provedeno",
+      "Uvijek stranka koja je predložila izvršenje",
+      "Budžet Federacije"
+    ],
+    "correct": [1],
+    "explanation": "Član 113. ZUP-a."
+  },
+  {
+    "id": "zup-113",
+    "law": "zup",
+    "article": "Član 115",
+    "topic": "Troškovi postupka",
+    "type": "single",
+    "text": "Ako organ u rješenju ne odluči o troškovima:",
+    "options": [
+      "Troškovi se ne naplaćuju",
+      "Navest će se da će se o troškovima donijeti poseban zaključak",
+      "Rješenje je ništavo",
+      "Odlučit će drugostepeni organ"
+    ],
+    "correct": [1],
+    "explanation": "Član 115. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-114",
+    "law": "zup",
+    "article": "Član 116",
+    "topic": "Troškovi postupka",
+    "type": "single",
+    "text": "Kada su svjedoci, vještaci i tumači dužni postaviti zahtjev za naknadu odnosno nagradu?",
+    "options": [
+      "U roku od 8 dana po obavljenoj radnji",
+      "Pri saslušanju, tumačenju odnosno davanju mišljenja — inače gube to pravo",
+      "Zajedno sa žalbom na rješenje",
+      "Bilo kada do okončanja postupka"
+    ],
+    "correct": [1],
+    "explanation": "Član 116. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-115",
+    "law": "zup",
+    "article": "Član 118",
+    "topic": "Troškovi postupka",
+    "type": "single",
+    "text": "Pod kojim uslovom organ može osloboditi stranku snošenja troškova?",
+    "options": [
+      "Ako je stranka nezaposlena",
+      "Ako utvrdi da ona ne može podnijeti troškove bez štete po nužno izdržavanje sebe i svoje porodice, na osnovu uvjerenja o imovnom stanju",
+      "Ako je postupak trajao duže od godinu dana",
+      "Ako se stranka odrekne prava na žalbu"
+    ],
+    "correct": [1],
+    "explanation": "Član 118. stav 1.; strani državljani se oslobađaju samo pod uslovom reciprociteta (stav 3.)."
+  },
+  {
+    "id": "zup-116",
+    "law": "zup",
+    "article": "Član 121",
+    "topic": "Pokretanje postupka",
+    "type": "single",
+    "text": "Upravni postupak pokreće:",
+    "options": [
+      "Isključivo stranka",
+      "Nadležni organ po službenoj dužnosti ili povodom zahtjeva stranke",
+      "Isključivo nadležni organ po službenoj dužnosti",
+      "Drugostepeni organ"
+    ],
+    "correct": [1],
+    "explanation": "Član 121. ZUP-a."
+  },
+  {
+    "id": "zup-117",
+    "law": "zup",
+    "article": "Član 122",
+    "topic": "Pokretanje postupka",
+    "type": "single",
+    "text": "Nadležni organ pokrenut će postupak po službenoj dužnosti:",
+    "options": [
+      "Kad to zatraži bilo koji građanin",
+      "Kad to određuje zakon ili na zakonu zasnovan propis, ili kad utvrdi/sazna da radi zaštite javnog interesa treba pokrenuti postupak",
+      "Uvijek kad primi predstavku",
+      "Samo po nalogu drugostepenog organa"
+    ],
+    "correct": [1],
+    "explanation": "Član 122. stav 1.; pritom uzima u obzir i predstavke građana i pravnih lica i upozorenja organa (stav 2.)."
+  },
+  {
+    "id": "zup-118",
+    "law": "zup",
+    "article": "Član 123",
+    "topic": "Pokretanje postupka",
+    "type": "single",
+    "text": "Kada se smatra da je upravni postupak pokrenut?",
+    "options": [
+      "Danom donošenja rješenja",
+      "Čim je nadležni organ izvršio bilo koju radnju radi vođenja postupka",
+      "Danom prijema zahtjeva u pisarnici",
+      "Danom zakazivanja usmene rasprave"
+    ],
+    "correct": [1],
+    "explanation": "Član 123. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-119",
+    "law": "zup",
+    "article": "Član 125",
+    "topic": "Pokretanje postupka",
+    "type": "single",
+    "text": "Pod kojim uslovima se može voditi jedan postupak o pravima i obavezama više stranaka (spajanje stvari)?",
+    "options": [
+      "Uvijek kad stranke to zatraže",
+      "Ako se prava ili obaveze zasnivaju na istom ili sličnom činjeničnom stanju i na istom pravnom osnovu, a organ je stvarno nadležan za sve predmete",
+      "Samo ako stranke imaju zajedničkog punomoćnika",
+      "Samo u drugostepenom postupku"
+    ],
+    "correct": [1],
+    "explanation": "Član 125. stav 1.; o tome se donosi poseban zaključak protiv kojeg se može izjaviti žalba."
+  },
+  {
+    "id": "zup-120",
+    "law": "zup",
+    "article": "Član 128",
+    "topic": "Zahtjevi stranaka",
+    "type": "single",
+    "text": "Do kada stranka može proširiti ili izmijeniti stavljeni zahtjev?",
+    "options": [
+      "Do zakazivanja usmene rasprave",
+      "Do donošenja rješenja u prvom stepenu, pod uslovom da se zahtjev zasniva na bitno istom činjeničnom stanju",
+      "Do isteka roka za žalbu",
+      "Zahtjev se nikada ne može mijenjati"
+    ],
+    "correct": [1],
+    "explanation": "Član 128. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-121",
+    "law": "zup",
+    "article": "Član 129",
+    "topic": "Zahtjevi stranaka",
+    "type": "single",
+    "text": "Kad stranka odustane od zahtjeva na osnovu kojeg je postupak pokrenut, organ će:",
+    "options": [
+      "Donijeti rješenje o odbijanju zahtjeva",
+      "Donijeti zaključak kojim se postupak obustavlja, a o tome obavijestiti protivnu stranku ako je ima",
+      "Nastaviti postupak u svakom slučaju",
+      "Ustupiti predmet drugostepenom organu"
+    ],
+    "correct": [1],
+    "explanation": "Član 129. stav 2.; postupak će se produžiti ako je to potrebno u javnom interesu ili to zahtijeva protivna stranka (stav 3.)."
+  },
+  {
+    "id": "zup-122",
+    "law": "zup",
+    "article": "Član 130",
+    "topic": "Zahtjevi stranaka",
+    "type": "single",
+    "text": "Do kada stranka može opozvati svoj odustanak od zahtjeva?",
+    "options": [
+      "Ne može ga opozvati",
+      "Dok organ ne donese zaključak o obustavljanju postupka i ne dostavi ga stranci",
+      "U roku od 8 dana od odustanka",
+      "Do pravosnažnosti rješenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 130. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-123",
+    "law": "zup",
+    "article": "Član 131",
+    "topic": "Zahtjevi stranaka",
+    "type": "single",
+    "text": "Stranka koja je odustala od zahtjeva dužna je:",
+    "options": [
+      "Platiti novčanu kaznu",
+      "Snositi sve troškove koji su nastali do obustavljanja postupka, osim ako posebnim propisom nije drugačije određeno",
+      "Naknaditi štetu organu",
+      "Ne snosi nikakve troškove"
+    ],
+    "correct": [1],
+    "explanation": "Član 131. ZUP-a."
+  },
+  {
+    "id": "zup-124",
+    "law": "zup",
+    "article": "Član 132",
+    "topic": "Poravnanje",
+    "type": "open",
+    "text": "Koji uslovi moraju biti ispunjeni da bi poravnanje bilo valjano i kakvu snagu ima zaključeno poravnanje?",
+    "answer": "Poravnanje mora biti jasno i određeno i ne smije biti na štetu javnog interesa, javnog morala ili pravnog interesa trećih osoba, na šta službena osoba pazi po službenoj dužnosti. Upisuje se u zapisnik i zaključeno je kad stranke poslije pročitanog zapisnika potpišu zapisnik. Poravnanje ima snagu izvršnog rješenja donesenog u upravnom postupku.",
+    "keywords": ["jasno i određeno", "javni interes javni moral", "treće osobe", "zapisnik potpis", "snaga izvršnog rješenja"],
+    "explanation": "Član 132. st. 2–4. ZUP-a."
+  },
+  {
+    "id": "zup-125",
+    "law": "zup",
+    "article": "Član 133",
+    "topic": "Postupak do donošenja rješenja",
+    "type": "single",
+    "text": "Utvrđivanje činjenica i omogućavanje strankama da zaštite svoja prava prije donošenja rješenja može se izvršiti:",
+    "options": [
+      "Samo u posebnom ispitnom postupku",
+      "U skraćenom postupku ili u posebnom ispitnom postupku",
+      "Samo na usmenoj raspravi",
+      "Isključivo pisanim putem"
+    ],
+    "correct": [1],
+    "explanation": "Član 133. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-126",
+    "law": "zup",
+    "article": "Član 134",
+    "topic": "Postupak do donošenja rješenja",
+    "type": "single",
+    "text": "Podatke o činjenicama o kojima se vodi službena evidencija:",
+    "options": [
+      "Dužna je pribaviti stranka",
+      "Službena osoba obavezna je pribaviti po službenoj dužnosti — i kad evidenciju vodi drugi organ ili pravno lice",
+      "Pribavlja se samo na zahtjev stranke uz naknadu",
+      "Ne mogu se koristiti kao dokaz"
+    ],
+    "correct": [1],
+    "explanation": "Član 134. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-127",
+    "law": "zup",
+    "article": "Član 135",
+    "topic": "Postupak do donošenja rješenja",
+    "type": "single",
+    "text": "Ako stranka nije u naknadno određenom roku podnijela dokaze, organ:",
+    "options": [
+      "Odbacit će zahtjev kao da nije podnesen",
+      "Dužan je nastaviti postupak i riješiti upravnu stvar u skladu s pravilima postupka i materijalnim propisom",
+      "Obustavit će postupak",
+      "Donijeti rješenje kojim zahtjev odbija bez ispitivanja"
+    ],
+    "correct": [1],
+    "explanation": "Član 135. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-128",
+    "law": "zup",
+    "article": "Član 136",
+    "topic": "Postupak do donošenja rješenja",
+    "type": "single",
+    "text": "Može li stranka dati izjavu putem platforme za video komunikaciju?",
+    "options": [
+      "Ne, izjava mora biti usmena pred službenom osobom ili pismena",
+      "Da, ukoliko postoje tehničke mogućnosti",
+      "Da, ali samo u drugostepenom postupku",
+      "Samo uz saglasnost svih stranaka"
+    ],
+    "correct": [1],
+    "explanation": "Član 136. stav 2. ZUP-a (novina iz izmjena 61/22)."
+  },
+  {
+    "id": "zup-129",
+    "law": "zup",
+    "article": "Član 137",
+    "topic": "Postupak do donošenja rješenja",
+    "type": "single",
+    "text": "Ako se u toku postupka pojavi osoba koja zahtijeva da učestvuje kao stranka, službena osoba će:",
+    "options": [
+      "Automatski je primiti u postupak",
+      "Ispitati njeno pravo da bude stranka i o tome donijeti zaključak; protiv zaključka kojim se to svojstvo ne priznaje dopuštena je posebna žalba",
+      "Odbiti zahtjev bez akta",
+      "Uputiti je na sud"
+    ],
+    "correct": [1],
+    "explanation": "Član 137. ZUP-a."
+  },
+  {
+    "id": "zup-130",
+    "law": "zup",
+    "article": "Član 139",
+    "topic": "Skraćeni postupak",
+    "type": "multi",
+    "text": "U kojim slučajevima organ može po skraćenom postupku riješiti stvar neposredno? (više tačnih odgovora)",
+    "options": [
+      "Ako je stranka u zahtjevu navela činjenice ili podnijela dokaze na osnovu kojih se može utvrditi stanje stvari, ili se ono može utvrditi na osnovu općepoznatih ili organu poznatih činjenica",
+      "Ako se stanje stvari može utvrditi na osnovu službenih podataka kojima organ raspolaže, a nije potrebno posebno saslušanje stranke",
+      "Kad je riječ o poduzimanju u javnom interesu hitnih mjera koje se ne mogu odgađati, a činjenice su utvrđene ili bar učinjene vjerovatnim",
+      "Kad u postupku učestvuju dvije stranke sa suprotnim interesima"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 139. stav 1. tačke 1–4.; sukob interesa dviju stranaka upravo nalaže usmenu raspravu (član 147.)."
+  },
+  {
+    "id": "zup-131",
+    "law": "zup",
+    "article": "Član 140",
+    "topic": "Ispitni postupak",
+    "type": "single",
+    "text": "Kada se provodi poseban ispitni postupak?",
+    "options": [
+      "Uvijek prije donošenja rješenja",
+      "Kad je to potrebno radi utvrđivanja činjenica i okolnosti značajnih za razjašnjenje stvari ili radi davanja strankama mogućnosti da ostvare i zaštite svoja prava",
+      "Samo po nalogu drugostepenog organa",
+      "Samo kad to zatraži stranka"
+    ],
+    "correct": [1],
+    "explanation": "Član 140. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-132",
+    "law": "zup",
+    "article": "Član 141",
+    "topic": "Ispitni postupak",
+    "type": "single",
+    "text": "Nadležni organ ne može donijeti rješenje:",
+    "options": [
+      "Prije isteka roka od 30 dana",
+      "Prije nego što stranci pruži mogućnost da se izjasni o činjenicama i okolnostima na kojima rješenje treba da se zasniva, a o kojima joj nije bila data mogućnost da se izjasni",
+      "Bez saglasnosti drugostepenog organa",
+      "Bez usmene rasprave"
+    ],
+    "correct": [1],
+    "explanation": "Član 141. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-133",
+    "law": "zup",
+    "article": "Član 142",
+    "topic": "Prethodno pitanje",
+    "type": "open",
+    "text": "Šta je prethodno pitanje i kako organ postupa kad na njega naiđe?",
+    "answer": "Prethodno pitanje je pitanje bez čijeg se rješenja ne može riješiti sama upravna stvar, a koje čini samostalnu pravnu cjelinu za čije je rješavanje nadležan sud ili drugi organ. Organ ga može sam raspraviti ili prekinuti postupak dok ga nadležni organ ne riješi; o prekidu se donosi zaključak protiv kojeg je dopuštena posebna žalba (osim ako ga je donio drugostepeni organ). Ako ga organ sam raspravi, to rješenje ima pravno djelovanje samo u toj stvari.",
+    "keywords": ["samostalna pravna cjelina", "nadležan sud ili drugi organ", "sam raspraviti ili prekinuti postupak", "djelovanje samo u toj stvari"],
+    "explanation": "Član 142. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-134",
+    "law": "zup",
+    "article": "Član 143",
+    "topic": "Prethodno pitanje",
+    "type": "multi",
+    "text": "Kada organ MORA prekinuti postupak zbog prethodnog pitanja? (više tačnih odgovora)",
+    "options": [
+      "Kad se prethodno pitanje odnosi na postojanje krivičnog djela",
+      "Kad se odnosi na postojanje braka",
+      "Kad se odnosi na utvrđivanje očinstva",
+      "Kad se odnosi na visinu troškova postupka"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 143. stav 1. — obavezni prekid; ili kad je to zakonom određeno."
+  },
+  {
+    "id": "zup-135",
+    "law": "zup",
+    "article": "Član 142",
+    "topic": "Prethodno pitanje",
+    "type": "single",
+    "text": "U pitanju postojanja krivičnog djela i krivične odgovornosti učinioca organ koji vodi postupak:",
+    "options": [
+      "Nije vezan sudskom odlukom",
+      "Vezan je pravomoćnom presudom krivičnog suda kojom je optuženi oglašen krivim",
+      "Vezan je samo optužnicom",
+      "Sam utvrđuje krivicu"
+    ],
+    "correct": [1],
+    "explanation": "Član 142. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-136",
+    "law": "zup",
+    "article": "Član 147",
+    "topic": "Usmena rasprava",
+    "type": "multi",
+    "text": "Kada službena osoba MORA odrediti usmenu raspravu? (više tačnih odgovora)",
+    "options": [
+      "U stvarima u kojima učestvuju dvije ili više stranaka s protivnim interesima",
+      "Kad se ima izvršiti uviđaj ili saslušanje svjedoka ili vještaka",
+      "Kad se stvar rješava po skraćenom postupku",
+      "Kad je zahtjev stranke nepotpun"
+    ],
+    "correct": [0, 1],
+    "explanation": "Član 147. stav 1. tačke 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-137",
+    "law": "zup",
+    "article": "Član 148",
+    "topic": "Usmena rasprava",
+    "type": "multi",
+    "text": "Iz kojih razloga se može isključiti javnost sa usmene rasprave? (više tačnih odgovora)",
+    "options": [
+      "Razlozi morala ili javne sigurnosti",
+      "Ozbiljna i neposredna opasnost ometanja usmene rasprave",
+      "Raspravlja se o odnosima u nekoj obitelji ili o službenoj, poslovnoj, profesionalnoj, naučnoj ili umjetničkoj tajni",
+      "Rasprava traje duže od predviđenog"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 148. stav 2.; pri priopćavanju rješenja javnost se ne može isključiti (stav 5.)."
+  },
+  {
+    "id": "zup-138",
+    "law": "zup",
+    "article": "Član 148",
+    "topic": "Usmena rasprava",
+    "type": "single",
+    "text": "Šta vrijedi za isključenje javnosti?",
+    "options": [
+      "Odlučuje se rješenjem koje se ne objavljuje",
+      "O isključenju javnosti donosi se zaključak koji mora biti obrazložen i javno objavljen",
+      "Odlučuje rukovodilac organa bez akta",
+      "Javnost se ne može isključiti ni u kom slučaju"
+    ],
+    "correct": [1],
+    "explanation": "Član 148. stav 4.; isključenje se ne odnosi na stranke, punomoćnike i stručne pomagače (član 149.)."
+  },
+  {
+    "id": "zup-139",
+    "law": "zup",
+    "article": "Član 150",
+    "topic": "Usmena rasprava",
+    "type": "single",
+    "text": "Koliko vremena se, po pravilu, ostavlja pozvanim osobama od dostavljanja poziva do dana usmene rasprave?",
+    "options": ["Tri dana", "Osam dana", "Petnaest dana", "Trideset dana"],
+    "correct": [1],
+    "explanation": "Član 150. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-140",
+    "law": "zup",
+    "article": "Član 153",
+    "topic": "Usmena rasprava",
+    "type": "single",
+    "text": "Gdje se, po pravilu, održava usmena rasprava?",
+    "options": [
+      "U sjedištu organa koji vodi postupak",
+      "U mjestu prebivališta stranke",
+      "Uvijek na mjestu uviđaja",
+      "U sjedištu drugostepenog organa"
+    ],
+    "correct": [0],
+    "explanation": "Član 153. ZUP-a; može i na mjestu uviđaja ili drugom mjestu radi smanjenja troškova ili bržeg raspravljanja."
+  },
+  {
+    "id": "zup-141",
+    "law": "zup",
+    "article": "Član 154",
+    "topic": "Usmena rasprava",
+    "type": "single",
+    "text": "Ako na usmenu raspravu ne dođe uredno pozvana stranka po čijem je zahtjevu postupak pokrenut, a može se pretpostaviti da je zahtjev povukla:",
+    "options": [
+      "Rasprava se odgađa",
+      "Službena osoba obustavit će postupak, a protiv zaključka je dopuštena posebna žalba",
+      "Donosi se rješenje o odbijanju zahtjeva",
+      "Rasprava se održava bez stranke u svakom slučaju"
+    ],
+    "correct": [1],
+    "explanation": "Član 154. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-142",
+    "law": "zup",
+    "article": "Član 155",
+    "topic": "Usmena rasprava",
+    "type": "single",
+    "text": "Ako prisutna stranka, i pored upozorenja na posljedice, ne stavi primjedbu na rad obavljen na raspravi:",
+    "options": [
+      "Rasprava se ponavlja",
+      "Smatrat će se da nema primjedbi",
+      "Rasprava je ništava",
+      "Organ mora zatražiti izjašnjenje pisanim putem"
+    ],
+    "correct": [1],
+    "explanation": "Član 155. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-143",
+    "law": "zup",
+    "article": "Član 157",
+    "topic": "Dokazivanje",
+    "type": "multi",
+    "text": "Koja se dokazna sredstva navode u ZUP-u? (više tačnih odgovora)",
+    "options": ["Isprave (uključujući mikrofilmsku kopiju i njenu reprodukciju)", "Svjedoci i izjava stranke", "Vještaci i uviđaj", "Anonimna prijava"],
+    "correct": [0, 1, 2],
+    "explanation": "Član 157. stav 2. — kao dokazno sredstvo upotrijebit će se sve što je podesno za utvrđivanje stanja stvari."
+  },
+  {
+    "id": "zup-144",
+    "law": "zup",
+    "article": "Član 158",
+    "topic": "Dokazivanje",
+    "type": "single",
+    "text": "Koje činjenice ne treba dokazivati?",
+    "options": [
+      "Činjenice koje stranka tvrdi",
+      "Općepoznate činjenice i činjenice čije postojanje zakon pretpostavlja (uz dopuštenost dokazivanja njihovog nepostojanja)",
+      "Činjenice iz javnih isprava",
+      "Nijedne — sve se mora dokazati"
+    ],
+    "correct": [1],
+    "explanation": "Član 158. st. 2. i 3. ZUP-a."
+  },
+  {
+    "id": "zup-145",
+    "law": "zup",
+    "article": "Član 158",
+    "topic": "Dokazivanje",
+    "type": "single",
+    "text": "Smije li se od stranke zahtijevati da pribavlja uvjerenja o činjenicama o kojima organi vode službenu evidenciju?",
+    "options": [
+      "Da, uvijek",
+      "Ne smije — ti podaci se pribavljaju po službenoj dužnosti",
+      "Da, ako je evidenciju vodi drugi organ",
+      "Samo ako stranka na to pristane"
+    ],
+    "correct": [1],
+    "explanation": "Član 158. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-146",
+    "law": "zup",
+    "article": "Član 159",
+    "topic": "Dokazivanje",
+    "type": "single",
+    "text": "Ako je dokazivanje pred organom koji vodi postupak neizvodljivo ili skopčano s nesrazmjernim troškovima:",
+    "options": [
+      "Dokazivanje se izostavlja",
+      "Dokazivanje ili pojedini dokazi mogu se izvoditi pred zamoljenim organom",
+      "Postupak se obustavlja",
+      "Teret dokazivanja prelazi na stranku"
+    ],
+    "correct": [1],
+    "explanation": "Član 159. ZUP-a."
+  },
+  {
+    "id": "zup-147",
+    "law": "zup",
+    "article": "Član 161",
+    "topic": "Dokazivanje",
+    "type": "single",
+    "text": "Ako organu nije poznato pravo koje važi u stranoj državi:",
+    "options": [
+      "Postupak se obustavlja",
+      "Može se obavijestiti kod federalnog organa uprave nadležnog za poslove pravosuđa i uprave, a od stranke može zatražiti javnu ispravu inozemnog organa",
+      "Primjenjuje se domaće pravo bez izuzetka",
+      "Traži se mišljenje suda"
+    ],
+    "correct": [1],
+    "explanation": "Član 161. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-148",
+    "law": "zup",
+    "article": "Član 114",
+    "topic": "Troškovi postupka",
+    "type": "single",
+    "text": "Ako stranka ne položi unaprijed određeni iznos za pokriće predvidivih troškova, organ:",
+    "options": [
+      "Mora nastaviti postupak u svakom slučaju",
+      "Može odustati od izvođenja tih dokaza ili obustaviti postupak, osim ako se postupak mora nastaviti zbog javnog interesa",
+      "Odbija zahtjev rješenjem",
+      "Naplaćuje iznos prinudnim putem"
+    ],
+    "correct": [1],
+    "explanation": "Član 114. ZUP-a."
+  },
+  {
+    "id": "zup-149",
+    "law": "zup",
+    "article": "Član 126",
+    "topic": "Pokretanje postupka",
+    "type": "single",
+    "text": "Kada nadležni organ može javnim priopćenjem pokrenuti upravni postupak?",
+    "options": [
+      "Uvijek kad ima više stranaka",
+      "Prema većem broju osoba koje organu nisu poznate ili se ne mogu odrediti, ako je riječ o bitno istom zahtjevu prema svim tim osobama",
+      "Kad stranke to zatraže",
+      "Samo u postupku izvršenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 126. ZUP-a."
+  },
+  {
+    "id": "zup-150",
+    "law": "zup",
+    "article": "Član 105",
+    "topic": "Povrat u pređašnje stanje",
+    "type": "single",
+    "text": "Protiv zaključka kojim je odbijen prijedlog za povrat u pređašnje stanje:",
+    "options": [
+      "Žalba nikada nije dopuštena",
+      "Dopuštena je posebna žalba samo ako je zaključak donio prvostepeni organ",
+      "Dopuštena je žalba u svakom slučaju",
+      "Može se pokrenuti upravni spor"
+    ],
+    "correct": [1],
+    "explanation": "Član 105. stav 2. ZUP-a."
+  }
+]

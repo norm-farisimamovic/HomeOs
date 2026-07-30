@@ -4,7 +4,7 @@ import { NavLink, Outlet, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import {
   Archive, Bell, Blocks, Calendar, CheckSquare, Home, Kanban, LogOut, Mail, Menu, MessageCircle,
-  FileBarChart, Moon, ScrollText, Search, Settings, ShoppingCart, Sparkles, StickyNote, Sun, User, Users, Wallet, X, Zap,
+  FileBarChart, GraduationCap, Moon, ScrollText, Search, Settings, ShoppingCart, Sparkles, StickyNote, Sun, User, Users, Wallet, X, Zap,
 } from 'lucide-react'
 import { useUiStore } from '@/platform/ui/uiStore'
 import { useLogout, useMe } from '@/platform/auth/useAuth'
@@ -44,6 +44,7 @@ const NAV: NavEntry[] = [
   { to: '/finance', labelKey: 'nav.finance', icon: Wallet, hue: 'var(--m-finance)', appId: 'finance' },
   { to: '/life', labelKey: 'nav.life', icon: Archive, hue: 'var(--m-life)', appId: 'life' },
   { to: '/shopping', labelKey: 'nav.shopping', icon: ShoppingCart, hue: 'var(--m-life)', appId: 'shopping' },
+  { to: '/exams', labelKey: 'nav.exams', icon: GraduationCap, hue: 'var(--m-exams)', appId: 'exams' },
   { to: '/chat', labelKey: 'nav.chat', icon: MessageCircle, hue: 'var(--m-boards)', appId: 'chat', group: 'household' },
   { to: '/assistant', labelKey: 'nav.assistant', icon: Sparkles, hue: 'var(--brand)' },
   { to: '/household', labelKey: 'nav.household', icon: Users, hue: 'var(--text-3)' },

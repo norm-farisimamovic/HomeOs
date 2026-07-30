@@ -26,7 +26,8 @@
     "shopping": "Shopping",
     "chat": "Chat",
     "assistant": "Assistant",
-    "reports": "Reports"
+    "reports": "Reports",
+    "exams": "Exam prep"
   },
   "dashboard": {
     "morning": "Good morning, {{name}}",
@@ -674,7 +675,8 @@
       "life": "Documents, warranties, renewals and key contacts.",
       "automations": "\"When this happens, do that\" rules.",
       "shopping": "Shared household lists (shopping, planning).",
-      "chat": "Live chat between household members."
+      "chat": "Live chat between household members.",
+      "exams": "Professional exam practice — questions from the law, grading and study mode."
     }
   },
   "recurrence": {
@@ -814,5 +816,112 @@
       "title": "Tasks",
       "desc": "All tasks — assignee, due dates, priorities and status."
     }
+  },
+  "exams": {
+    "title": "Professional exam prep",
+    "sub": "Practise questions from the law, write your answers and get a grade at the end.",
+    "tab": {
+      "exam": "Exam",
+      "study": "Study",
+      "history": "History"
+    },
+    "pickLaws": "Choose the laws",
+    "bankSize": "{{n}} questions",
+    "lawCounts": "{{total}} questions · {{choice}} multiple-choice · {{open}} written",
+    "allHint": "Pick nothing and questions are drawn from every law.",
+    "length": "Number of questions",
+    "availableQuestions": "Available for this selection: {{n}}",
+    "modeHint": {
+      "mixed": "A mix of multiple-choice and written questions.",
+      "choice": "Only multiple-choice questions (one or several correct).",
+      "open": "Only questions answered in your own words."
+    },
+    "type": {
+      "single": "One correct",
+      "multi": "Several correct",
+      "open": "Written"
+    },
+    "points": "{{n}} point(s)",
+    "aiOn": "Written answers are marked by an AI examiner — on meaning, not exact wording.",
+    "aiOff": "Written answers are marked on key terms (no AI key configured).",
+    "passHint": "Pass mark is {{percent}}% and above. Graded on the local 1–5 scale.",
+    "begin": "Start the exam",
+    "noQuestions": "No questions match that combination.",
+    "questionOf": "Question {{n}} of {{total}}",
+    "answeredOf": "Answered {{answered}}/{{total}}",
+    "goToQuestion": "Go to question {{n}}",
+    "prev": "Back",
+    "next": "Next",
+    "finish": "Hand in and mark",
+    "marking": "Marking…",
+    "finishTitle": "Hand in the paper?",
+    "finishMsg": "Answers can't be changed once it's handed in.",
+    "finishBlank": "{{n}} questions are still blank. Hand in anyway?",
+    "leave": "Leave",
+    "leaveTitle": "Leave this exam?",
+    "leaveMsg": "It stays in your history and you can come back to it later.",
+    "writePlaceholder": "Write your answer in your own words…",
+    "openHint": "It doesn't have to be word for word — the substance and key terms are what count.",
+    "multiHint": "Tick every correct answer.",
+    "result": {
+      "score": "Score",
+      "passed": "Passed",
+      "failed": "Not passed",
+      "points": "{{earned}} of {{max}} points",
+      "correct": "{{correct}} of {{total}} correct",
+      "again": "New exam",
+      "review": "Answer review",
+      "gotPoints": "{{points}}/{{max}}",
+      "yourAnswer": "Your answer",
+      "modelAnswer": "Model answer",
+      "examiner": "Examiner's note",
+      "note": "Note",
+      "blank": "(left blank)",
+      "correctTag": "Correct",
+      "yoursTag": "Your pick"
+    },
+    "grade": {
+      "1": "fail",
+      "2": "sufficient",
+      "3": "good",
+      "4": "very good",
+      "5": "excellent"
+    },
+    "allLaws": "All laws",
+    "searchPlaceholder": "Search by term, article or answer…",
+    "showing": "{{shown}}/{{total}}",
+    "study": {
+      "emptyTitle": "No questions for this filter",
+      "emptySub": "Try another law or search term.",
+      "pick": "Revision — questions and answers",
+      "allHint": "Pick one law, several to mix them, or none for every law.",
+      "showAnswers": "Show answers",
+      "hideAnswers": "Hide answers",
+      "reveal": "Reveal the answer",
+      "more": "Show more"
+    },
+    "history": {
+      "emptyTitle": "No exams taken yet",
+      "emptySub": "Your first result will show up here.",
+      "questions": "{{n}} questions",
+      "unfinished": "In progress",
+      "deleteTitle": "Delete this exam?",
+      "deleteMsg": "The result will be permanently removed."
+    },
+    "widget": {
+      "practice": "Practise",
+      "lastScore": "Last score: {{percent}}%",
+      "empty": "{{n}} exam questions are waiting — take your first practice paper."
+    },
+    "modeLabel": "Question mix",
+    "mode": {
+      "mixed": "Mixed",
+      "choice": "Multiple choice",
+      "open": "Written"
+    },
+    "customCount": "or type",
+    "cappedTo": "For this selection the paper will hold {{n}} questions.",
+    "localMarking": "Multiple-choice questions are checked locally — the correct answers ship with the app, no internet and no AI.",
+    "aiScope": "The AI is only used for questions you answer in your own words."
   }
 }

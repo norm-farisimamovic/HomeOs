@@ -1,0 +1,767 @@
+[
+  {
+    "id": "ds-096",
+    "law": "ds",
+    "article": "Član 59",
+    "topic": "Disciplinska odgovornost",
+    "type": "single",
+    "text": "Kako se dijele povrede službene dužnosti?",
+    "options": ["Na lakše i teže", "Na lake i teške", "Na formalne i materijalne", "Na namjerne i nehatne"],
+    "correct": [1],
+    "explanation": "Član 59. stav 2.; službenik odgovara disciplinski za povrede nastale kao rezultat njegove krivice."
+  },
+  {
+    "id": "ds-097",
+    "law": "ds",
+    "article": "Član 59",
+    "topic": "Disciplinska odgovornost",
+    "type": "multi",
+    "text": "Koje od navedenih spadaju u LAKE povrede službene dužnosti? (više tačnih odgovora)",
+    "options": [
+      "Neopravdano kašnjenje na posao ili raniji odlazak s posla bez odobrenja, mjesečno najviše dva puta",
+      "Napuštanje posla u toku radnog vremena bez odobrenja ili iz neopravdanih razloga",
+      "Neuredno čuvanje spisa, podataka ili druge povjerene dokumentacije",
+      "Odavanje državne i službene tajne"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 59. stav 3.; odavanje tajne je teška povreda (stav 4. tačka b)."
+  },
+  {
+    "id": "ds-098",
+    "law": "ds",
+    "article": "Član 59",
+    "topic": "Disciplinska odgovornost",
+    "type": "open",
+    "text": "Navedite najmanje šest teških povreda službene dužnosti državnog službenika.",
+    "answer": "Izvršenje radnji koje predstavljaju krivično djelo protiv službene dužnosti ili drugo krivično djelo odnosno prekršaj kojim se nanosi šteta ugledu državne službe; odavanje državne i službene tajne; zloupotreba i prekoračenje službenih ovlaštenja; neizvršavanje ili nesavjesno, neblagovremeno i nemarno vršenje povjerenih poslova; ponašanje kojim se onemogućava ili otežava građanima ostvarivanje prava; obnašanje položaja ili bavljenje aktivnostima nespojivim sa dužnostima državnog službenika; prouzrokovanje veće materijalne štete namjerno ili iz krajnje nepažnje; kašnjenje na posao više od dva puta mjesečno; neopravdan izostanak dva dana uzastopno ili do pet dana s prekidima tokom 30 dana; odbijanje izvršenja poslova bez opravdanih razloga; neprimjereno ponašanje prema građanima i saradnicima; učestalo vršenje lakih povreda; širenje neistinitih informacija o organu putem društvenih mreža i medija.",
+    "keywords": ["krivično djelo protiv službene dužnosti", "odavanje tajne", "zloupotreba ovlaštenja", "nesavjesno vršenje poslova", "veća materijalna šteta", "neopravdan izostanak", "odbijanje izvršenja poslova", "učestale lake povrede"],
+    "explanation": "Član 59. stav 4. tačke a)–n) Zakona."
+  },
+  {
+    "id": "ds-099",
+    "law": "ds",
+    "article": "Član 59",
+    "topic": "Disciplinska odgovornost",
+    "type": "single",
+    "text": "Koliki neopravdan izostanak s posla predstavlja tešku povredu službene dužnosti?",
+    "options": [
+      "Jedan dan",
+      "Dva dana uzastopno ili do pet dana sa prekidima tokom 30 dana",
+      "Tri dana uzastopno",
+      "Pet dana uzastopno"
+    ],
+    "correct": [1],
+    "explanation": "Član 59. stav 4. tačka i) Zakona."
+  },
+  {
+    "id": "ds-100",
+    "law": "ds",
+    "article": "Član 59",
+    "topic": "Disciplinska odgovornost",
+    "type": "single",
+    "text": "Isključuje li odgovornost za krivično djelo ili prekršaj disciplinsku odgovornost državnog službenika?",
+    "options": [
+      "Isključuje u svakom slučaju",
+      "Ne isključuje, pod uslovom da takvo djelo istovremeno predstavlja povredu službene dužnosti",
+      "Isključuje samo kod prekršaja",
+      "Isključuje samo kod krivičnog djela"
+    ],
+    "correct": [1],
+    "explanation": "Član 59. stav 5. Zakona."
+  },
+  {
+    "id": "ds-101",
+    "law": "ds",
+    "article": "Član 60",
+    "topic": "Disciplinske mjere",
+    "type": "multi",
+    "text": "Koje se disciplinske mjere i kazne mogu izreći za LAKE povrede službene dužnosti? (više tačnih odgovora)",
+    "options": [
+      "Opomena",
+      "Pismena opomena",
+      "Umanjenje osnovne plate do 10% za period do tri mjeseca",
+      "Prestanak radnog odnosa u državnoj službi"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 60. stav 1. tačka a); prestanak radnog odnosa je kazna za tešku povredu."
+  },
+  {
+    "id": "ds-102",
+    "law": "ds",
+    "article": "Član 60",
+    "topic": "Disciplinske mjere",
+    "type": "open",
+    "text": "Koje se disciplinske mjere i kazne mogu izreći za teške povrede službene dužnosti?",
+    "answer": "Suspenzija prava učešća na internom oglasu i javnom konkursu za državne službenike u periodu od najviše dvije godine; umanjenje osnovne plate državnog službenika do 30% za period do šest mjeseci; premještaj na niže radno mjesto iz člana 10. Zakona, ako postoji upražnjeno radno mjesto; prestanak radnog odnosa u državnoj službi.",
+    "keywords": ["suspenzija prava učešća dvije godine", "umanjenje plate do 30% do šest mjeseci", "premještaj na niže radno mjesto", "prestanak radnog odnosa"],
+    "explanation": "Član 60. stav 1. tačka b) Zakona."
+  },
+  {
+    "id": "ds-103",
+    "law": "ds",
+    "article": "Član 60",
+    "topic": "Disciplinske mjere",
+    "type": "single",
+    "text": "Za koliki period se može izreći umanjenje osnovne plate do 30% zbog teške povrede službene dužnosti?",
+    "options": ["Do tri mjeseca", "Do šest mjeseci", "Do godinu dana", "Do dvije godine"],
+    "correct": [1],
+    "explanation": "Član 60. stav 1. tačka b) podtačka 2. Zakona."
+  },
+  {
+    "id": "ds-104",
+    "law": "ds",
+    "article": "Član 61",
+    "topic": "Disciplinski postupak",
+    "type": "single",
+    "text": "Ko provodi disciplinski postupak i izriče mjere za LAKU, a ko za TEŠKU povredu službene dužnosti?",
+    "options": [
+      "Oba postupka vodi disciplinska komisija",
+      "Za laku povredu rukovodilac organa državne službe, a za tešku povredu disciplinska komisija",
+      "Za laku povredu Agencija, za tešku rukovodilac organa",
+      "Oba postupka vodi rukovodilac organa"
+    ],
+    "correct": [1],
+    "explanation": "Član 61. st. 3. i 4.; disciplinski postupak je hitan (stav 2.)."
+  },
+  {
+    "id": "ds-105",
+    "law": "ds",
+    "article": "Član 61",
+    "topic": "Disciplinski postupak",
+    "type": "single",
+    "text": "Ko pokreće disciplinski postupak protiv državnog službenika?",
+    "options": [
+      "Agencija za državnu službu",
+      "Rukovodilac organa državne službe, samoinicijativno ili po prijavi",
+      "Sindikat",
+      "Disciplinska komisija"
+    ],
+    "correct": [1],
+    "explanation": "Član 61. stav 1. Zakona."
+  },
+  {
+    "id": "ds-106",
+    "law": "ds",
+    "article": "Član 62",
+    "topic": "Disciplinska komisija",
+    "type": "single",
+    "text": "Ko imenuje i razrješava predsjednika i članove disciplinske komisije i na koji period?",
+    "options": [
+      "Rukovodilac organa, na dvije godine",
+      "Vlada, gradonačelnik odnosno načelnik, na period od jedne godine",
+      "Agencija, na četiri godine",
+      "Odbor za žalbe, na dvije godine"
+    ],
+    "correct": [1],
+    "explanation": "Član 62. stav 2. Zakona."
+  },
+  {
+    "id": "ds-107",
+    "law": "ds",
+    "article": "Član 62",
+    "topic": "Disciplinska komisija",
+    "type": "single",
+    "text": "Koliko članova ima disciplinska komisija i ko predlaže jednog od njih?",
+    "options": [
+      "Tri člana; sve predlaže rukovodilac organa",
+      "Najmanje tri člana i, prema potrebi, isto toliko zamjenika, od kojih se jedan član i jedan zamjenik imenuju na prijedlog sindikata",
+      "Pet članova; jednog predlaže Agencija",
+      "Dva člana; oba predlaže Vlada"
+    ],
+    "correct": [1],
+    "explanation": "Član 62. stav 3. Zakona."
+  },
+  {
+    "id": "ds-108",
+    "law": "ds",
+    "article": "Član 63",
+    "topic": "Disciplinski postupak",
+    "type": "single",
+    "text": "Ko ima pravo žalbe protiv odluke disciplinske komisije i u kojem roku?",
+    "options": [
+      "Samo državni službenik, u roku od 8 dana",
+      "Organ koji je pokrenuo disciplinski postupak i državni službenik — Odboru za žalbe, u roku od 15 dana od dana prijema rješenja",
+      "Samo rukovodilac organa, u roku od 30 dana",
+      "Žalba nije dopuštena"
+    ],
+    "correct": [1],
+    "explanation": "Član 63. stav 2.; konačnu odluku izvršava rukovodilac organa, a primjerak se dostavlja Agenciji."
+  },
+  {
+    "id": "ds-109",
+    "law": "ds",
+    "article": "Član 64",
+    "topic": "Krivični postupak",
+    "type": "single",
+    "text": "Šta se dešava sa disciplinskim postupkom ako se protiv državnog službenika pokrene krivični postupak na osnovu istih činjenica?",
+    "options": [
+      "Nastavlja se paralelno",
+      "Disciplinski postupak se obustavlja do okončanja krivičnog postupka",
+      "Disciplinski postupak se okončava oslobađajućom odlukom",
+      "Disciplinski postupak se ubrzava"
+    ],
+    "correct": [1],
+    "explanation": "Član 64. stav 1. Zakona."
+  },
+  {
+    "id": "ds-110",
+    "law": "ds",
+    "article": "Član 64",
+    "topic": "Krivični postupak",
+    "type": "single",
+    "text": "Šta vrijedi ako se državni službenik u krivičnom postupku oslobodi odgovornosti?",
+    "options": [
+      "Disciplinski postupak se nastavlja po istim činjenicama",
+      "Vraća se na svoje ranije radno mjesto, njegov lični dosje ne smije sadržavati informacije o krivičnom postupku i/ili preventivnoj suspenziji, a disciplinske mjere se ne mogu preduzeti na osnovu istih činjenica",
+      "Gubi pravo na naknadu razlike plate",
+      "Premješta se na drugo radno mjesto"
+    ],
+    "correct": [1],
+    "explanation": "Član 64. stav 2. Zakona."
+  },
+  {
+    "id": "ds-111",
+    "law": "ds",
+    "article": "Član 65",
+    "topic": "Suspenzija",
+    "type": "multi",
+    "text": "Kada je rukovodilac organa DUŽAN odmah suspendovati državnog službenika? (više tačnih odgovora)",
+    "options": [
+      "Ako se protiv službenika pokrene krivični postupak za krivično djelo počinjeno u obavljanju službene dužnosti",
+      "Ako se državni službenik nalazi u pritvoru",
+      "Ako je službenik dobio negativnu ocjenu rada",
+      "Ako je službenik zakasnio na posao"
+    ],
+    "correct": [0, 1],
+    "explanation": "Član 65. stav 1. tačke a) i b) Zakona."
+  },
+  {
+    "id": "ds-112",
+    "law": "ds",
+    "article": "Član 65",
+    "topic": "Suspenzija",
+    "type": "single",
+    "text": "Koliko traje preventivna suspenzija po osnovu krivičnog postupka i kakvo je dejstvo žalbe?",
+    "options": [
+      "Najduže tri mjeseca; žalba odlaže izvršenje",
+      "Do okončanja istrage odnosno krivičnog postupka; žalba na rješenje o suspenziji ne odlaže izvršenje rješenja",
+      "Najduže šest mjeseci; žalba nije dopuštena",
+      "Do pravosnažnosti presude; žalba odlaže izvršenje"
+    ],
+    "correct": [1],
+    "explanation": "Član 65. st. 3. i 4. Zakona."
+  },
+  {
+    "id": "ds-113",
+    "law": "ds",
+    "article": "Član 66",
+    "topic": "Suspenzija",
+    "type": "single",
+    "text": "Kada će državni službenik biti suspendovan po osnovu disciplinskog postupka?",
+    "options": [
+      "Kod svake povrede službene dužnosti",
+      "Ako je protiv njega pokrenut disciplinski postupak zbog teške povrede službene dužnosti i ako bi njegovo zadržavanje na poslu moglo štetiti interesima službe",
+      "Samo na njegov zahtjev",
+      "Samo uz saglasnost sindikata"
+    ],
+    "correct": [1],
+    "explanation": "Član 66. stav 1.; suspenzija traje do okončanja disciplinskog postupka."
+  },
+  {
+    "id": "ds-114",
+    "law": "ds",
+    "article": "Član 67",
+    "topic": "Suspenzija",
+    "type": "single",
+    "text": "Kolika naknada plate pripada državnom službeniku za vrijeme preventivne suspenzije?",
+    "options": [
+      "Puna osnovna plata",
+      "Naknada u visini ½ osnovne plate isplaćene u mjesecu koji je prethodio suspenziji",
+      "Naknada u visini ⅓ osnovne plate",
+      "Nema pravo na naknadu"
+    ],
+    "correct": [1],
+    "explanation": "Član 67. stav 1. Zakona."
+  },
+  {
+    "id": "ds-115",
+    "law": "ds",
+    "article": "Član 67",
+    "topic": "Suspenzija",
+    "type": "multi",
+    "text": "Kada državnom službeniku pripada razlika između primljene naknade i punog iznosa osnovne plate za period suspenzije? (više tačnih odgovora)",
+    "options": [
+      "Ako krivični postupak bude obustavljen pravosnažnom odlukom ili bude oslobođen optužbi",
+      "Ako je optužba protiv njega odbijena, ali ne zbog nenadležnosti",
+      "Ako se u disciplinskom postupku ne utvrdi njegova odgovornost za povredu službene dužnosti",
+      "U svakom slučaju po okončanju suspenzije"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 67. stav 2. Zakona."
+  },
+  {
+    "id": "ds-116",
+    "law": "ds",
+    "article": "Član 68",
+    "topic": "Materijalna šteta",
+    "type": "single",
+    "text": "Za kakvu materijalnu štetu odgovara državni službenik?",
+    "options": [
+      "Za svaku štetu, bez obzira na krivicu",
+      "Za štetu koju u obavljanju državne službe učini namjerno ili krajnjom nepažnjom",
+      "Samo za štetu učinjenu namjerno",
+      "Ne odgovara za materijalnu štetu"
+    ],
+    "correct": [1],
+    "explanation": "Član 68. stav 1. Zakona."
+  },
+  {
+    "id": "ds-117",
+    "law": "ds",
+    "article": "Član 68",
+    "topic": "Materijalna šteta",
+    "type": "single",
+    "text": "Ko utvrđuje postojanje štete, njenu visinu i krivicu državnog službenika?",
+    "options": [
+      "Disciplinska komisija",
+      "Komisija koju rješenjem imenuje rukovodilac organa državne službe, o čemu sastavlja zapisnik",
+      "Nadležni sud",
+      "Agencija za državnu službu"
+    ],
+    "correct": [1],
+    "explanation": "Član 68. stav 2.; na osnovu zapisnika rukovodilac donosi rješenje o naknadi štete."
+  },
+  {
+    "id": "ds-118",
+    "law": "ds",
+    "article": "Član 68",
+    "topic": "Materijalna šteta",
+    "type": "single",
+    "text": "Ko nadoknađuje štetu koju državni službenik svojim nezakonitim ili nepravilnim radom učini građanima ili pravnim licima?",
+    "options": [
+      "Sam državni službenik neposredno oštećenom",
+      "Organ državne službe čiji je službenik učinio štetu, uz pravo regresa isplaćene štete od državnog službenika",
+      "Budžet Kantona bez prava regresa",
+      "Osiguravajuće društvo"
+    ],
+    "correct": [1],
+    "explanation": "Član 68. st. 5. i 6. Zakona."
+  },
+  {
+    "id": "ds-119",
+    "law": "ds",
+    "article": "Član 69",
+    "topic": "Namještenici",
+    "type": "single",
+    "text": "Koji poslovi spadaju u dopunske poslove osnovne djelatnosti organa državne službe?",
+    "options": [
+      "Operativno-tehnički i pomoćni poslovi",
+      "Određeni stručno-operativni, informaciono-dokumentacioni, računovodstveno-materijalni i administrativno-tehnički poslovi",
+      "Poslovi inspekcijskog nadzora",
+      "Poslovi interne revizije"
+    ],
+    "correct": [1],
+    "explanation": "Član 69. stav 2.; poslovi pomoćne djelatnosti su operativno-tehnički i pomoćni poslovi (stav 3.)."
+  },
+  {
+    "id": "ds-120",
+    "law": "ds",
+    "article": "Član 71",
+    "topic": "Namještenici",
+    "type": "single",
+    "text": "Može li premještaj namještenika biti nametnut?",
+    "options": [
+      "Ne može nikada",
+      "Može, ako je to u interesu organa državne službe",
+      "Može samo uz saglasnost sindikata",
+      "Može samo uz saglasnost namještenika"
+    ],
+    "correct": [1],
+    "explanation": "Član 71. stav 3. Zakona."
+  },
+  {
+    "id": "ds-121",
+    "law": "ds",
+    "article": "Član 73 i 74",
+    "topic": "Namještenici",
+    "type": "single",
+    "text": "Koliko najmanje ostaje otvoren interni oglas za popunu radnog mjesta namještenika i ko ima pravo prijave?",
+    "options": [
+      "Pet dana; samo namještenici tog organa",
+      "Najmanje osam dana od dana objavljivanja; namještenici organa državne službe svih nivoa vlasti u Kantonu koji ispunjavaju uslove",
+      "15 dana; svi zainteresovani",
+      "Tri dana; samo namještenici iste organizacione jedinice"
+    ],
+    "correct": [1],
+    "explanation": "Član 73. stav 3. Zakona."
+  },
+  {
+    "id": "ds-122",
+    "law": "ds",
+    "article": "Član 74",
+    "topic": "Namještenici",
+    "type": "single",
+    "text": "U kojem roku se može izjaviti žalba Odboru za žalbe protiv rješenja odnosno obavještenja o rezultatima internog oglasa za namještenike?",
+    "options": ["U roku od 15 dana", "U roku od osam dana od dana prijema rješenja odnosno obavještenja", "U roku od tri dana", "U roku od 30 dana"],
+    "correct": [1],
+    "explanation": "Član 74. stav 5. Zakona (za državne službenike taj rok je 15 dana)."
+  },
+  {
+    "id": "ds-123",
+    "law": "ds",
+    "article": "Član 75 i 76",
+    "topic": "Namještenici",
+    "type": "single",
+    "text": "Gdje se objavljuje javni oglas za popunu radnog mjesta namještenika i koliki je rok za prijavu?",
+    "options": [
+      "U Službenim novinama FBiH; rok 15 dana",
+      "U jednim dnevnim novinama koje se distribuiraju na cijeloj teritoriji BiH i na službenoj internet stranici organa; rok za prijavu je 15 dana od dana objave oglasa u dnevnim novinama",
+      "Na web stranici Agencije; rok 8 dana",
+      "Samo na oglasnoj tabli organa; rok 10 dana"
+    ],
+    "correct": [1],
+    "explanation": "Čl. 75. i 76. stav 2. Zakona."
+  },
+  {
+    "id": "ds-124",
+    "law": "ds",
+    "article": "Član 77",
+    "topic": "Namještenici",
+    "type": "open",
+    "text": "Nabrojte opšte uslove za prijem u radni odnos na radno mjesto namještenika.",
+    "answer": "Da je državljanin Bosne i Hercegovine; da je starije od 18 godina; da je zdravstveno sposobno za obavljanje poslova utvrđenih za to radno mjesto; da ima vrstu i stepen školske spreme potrebnu za obavljanje poslova radnog mjesta prema pravilniku o unutrašnjoj organizaciji; da u posljednje dvije godine od dana objavljivanja javnog oglasa nije otpušteno iz organa državne službe kao rezultat disciplinske kazne na bilo kojem nivou vlasti u BiH; da nije obuhvaćeno odredbom člana IX 1. Ustava BiH.",
+    "keywords": ["državljanin BiH", "stariji od 18 godina", "zdravstveno sposobno", "vrsta i stepen školske spreme", "dvije godine nije otpušteno", "član IX 1. Ustava BiH"],
+    "explanation": "Član 77. tačke a)–f) Zakona."
+  },
+  {
+    "id": "ds-125",
+    "law": "ds",
+    "article": "Član 78",
+    "topic": "Namještenici",
+    "type": "single",
+    "text": "Šta se dešava ako primljeni kandidat za namještenika iz neopravdanih razloga ne stupi na posao u roku od pet radnih dana?",
+    "options": [
+      "Rok se produžava",
+      "Poništava se rješenje o njegovom prijemu, a rukovodilac donosi rješenje o prijemu kandidata sa liste kandidata koji ispunjavaju uslove javnog oglasa",
+      "Raspisuje se novi oglas",
+      "Kandidat se kažnjava"
+    ],
+    "correct": [1],
+    "explanation": "Član 78. stav 4. Zakona."
+  },
+  {
+    "id": "ds-126",
+    "law": "ds",
+    "article": "Član 78",
+    "topic": "Namještenici",
+    "type": "single",
+    "text": "Koliko dugo se čuva rezervna lista uspješnih kandidata za prijem namještenika?",
+    "options": [
+      "Mjesec dana",
+      "Tri mjeseca od dana konačnosti rješenja o prijemu, a najduže do isteka probnog rada",
+      "Šest mjeseci",
+      "Godinu dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 78. stav 5. Zakona."
+  },
+  {
+    "id": "ds-127",
+    "law": "ds",
+    "article": "Član 79",
+    "topic": "Namještenici",
+    "type": "single",
+    "text": "Kakvo je dejstvo žalbe kandidata koji nije primljen u radni odnos na obavještenje o rezultatima javnog oglasa za namještenika?",
+    "options": [
+      "Ne odlaže izvršenje",
+      "Odlaže izvršenje rješenja o prijemu u radni odnos; rok za žalbu je osam dana, a rješenje Odbora za žalbe je konačno",
+      "Žalba nije dopuštena",
+      "Odlaže izvršenje samo uz saglasnost rukovodioca"
+    ],
+    "correct": [1],
+    "explanation": "Član 79. Zakona."
+  },
+  {
+    "id": "ds-128",
+    "law": "ds",
+    "article": "Član 80",
+    "topic": "Namještenici",
+    "type": "single",
+    "text": "Koliko traje probni rad namještenika kod prvog zapošljavanja i ko ocjenjuje rad?",
+    "options": [
+      "Šest mjeseci; ocjenjuje rukovodilac organa",
+      "Tri mjeseca; neposredno nadređeni državni službenik prati rad i daje pismenu, obrazloženu ocjenu",
+      "Godinu dana; ocjenjuje disciplinska komisija",
+      "Devet mjeseci; ocjenjuje Agencija"
+    ],
+    "correct": [1],
+    "explanation": "Član 80. st. 1. i 2. Zakona."
+  },
+  {
+    "id": "ds-129",
+    "law": "ds",
+    "article": "Član 82",
+    "topic": "Stručni ispit namještenika",
+    "type": "single",
+    "text": "U kojem roku su namještenici zatečeni u radnom odnosu bez položenog stručnog ispita dužni položiti taj ispit?",
+    "options": [
+      "U roku od tri mjeseca od zaposlenja",
+      "U roku od šest mjeseci od dana donošenja propisa o sadržaju i načinu polaganja stručnog ispita",
+      "U roku od godinu dana",
+      "Nemaju obavezu polaganja"
+    ],
+    "correct": [1],
+    "explanation": "Član 82. stav 3.; namješteniku koji ne položi ispit u roku prestaje radni odnos (stav 5.)."
+  },
+  {
+    "id": "ds-130",
+    "law": "ds",
+    "article": "Član 82",
+    "topic": "Stručni ispit namještenika",
+    "type": "single",
+    "text": "Za koliko se najduže može produžiti rok za polaganje stručnog ispita namještenika koji iz opravdanih razloga nije mogao pristupiti polaganju?",
+    "options": ["Za mjesec dana", "Najduže tri mjeseca", "Za šest mjeseci", "Rok se ne može produžiti"],
+    "correct": [1],
+    "explanation": "Član 82. stav 6. — na zahtjev namještenika, rješenjem rukovodioca organa."
+  },
+  {
+    "id": "ds-131",
+    "law": "ds",
+    "article": "Član 82",
+    "topic": "Stručni ispit namještenika",
+    "type": "single",
+    "text": "Ko snosi troškove polaganja stručnog ispita namještenika, a ko troškove popravnog ispita?",
+    "options": [
+      "Oboje namještenik",
+      "Organ državne službe snosi troškove polaganja, a troškove popravnog ispita snosi namještenik",
+      "Oboje organ državne službe",
+      "Agencija za državnu službu"
+    ],
+    "correct": [1],
+    "explanation": "Član 82. stav 7. Zakona."
+  },
+  {
+    "id": "ds-132",
+    "law": "ds",
+    "article": "Član 83",
+    "topic": "Stručni ispit namještenika",
+    "type": "single",
+    "text": "Pred kojom komisijom namještenici polažu stručni ispit?",
+    "options": [
+      "Pred komisijom Agencije za državnu službu FBiH",
+      "Pred kantonalnom komisijom koju imenuje ministar pravosuđa i uprave TK",
+      "Pred komisijom organa državne službe",
+      "Pred komisijom Vlade Kantona"
+    ],
+    "correct": [1],
+    "explanation": "Član 83. Zakona."
+  },
+  {
+    "id": "ds-133",
+    "law": "ds",
+    "article": "Član 84",
+    "topic": "Pripravnici",
+    "type": "single",
+    "text": "Koliko traje pripravnički staž za pripravnike srednje, a koliko za pripravnike više školske spreme?",
+    "options": [
+      "Tri odnosno šest mjeseci",
+      "Šest mjeseci (srednja školska sprema) odnosno devet mjeseci (viša školska sprema)",
+      "Devet odnosno dvanaest mjeseci",
+      "Godinu dana u oba slučaja"
+    ],
+    "correct": [1],
+    "explanation": "Član 84. stav 3. Zakona."
+  },
+  {
+    "id": "ds-134",
+    "law": "ds",
+    "article": "Član 85",
+    "topic": "Zajedničke odredbe",
+    "type": "single",
+    "text": "Koje se odredbe o državnim službenicima na odgovarajući način primjenjuju i na namještenike?",
+    "options": [
+      "Nijedna",
+      "Odredbe o pravima i dužnostima, nespojivosti sa dužnostima, ocjeni rada, prekobrojnosti, stručnom usavršavanju, prestanku radnog odnosa, disciplinskoj odgovornosti i postupku, suspenziji, odgovornosti za materijalnu štetu, odmorima i odsustvima i naknadi za porodiljski dopust — ako za namještenike nije drugačije propisano",
+      "Samo odredbe o platama",
+      "Samo odredbe o disciplinskoj odgovornosti"
+    ],
+    "correct": [1],
+    "explanation": "Član 85. stav 1. Zakona."
+  },
+  {
+    "id": "ds-135",
+    "law": "ds",
+    "article": "Član 87",
+    "topic": "Upravljanje ljudskim resursima",
+    "type": "single",
+    "text": "Ko mijenja rukovodioca organa državne službe u slučaju odsutnosti ili spriječenosti za rad?",
+    "options": [
+      "Uvijek sekretar organa",
+      "Državni službenik kojeg rukovodilac ovlasti, a u slučaju nepostojanja takvog ovlaštenja sekretar organa državne službe odnosno pomoćnik rukovodioca",
+      "Predstavnik Vlade",
+      "Najstariji službenik po stažu"
+    ],
+    "correct": [1],
+    "explanation": "Član 87. stav 4. Zakona."
+  },
+  {
+    "id": "ds-136",
+    "law": "ds",
+    "article": "Član 88",
+    "topic": "Agencija i Odbor",
+    "type": "multi",
+    "text": "Koji se poslovi ovim zakonom povjeravaju Agenciji za državnu službu? (više tačnih odgovora)",
+    "options": [
+      "Provođenje procedura zapošljavanja državnih službenika",
+      "Vođenje registra državnih službenika",
+      "Organizacija i realizacija obuke državnih službenika i edukacije kandidata za polaganje ispita",
+      "Odlučivanje o disciplinskoj odgovornosti"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 88. stav 2. Zakona."
+  },
+  {
+    "id": "ds-137",
+    "law": "ds",
+    "article": "Član 90",
+    "topic": "Agencija i Odbor",
+    "type": "single",
+    "text": "Šta je povjereno Odboru državne službe za žalbe?",
+    "options": [
+      "Provođenje javnih konkursa",
+      "Da u drugom stepenu odlučuje o svim žalbama izjavljenim na rješenja rukovodioca organa državne službe i na odluke disciplinske komisije",
+      "Vođenje registra državnih službenika",
+      "Nadzor nad primjenom zakona"
+    ],
+    "correct": [1],
+    "explanation": "Član 90. stav 2.; Vlada imenuje i Žalbeno vijeće za namještenike (stav 3.)."
+  },
+  {
+    "id": "ds-138",
+    "law": "ds",
+    "article": "Član 91",
+    "topic": "Izvršenje zakona",
+    "type": "single",
+    "text": "Koliko često Vlada, gradonačelnik odnosno načelnik razmatraju izvještaj o provođenju ovog zakona?",
+    "options": [
+      "Jednom godišnje",
+      "Najmanje jednom u šest mjeseci",
+      "Kvartalno",
+      "Samo na zahtjev Skupštine"
+    ],
+    "correct": [1],
+    "explanation": "Član 91. stav 1.; na kraju svake godine dostavlja se izvještaj o stanju u državnoj službi Skupštini odnosno vijeću."
+  },
+  {
+    "id": "ds-139",
+    "law": "ds",
+    "article": "Član 94",
+    "topic": "Nadzor",
+    "type": "single",
+    "text": "Ko obavlja nadzor, a ko inspekcijski nadzor nad primjenom Zakona o državnoj službi u TK?",
+    "options": [
+      "Agencija; upravna inspekcija",
+      "Ministarstvo pravosuđa i uprave TK; inspekcijski nadzor obavlja upravna inspekcija",
+      "Vlada Kantona; Kantonalna uprava za inspekcijske poslove",
+      "Odbor za žalbe; upravna inspekcija"
+    ],
+    "correct": [1],
+    "explanation": "Član 94. Zakona."
+  },
+  {
+    "id": "ds-140",
+    "law": "ds",
+    "article": "Član 95",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koji je raspon novčane kazne za prekršaje državnog službenika iz člana 95. Zakona (npr. obavljanje neodobrene dodatne aktivnosti uz naknadu)?",
+    "options": [
+      "Od 100,00 do 500,00 KM",
+      "Od 500,00 KM do 2.000,00 KM",
+      "Od 1.000,00 do 3.000,00 KM",
+      "Od 2.000,00 do 5.000,00 KM"
+    ],
+    "correct": [1],
+    "explanation": "Član 95. st. 1–9. Zakona."
+  },
+  {
+    "id": "ds-141",
+    "law": "ds",
+    "article": "Član 95",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koji je raspon novčane kazne za prekršaje rukovodioca organa državne službe iz člana 95. stav 10. Zakona?",
+    "options": [
+      "Od 500,00 do 2.000,00 KM",
+      "Od 1.000,00 KM do 3.000,00 KM",
+      "Od 2.000,00 do 5.000,00 KM",
+      "Od 300,00 do 1.500,00 KM"
+    ],
+    "correct": [1],
+    "explanation": "Član 95. stav 10. Zakona."
+  },
+  {
+    "id": "ds-142",
+    "law": "ds",
+    "article": "Član 95",
+    "topic": "Kaznene odredbe",
+    "type": "multi",
+    "text": "Koje radnje rukovodioca organa državne službe predstavljaju prekršaj iz člana 95. stav 10.? (više tačnih odgovora)",
+    "options": [
+      "Ako ne postupi po konačnoj odluci Odbora za žalbe",
+      "Ako popunu upražnjenog radnog mjesta izvrši suprotno odredbama zakona o popuni radnih mjesta",
+      "Ako propisana rješenja ne dostavlja Agenciji ili omogući rad na određeno vrijeme duže od zakonom utvrđenog",
+      "Ako odbije zahtjev službenika za godišnji odmor"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 95. stav 10. tačke a)–e) Zakona."
+  },
+  {
+    "id": "ds-143",
+    "law": "ds",
+    "article": "Član 92",
+    "topic": "Primjena zakona",
+    "type": "single",
+    "text": "Na koje se organe shodno primjenjuju odredbe ovog zakona o državnim službenicima i namještenicima?",
+    "options": [
+      "Samo na organe uprave",
+      "Na stručne i druge službe organa zakonodavne i predstavničke vlasti, organe izvršne vlasti, organe sudske vlasti, tužilaštvo i pravobranilaštva — ako posebnim zakonom nije drugačije određeno",
+      "Na sva javna preduzeća",
+      "Na sve budžetske korisnike"
+    ],
+    "correct": [1],
+    "explanation": "Član 92. Zakona."
+  },
+  {
+    "id": "ds-144",
+    "law": "ds",
+    "article": "Član 93",
+    "topic": "Poseban način sticanja statusa",
+    "type": "single",
+    "text": "Šta se dešava kad se određeni poslovi budžetskog korisnika prenesu u nadležnost organa državne službe?",
+    "options": [
+      "Zaposlenici gube posao",
+      "Organ koji preuzima poslove može preuzeti zaposlenike zatečene na tim poslovima; oni stiču status državnog službenika odnosno namještenika i raspoređuju se na radna mjesta za koja ispunjavaju uslove, osim ispita opšteg znanja odnosno stručnog ispita",
+      "Zaposlenici moraju proći javni konkurs",
+      "Zaposlenici zadržavaju raniji status bez promjene"
+    ],
+    "correct": [1],
+    "explanation": "Član 93. st. 1. i 2.; odlukom se utvrđuje rok za naknadno polaganje ispita."
+  },
+  {
+    "id": "ds-145",
+    "law": "ds",
+    "article": "Član 110",
+    "topic": "Završne odredbe",
+    "type": "single",
+    "text": "Šta sadrži prečišćeni tekst Zakona o državnoj službi u Tuzlanskom kantonu?",
+    "options": [
+      "Samo osnovni zakon iz 2017. godine",
+      "Osnovni zakon (\"Sl. novine TK\", broj 7/17) i sve njegove kasnije izmjene i dopune (10/17, 10/18, 14/18, 8/21, 10/22, 14/22, 17/23 i 7/24)",
+      "Samo izmjene iz 2024. godine",
+      "Zakon i podzakonske propise"
+    ],
+    "correct": [1],
+    "explanation": "Član 110. Zakona."
+  }
+]

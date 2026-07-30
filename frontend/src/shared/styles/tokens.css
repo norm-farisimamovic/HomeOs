@@ -32,6 +32,7 @@
   /* module hues — chips, dots and cross-module threads */
   --m-tasks: #4F7DD9; --m-boards: #8168B5; --m-calendar: #C2603A; --m-reminders: #C4437B;
   --m-notes: #2E8F6E; --m-finance: #B08322; --m-life: #2F8AA6; --m-lists: #6E8B3D; --m-meals: #C97C2E;
+  --m-exams: #4C4F9E;
 }
 
 html[data-density="compact"] { --tap: 32px; }
@@ -71,6 +72,7 @@ html[data-density="compact"] { --tap: 32px; }
     --focus: #7ACBB2;
     --m-tasks: #7FA4EA; --m-boards: #A992D8; --m-calendar: #E08B62; --m-reminders: #E274A5;
     --m-notes: #5FBE99; --m-finance: #D6AB57; --m-life: #5FB4CE; --m-lists: #9CB868; --m-meals: #E5A25F;
+  --m-exams: #9094E4;
   }
 }
 
@@ -87,4 +89,5 @@ html[data-density="compact"] { --tap: 32px; }
   --focus: #7ACBB2;
   --m-tasks: #7FA4EA; --m-boards: #A992D8; --m-calendar: #E08B62; --m-reminders: #E274A5;
   --m-notes: #5FBE99; --m-finance: #D6AB57; --m-life: #5FB4CE; --m-lists: #9CB868; --m-meals: #E5A25F;
+  --m-exams: #9094E4;
 }

@@ -32,6 +32,14 @@ public interface IAssistant
     /// summary of <paramref name="content"/> in the given language. Returns empty string if unconfigured or on error.
     /// </summary>
     Task<string> SummarizeAsync(string language, string content, CancellationToken ct = default);
+
+    /// <summary>
+    /// One-shot completion with a caller-supplied system prompt and no tools — the general form of
+    /// <see cref="SummarizeAsync"/>, so any app can borrow the configured model for a focused judgement
+    /// (e.g. marking a written exam answer) without knowing which provider is in use.
+    /// Returns an empty string when unconfigured or on error, so callers can fall back gracefully.
+    /// </summary>
+    Task<string> CompleteAsync(string system, string user, CancellationToken ct = default);
 }
 
 /// <inheritdoc />
@@ -76,9 +84,16 @@ public sealed class AssistantService(
         var system = $"You write the opening line of a household's \"what's coming up\" digest email. In {langName}, " +
             "write 2-3 warm, natural sentences that summarize what's ahead and gently flag what's most time-sensitive. " +
             "No greeting, no sign-off, no markdown, no bullet points — just the sentences.";
+        return await CompleteAsync(system, content, ct);
+    }
+
+    /// <inheritdoc />
+    public async Task<string> CompleteAsync(string system, string user, CancellationToken ct = default)
+    {
+        if (!Configured || string.IsNullOrWhiteSpace(user)) return string.Empty;
         return Provider == "anthropic"
-            ? await CompleteAnthropicAsync(system, content, ct)
-            : await CompleteOpenAiAsync(system, content, ct);
+            ? await CompleteAnthropicAsync(system, user, ct)
+            : await CompleteOpenAiAsync(system, user, ct);
     }
 
     // ---- One-shot completions (no tools) ----

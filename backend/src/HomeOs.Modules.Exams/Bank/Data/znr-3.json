@@ -1,0 +1,619 @@
+[
+  {
+    "id": "znr-091",
+    "law": "znr",
+    "article": "Član 64",
+    "topic": "Ovlaštene organizacije",
+    "type": "multi",
+    "text": "Za koje stručne poslove federalni ministar izdaje dozvolu ovlaštenoj organizaciji? (više tačnih odgovora)",
+    "options": [
+      "Periodični pregledi i ispitivanja fizičkih, hemijskih i bioloških štetnosti i mikroklime u radnim i pomoćnim prostorijama",
+      "Periodični pregledi i ispitivanja sredstava za rad, sredstava i opreme lične zaštite te električnih i gromobranskih instalacija",
+      "Osposobljavanje radnika za siguran rad i procjena rizika na mjestima rada i radne okoline",
+      "Vršenje inspekcijskog nadzora kod poslodavca"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 64. stav 1. tačke a)–d) Zakona; inspekcijski nadzor vrše inspekcijski organi."
+  },
+  {
+    "id": "znr-092",
+    "law": "znr",
+    "article": "Član 64",
+    "topic": "Ovlaštene organizacije",
+    "type": "single",
+    "text": "Na koje vrijeme se izdaje dozvola ovlaštenoj organizaciji za zaštitu na radu?",
+    "options": ["Na dvije godine", "Na četiri godine", "Na pet godina", "Na neodređeno vrijeme"],
+    "correct": [1],
+    "explanation": "Član 64. stav 2. Zakona."
+  },
+  {
+    "id": "znr-093",
+    "law": "znr",
+    "article": "Član 64",
+    "topic": "Ovlaštene organizacije",
+    "type": "single",
+    "text": "Do kada je ovlaštena organizacija dužna dostaviti federalnom ministru dokumentaciju o ispunjavanju uvjeta i izvještaj o obavljenim poslovima?",
+    "options": [
+      "Na kraju svake kalendarske godine, najkasnije do 15. januara",
+      "Do 31. marta naredne godine",
+      "Svakih šest mjeseci",
+      "Samo na zahtjev ministra"
+    ],
+    "correct": [0],
+    "explanation": "Član 64. stav 3. Zakona."
+  },
+  {
+    "id": "znr-094",
+    "law": "znr",
+    "article": "Član 64",
+    "topic": "Ovlaštene organizacije",
+    "type": "multi",
+    "text": "Kada će federalni ministar oduzeti dozvolu ovlaštenoj organizaciji? (više tačnih odgovora)",
+    "options": [
+      "Ako se utvrdi da organizacija više ne ispunjava uvjete za dobijanje dozvole ili je dozvola izdata na osnovu neistinitih podataka",
+      "Ako se u postupku nadzora ili na prijedlog inspekcije rada utvrdi da se poslovi ne obavljaju u skladu sa zakonom",
+      "Ako ne dostavi godišnju dokumentaciju i izvještaj u propisanom roku",
+      "Ako promijeni sjedište"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 64. stav 4. tačke a)–e) Zakona."
+  },
+  {
+    "id": "znr-095",
+    "law": "znr",
+    "article": "Član 65",
+    "topic": "Ovlaštene organizacije",
+    "type": "single",
+    "text": "Kakav je pravni lijek protiv rješenja federalnog ministra o izdavanju odnosno oduzimanju dozvole za rad?",
+    "options": [
+      "Žalba Vladi Federacije",
+      "Žalba nije dozvoljena, ali se može pokrenuti upravni spor pred nadležnim sudom",
+      "Prigovor komisiji ministarstva",
+      "Žalba Federalnoj upravi za inspekcijske poslove"
+    ],
+    "correct": [1],
+    "explanation": "Član 65. stav 1. Zakona."
+  },
+  {
+    "id": "znr-096",
+    "law": "znr",
+    "article": "Član 65",
+    "topic": "Ovlaštene organizacije",
+    "type": "single",
+    "text": "Ko snosi troškove postupka izdavanja dozvole za rad ovlaštenoj organizaciji?",
+    "options": ["Budžet Federacije", "Ovlaštena organizacija", "Poslodavac koji je angažuje", "Federalno ministarstvo"],
+    "correct": [1],
+    "explanation": "Član 65. stav 2.; rješenje se upisuje u registar koji vodi ministarstvo (stav 3.)."
+  },
+  {
+    "id": "znr-097",
+    "law": "znr",
+    "article": "Član 66",
+    "topic": "Ovlaštene organizacije",
+    "type": "single",
+    "text": "Koje uvjete mora ispunjavati radnik koji u ovlaštenoj organizaciji obavlja stručne poslove?",
+    "options": [
+      "Samo srednju stručnu spremu",
+      "Odgovarajuću stručnu spremu i položen stručni ispit koji se odnosi na obavljanje tih poslova",
+      "Najmanje deset godina iskustva",
+      "Licencu izdatu od strane sindikata"
+    ],
+    "correct": [1],
+    "explanation": "Član 66. stav 1.; ispit se polaže pred komisijom koju imenuje federalni ministar."
+  },
+  {
+    "id": "znr-098",
+    "law": "znr",
+    "article": "Član 67",
+    "topic": "Ovlaštene organizacije",
+    "type": "single",
+    "text": "Šta ovlaštena organizacija sačinjava o izvršenim periodičnim pregledima i ispitivanjima?",
+    "options": [
+      "Samo usmeni izvještaj poslodavcu",
+      "Zapisnik o stručnom nalazu, na osnovu kojeg izdaje ispravu koja sadrži rezultat pregleda i konstataciju da li pregledana sredstva udovoljavaju propisima",
+      "Rješenje o otklanjanju nedostataka",
+      "Prijavu inspekciji rada"
+    ],
+    "correct": [1],
+    "explanation": "Član 67. st. 1. i 2. Zakona."
+  },
+  {
+    "id": "znr-099",
+    "law": "znr",
+    "article": "Član 68",
+    "topic": "Ovlaštene organizacije",
+    "type": "single",
+    "text": "Ko vrši nadzor nad zakonitošću rada ovlaštene organizacije u dijelu koji se odnosi na periodične preglede i ispitivanja sredstava za rad?",
+    "options": [
+      "Federalna uprava za inspekcijske poslove",
+      "Federalno ministarstvo rada i socijalne politike (ministarstvo)",
+      "Kantonalna uprava za inspekcijske poslove",
+      "Vijeće za zaštitu na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 68. Zakona."
+  },
+  {
+    "id": "znr-100",
+    "law": "znr",
+    "article": "Član 69",
+    "topic": "Posebna zaštita",
+    "type": "multi",
+    "text": "Koje se grupe smatraju posebno osjetljivim na rizike? (više tačnih odgovora)",
+    "options": [
+      "Trudnice, porodilje ili dojilje",
+      "Maloljetnici i lica sa invaliditetom",
+      "Radnici sa promijenjenom radnom sposobnošću u smislu propisa o penzijskom i invalidskom osiguranju",
+      "Radnici na određeno vrijeme"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 69. stav 2. Zakona."
+  },
+  {
+    "id": "znr-101",
+    "law": "znr",
+    "article": "Član 70",
+    "topic": "Posebna zaštita",
+    "type": "open",
+    "text": "Koje zabrane rada propisuje član 70. Zakona za posebno osjetljive grupe?",
+    "answer": "Zabranjen je rad trudnicama, porodiljama i dojiljama na poslovima na kojima postoji rizik od izloženosti opasnim materijama, hemijskim, fizičkim i biološkim agensima, štetnim zračenjima i mikroklimatskim uticajima, odnosno na poslovima sa teškim uvjetima rada te posebno teškim i opasnim poslovima gdje postoji rizik po njihovo fizičko i mentalno zdravlje. Zabranjen je rad maloljetnicima na poslovima koji mogu ugroziti njihovo zdravlje i razvoj. Radnik sa promijenjenom radnom sposobnošću ne smije obavljati poslove na kojima postoji opasnost smanjenja preostale radne sposobnosti.",
+    "keywords": ["trudnice porodilje dojilje", "opasne materije i zračenja", "maloljetnici", "zdravlje i razvoj", "promijenjena radna sposobnost"],
+    "explanation": "Član 70. Zakona."
+  },
+  {
+    "id": "znr-102",
+    "law": "znr",
+    "article": "Član 71",
+    "topic": "Skraćivanje radnog vremena",
+    "type": "single",
+    "text": "Šta se dešava kada uprkos primjeni mjera zaštite na određenom radnom mjestu i dalje postoji preostali rizik i prijetnja od obolijevanja odnosno invaliditeta?",
+    "options": [
+      "Radno mjesto se ukida",
+      "Poslodavac preduzima mjere za sprječavanje oboljenja odnosno invaliditeta, a radno vrijeme se skraćuje srazmjerno štetnom utjecaju uvjeta rada",
+      "Radnik dobija samo dodatak na plaću",
+      "Radnik se otpušta"
+    ],
+    "correct": [1],
+    "explanation": "Član 71. st. 1. i 2. Zakona."
+  },
+  {
+    "id": "znr-103",
+    "law": "znr",
+    "article": "Član 72",
+    "topic": "Skraćivanje radnog vremena",
+    "type": "single",
+    "text": "Ko odlučuje o skraćivanju radnog vremena zbog uvjeta rada?",
+    "options": [
+      "Poslodavac samostalno",
+      "Ministarstvo (Federalno ministarstvo rada i socijalne politike)",
+      "Inspekcija rada",
+      "Ovlaštena organizacija za zaštitu na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 72. stav 2.; poslovi i trajanje radnog vremena utvrđuju se internim aktom na osnovu akta o procjeni rizika i stručnog nalaza ovlaštene organizacije."
+  },
+  {
+    "id": "znr-104",
+    "law": "znr",
+    "article": "Član 72",
+    "topic": "Skraćivanje radnog vremena",
+    "type": "single",
+    "text": "Kako se skraćeno radno vrijeme tretira pri ostvarivanju prava na plaću i drugih prava po osnovu rada?",
+    "options": [
+      "Plaća se srazmjerno umanjuje",
+      "Izjednačava se sa punim radnim vremenom",
+      "Ne priznaje se u staž osiguranja",
+      "Priznaje se samo polovina prava"
+    ],
+    "correct": [1],
+    "explanation": "Član 72. stav 4. Zakona."
+  },
+  {
+    "id": "znr-105",
+    "law": "znr",
+    "article": "Član 73",
+    "topic": "Posebna zaštita",
+    "type": "single",
+    "text": "Koju obavezu osiguranja ima poslodavac prema radnicima koji obavljaju poslove sa povećanim rizikom?",
+    "options": [
+      "Nikakvu posebnu obavezu",
+      "Dužan ih je posebno osigurati od rizika nesreće i povrede na radu radi obezbjeđenja naknade štete",
+      "Dužan ih je osigurati samo od požara",
+      "Dužan im je isplatiti dodatak umjesto osiguranja"
+    ],
+    "correct": [1],
+    "explanation": "Član 73. Zakona."
+  },
+  {
+    "id": "znr-106",
+    "law": "znr",
+    "article": "Član 74",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "Ko vrši inspekcijski nadzor nad provođenjem Zakona o zaštiti na radu?",
+    "options": [
+      "Isključivo Federalna uprava za inspekcijske poslove",
+      "Kantonalna uprava za inspekcijske poslove, osim nadzora koji je zakonom stavljen u nadležnost Federalne uprave za inspekcijske poslove",
+      "Federalno ministarstvo rada",
+      "Ovlaštene organizacije za zaštitu na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 74. stav 1.; poslove vrši inspektor zaštite na radu odnosno inspektor rada."
+  },
+  {
+    "id": "znr-107",
+    "law": "znr",
+    "article": "Član 75",
+    "topic": "Inspekcijski nadzor",
+    "type": "multi",
+    "text": "Kod kojih djelatnosti Federalna uprava za inspekcijske poslove vrši neposredni nadzor? (više tačnih odgovora)",
+    "options": [
+      "Proizvodnja i prerada sirovog željeza, čelika i ferolegura",
+      "Proizvodnja eksploziva i eksplozivnih sredstava te proizvodnja i distribucija naftnih derivata",
+      "Proizvodnja električne energije i proizvodnja cementa i cementnih proizvoda",
+      "Trgovina na malo"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 75. stav 1. tačke a)–i) Zakona."
+  },
+  {
+    "id": "znr-108",
+    "law": "znr",
+    "article": "Član 75",
+    "topic": "Inspekcijski nadzor",
+    "type": "multi",
+    "text": "Nad izvođenjem kojih radova Federalna uprava vrši neposredni nadzor? (više tačnih odgovora)",
+    "options": [
+      "U tunelima i na drugim podzemnim radovima, izuzev rudarskih",
+      "Na armirano-betonskim, čeličnim i drvenim mostovima raspona preko 20 m",
+      "U kesonima i ronilačkim radovima te na izgradnji termoelektrana i hidroelektrana",
+      "Na izgradnji stambenih objekata do tri etaže"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 75. stav 2. Zakona."
+  },
+  {
+    "id": "znr-109",
+    "law": "znr",
+    "article": "Član 77",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "Koliko često su inspektori obavezni izvršiti pregled kod poslodavca kod kojeg se obavljaju tehničko-tehnološki procesi rada?",
+    "options": ["Najmanje jednom u dvije godine", "Najmanje jednom godišnje, a u drugim slučajevima po potrebi", "Kvartalno", "Samo po prijavi"],
+    "correct": [1],
+    "explanation": "Član 77. stav 1.; obavezni su i kontrolni pregledi kad su naređene mjere za otklanjanje nedostataka."
+  },
+  {
+    "id": "znr-110",
+    "law": "znr",
+    "article": "Član 78",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "U kojem roku je poslodavac obavezan pismeno izvijestiti inspektora o izvršenju rješenja?",
+    "options": [
+      "U roku od osam dana od dana isteka roka za otklanjanje nedostataka",
+      "U roku od 15 dana od prijema rješenja",
+      "U roku od 30 dana",
+      "Nema takve obaveze"
+    ],
+    "correct": [0],
+    "explanation": "Član 78. stav 2. Zakona."
+  },
+  {
+    "id": "znr-111",
+    "law": "znr",
+    "article": "Član 78",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "Može li inspektor narediti provođenje mjere zaštite na radu koja nije propisana?",
+    "options": [
+      "Ne može ni u kom slučaju",
+      "Može, ako su radnici na radu neposredno ugroženi",
+      "Može samo uz saglasnost poslodavca",
+      "Može samo uz odobrenje ministarstva"
+    ],
+    "correct": [1],
+    "explanation": "Član 78. stav 3. Zakona."
+  },
+  {
+    "id": "znr-112",
+    "law": "znr",
+    "article": "Član 78",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "Šta će inspektor narediti ako su za otklanjanje nepravilnosti potrebna veća investiciona ulaganja, a život i zdravlje radnika nisu neposredno ugroženi?",
+    "options": [
+      "Trenutnu zabranu rada",
+      "Da poslodavac sačini poseban investicioni program o postupnom usklađivanju stanja sa propisima o zaštiti na radu",
+      "Zatvaranje objekta",
+      "Ništa — samo evidentira stanje"
+    ],
+    "correct": [1],
+    "explanation": "Član 78. stav 4. Zakona."
+  },
+  {
+    "id": "znr-113",
+    "law": "znr",
+    "article": "Član 79",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "Šta je kantonalna uprava dužna učiniti odmah po prijemu obavještenja poslodavca o smrtnom slučaju ili nesreći na radu?",
+    "options": [
+      "Podnijeti krivičnu prijavu",
+      "Izvijestiti Federalnu upravu o svakom smrtnom slučaju, nesreći koja dovodi do onesposobljenosti u trajanju od tri ili više dana ili bilo kojem događaju koji je zadesio jednog ili više radnika",
+      "Obavijestiti sindikat",
+      "Zatvoriti radilište"
+    ],
+    "correct": [1],
+    "explanation": "Član 79. stav 1. Zakona."
+  },
+  {
+    "id": "znr-114",
+    "law": "znr",
+    "article": "Član 79",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "Ko je obavezan izvršiti uviđaj kod smrtnog slučaja ili nesreće koja je zadesila jednog ili više radnika?",
+    "options": [
+      "Samo kantonalni inspektor",
+      "Kantonalni inspektor, a uviđaj će izvršiti i federalni inspektor",
+      "Samo federalni inspektor",
+      "Ovlaštena organizacija za zaštitu na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 79. st. 2. i 4. Zakona."
+  },
+  {
+    "id": "znr-115",
+    "law": "znr",
+    "article": "Član 80",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "Šta će inspektor učiniti ako utvrdi da postoji neposredna opasnost po život i zdravlje radnika na radu?",
+    "options": [
+      "Naložiti otklanjanje nedostataka u roku od 30 dana",
+      "Odmah donijeti rješenje o zabrani rada na radnom mjestu",
+      "Izreći novčanu kaznu",
+      "Obavijestiti sindikat"
+    ],
+    "correct": [1],
+    "explanation": "Član 80. stav 1.; ako poslodavac ne postupi po rješenju o otklanjanju nedostataka, inspektor zabranjuje rad dok se nedostaci ne otklone (stav 2.)."
+  },
+  {
+    "id": "znr-116",
+    "law": "znr",
+    "article": "Član 81",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "Šta je inspektor dužan čuvati kao povjerljiv podatak?",
+    "options": [
+      "Nalaz o stanju zaštite na radu",
+      "Ime radnika koji mu se obratio zbog neprovođenja propisa iz oblasti sigurnosti i zaštite zdravlja na radu",
+      "Iznos izrečene kazne",
+      "Podatke o poslovnim rezultatima poslodavca"
+    ],
+    "correct": [1],
+    "explanation": "Član 81. Zakona."
+  },
+  {
+    "id": "znr-117",
+    "law": "znr",
+    "article": "Član 82",
+    "topic": "Pravo na žalbu",
+    "type": "single",
+    "text": "Kome i u kojem roku se izjavljuje žalba protiv rješenja kantonalnog inspektora?",
+    "options": [
+      "Federalnom ministarstvu rada, u roku od 15 dana",
+      "Nadležnom federalnom inspektoru, u roku od osam dana od dana prijema rješenja",
+      "Nadležnom sudu, u roku od 30 dana",
+      "Direktoru kantonalne uprave, u roku od tri dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 82. stav 1. Zakona."
+  },
+  {
+    "id": "znr-118",
+    "law": "znr",
+    "article": "Član 82",
+    "topic": "Pravo na žalbu",
+    "type": "single",
+    "text": "Kome se izjavljuje žalba protiv prvostepenog rješenja federalnog inspektora?",
+    "options": [
+      "Vladi Federacije",
+      "Federalnom ministarstvu rada i socijalne politike, u roku od osam dana od prijema rješenja",
+      "Direktoru Federalne uprave za inspekcijske poslove",
+      "Vrhovnom sudu Federacije"
+    ],
+    "correct": [1],
+    "explanation": "Član 82. stav 2. Zakona."
+  },
+  {
+    "id": "znr-119",
+    "law": "znr",
+    "article": "Član 82",
+    "topic": "Pravo na žalbu",
+    "type": "single",
+    "text": "Kakvo je dejstvo žalbe kada je naložena zabrana rada?",
+    "options": [
+      "Žalba odlaže izvršenje rješenja",
+      "Žalba ne odlaže izvršenje rješenja",
+      "Žalba nije dopuštena",
+      "Izvršenje se odlaže na 15 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 82. stav 3. Zakona."
+  },
+  {
+    "id": "znr-120",
+    "law": "znr",
+    "article": "Član 83",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koji je raspon novčane kazne za prekršaje poslodavca iz člana 83. stav 1. Zakona (npr. neizvršena procjena rizika)?",
+    "options": [
+      "Od 1.000,00 do 5.000,00 KM",
+      "Od 5.000,00 do 15.000,00 KM",
+      "Od 4.000,00 do 15.000,00 KM",
+      "Od 2.000,00 do 10.000,00 KM"
+    ],
+    "correct": [1],
+    "explanation": "Član 83. stav 1. Zakona."
+  },
+  {
+    "id": "znr-121",
+    "law": "znr",
+    "article": "Član 83",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Kolika je novčana kazna za odgovorno lice kod pravnog lica za prekršaje iz člana 83. Zakona?",
+    "options": ["Od 500,00 do 1.000,00 KM", "Od 1.000,00 do 2.000,00 KM", "Od 2.000,00 do 3.000,00 KM", "Od 100,00 do 1.000,00 KM"],
+    "correct": [2],
+    "explanation": "Član 83. stav 4.; poslodavac fizičko lice kažnjava se od 1.000,00 do 1.500,00 KM (stav 3.)."
+  },
+  {
+    "id": "znr-122",
+    "law": "znr",
+    "article": "Član 83",
+    "topic": "Kaznene odredbe",
+    "type": "multi",
+    "text": "Koje od navedenih radnji predstavljaju prekršaj poslodavca iz člana 83. stav 1. Zakona? (više tačnih odgovora)",
+    "options": [
+      "Neizvršena procjena rizika na mjestima rada",
+      "Zasnivanje radnog odnosa bez prethodno utvrđenog zdravstvenog stanja i psihofizičkih sposobnosti radnika",
+      "Neutvrđivanje radnih mjesta sa povećanim rizikom i neupućivanje radnika na ljekarski pregled",
+      "Neisplata regresa radnicima"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 83. stav 1. tačke 7., 8., 9. i 10. Zakona."
+  },
+  {
+    "id": "znr-123",
+    "law": "znr",
+    "article": "Član 84",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koji je raspon kazne za prekršaje iz člana 84. Zakona (npr. proizvođač/uvoznik koji ne izda propisanu ispravu ili uputstvo)?",
+    "options": ["Od 1.000,00 do 5.000,00 KM", "Od 4.000,00 do 15.000,00 KM", "Od 5.000,00 do 15.000,00 KM", "Od 2.000,00 do 10.000,00 KM"],
+    "correct": [1],
+    "explanation": "Član 84. stav 1.; odgovorno lice kod pravnog lica 1.500,00 do 2.500,00 KM (stav 2.)."
+  },
+  {
+    "id": "znr-124",
+    "law": "znr",
+    "article": "Član 85",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Kolika je kazna za investitora ili glavnog izvođača koji ne obezbijedi jedinstveni elaborat o uređenju radilišta?",
+    "options": ["Od 1.000,00 do 5.000,00 KM", "Od 2.000,00 do 10.000,00 KM", "Od 4.000,00 do 15.000,00 KM", "Od 500,00 do 1.000,00 KM"],
+    "correct": [2],
+    "explanation": "Član 85. stav 1. Zakona."
+  },
+  {
+    "id": "znr-125",
+    "law": "znr",
+    "article": "Član 85",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koji je raspon kazne za poslodavca iz člana 85. stav 2. (npr. ako ne donese interni akt o zaštiti na radu ili ne osposobi radnike)?",
+    "options": ["Od 1.000,00 do 5.000,00 KM", "Od 2.000,00 do 10.000,00 KM", "Od 5.000,00 do 15.000,00 KM", "Od 500,00 do 1.000,00 KM"],
+    "correct": [1],
+    "explanation": "Član 85. stav 2.; odgovorno lice 1.000,00 do 2.000,00 KM, poslodavac fizičko lice 500,00 do 1.000,00 KM."
+  },
+  {
+    "id": "znr-126",
+    "law": "znr",
+    "article": "Član 86",
+    "topic": "Kaznene odredbe",
+    "type": "single",
+    "text": "Koji je raspon kazne za prekršaje poslodavca iz člana 86. Zakona (npr. neobezbjeđivanje sredstava i opreme lične zaštite)?",
+    "options": ["Od 1.000,00 do 5.000,00 KM", "Od 2.000,00 do 10.000,00 KM", "Od 4.000,00 do 15.000,00 KM", "Od 100,00 do 1.000,00 KM"],
+    "correct": [0],
+    "explanation": "Član 86. stav 1.; odgovorno lice kod pravnog lica 100,00 do 1.000,00 KM (stav 3.)."
+  },
+  {
+    "id": "znr-127",
+    "law": "znr",
+    "article": "Član 86",
+    "topic": "Kaznene odredbe",
+    "type": "multi",
+    "text": "Koje od navedenih radnji predstavljaju prekršaj poslodavca iz člana 86. Zakona? (više tačnih odgovora)",
+    "options": [
+      "Nekonsultovanje povjerenika za zaštitu na radu pri izradi internog akta o zaštiti na radu",
+      "Neobezbjeđivanje radnicima sredstava i opreme lične zaštite ili neodržavanje te opreme u ispravnom stanju",
+      "Nevođenje propisanih evidencija i nedostavljanje godišnjeg izvještaja nadležnoj inspekciji rada",
+      "Nedostavljanje elaborata o uređenju radilišta"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 86. stav 1. tačke 2., 4., 5. i 8.; elaborat o radilištu je prekršaj iz člana 85. stav 2. tačka 1."
+  },
+  {
+    "id": "znr-128",
+    "law": "znr",
+    "article": "Član 87",
+    "topic": "Prijelazne odredbe",
+    "type": "single",
+    "text": "U kojem roku su poslodavci dužni uskladiti opće akte sa odredbama Zakona o zaštiti na radu?",
+    "options": ["U roku od šest mjeseci", "U roku od godinu dana od dana stupanja na snagu zakona", "U roku od dvije godine", "U roku od tri mjeseca"],
+    "correct": [1],
+    "explanation": "Član 87. Zakona."
+  },
+  {
+    "id": "znr-129",
+    "law": "znr",
+    "article": "Član 89",
+    "topic": "Prijelazne odredbe",
+    "type": "single",
+    "text": "U kojem roku se donose podzakonski propisi predviđeni ovim zakonom (čl. 23, 34, 60, 62, 65, 66, 67. i 72.)?",
+    "options": ["U roku od šest mjeseci", "U roku od dvanaest mjeseci od dana stupanja na snagu zakona", "U roku od dvije godine", "Bez određenog roka"],
+    "correct": [1],
+    "explanation": "Član 89. Zakona."
+  },
+  {
+    "id": "znr-130",
+    "law": "znr",
+    "article": "Član 92 i 93",
+    "topic": "Prijelazne odredbe",
+    "type": "single",
+    "text": "Koji propis prestaje da važi danom stupanja na snagu ovog zakona i kada zakon stupa na snagu?",
+    "options": [
+      "Zakon o radu FBiH; stupa na snagu danom objavljivanja",
+      "Zakon o zaštiti na radu (\"Službeni list SR BiH\", broj 22/90); stupa na snagu osmog dana od dana objavljivanja u \"Službenim novinama FBiH\"",
+      "Zakon o inspekcijama FBiH; stupa na snagu 15. dana od objavljivanja",
+      "Nijedan propis ne prestaje da važi"
+    ],
+    "correct": [1],
+    "explanation": "Čl. 92. i 93. Zakona."
+  },
+  {
+    "id": "znr-131",
+    "law": "znr",
+    "article": "Član 76",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "Kakva je saradnja federalnog i kantonalnih inspektora?",
+    "options": [
+      "Nema saradnje — nadležnosti su strogo odvojene",
+      "Federalni inspektor ostvaruje saradnju sa kantonalnim inspektorima, pruža im stručnu pomoć i može im izdavati upute i instrukcije za rad radi jedinstvenog provođenja zakona",
+      "Kantonalni inspektor izdaje upute federalnom",
+      "Saradnja se odvija isključivo preko ministarstva"
+    ],
+    "correct": [1],
+    "explanation": "Član 76. Zakona."
+  },
+  {
+    "id": "znr-132",
+    "law": "znr",
+    "article": "Član 75",
+    "topic": "Inspekcijski nadzor",
+    "type": "single",
+    "text": "Može li direktor Federalne uprave prenijeti ovlaštenje kantonalnom inspektoru da obavlja poslove iz nadležnosti Federalne uprave?",
+    "options": [
+      "Ne može",
+      "Izuzetno može, u slučaju potrebe, uz saglasnost kantonalnog rukovodioca inspekcije",
+      "Može bez ikakvih uvjeta",
+      "Može samo uz odluku Vlade Federacije"
+    ],
+    "correct": [1],
+    "explanation": "Član 75. stav 3. Zakona."
+  }
+]

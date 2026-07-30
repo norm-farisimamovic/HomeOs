@@ -1,0 +1,747 @@
+[
+  {
+    "id": "zup-151",
+    "law": "zup",
+    "article": "Član 162",
+    "topic": "Dokazivanje — isprave",
+    "type": "open",
+    "text": "Šta je javna isprava i kakvu dokaznu snagu ima?",
+    "answer": "Javna isprava je isprava koju je u propisanom obliku izdao organ u granicama svoje nadležnosti, institucija koja ima javne ovlasti ili drugo pravno lice; ona dokazuje ono što se u njoj potvrđuje ili određuje. Dopušteno je dokazivati da su u njoj činjenice neistinito potvrđene ili da je isprava neispravno sastavljena.",
+    "keywords": ["propisani oblik", "u granicama nadležnosti", "dokazuje ono što potvrđuje", "dopušteno dokazivati suprotno"],
+    "explanation": "Član 162. st. 1. i 3. ZUP-a."
+  },
+  {
+    "id": "zup-152",
+    "law": "zup",
+    "article": "Član 164",
+    "topic": "Dokazivanje — isprave",
+    "type": "single",
+    "text": "U kojem obliku stranka može podnijeti ispravu koja služi kao dokaz?",
+    "options": [
+      "Isključivo u originalu",
+      "U originalu, mikrofilmskoj kopiji ili njenoj reprodukciji, u ovjerenom prepisu ili ovjerenoj fotokopiji, a može i u prostom prepisu",
+      "Samo u ovjerenoj fotokopiji",
+      "Samo elektronski"
+    ],
+    "correct": [1],
+    "explanation": "Član 164. stav 1.; kod prostog prepisa službena osoba utvrđuje da li je vjeran originalu."
+  },
+  {
+    "id": "zup-153",
+    "law": "zup",
+    "article": "Član 166",
+    "topic": "Dokazivanje — isprave",
+    "type": "single",
+    "text": "Ako se isprava nalazi kod organa ili institucije s javnim ovlastima, a stranka je nije uspjela pribaviti:",
+    "options": [
+      "Stranka gubi mogućnost dokazivanja",
+      "Organ koji vodi postupak pribavit će ispravu po službenoj dužnosti, a traženi organi dužni su postupiti",
+      "Isprava se zamjenjuje izjavom stranke",
+      "Postupak se prekida"
+    ],
+    "correct": [1],
+    "explanation": "Član 166. ZUP-a."
+  },
+  {
+    "id": "zup-154",
+    "law": "zup",
+    "article": "Član 167",
+    "topic": "Dokazivanje — isprave",
+    "type": "single",
+    "text": "Protiv zaključka kojim se trećoj osobi naređuje pokazivanje isprave i zaključka o kazni zbog nepokazivanja:",
+    "options": [
+      "Žalba nije dopuštena",
+      "Treća osoba ima pravo žalbe, koja odgađa izvršenje zaključka",
+      "Dopuštena je žalba koja ne odgađa izvršenje",
+      "Može se pokrenuti samo upravni spor"
+    ],
+    "correct": [1],
+    "explanation": "Član 167. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-155",
+    "law": "zup",
+    "article": "Član 169",
+    "topic": "Uvjerenja",
+    "type": "single",
+    "text": "U kojem roku se izdaje uvjerenje o činjenicama o kojima se vodi službena evidencija?",
+    "options": [
+      "Po pravilu istog dana, a najkasnije u roku od 5 dana",
+      "U roku od 8 dana",
+      "U roku od 15 dana",
+      "U roku od 30 dana"
+    ],
+    "correct": [0],
+    "explanation": "Član 169. stav 5. ZUP-a."
+  },
+  {
+    "id": "zup-156",
+    "law": "zup",
+    "article": "Član 169",
+    "topic": "Uvjerenja",
+    "type": "single",
+    "text": "Šta se dešava ako organ u roku od 5 dana ne izda uvjerenje niti donese i dostavi rješenje o odbijanju zahtjeva?",
+    "options": [
+      "Smatra se da je uvjerenje izdato",
+      "Smatra se da je zahtjev odbijen",
+      "Rok se produžava za još 5 dana",
+      "Zahtjev se automatski prosljeđuje višem organu"
+    ],
+    "correct": [1],
+    "explanation": "Član 169. stav 6. ZUP-a — 'šutnja uprave' kod uvjerenja."
+  },
+  {
+    "id": "zup-157",
+    "law": "zup",
+    "article": "Član 169",
+    "topic": "Uvjerenja",
+    "type": "single",
+    "text": "Kakav značaj imaju uvjerenja izdata u skladu s podacima službene evidencije?",
+    "options": ["Značaj privatne isprave", "Značaj javne isprave", "Nemaju dokazni značaj", "Značaj mišljenja organa"],
+    "correct": [1],
+    "explanation": "Član 169. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-158",
+    "law": "zup",
+    "article": "Član 170",
+    "topic": "Uvjerenja",
+    "type": "single",
+    "text": "U kojem roku se izdaje uvjerenje o činjenicama o kojima se NE vodi službena evidencija (kad je to zakonom određeno)?",
+    "options": ["5 dana", "8 dana", "15 dana", "30 dana"],
+    "correct": [1],
+    "explanation": "Član 170. stav 3.; ako se tako ne postupi, smatra se da je zahtjev odbijen."
+  },
+  {
+    "id": "zup-159",
+    "law": "zup",
+    "article": "Član 170",
+    "topic": "Uvjerenja",
+    "type": "single",
+    "text": "Uvjerenje o činjenicama o kojima se ne vodi službena evidencija:",
+    "options": [
+      "Vezuje organ kome je podneseno kao dokaz",
+      "Ne vezuje organ kome je podneseno; ako ga ne prihvati, organ će sam utvrđivati te činjenice",
+      "Ima snagu pravomoćnog rješenja",
+      "Ne može se koristiti kao dokaz"
+    ],
+    "correct": [1],
+    "explanation": "Član 170. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-160",
+    "law": "zup",
+    "article": "Član 171",
+    "topic": "Dokazivanje — svjedoci",
+    "type": "single",
+    "text": "Ko može biti svjedok u upravnom postupku?",
+    "options": [
+      "Svaka fizička osoba koja je bila sposobna opaziti činjenicu i koja je u stanju to opažanje saopćiti",
+      "Samo punoljetna osoba",
+      "Samo osoba koja nije u srodstvu sa strankom",
+      "Svaka osoba, uključujući službenu osobu koja učestvuje u postupku"
+    ],
+    "correct": [0],
+    "explanation": "Član 171. stav 1.; osoba koja u postupku učestvuje kao službena osoba ne može biti svjedok (stav 2.)."
+  },
+  {
+    "id": "zup-161",
+    "law": "zup",
+    "article": "Član 173",
+    "topic": "Dokazivanje — svjedoci",
+    "type": "single",
+    "text": "Osoba koja bi svojim iskazom povrijedila dužnost čuvanja službene, državne ili vojne tajne:",
+    "options": [
+      "Može se ispitati bez ograničenja",
+      "Ne može se ispitati kao svjedok dok je nadležni organ ne oslobodi te dužnosti",
+      "Ispituje se uz isključenje javnosti",
+      "Ispituje se samo pismeno"
+    ],
+    "correct": [1],
+    "explanation": "Član 173. ZUP-a."
+  },
+  {
+    "id": "zup-162",
+    "law": "zup",
+    "article": "Član 174",
+    "topic": "Dokazivanje — svjedoci",
+    "type": "multi",
+    "text": "Svjedok može uskratiti svjedočenje: (više tačnih odgovora)",
+    "options": [
+      "Na pitanja na koja bi odgovor izložio teškoj sramoti, znatnoj imovinskoj šteti ili krivičnom gonjenju njega ili njemu bliskih osoba",
+      "Na pitanja na koja ne bi mogao odgovoriti bez povrede poslovne, profesionalne, umjetničke ili znanstvene tajne",
+      "O onome što mu je stranka povjerila kao punomoćniku ili o onome o čemu se ispovijedala vjerskom ispovjedniku",
+      "O svemu što je saznao iz medija"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 174. stav 1. tačke 1–4. ZUP-a."
+  },
+  {
+    "id": "zup-163",
+    "law": "zup",
+    "article": "Član 175",
+    "topic": "Dokazivanje — svjedoci",
+    "type": "single",
+    "text": "Kako se saslušavaju svjedoci?",
+    "options": [
+      "Svi zajedno, radi bržeg postupka",
+      "Pojedinačno, bez prisustva onih svjedoka koji će se kasnije saslušati",
+      "Isključivo pismeno",
+      "Uvijek u prisustvu vještaka"
+    ],
+    "correct": [1],
+    "explanation": "Član 175. stav 1.; svjedoci čiji se iskazi ne slažu mogu se suočiti (stav 3.)."
+  },
+  {
+    "id": "zup-164",
+    "law": "zup",
+    "article": "Član 176",
+    "topic": "Dokazivanje — svjedoci",
+    "type": "single",
+    "text": "Šta nije dopušteno prilikom ispitivanja svjedoka?",
+    "options": [
+      "Pitati svjedoka otkuda mu je poznato ono što svjedoči",
+      "Postavljati pitanja koja ukazuju na to kako bi se imalo odgovoriti (sugestivna pitanja)",
+      "Upozoriti svjedoka na posljedice lažnog iskaza",
+      "Ispitati svjedoka o njegovim srodničkim odnosima prema strankama"
+    ],
+    "correct": [1],
+    "explanation": "Član 176. stav 5. ZUP-a."
+  },
+  {
+    "id": "zup-165",
+    "law": "zup",
+    "article": "Član 178",
+    "topic": "Dokazivanje — svjedoci",
+    "type": "single",
+    "text": "Ko se neće zaklinjati na svoj iskaz?",
+    "options": [
+      "Svjedok stranog državljanstva",
+      "Svjedok koji je maloljetan ili koji ne može dovoljno shvatiti značaj zakletve",
+      "Svjedok koji je srodnik stranke",
+      "Svjedok koji je gluh ili nijem"
+    ],
+    "correct": [1],
+    "explanation": "Član 178. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-166",
+    "law": "zup",
+    "article": "Član 179",
+    "topic": "Dokazivanje — svjedoci",
+    "type": "single",
+    "text": "Ako uredno pozvani svjedok ne dođe i izostanak ne opravda, organ može:",
+    "options": [
+      "Samo odgoditi raspravu",
+      "Narediti da se prisilno dovede, da snosi troškove dovođenja i kazniti ga novčano",
+      "Podnijeti krivičnu prijavu",
+      "Odbiti zahtjev stranke koja ga je predložila"
+    ],
+    "correct": [1],
+    "explanation": "Član 179. stav 1.; protiv zaključka o troškovima ili kazni dopuštena je posebna žalba (stav 5.)."
+  },
+  {
+    "id": "zup-167",
+    "law": "zup",
+    "article": "Član 180",
+    "topic": "Dokazivanje — izjava stranke",
+    "type": "single",
+    "text": "Kada se izjava stranke može uzeti kao dokazno sredstvo?",
+    "options": [
+      "Uvijek, kao glavni dokaz",
+      "Ako za utvrđivanje činjenice ne postoji neposredan dokaz ili se ona ne može utvrditi drugim dokaznim sredstvima, kao i u stvarima malog značaja pod određenim uslovima",
+      "Samo ako stranka položi zakletvu",
+      "Nikada"
+    ],
+    "correct": [1],
+    "explanation": "Član 180. stav 1.; prije uzimanja izjave stranka se upozorava na krivičnu i materijalnu odgovornost za lažnu izjavu (stav 4.)."
+  },
+  {
+    "id": "zup-168",
+    "law": "zup",
+    "article": "Član 181",
+    "topic": "Dokazivanje — vještaci",
+    "type": "single",
+    "text": "Kada se izvodi dokaz vještačenjem?",
+    "options": [
+      "Kad stranka to zatraži",
+      "Kad je za utvrđivanje ili ocjenu neke činjenice potrebno stručno znanje kojim ne raspolaže službena osoba koja vodi postupak",
+      "Uvijek prije donošenja rješenja",
+      "Samo u drugostepenom postupku"
+    ],
+    "correct": [1],
+    "explanation": "Član 181. ZUP-a."
+  },
+  {
+    "id": "zup-169",
+    "law": "zup",
+    "article": "Član 183",
+    "topic": "Dokazivanje — vještaci",
+    "type": "single",
+    "text": "Koliko vještaka određuje službena osoba koja vodi postupak?",
+    "options": [
+      "Uvijek tri",
+      "Jednog vještaka, a kad ocijeni da je vještačenje složeno može odrediti dva ili više",
+      "Uvijek onoliko koliko traži stranka",
+      "Vještaka određuje isključivo rukovodilac organa"
+    ],
+    "correct": [1],
+    "explanation": "Član 183. stav 1.; za vještaka se ne može odrediti osoba koja ne može biti svjedok (stav 4.)."
+  },
+  {
+    "id": "zup-170",
+    "law": "zup",
+    "article": "Član 187",
+    "topic": "Dokazivanje — vještaci",
+    "type": "single",
+    "text": "Šta vrijedi za nalaz i mišljenje vještaka?",
+    "options": [
+      "Daje se usmeno na zapisnik, a vještak polaže zakletvu",
+      "Nalaz i mišljenje daje se pismeno, a vještak ne polaže zakletvu",
+      "Daje se u obliku rješenja",
+      "Nalaz daje vještak, a mišljenje službena osoba"
+    ],
+    "correct": [1],
+    "explanation": "Član 187. st. 3. i 5. ZUP-a."
+  },
+  {
+    "id": "zup-171",
+    "law": "zup",
+    "article": "Član 189",
+    "topic": "Dokazivanje — vještaci",
+    "type": "open",
+    "text": "Kada se obnavlja vještačenje i kada se može tražiti mišljenje naučne ili stručne ustanove?",
+    "answer": "Vještačenje se obnavlja s istim ili drugim vještacima ako nalaz i mišljenje nisu jasni ili potpuni, ako se nalazi i mišljenja bitno razlikuju, ako mišljenje nije dovoljno obrazloženo ili se pojavi osnovana sumnja u njegovu tačnost, a ti se nedostaci ne mogu otkloniti ni ponovnim saslušanjem vještaka. Mišljenje naučne ili stručne ustanove može se tražiti kad se zbog složenosti slučaja ili potrebe analize opravdano može pretpostaviti da će se tako doći do tačnijeg mišljenja.",
+    "keywords": ["nejasan ili nepotpun nalaz", "bitno razlikuju", "osnovana sumnja", "naučna ili stručna ustanova", "složenost slučaja"],
+    "explanation": "Član 189. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-172",
+    "law": "zup",
+    "article": "Član 191",
+    "topic": "Dokazivanje — tumači",
+    "type": "single",
+    "text": "Koja je razlika između tumača i prevoditelja u smislu ZUP-a?",
+    "options": [
+      "Nema razlike",
+      "Tumač se određuje radi sporazumijevanja s gluhim ili nijemim učesnikom, a prevoditelj osobi koja ne poznaje jezik na kojem se vodi postupak",
+      "Tumač prevodi pismeno, prevoditelj usmeno",
+      "Tumača određuje stranka, a prevoditelja organ"
+    ],
+    "correct": [1],
+    "explanation": "Član 191. st. 1. i 2.; na njih se shodno primjenjuju odredbe o vještaku."
+  },
+  {
+    "id": "zup-173",
+    "law": "zup",
+    "article": "Član 192",
+    "topic": "Dokazivanje — uviđaj",
+    "type": "single",
+    "text": "Kada se vrši uviđaj?",
+    "options": [
+      "Kad je za utvrđivanje neke činjenice ili razjašnjenje bitnih okolnosti potrebno neposredno opažanje službene osobe koja vodi postupak",
+      "Kad stranka odbije da svjedoči",
+      "Kad je vještačenje preskupo",
+      "Uvijek kad postoji nepokretnost"
+    ],
+    "correct": [0],
+    "explanation": "Član 192. ZUP-a; stranke imaju pravo prisustvovati uviđaju (član 193.)."
+  },
+  {
+    "id": "zup-174",
+    "law": "zup",
+    "article": "Član 195",
+    "topic": "Dokazivanje — uviđaj",
+    "type": "single",
+    "text": "Šteta nanesena prilikom obavljanja uviđaja:",
+    "options": [
+      "Ne naknađuje se",
+      "Spada u troškove postupka i naknađuje se vlasniku ili držaocu, o čemu se donosi zaključak protiv kojeg je dopuštena posebna žalba",
+      "Naknađuje je stranka koja je predložila uviđaj",
+      "Naknađuje se samo po presudi suda"
+    ],
+    "correct": [1],
+    "explanation": "Član 195. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-175",
+    "law": "zup",
+    "article": "Član 197",
+    "topic": "Osiguranje dokaza",
+    "type": "single",
+    "text": "Kada se može izvesti dokaz radi osiguranja dokaza?",
+    "options": [
+      "Samo u toku ispitnog postupka",
+      "U svakom stanju postupka, pa i prije nego što je postupak pokrenut, ako postoji opravdana bojazan da se dokaz kasnije neće moći izvesti ili će izvođenje biti otežano",
+      "Samo po nalogu suda",
+      "Samo poslije donošenja rješenja"
+    ],
+    "correct": [1],
+    "explanation": "Član 197. stav 1. ZUP-a."
+  },
+  {
+    "id": "zup-176",
+    "law": "zup",
+    "article": "Član 198",
+    "topic": "Osiguranje dokaza",
+    "type": "single",
+    "text": "Koji je organ nadležan za osiguranje dokaza PRIJE pokretanja postupka?",
+    "options": [
+      "Organ koji će kasnije voditi postupak",
+      "Organ na čijem se području nalaze stvari koje treba razgledati, odnosno na čijem području borave osobe koje treba saslušati",
+      "Drugostepeni organ",
+      "Nadležni sud"
+    ],
+    "correct": [1],
+    "explanation": "Član 198. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-177",
+    "law": "zup",
+    "article": "Član 200",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Kad o stvari rješava kolegijalni organ, on može rješavati:",
+    "options": [
+      "Kad je prisutno više od polovine njegovih članova, a rješenje donosi većinom glasova prisutnih članova",
+      "Kad su prisutni svi članovi, jednoglasno",
+      "Kad je prisutna trećina članova",
+      "Bez obzira na broj prisutnih"
+    ],
+    "correct": [0],
+    "explanation": "Član 200. stav 2. ZUP-a (ako propisom nije određena naročita većina)."
+  },
+  {
+    "id": "zup-178",
+    "law": "zup",
+    "article": "Član 202",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "U kojem roku je organ dužan dati saglasnost, mišljenje, potvrdu ili odobrenje potrebno za donošenje rješenja?",
+    "options": ["8 dana", "15 dana od dana kada mu je zatraženo, ako posebnim propisima nije određen drugi rok", "30 dana", "5 dana"],
+    "correct": [1],
+    "explanation": "Član 202. stav 5. ZUP-a."
+  },
+  {
+    "id": "zup-179",
+    "law": "zup",
+    "article": "Član 202",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Ako organ u propisanom roku ne dostavi akt kojim daje ili odbija saglasnost, potvrdu ili odobrenje:",
+    "options": [
+      "Postupak se prekida",
+      "Smatra se da je dao saglasnost, potvrdu ili odobrenje odnosno mišljenje",
+      "Smatra se da je saglasnost odbijena",
+      "Rok se produžava za još 15 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 202. stav 5. ZUP-a."
+  },
+  {
+    "id": "zup-180",
+    "law": "zup",
+    "article": "Član 204",
+    "topic": "Rješenje",
+    "type": "open",
+    "text": "Nabrojte sastavne dijelove rješenja u upravnom postupku.",
+    "answer": "Rješenje sadrži: naziv organa, broj i datum, uvod, dispozitiv (izreku), obrazloženje, uputstvo o pravnom lijeku, potpis ovlaštene službene osobe i pečat organa. U slučajevima predviđenim zakonom rješenje ne mora sadržavati pojedine od ovih dijelova.",
+    "keywords": ["naziv organa", "broj i datum", "uvod", "dispozitiv izreka", "obrazloženje", "uputstvo o pravnom lijeku", "potpis i pečat"],
+    "explanation": "Član 204. stav 3. ZUP-a."
+  },
+  {
+    "id": "zup-181",
+    "law": "zup",
+    "article": "Član 204",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "U kojem se obliku donosi rješenje?",
+    "options": [
+      "Isključivo pismeno",
+      "Pismeno ili u elektronskoj formi, a iznimno, u slučajevima predviđenim zakonom, i usmeno",
+      "Isključivo usmeno",
+      "Pismeno, a elektronski samo u drugom stepenu"
+    ],
+    "correct": [1],
+    "explanation": "Član 204. stav 2.; i kad se objavi usmeno, rješenje se mora izdati napismeno (stav 4.)."
+  },
+  {
+    "id": "zup-182",
+    "law": "zup",
+    "article": "Član 205",
+    "topic": "Rješenje",
+    "type": "multi",
+    "text": "Šta sadrži uvod rješenja? (više tačnih odgovora)",
+    "options": [
+      "Naziv organa koji donosi rješenje i propis o njegovoj nadležnosti",
+      "Ime stranke i njenog zakonskog zastupnika ili punomoćnika ako ga ima",
+      "Kratko označenje predmeta postupka",
+      "Ocjenu izvedenih dokaza"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 205. stav 1.; ocjena dokaza pripada obrazloženju (član 207.)."
+  },
+  {
+    "id": "zup-183",
+    "law": "zup",
+    "article": "Član 206",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Šta je dispozitiv (izreka) rješenja?",
+    "options": [
+      "Dio u kojem se navode dokazi",
+      "Dio kojim se rješava o predmetu postupka u cijelosti i o svim zahtjevima stranaka o kojima u toku postupka nije posebno riješeno; mora biti kratak i određen",
+      "Dio u kojem se navodi pravni lijek",
+      "Dio u kojem se navodi pravni osnov"
+    ],
+    "correct": [1],
+    "explanation": "Član 206. st. 1. i 2. ZUP-a."
+  },
+  {
+    "id": "zup-184",
+    "law": "zup",
+    "article": "Član 206",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Kad je propisano da žalba ne odgađa izvršenje rješenja, to:",
+    "options": [
+      "Ne mora se nigdje navoditi",
+      "Mora biti navedeno u dispozitivu rješenja",
+      "Navodi se samo u uputstvu o pravnom lijeku",
+      "Navodi se samo u uvodu"
+    ],
+    "correct": [1],
+    "explanation": "Član 206. stav 5.; obrazloženje tada sadrži i pozivanje na propis koji to predviđa (član 207. stav 2.)."
+  },
+  {
+    "id": "zup-185",
+    "law": "zup",
+    "article": "Član 207",
+    "topic": "Rješenje",
+    "type": "open",
+    "text": "Šta sadrži obrazloženje rješenja (u stvarima koje nisu jednostavne)?",
+    "answer": "Kratko izlaganje zahtjeva stranaka, izvedene dokaze i utvrđeno činjenično stanje, razloge koji su bili odlučujući pri ocjeni dokaza, razloge zbog kojih nije uvažen neki od zahtjeva stranaka, razloge koji s obzirom na utvrđeno činjenično stanje upućuju na rješenje dato u dispozitivu i pravne propise na osnovu kojih je stvar riješena; ako žalba ne odgađa izvršenje — i pozivanje na propis koji to predviđa. Moraju biti obrazloženi i zaključci protiv kojih nije dopuštena posebna žalba.",
+    "keywords": ["zahtjevi stranaka", "izvedeni dokazi i činjenično stanje", "ocjena dokaza", "pravni propisi", "razlozi za dispozitiv"],
+    "explanation": "Član 207. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-186",
+    "law": "zup",
+    "article": "Član 207",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Kad je organ ovlašten da riješi stvar po slobodnoj ocjeni, u obrazloženju je dužan:",
+    "options": [
+      "Navesti samo pravni osnov",
+      "Navesti propis kojim je predviđeno rješavanje po slobodnoj ocjeni i izložiti razloge kojima se rukovodio",
+      "Ne navoditi ništa posebno",
+      "Navesti mišljenje drugostepenog organa"
+    ],
+    "correct": [1],
+    "explanation": "Član 207. stav 3.; razlozi se ne moraju navesti kad je to u javnom interesu izričito propisano."
+  },
+  {
+    "id": "zup-187",
+    "law": "zup",
+    "article": "Član 208",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Šta sadrži uputstvo o pravnom lijeku kad se protiv rješenja može izjaviti žalba?",
+    "options": [
+      "Samo rok za žalbu",
+      "Naziv organa kome se žalba izjavljuje, organ kome se predaje, rok i taksu, te napomenu da se žalba može izjaviti i na zapisnik kod organa koji je donio rješenje",
+      "Samo naziv drugostepenog organa",
+      "Samo iznos takse"
+    ],
+    "correct": [1],
+    "explanation": "Član 208. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-188",
+    "law": "zup",
+    "article": "Član 208",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Kad je u rješenju dato pogrešno uputstvo o pravnom lijeku:",
+    "options": [
+      "Rješenje je ništavo",
+      "Stranka može postupiti po važećim propisima ili po uputstvu, a ako postupi po pogrešnom uputstvu ne može zbog toga imati štetnih posljedica",
+      "Stranka gubi pravo na žalbu",
+      "Rok za žalbu se prepolovljuje"
+    ],
+    "correct": [1],
+    "explanation": "Član 208. stav 4. ZUP-a."
+  },
+  {
+    "id": "zup-189",
+    "law": "zup",
+    "article": "Član 208",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Kad u rješenju nije dato nikakvo uputstvo o pravnom lijeku ili je nepotpuno, stranka može:",
+    "options": [
+      "Samo čekati novo rješenje",
+      "Postupiti po važećim propisima, a može u roku od 8 dana tražiti od organa koji je rješenje donio da dopuni rješenje — tada rok za žalbu teče od dostavljanja dopunjenog rješenja",
+      "Podnijeti žalbu u roku od 30 dana",
+      "Odmah pokrenuti upravni spor"
+    ],
+    "correct": [1],
+    "explanation": "Član 208. stav 5. ZUP-a."
+  },
+  {
+    "id": "zup-190",
+    "law": "zup",
+    "article": "Član 211",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "U stvarima manjeg značaja u kojima se udovoljava zahtjevu stranke, a ne dira se u javni interes ni interes druge osobe, rješenje se može:",
+    "options": [
+      "Izostaviti u cijelosti",
+      "Sastojati samo od dispozitiva u obliku službene zabilješke u spisu, a stranci se, po pravilu, priopćava usmeno (napismeno se izdaje na njen zahtjev)",
+      "Donijeti samo usmeno bez ikakvog traga",
+      "Donijeti bez dispozitiva"
+    ],
+    "correct": [1],
+    "explanation": "Član 211. ZUP-a."
+  },
+  {
+    "id": "zup-191",
+    "law": "zup",
+    "article": "Član 212",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Kad se radi o iznimno hitnim mjerama radi osiguranja javnog mira i sigurnosti ili otklanjanja neposredne opasnosti po život i zdravlje ljudi ili imovinu, rješenje se može donijeti usmeno, a pismeno rješenje se mora donijeti:",
+    "options": ["U roku od 3 dana", "Najkasnije u roku od 8 dana od dana donošenja usmenog rješenja", "U roku od 15 dana", "U roku od 30 dana"],
+    "correct": [1],
+    "explanation": "Član 212. ZUP-a; sadržaj pismenog rješenja mora odgovarati sadržaju usmenog."
+  },
+  {
+    "id": "zup-192",
+    "law": "zup",
+    "article": "Član 213",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Šta je djelimično rješenje?",
+    "options": [
+      "Rješenje koje nije potpisano",
+      "Rješenje kojim organ rješava samo o onim tačkama koje su dozrele za rješavanje, kad se to pokaže svrsishodnim",
+      "Rješenje koje se odnosi samo na jednu stranku",
+      "Rješenje koje donosi samo jedan član kolegijalnog organa"
+    ],
+    "correct": [1],
+    "explanation": "Član 213. stav 1.; u pogledu pravnih lijekova i izvršenja smatra se samostalnim rješenjem."
+  },
+  {
+    "id": "zup-193",
+    "law": "zup",
+    "article": "Član 214",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Kada se donosi dopunsko rješenje?",
+    "options": [
+      "Kad organ nije rješenjem odlučio o svim pitanjima koja su bila predmet postupka — po prijedlogu stranke ili po službenoj dužnosti",
+      "Kad stranka nije zadovoljna rješenjem",
+      "Kad se rješenje ne može izvršiti",
+      "Kad drugostepeni organ tako naloži"
+    ],
+    "correct": [0],
+    "explanation": "Član 214. stav 1.; smatra se samostalnim rješenjem u pogledu pravnih lijekova i izvršenja."
+  },
+  {
+    "id": "zup-194",
+    "law": "zup",
+    "article": "Član 215",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Šta vrijedi za privremeno rješenje?",
+    "options": [
+      "Ne mora se posebno označiti",
+      "Mora biti izričito naznačeno da je privremeno, donosi se na osnovu podataka koji postoje u času donošenja, a rješenjem o glavnoj stvari se ukida",
+      "Ne može se pobijati pravnim lijekom",
+      "Vrijedi najduže 30 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 215. st. 1. i 3. ZUP-a."
+  },
+  {
+    "id": "zup-195",
+    "law": "zup",
+    "article": "Član 216",
+    "topic": "Rok za donošenje rješenja",
+    "type": "open",
+    "text": "Koji su rokovi za donošenje i dostavljanje rješenja stranci i šta se dešava ako organ te rokove ne poštuje?",
+    "answer": "Ako nije potrebno provoditi poseban ispitni postupak, rješenje se donosi i dostavlja što prije, a najkasnije u roku od 30 dana od predaje urednog zahtjeva odnosno pokretanja postupka po službenoj dužnosti. U ostalim slučajevima rok je najkasnije 60 dana. U stvarima iz člana 139. (skraćeni postupak) rok je 15 dana od prijema zahtjeva. Ako organ ne donese i ne dostavi rješenje u tim rokovima, stranka ima pravo izjaviti žalbu kao da je njen zahtjev odbijen ('šutnja uprave').",
+    "keywords": ["30 dana", "60 dana", "15 dana", "žalba kao da je zahtjev odbijen", "šutnja uprave"],
+    "explanation": "Član 216. st. 1–4. ZUP-a."
+  },
+  {
+    "id": "zup-196",
+    "law": "zup",
+    "article": "Član 216",
+    "topic": "Rok za donošenje rješenja",
+    "type": "single",
+    "text": "Koji je rok za donošenje rješenja kad je potrebno provesti poseban ispitni postupak?",
+    "options": ["15 dana", "30 dana", "60 dana", "90 dana"],
+    "correct": [2],
+    "explanation": "Član 216. stav 2. ZUP-a — najkasnije 60 dana, ako posebnim propisom nije određen kraći rok."
+  },
+  {
+    "id": "zup-197",
+    "law": "zup",
+    "article": "Član 209",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Ko potpisuje rješenje koje je donio kolegijalni organ?",
+    "options": ["Svi članovi", "Predsjedavajući, ako zakonom ili posebnim propisom nije drugačije određeno", "Zapisničar", "Rukovodilac organa uprave"],
+    "correct": [1],
+    "explanation": "Član 209. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-198",
+    "law": "zup",
+    "article": "Član 203",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Ako službena osoba koja je vodila postupak nije ovlaštena da donosi rješenje:",
+    "options": [
+      "Postupak vodi druga osoba od početka",
+      "Dužna je podnijeti nacrt rješenja organu koji donosi rješenje i taj nacrt potpisati",
+      "Rješenje donosi ipak ona",
+      "Predmet se ustupa drugom organu"
+    ],
+    "correct": [1],
+    "explanation": "Član 203. ZUP-a."
+  },
+  {
+    "id": "zup-199",
+    "law": "zup",
+    "article": "Član 201",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Kad je propisom određeno da o jednoj stvari rješavaju dva ili više organa, a oni se ne mogu sporazumjeti ko će donijeti rješenje:",
+    "options": [
+      "Rješenje donosi organ koji je zadnji odlučivao o toj upravnoj stvari",
+      "Odlučuje Vlada Federacije",
+      "Postupak se obustavlja",
+      "Rješenje donosi prvi organ koji je primio zahtjev"
+    ],
+    "correct": [0],
+    "explanation": "Član 201. stav 2. ZUP-a."
+  },
+  {
+    "id": "zup-200",
+    "law": "zup",
+    "article": "Član 210",
+    "topic": "Rješenje",
+    "type": "single",
+    "text": "Kad se stvar tiče većeg broja određenih osoba, jedno rješenje za sve njih:",
+    "options": [
+      "Nije dopušteno",
+      "Dopušteno je, ali osobe moraju biti imenovane u dispozitivu, a u obrazloženju izloženi razlozi koji se na svaku od njih odnose; rješenje se dostavlja svakoj od tih osoba",
+      "Dopušteno je bez imenovanja osoba",
+      "Dopušteno je samo u drugostepenom postupku"
+    ],
+    "correct": [1],
+    "explanation": "Član 210. stav 1. ZUP-a."
+  }
+]

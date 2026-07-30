@@ -26,7 +26,8 @@
     "shopping": "Kupovina",
     "chat": "Chat",
     "assistant": "Asistent",
-    "reports": "Izvještaji"
+    "reports": "Izvještaji",
+    "exams": "Ispit"
   },
   "dashboard": {
     "morning": "Dobro jutro, {{name}}",
@@ -676,7 +677,8 @@
       "life": "Dokumenti, garancije, obnove i važni kontakti.",
       "automations": "Pravila „kad se ovo desi, uradi ono“.",
       "shopping": "Dijeljene kućne liste (kupovina, planiranje).",
-      "chat": "Razgovor među članovima domaćinstva, uživo."
+      "chat": "Razgovor među članovima domaćinstva, uživo.",
+      "exams": "Priprema za stručni ispit — pitanja iz zakona, ocjena i učenje."
     }
   },
   "recurrence": {
@@ -816,5 +818,112 @@
       "title": "Zadaci",
       "desc": "Svi zadaci — zaduženi, rokovi, prioriteti i status."
     }
+  },
+  "exams": {
+    "title": "Priprema za stručni ispit",
+    "sub": "Vježbaj pitanja iz zakona, upiši odgovore i dobij ocjenu na kraju.",
+    "tab": {
+      "exam": "Ispit",
+      "study": "Učenje",
+      "history": "Historija"
+    },
+    "pickLaws": "Izaberi zakone",
+    "bankSize": "{{n}} pitanja",
+    "lawCounts": "{{total}} pitanja · {{choice}} zaokruživanje · {{open}} opisno",
+    "allHint": "Ako ne izabereš nijedan zakon, pitanja se vuku iz svih oblasti.",
+    "length": "Broj pitanja",
+    "availableQuestions": "Dostupno za izabrano: {{n}}",
+    "modeHint": {
+      "mixed": "Kombinacija pitanja sa ponuđenim odgovorima i pitanja koja se upisuju.",
+      "choice": "Samo pitanja sa ponuđenim odgovorima (jedan ili više tačnih).",
+      "open": "Samo pitanja na koja se odgovor upisuje svojim riječima."
+    },
+    "type": {
+      "single": "Jedan tačan",
+      "multi": "Više tačnih",
+      "open": "Opisno"
+    },
+    "points": "{{n}} bod(a)",
+    "aiOn": "Opisne odgovore ocjenjuje AI ispitivač — gleda smisao, ne doslovan tekst.",
+    "aiOff": "Opisni odgovori se ocjenjuju po ključnim pojmovima (AI ključ nije podešen).",
+    "passHint": "Prolaz je {{percent}}% i više. Ocjena se daje na skali od 1 do 5.",
+    "begin": "Započni test",
+    "noQuestions": "Za izabranu kombinaciju nema pitanja.",
+    "questionOf": "Pitanje {{n}} od {{total}}",
+    "answeredOf": "Odgovoreno {{answered}}/{{total}}",
+    "goToQuestion": "Idi na pitanje {{n}}",
+    "prev": "Nazad",
+    "next": "Dalje",
+    "finish": "Predaj i ocijeni",
+    "marking": "Ocjenjivanje…",
+    "finishTitle": "Predati test?",
+    "finishMsg": "Nakon predaje odgovori se više ne mogu mijenjati.",
+    "finishBlank": "Još {{n}} pitanja nisu odgovorena. Predati ipak?",
+    "leave": "Prekini",
+    "leaveTitle": "Prekinuti test?",
+    "leaveMsg": "Test ostaje sačuvan u historiji i možeš ga kasnije nastaviti.",
+    "writePlaceholder": "Upiši odgovor svojim riječima…",
+    "openHint": "Ne mora od riječi do riječi — dovoljno je da suština i ključni pojmovi budu tačni.",
+    "multiHint": "Označi sve tačne odgovore.",
+    "result": {
+      "score": "Uspješnost",
+      "passed": "Položeno",
+      "failed": "Nije položeno",
+      "points": "{{earned}} od {{max}} bodova",
+      "correct": "{{correct}} od {{total}} tačnih",
+      "again": "Novi test",
+      "review": "Pregled odgovora",
+      "gotPoints": "{{points}}/{{max}}",
+      "yourAnswer": "Tvoj odgovor",
+      "modelAnswer": "Tačan odgovor",
+      "examiner": "Ocjena ispitivača",
+      "note": "Napomena",
+      "blank": "(nije upisano)",
+      "correctTag": "Tačno",
+      "yoursTag": "Tvoj izbor"
+    },
+    "grade": {
+      "1": "nedovoljan",
+      "2": "dovoljan",
+      "3": "dobar",
+      "4": "vrlo dobar",
+      "5": "odličan"
+    },
+    "allLaws": "Svi zakoni",
+    "searchPlaceholder": "Traži po pojmu, članu ili odgovoru…",
+    "showing": "{{shown}}/{{total}}",
+    "study": {
+      "emptyTitle": "Nema pitanja za ovaj filter",
+      "emptySub": "Promijeni zakon ili pojam pretrage.",
+      "pick": "Ponavljanje — pitanja i odgovori",
+      "allHint": "Izaberi jednu oblast, više njih za mix, ili nijednu za sve zakone.",
+      "showAnswers": "Prikaži odgovore",
+      "hideAnswers": "Sakrij odgovore",
+      "reveal": "Prikaži odgovor",
+      "more": "Prikaži još"
+    },
+    "history": {
+      "emptyTitle": "Još nema odrađenih testova",
+      "emptySub": "Kad predaš prvi test, rezultat će se pojaviti ovdje.",
+      "questions": "{{n}} pitanja",
+      "unfinished": "U toku",
+      "deleteTitle": "Obrisati test?",
+      "deleteMsg": "Rezultat ovog testa će biti trajno uklonjen."
+    },
+    "widget": {
+      "practice": "Vježbaj",
+      "lastScore": "Zadnji rezultat: {{percent}}%",
+      "empty": "{{n}} pitanja iz zakona čeka — odradi prvi probni test."
+    },
+    "modeLabel": "Vrsta pitanja",
+    "mode": {
+      "mixed": "Mješovito",
+      "choice": "Zaokruživanje",
+      "open": "Opisno"
+    },
+    "customCount": "ili upiši",
+    "cappedTo": "Za ovaj izbor test će imati {{n}} pitanja.",
+    "localMarking": "Pitanja sa zaokruživanjem provjeravaju se lokalno — tačni odgovori su u aplikaciji, bez interneta i bez AI-a.",
+    "aiScope": "AI se koristi samo za pitanja koja se upisuju svojim riječima."
   }
 }

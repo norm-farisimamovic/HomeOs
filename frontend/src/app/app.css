@@ -565,3 +565,180 @@ span.board-tab > button:first-child { padding: 5px 4px 5px 12px; }
 .mention-opt:last-child { border-bottom: 0; }
 .mention-opt:hover { background: var(--surface-2); }
 .chat-hint { font-size: 11.5px; color: var(--text-3); padding: 0 16px 12px; margin: 0; }
+
+/* ── Exam prep ─────────────────────────────────────────────────────────────── */
+/* Wrapping variant of the segmented control — needed where a phone can't fit one row. */
+.seg.wrap { flex-wrap: wrap; }
+
+.exam-laws { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.exam-law {
+  display: flex; gap: 10px; align-items: flex-start; text-align: left; padding: 12px;
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--r-md);
+  color: var(--text); cursor: pointer; min-height: var(--tap);
+  transition: border-color .14s var(--ease), background .14s var(--ease);
+}
+.exam-law:hover { border-color: var(--line-strong); }
+.exam-law.on { border-color: var(--m-exams); background: color-mix(in srgb, var(--m-exams) 9%, var(--surface)); }
+.exam-law .tick {
+  flex: none; width: 18px; height: 18px; margin-top: 2px; border-radius: var(--r-xs);
+  border: 1.5px solid var(--line-strong); display: grid; place-items: center; color: #fff;
+}
+.exam-law.on .tick { background: var(--m-exams); border-color: var(--m-exams); }
+.exam-law .body { display: grid; gap: 3px; min-width: 0; }
+.exam-law .ttl { font-weight: 600; line-height: 1.3; }
+.exam-law .gz, .exam-law .cnt { font-size: 12px; color: var(--text-3); line-height: 1.35; }
+.exam-allhint { margin-top: 10px; }
+.exam-config { margin-top: 14px; }
+
+.exam-count { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.exam-count-own { display: flex; gap: 7px; align-items: center; }
+.exam-count-own .inp { width: 84px; }
+.exam-start { display: flex; gap: 16px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.marking-list { display: grid; gap: 10px; flex: 1; min-width: 240px; }
+.exam-start .marking { display: flex; gap: 10px; align-items: flex-start; min-width: 0; }
+.exam-start .marking .ico {
+  flex: none; width: 28px; height: 28px; border-radius: var(--r-sm); display: grid; place-items: center;
+  background: color-mix(in srgb, var(--mc) 14%, var(--surface)); color: var(--mc);
+}
+.exam-start .marking .ttl { font-weight: 600; font-size: 13.5px; line-height: 1.4; }
+
+.exam-run-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.exam-progress { height: 4px; background: var(--surface-3); overflow: hidden; }
+.exam-progress > span { display: block; height: 100%; background: var(--m-exams); transition: width .2s var(--ease); }
+.exam-q .meta { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 10px; }
+.exam-q .text { font-size: 17px; line-height: 1.5; font-weight: 600; margin-bottom: 14px; }
+.exam-opts { display: grid; gap: 8px; }
+.exam-opt {
+  display: flex; gap: 10px; align-items: flex-start; text-align: left; padding: 11px 13px; line-height: 1.45;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-sm);
+  color: var(--text); cursor: pointer; min-height: var(--tap);
+  transition: border-color .14s var(--ease), background .14s var(--ease);
+}
+.exam-opt:hover { border-color: var(--line-strong); background: var(--surface-2); }
+.exam-opt.on { border-color: var(--m-exams); background: color-mix(in srgb, var(--m-exams) 10%, var(--surface)); }
+.exam-opt .mark {
+  flex: none; width: 18px; height: 18px; margin-top: 1px; border-radius: var(--r-pill);
+  border: 1.5px solid var(--line-strong); display: grid; place-items: center; color: #fff;
+}
+.exam-opt .mark.sq { border-radius: var(--r-xs); }
+.exam-opt.on .mark { background: var(--m-exams); border-color: var(--m-exams); }
+.exam-nav { display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.exam-dots { display: flex; gap: 5px; flex-wrap: wrap; justify-content: center; flex: 1 1 160px; }
+.exam-dots .dot {
+  width: 11px; height: 11px; border-radius: var(--r-pill); border: 1.5px solid var(--line-strong);
+  background: transparent; cursor: pointer; padding: 0;
+}
+.exam-dots .dot.done { background: color-mix(in srgb, var(--m-exams) 55%, var(--surface)); border-color: var(--m-exams); }
+.exam-dots .dot.cur { outline: 2px solid var(--m-exams); outline-offset: 2px; }
+.exam-more { justify-content: center; }
+
+.exam-score .card-b { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+.exam-score .dial {
+  flex: none; width: 108px; height: 108px; border-radius: var(--r-pill); display: grid; place-content: center; text-align: center;
+  background: color-mix(in srgb, var(--ok) 12%, var(--surface)); border: 3px solid var(--ok);
+}
+.exam-score.fail .dial { background: color-mix(in srgb, var(--danger) 12%, var(--surface)); border-color: var(--danger); }
+.exam-score .dial .pct { font-family: var(--font-display); font-size: 27px; font-weight: 700; line-height: 1; }
+.exam-score .dial .lbl { font-size: 11px; color: var(--text-3); }
+.exam-score .verdict { display: grid; gap: 4px; flex: 1 1 180px; min-width: 0; }
+.exam-score .grade { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.exam-score .grade .n { font-family: var(--font-display); font-size: 34px; font-weight: 700; line-height: 1; }
+.exam-score .grade .w { color: var(--text-2); }
+.exam-score .state { font-weight: 600; }
+.exam-score .state.ok { color: var(--ok); }
+.exam-score .state.no { color: var(--danger); }
+
+.exam-review { padding: 14px 16px; border-top: 1px solid var(--line); }
+.exam-review:first-child { border-top: 0; }
+.exam-review .head { display: flex; gap: 10px; align-items: flex-start; }
+.exam-review .head .ic {
+  flex: none; width: 20px; height: 20px; margin-top: 2px; border-radius: var(--r-pill);
+  display: grid; place-items: center; color: #fff; background: var(--danger);
+}
+.exam-review.ok .head .ic { background: var(--ok); }
+.exam-review.partial .head .ic { background: var(--warn); }
+.exam-review .q { min-width: 0; }
+.exam-review .meta { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 6px; }
+.exam-review .text { font-weight: 600; line-height: 1.45; }
+.exam-review .body { margin: 10px 0 0 30px; display: grid; gap: 8px; }
+.exam-review .line { display: grid; gap: 2px; font-size: 14px; line-height: 1.5; }
+.exam-review .line b { font-size: 12px; color: var(--text-3); font-weight: 600; display: flex; gap: 4px; align-items: center; }
+.exam-review .line.good span { color: var(--ok); }
+.exam-review .line.fb span { color: var(--text-2); font-style: italic; }
+.exam-review .opts { list-style: none; display: grid; gap: 5px; }
+.exam-review .opts li, .exam-study .opts li {
+  display: flex; gap: 8px; align-items: baseline; font-size: 14px; line-height: 1.45;
+  padding: 7px 10px; border-radius: var(--r-xs); background: var(--surface-2);
+}
+.exam-review .opts li.right, .exam-study .opts li.right { background: color-mix(in srgb, var(--ok) 12%, var(--surface)); }
+.exam-review .opts li.wrong { background: color-mix(in srgb, var(--danger) 12%, var(--surface)); }
+.exam-review .opts .tag, .exam-study .opts .tag { flex: none; font-size: 11px; color: var(--text-3); min-width: 52px; }
+.exam-review .why, .exam-study .why { margin: 8px 0 0 30px; font-size: 13px; color: var(--text-3); line-height: 1.5; }
+
+.exam-study-bar { display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-top: 12px; }
+.exam-search { display: flex; gap: 6px; align-items: center; color: var(--text-3); flex: 1 1 220px; }
+.exam-search .inp { min-width: 0; }
+.exam-study { border-top: 1px solid var(--line); }
+.exam-study:first-child { border-top: 0; }
+.exam-study > .q { display: grid; gap: 6px; padding: 13px 16px 0; }
+.exam-study .meta { display: flex; gap: 6px; flex-wrap: wrap; }
+.exam-study > .q .text { line-height: 1.5; font-weight: 600; }
+.exam-study .a { padding: 10px 16px 14px; display: grid; gap: 8px; justify-items: start; }
+.exam-study .a .opts { width: 100%; }
+.exam-study .model { font-size: 14px; line-height: 1.55; color: var(--ok); }
+.exam-study .a .why { margin-left: 0; }
+
+.exam-hist { flex-wrap: wrap; }
+.exam-hist .grade {
+  flex: none; width: 32px; height: 32px; border-radius: var(--r-sm); display: grid; place-items: center;
+  font-family: var(--font-display); font-weight: 700; background: var(--surface-3); color: var(--text-2);
+}
+.exam-hist .grade.ok { background: color-mix(in srgb, var(--ok) 16%, var(--surface)); color: var(--ok); }
+.exam-hist .grade.no { background: color-mix(in srgb, var(--danger) 16%, var(--surface)); color: var(--danger); }
+.exam-hist .body { flex: 1 1 160px; min-width: 0; text-align: left; background: none; border: 0; color: var(--text); cursor: pointer; }
+.exam-hist .body .ttl { font-weight: 600; }
+.exam-hist .body .sub { font-size: 12px; color: var(--text-3); }
+
+.exam-widget-last { display: flex; gap: 10px; align-items: center; }
+.exam-widget-last .grade {
+  flex: none; width: 38px; height: 38px; border-radius: var(--r-sm); display: grid; place-items: center;
+  font-family: var(--font-display); font-size: 19px; font-weight: 700;
+  background: color-mix(in srgb, var(--ok) 16%, var(--surface)); color: var(--ok);
+}
+.exam-widget-last .grade.no { background: color-mix(in srgb, var(--danger) 16%, var(--surface)); color: var(--danger); }
+.exam-widget-last .ttl { font-weight: 600; }
+.exam-widget-spark { display: flex; gap: 5px; align-items: flex-end; height: 42px; margin-top: 12px; }
+.exam-widget-spark span { flex: 1; border-radius: var(--r-xs) var(--r-xs) 0 0; background: var(--ok); opacity: .55; }
+.exam-widget-spark span.no { background: var(--danger); }
+
+/* Tablet / small laptop: the tab strip and the page header stop competing for one row. */
+@media (max-width: 780px) {
+  .exam-score .card-b { justify-content: center; text-align: center; }
+  .exam-score .verdict { text-align: center; }
+  .exam-score .grade { justify-content: center; }
+}
+
+/* Phones: single column, no horizontal scroll anywhere, ≥44px taps. */
+@media (max-width: 560px) {
+  .exam-laws { grid-template-columns: 1fr; }
+  .exam-count, .exam-count-own { width: 100%; }
+  .exam-count .seg { width: 100%; justify-content: space-between; }
+  .exam-count-own .inp { flex: 1; width: auto; }
+  .exam-go { width: 100%; justify-content: center; }
+  .marking-list { min-width: 0; }
+  .exam-q .text { font-size: 15.5px; }
+  .exam-nav .btn { flex: 1 1 auto; justify-content: center; }
+  .exam-dots { order: 3; flex-basis: 100%; padding-top: 4px; }
+  .exam-review .body, .exam-review .why { margin-left: 0; }
+  .exam-review .opts li, .exam-study .opts li { flex-direction: column; gap: 2px; }
+  .exam-review .opts .tag, .exam-study .opts .tag { min-width: 0; }
+  .exam-search { flex-basis: 100%; }
+  .exam-study-bar .btn { width: 100%; justify-content: center; }
+  .exam-hist .body { flex-basis: 100%; order: 3; }
+}
+
+/* Card headers on the exam pages carry a counter chip; let it drop to its own line on phones. */
+@media (max-width: 560px) {
+  .exams-page .card-h { flex-wrap: wrap; row-gap: 6px; }
+  .exams-page .card-h > .t { min-width: 0; }
+}

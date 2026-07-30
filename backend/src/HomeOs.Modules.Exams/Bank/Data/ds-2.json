@@ -1,0 +1,802 @@
+[
+  {
+    "id": "ds-041",
+    "law": "ds",
+    "article": "Član 33",
+    "topic": "Premještaj",
+    "type": "single",
+    "text": "Šta se podrazumijeva pod sličnim radnim mjestom kod internog premještaja državnog službenika?",
+    "options": [
+      "Bilo koje slobodno radno mjesto",
+      "Radno mjesto iste stručne spreme u okviru organa državne službe, za koje državni službenik ispunjava opšte i posebne uslove propisane pravilnikom o unutrašnjoj organizaciji",
+      "Radno mjesto sa istom platom",
+      "Radno mjesto u istoj organizacionoj jedinici"
+    ],
+    "correct": [1],
+    "explanation": "Član 33. stav 2. Zakona."
+  },
+  {
+    "id": "ds-042",
+    "law": "ds",
+    "article": "Član 33",
+    "topic": "Premještaj",
+    "type": "single",
+    "text": "Koliko puta se u toku jedne kalendarske godine može izvršiti interni premještaj državnog službenika?",
+    "options": ["Samo jednom", "Dva puta", "Tri puta", "Bez ograničenja"],
+    "correct": [0],
+    "explanation": "Član 33. stav 6.; žalba na rješenje o premještaju ne odlaže izvršenje (stav 7.)."
+  },
+  {
+    "id": "ds-043",
+    "law": "ds",
+    "article": "Član 33",
+    "topic": "Premještaj",
+    "type": "single",
+    "text": "Može li se interni premještaj izvršiti bez saglasnosti državnog službenika?",
+    "options": [
+      "Ne može nikada",
+      "Može — sa ili bez saglasnosti službenika, u okviru radnih mjesta iz člana 10. stav 1. tačke b) do k), ako postoji potreba službe prema ocjeni rukovodioca organa",
+      "Može samo uz saglasnost sindikata",
+      "Može samo uz odobrenje Agencije"
+    ],
+    "correct": [1],
+    "explanation": "Član 33. stav 3. Zakona."
+  },
+  {
+    "id": "ds-044",
+    "law": "ds",
+    "article": "Član 34",
+    "topic": "Preuzimanje",
+    "type": "single",
+    "text": "Pod kojim uslovima organ državne službe može preuzeti državnog službenika iz drugog organa?",
+    "options": [
+      "Bez ikakvih uslova",
+      "Na osnovu pismenog sporazuma sa drugim organom državne službe u Kantonu, nezavisno od nivoa vlasti i uz saglasnost državnog službenika, sa sličnog radnog mjesta",
+      "Samo uz odluku Vlade",
+      "Samo unutar istog nivoa vlasti i bez saglasnosti službenika"
+    ],
+    "correct": [1],
+    "explanation": "Član 34. stav 1.; primjerak sporazuma i rješenje o postavljenju dostavljaju se Agenciji."
+  },
+  {
+    "id": "ds-045",
+    "law": "ds",
+    "article": "Član 35",
+    "topic": "Popuna radnog mjesta",
+    "type": "single",
+    "text": "Šta rukovodilac organa čini ako se upražnjeno radno mjesto ne popunjava premještajem ili preuzimanjem?",
+    "options": [
+      "Odmah raspisuje javni konkurs",
+      "Podnosi zahtjev Agenciji za dostavljanje liste prekobrojnih državnih službenika i popunjava mjesto sa te liste ako se na njoj nalazi službenik koji ispunjava uslove",
+      "Radno mjesto ostaje upražnjeno",
+      "Popunjava mjesto po sopstvenom izboru"
+    ],
+    "correct": [1],
+    "explanation": "Član 35. Zakona."
+  },
+  {
+    "id": "ds-046",
+    "law": "ds",
+    "article": "Član 36",
+    "topic": "Interni oglas",
+    "type": "single",
+    "text": "Koliko dana ostaje otvoren interni oglas za popunu radnog mjesta državnog službenika?",
+    "options": ["Pet dana", "Osam dana od dana objavljivanja", "Petnaest dana", "Trideset dana"],
+    "correct": [1],
+    "explanation": "Član 36. stav 5. Zakona."
+  },
+  {
+    "id": "ds-047",
+    "law": "ds",
+    "article": "Član 36",
+    "topic": "Interni oglas",
+    "type": "single",
+    "text": "Kako je sastavljena komisija za provođenje internog oglasa?",
+    "options": [
+      "Od pet članova koje imenuje Agencija",
+      "Od tri člana koji su u pravilu zaposlenici organa u koji se prima državni službenik, od čega je jedan predstavnik sindikata",
+      "Od dva člana koje imenuje Vlada",
+      "Od tri člana sa liste eksperata Agencije"
+    ],
+    "correct": [1],
+    "explanation": "Član 36. stav 6. Zakona."
+  },
+  {
+    "id": "ds-048",
+    "law": "ds",
+    "article": "Član 36",
+    "topic": "Interni oglas",
+    "type": "single",
+    "text": "Ko ima pravo prijave na interni oglas za radno mjesto državnog službenika?",
+    "options": [
+      "Samo službenici tog organa",
+      "Državni službenici bilo kojeg nivoa vlasti na koji se odnosi ovaj zakon, ako ispunjavaju uslove za obavljanje poslova tog radnog mjesta",
+      "Svi zainteresovani građani",
+      "Samo namještenici sa visokom stručnom spremom"
+    ],
+    "correct": [1],
+    "explanation": "Član 36. stav 4. Zakona."
+  },
+  {
+    "id": "ds-049",
+    "law": "ds",
+    "article": "Član 37",
+    "topic": "Javni konkurs",
+    "type": "single",
+    "text": "Gdje se objavljuje javni konkurs za popunu radnog mjesta državnog službenika?",
+    "options": [
+      "Samo na web stranici organa",
+      "U \"Službenim novinama Federacije BiH\", u jednim dnevnim novinama koje se distribuiraju na cijeloj teritoriji BiH i na veb stranici Agencije",
+      "Samo u Službenim novinama TK",
+      "Na oglasnoj tabli organa"
+    ],
+    "correct": [1],
+    "explanation": "Član 37. stav 2. Zakona."
+  },
+  {
+    "id": "ds-050",
+    "law": "ds",
+    "article": "Član 37",
+    "topic": "Javni konkurs",
+    "type": "single",
+    "text": "Koliki je rok za prijavu kandidata na javni konkurs?",
+    "options": [
+      "8 dana od objave",
+      "15 dana od dana objave u \"Službenim novinama Federacije BiH\"",
+      "30 dana od objave",
+      "10 dana od objave u dnevnim novinama"
+    ],
+    "correct": [1],
+    "explanation": "Član 37. stav 3.; troškove objavljivanja snosi organ za čije se potrebe provodi konkurs (stav 5.)."
+  },
+  {
+    "id": "ds-051",
+    "law": "ds",
+    "article": "Član 38",
+    "topic": "Uslovi za postavljenje",
+    "type": "open",
+    "text": "Nabrojte opšte uslove koje lice mora ispunjavati da bi bilo postavljeno na radno mjesto državnog službenika.",
+    "answer": "Da je državljanin Bosne i Hercegovine; da je stariji od 18 godina; da ima univerzitetsku diplomu ili druge obrazovne odnosno akademske kvalifikacije najmanje VII stepena stručne spreme, odnosno visoko obrazovanje najmanje prvog ciklusa Bolonjskog sistema studiranja; da je zdravstveno sposobno za obavljanje poslova tog radnog mjesta; da u posljednje tri godine od dana objavljivanja upražnjenog radnog mjesta nije otpušteno iz državne službe kao rezultat disciplinske mjere na bilo kojem nivou vlasti u BiH; da nije obuhvaćeno odredbom člana IX 1. Ustava BiH; da se protiv njega ne vodi krivični postupak.",
+    "keywords": ["državljanin BiH", "stariji od 18 godina", "VII stepen odnosno prvi ciklus", "zdravstveno sposobno", "tri godine nije otpušteno disciplinski", "član IX 1. Ustava BiH", "ne vodi se krivični postupak"],
+    "explanation": "Član 38. stav 1. Zakona."
+  },
+  {
+    "id": "ds-052",
+    "law": "ds",
+    "article": "Član 38",
+    "topic": "Uslovi za postavljenje",
+    "type": "single",
+    "text": "Koliki period se traži da kandidat nije otpušten iz državne službe kao rezultat disciplinske mjere?",
+    "options": ["Posljednju godinu", "Posljednje dvije godine", "Posljednje tri godine od dana objavljivanja upražnjenog radnog mjesta", "Posljednjih pet godina"],
+    "correct": [2],
+    "explanation": "Član 38. stav 1. tačka e); za namještenike je taj rok dvije godine (član 77. tačka e)."
+  },
+  {
+    "id": "ds-053",
+    "law": "ds",
+    "article": "Član 39",
+    "topic": "Konkursna komisija",
+    "type": "single",
+    "text": "Kako je sastavljena komisija za provođenje javnog konkursa koju imenuje Agencija?",
+    "options": [
+      "Tri člana — svi sa liste eksperata Agencije",
+      "Tri člana: dva državna službenika koje predloži organ na čiji se zahtjev raspisuje konkurs i koji imaju profesionalno iskustvo u obuhvaćenim oblastima, i treći član sa liste eksperata koju utvrdi Agencija",
+      "Pet članova koje imenuje Vlada",
+      "Dva člana: predstavnik organa i predstavnik sindikata"
+    ],
+    "correct": [1],
+    "explanation": "Član 39. stav 2. Zakona."
+  },
+  {
+    "id": "ds-054",
+    "law": "ds",
+    "article": "Član 40",
+    "topic": "Ispiti",
+    "type": "single",
+    "text": "Koje ispite su kandidati dužni polagati u okviru provođenja javnog konkursa?",
+    "options": [
+      "Samo stručni ispit",
+      "Ispit opšteg znanja i stručni ispit",
+      "Samo ispit opšteg znanja",
+      "Psihološki test i stručni ispit"
+    ],
+    "correct": [1],
+    "explanation": "Član 40. stav 1. Zakona."
+  },
+  {
+    "id": "ds-055",
+    "law": "ds",
+    "article": "Član 40",
+    "topic": "Ispiti",
+    "type": "single",
+    "text": "Ko je izuzet od polaganja ispita opšteg znanja?",
+    "options": [
+      "Niko",
+      "Kandidati koji su položili ispit opšteg znanja po ranijim propisima, stručni upravni ispit ili pravosudni ispit",
+      "Kandidati sa više od 10 godina radnog staža",
+      "Kandidati koji su ranije radili u državnoj službi"
+    ],
+    "correct": [1],
+    "explanation": "Član 40. stav 3. Zakona."
+  },
+  {
+    "id": "ds-056",
+    "law": "ds",
+    "article": "Član 41",
+    "topic": "Izborni proces",
+    "type": "single",
+    "text": "U kojem roku Komisija vrši izbor kandidata nakon isteka krajnjeg roka za prijave na javni konkurs?",
+    "options": ["U roku od 15 dana", "U roku od 30 dana", "U roku od 60 dana", "Bez određenog roka"],
+    "correct": [1],
+    "explanation": "Član 41. stav 1. Zakona."
+  },
+  {
+    "id": "ds-057",
+    "law": "ds",
+    "article": "Član 41",
+    "topic": "Izborni proces",
+    "type": "single",
+    "text": "Do kada rukovodilac organa može donijeti odluku o poništenju javnog konkursa?",
+    "options": [
+      "Do isteka roka za prijave",
+      "Najkasnije do održavanja pismenog dijela stručnog ispita",
+      "Do donošenja rješenja o postavljenju",
+      "Konkurs se ne može poništiti"
+    ],
+    "correct": [1],
+    "explanation": "Član 41. stav 4. Zakona."
+  },
+  {
+    "id": "ds-058",
+    "law": "ds",
+    "article": "Član 42",
+    "topic": "Postavljenje",
+    "type": "single",
+    "text": "Koga rukovodilac organa državne službe postavlja nakon provedenog javnog konkursa?",
+    "options": [
+      "Bilo kojeg kandidata sa liste",
+      "Najuspješnijeg kandidata sa liste uspješnih kandidata; izuzetno, iz opravdanih razloga uz obrazloženje i nakon usmenog intervjua sa svim kandidatima, može postaviti kandidata bez obzira na redoslijed",
+      "Kandidata kojeg predloži Agencija",
+      "Kandidata kojeg odredi Vlada"
+    ],
+    "correct": [1],
+    "explanation": "Član 42. st. 1. i 2.; opravdani razlozi su nacionalna i spolna struktura te prednost utvrđena posebnim propisima (stav 3.)."
+  },
+  {
+    "id": "ds-059",
+    "law": "ds",
+    "article": "Član 42",
+    "topic": "Postavljenje",
+    "type": "single",
+    "text": "Kako postavljeni državni službenik preuzima dužnost?",
+    "options": [
+      "Potpisivanjem ugovora o radu",
+      "Polaganjem zakletve vjernosti pred rukovodiocem organa državne službe, čiji tekst utvrđuje Agencija",
+      "Danom prijema rješenja",
+      "Danom objave rješenja na oglasnoj tabli"
+    ],
+    "correct": [1],
+    "explanation": "Član 42. stav 10.; potpisani tekst zakletve sastavni je dio personalnog dosjea."
+  },
+  {
+    "id": "ds-060",
+    "law": "ds",
+    "article": "Član 42",
+    "topic": "Postavljenje",
+    "type": "multi",
+    "text": "Šta sadrži rješenje o postavljenju državnog službenika? (više tačnih odgovora)",
+    "options": [
+      "Ime i prezime državnog službenika",
+      "Naziv organa državne službe u koji je postavljen",
+      "Naziv radnog mjesta i platni razred",
+      "Visinu godišnjeg odmora"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 42. stav 9. Zakona."
+  },
+  {
+    "id": "ds-061",
+    "law": "ds",
+    "article": "Član 42",
+    "topic": "Postavljenje",
+    "type": "single",
+    "text": "U kojem roku se primjerak rješenja o postavljenju dostavlja Agenciji radi evidentiranja u Registru državnih službenika?",
+    "options": ["U roku od tri dana", "U roku od osam dana od dana donošenja rješenja", "U roku od 15 dana", "U roku od 30 dana"],
+    "correct": [1],
+    "explanation": "Član 42. stav 11.; nedostavljanje je prekršaj rukovodioca (član 95. stav 10. tačka d)."
+  },
+  {
+    "id": "ds-062",
+    "law": "ds",
+    "article": "Član 42",
+    "topic": "Postavljenje",
+    "type": "single",
+    "text": "Šta se dešava ako državni službenik ne stupi na dužnost ili mu prestane radni odnos u periodu od šest mjeseci od postavljenja?",
+    "options": [
+      "Raspisuje se novi konkurs",
+      "Na upražnjeno radno mjesto postavlja se naredni najuspješniji kandidat s rezervne liste uspješnih kandidata koju čuva Agencija",
+      "Radno mjesto se ukida",
+      "Mjesto se popunjava internim premještajem"
+    ],
+    "correct": [1],
+    "explanation": "Član 42. stav 5.; rezervna lista se čuva do isteka probnog rada postavljenog službenika."
+  },
+  {
+    "id": "ds-063",
+    "law": "ds",
+    "article": "Član 43",
+    "topic": "Probni rad",
+    "type": "single",
+    "text": "Koliko traje probni rad državnog službenika kod prvog zapošljavanja u organima državne službe?",
+    "options": ["Tri mjeseca", "Šest mjeseci", "Devet mjeseci", "Godinu dana"],
+    "correct": [1],
+    "explanation": "Član 43. stav 1.; za namještenike probni rad traje tri mjeseca (član 80.)."
+  },
+  {
+    "id": "ds-064",
+    "law": "ds",
+    "article": "Član 43",
+    "topic": "Probni rad",
+    "type": "single",
+    "text": "Šta se dešava ako je ocjena probnog rada državnog službenika nezadovoljavajuća?",
+    "options": [
+      "Probni rad se produžava za još šest mjeseci",
+      "Rukovodilac organa rješenjem razrješava dužnosti državnog službenika, koji time gubi svoj status, bez otkaznog roka i primanja naknade zbog otpuštanja",
+      "Službenik se premješta na niže radno mjesto",
+      "Ocjena se ne uzima u obzir"
+    ],
+    "correct": [1],
+    "explanation": "Član 43. stav 4. tačka b) Zakona."
+  },
+  {
+    "id": "ds-065",
+    "law": "ds",
+    "article": "Član 43",
+    "topic": "Probni rad",
+    "type": "single",
+    "text": "Ko ne podliježe obavezi probnog rada?",
+    "options": [
+      "Svi novoprimljeni službenici podliježu",
+      "Pripravnici i lica na stručnom osposobljavanju, kao i lica primljena u radni odnos na određeno vrijeme radi hitnog obavljanja poslova",
+      "Samo pripravnici",
+      "Samo lica sa položenim pravosudnim ispitom"
+    ],
+    "correct": [1],
+    "explanation": "Član 43. stav 6. Zakona."
+  },
+  {
+    "id": "ds-066",
+    "law": "ds",
+    "article": "Član 44",
+    "topic": "Ocjena rada",
+    "type": "single",
+    "text": "Koliko često se ocjenjuje rad državnih službenika i ko ga ocjenjuje?",
+    "options": [
+      "Svakih šest mjeseci; ocjenjuje neposredno nadređeni",
+      "Jednom godišnje; ocjenu utvrđuje rukovodilac organa državne službe na prijedlog neposredno nadređenog državnog službenika",
+      "Kvartalno; ocjenjuje Agencija",
+      "Svake druge godine; ocjenjuje disciplinska komisija"
+    ],
+    "correct": [1],
+    "explanation": "Član 44. st. 2. i 3.; ne ocjenjuju se službenici koji su u tom organu radili manje od šest mjeseci."
+  },
+  {
+    "id": "ds-067",
+    "law": "ds",
+    "article": "Član 44",
+    "topic": "Ocjena rada",
+    "type": "single",
+    "text": "Kojim se ocjenama označavaju rezultati ostvareni u periodu koji se ocjenjuje?",
+    "options": [
+      "Nedovoljan, dovoljan, dobar, vrlo dobar, odličan",
+      "Nezadovoljavajuće, zadovoljavajuće, uspješno i izuzetno uspješno",
+      "Pozitivno i negativno",
+      "Od 1 do 10"
+    ],
+    "correct": [1],
+    "explanation": "Član 44. stav 5. Zakona."
+  },
+  {
+    "id": "ds-068",
+    "law": "ds",
+    "article": "Član 44",
+    "topic": "Ocjena rada",
+    "type": "single",
+    "text": "Šta se dešava ako su dvije uzastopne godišnje ocjene rada nezadovoljavajuće?",
+    "options": [
+      "Službenik se premješta na niže radno mjesto",
+      "Rukovodilac organa razrješava dužnosti državnog službenika, koji time gubi svoj status bez otkaznog roka i primanja naknade zbog otpuštanja",
+      "Službeniku se umanjuje plata",
+      "Ne dešava se ništa"
+    ],
+    "correct": [1],
+    "explanation": "Član 44. stav 8.; službenik može izjaviti žalbu Odboru za žalbe u roku od 15 dana."
+  },
+  {
+    "id": "ds-069",
+    "law": "ds",
+    "article": "Član 44",
+    "topic": "Ocjena rada",
+    "type": "single",
+    "text": "U kojem roku državni službenik može izjaviti žalbu Odboru za žalbe radi preispitivanja ocjene rada?",
+    "options": ["8 dana", "15 dana od dana prijema odluke o ocjeni rada", "30 dana", "Žalba nije dopuštena"],
+    "correct": [1],
+    "explanation": "Član 44. stav 7. tačka b) Zakona."
+  },
+  {
+    "id": "ds-070",
+    "law": "ds",
+    "article": "Član 45 i 46",
+    "topic": "Unapređenje",
+    "type": "single",
+    "text": "Na čemu se zasniva unapređenje državnog službenika i kako se provodi?",
+    "options": [
+      "Na dužini radnog staža; provodi se automatski",
+      "Na pozitivnoj ocjeni rada; provodi se putem internog oglasa koji traje najmanje sedam dana od objavljivanja na oglasnoj tabli organa u kojem se vrši unapređenje",
+      "Na prijedlogu sindikata; provodi se odlukom Vlade",
+      "Na javnom konkursu koji objavljuje Agencija"
+    ],
+    "correct": [1],
+    "explanation": "Čl. 45. i 46. st. 1. i 2. Zakona."
+  },
+  {
+    "id": "ds-071",
+    "law": "ds",
+    "article": "Član 46",
+    "topic": "Unapređenje",
+    "type": "single",
+    "text": "U kojem roku nezadovoljni učesnici postupka po internom oglasu za unapređenje mogu podnijeti žalbu Odboru za žalbe?",
+    "options": ["8 dana", "15 dana od dana prijema obavještenja o unapređenju", "30 dana", "Žalba nije dopuštena"],
+    "correct": [1],
+    "explanation": "Član 46. stav 7. Zakona."
+  },
+  {
+    "id": "ds-072",
+    "law": "ds",
+    "article": "Član 47",
+    "topic": "Prekobrojnost",
+    "type": "single",
+    "text": "Kao posljedica čega isključivo nastaje prekobrojnost?",
+    "options": [
+      "Loše ocjene rada",
+      "Reorganizacije, smanjenja obima poslova organa državne službe ili njegovog ukidanja",
+      "Disciplinske mjere",
+      "Zahtjeva državnog službenika"
+    ],
+    "correct": [1],
+    "explanation": "Član 47. stav 1.; Agencija proglašava službenika prekobrojnim na prijedlog rukovodioca organa."
+  },
+  {
+    "id": "ds-073",
+    "law": "ds",
+    "article": "Član 47",
+    "topic": "Prekobrojnost",
+    "type": "open",
+    "text": "Šta se dešava sa državnim službenikom koji je proglašen prekobrojnim?",
+    "answer": "Može se rasporediti na slično upražnjeno radno mjesto u drugom organu državne službe bilo kojeg nivoa vlasti na koji se odnosi zakon; ako to nije moguće, nudi mu se prijevremeno penzionisanje u skladu s posebnim zakonom; ako je i to nemoguće, rukovodilac organa ga razrješava dužnosti, uz pravo žalbe Odboru za žalbe u roku od 15 dana. Ako odbije ponuđeno raspoređivanje ili prijevremeno penzionisanje, razrješava se i nema pravo na otpremninu.",
+    "keywords": ["raspoređivanje na slično mjesto", "prijevremeno penzionisanje", "razrješenje", "žalba 15 dana", "bez otpremnine ako odbije"],
+    "explanation": "Član 47. st. 4. i 5. Zakona."
+  },
+  {
+    "id": "ds-074",
+    "law": "ds",
+    "article": "Član 47",
+    "topic": "Prekobrojnost",
+    "type": "single",
+    "text": "Ko se ne može proglasiti prekobrojnim?",
+    "options": [
+      "Službenik sa najdužim stažom",
+      "Državni službenik kojem je za sticanje uslova za starosnu penziju ostalo pet ili manje godina staža osiguranja",
+      "Službenik koji je član sindikata",
+      "Službenik sa ocjenom 'izuzetno uspješno'"
+    ],
+    "correct": [1],
+    "explanation": "Član 47. stav 7. Zakona."
+  },
+  {
+    "id": "ds-075",
+    "law": "ds",
+    "article": "Član 47",
+    "topic": "Prekobrojnost",
+    "type": "single",
+    "text": "Koliko dugo državni službenik ili namještenik kojem je prestao radni odnos zbog prekobrojnosti ima prednost prilikom ponovnog zaposlenja?",
+    "options": ["Šest mjeseci", "Godinu dana od dana prestanka radnog odnosa", "Dvije godine", "Nema prednost"],
+    "correct": [1],
+    "explanation": "Član 47. stav 6. — ako se u organima istog nivoa vlasti oglasi mjesto za koje ispunjava uslove."
+  },
+  {
+    "id": "ds-076",
+    "law": "ds",
+    "article": "Član 48",
+    "topic": "Pripravnici",
+    "type": "single",
+    "text": "Koliko traje pripravnički staž za pripravnike u organima državne službe (državni službenici)?",
+    "options": ["Šest mjeseci", "Jednu godinu, ako posebnim zakonom nije drugačije određeno", "Devet mjeseci", "Dvije godine"],
+    "correct": [1],
+    "explanation": "Član 48. stav 3.; staž se provodi po programu obuke pripravnika koji donosi rukovodilac organa."
+  },
+  {
+    "id": "ds-077",
+    "law": "ds",
+    "article": "Član 49",
+    "topic": "Status namještenika",
+    "type": "single",
+    "text": "Pod kojim uslovima se namještenik koji uz rad stekne VII stepen stručne spreme može primiti na mjesto stručnog saradnika bez pripravničkog staža?",
+    "options": [
+      "Bez ikakvih uslova",
+      "Ako ima najmanje pet godina radnog staža u organima državne službe nakon položenog stručnog ispita za namještenika, prijavom na javni konkurs za upražnjeno radno mjesto stručnog saradnika",
+      "Ako ima najmanje tri godine staža",
+      "Ako ga predloži rukovodilac organa"
+    ],
+    "correct": [1],
+    "explanation": "Član 49. stav 1. Zakona."
+  },
+  {
+    "id": "ds-078",
+    "law": "ds",
+    "article": "Član 50",
+    "topic": "Radni odnos na određeno",
+    "type": "single",
+    "text": "Koliko najduže može trajati radni odnos na određeno vrijeme zbog duže odsutnosti državnog službenika?",
+    "options": [
+      "Šest mjeseci",
+      "Do povratka odsutnog državnog službenika na posao, a najduže tri godine",
+      "Godinu dana",
+      "Dvije godine"
+    ],
+    "correct": [1],
+    "explanation": "Član 50. stav 1.; takav radni odnos ne može prerasti u radni odnos na neodređeno vrijeme (stav 3.)."
+  },
+  {
+    "id": "ds-079",
+    "law": "ds",
+    "article": "Član 50",
+    "topic": "Radni odnos na određeno",
+    "type": "single",
+    "text": "Koliko najduže može trajati popuna radnog mjesta na određeno vrijeme radi hitnog obezbjeđenja obavljanja poslova?",
+    "options": ["Šest mjeseci", "Najduže do 12 mjeseci, uz obavezu da se istovremeno pokrene postupak javnog oglašavanja", "Do dvije godine", "Do tri godine"],
+    "correct": [1],
+    "explanation": "Član 50. stav 4. Zakona."
+  },
+  {
+    "id": "ds-080",
+    "law": "ds",
+    "article": "Član 52",
+    "topic": "Odmori i odsustva",
+    "type": "single",
+    "text": "Koliko iznosi minimalni godišnji odmor državnog službenika i koliko plaćeno odsustvo u kalendarskoj godini?",
+    "options": [
+      "18 radnih dana i pet dana plaćenog odsustva",
+      "Najmanje 20 radnih dana godišnjeg odmora i plaćeno odsustvo do sedam radnih dana",
+      "25 radnih dana i deset dana plaćenog odsustva",
+      "30 radnih dana i sedam dana plaćenog odsustva"
+    ],
+    "correct": [1],
+    "explanation": "Član 52. stav 1. Zakona."
+  },
+  {
+    "id": "ds-081",
+    "law": "ds",
+    "article": "Član 52",
+    "topic": "Odmori i odsustva",
+    "type": "single",
+    "text": "Koliko najduže može trajati godišnji odmor po svim osnovama?",
+    "options": ["20 radnih dana", "25 radnih dana", "30 radnih dana, osim ako kolektivnim ugovorom nije propisano drugačije", "35 radnih dana"],
+    "correct": [2],
+    "explanation": "Član 52. stav 2. Zakona."
+  },
+  {
+    "id": "ds-082",
+    "law": "ds",
+    "article": "Član 52",
+    "topic": "Odmori i odsustva",
+    "type": "single",
+    "text": "Kako se koristi godišnji odmor ako se koristi u dijelovima?",
+    "options": [
+      "Slobodno, po dogovoru",
+      "Prvi dio bez prekida u trajanju od najmanje 12 radnih dana u toku kalendarske godine, a drugi dio najkasnije do 30. juna naredne godine",
+      "Prvi dio najmanje 10 dana, drugi do kraja godine",
+      "Cijeli odmor mora se iskoristiti odjednom"
+    ],
+    "correct": [1],
+    "explanation": "Član 52. stav 3. Zakona."
+  },
+  {
+    "id": "ds-083",
+    "law": "ds",
+    "article": "Član 53",
+    "topic": "Neplaćeno odsustvo",
+    "type": "multi",
+    "text": "U kojim slučajevima se državnom službeniku može odobriti neplaćeno odsustvo do 30 dana u kalendarskoj godini? (više tačnih odgovora)",
+    "options": [
+      "Za pripremanje i polaganje ispita te za sudjelovanje u stručnim seminarima i drugim vidovima edukacije",
+      "Za gradnju i popravku kuće ili stana te za njegu člana porodice",
+      "Za sindikalne aktivnosti u trajanju dužem od tri dana u mjesecu",
+      "Za odlazak na godišnji odmor u inostranstvo"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 53. stav 1. tačke a)–f) Zakona."
+  },
+  {
+    "id": "ds-084",
+    "law": "ds",
+    "article": "Član 53",
+    "topic": "Neplaćeno odsustvo",
+    "type": "single",
+    "text": "Koliko najduže može trajati neplaćeno odsustvo zbog boravka u inostranstvu radi spajanja porodice, a koliko zbog školovanja?",
+    "options": [
+      "Dvije godine i jedna godina",
+      "Četiri godine (spajanje porodice) odnosno dvije godine (školovanje)",
+      "Tri godine i tri godine",
+      "Godinu dana u oba slučaja"
+    ],
+    "correct": [1],
+    "explanation": "Član 53. stav 5. Zakona."
+  },
+  {
+    "id": "ds-085",
+    "law": "ds",
+    "article": "Član 53",
+    "topic": "Neplaćeno odsustvo",
+    "type": "single",
+    "text": "Koliko dana neplaćenog odsustva godišnje ima državni službenik radi zadovoljavanja vjerskih odnosno tradicijskih potreba?",
+    "options": ["Jedan radni dan", "Dva radna dana u jednoj kalendarskoj godini", "Tri radna dana", "Pet radnih dana"],
+    "correct": [1],
+    "explanation": "Član 53. stav 6.; za vrijeme odsustva prava i obaveze iz radnog odnosa miruju (stav 7.)."
+  },
+  {
+    "id": "ds-086",
+    "law": "ds",
+    "article": "Član 54",
+    "topic": "Porodiljski dopust",
+    "type": "single",
+    "text": "Kako je uređena naknada plate državnog službenika za vrijeme porodiljskog dopusta?",
+    "options": [
+      "Isplaćuje je isključivo organ državne službe",
+      "Naknada se ostvaruje prema kantonalnim propisima prema mjestu uplate doprinosa, a razliku do visine pune plate uplaćuje organ državne službe u kojem je službenik u radnom odnosu",
+      "Isplaćuje je isključivo zavod zdravstvenog osiguranja",
+      "Naknada se ne isplaćuje"
+    ],
+    "correct": [1],
+    "explanation": "Član 54. Zakona."
+  },
+  {
+    "id": "ds-087",
+    "law": "ds",
+    "article": "Član 55",
+    "topic": "Stručno usavršavanje",
+    "type": "single",
+    "text": "Ko odlučuje o učestvovanju državnih službenika na savjetovanjima i drugim oblicima stručnog usavršavanja?",
+    "options": [
+      "Agencija za državnu službu",
+      "Rukovodilac organa državne službe, vodeći računa o podjednakom učestvovanju svih državnih službenika",
+      "Sindikat",
+      "Sam državni službenik"
+    ],
+    "correct": [1],
+    "explanation": "Član 55. stav 3.; državni službenici su obavezni neprestano raditi na stručnom usavršavanju (stav 1.)."
+  },
+  {
+    "id": "ds-088",
+    "law": "ds",
+    "article": "Član 56",
+    "topic": "Prestanak radnog odnosa",
+    "type": "open",
+    "text": "Navedite najmanje osam slučajeva u kojima državnom službeniku prestaje radni odnos.",
+    "answer": "Dobrovoljno istupanje iz državne službe; ispunjavanje uslova za sticanje prava na starosnu penziju; gubitak državljanstva BiH; sticanje državljanstva druge države suprotno Ustavu i zakonima BiH; prekobrojnost; odbijanje polaganja odnosno potpisivanja zakletve vjernosti; nezadovoljavajući probni period; dvije uzastopno negativne godišnje ocjene rada; izrečena disciplinska kazna prestanka radnog odnosa; predaja lažnih dokumenata ili izjava; osuda na kaznu zatvora dužu od tri mjeseca; istek vremena na koje je primljen; izrečena mjera zabrane vršenja poziva, djelatnosti ili dužnosti duža od tri mjeseca; gubitak poslovne sposobnosti; smrt državnog službenika.",
+    "keywords": ["dobrovoljno istupanje", "starosna penzija", "prekobrojnost", "zakletva vjernosti", "probni period", "dvije negativne ocjene", "disciplinska kazna", "lažni dokumenti", "zatvor duži od tri mjeseca", "smrt"],
+    "explanation": "Član 56. stav 1. tačke a)–p) Zakona."
+  },
+  {
+    "id": "ds-089",
+    "law": "ds",
+    "article": "Član 56",
+    "topic": "Prestanak radnog odnosa",
+    "type": "single",
+    "text": "Osuda na kaznu zatvora kojeg trajanja dovodi do prestanka radnog odnosa državnog službenika?",
+    "options": [
+      "Duže od 30 dana",
+      "Duže od tri mjeseca — danom pravosnažnosti presude",
+      "Duže od šest mjeseci",
+      "Duže od godinu dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 56. stav 1. tačka k) — uz izuzetak za određena krivična djela protiv bezbjednosti javnog saobraćaja."
+  },
+  {
+    "id": "ds-090",
+    "law": "ds",
+    "article": "Član 57",
+    "topic": "Prestanak radnog odnosa",
+    "type": "single",
+    "text": "U kojem roku državni službenik može podnijeti žalbu Odboru za žalbe protiv rješenja o razrješenju i kakvo je dejstvo žalbe?",
+    "options": [
+      "U roku od 8 dana; žalba odlaže izvršenje",
+      "U roku od 15 dana od dana prijema rješenja; žalba ne odlaže izvršenje rješenja",
+      "U roku od 30 dana; žalba odlaže izvršenje",
+      "Žalba nije dopuštena"
+    ],
+    "correct": [1],
+    "explanation": "Član 57. st. 2. i 3. Zakona."
+  },
+  {
+    "id": "ds-091",
+    "law": "ds",
+    "article": "Član 58",
+    "topic": "Otpremnina",
+    "type": "single",
+    "text": "Ko ostvaruje pravo na otpremninu prema članu 58. Zakona?",
+    "options": [
+      "Svaki državni službenik kojem prestane radni odnos",
+      "Državni službenik koji izgubi status zbog prekobrojnosti, u skladu s kolektivnim ugovorom i drugim propisom",
+      "Samo službenik koji odlazi u penziju",
+      "Službenik razriješen disciplinskom kaznom"
+    ],
+    "correct": [1],
+    "explanation": "Član 58. Zakona; onaj ko odbije ponuđeno raspoređivanje ili penzionisanje nema pravo na otpremninu (član 47. stav 5.)."
+  },
+  {
+    "id": "ds-092",
+    "law": "ds",
+    "article": "Član 51",
+    "topic": "Uslovi rada",
+    "type": "single",
+    "text": "Koji se propisi primjenjuju na državnog službenika i namještenika pored ovog zakona?",
+    "options": [
+      "Samo ovaj zakon",
+      "Zakon o radu, drugi zakoni i kolektivni ugovori kojima se uređuju prava i obaveze iz radnih odnosa, osim ako ovim zakonom nije drugačije utvrđeno",
+      "Samo kolektivni ugovor",
+      "Zakon o upravnom postupku"
+    ],
+    "correct": [1],
+    "explanation": "Član 51. Zakona."
+  },
+  {
+    "id": "ds-093",
+    "law": "ds",
+    "article": "Član 32",
+    "topic": "Popuna radnog mjesta",
+    "type": "single",
+    "text": "Ko odlučuje na koji način će se izvršiti popuna upražnjenog radnog mjesta državnog službenika?",
+    "options": [
+      "Agencija za državnu službu",
+      "Rukovodilac organa državne službe, u zavisnosti od konkretne potrebe i situacije",
+      "Vlada Kantona",
+      "Odbor za žalbe"
+    ],
+    "correct": [1],
+    "explanation": "Član 32. Zakona."
+  },
+  {
+    "id": "ds-094",
+    "law": "ds",
+    "article": "Član 34",
+    "topic": "Preuzimanje",
+    "type": "single",
+    "text": "Pod kojim uslovom se preuzimanje državnih službenika može izvršiti između organa državne službe dva kantona?",
+    "options": [
+      "Uvijek",
+      "U slučaju postojanja reciprociteta",
+      "Uz saglasnost Agencije FBiH",
+      "Nije moguće"
+    ],
+    "correct": [1],
+    "explanation": "Član 34. stav 5. Zakona."
+  },
+  {
+    "id": "ds-095",
+    "law": "ds",
+    "article": "Član 36",
+    "topic": "Interni oglas",
+    "type": "single",
+    "text": "Kada državni službenik stupa na posao nakon prijema po internom oglasu?",
+    "options": [
+      "Odmah po donošenju rješenja",
+      "Kada rješenje o prijemu u radni odnos postane konačno",
+      "Nakon 15 dana od donošenja rješenja",
+      "Danom objave rezultata"
+    ],
+    "correct": [1],
+    "explanation": "Član 36. stav 12. Zakona."
+  }
+]

@@ -1,0 +1,577 @@
+[
+  {
+    "id": "ds-001",
+    "law": "ds",
+    "article": "Član 1",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Šta se uređuje Zakonom o državnoj službi u Tuzlanskom kantonu?",
+    "options": [
+      "Samo plate državnih službenika",
+      "Radno-pravni status državnih službenika, namještenika i drugih lica zaposlenih u organima državne službe u Kantonu, ako za određene državne službenike posebnim zakonom nije drugačije određeno",
+      "Organizacija kantonalne uprave",
+      "Postupak imenovanja članova Vlade"
+    ],
+    "correct": [1],
+    "explanation": "Član 1. Zakona o državnoj službi u TK (\"Sl. novine TK\", broj 11/24 - prečišćen tekst)."
+  },
+  {
+    "id": "ds-002",
+    "law": "ds",
+    "article": "Član 2",
+    "topic": "Pojmovi",
+    "type": "open",
+    "text": "Objasnite razliku između državnog službenika i namještenika.",
+    "answer": "Državni službenik je lice koje obavlja poslove osnovne djelatnosti u organu državne službe i koje je u skladu sa zakonom postavljeno na određeno radno mjesto u tom organu. Namještenik je lice koje obavlja dopunske poslove osnovne djelatnosti i poslove pomoćne djelatnosti iz nadležnosti organa državne službe, koji su funkcionalno povezani sa poslovima osnovne djelatnosti, i koje je u skladu sa zakonom raspoređeno na određeno radno mjesto.",
+    "keywords": ["osnovna djelatnost", "postavljen", "dopunski i pomoćni poslovi", "raspoređen"],
+    "explanation": "Član 2. st. 2. i 3. Zakona."
+  },
+  {
+    "id": "ds-003",
+    "law": "ds",
+    "article": "Član 2",
+    "topic": "Pojmovi",
+    "type": "single",
+    "text": "Šta se smatra organima državne službe u smislu ovog zakona?",
+    "options": [
+      "Samo kantonalna ministarstva",
+      "Organi uprave, upravne organizacije, službe za upravu i drugi organi Kantona, grada i opština na području Kantona",
+      "Sva javna preduzeća u Kantonu",
+      "Samo Vlada i Skupština Kantona"
+    ],
+    "correct": [1],
+    "explanation": "Član 2. stav 1. Zakona."
+  },
+  {
+    "id": "ds-004",
+    "law": "ds",
+    "article": "Član 3",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Na čemu se bazira proporcionalna nacionalna zastupljenost u organima državne službe?",
+    "options": [
+      "Na popisu stanovništva iz 2013. godine",
+      "Na popisu stanovništva iz 1991. godine, dok Aneks 7. ne bude proglašen realizovanim",
+      "Na broju zaposlenih u organu",
+      "Na rezultatima posljednjih izbora"
+    ],
+    "correct": [1],
+    "explanation": "Član 3. stav 2. Zakona."
+  },
+  {
+    "id": "ds-005",
+    "law": "ds",
+    "article": "Član 4",
+    "topic": "Zapošljavanje",
+    "type": "single",
+    "text": "Na koji način se vrši zapošljavanje državnih službenika, a na koji namještenika?",
+    "options": [
+      "Oboje putem javnog konkursa",
+      "Državni službenici putem javnog konkursa, a namještenici putem javnog oglasa",
+      "Državni službenici putem javnog oglasa, a namještenici putem javnog konkursa",
+      "Oboje bez konkursa, odlukom rukovodioca"
+    ],
+    "correct": [1],
+    "explanation": "Član 4. stav 1. Zakona."
+  },
+  {
+    "id": "ds-006",
+    "law": "ds",
+    "article": "Član 5",
+    "topic": "Zakonski principi",
+    "type": "multi",
+    "text": "Koje principe osigurava državna služba prema članu 5. Zakona? (više tačnih odgovora)",
+    "options": [
+      "Zakonitost te transparentnost i javnost",
+      "Odgovornost, učinkovitost i ekonomičnost",
+      "Profesionalna nepristrasnost i politička nezavisnost",
+      "Lojalnost vladajućoj stranci"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 5. tačke a)–f) Zakona."
+  },
+  {
+    "id": "ds-007",
+    "law": "ds",
+    "article": "Član 8",
+    "topic": "Jedinstvo sistema",
+    "type": "multi",
+    "text": "Putem čega se naročito ostvaruje jedinstvo sistema državne službe u Kantonu sa sistemom u Federaciji BiH? (više tačnih odgovora)",
+    "options": [
+      "Jedinstva procedura i kriterija za prijem u državnu službu",
+      "Jedinstva planova i programa za obuku državnih službenika",
+      "Jedinstvene politike upravljanja ljudskim resursima i jedinstvenog registra državnih službenika",
+      "Jedinstvene visine plata na svim nivoima vlasti"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 8. tačke a)–d) Zakona."
+  },
+  {
+    "id": "ds-008",
+    "law": "ds",
+    "article": "Član 9",
+    "topic": "Izuzeća u primjeni",
+    "type": "multi",
+    "text": "Koja lica NISU državni službenici i njihov se radno-pravni status uređuje drugim propisima? (više tačnih odgovora)",
+    "options": [
+      "Članovi Skupštine Kantona i članovi Vlade",
+      "Sudije kantonalnog suda, kantonalni tužioci, kantonalni pravobranilac i njegovi zamjenici",
+      "Vijećnici gradskog i opštinskih vijeća, gradonačelnik i opštinski načelnici",
+      "Sekretari organa državne službe"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 9. stav 1. Zakona; sekretar organa državne službe je državni službenik (član 10.)."
+  },
+  {
+    "id": "ds-009",
+    "law": "ds",
+    "article": "Član 9",
+    "topic": "Izuzeća u primjeni",
+    "type": "single",
+    "text": "Na koga se Zakon o državnoj službi u TK ne primjenjuje?",
+    "options": ["Na namještenike", "Na pripadnike kantonalne policije", "Na savjetnike nosilaca funkcija", "Na pripravnike"],
+    "correct": [1],
+    "explanation": "Član 9. stav 4. Zakona."
+  },
+  {
+    "id": "ds-010",
+    "law": "ds",
+    "article": "Član 10",
+    "topic": "Radna mjesta",
+    "type": "open",
+    "text": "Nabrojte radna mjesta državnih službenika na koja se državni službenik postavlja.",
+    "answer": "Rukovodilac stručne i druge službe koju obrazuje Skupština, Vlada, gradsko ili opštinsko vijeće, gradonačelnik odnosno načelnik; sekretar organa državne službe; pomoćnik rukovodioca organa državne službe; glavni inspektor; glavni interni revizor; šef unutrašnje organizacione jedinice; inspektor; interni revizor; stručni savjetnik; viši stručni saradnik; stručni saradnik.",
+    "keywords": ["rukovodilac stručne službe", "sekretar", "pomoćnik rukovodioca", "glavni inspektor", "šef unutrašnje organizacione jedinice", "stručni savjetnik", "viši stručni saradnik", "stručni saradnik"],
+    "explanation": "Član 10. stav 1. tačke a)–k) Zakona (11 radnih mjesta)."
+  },
+  {
+    "id": "ds-011",
+    "law": "ds",
+    "article": "Član 10",
+    "topic": "Radna mjesta",
+    "type": "single",
+    "text": "Ko propisuje vrstu i složenost poslova koji se obavljaju u okviru radnih mjesta državnih službenika?",
+    "options": [
+      "Rukovodilac organa državne službe pravilnikom",
+      "Vlada uredbom",
+      "Agencija za državnu službu",
+      "Skupština Kantona zakonom"
+    ],
+    "correct": [1],
+    "explanation": "Član 10. stav 2.; pozicije se utvrđuju pravilnikom o unutrašnjoj organizaciji (stav 3.)."
+  },
+  {
+    "id": "ds-012",
+    "law": "ds",
+    "article": "Član 12",
+    "topic": "Radna mjesta",
+    "type": "single",
+    "text": "Kome za svoj rad i upravljanje odgovara sekretar organa državne službe?",
+    "options": ["Vladi Kantona", "Rukovodiocu organa državne službe", "Skupštini Kantona", "Agenciji za državnu službu"],
+    "correct": [1],
+    "explanation": "Član 12. stav 2. Zakona."
+  },
+  {
+    "id": "ds-013",
+    "law": "ds",
+    "article": "Član 16",
+    "topic": "Radna mjesta",
+    "type": "single",
+    "text": "Kome odgovara šef unutrašnje organizacione jedinice?",
+    "options": [
+      "Isključivo rukovodiocu organa",
+      "Pomoćniku rukovodioca koji rukovodi osnovnom organizacionom jedinicom u čijem je sastavu ta jedinica, odnosno sekretaru ili rukovodiocu organa ako pomoćnika nema",
+      "Vladi Kantona",
+      "Glavnom inspektoru"
+    ],
+    "correct": [1],
+    "explanation": "Član 16. stav 2. Zakona."
+  },
+  {
+    "id": "ds-014",
+    "law": "ds",
+    "article": "Član 19, 20 i 21",
+    "topic": "Radna mjesta",
+    "type": "single",
+    "text": "Koje radno mjesto podrazumijeva visok stepen stručnosti, odgovornosti i nezavisnosti u obavljanju najsloženijih poslova iz nadležnosti organa državne službe?",
+    "options": ["Stručni saradnik", "Viši stručni saradnik", "Stručni savjetnik", "Interni revizor"],
+    "correct": [2],
+    "explanation": "Član 19.; viši stručni saradnik obavlja složenije poslove (član 20.), a stručni saradnik određenu vrstu složenih poslova (član 21.)."
+  },
+  {
+    "id": "ds-015",
+    "law": "ds",
+    "article": "Član 24",
+    "topic": "Rukovodioci uprava",
+    "type": "single",
+    "text": "Koliko najduže može trajati mandat vršioca dužnosti imenovanog bez konkursa umjesto rukovodioca uprave odnosno upravne organizacije?",
+    "options": ["Tri mjeseca", "Šest mjeseci", "Godinu dana", "Dvije godine"],
+    "correct": [1],
+    "explanation": "Član 24. stav 4. Zakona."
+  },
+  {
+    "id": "ds-016",
+    "law": "ds",
+    "article": "Član 25",
+    "topic": "Rukovodioci uprava",
+    "type": "single",
+    "text": "Na koji period se imenuju lica iz člana 9. stav 2. (rukovodioci uprava i upravnih organizacija) i koliko puta mogu biti ponovo imenovana?",
+    "options": [
+      "Na četiri godine, bez ograničenja ponovnog imenovanja",
+      "Na period od pet godina, uz mogućnost ponovnog imenovanja na osnovu javnog konkursa na još jedan period od pet godina — najviše dva puta uzastopno",
+      "Na neodređeno vrijeme",
+      "Na dvije godine, uz jedno produženje"
+    ],
+    "correct": [1],
+    "explanation": "Član 25. stav 3. Zakona."
+  },
+  {
+    "id": "ds-017",
+    "law": "ds",
+    "article": "Član 25",
+    "topic": "Rukovodioci uprava",
+    "type": "multi",
+    "text": "U kojim slučajevima lica iz člana 9. stav 2. mogu biti razriješena i prije isteka mandata? (više tačnih odgovora)",
+    "options": [
+      "Ako poduzmu radnje suprotne propisima i time prouzrokuju neuspješan rad organa i nanesu mu štetu",
+      "Ako svojim postupcima ili vrijeđanjem na nacionalnoj, vjerskoj, spolnoj ili drugoj osnovi povrijede ugled i naruše integritet organa",
+      "Ako nadležni organ ne usvoji izvještaj o radu ili finansijski izvještaj organa kojim rukovode, za period ne kraći od šest mjeseci",
+      "Ako se ne slažu sa politikom Vlade"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 25. stav 6. tačke a)–g) Zakona."
+  },
+  {
+    "id": "ds-018",
+    "law": "ds",
+    "article": "Član 26",
+    "topic": "Nespojivost",
+    "type": "single",
+    "text": "Čega ne mogu biti članovi rukovodioci uprava/upravnih organizacija i savjetnici nosilaca funkcija?",
+    "options": [
+      "Sindikata",
+      "Upravnih, nadzornih niti školskih odbora i skupština javnih preduzeća i privrednih društava sa učešćem državnog kapitala, javnih ustanova i drugih pravnih lica čiji je osnivač bilo koji nivo vlasti u BiH",
+      "Stručnih udruženja",
+      "Komisija za javne nabavke"
+    ],
+    "correct": [1],
+    "explanation": "Član 26. Zakona — osim ako posebnim zakonom nije drugačije propisano."
+  },
+  {
+    "id": "ds-019",
+    "law": "ds",
+    "article": "Član 27",
+    "topic": "Savjetnici",
+    "type": "multi",
+    "text": "Šta vrijedi za savjetnike nosilaca funkcija? (više tačnih odgovora)",
+    "options": [
+      "Ne garantuje im se sigurnost uživanja položaja i mogu biti razriješeni u bilo koje vrijeme od nosioca funkcije koji ih je imenovao",
+      "Mandat savjetnika ne može biti duži od mandata nosioca funkcije koji ga je imenovao",
+      "Imenovanje na mjesto savjetnika ne može se preinačiti u položaj državnog službenika sa sigurnošću uživanja položaja",
+      "Savjetnik ima status državnog službenika sa svim pravima"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 27. stav 1. Zakona."
+  },
+  {
+    "id": "ds-020",
+    "law": "ds",
+    "article": "Član 28",
+    "topic": "Dužnosti službenika",
+    "type": "single",
+    "text": "U kojem roku je državni službenik dužan obavijestiti nadređenog o razlozima spriječenosti dolaska na rad?",
+    "options": [
+      "Najkasnije u roku od 24 sata od njihovog nastanka",
+      "U roku od tri dana",
+      "Istog dana do kraja radnog vremena",
+      "U roku od 48 sati"
+    ],
+    "correct": [0],
+    "explanation": "Član 28. stav 5. Zakona — osim ako to nije moguće iz objektivnih razloga ili više sile."
+  },
+  {
+    "id": "ds-021",
+    "law": "ds",
+    "article": "Član 28",
+    "topic": "Dužnosti službenika",
+    "type": "open",
+    "text": "Kako postupa državni službenik koji primi nalog za koji ocijeni da je nezakonit ili da bi njegovo izvršenje moglo izazvati veću štetu?",
+    "answer": "Skreće pažnju izdavaocu naloga da je nalog nezakonit ili da bi mogao izazvati veću štetu. Ako izdavalac ponovi nalog, službenik traži pismenu potvrdu u kojoj se navodi identitet izdavaoca i precizan sadržaj naloga. Ako je nalog pismeno potvrđen, službenik izvještava o nalogu lice ili organ neposredno nadređen izdavaocu naloga i dužan ga je izvršiti — osim ako nalog ne zahtijeva počinjenje krivičnog djela, u kom slučaju je dužan odbiti izvršenje i slučaj prijaviti nadležnom tužilaštvu.",
+    "keywords": ["skreće pažnju", "pismena potvrda naloga", "izvještava nadređenog izdavaocu", "dužan izvršiti", "odbija ako je krivično djelo", "prijava tužilaštvu"],
+    "explanation": "Član 28. stav 6. Zakona."
+  },
+  {
+    "id": "ds-022",
+    "law": "ds",
+    "article": "Član 28",
+    "topic": "Dužnosti službenika",
+    "type": "single",
+    "text": "Šta obuhvata obaveza nepristrasnosti državnog službenika?",
+    "options": [
+      "Samo zabranu članstva u sindikatu",
+      "Izbjegavanje djelatnosti ili propusta nespojivih s dužnostima, suzdržavanje od javnog ispoljavanja političkih uvjerenja i nezloupotrebu vjerskih uvjerenja, te da ne traži i ne prihvata za sebe ili srodnike bilo kakvu dobit, korist ili naknadu",
+      "Zabranu davanja izjava medijima",
+      "Obavezu glasanja na izborima"
+    ],
+    "correct": [1],
+    "explanation": "Član 28. stav 7. Zakona."
+  },
+  {
+    "id": "ds-023",
+    "law": "ds",
+    "article": "Član 28",
+    "topic": "Dužnosti službenika",
+    "type": "single",
+    "text": "Kakvu zaštitu ima državni službenik koji osnovano prijavi slučaj primanja ili davanja koristi (korupcije)?",
+    "options": [
+      "Nikakvu posebnu zaštitu",
+      "Zbog osnovanog prijavljivanja ne može biti disciplinski odgovoran niti imati bilo kakvih posljedica na svoj radno-pravni status",
+      "Pravo na novčanu nagradu",
+      "Pravo na premještaj u drugi organ"
+    ],
+    "correct": [1],
+    "explanation": "Član 28. stav 9. Zakona."
+  },
+  {
+    "id": "ds-024",
+    "law": "ds",
+    "article": "Član 29",
+    "topic": "Prava službenika",
+    "type": "multi",
+    "text": "Koja prava ima državni službenik prema članu 29. Zakona? (više tačnih odgovora)",
+    "options": [
+      "Pravo na radni odnos na neodređeno vrijeme, osim ako zakonom nije drugačije utvrđeno",
+      "Pravo na platu i naknade te na podršku i pomoć u stručnom obrazovanju i profesionalnom usavršavanju",
+      "Pravo da osnuje ili se učlani u sindikat ili profesionalno udruženje i pravo na štrajk, u skladu sa zakonom",
+      "Pravo na izbor radnog mjesta po sopstvenoj želji"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 29. stav 1. Zakona."
+  },
+  {
+    "id": "ds-025",
+    "law": "ds",
+    "article": "Član 30",
+    "topic": "Nespojivost",
+    "type": "single",
+    "text": "Koliko dugo nakon razrješenja državni službenik ne može biti zaposlen kod pravnog lica nad čijim je radom provodio redovan nadzor?",
+    "options": ["Šest mjeseci", "Godinu dana", "Dvije godine", "Tri godine"],
+    "correct": [2],
+    "explanation": "Član 30. stav 1. tačka b) — u istom roku ne smije primati ni bilo kakvu naknadu od tog pravnog lica."
+  },
+  {
+    "id": "ds-026",
+    "law": "ds",
+    "article": "Član 30",
+    "topic": "Nespojivost",
+    "type": "single",
+    "text": "Šta vrijedi za članstvo državnog službenika u političkim strankama?",
+    "options": [
+      "Ne može biti član političke stranke",
+      "Ne može biti član upravnih i drugih organa političkih stranaka i ne smije slijediti upute političkih stranaka",
+      "Može obavljati sve stranačke funkcije",
+      "Može biti član organa stranke uz saglasnost rukovodioca"
+    ],
+    "correct": [1],
+    "explanation": "Član 30. stav 1. tačka c) Zakona."
+  },
+  {
+    "id": "ds-027",
+    "law": "ds",
+    "article": "Član 30",
+    "topic": "Nespojivost",
+    "type": "single",
+    "text": "U kojem roku se državni službenik čiji je mandat na javnoj funkciji završio može vratiti na isto ili slično radno mjesto?",
+    "options": [
+      "Odmah, bez roka",
+      "Najkasnije u roku od 30 dana od dana završetka mandata i prestanka funkcije",
+      "U roku od 60 dana",
+      "U roku od šest mjeseci"
+    ],
+    "correct": [1],
+    "explanation": "Član 30. stav 3. Zakona."
+  },
+  {
+    "id": "ds-028",
+    "law": "ds",
+    "article": "Član 30",
+    "topic": "Nespojivost",
+    "type": "single",
+    "text": "U kojem roku je državni službenik čija je kandidatura za javnu funkciju potvrđena dužan o tome pisano obavijestiti rukovodioca organa?",
+    "options": ["U roku od tri dana", "U roku od osam dana od dana potvrđivanja kandidature", "U roku od 15 dana", "U roku od 30 dana"],
+    "correct": [1],
+    "explanation": "Član 30. stav 4.; nepostupanje je prekršaj po članu 95. stav 7."
+  },
+  {
+    "id": "ds-029",
+    "law": "ds",
+    "article": "Član 30",
+    "topic": "Nespojivost",
+    "type": "single",
+    "text": "Šta je državni službenik dužan učiniti za vrijeme predizborne kampanje ako mu je potvrđena kandidatura?",
+    "options": [
+      "Nastaviti normalno raditi",
+      "Koristiti godišnji odmor ili neplaćeno odsustvo 30 dana prije dana održavanja izbora, o čemu se donosi posebno rješenje, a narednog dana nakon izbora nastaviti radni odnos",
+      "Podnijeti ostavku",
+      "Zatražiti mirovanje radnog odnosa na godinu dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 30. stav 5. Zakona."
+  },
+  {
+    "id": "ds-030",
+    "law": "ds",
+    "article": "Član 30",
+    "topic": "Nespojivost",
+    "type": "single",
+    "text": "U kojem roku su državni službenici dužni prijaviti sve promjene imovinskog stanja?",
+    "options": ["U roku od 8 dana", "U roku od 15 dana", "U roku od 30 dana od dana nastalih promjena", "U roku od 60 dana"],
+    "correct": [2],
+    "explanation": "Član 30. stav 7.; podaci se čuvaju u Registru državne službe koji vodi Agencija."
+  },
+  {
+    "id": "ds-031",
+    "law": "ds",
+    "article": "Član 31",
+    "topic": "Odlučivanje o pravima",
+    "type": "single",
+    "text": "Ko odlučuje o pravima i dužnostima državnih službenika iz radnog odnosa i kojim aktom?",
+    "options": [
+      "Agencija za državnu službu, zaključkom",
+      "Rukovodilac organa državne službe, rješenjem (osim kada je propisano da odlučuje drugi organ)",
+      "Vlada Kantona, odlukom",
+      "Odbor za žalbe, rješenjem"
+    ],
+    "correct": [1],
+    "explanation": "Član 31. st. 1. i 3. Zakona."
+  },
+  {
+    "id": "ds-032",
+    "law": "ds",
+    "article": "Član 31",
+    "topic": "Odlučivanje o pravima",
+    "type": "single",
+    "text": "Kome i u kojem roku državni službenik izjavljuje žalbu protiv rješenja o pravima i dužnostima iz radnog odnosa?",
+    "options": [
+      "Rukovodiocu organa, u roku od 8 dana",
+      "Odboru državne službe za žalbe, u roku od 15 dana od dana prijema rješenja",
+      "Vladi Kantona, u roku od 30 dana",
+      "Nadležnom sudu, u roku od 30 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 31. stav 5.; žalba odlaže izvršenje rješenja ako zakonom nije drugačije određeno (stav 6.)."
+  },
+  {
+    "id": "ds-033",
+    "law": "ds",
+    "article": "Član 31",
+    "topic": "Odlučivanje o pravima",
+    "type": "single",
+    "text": "Kakav je karakter rješenja Odbora za žalbe?",
+    "options": ["Prvostepeno je", "Konačno je", "Privremeno je", "Nije obavezujuće"],
+    "correct": [1],
+    "explanation": "Član 31. stav 8. Zakona."
+  },
+  {
+    "id": "ds-034",
+    "law": "ds",
+    "article": "Član 31",
+    "topic": "Odlučivanje o pravima",
+    "type": "single",
+    "text": "Da li žalba na rješenje o postavljenju državnih službenika donesena nakon novog ili izmijenjenog pravilnika o unutrašnjoj organizaciji odlaže izvršenje rješenja?",
+    "options": ["Odlaže", "Ne odlaže izvršenje rješenja", "Odlaže samo uz saglasnost Odbora", "Žalba nije dopuštena"],
+    "correct": [1],
+    "explanation": "Član 31. stav 7. Zakona."
+  },
+  {
+    "id": "ds-035",
+    "law": "ds",
+    "article": "Član 31",
+    "topic": "Odlučivanje o pravima",
+    "type": "single",
+    "text": "Koji propis se primjenjuje na donošenje i dostavljanje rješenja o pravima i dužnostima državnog službenika?",
+    "options": ["Zakon o radu", "Zakon o upravnom postupku", "Zakon o upravnim sporovima", "Kolektivni ugovor"],
+    "correct": [1],
+    "explanation": "Član 31. stav 4. Zakona."
+  },
+  {
+    "id": "ds-036",
+    "law": "ds",
+    "article": "Član 11 i 22",
+    "topic": "Radna mjesta",
+    "type": "single",
+    "text": "Kome za svoj rad i upravljanje odgovara rukovodilac samostalne uprave odnosno samostalne upravne organizacije?",
+    "options": [
+      "Rukovodiocu organa državne službe",
+      "Vladi, gradonačelniku odnosno načelniku",
+      "Skupštini Kantona",
+      "Agenciji za državnu službu"
+    ],
+    "correct": [1],
+    "explanation": "Član 22. stav 2. Zakona."
+  },
+  {
+    "id": "ds-037",
+    "law": "ds",
+    "article": "Član 14",
+    "topic": "Radna mjesta",
+    "type": "single",
+    "text": "Čime rukovodi glavni inspektor i kome odgovara za svoj rad?",
+    "options": [
+      "Poslovima interne revizije; odgovara Vladi",
+      "Poslovima inspekcijskog nadzora nad provođenjem propisa iz njihove nadležnosti; odgovara rukovodiocu organa državne službe",
+      "Cijelim organom uprave; odgovara Skupštini",
+      "Poslovima ljudskih resursa; odgovara sekretaru"
+    ],
+    "correct": [1],
+    "explanation": "Član 14. st. 1. i 3. Zakona."
+  },
+  {
+    "id": "ds-038",
+    "law": "ds",
+    "article": "Član 15",
+    "topic": "Radna mjesta",
+    "type": "single",
+    "text": "Sa kim glavni interni revizor ostvaruje saradnju prilikom obavljanja interne revizije?",
+    "options": [
+      "Sa Agencijom za državnu službu",
+      "Sa Centralnom harmonizacijskom jedinicom Federalnog ministarstva finansija i Uredom za reviziju institucija u Federaciji",
+      "Sa Poreznom upravom",
+      "Sa Odborom za žalbe"
+    ],
+    "correct": [1],
+    "explanation": "Član 15. stav 2. Zakona."
+  },
+  {
+    "id": "ds-039",
+    "law": "ds",
+    "article": "Član 6",
+    "topic": "Osnovne odredbe",
+    "type": "single",
+    "text": "Šta propisuje član 6. Zakona (zabrana diskriminacije)?",
+    "options": [
+      "Diskriminacija je dozvoljena kod ocjenjivanja",
+      "Zabranjena je diskriminacija državnih službenika i namještenika po bilo kom osnovu prilikom zapošljavanja, ocjenjivanja, unapređivanja i u drugim statusnim i radno-pravnim pitanjima",
+      "Zabrana se odnosi samo na zapošljavanje",
+      "Zabrana se odnosi samo na državne službenike"
+    ],
+    "correct": [1],
+    "explanation": "Član 6. Zakona."
+  },
+  {
+    "id": "ds-040",
+    "law": "ds",
+    "article": "Član 28",
+    "topic": "Dužnosti službenika",
+    "type": "single",
+    "text": "Kojim etičkim kodeksom se državni službenik rukovodi u obavljanju svojih zadataka?",
+    "options": [
+      "Etičkim kodeksom koji donosi rukovodilac organa",
+      "Etičkim kodeksom za državne službenike u Federaciji BiH, koji donosi Agencija za državnu službu FBiH",
+      "Etičkim kodeksom Vlade Kantona",
+      "Nema propisanog kodeksa"
+    ],
+    "correct": [1],
+    "explanation": "Član 28. stav 10. Zakona."
+  }
+]

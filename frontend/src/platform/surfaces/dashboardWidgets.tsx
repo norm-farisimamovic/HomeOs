@@ -4,6 +4,7 @@ import { WeatherWidget } from '@/app/components/WeatherWidget'
 import { ScoreboardCard } from '@/app/components/ScoreboardCard'
 import { HouseholdWidget } from '@/app/components/HouseholdWidget'
 import { SpendingChartWidget } from '@/app/components/SpendingChartWidget'
+import { ExamsWidget } from '@/apps/exams/ExamsWidget'
 
 /** A card shown in the dashboard's widget column — reorderable/hideable by the member, hidden when its app is off. */
 export interface DashboardWidget {
@@ -26,4 +27,5 @@ export const dashboardWidgets: DashboardWidget[] = [
   { id: 'scoreboard', nameKey: 'scoreboard.title', Component: ScoreboardCard },
   { id: 'household', nameKey: 'dashboard.household', Component: HouseholdWidget },
   { id: 'shopping', nameKey: 'nav.shopping', appId: 'shopping', Component: ShoppingWidget },
+  { id: 'exams', nameKey: 'nav.exams', appId: 'exams', Component: ExamsWidget },
 ]

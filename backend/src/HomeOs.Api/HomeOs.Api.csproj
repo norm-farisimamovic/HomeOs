@@ -11,6 +11,7 @@
     <ProjectReference Include="..\HomeOs.Modules.Automations\HomeOs.Modules.Automations.csproj" />
     <ProjectReference Include="..\HomeOs.Modules.Shopping\HomeOs.Modules.Shopping.csproj" />
     <ProjectReference Include="..\HomeOs.Modules.Chat\HomeOs.Modules.Chat.csproj" />
+    <ProjectReference Include="..\HomeOs.Modules.Exams\HomeOs.Modules.Exams.csproj" />
   </ItemGroup>
 
   <ItemGroup>

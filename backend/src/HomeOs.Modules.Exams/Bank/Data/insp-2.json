@@ -1,0 +1,747 @@
+[
+  {
+    "id": "insp-046",
+    "law": "insp",
+    "article": "Član 64",
+    "topic": "Nadležnost inspekcija",
+    "type": "single",
+    "text": "Na kojem području kantonalna inspekcija obavlja inspekcijski nadzor iz svoje nadležnosti?",
+    "options": ["Samo u sjedištu Kantonalne uprave", "Na cijelom području Kantona", "Samo u općini u kojoj je subjekt registrovan", "Na području koje odredi glavni inspektor"],
+    "correct": [1],
+    "explanation": "Član 64. stav 2. Zakona."
+  },
+  {
+    "id": "insp-047",
+    "law": "insp",
+    "article": "Član 65",
+    "topic": "Nadležnost inspekcija",
+    "type": "single",
+    "text": "Ko je nadležan kada je kantonalnim propisom propisan inspekcijski nadzor, a nije određeno koji će ga organ vršiti?",
+    "options": [
+      "Vlada Kantona",
+      "Kantonalna inspekcija iz odgovarajuće upravne oblasti",
+      "Federalna uprava za inspekcijske poslove",
+      "Nadležno ministarstvo"
+    ],
+    "correct": [1],
+    "explanation": "Član 65. Zakona."
+  },
+  {
+    "id": "insp-048",
+    "law": "insp",
+    "article": "Član 67",
+    "topic": "Nadležnost inspekcija",
+    "type": "single",
+    "text": "Kada inspektor iz jedne upravne oblasti može izvršiti nadzor iz nadležnosti druge kantonalne inspekcije?",
+    "options": [
+      "Nikada",
+      "Kada je potrebno hitno izvršiti nadzor radi zaštite javnog interesa, ako ispunjava zakonom predviđene uslove za to radno mjesto, o čemu direktor Kantonalne uprave donosi rješenje",
+      "Uvijek, po sopstvenoj procjeni",
+      "Samo uz saglasnost subjekta nadzora"
+    ],
+    "correct": [1],
+    "explanation": "Član 67. stav 1.; o izvršenom nadzoru obavještava se nadležni glavni kantonalni inspektor u roku od tri dana."
+  },
+  {
+    "id": "insp-049",
+    "law": "insp",
+    "article": "Član 68 i 69",
+    "topic": "Nadležnost inspekcija",
+    "type": "single",
+    "text": "Ko rješava sukob nadležnosti između kantonalnih inspekcija u sastavu Kantonalne uprave i u kojem roku se podnosi prijedlog?",
+    "options": [
+      "Vlada Kantona; u roku od osam dana",
+      "Direktor Kantonalne uprave; prijedlog se podnosi u roku od tri dana od dana saznanja o sukobu nadležnosti",
+      "Nadležno ministarstvo; u roku od 15 dana",
+      "Najviši sud kantona; u roku od 30 dana"
+    ],
+    "correct": [1],
+    "explanation": "Čl. 68. i 69. Zakona."
+  },
+  {
+    "id": "insp-050",
+    "law": "insp",
+    "article": "Član 70",
+    "topic": "Ovlaštenja inspektora",
+    "type": "open",
+    "text": "Navedite najmanje šest ovlaštenja kantonalnog inspektora u vršenju inspekcijskog nadzora.",
+    "answer": "Utvrđuje identitet subjekta nadzora i drugih lica od značaja; pregleda poslovne i druge prostorije, objekte, opremu, postrojenja, uređaje, instalacije, proces rada i proizvode; utvrđuje da li subjekt ima rješenje o upisu u sudski registar odnosno odobrenje za obavljanje djelatnosti i akt o ispunjavanju minimalno-tehničkih i drugih uslova; nadzire način obavljanja djelatnosti, bezbjednost robe i kvalitet proizvoda i usluga; vrši uvid u poslovne knjige i drugu dokumentaciju te u statut, opšte i pojedinačne akte i ugovore; saslušava stranke, svjedoke i druga lica; uzima besplatne uzorke proizvoda radi analize; preduzima upravne i druge mjere te preventivne aktivnosti.",
+    "keywords": ["utvrđuje identitet", "pregleda prostorije i opremu", "uvid u poslovne knjige", "saslušava stranke i svjedoke", "uzima uzorke", "preduzima upravne mjere"],
+    "explanation": "Član 70. stav 2. tačke a)–k) Zakona."
+  },
+  {
+    "id": "insp-051",
+    "law": "insp",
+    "article": "Član 70",
+    "topic": "Ovlaštenja inspektora",
+    "type": "single",
+    "text": "Pod kojim uslovom inspektor može ući i pregledati stambenu prostoriju koja se koristi za obavljanje poslovne djelatnosti?",
+    "options": [
+      "Bez ikakvih uslova",
+      "Uz dobrovoljni pristanak vlasnika prostorije ili prethodno pribavljenu naredbu nadležnog suda",
+      "Uz prisustvo policije",
+      "Samo uz odobrenje direktora Kantonalne uprave"
+    ],
+    "correct": [1],
+    "explanation": "Član 70. stav 3. tačka a) Zakona."
+  },
+  {
+    "id": "insp-052",
+    "law": "insp",
+    "article": "Član 70",
+    "topic": "Ovlaštenja inspektora",
+    "type": "single",
+    "text": "Koja vozila inspektor NE može zaustavljati i kontrolisati u unutrašnjem cestovnom saobraćaju?",
+    "options": ["Teretna vozila", "Vozila vojske i policije", "Vozila javnog prijevoza", "Vozila stranih registracija"],
+    "correct": [1],
+    "explanation": "Član 70. stav 3. tačka b) Zakona."
+  },
+  {
+    "id": "insp-053",
+    "law": "insp",
+    "article": "Član 70",
+    "topic": "Ovlaštenja inspektora",
+    "type": "single",
+    "text": "Na koji način je inspektor dužan obaviti inspekcijski nadzor?",
+    "options": [
+      "Bez obzira na proces rada kod subjekta nadzora",
+      "Tako da što manje ometa redovan proces rada odnosno obavljanje djelatnosti kod subjekta nadzora",
+      "Isključivo izvan radnog vremena subjekta",
+      "Uz obavezno prisustvo policije"
+    ],
+    "correct": [1],
+    "explanation": "Član 70. stav 4. Zakona."
+  },
+  {
+    "id": "insp-054",
+    "law": "insp",
+    "article": "Član 72",
+    "topic": "Obaveza vršenja nadzora",
+    "type": "single",
+    "text": "Kada je Kantonalna uprava dužna obezbijediti vršenje inspekcijskog nadzora na poziv organa zakonodavne, izvršne ili sudske vlasti?",
+    "options": [
+      "Samo u redovno radno vrijeme",
+      "U bilo koje vrijeme u toku 24 sata, ako se radi o povredi na radu ili teškoj nesreći, protivpravnom prometu roba, nezakonitom radnom angažmanu, incidentnim situacijama i opasnosti po život i zdravlje ljudi",
+      "U roku od tri dana od poziva",
+      "Samo radnim danima"
+    ],
+    "correct": [1],
+    "explanation": "Član 72. stav 1. Zakona."
+  },
+  {
+    "id": "insp-055",
+    "law": "insp",
+    "article": "Član 72",
+    "topic": "Obaveza vršenja nadzora",
+    "type": "single",
+    "text": "Šta je pripravnost i da li se smatra radnim vremenom?",
+    "options": [
+      "Poseban oblik rada kada inspektor ne mora biti prisutan u prostorijama Kantonalne uprave, ali mora biti dostupan radi obavljanja hitnih poslova; vrijeme pripravnosti ne smatra se radnim vremenom",
+      "Rad u smjenama; smatra se radnim vremenom",
+      "Dežurstvo u prostorijama uprave; smatra se radnim vremenom",
+      "Prekovremeni rad; smatra se radnim vremenom"
+    ],
+    "correct": [0],
+    "explanation": "Član 72. st. 3. i 5. Zakona."
+  },
+  {
+    "id": "insp-056",
+    "law": "insp",
+    "article": "Član 73",
+    "topic": "Postupak nadzora",
+    "type": "single",
+    "text": "Kako inspektor postupa ako je subjekt nadzora nepoznat ili se ne odazove pozivu da omogući vršenje nadzora?",
+    "options": [
+      "Odustaje od nadzora",
+      "Izvršiće inspekcijski nadzor u skladu sa nastalim okolnostima, uz prisustvo drugog lica",
+      "Obavještava tužilaštvo",
+      "Zakazuje novi termin nakon 15 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 73. Zakona."
+  },
+  {
+    "id": "insp-057",
+    "law": "insp",
+    "article": "Član 74",
+    "topic": "Obaveze subjekta nadzora",
+    "type": "multi",
+    "text": "Koje su obaveze subjekta nadzora prema članu 74. Zakona? (više tačnih odgovora)",
+    "options": [
+      "Omogućiti inspektoru vršenje nadzora u skladu sa nalogom ili na traženje inspektora",
+      "Dati na uvid poslovne knjige i drugu službenu dokumentaciju, podatke, materijale i obavijesti odmah na licu mjesta ili naknadno u roku koji odredi inspektor",
+      "Na zahtjev inspektora odrediti ovlašćeno lice koje će biti prisutno za vrijeme nadzora",
+      "Snositi troškove rada inspektora"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 74. Zakona."
+  },
+  {
+    "id": "insp-058",
+    "law": "insp",
+    "article": "Član 75",
+    "topic": "Obaveze subjekta nadzora",
+    "type": "single",
+    "text": "O čemu je subjekt nadzora dužan odmah obavijestiti Kantonalnu upravu?",
+    "options": [
+      "O svakoj promjeni sjedišta",
+      "O svakom smrtnom slučaju, nesreći koja je zadesila dva ili veći broj radnika, težoj povredi na radu, profesionalnom oboljenju i svakoj pojavi koja bi mogla ugroziti život ili zdravlje radnika na radu",
+      "O svakoj promjeni cijena",
+      "O zaključenju svakog novog ugovora o radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 75. Zakona."
+  },
+  {
+    "id": "insp-059",
+    "law": "insp",
+    "article": "Član 78 i 79",
+    "topic": "Prava subjekta nadzora",
+    "type": "multi",
+    "text": "Koja prava ima subjekt nadzora u postupku inspekcijskog nadzora? (više tačnih odgovora)",
+    "options": [
+      "Pravo da se izjasni o svim činjenicama i dokazima iznesenim u postupku",
+      "Pravo na stručnu pomoć inspektora u pogledu propisa iz oblasti nadzora i preventivnog djelovanja",
+      "Pravo da podnosi redovna i vanredna pravna sredstva na akte inspektora",
+      "Pravo da odredi koji će inspektor vršiti nadzor"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Čl. 78., 79. i 80. Zakona."
+  },
+  {
+    "id": "insp-060",
+    "law": "insp",
+    "article": "Član 81",
+    "topic": "Obaveze subjekta nadzora",
+    "type": "single",
+    "text": "Koju obavezu edukacije imaju subjekti nadzora?",
+    "options": [
+      "Nemaju nikakvu obavezu",
+      "Obavezni su edukovati se o svim pitanjima iz okvira svoje djelatnosti, posebno o zakonima i drugim propisima koje primjenjuju u svom radu",
+      "Obavezni su svake godine pohađati obuku Kantonalne uprave",
+      "Obavezni su zaposliti pravnika"
+    ],
+    "correct": [1],
+    "explanation": "Član 81. Zakona."
+  },
+  {
+    "id": "insp-061",
+    "law": "insp",
+    "article": "Član 82",
+    "topic": "Prevodilac",
+    "type": "open",
+    "text": "Ko obezbjeđuje i ko snosi troškove prevodioca u postupku inspekcijskog nadzora?",
+    "answer": "Subjekt nadzora koji ne koristi ili ne razumije jezik na kojem se vodi postupak obezbjeđuje prevodioca, kao i za strana lica zatečena na radnom mjestu kod njega. Troškove prevođenja snosi subjekt nadzora. Ako subjekt nadzora ne obezbijedi prevodioca, dužan ga je obezbijediti kantonalni inspektor na trošak subjekta nadzora, sa liste stalnih sudskih tumača.",
+    "keywords": ["subjekt nadzora obezbjeđuje", "troškove snosi subjekt nadzora", "inspektor obezbjeđuje na trošak subjekta", "lista stalnih sudskih tumača"],
+    "explanation": "Član 82. Zakona."
+  },
+  {
+    "id": "insp-062",
+    "law": "insp",
+    "article": "Član 83",
+    "topic": "Postupak nadzora",
+    "type": "single",
+    "text": "Koji se propis shodno primjenjuje na vršenje inspekcijskog nadzora u svim pitanjima koja nisu drugačije propisana ovim ili drugim kantonalnim zakonom?",
+    "options": ["Zakon o prekršajima", "Zakon o upravnom postupku", "Zakon o upravnim sporovima", "Zakon o državnoj službi"],
+    "correct": [1],
+    "explanation": "Član 83. Zakona."
+  },
+  {
+    "id": "insp-063",
+    "law": "insp",
+    "article": "Član 85",
+    "topic": "Pokretanje postupka",
+    "type": "single",
+    "text": "Kako se pokreće postupak inspekcijskog nadzora?",
+    "options": ["Po zahtjevu stranke", "Po službenoj dužnosti", "Po nalogu suda", "Po prijavi građana isključivo"],
+    "correct": [1],
+    "explanation": "Član 85. Zakona."
+  },
+  {
+    "id": "insp-064",
+    "law": "insp",
+    "article": "Član 86",
+    "topic": "Pokretanje postupka",
+    "type": "multi",
+    "text": "Na čiji zahtjev će se, pored programa rada, izvršiti inspekcijski nadzor? (više tačnih odgovora)",
+    "options": [
+      "Vlade Kantona",
+      "Kantonalnog ministra, direktora kantonalne uprave i direktora kantonalne upravne organizacije",
+      "Drugih organa državne službe te organa i tijela zakonodavne i izvršne vlasti u BiH",
+      "Konkurentskog privrednog društva"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 86. tačke a)–c) Zakona."
+  },
+  {
+    "id": "insp-065",
+    "law": "insp",
+    "article": "Član 87",
+    "topic": "Predstavke",
+    "type": "single",
+    "text": "U kojem roku nadležna kantonalna inspekcija obavještava podnosioca predstavke o preduzetim mjerama?",
+    "options": [
+      "U roku od 8 dana od prijema predstavke",
+      "Pismeno, u roku od 15 dana od dana okončanja inspekcijskog nadzora",
+      "U roku od 30 dana od prijema predstavke",
+      "Nema obavezu obavještavanja"
+    ],
+    "correct": [1],
+    "explanation": "Član 87. stav 3.; ova obaveza se ne odnosi na anonimne predstavke (stav 4.)."
+  },
+  {
+    "id": "insp-066",
+    "law": "insp",
+    "article": "Član 88",
+    "topic": "Predstavke",
+    "type": "single",
+    "text": "Kada će se ponovna predstavka istog podnosioca u istoj stvari uzeti u postupak?",
+    "options": [
+      "Uvijek",
+      "Samo ako su iznesene nove činjenice ili ako prilikom razmatranja ranije predstavke nisu uzete u obzir sve okolnosti od značaja za pravilnu ocjenu",
+      "Nikada",
+      "Samo ako je proteklo šest mjeseci"
+    ],
+    "correct": [1],
+    "explanation": "Član 88. Zakona."
+  },
+  {
+    "id": "insp-067",
+    "law": "insp",
+    "article": "Član 89",
+    "topic": "Saradnja organa",
+    "type": "single",
+    "text": "Koju obavezu imaju organi uprave i pravna lica sa javnim ovlašćenjima prema kantonalnoj inspekciji?",
+    "options": [
+      "Nemaju nikakvu obavezu",
+      "Dužni su obavijestiti nadležnu kantonalnu inspekciju o svim nezakonitim radnjama za koje su saznali u obavljanju svojih poslova i uz obavijest dostaviti sve dokaze kojima raspolažu",
+      "Dužni su sami preduzeti upravne mjere",
+      "Dužni su obavijestiti samo tužilaštvo"
+    ],
+    "correct": [1],
+    "explanation": "Član 89. Zakona."
+  },
+  {
+    "id": "insp-068",
+    "law": "insp",
+    "article": "Član 91",
+    "topic": "Nalog za nadzor",
+    "type": "single",
+    "text": "Ko izdaje nalog za inspekcijski nadzor?",
+    "options": [
+      "Vlada Kantona",
+      "Glavni kantonalni inspektor ili direktor Kantonalne uprave, odnosno lice koje direktor ovlasti",
+      "Sam kantonalni inspektor u svakom slučaju",
+      "Nadležni kantonalni ministar"
+    ],
+    "correct": [1],
+    "explanation": "Član 91. stav 2. Zakona."
+  },
+  {
+    "id": "insp-069",
+    "law": "insp",
+    "article": "Član 91",
+    "topic": "Nalog za nadzor",
+    "type": "open",
+    "text": "Šta sadrži nalog za inspekcijski nadzor?",
+    "answer": "Naziv Kantonalne uprave, broj naloga i datum izdavanja; ime, prezime i svojstvo lica koje izdaje nalog i naziv inspektorata; ime i prezime inspektora koji će izvršiti nadzor; datum početka vršenja nadzora; naziv vozila i registracijske oznake; naziv subjekta i objekta inspekcijskog nadzora; ček listu; pouku subjektu nadzora da ometanje inspektora u radu predstavlja prekršaj; potpis izdavaoca naloga i otisak pečata.",
+    "keywords": ["broj i datum", "ime inspektora", "subjekt i objekt nadzora", "ček lista", "pouka o prekršaju", "potpis i pečat"],
+    "explanation": "Član 91. stav 3. Zakona."
+  },
+  {
+    "id": "insp-070",
+    "law": "insp",
+    "article": "Član 91",
+    "topic": "Nalog za nadzor",
+    "type": "single",
+    "text": "U kojem roku inspektor mora predočiti glavnom kantonalnom inspektoru nalog koji je sam izdao i potpisao na terenu?",
+    "options": ["U roku od 24 sata", "U roku od tri dana", "U roku od osam dana", "Do kraja mjeseca"],
+    "correct": [0],
+    "explanation": "Član 91. stav 4.; glavni inspektor ga svojim potpisom verifikuje kao akt u predmetu."
+  },
+  {
+    "id": "insp-071",
+    "law": "insp",
+    "article": "Član 91",
+    "topic": "Nalog za nadzor",
+    "type": "single",
+    "text": "Kada glavni kantonalni inspektor može izdati usmeni nalog za vršenje inspekcijskog nadzora?",
+    "options": [
+      "Nikada",
+      "U slučaju potrebe za preduzimanjem hitnih mjera zbog zaštite javnog interesa, uz obavezu da u roku od 24 sata potpiše pismeni nalog",
+      "Uvijek kada je nadzor izvan sjedišta",
+      "Samo uz saglasnost direktora"
+    ],
+    "correct": [1],
+    "explanation": "Član 91. stav 6. Zakona."
+  },
+  {
+    "id": "insp-072",
+    "law": "insp",
+    "article": "Član 92",
+    "topic": "Nalog za nadzor",
+    "type": "single",
+    "text": "Šta vrijedi za predočavanje naloga za inspekcijski nadzor i pravni lijek protiv njega?",
+    "options": [
+      "Nalog se obavezno uručuje subjektu nadzora, a protiv njega je dopuštena žalba",
+      "Nalog se po pravilu ne dostavlja niti predaje subjektu nadzora, nego mu se na njegov zahtjev samo predočava; protiv naloga se ne može izjaviti žalba",
+      "Nalog se objavljuje na oglasnoj tabli",
+      "Nalog se dostavlja tek nakon okončanja nadzora"
+    ],
+    "correct": [1],
+    "explanation": "Član 92. Zakona."
+  },
+  {
+    "id": "insp-073",
+    "law": "insp",
+    "article": "Član 94",
+    "topic": "Postupak nadzora",
+    "type": "single",
+    "text": "Kako postupa inspektor kad utvrdi povredu propisa za koju je nadležna druga inspekcija ili drugi organ uprave?",
+    "options": [
+      "Sam preduzima mjeru",
+      "Bez odlaganja sačinjava službenu zabilješku i putem glavnog inspektora obavještava nadležnu inspekciju odnosno organ uprave",
+      "Ne poduzima ništa",
+      "Obavještava subjekta nadzora da se sam obrati nadležnom organu"
+    ],
+    "correct": [1],
+    "explanation": "Član 94. Zakona."
+  },
+  {
+    "id": "insp-074",
+    "law": "insp",
+    "article": "Član 95",
+    "topic": "Postupak nadzora",
+    "type": "single",
+    "text": "Šta inspektor mora učiniti prije početka vršenja inspekcijskog nadzora?",
+    "options": [
+      "Uručiti nalog subjektu nadzora",
+      "Predstaviti se subjektu nadzora uz predočenu značku i službenu iskaznicu",
+      "Obavijestiti policiju",
+      "Zatražiti pismeni pristanak subjekta"
+    ],
+    "correct": [1],
+    "explanation": "Član 95. Zakona."
+  },
+  {
+    "id": "insp-075",
+    "law": "insp",
+    "article": "Član 95a",
+    "topic": "Izuzeće inspektora",
+    "type": "multi",
+    "text": "U kojim slučajevima će se kantonalni inspektor izuzeti od rada u predmetu? (više tačnih odgovora)",
+    "options": [
+      "Ako je u predmetu stranka, suovlaštenik/suobveznik, svjedok, vještak, punomoćnik ili zakonski zastupnik stranke",
+      "Ako je sa strankom, zastupnikom ili punomoćnikom srodnik po krvi u pravoj liniji, a u pobočnoj do četvrtog stepena zaključno, bračni partner ili srodnik po tazbini do drugog stepena zaključno",
+      "Ako je sa strankom u odnosu staratelja, usvojitelja, usvojenika ili hranitelja",
+      "Ako je ranije već vršio nadzor kod istog subjekta"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 95a Zakona."
+  },
+  {
+    "id": "insp-076",
+    "law": "insp",
+    "article": "Član 95b",
+    "topic": "Izuzeće inspektora",
+    "type": "single",
+    "text": "Kako postupa inspektor čim sazna da postoji razlog za njegovo izuzeće?",
+    "options": [
+      "Nastavlja rad do okončanja nadzora",
+      "Dužan je prekinuti svaki daljnji rad na predmetu i o tome u pisanoj formi obavijestiti direktora Kantonalne uprave",
+      "Obavještava subjekta nadzora",
+      "Sam donosi zaključak o svom izuzeću"
+    ],
+    "correct": [1],
+    "explanation": "Član 95b stav 1.; ako smatra da postoje druge okolnosti koje opravdavaju izuzeće, obavještava direktora ne prekidajući rad."
+  },
+  {
+    "id": "insp-077",
+    "law": "insp",
+    "article": "Član 95d",
+    "topic": "Izuzeće inspektora",
+    "type": "single",
+    "text": "Ko odlučuje o zahtjevu za izuzeće kantonalnog inspektora, u kojem roku i kojim aktom?",
+    "options": [
+      "Glavni kantonalni inspektor, u roku od 8 dana, rješenjem",
+      "Direktor Kantonalne uprave, u roku od 15 dana od prijema zahtjeva, zaključkom",
+      "Nadležno ministarstvo, u roku od 30 dana, rješenjem",
+      "Vlada Kantona, u roku od 15 dana, odlukom"
+    ],
+    "correct": [1],
+    "explanation": "Član 95d st. 1. i 2.; protiv tog zaključka nije dopuštena žalba (stav 4.)."
+  },
+  {
+    "id": "insp-078",
+    "law": "insp",
+    "article": "Član 96",
+    "topic": "Postupak nadzora",
+    "type": "single",
+    "text": "Ko učestvuje u vršenju inspekcijskog nadzora?",
+    "options": [
+      "Isključivo inspektor",
+      "Subjekt nadzora, odnosno odgovorno ili drugo ovlašćeno lice; izuzetno se nadzor može izvršiti i bez ovlašćenog lica, uz prisustvo zatečenog radno angažovanog lica",
+      "Obavezno i predstavnik sindikata",
+      "Obavezno i predstavnik policije"
+    ],
+    "correct": [1],
+    "explanation": "Član 96. Zakona."
+  },
+  {
+    "id": "insp-079",
+    "law": "insp",
+    "article": "Član 99",
+    "topic": "Vrijeme nadzora",
+    "type": "single",
+    "text": "Kada inspektor može vršiti inspekcijski nadzor kod subjekta nadzora?",
+    "options": [
+      "Samo uz prethodnu najavu",
+      "Bez prethodne najave, u bilo koje vrijeme u toku dana ili noći u toku radnog vremena subjekta, a izuzetno i izvan radnog vremena ako postoji opravdana potreba navedena u nalogu",
+      "Samo radnim danima od 8 do 16 sati",
+      "Samo uz saglasnost odgovornog lica"
+    ],
+    "correct": [1],
+    "explanation": "Član 99. stav 1. Zakona."
+  },
+  {
+    "id": "insp-080",
+    "law": "insp",
+    "article": "Član 99",
+    "topic": "Vrijeme nadzora",
+    "type": "single",
+    "text": "Šta inspektor može učiniti ako se nadzor u poslovnim prostorijama ne može završiti u toku radnog vremena subjekta nadzora?",
+    "options": [
+      "Mora prekinuti nadzor bez daljnjih mjera",
+      "Može izvršiti privremeno pečaćenje poslovnog prostora, dijela prostora ili opreme, o čemu donosi zaključak protiv kojeg se ne može izjaviti žalba",
+      "Mora zatražiti pomoć policije",
+      "Mora oduzeti svu dokumentaciju"
+    ],
+    "correct": [1],
+    "explanation": "Član 99. st. 2. i 3.; zaključak se može priložiti uz zapisnik o izvršenom nadzoru."
+  },
+  {
+    "id": "insp-081",
+    "law": "insp",
+    "article": "Član 100",
+    "topic": "Utvrđivanje podataka",
+    "type": "multi",
+    "text": "Šta inspektor po pravilu utvrđuje za svakog subjekta nadzora? (više tačnih odgovora)",
+    "options": [
+      "Identifikaciju subjekta nadzora (za fizičko lice identitet, a za pravno lice oblik organizovanja, lice ovlašteno za zastupanje i odgovorno lice)",
+      "Posjedovanje isprava za obavljanje djelatnosti — registraciju i dozvolu za rad (obrtnica, odobrenje, licenca)",
+      "Da li je zaposlen stranac bez radne dozvole ili sa isteklom radnom dozvolom",
+      "Visinu ostvarene dobiti u prethodnoj godini"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 100. st. 1. i 2. Zakona."
+  },
+  {
+    "id": "insp-082",
+    "law": "insp",
+    "article": "Član 101",
+    "topic": "Obaveze subjekta nadzora",
+    "type": "single",
+    "text": "Šta propisuje član 101. Zakona?",
+    "options": [
+      "Subjekt nadzora i svako drugo lice ne smije sprečavati i otežavati inspektoru vršenje inspekcijskog pregleda",
+      "Subjekt nadzora može odbiti pregled ako nije prisutan direktor",
+      "Inspektor mora najaviti pregled tri dana ranije",
+      "Pregled se može vršiti samo u prisustvu advokata"
+    ],
+    "correct": [0],
+    "explanation": "Član 101.; sprečavanje ili otežavanje je prekršaj (čl. 164. i 165.)."
+  },
+  {
+    "id": "insp-083",
+    "law": "insp",
+    "article": "Član 102",
+    "topic": "Uzorkovanje",
+    "type": "single",
+    "text": "Koliko najviše uzoraka istog proizvoda inspektor može uzeti za ispitivanje kvaliteta?",
+    "options": ["Jedan", "Dva", "Tri", "Pet"],
+    "correct": [2],
+    "explanation": "Član 102. stav 2.; o uzimanju uzoraka sastavlja se zapisnik."
+  },
+  {
+    "id": "insp-084",
+    "law": "insp",
+    "article": "Član 102",
+    "topic": "Uzorkovanje",
+    "type": "single",
+    "text": "U kojem roku inspektor pismeno obavještava subjekta nadzora o rezultatu ispitivanja proizvoda?",
+    "options": [
+      "Odmah po prijemu nalaza",
+      "Najkasnije u roku od tri dana od dana prijema nalaza od ovlaštene institucije",
+      "U roku od osam dana",
+      "U roku od 15 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 102. stav 4. Zakona."
+  },
+  {
+    "id": "insp-085",
+    "law": "insp",
+    "article": "Član 103",
+    "topic": "Uzorkovanje",
+    "type": "open",
+    "text": "Kako subjekt nadzora može tražiti ponavljanje ispitivanja kvaliteta proizvoda i koji nalaz je mjerodavan?",
+    "answer": "Ako je nezadovoljan nalazom, subjekt nadzora ima pravo tražiti od inspektora da se ispitivanje ponovi na uzorku uzetom za superanalizu, istom metodom, kod druge organizacije ovlaštene za ispitivanje kvaliteta. Zahtjev se podnosi u pismenoj formi u roku od tri dana od dana dostavljanja nalaza prvog ispitivanja. Ako rezultat ponovljenog ispitivanja nije saglasan sa prvim nalazom, mjerodavan je nalaz ponovljenog ispitivanja.",
+    "keywords": ["superanaliza", "druga ovlaštena organizacija", "tri dana", "mjerodavan nalaz ponovljenog ispitivanja"],
+    "explanation": "Član 103. Zakona."
+  },
+  {
+    "id": "insp-086",
+    "law": "insp",
+    "article": "Član 104",
+    "topic": "Uzorkovanje",
+    "type": "single",
+    "text": "Ko snosi troškove ispitivanja uzoraka proizvoda?",
+    "options": [
+      "Uvijek subjekt nadzora",
+      "Subjekt nadzora ako se utvrdi da uzorak ne odgovara propisanom kvalitetu; ako odgovara, troškovi padaju na teret kantonalnog budžeta",
+      "Uvijek kantonalni budžet",
+      "Ovlaštena institucija koja vrši ispitivanje"
+    ],
+    "correct": [1],
+    "explanation": "Član 104. st. 2. i 3.; uzorak subjekt nadzora daje besplatno (stav 1.)."
+  },
+  {
+    "id": "insp-087",
+    "law": "insp",
+    "article": "Član 108",
+    "topic": "Privremeno oduzimanje dokumentacije",
+    "type": "single",
+    "text": "Šta vrijedi za privremeno oduzimanje poslovne i druge dokumentacije u inspekcijskom nadzoru?",
+    "options": [
+      "Nije dopušteno",
+      "Inspektor je može privremeno oduzeti radi provjere autentičnosti i tačnosti navoda; zaključkom se određuje rok vraćanja (osim ako se prilaže kao dokaz u prekršajnom ili krivičnom postupku), a o oduzimanju se izdaje potvrda; protiv zaključka nije dozvoljena žalba",
+      "Dopušteno je samo uz nalog suda",
+      "Dokumentacija se oduzima trajno"
+    ],
+    "correct": [1],
+    "explanation": "Član 108. Zakona."
+  },
+  {
+    "id": "insp-088",
+    "law": "insp",
+    "article": "Član 109",
+    "topic": "Pozivanje",
+    "type": "single",
+    "text": "U kojem vremenskom razdoblju inspektor može pozvati odgovorna i druga lica radi saslušanja?",
+    "options": [
+      "Bilo kada",
+      "U radne dane u vremenu od 6 do 22 sata, a izuzetno i izvan tog vremena i u sve dane ako se radi o hitnosti",
+      "Samo od 8 do 16 sati radnim danom",
+      "Samo uz prethodnu saglasnost pozvanog"
+    ],
+    "correct": [1],
+    "explanation": "Član 109. stav 2.; poziv se upućuje pismeno, a izuzetno i usmeno ili drugim sredstvima komunikacije."
+  },
+  {
+    "id": "insp-089",
+    "law": "insp",
+    "article": "Član 111",
+    "topic": "Pozivanje",
+    "type": "single",
+    "text": "U kojem roku je pozvano lice dužno opravdati izostanak ako se ne odazove pozivu inspektora?",
+    "options": ["U roku od 24 sata od dana kada je bilo dužno odazvati se pozivu", "U roku od tri dana", "U roku od osam dana", "Nema roka"],
+    "correct": [0],
+    "explanation": "Član 111. Zakona."
+  },
+  {
+    "id": "insp-090",
+    "law": "insp",
+    "article": "Član 112",
+    "topic": "Postupak nadzora",
+    "type": "single",
+    "text": "Može li inspektor obaviti inspekcijske radnje kod lica koja nisu subjekt nadzora?",
+    "options": [
+      "Ne može",
+      "Može, ako se kod tih lica obavlja djelatnost ili nalaze stvari, predmeti i isprave od značaja za nadzor kod subjekta nadzora; ako to ne dopuste, prema njima može preduzeti iste mjere kao prema subjektu nadzora",
+      "Može samo uz nalog suda",
+      "Može samo uz njihov pisani pristanak"
+    ],
+    "correct": [1],
+    "explanation": "Član 112. Zakona."
+  },
+  {
+    "id": "insp-091",
+    "law": "insp",
+    "article": "Član 113",
+    "topic": "Pomoć policije",
+    "type": "single",
+    "text": "Kada inspektor može zatražiti pomoć nadležne policije i kako policija postupa?",
+    "options": [
+      "Samo uz pismeni zahtjev direktora; policija odlučuje po slobodnoj ocjeni",
+      "Ako mu je nadzor onemogućen pružanjem fizičkog otpora ili se takav otpor osnovano očekuje; policija je obavezna pružiti zaštitu i na usmeni zahtjev inspektora, glavnog inspektora ili direktora, iako o tome nije bila prethodno obaviještena",
+      "Uvijek prije svakog nadzora",
+      "Samo noću"
+    ],
+    "correct": [1],
+    "explanation": "Član 113. Zakona."
+  },
+  {
+    "id": "insp-092",
+    "law": "insp",
+    "article": "Član 97 i 98",
+    "topic": "Postupak nadzora",
+    "type": "single",
+    "text": "Gdje se obavlja inspekcijski nadzor i šta je dužan obezbijediti subjekt nadzora?",
+    "options": [
+      "Isključivo u prostorijama Kantonalne uprave",
+      "Na mjestu gdje treba utvrditi činjenice (određuje se po pravilu nalogom); ako se vrši u poslovnim prostorijama subjekta, odgovorno lice dužno je inspektoru obezbijediti odgovarajuće uslove za rad",
+      "Isključivo u sjedištu subjekta nadzora",
+      "Na mjestu koje odredi subjekt nadzora"
+    ],
+    "correct": [1],
+    "explanation": "Član 97.; po potrebi inspektor može pozvati subjekta da dokumentaciju dostavi u prostorije Kantonalne uprave (član 98.)."
+  },
+  {
+    "id": "insp-093",
+    "law": "insp",
+    "article": "Član 90",
+    "topic": "Javna ovlaštenja",
+    "type": "single",
+    "text": "Kako inspektor postupa ako pravna lica sa javnim ovlašćenjima ne vrše povjerene poslove u skladu sa propisima?",
+    "options": [
+      "Oduzima im javna ovlaštenja",
+      "Pismeno obavještava organ koji je povjerio javna ovlaštenja radi preduzimanja mjera, i provodi nadzor koji se odnosi na kontrolu sadržaja i uslova pod kojim se javna ovlaštenja vrše",
+      "Podnosi krivičnu prijavu",
+      "Ne poduzima ništa"
+    ],
+    "correct": [1],
+    "explanation": "Član 90. Zakona."
+  },
+  {
+    "id": "insp-094",
+    "law": "insp",
+    "article": "Član 71",
+    "topic": "Ovlaštenja inspektora",
+    "type": "single",
+    "text": "Šta su kantonalni inspektori dužni primjenjivati pored domaćih propisa?",
+    "options": [
+      "Preporuke strukovnih udruženja",
+      "Međunarodne konvencije koje je ratifikovala Bosna i Hercegovina",
+      "Interna uputstva subjekata nadzora",
+      "Standarde koje odredi stručna institucija"
+    ],
+    "correct": [1],
+    "explanation": "Član 71. Zakona."
+  },
+  {
+    "id": "insp-095",
+    "law": "insp",
+    "article": "Član 107",
+    "topic": "Dokazi",
+    "type": "single",
+    "text": "Ko određuje koje će se dokaze koristiti za utvrđivanje činjeničnog stanja u inspekcijskom nadzoru?",
+    "options": [
+      "Subjekt nadzora",
+      "Kantonalni inspektor samostalno, uz obavezu da subjekta nadzora upozna sa dokazima koji nisu kod njega pribavljeni i omogući mu da se o njima izjasni",
+      "Glavni kantonalni inspektor",
+      "Drugostepeni organ"
+    ],
+    "correct": [1],
+    "explanation": "Član 107. st. 1. i 2. Zakona."
+  }
+]

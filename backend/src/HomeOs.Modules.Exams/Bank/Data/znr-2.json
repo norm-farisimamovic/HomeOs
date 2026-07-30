@@ -1,0 +1,652 @@
+[
+  {
+    "id": "znr-046",
+    "law": "znr",
+    "article": "Član 34",
+    "topic": "Radnik za zaštitu na radu",
+    "type": "single",
+    "text": "Kada je poslodavac dužan odrediti jednog ili više radnika za zaštitu na radu?",
+    "options": [
+      "Uvijek kad ima više od 10 radnika",
+      "Kad kod njega postoje poslovi sa povećanim rizikom",
+      "Samo na zahtjev sindikata",
+      "Samo u proizvodnim djelatnostima"
+    ],
+    "correct": [1],
+    "explanation": "Član 34. stav 1. Zakona."
+  },
+  {
+    "id": "znr-047",
+    "law": "znr",
+    "article": "Član 34",
+    "topic": "Radnik za zaštitu na radu",
+    "type": "single",
+    "text": "Koje uvjete mora ispunjavati radnik za zaštitu na radu?",
+    "options": [
+      "Samo srednju stručnu spremu",
+      "Mora biti odgovarajuće osposobljen i imati položen stručni ispit koji se odnosi na sigurnost i zaštitu zdravlja na radu",
+      "Mora imati najmanje pet godina radnog staža",
+      "Mora biti član sindikata"
+    ],
+    "correct": [1],
+    "explanation": "Član 34. stav 4.; stručni ispit se polaže pred komisijom koju imenuje federalni ministar."
+  },
+  {
+    "id": "znr-048",
+    "law": "znr",
+    "article": "Član 34",
+    "topic": "Radnik za zaštitu na radu",
+    "type": "single",
+    "text": "Može li radnik za zaštitu na radu biti doveden u nepovoljniji položaj zbog poslova koje obavlja?",
+    "options": ["Može, ako ometa proces rada", "Ne može", "Može, uz saglasnost sindikata", "Može samo u probnom periodu"],
+    "correct": [1],
+    "explanation": "Član 34. stav 3. Zakona."
+  },
+  {
+    "id": "znr-049",
+    "law": "znr",
+    "article": "Član 35",
+    "topic": "Radnik za zaštitu na radu",
+    "type": "open",
+    "text": "Navedite najmanje šest obaveza radnika za zaštitu na radu.",
+    "answer": "Učešće u izradi akta o procjeni rizika; izrada prijedloga internog akta o zaštiti na radu; izrada plana i programa mjera zaštite na radu; unutrašnji nadzor nad primjenom mjera zaštite; stručna pomoć poslodavcu; izrada uputstava za siguran rad; praćenje i organizovanje periodičnih pregleda sredstava za rad i ispitivanja štetnosti; priprema i organizovanje osposobljavanja radnika; praćenje i izvještavanje o povredama na radu i profesionalnim oboljenjima te analiza njihovih uzroka; praćenje periodičnih ljekarskih pregleda; savjetovanje poslodavca pri izboru opreme; saradnja sa inspekcijom rada, sindikatom, vijećem zaposlenika i povjerenikom.",
+    "keywords": ["procjena rizika", "interni akt", "unutrašnji nadzor", "uputstva za siguran rad", "osposobljavanje", "povrede na radu", "saradnja sa inspekcijom"],
+    "explanation": "Član 35. stav 1. tačke a)–p) Zakona."
+  },
+  {
+    "id": "znr-050",
+    "law": "znr",
+    "article": "Član 35",
+    "topic": "Radnik za zaštitu na radu",
+    "type": "single",
+    "text": "Šta je radnik za zaštitu na radu obavezan učiniti kad utvrdi neposrednu opasnost po život i zdravlje radnika?",
+    "options": [
+      "Obavijestiti inspekciju rada u roku od osam dana",
+      "Zabraniti rad na radnom mjestu, odnosno upotrebu sredstava za rad i opreme lične zaštite, i o tome pisano obavijestiti poslodavca i povjerenika za zaštitu na radu",
+      "Sačekati odluku poslodavca",
+      "Evakuisati sve radnike iz objekta"
+    ],
+    "correct": [1],
+    "explanation": "Član 35. stav 2. Zakona."
+  },
+  {
+    "id": "znr-051",
+    "law": "znr",
+    "article": "Član 36",
+    "topic": "Prva pomoć i evakuacija",
+    "type": "multi",
+    "text": "Koje mjere je poslodavac dužan preduzeti prema članu 36. Zakona? (više tačnih odgovora)",
+    "options": [
+      "Preduzeti potrebne mjere za prvu pomoć, protivpožarne mjere i mjere za evakuaciju radnika, prilagođene prirodi aktivnosti i veličini poslovanja",
+      "Uspostaviti potrebne veze sa specijalizovanim službama (prva pomoć, hitna zdravstvena zaštita, spašavanje, protivpožarna zaštita)",
+      "Odrediti radnike koji će provoditi mjere prve pomoći, protivpožarne zaštite i evakuacije",
+      "Osnovati vlastitu vatrogasnu jedinicu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 36. st. 1. i 2. Zakona."
+  },
+  {
+    "id": "znr-052",
+    "law": "znr",
+    "article": "Član 37",
+    "topic": "Ozbiljna i neposredna opasnost",
+    "type": "open",
+    "text": "Koje su obaveze poslodavca u slučaju ozbiljne i neposredne opasnosti?",
+    "answer": "Poslodavac je dužan što je prije moguće upoznati sve radnike koji su ili bi mogli biti izloženi ozbiljnoj i neposrednoj opasnosti o riziku i o mjerama zaštite; preduzeti mjere i izdati uputstva kako bi radnici mogli prekinuti s radom i/ili odmah napustiti radno mjesto i preći na sigurno mjesto; i ne smije tražiti od radnika da nastave rad dok ozbiljna i neposredna opasnost postoji, osim u izuzetnim slučajevima kada postoji ozbiljna i neposredna opasnost po sigurnost više ljudi i širu okolinu. Radnici koji napuste radno mjesto ne smiju snositi negativne posljedice.",
+    "keywords": ["upoznati radnike o riziku", "napustiti radno mjesto", "sigurno mjesto", "ne tražiti nastavak rada", "bez negativnih posljedica"],
+    "explanation": "Član 37. st. 1. i 2. Zakona."
+  },
+  {
+    "id": "znr-053",
+    "law": "znr",
+    "article": "Član 38",
+    "topic": "Obavještavanje radnika",
+    "type": "single",
+    "text": "U kojem obliku poslodavac daje radnicima uputstva o rizicima i zaštitnim mjerama?",
+    "options": [
+      "Isključivo usmeno",
+      "U pisanoj formi, uz obavezu isticanja uputstava na mjestu rada; izuzetno, kad prijeti iznenadna opasnost, može ih dati usmeno",
+      "Samo putem oglasne ploče sindikata",
+      "Samo pri zapošljavanju"
+    ],
+    "correct": [1],
+    "explanation": "Član 38. st. 1–3.; uputstva se daju svim radnicima, uključujući i radnike drugih poslodavaca (stav 4.)."
+  },
+  {
+    "id": "znr-054",
+    "law": "znr",
+    "article": "Član 40",
+    "topic": "Obavještavanje predstavnika radnika",
+    "type": "single",
+    "text": "Koliko puta godišnje je poslodavac dužan izvijestiti povjerenika za zaštitu na radu, vijeće zaposlenika i sindikat o rizicima i preduzetim mjerama?",
+    "options": ["Jednom godišnje", "Najmanje dva puta godišnje", "Kvartalno", "Samo na njihov zahtjev"],
+    "correct": [1],
+    "explanation": "Član 40. stav 1. Zakona."
+  },
+  {
+    "id": "znr-055",
+    "law": "znr",
+    "article": "Član 40",
+    "topic": "Obavještavanje predstavnika radnika",
+    "type": "multi",
+    "text": "U kojim slučajevima poslodavac ima obavezu vanrednog obavještavanja i savjetovanja sa predstavnicima radnika? (više tačnih odgovora)",
+    "options": [
+      "Nakon smrtne, grupne ili teške povrede na radu",
+      "Nakon utvrđenog slučaja profesionalnog oboljenja",
+      "Nakon nalaza nadležne inspekcije rada kojim je utvrđen nedostatak u primjeni mjera zaštite na radu",
+      "Nakon svake promjene cijene zaštitne opreme"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 40. stav 2. Zakona."
+  },
+  {
+    "id": "znr-056",
+    "law": "znr",
+    "article": "Član 42",
+    "topic": "Posebne kategorije radnika",
+    "type": "single",
+    "text": "Koje kategorije radnika poslodavac mora u pisanoj formi obavijestiti o rezultatima procjene rizika i mjerama otklanjanja rizika?",
+    "options": [
+      "Sve radnike bez izuzetka",
+      "Zaposlenu ženu za vrijeme trudnoće i dojenja, radnika mlađeg od 18 godina i radnika sa promijenjenom radnom sposobnošću",
+      "Samo rukovodno osoblje",
+      "Samo radnike na poslovima sa povećanim rizikom"
+    ],
+    "correct": [1],
+    "explanation": "Član 42. Zakona — i pored osposobljavanja za siguran i zdrav rad."
+  },
+  {
+    "id": "znr-057",
+    "law": "znr",
+    "article": "Član 43",
+    "topic": "Savjetovanje sa radnicima",
+    "type": "multi",
+    "text": "U čemu poslodavac mora omogućiti učešće radnicima i/ili njihovim predstavnicima? (više tačnih odgovora)",
+    "options": [
+      "U raspravama i odobravanju svih mjera u pogledu sigurnosti i zaštite zdravlja na radu",
+      "U imenovanju radnika koji će obavljati poslove zaštite, prve pomoći, gašenja požara i evakuacije",
+      "U planiranju i organizovanju osposobljavanja radnika i angažovanju ovlaštenih organizacija",
+      "U izboru poslovnog partnera poslodavca"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 43. tačke a)–e) Zakona."
+  },
+  {
+    "id": "znr-058",
+    "law": "znr",
+    "article": "Član 44",
+    "topic": "Povjerenik za zaštitu na radu",
+    "type": "single",
+    "text": "Kod poslodavca sa koliko radnika radnici biraju ili imenuju povjerenika za zaštitu na radu?",
+    "options": ["10 ili više radnika", "20 ili više radnika", "30 ili više radnika", "50 ili više radnika"],
+    "correct": [2],
+    "explanation": "Član 44. stav 1. Zakona."
+  },
+  {
+    "id": "znr-059",
+    "law": "znr",
+    "article": "Član 44",
+    "topic": "Povjerenik za zaštitu na radu",
+    "type": "single",
+    "text": "Kada će povjerenik za zaštitu na radu biti izabran ili imenovan bez obzira na broj radnika?",
+    "options": [
+      "Nikada",
+      "Ako to zahtijevaju uvjeti rada (povećana opasnost za sigurnost i zdravlje radnika, rad na izdvojenim mjestima i sl.)",
+      "Samo na zahtjev inspekcije",
+      "Samo ako to traži poslodavac"
+    ],
+    "correct": [1],
+    "explanation": "Član 44. stav 4. Zakona."
+  },
+  {
+    "id": "znr-060",
+    "law": "znr",
+    "article": "Član 44",
+    "topic": "Povjerenik za zaštitu na radu",
+    "type": "single",
+    "text": "Ko imenuje povjerenika za zaštitu na radu ako ga radnici nisu izabrali?",
+    "options": ["Poslodavac", "Sindikat", "Inspekcija rada", "Vijeće za zaštitu na radu"],
+    "correct": [1],
+    "explanation": "Član 44. stav 2.; imenovani povjerenik ima ista prava i obaveze kao izabrani (stav 3.)."
+  },
+  {
+    "id": "znr-061",
+    "law": "znr",
+    "article": "Član 45",
+    "topic": "Povjerenik za zaštitu na radu",
+    "type": "multi",
+    "text": "Koja prava ima povjerenik za zaštitu na radu? (više tačnih odgovora)",
+    "options": [
+      "Dobiti informacije o uvjetima rada, analizama povreda na radu i profesionalnih oboljenja te nalazima i preporukama inspekcijskih organa",
+      "Zahtijevati od poslodavca da preduzme odgovarajuće mjere i dostaviti prijedloge za ublažavanje rizika",
+      "Zahtijevati inspekcijski pregled i prisustvovati inspekcijskim pregledima uz iznošenje svojih zapažanja",
+      "Samostalno izricati novčane kazne poslodavcu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 45. stav 1. tačke a)–e) Zakona."
+  },
+  {
+    "id": "znr-062",
+    "law": "znr",
+    "article": "Član 45",
+    "topic": "Povjerenik za zaštitu na radu",
+    "type": "single",
+    "text": "Koliko sati sedmično povjerenik za zaštitu na radu može obavljati poslove utvrđene ovim zakonom?",
+    "options": ["Najviše dva sata", "Najviše četiri sata", "Najviše šest sati", "Bez ograničenja"],
+    "correct": [2],
+    "explanation": "Član 45. stav 3.; za to vrijeme ima pravo na naknadu plaće u visini plaće koju bi ostvario na svojim poslovima."
+  },
+  {
+    "id": "znr-063",
+    "law": "znr",
+    "article": "Član 46",
+    "topic": "Osposobljavanje radnika",
+    "type": "multi",
+    "text": "Kada je poslodavac dužan izvršiti osposobljavanje radnika za siguran i zdrav rad? (više tačnih odgovora)",
+    "options": [
+      "Kod zasnivanja radnog odnosa",
+      "Kod premještaja na druge poslove",
+      "Prilikom uvođenja nove tehnologije ili novih sredstava za rad i kod promjene procesa rada koja može prouzrokovati promjenu mjera zaštite",
+      "Samo jednom u pet godina"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 46. stav 1. Zakona."
+  },
+  {
+    "id": "znr-064",
+    "law": "znr",
+    "article": "Član 47",
+    "topic": "Osposobljavanje radnika",
+    "type": "single",
+    "text": "Ko snosi troškove osposobljavanja radnika za siguran i zdrav rad i kada se ono obavlja?",
+    "options": [
+      "Radnik, izvan radnog vremena",
+      "Poslodavac — osposobljavanje se obavlja u toku radnog vremena i ne smije izazvati troškove za radnika",
+      "Troškovi se dijele na pola",
+      "Fond zdravstvenog osiguranja"
+    ],
+    "correct": [1],
+    "explanation": "Član 47. stav 3. Zakona."
+  },
+  {
+    "id": "znr-065",
+    "law": "znr",
+    "article": "Član 47",
+    "topic": "Osposobljavanje radnika",
+    "type": "single",
+    "text": "Mogu li radnici biti raspoređeni da samostalno obavljaju poslove prije osposobljavanja za siguran i zdrav rad?",
+    "options": ["Mogu, uz nadzor kolege", "Ne mogu", "Mogu u prvih 30 dana rada", "Mogu ako imaju odgovarajuću školsku spremu"],
+    "correct": [1],
+    "explanation": "Član 47. stav 1. Zakona."
+  },
+  {
+    "id": "znr-066",
+    "law": "znr",
+    "article": "Član 48",
+    "topic": "Osposobljavanje radnika",
+    "type": "single",
+    "text": "Gdje se obavlja provjera teorijske i praktične osposobljenosti radnika za siguran i zdrav rad?",
+    "options": ["U prostorijama ovlaštene organizacije", "Na radnom mjestu", "U ovlaštenoj zdravstvenoj ustanovi", "U prostorijama inspekcije rada"],
+    "correct": [1],
+    "explanation": "Član 48. stav 2. Zakona."
+  },
+  {
+    "id": "znr-067",
+    "law": "znr",
+    "article": "Član 48",
+    "topic": "Osposobljavanje radnika",
+    "type": "single",
+    "text": "Kako se određuju periodične provjere osposobljenosti radnika koji radi na poslovima sa povećanim rizikom?",
+    "options": [
+      "Zakonom, jednom u dvije godine",
+      "Na način, u roku i po postupku utvrđenom aktom o procjeni rizika",
+      "Rješenjem inspektora",
+      "Kolektivnim ugovorom"
+    ],
+    "correct": [1],
+    "explanation": "Član 48. stav 3. Zakona."
+  },
+  {
+    "id": "znr-068",
+    "law": "znr",
+    "article": "Član 49",
+    "topic": "Osposobljavanje radnika",
+    "type": "multi",
+    "text": "Sa čim se radnik naročito upoznaje u toku osposobljavanja iz oblasti zaštite na radu? (više tačnih odgovora)",
+    "options": [
+      "Sa tehničko-tehnološkim procesom i organizacijom rada, a posebno sa poslovima svog radnog mjesta",
+      "Sa opasnostima koje ugrožavaju sigurnost i zdravlje i mjerama zaštite te razlozima za njihovo provođenje",
+      "Sa pružanjem prve pomoći i korištenjem protivpožarnih aparata",
+      "Sa poslovnim planom poslodavca"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 49. stav 1. tačke a)–i) Zakona."
+  },
+  {
+    "id": "znr-069",
+    "law": "znr",
+    "article": "Član 49",
+    "topic": "Osposobljavanje radnika",
+    "type": "single",
+    "text": "Pod kojim uslovom poslodavac može sam obaviti osposobljavanje radnika iz oblasti zaštite na radu?",
+    "options": [
+      "Uvijek",
+      "Ako ima zaposlena lica sa odgovarajućom visokom stručnom spremom iz oblasti sigurnosti i zaštite zdravlja na radu",
+      "Ako ima manje od 30 radnika",
+      "Ako to odobri inspekcija rada"
+    ],
+    "correct": [1],
+    "explanation": "Član 49. stav 2.; u protivnom te poslove povjerava ovlaštenoj organizaciji (stav 3.)."
+  },
+  {
+    "id": "znr-070",
+    "law": "znr",
+    "article": "Član 50",
+    "topic": "Prava i obaveze radnika",
+    "type": "single",
+    "text": "Koje osnovno pravo radnika utvrđuje član 50. Zakona?",
+    "options": [
+      "Pravo na dodatak na plaću",
+      "Pravo na sigurne i zdrave uvjete rada",
+      "Pravo na skraćeno radno vrijeme",
+      "Pravo na izbor radnog mjesta"
+    ],
+    "correct": [1],
+    "explanation": "Član 50. stav 1.; radna okolina i sredstva za rad moraju biti sigurni i ne smiju ugroziti zdravlje."
+  },
+  {
+    "id": "znr-071",
+    "law": "znr",
+    "article": "Član 52",
+    "topic": "Dužnosti radnika",
+    "type": "open",
+    "text": "Navedite najmanje pet dužnosti radnika u oblasti zaštite na radu.",
+    "answer": "Radnik je dužan: pridržavati se utvrđenih pravila sigurnosti i zaštite zdravlja na radu; pravilno upotrebljavati sredstva za rad, opremu i opasne materije u skladu s uputstvima; pravilno koristiti dodijeljena sredstva i opremu lične zaštite i vraćati ih na mjesto čuvanja; ne isključivati, mijenjati ni uklanjati sigurnosne uređaje; odmah obavijestiti poslodavca i/ili radnika za zaštitu na radu o svakoj pojavi koja predstavlja opasnost i o nedostacima u postupcima zaštite; prijaviti povrede koje je zadobio; sarađivati sa poslodavcem i radnikom za zaštitu na radu u provođenju mjera; obavljati periodične ljekarske preglede i davati podatke inspektorima rada.",
+    "keywords": ["pridržavati se pravila", "pravilno upotrebljavati sredstva", "lična zaštitna oprema", "ne uklanjati sigurnosni uređaj", "obavijestiti o opasnosti", "prijaviti povredu", "ljekarski pregledi"],
+    "explanation": "Član 52. stav 1. tačke a)–j) Zakona."
+  },
+  {
+    "id": "znr-072",
+    "law": "znr",
+    "article": "Član 52",
+    "topic": "Dužnosti radnika",
+    "type": "single",
+    "text": "Šta čini radnik koji se ne pridržava utvrđenih pravila sigurnosti i zaštite zdravlja na radu?",
+    "options": [
+      "Lakšu povredu radne obaveze",
+      "Težu povredu radne obaveze u skladu sa kolektivnim ugovorom odnosno općim aktom poslodavca",
+      "Prekršaj po ovom zakonu",
+      "Ništa — odgovoran je samo poslodavac"
+    ],
+    "correct": [1],
+    "explanation": "Član 52. stav 2.; obaveze radnika ne utiču na obaveze i odgovornosti poslodavca (stav 3.)."
+  },
+  {
+    "id": "znr-073",
+    "law": "znr",
+    "article": "Član 53",
+    "topic": "Prava radnika",
+    "type": "open",
+    "text": "Kako radnik postupa u slučaju neposredne opasnosti po život i zdravlje i kako postupa inspekcija?",
+    "answer": "Radnik ima pravo odbiti da radi ako smatra da mu prijeti neposredna opasnost po život i zdravlje i dužan je o tome odmah obavijestiti svog neposrednog rukovodioca i/ili imenovanog radnika za zaštitu na radu, nadležnog inspektora rada i predstavnika radnika. Nadležna inspekcija rada obavezna je odmah izvršiti uviđaj na licu mjesta i narediti provođenje odgovarajućih mjera zaštite odnosno zabraniti rad dok se mjere ne provedu, ili obavijestiti radnika zbog čega njegov zahtjev nije osnovan. Radnik koji se udaljio ne smije snositi negativne posljedice, osim ako poslodavac dokaže da se udaljio neopravdano.",
+    "keywords": ["pravo odbiti rad", "obavijestiti rukovodioca i inspektora", "uviđaj odmah", "zabrana rada", "bez negativnih posljedica"],
+    "explanation": "Član 53. Zakona."
+  },
+  {
+    "id": "znr-074",
+    "law": "znr",
+    "article": "Član 54",
+    "topic": "Zdravstveni nadzor",
+    "type": "single",
+    "text": "Koju obavezu ima poslodavac prema zdravstvenim radnicima koji pružaju usluge specifične zdravstvene zaštite/medicine rada?",
+    "options": [
+      "Da ih zaposli kod sebe",
+      "Da im osigura pristup u sve radne prostorije i prostore",
+      "Da im plati naknadu iz plaće radnika",
+      "Nema nikakvu obavezu"
+    ],
+    "correct": [1],
+    "explanation": "Član 54. stav 2. Zakona."
+  },
+  {
+    "id": "znr-075",
+    "law": "znr",
+    "article": "Član 55",
+    "topic": "Zdravstveni nadzor",
+    "type": "multi",
+    "text": "Koje poslove, pored propisanih zdravstvenom zaštitom, može obavljati ovlaštena zdravstvena ustanova? (više tačnih odgovora)",
+    "options": [
+      "Daje savjete poslodavcu o unaprjeđivanju zaštite zdravlja, sigurnosti, higijene rada, ergonomiji i zaštitnim sredstvima",
+      "Učestvuje u izradi akta o procjeni rizika i ocjenjuje posebne zdravstvene sposobnosti radnika",
+      "Vrši prethodne i periodične ljekarske preglede radnika na radnim mjestima sa povećanim rizikom",
+      "Izriče kazne poslodavcu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 55. Zakona."
+  },
+  {
+    "id": "znr-076",
+    "law": "znr",
+    "article": "Član 56",
+    "topic": "Zdravstveni nadzor",
+    "type": "single",
+    "text": "Ko je dužan obavijestiti ovlaštenu zdravstvenu ustanovu o faktorima na radnom mjestu koji se mogu nepovoljno odraziti na zdravlje radnika?",
+    "options": [
+      "Samo poslodavac",
+      "Poslodavac, radnik za zaštitu na radu, povjerenik za zaštitu na radu, sindikat i drugi radnici",
+      "Samo inspektor rada",
+      "Samo radnik za zaštitu na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 56. Zakona."
+  },
+  {
+    "id": "znr-077",
+    "law": "znr",
+    "article": "Član 57",
+    "topic": "Poslovi sa povećanim rizikom",
+    "type": "single",
+    "text": "Kakve ljekarske preglede poslodavac mora osigurati radniku koji obavlja poslove sa povećanim rizikom?",
+    "options": [
+      "Samo prethodni pregled prije početka rada",
+      "Prethodni ljekarski pregled prije početka rada i periodični ljekarski pregled u toku rada",
+      "Samo pregled po povredi na radu",
+      "Nikakve — dovoljno je uvjerenje pri zapošljavanju"
+    ],
+    "correct": [1],
+    "explanation": "Član 57. stav 1.; poslovi sa povećanim rizikom utvrđuju se internim aktom o zaštiti na radu (stav 2.)."
+  },
+  {
+    "id": "znr-078",
+    "law": "znr",
+    "article": "Član 57",
+    "topic": "Poslovi sa povećanim rizikom",
+    "type": "multi",
+    "text": "Šta se smatra poslovima sa povećanim rizikom? (više tačnih odgovora)",
+    "options": [
+      "Poslovi sa povećanim rizikom od povređivanja, nastanka profesionalnih oboljenja i oštećenja zdravlja radnika",
+      "Poslovi sa specifičnim zahtjevima koji uvjetuju posebne zdravstvene i psihofizičke sposobnosti radnika",
+      "Poslovi na kojima, nakon primjene svih tehnički priznatih metoda za smanjenje rizika, postoji preostali rizik za neke radnike",
+      "Svi poslovi u smjenskom radu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 57. stav 3. Zakona."
+  },
+  {
+    "id": "znr-079",
+    "law": "znr",
+    "article": "Član 58",
+    "topic": "Zdravstveni nadzor",
+    "type": "single",
+    "text": "U kojem roku ovlaštena zdravstvena ustanova dostavlja poslodavcu izvještaj o rezultatima ljekarskog pregleda radnika?",
+    "options": ["U roku od 7 dana", "U roku od 15 dana od izvršenog pregleda", "U roku od 30 dana", "Odmah po pregledu"],
+    "correct": [1],
+    "explanation": "Član 58. stav 2. Zakona."
+  },
+  {
+    "id": "znr-080",
+    "law": "znr",
+    "article": "Član 59",
+    "topic": "Zdravstveni nadzor",
+    "type": "single",
+    "text": "Šta je poslodavac dužan učiniti ako se periodičnim pregledom utvrdi da radnik ne ispunjava posebne zdravstvene uvjete za poslove sa povećanim rizikom?",
+    "options": [
+      "Otkazati mu ugovor o radu",
+      "Premjestiti ga na drugo radno mjesto koje odgovara njegovim zdravstvenim sposobnostima, ako takvo mjesto postoji; ako ne postoji, primjenjuju se odredbe Zakona o radu",
+      "Uputiti ga na invalidsku penziju",
+      "Nastaviti ga zapošljavati na istim poslovima uz zaštitnu opremu"
+    ],
+    "correct": [1],
+    "explanation": "Član 59. Zakona."
+  },
+  {
+    "id": "znr-081",
+    "law": "znr",
+    "article": "Član 60",
+    "topic": "Zdravstveni nadzor",
+    "type": "single",
+    "text": "Šta vrijedi za radnika na poslovima sa povećanim rizikom koji ne obavi periodični ljekarski pregled?",
+    "options": [
+      "Nastavlja raditi uz pisano upozorenje",
+      "Ne može nastaviti sa radom dok se ne utvrdi njegovo zdravstveno stanje i psihofizičke sposobnosti",
+      "Dobija otkaz",
+      "Premješta se automatski na druge poslove"
+    ],
+    "correct": [1],
+    "explanation": "Član 60. stav 2. Zakona."
+  },
+  {
+    "id": "znr-082",
+    "law": "znr",
+    "article": "Član 61",
+    "topic": "Evidencije",
+    "type": "open",
+    "text": "O čemu je poslodavac dužan voditi propisanu evidenciju prema članu 61. Zakona?",
+    "answer": "O radnicima na radnim mjestima sa povećanim rizikom; o radnim mjestima sa povećanim rizikom; o opasnim materijama koje se koriste pri radu; o provjeri znanja radnika iz oblasti sigurnosti i zaštite zdravlja na radu; o izvršenim pregledima i ispitivanjima radne sredine i sredstava za rad; o povredama na radu, profesionalnim oboljenjima, smrtnim slučajevima i njihovim uzrocima; i o ljekarskim pregledima radnika. O povredama, oboljenjima i smrtnim slučajevima dužan je dostaviti godišnji izvještaj nadležnoj inspekciji rada.",
+    "keywords": ["radna mjesta sa povećanim rizikom", "opasne materije", "provjera znanja", "pregledi i ispitivanja", "povrede na radu", "ljekarski pregledi", "godišnji izvještaj inspekciji"],
+    "explanation": "Član 61. Zakona."
+  },
+  {
+    "id": "znr-083",
+    "law": "znr",
+    "article": "Član 62",
+    "topic": "Povreda na radu",
+    "type": "single",
+    "text": "U kojem roku je poslodavac dužan dostaviti izvještaj o povredi na radu odnosno profesionalnom oboljenju?",
+    "options": [
+      "U roku od 24 sata",
+      "U roku od sedam dana od dana pretrpljene povrede odnosno nastanka oboljenja",
+      "U roku od 15 dana",
+      "U roku od 30 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 62. stav 1. Zakona."
+  },
+  {
+    "id": "znr-084",
+    "law": "znr",
+    "article": "Član 62",
+    "topic": "Povreda na radu",
+    "type": "multi",
+    "text": "Kome poslodavac dostavlja izvještaj o povredi na radu? (više tačnih odgovora)",
+    "options": [
+      "Radniku koji je pretrpio povredu odnosno kod kojeg je nastalo oboljenje",
+      "Nadležnom zavodu zdravstvenog osiguranja kod kojeg je radnik osiguran",
+      "Ovlaštenoj zdravstvenoj ustanovi koja obavlja medicinu rada i nadležnoj inspekciji rada",
+      "Nadležnom sudu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 62. stav 1. Zakona."
+  },
+  {
+    "id": "znr-085",
+    "law": "znr",
+    "article": "Član 63",
+    "topic": "Povreda na radu",
+    "type": "single",
+    "text": "Koga je poslodavac dužan pozvati na uviđaj za svaku povredu na radu?",
+    "options": [
+      "Samo inspektora rada",
+      "Radnika za zaštitu na radu, neposrednog rukovodioca povrijeđenog radnika i povjerenika za zaštitu na radu",
+      "Predstavnika osiguravajućeg društva",
+      "Sve radnike te organizacione jedinice"
+    ],
+    "correct": [1],
+    "explanation": "Član 63. stav 2. Zakona."
+  },
+  {
+    "id": "znr-086",
+    "law": "znr",
+    "article": "Član 63",
+    "topic": "Povreda na radu",
+    "type": "single",
+    "text": "Kada je poslodavac obavezan obavijestiti nadležnu inspekciju rada o smrtnom slučaju, težoj povredi na radu ili profesionalnom oboljenju?",
+    "options": ["U roku od 7 dana", "U roku od 48 sati", "Odmah", "Uz godišnji izvještaj"],
+    "correct": [2],
+    "explanation": "Član 63. stav 1. Zakona."
+  },
+  {
+    "id": "znr-087",
+    "law": "znr",
+    "article": "Član 39",
+    "topic": "Obavještavanje radnika",
+    "type": "single",
+    "text": "Šta je poslodavac dužan trajno postaviti na mjestima rada, sredstvima za rad i pripadajućim instalacijama?",
+    "options": [
+      "Spisak radnika",
+      "Znakove upozorenja na opasnost i znakove općih obavještavanja, u skladu sa posebnim propisima",
+      "Kopiju kolektivnog ugovora",
+      "Interni akt o zaštiti na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 39. stav 1.; ako znakovi nisu dovoljni, postavljaju se i pisana uputstva (stav 2.)."
+  },
+  {
+    "id": "znr-088",
+    "law": "znr",
+    "article": "Član 41",
+    "topic": "Opasne materije",
+    "type": "single",
+    "text": "Pod kojim uslovom poslodavac smije dati opasne materije u upotrebu radnicima?",
+    "options": [
+      "Uz usmeno upozorenje",
+      "Samo ako su opremljene dokumentom sa svim bezbjednosno-tehničkim podacima na jednom od službenih jezika u BiH odnosno Federaciji i ako su zadovoljene sve sigurnosne mjere iz tog dokumenta",
+      "Ako radnik ima najmanje tri godine iskustva",
+      "Ako je to predviđeno kolektivnim ugovorom"
+    ],
+    "correct": [1],
+    "explanation": "Član 41. Zakona."
+  },
+  {
+    "id": "znr-089",
+    "law": "znr",
+    "article": "Član 51",
+    "topic": "Dužnosti radnika",
+    "type": "single",
+    "text": "Kako je radnik dužan obavljati posao?",
+    "options": [
+      "Onako kako sam procijeni da je najbrže",
+      "U skladu sa svojom stručnom spremom i završenom obukom te uputstvima poslodavca, tako da ne izlaže sebe ili druga lica opasnostima od povrede na radu ili profesionalnog oboljenja",
+      "Isključivo po nalogu povjerenika za zaštitu na radu",
+      "Uz obavezno korištenje sve dostupne opreme, bez obzira na uputstva"
+    ],
+    "correct": [1],
+    "explanation": "Član 51. Zakona."
+  },
+  {
+    "id": "znr-090",
+    "law": "znr",
+    "article": "Član 37",
+    "topic": "Ozbiljna i neposredna opasnost",
+    "type": "single",
+    "text": "Šta su dužni učiniti radnici koji u slučaju ozbiljne i neposredne opasnosti nisu u mogućnosti stupiti u vezu sa neposrednim rukovodiocem?",
+    "options": [
+      "Ništa, dužni su čekati nalog",
+      "Preduzeti odgovarajuće mjere u skladu sa svojim znanjem i tehničkim sredstvima koja su im na raspolaganju, pod uvjetom da te mjere nisu u očitom neskladu sa opasnošću",
+      "Napustiti radno mjesto bez ikakvih mjera",
+      "Pozvati inspekciju rada i sačekati"
+    ],
+    "correct": [1],
+    "explanation": "Član 37. stav 3.; zbog toga ne smiju snositi negativne posljedice (stav 4.)."
+  }
+]
