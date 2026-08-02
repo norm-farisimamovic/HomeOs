@@ -1,0 +1,818 @@
+[
+  {
+    "id": "pzg-101",
+    "law": "pzg",
+    "article": "Član 144",
+    "topic": "Građenje putova",
+    "type": "single",
+    "text": "Kolika smije biti najveća brzina vagoneta pri ručnom prijevozu materijala na radnom kolosijeku?",
+    "options": ["5 km/h", "10 km/h", "15 km/h", "20 km/h"],
+    "correct": [2],
+    "explanation": "Član 144. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-102",
+    "law": "pzg",
+    "article": "Član 145",
+    "topic": "Građenje putova",
+    "type": "single",
+    "text": "Kako se štite radnici pri popravku puta preko kojeg se saobraćaj ne prekida?",
+    "options": [
+      "Nošenjem reflektirajućih prsluka",
+      "Dio puta (polovina puta) mora se zatvoriti i obilježiti uočljivim saobraćajnim znakovima, a na jako frekventnim saobraćajnicama postavljaju se čuvari koji naizmjenično upravljaju saobraćajem",
+      "Radom samo noću",
+      "Postavljanjem betonskih blokova"
+    ],
+    "correct": [1],
+    "explanation": "Član 145. Pravilnika."
+  },
+  {
+    "id": "pzg-103",
+    "law": "pzg",
+    "article": "Član 147",
+    "topic": "Građenje putova",
+    "type": "single",
+    "text": "Kolika mora biti širina prolaza između pojedinih uređaja u pogonu za pripremanje kamena (drobilice, sita, elevatori)?",
+    "options": ["Najmanje 60 cm", "Najmanje 80 cm", "Najmanje 100 cm", "Najmanje 150 cm"],
+    "correct": [2],
+    "explanation": "Član 147. stav 1.; stepenice i platforme iznad 100 cm moraju imati ograde visoke najmanje 100 cm."
+  },
+  {
+    "id": "pzg-104",
+    "law": "pzg",
+    "article": "Član 148",
+    "topic": "Građenje putova",
+    "type": "single",
+    "text": "Kada se smije vršiti čišćenje i podmazivanje uređaja za drobljenje i pripremanje kamena?",
+    "options": [
+      "U toku rada, uz oprez",
+      "Samo kad su strojevi zaustavljeni",
+      "Samo noću",
+      "Uz nadzor poslovođe, bez obzira na rad stroja"
+    ],
+    "correct": [1],
+    "explanation": "Član 148. Pravilnika."
+  },
+  {
+    "id": "pzg-105",
+    "law": "pzg",
+    "article": "Član 150",
+    "topic": "Građenje putova",
+    "type": "multi",
+    "text": "Šta vrijedi za rad kod drobilice kamena? (više tačnih odgovora)",
+    "options": [
+      "Zabranjeno je stajati neposredno kod otvora drobilice za ubacivanje kamena",
+      "Zabranjeno je uvlačiti ruke u otvor radi vađenja zaglavljenog kamena — za to se koriste posebne kuke",
+      "Otvor za ubacivanje kamena mora biti osiguran čvrstom radnom platformom sa ogradom visokom najmanje 100 cm",
+      "Zaglavljeni kamen vadi se rukom uz zaustavljen stroj"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 150. st. 2. i 3. Pravilnika."
+  },
+  {
+    "id": "pzg-106",
+    "law": "pzg",
+    "article": "Član 151",
+    "topic": "Građenje putova",
+    "type": "single",
+    "text": "Kako se radnici koji rade neposredno kod drobilice štite od kamene prašine?",
+    "options": [
+      "Samo zaštitnim naočarima",
+      "Respiratorima ili polijevanjem kamena vodom, kao i zaštitnim naočarima čije se korištenje mora redovno kontrolirati",
+      "Radom u smjenama",
+      "Maramom preko lica"
+    ],
+    "correct": [1],
+    "explanation": "Član 151. Pravilnika."
+  },
+  {
+    "id": "pzg-107",
+    "law": "pzg",
+    "article": "Član 152",
+    "topic": "Asfalterski radovi",
+    "type": "single",
+    "text": "Kako se smije zagrijavati materijal za asfaltiranje putova (bitumen, katran, derivati nafte)?",
+    "options": [
+      "U otvorenim sudovima na otvorenom prostoru",
+      "Samo u posebnim zatvorenim sudovima — zagrijavanje u otvorenim sudovima je zabranjeno bez obzira na mjesto upotrebe",
+      "Na otvorenoj vatri uz nadzor",
+      "U bilo kojem metalnom sudu"
+    ],
+    "correct": [1],
+    "explanation": "Član 152. Pravilnika."
+  },
+  {
+    "id": "pzg-108",
+    "law": "pzg",
+    "article": "Član 158",
+    "topic": "Asfalterski radovi",
+    "type": "single",
+    "text": "Čime se NE smije gasiti zapaljena asfaltna masa u sudovima?",
+    "options": ["Pijeskom", "Ceradom", "Vodom", "Aparatom za gašenje požara"],
+    "correct": [2],
+    "explanation": "Član 158. stav 1.; sredstva za gašenje (pijesak, cerade) moraju biti unaprijed pripremljena u blizini radova."
+  },
+  {
+    "id": "pzg-109",
+    "law": "pzg",
+    "article": "Član 157",
+    "topic": "Asfalterski radovi",
+    "type": "single",
+    "text": "Šta je zabranjeno pri premazivanju i kvašenju valjka za ravnanje asfalta?",
+    "options": [
+      "Korištenje posebne naprave",
+      "Da radnik idući ispred motornog valjka isti premazuje i kvasi",
+      "Premazivanje u toku rada valjka",
+      "Korištenje vode"
+    ],
+    "correct": [1],
+    "explanation": "Član 157. Pravilnika."
+  },
+  {
+    "id": "pzg-110",
+    "law": "pzg",
+    "article": "Član 159",
+    "topic": "Asfalterski radovi",
+    "type": "single",
+    "text": "Šta se mora osigurati za asfalterske radnike na radilištu?",
+    "options": [
+      "Samo zaštitne rukavice",
+      "Topla voda za umivanje poslije završenog rada; radove smiju vršiti samo zdravstveno sposobne i posebno obučene i opremljene osobe",
+      "Dodatna naknada",
+      "Skraćeno radno vrijeme"
+    ],
+    "correct": [1],
+    "explanation": "Član 159. Pravilnika."
+  },
+  {
+    "id": "pzg-111",
+    "law": "pzg",
+    "article": "Član 160",
+    "topic": "Kesonski radovi",
+    "type": "single",
+    "text": "Kolika mora biti visina unutrašnje šupljine kesona (kesonske komore)?",
+    "options": ["Najmanje 1,85 m", "Najmanje 2,00 m", "Najmanje 2,20 m", "Najmanje 2,50 m"],
+    "correct": [2],
+    "explanation": "Član 160. stav 2.; zidovi moraju biti obojeni bijelo radi bolje vidljivosti."
+  },
+  {
+    "id": "pzg-112",
+    "law": "pzg",
+    "article": "Član 161",
+    "topic": "Kesonski radovi",
+    "type": "single",
+    "text": "Koliku zapreminu i visinu mora imati pretkomora (zračna komora) kesona?",
+    "options": [
+      "Najmanje 1,5 m³ i visinu 1,60 m",
+      "Najmanje 2,5 m³ i visinu najmanje 1,85 m",
+      "Najmanje 3 m³ i visinu 2,20 m",
+      "Najmanje 2 m³ i visinu 2,00 m"
+    ],
+    "correct": [1],
+    "explanation": "Član 161. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-113",
+    "law": "pzg",
+    "article": "Član 165",
+    "topic": "Kesonski radovi",
+    "type": "single",
+    "text": "Koliko svježeg zraka na sat mora biti osigurano za svakog radnika zaposlenog u kesonu?",
+    "options": ["Najmanje 10 m³", "Najmanje 20 m³", "Najmanje 30 m³", "Najmanje 50 m³"],
+    "correct": [2],
+    "explanation": "Član 165. Pravilnika; zrak izvan raspona 10–25 °C mora se umjetno hladiti odnosno zagrijavati."
+  },
+  {
+    "id": "pzg-114",
+    "law": "pzg",
+    "article": "Član 167",
+    "topic": "Kesonski radovi",
+    "type": "single",
+    "text": "Koliko najmanje traje zadržavanje radnika u pretkomori pri ULASKU u radnu komoru sa natpritiskom do 1 atmosfere?",
+    "options": ["5 minuta", "8 minuta", "10 minuta", "15 minuta"],
+    "correct": [1],
+    "explanation": "Član 167. tačka 1.; iznad 1 atm produžava se za 30 sekundi za svaku daljnju desetinu atmosfere."
+  },
+  {
+    "id": "pzg-115",
+    "law": "pzg",
+    "article": "Član 168",
+    "topic": "Kesonski radovi",
+    "type": "single",
+    "text": "Koliko najmanje traje zadržavanje radnika u pretkomori pri IZLASKU iz radne komore sa natpritiskom do 1 atmosfere?",
+    "options": ["5 minuta", "8 minuta", "10 minuta", "20 minuta"],
+    "correct": [2],
+    "explanation": "Član 168. tačka 1.; iznad 1 atm produžava se za 2 minute za svaku daljnju desetinu atmosfere."
+  },
+  {
+    "id": "pzg-116",
+    "law": "pzg",
+    "article": "Član 170",
+    "topic": "Kesonski radovi",
+    "type": "open",
+    "text": "Kako se postupa sa radnikom kod kojeg se primijete simptomi kesonske bolesti?",
+    "answer": "Radnik se mora unijeti u dekompresionu komoru i staviti pod zračni pritisak do nivoa radnog kesonskog pritiska, gdje ostaje do prestanka simptoma. Nakon toga se pritisak smanjuje za po 0,1 atm u toku dvostrukog do trostrukog vremenskog intervala predviđenog za normalno smanjivanje pritiska. Simptomi su bolovi u zglobovima, želucu ili grudima, svrab i crvenilo kože, vrtoglavica, glavobolja, povraćanje, srčane tegobe i krvarenje na koži ili iz nosa.",
+    "keywords": ["dekompresiona komora", "pritisak do radnog kesonskog", "do prestanka simptoma", "0,1 atm", "dvostruko ili trostruko vrijeme"],
+    "explanation": "Član 170. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-117",
+    "law": "pzg",
+    "article": "Član 170",
+    "topic": "Kesonski radovi",
+    "type": "multi",
+    "text": "Šta vrijedi za radnike prije i poslije rada u kesonu? (više tačnih odgovora)",
+    "options": [
+      "Prije polaska u komoru ne smiju preopterećivati želudac ni piti alkoholna pića",
+      "U kesonu se ne smije pušiti",
+      "Po izlasku se moraju utopliti, preći u zagrijanu prostoriju radi odmora od 0,5 do 2 sata i dobiti toplo bezalkoholno piće",
+      "Poslije izlaska odmah nastavljaju rad na otvorenom"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 170. st. 1. i 2. Pravilnika."
+  },
+  {
+    "id": "pzg-118",
+    "law": "pzg",
+    "article": "Član 174",
+    "topic": "Kesonski radovi",
+    "type": "single",
+    "text": "Koliko najduže radnik može bez prekida raditi u kesonu?",
+    "options": [
+      "Najviše dva tjedna",
+      "Najviše šest tjedana, a izuzetno dva mjeseca",
+      "Najviše tri mjeseca",
+      "Bez ograničenja uz redovne preglede"
+    ],
+    "correct": [1],
+    "explanation": "Član 174. stav 1.; poslije toga slijedi odmor ili rad na slobodnom zraku u trajanju rada u kesonu."
+  },
+  {
+    "id": "pzg-119",
+    "law": "pzg",
+    "article": "Član 174",
+    "topic": "Kesonski radovi",
+    "type": "multi",
+    "text": "Ko ne smije raditi u kesonu pod zračnim pritiskom? (više tačnih odgovora)",
+    "options": [
+      "Osobe sa gnojnim katarom nosa, upalom srednjeg uha ili oštećenim bubnjićem",
+      "Osobe sa oboljelim organima za disanje ili krvotok, sklone piću ili gojaznosti",
+      "Osobe starije od 40 godina",
+      "Osobe mlađe od 25 godina"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 174. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-120",
+    "law": "pzg",
+    "article": "Član 173",
+    "topic": "Kesonski radovi",
+    "type": "single",
+    "text": "Šta vrijedi za kesonske radnike koji su odsustvovali više od dva dana s rada ili su bili na bolovanju?",
+    "options": [
+      "Mogu odmah nastaviti rad",
+      "Moraju se podvrgnuti ponovnom liječničkom pregledu prije nego što nastave rad pod pritiskom",
+      "Moraju ponovo proći obuku",
+      "Moraju raditi u paru sedam dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 173. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-121",
+    "law": "pzg",
+    "article": "Član 177",
+    "topic": "Građenje mostova",
+    "type": "multi",
+    "text": "Šta se mora osigurati pri izvođenju radova iznad vode? (više tačnih odgovora)",
+    "options": [
+      "Gradilište mora raspolagati čamcima sa osposobljenim spasiocima za slučaj pada radnika u vodu",
+      "Radnici moraju imati zaštitni pojas i biti vezani zaštitnim užetom za konstrukciju mosta",
+      "Radnici moraju znati plivati i raditi bez opreme",
+      "Prsluk za spašavanje zamjenjuje zaštitni pojas"
+    ],
+    "correct": [0, 1],
+    "explanation": "Član 177. Pravilnika."
+  },
+  {
+    "id": "pzg-122",
+    "law": "pzg",
+    "article": "Član 175",
+    "topic": "Građenje mostova",
+    "type": "single",
+    "text": "Šta je zabranjeno pri pobijanju šipova pomoću makara?",
+    "options": [
+      "Pomicanje postolja makara sa spuštenim maljem i premještanje makara zajedno sa šipom",
+      "Pričvršćivanje malja za vodice pri popravku glave šipa",
+      "Pregled mehanizma poslije pobijanja",
+      "Rukovanje od strane stručne osobe"
+    ],
+    "correct": [0],
+    "explanation": "Član 175. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-123",
+    "law": "pzg",
+    "article": "Član 182",
+    "topic": "Tuneli i potkopi",
+    "type": "single",
+    "text": "Kolika mora biti slobodna visina i širina potkopa (štolne, tunela)?",
+    "options": [
+      "Visina najmanje 180 cm i širina najmanje 200 cm",
+      "Visina najmanje 200 cm i širina najmanje 230 cm",
+      "Visina najmanje 220 cm i širina najmanje 250 cm",
+      "Visina najmanje 250 cm i širina najmanje 300 cm"
+    ],
+    "correct": [1],
+    "explanation": "Član 182. stav 2.; za slobodan prolazak radnika mora ostati najmanje 40 cm."
+  },
+  {
+    "id": "pzg-124",
+    "law": "pzg",
+    "article": "Član 184",
+    "topic": "Tuneli i potkopi",
+    "type": "single",
+    "text": "Šta se mora učiniti sa radovima na električnom miniranju u tunelu za vrijeme grmljavine?",
+    "options": [
+      "Nastaviti uz pojačan nadzor",
+      "Radovi se moraju obustaviti",
+      "Preći na sporogoreći štapin",
+      "Skratiti radno vrijeme"
+    ],
+    "correct": [1],
+    "explanation": "Član 184. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-125",
+    "law": "pzg",
+    "article": "Član 186",
+    "topic": "Tuneli i potkopi",
+    "type": "single",
+    "text": "Koja je vrsta rasvjete izričito zabranjena za osvjetljavanje tunela?",
+    "options": ["Prijenosne električne svjetiljke", "Karbidske lampe", "Reflektori", "Svjetiljke u specijalnoj izradi"],
+    "correct": [1],
+    "explanation": "Član 186. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-126",
+    "law": "pzg",
+    "article": "Član 185",
+    "topic": "Tuneli i potkopi",
+    "type": "single",
+    "text": "Šta se mora izgraditi u zidovima tunela radi zaštite radnika od eksplozije i štetnih plinova?",
+    "options": ["Ventilacioni kanali", "Odgovarajuća skloništa na podesnim mjestima", "Rezervne prostorije za alat", "Nadzorne kabine"],
+    "correct": [1],
+    "explanation": "Član 185. Pravilnika."
+  },
+  {
+    "id": "pzg-127",
+    "law": "pzg",
+    "article": "Član 193",
+    "topic": "Kamenolomi",
+    "type": "single",
+    "text": "Pod kojim uslovima se smiju izvoditi masovna miniranja u kamenolomu ili majdanu gline?",
+    "options": [
+      "Uz odobrenje poslovođe",
+      "Samo na osnovu stručno izrađenog plana eksploatacije i pod neposrednim nadzorom stručne osobe određene za radove na miniranju",
+      "Samo noću",
+      "Uz prisustvo inspektora rada"
+    ],
+    "correct": [1],
+    "explanation": "Član 193. Pravilnika."
+  },
+  {
+    "id": "pzg-128",
+    "law": "pzg",
+    "article": "Član 195",
+    "topic": "Građevinski strojevi",
+    "type": "single",
+    "text": "Šta se mora učiniti sa građevinskim strojevima i uređajima prije postavljanja na mjesto rada?",
+    "options": [
+      "Samo ih očistiti",
+      "Moraju biti pregledani i provjereni u pogledu ispravnosti za rad; rokovi, postupak i osobe za ispitivanje određuju se općim aktom radne organizacije",
+      "Moraju biti registrovani kod inspekcije",
+      "Moraju imati novi atest proizvođača"
+    ],
+    "correct": [1],
+    "explanation": "Član 195. Pravilnika."
+  },
+  {
+    "id": "pzg-129",
+    "law": "pzg",
+    "article": "Član 199",
+    "topic": "Građevinski strojevi",
+    "type": "single",
+    "text": "Koju granicu ne treba da prelazi buka građevinskih strojeva odnosno uređaja?",
+    "options": ["60 fona", "70 fona", "80 fona", "90 fona"],
+    "correct": [2],
+    "explanation": "Član 199. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-130",
+    "law": "pzg",
+    "article": "Član 201",
+    "topic": "Građevinski strojevi",
+    "type": "single",
+    "text": "Kako moraju biti izvedene zaštitne naprave na strojevima za obrađivanje građevnog materijala (miješalice za beton i slično)?",
+    "options": [
+      "Tako da se lako skidaju radi održavanja",
+      "Po potrebi ugrađene tako da se bez njih stroj odnosno uređaj ne može staviti u pogon",
+      "Samo obojene u žuto",
+      "Kao upozorenje na natpisu"
+    ],
+    "correct": [1],
+    "explanation": "Član 201. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-131",
+    "law": "pzg",
+    "article": "Član 202",
+    "topic": "Građevinski strojevi",
+    "type": "multi",
+    "text": "Koji zahtjevi vrijede za samohodne građevinske strojeve (bageri, buldožeri, valjci, utovarivači, demperi)? (više tačnih odgovora)",
+    "options": [
+      "Mjesto za rukovanje mora biti smješteno tako da rukovaocu omogućava laku preglednost terena",
+      "Okviri pokretnih dijelova moraju biti obojeni žutim ili bijelim trakama pod kutem od 45° prema horizontali",
+      "Moraju imati napravu za davanje zvučnog signala",
+      "Moraju imati crveno rotaciono svjetlo"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 202. Pravilnika."
+  },
+  {
+    "id": "pzg-132",
+    "law": "pzg",
+    "article": "Član 205",
+    "topic": "Ručni i mehanizirani alat",
+    "type": "single",
+    "text": "Koju obavezu ima osoba zadužena da čuva i slaže ručni alat na gradilištu?",
+    "options": [
+      "Da alat popiše jednom mjesečno",
+      "Da svakodnevno provjerava ispravnost alata i neispravan ili oštećen alat odmah isključi iz upotrebe",
+      "Da alat zaključava po završetku smjene",
+      "Da vodi evidenciju zaduženja"
+    ],
+    "correct": [1],
+    "explanation": "Član 205. stav 2.; izdavanje neispravnog i oštećenog alata je zabranjeno (stav 3.)."
+  },
+  {
+    "id": "pzg-133",
+    "law": "pzg",
+    "article": "Član 212",
+    "topic": "Dizanje i prenošenje",
+    "type": "single",
+    "text": "Kako se osigurava prostor ispod viseće građevinske koturače?",
+    "options": [
+      "Postavljanjem znaka na tlo",
+      "Mora se ograditi (ograda od letava i slično) i na ogradu staviti upozorenje na opasnost",
+      "Prekriva se mrežom",
+      "Nema posebnog zahtjeva"
+    ],
+    "correct": [1],
+    "explanation": "Član 212. stav 1.; ispred ili oko vitla po potrebi se postavlja zaštitna ograda ili mreža zbog mogućeg prekida užeta."
+  },
+  {
+    "id": "pzg-134",
+    "law": "pzg",
+    "article": "Član 218",
+    "topic": "Dizanje i prenošenje",
+    "type": "single",
+    "text": "Kolika mora biti opća, a kolika lokalna osvijetljenost pri noćnom radu kod dizalica?",
+    "options": [
+      "Opća najmanje 30 luksa, lokalna najmanje 50 luksa",
+      "Opća najmanje 50 luksa, lokalna najmanje 75 luksa",
+      "Opća najmanje 75 luksa, lokalna najmanje 100 luksa",
+      "Opća najmanje 100 luksa, lokalna najmanje 150 luksa"
+    ],
+    "correct": [1],
+    "explanation": "Član 218. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-135",
+    "law": "pzg",
+    "article": "Član 218",
+    "topic": "Dizanje i prenošenje",
+    "type": "single",
+    "text": "Kada vrh stupa i kraj kraka stubne dizalice moraju imati crveno signalno svjetlo?",
+    "options": [
+      "Uvijek",
+      "Ako je dizalica viša od 20 m i ako to zahtijevaju mjesne prilike (blizina aerodroma i slično)",
+      "Ako je dizalica viša od 50 m",
+      "Samo pri noćnom radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 218. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-136",
+    "law": "pzg",
+    "article": "Član 221",
+    "topic": "Dizanje i prenošenje",
+    "type": "multi",
+    "text": "Šta mora imati svaka dizalica sa kavezom ili platformom (teretni građevinski lift)? (više tačnih odgovora)",
+    "options": [
+      "Automatski uređaj za kvačenje u slučaju prekida užeta",
+      "Napravu za automatsko sprečavanje dizanja kaveza odnosno platforme iznad dozvoljene visine",
+      "Električnu signalizaciju za sporazumijevanje rukovaoca i radnika koji vrše utovar/istovar (kod dizalica u oknu)",
+      "Sjedalo za pratioca tereta"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 221. Pravilnika."
+  },
+  {
+    "id": "pzg-137",
+    "law": "pzg",
+    "article": "Član 219",
+    "topic": "Dizanje i prenošenje",
+    "type": "single",
+    "text": "Kolika smiju biti okca metalne mreže ako se koristi za ograđivanje okna teretnog građevinskog lifta?",
+    "options": ["Najviše 10 x 10 mm", "Najviše 20 x 20 mm", "Najviše 30 x 30 mm", "Najviše 50 x 50 mm"],
+    "correct": [1],
+    "explanation": "Član 219. stav 4. Pravilnika."
+  },
+  {
+    "id": "pzg-138",
+    "law": "pzg",
+    "article": "Član 214",
+    "topic": "Dizanje i prenošenje",
+    "type": "single",
+    "text": "Kako mora biti osigurano radno mjesto radnika koji prima materijal sa konzolne dizalice?",
+    "options": [
+      "Samo obilježeno",
+      "Ograđeno čvrstom ogradom, a radnik vezan užetom za zaštitni pojas radi zaštite od pada",
+      "Pokriveno nastrešnicom",
+      "Osvijetljeno sa najmanje 100 luksa"
+    ],
+    "correct": [1],
+    "explanation": "Član 214. Pravilnika."
+  },
+  {
+    "id": "pzg-139",
+    "law": "pzg",
+    "article": "Član 211",
+    "topic": "Dizanje i prenošenje",
+    "type": "single",
+    "text": "Šta mora biti vidno označeno na posudama (zahvatnim napravama) za prenošenje sipkog materijala?",
+    "options": [
+      "Ime rukovaoca",
+      "Vlastita težina i zapremina posude (u kp i m³)",
+      "Datum posljednjeg pregleda",
+      "Naziv gradilišta"
+    ],
+    "correct": [1],
+    "explanation": "Član 211. stav 2.; posude se smiju puniti samo do visine označene s gornjeg ruba."
+  },
+  {
+    "id": "pzg-140",
+    "law": "pzg",
+    "article": "Član 224",
+    "topic": "Dizanje i prenošenje",
+    "type": "single",
+    "text": "Kakav uređaj moraju imati mehanizirane transportne trake za prenošenje sipkog materijala?",
+    "options": [
+      "Uređaj za mjerenje težine",
+      "Uređaj za automatsko zaustavljanje rada trake, radi sprečavanja hoda trake u slučaju prekida električne struje",
+      "Uređaj za pranje trake",
+      "Uređaj za grijanje"
+    ],
+    "correct": [1],
+    "explanation": "Član 224. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-141",
+    "law": "pzg",
+    "article": "Član 227",
+    "topic": "Prevoženje materijala",
+    "type": "single",
+    "text": "Koliki uzdužni nagib ne treba da prelazi građevinski kolosijek?",
+    "options": ["1:50", "1:100", "1:200", "1:20"],
+    "correct": [1],
+    "explanation": "Član 227. stav 4. Pravilnika."
+  },
+  {
+    "id": "pzg-142",
+    "law": "pzg",
+    "article": "Član 228",
+    "topic": "Prevoženje materijala",
+    "type": "single",
+    "text": "Kolika mora biti slobodna udaljenost između gabarita vagoneta i prepreke na gradilištu?",
+    "options": ["Najmanje 50 cm", "Najmanje 70 cm", "Najmanje 100 cm", "Najmanje 120 cm"],
+    "correct": [1],
+    "explanation": "Član 228. stav 2. — mjereno horizontalno."
+  },
+  {
+    "id": "pzg-143",
+    "law": "pzg",
+    "article": "Član 231",
+    "topic": "Prevoženje materijala",
+    "type": "multi",
+    "text": "Šta vrijedi pri kretanju vagoneta koji se pokreću ljudskom snagom? (više tačnih odgovora)",
+    "options": [
+      "Udaljenost između pojedinih vagoneta ne treba da bude manja od 10 m",
+      "Zaustavljeni vagonet mora se podmetanjem papuče osigurati od pomicanja",
+      "Zabranjeno je pokretanje vagoneta vučom radnika i vožnja radnika na vagonetima",
+      "Radnik smije putovati na vagonetu ako je vagonet prazan"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 231. Pravilnika."
+  },
+  {
+    "id": "pzg-144",
+    "law": "pzg",
+    "article": "Član 232",
+    "topic": "Prevoženje materijala",
+    "type": "single",
+    "text": "Kolika najmanje mora biti oprema zaprege pri stočnoj vuči vagoneta i koliki razmak između vozova?",
+    "options": [
+      "Oprema najmanje 1,50 m; razmak 10 m",
+      "Oprema najmanje 2,50 m; razmak najmanje 20 m",
+      "Oprema najmanje 3,00 m; razmak 15 m",
+      "Bez propisanih vrijednosti"
+    ],
+    "correct": [1],
+    "explanation": "Član 232. Pravilnika."
+  },
+  {
+    "id": "pzg-145",
+    "law": "pzg",
+    "article": "Član 240",
+    "topic": "Električne instalacije",
+    "type": "single",
+    "text": "Na koji napon moraju biti priključeni prijenosni ručni uređaji na električni pogon na gradilištu?",
+    "options": ["Na 220 V", "Na sniženi zaštitni napon do 42 V", "Na 110 V", "Na 24 V"],
+    "correct": [1],
+    "explanation": "Član 240. Pravilnika."
+  },
+  {
+    "id": "pzg-146",
+    "law": "pzg",
+    "article": "Član 241",
+    "topic": "Električne instalacije",
+    "type": "multi",
+    "text": "Šta vrijedi za osvjetljenje gradilišta pri noćnom radu? (više tačnih odgovora)",
+    "options": [
+      "Radna mjesta moraju biti osvijetljena umjetnom svjetlošću jačine najmanje 75 luksa",
+      "Svjetiljke smiju biti na naponu 220 V samo ako služe za stalno osvjetljavanje i nalaze se iznad dohvata ruke radnika",
+      "Prijenosne električne svjetiljke smiju se priključivati samo na sniženi zaštitni napon od 24 V",
+      "Prijenosne svjetiljke smiju raditi na 42 V"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 241. Pravilnika."
+  },
+  {
+    "id": "pzg-147",
+    "law": "pzg",
+    "article": "Član 242",
+    "topic": "Električne instalacije",
+    "type": "single",
+    "text": "Koliko se često vrše periodična ispitivanja ispravnosti zaštitnog uzemljenja na gradilištu?",
+    "options": [
+      "Jednom godišnje",
+      "U pravilu dvaput godišnje (u ljetnom i zimskom razdoblju), uz zapisnik i urednu evidenciju",
+      "Svaka tri mjeseca",
+      "Samo prije puštanja u rad"
+    ],
+    "correct": [1],
+    "explanation": "Član 242. Pravilnika; instalacije se smiju pustiti u rad tek nakon provjere otpora uzemljenja."
+  },
+  {
+    "id": "pzg-148",
+    "law": "pzg",
+    "article": "Član 238",
+    "topic": "Električne instalacije",
+    "type": "single",
+    "text": "Ko smije izvoditi, popravljati, održavati i uklanjati električne instalacije na gradilištu?",
+    "options": [
+      "Svaki radnik uz nadzor",
+      "Samo stručno osposobljeni i kvalificirani radnici, upoznati s opasnostima, uz pridržavanje uputa odgovarajuće stručne osobe",
+      "Rukovodilac gradilišta",
+      "Radnici distributera električne energije"
+    ],
+    "correct": [1],
+    "explanation": "Član 238. Pravilnika."
+  },
+  {
+    "id": "pzg-149",
+    "law": "pzg",
+    "article": "Član 243",
+    "topic": "Opasne materije",
+    "type": "single",
+    "text": "Šta se, u smislu ovog pravilnika, podrazumijeva pod opasnim materijama na gradilištu?",
+    "options": [
+      "Samo eksplozivi",
+      "Materije koje mogu prouzrokovati požar, eksploziju, trovanje i slične štetne posljedice",
+      "Samo zapaljive tekućine",
+      "Materije koje zahtijevaju posebnu ambalažu"
+    ],
+    "correct": [1],
+    "explanation": "Član 243. Pravilnika."
+  },
+  {
+    "id": "pzg-150",
+    "law": "pzg",
+    "article": "Član 245 i 246",
+    "topic": "Opasne materije",
+    "type": "multi",
+    "text": "Kako se na gradilištu čuvaju zapaljive tekućine i eksplozivna sredstva? (više tačnih odgovora)",
+    "options": [
+      "Zapaljive tekućine sa lako eksplozivnim isparenjima (eter, benzol, benzin, nafta, ulja) samo u posebnim skladištima osiguranim od požara i eksplozije",
+      "Eksplozivi i eksplozivna sredstva samo u posebnim skladištima izgrađenim prema propisima",
+      "Upotreba skladišta za eksploziv mora biti odobrena od nadležnog općinskog organa",
+      "Manje količine smiju se držati u priručnom kontejneru na gradilištu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Čl. 245. i 246. Pravilnika."
+  },
+  {
+    "id": "pzg-151",
+    "law": "pzg",
+    "article": "Član 247",
+    "topic": "Opasne materije",
+    "type": "open",
+    "text": "Kojim se mjerama na gradilištu sprečava stvaranje ugljičnog monoksida?",
+    "answer": "Efikasnim provjetravanjem prostorija koje se suše užarenim koksom u otvorenim košarama — prije ulaska radnika; sigurnim odvođenjem sagorjelih plinova iz motora s unutrašnjim sagorijevanjem iz zatvorenih prostorija ili zabranom rada takvih motora u zatvorenim prostorijama; zabranom zagrijavanja zatvorenih prostorija otvorenim ili provizornim ložištem (mangala i slično); i zabranom ulaska radnika u zatvorene sudove u kojima se čuvaju naftni derivati bez poduzimanja odgovarajućih mjera zaštite.",
+    "keywords": ["provjetravanje prije ulaska", "odvođenje sagorjelih plinova", "zabrana motora u zatvorenim prostorijama", "zabrana otvorenog ložišta", "zatvoreni sudovi sa naftnim derivatima"],
+    "explanation": "Član 247. Pravilnika."
+  },
+  {
+    "id": "pzg-152",
+    "law": "pzg",
+    "article": "Član 244",
+    "topic": "Opasne materije",
+    "type": "single",
+    "text": "Kako se na gradilištu slaže lako zapaljivi građevni materijal (daske, grede, letve)?",
+    "options": [
+      "Uz sam objekat radi lakšeg pristupa",
+      "Na mjestima udaljenim od toplotnih izvora, a otpaci od drveta uklanjaju se na mjesta osigurana od požara",
+      "U zatvorenim kontejnerima",
+      "Bilo gdje, uz aparat za gašenje u blizini"
+    ],
+    "correct": [1],
+    "explanation": "Član 244. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-153",
+    "law": "pzg",
+    "article": "Član 248",
+    "topic": "Osobna zaštita",
+    "type": "single",
+    "text": "Kada radna organizacija mora staviti radnicima na raspolaganje osobna zaštitna sredstva i opremu?",
+    "options": [
+      "Nakon prve povrede na radu",
+      "Prije početka radova kod kojih prijeti stalna ili povremena opasnost od povređivanja tijela ili oštećivanja zdravlja, zavisno od vrste opasnosti odnosno štetnosti",
+      "Na zahtjev radnika",
+      "Jednom godišnje"
+    ],
+    "correct": [1],
+    "explanation": "Član 248. Pravilnika — prema elaboratu iz člana 3. stav 2. tačka 12."
+  },
+  {
+    "id": "pzg-154",
+    "law": "pzg",
+    "article": "Član 249 i 250",
+    "topic": "Osobna zaštita",
+    "type": "multi",
+    "text": "Koja osobna zaštitna sredstva se osiguravaju za posebne uslove rada? (više tačnih odgovora)",
+    "options": [
+      "Za radove u vodi ili na vlazi — nepropustljiva obuća, a po potrebi i odjeća",
+      "Za radove na otvorenom pod utjecajem atmosferskih neprilika — kišna kabanica, bunda, rukavice",
+      "Za rad na visini — zaštitni pojas i uže",
+      "Za sve radove — isključivo zaštitna kaciga"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Čl. 249. i 250. Pravilnika (zaštitni pojas i uže traže čl. 47, 118, 177. i drugi)."
+  },
+  {
+    "id": "pzg-155",
+    "law": "pzg",
+    "article": "Član 197",
+    "topic": "Građevinski strojevi",
+    "type": "single",
+    "text": "Kako se štite radna mjesta kod strojeva postavljenih na otvorenom prostoru?",
+    "options": [
+      "Ne štite se posebno",
+      "Moraju biti na podesan način zaštićena od utjecaja vremenskih neprilika (kiša, snijeg, mraz i slično)",
+      "Rad se obustavlja u lošem vremenu",
+      "Radnici dobijaju dodatnu naknadu"
+    ],
+    "correct": [1],
+    "explanation": "Član 197. Pravilnika."
+  },
+  {
+    "id": "pzg-156",
+    "law": "pzg",
+    "article": "Član 2",
+    "topic": "Opće odredbe",
+    "type": "single",
+    "text": "Koje se mjere, osim onih iz ovog pravilnika, provode na oruđima za rad i uređajima koji se koriste u građevinarstvu?",
+    "options": [
+      "Nikakve druge",
+      "I opće mjere i normativi propisani Pravilnikom o općim mjerama i normativima zaštite na radu oruđima za rad i uređajima",
+      "Samo mjere iz uputa proizvođača",
+      "Mjere koje odredi rukovodilac gradilišta"
+    ],
+    "correct": [1],
+    "explanation": "Član 2. Pravilnika."
+  }
+]

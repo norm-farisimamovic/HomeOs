@@ -1,0 +1,747 @@
+[
+  {
+    "id": "pzg-051",
+    "law": "pzg",
+    "article": "Član 78",
+    "topic": "Skele",
+    "type": "multi",
+    "text": "Koji zahtjevi vrijede za pod skele? (više tačnih odgovora)",
+    "options": [
+      "Elementi poda moraju se prije upotrebe pažljivo pregledati, a oštećeni ili dotrajali se ne smiju ugrađivati",
+      "Udaljenost poda od zida objekta ne smije biti veća od 20 cm",
+      "Čista širina poda skele ne smije biti manja od 80 cm",
+      "Pod smije imati razmake do 10 cm između nosećih stupova"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 78. Pravilnika — elementi poda moraju u potpunosti ispuniti prostor između nosećih stupova."
+  },
+  {
+    "id": "pzg-052",
+    "law": "pzg",
+    "article": "Član 79",
+    "topic": "Skele",
+    "type": "single",
+    "text": "Koliki smije biti razmak između elemenata popune ograde kod metalnih skela?",
+    "options": ["Najviše 20 cm", "Najviše 30 cm", "Najviše 35 cm", "Najviše 50 cm"],
+    "correct": [2],
+    "explanation": "Član 79. stav 2. — izuzetak od općeg pravila od 30 cm iz člana 70. stav 4."
+  },
+  {
+    "id": "pzg-053",
+    "law": "pzg",
+    "article": "Član 81",
+    "topic": "Skele",
+    "type": "single",
+    "text": "Kako se osigurava skela postavljena neposredno pored ili iznad saobraćajnica?",
+    "options": [
+      "Postavljanjem saobraćajnih znakova",
+      "Na vanjskoj strani po cijeloj dužini i visini mora biti prekrivena pokrivačima (trska, juta, gusta metalna mreža) koji sprečavaju padanje materijala u dubinu",
+      "Ograđivanjem prizemlja",
+      "Radom samo noću"
+    ],
+    "correct": [1],
+    "explanation": "Član 81. Pravilnika."
+  },
+  {
+    "id": "pzg-054",
+    "law": "pzg",
+    "article": "Član 82",
+    "topic": "Skele",
+    "type": "single",
+    "text": "Koliko često se mora provjeravati ispravnost skele i gdje se to evidentira?",
+    "options": [
+      "Jednom sedmično, u dnevniku radova",
+      "Najmanje jedanput mjesečno, a naročito poslije vremenskih nepogoda, prepravaka i oštećenja — upisuje se u kontrolnu knjigu skele",
+      "Jednom godišnje, u elaboratu",
+      "Samo prije prve upotrebe"
+    ],
+    "correct": [1],
+    "explanation": "Član 82. Pravilnika; provjeru vrši osoba iz člana 75."
+  },
+  {
+    "id": "pzg-055",
+    "law": "pzg",
+    "article": "Član 83",
+    "topic": "Skele na nogarima",
+    "type": "single",
+    "text": "Koliki smije biti razmak nogara ako je debljina daske radnog poda najmanje 50 mm?",
+    "options": ["Najviše 150 cm", "Najviše 200 cm", "Najviše 250 cm", "Najviše 300 cm"],
+    "correct": [1],
+    "explanation": "Član 83. stav 3. — mjereno od osovine do osovine nogara."
+  },
+  {
+    "id": "pzg-056",
+    "law": "pzg",
+    "article": "Član 83",
+    "topic": "Skele na nogarima",
+    "type": "single",
+    "text": "Kako je dopušteno povećavati visinu nogara?",
+    "options": [
+      "Podmetanjem opeka ili klinova",
+      "Nastavljanjem nogu elementima istog presjeka uz povezivanje odgovarajućom vezom — podmetanje opeka, klinova i provizornih predmeta nije dopušteno",
+      "Postavljanjem druge skele odozgo",
+      "Bilo kojim stabilnim predmetom"
+    ],
+    "correct": [1],
+    "explanation": "Član 83. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-057",
+    "law": "pzg",
+    "article": "Član 84",
+    "topic": "Skele na nogarima",
+    "type": "single",
+    "text": "U koliko redova se skele na nogarima smiju postavljati jedne iznad drugih i do koje visine?",
+    "options": [
+      "Najviše u dva reda, s tim da visina poda gornje skele ne prelazi 400 cm od podloge",
+      "Najviše u tri reda, do 500 cm",
+      "Bez ograničenja",
+      "Samo u jednom redu"
+    ],
+    "correct": [0],
+    "explanation": "Član 84. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-058",
+    "law": "pzg",
+    "article": "Član 85",
+    "topic": "Skele na nogarima",
+    "type": "multi",
+    "text": "Šta je zabranjeno kod skela na nogarima? (više tačnih odgovora)",
+    "options": [
+      "Postavljanje skela na nogarima na višekatne i konzolne skele",
+      "Upotreba nepropisno napravljenih ili oštećenih nogara",
+      "Postavljanje dizalica ili drugih teških uređaja na radni pod, ako to nije predviđeno posebnim statičkim proračunom i projektom",
+      "Postavljanje nogara na čvrstu i vodoravnu podlogu"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 85. Pravilnika; nogari se upravo i postavljaju na čvrstu i vodoravnu podlogu."
+  },
+  {
+    "id": "pzg-059",
+    "law": "pzg",
+    "article": "Član 86",
+    "topic": "Skele na ljestvama",
+    "type": "single",
+    "text": "Kolika mora biti dužina preklopa pri nastavljanju ljestava kod skela na ljestvama?",
+    "options": ["Najmanje 100 cm", "Najmanje 150 cm", "Najmanje 200 cm", "Nastavljanje nije dozvoljeno"],
+    "correct": [1],
+    "explanation": "Član 86. stav 3. — preklop mora biti osiguran čvrstim zategama."
+  },
+  {
+    "id": "pzg-060",
+    "law": "pzg",
+    "article": "Član 87 i 88",
+    "topic": "Konzolne skele",
+    "type": "multi",
+    "text": "Šta vrijedi za konzolne (izbočene) skele? (više tačnih odgovora)",
+    "options": [
+      "Smiju se postavljati samo za lakše građevinske radove i uz dokazanu mogućnost sigurnog učvršćenja za objekt",
+      "Nosači moraju biti od zdravog i neoštećenog materijala (drvo ili metal), a upotreba dasaka za nosače nije dozvoljena",
+      "Na vidnom mjestu mora biti istaknuto upozorenje o broju osoba i težini materijala kojima se skela smije opteretiti",
+      "Mogu se koristiti za sve vrste radova bez ograničenja"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Čl. 87. i 88. Pravilnika."
+  },
+  {
+    "id": "pzg-061",
+    "law": "pzg",
+    "article": "Član 89",
+    "topic": "Skele na stupovima",
+    "type": "single",
+    "text": "Koliki smije biti razmak nosećih stupova kod zidarskih skela na novogradnjama, a koliki kod skela za popravke i održavanje?",
+    "options": [
+      "200 cm odnosno 300 cm",
+      "250 cm odnosno 350 cm",
+      "300 cm odnosno 400 cm",
+      "150 cm odnosno 250 cm"
+    ],
+    "correct": [1],
+    "explanation": "Član 89. Pravilnika — ako projektom skele nije drukčije određeno."
+  },
+  {
+    "id": "pzg-062",
+    "law": "pzg",
+    "article": "Član 90",
+    "topic": "Skele na stupovima",
+    "type": "multi",
+    "text": "Koji zahtjevi vrijede za stupove skele na stupovima? (više tačnih odgovora)",
+    "options": [
+      "Promjer oblog drvenog stupa ne smije na gornjem dijelu biti manji od 80 mm",
+      "Nastavljanje stupova vrši se preklopom dužine najmanje 200 cm, uz sigurno povezivanje",
+      "Kod sastava dviju skela na uglu objekta, ugaoni stup sa vanjske strane mora biti udvostručen",
+      "Podloga stupova može biti nestabilna ako su stupovi vezani"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 90. Pravilnika — podloga mora onemogućavati horizontalno i vertikalno pomicanje."
+  },
+  {
+    "id": "pzg-063",
+    "law": "pzg",
+    "article": "Član 91",
+    "topic": "Skele na stupovima",
+    "type": "single",
+    "text": "Na koliku dužinu se poprečne grede jednorednih skela na stupovima moraju oslanjati na zid?",
+    "options": ["Najmanje 10 cm", "Najmanje 20 cm", "Najmanje 30 cm", "Najmanje 50 cm"],
+    "correct": [1],
+    "explanation": "Član 91. stav 2.; upotreba dasaka za poprečne nosače je zabranjena."
+  },
+  {
+    "id": "pzg-064",
+    "law": "pzg",
+    "article": "Član 92",
+    "topic": "Viseće skele",
+    "type": "single",
+    "text": "Za koje se radove smiju koristiti viseće skele?",
+    "options": [
+      "Za sve vrste građevinskih radova",
+      "Samo za radove na popravcima i održavanju objekata; izuzetno i za lakše zidarske radove (fasada i slično)",
+      "Samo za montažno građenje",
+      "Samo za rušenje objekata"
+    ],
+    "correct": [1],
+    "explanation": "Član 92. Pravilnika."
+  },
+  {
+    "id": "pzg-065",
+    "law": "pzg",
+    "article": "Član 94",
+    "topic": "Viseće skele",
+    "type": "single",
+    "text": "Sa koliko se sigurnosnih užadi mora vršiti vješanje radnog poda viseće skele i koliko smije iznositi najveće dozvoljeno opterećenje užeta?",
+    "options": [
+      "Jednim užetom; do 1/5 jačine na kidanje",
+      "Sa dva sigurnosna (zaštitna) čelična užeta istih presjeka; opterećenje ne smije prelaziti 1/10 jačine na kidanje užeta",
+      "Sa tri užeta; do 1/3 jačine na kidanje",
+      "Sa dva užeta; do 1/2 jačine na kidanje"
+    ],
+    "correct": [1],
+    "explanation": "Član 94. st. 2. i 5. Pravilnika."
+  },
+  {
+    "id": "pzg-066",
+    "law": "pzg",
+    "article": "Član 94",
+    "topic": "Viseće skele",
+    "type": "single",
+    "text": "Šta je zabranjeno koristiti radi opterećenja i održavanja ravnoteže nosača viseće skele?",
+    "options": [
+      "Betonske utege",
+      "Vreće sa pijeskom ili drugim materijalom i nagomilavanje nekompaktnog materijala",
+      "Čelične protutege",
+      "Sidrenje u tlo"
+    ],
+    "correct": [1],
+    "explanation": "Član 93. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-067",
+    "law": "pzg",
+    "article": "Član 95",
+    "topic": "Viseće skele",
+    "type": "single",
+    "text": "Sa kojim koeficijentom sigurnosti moraju kočnice čekrka viseće skele držati najveće dozvoljeno opterećenje?",
+    "options": ["Najmanje 1,2", "Najmanje 1,5", "Najmanje 2,0", "Najmanje 3,0"],
+    "correct": [1],
+    "explanation": "Član 95. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-068",
+    "law": "pzg",
+    "article": "Član 96",
+    "topic": "Viseće skele",
+    "type": "open",
+    "text": "Kako se vrši pokusno statičko i dinamičko opterećenje viseće skele prije upotrebe?",
+    "answer": "Statičko opterećenje vrši se teretom većim za 50% od maksimalne nosivosti skele, ravnomjerno raspoređenim po radnom podu; platforma se podigne 10 cm iznad tla i zadrži na toj visini najmanje 10 minuta, zatim se spusti i provjere se eventualne deformacije konstrukcije. Dinamičko opterećenje vrši se teretom za 10% većim od maksimalne nosivosti, tako da se skela podigne od tla do najviše tačke dizanja i potom spusti. O izvršenom ispitivanju, poslije svakog premještanja i ponovnog postavljanja skele, vodi se uredna evidencija u kontrolnoj knjizi viseće skele uz ovjeru određene stručne osobe.",
+    "keywords": ["statičko 50% više", "10 cm i 10 minuta", "dinamičko 10% više", "kontrolna knjiga viseće skele"],
+    "explanation": "Član 96. Pravilnika."
+  },
+  {
+    "id": "pzg-069",
+    "law": "pzg",
+    "article": "Član 97",
+    "topic": "Viseće skele",
+    "type": "single",
+    "text": "Šta mora biti pričvršćeno na ogradi viseće skele?",
+    "options": [
+      "Ime izvođača radova",
+      "Pločica sa podacima o najvećoj dozvoljenoj nosivosti skele koju je odredio proizvođač",
+      "Datum postavljanja",
+      "Broj radnika koji smiju raditi"
+    ],
+    "correct": [1],
+    "explanation": "Član 97. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-070",
+    "law": "pzg",
+    "article": "Član 99",
+    "topic": "Viseće skele",
+    "type": "single",
+    "text": "Šta se mora učiniti za vrijeme jačeg vjetra pri radu na visećoj skeli?",
+    "options": [
+      "Smanjiti broj radnika",
+      "Rad se mora obustaviti i skela spustiti na tlo ili osigurati od njihanja vezivanjem za objekt",
+      "Povećati opterećenje radi stabilnosti",
+      "Nastaviti rad uz zaštitni pojas"
+    ],
+    "correct": [1],
+    "explanation": "Član 99. stav 1.; ugroženi prostor ispod skele mora biti ograđen s upozorenjem."
+  },
+  {
+    "id": "pzg-071",
+    "law": "pzg",
+    "article": "Član 100",
+    "topic": "Noseće skele",
+    "type": "single",
+    "text": "Koliki mora biti promjer oble građe ako se koristi za podupirače nosećih skela?",
+    "options": ["Najmanje 60 mm", "Najmanje 80 mm", "Najmanje 100 mm", "Najmanje 120 mm"],
+    "correct": [1],
+    "explanation": "Član 100. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-072",
+    "law": "pzg",
+    "article": "Član 101",
+    "topic": "Noseće skele",
+    "type": "single",
+    "text": "Od koliko komada drveta se smiju sastavljati podupirači oplate za betoniranje i gdje mora biti mjesto sastavka?",
+    "options": [
+      "Od najviše dva komada, s tim da je sastavak u srednjoj trećini dužine podupirača",
+      "Od najviše tri komada, sastavak bilo gdje",
+      "Podupirači moraju biti iz jednog komada",
+      "Od najviše dva komada, sastavak na krajevima"
+    ],
+    "correct": [0],
+    "explanation": "Član 101. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-073",
+    "law": "pzg",
+    "article": "Član 101",
+    "topic": "Noseće skele",
+    "type": "single",
+    "text": "Koliki dio ukupnog broja podupirača smije biti nastavljen kod oplate betonske ploče, a koliki kod noseće betonske grede?",
+    "options": [
+      "Najviše polovina kod ploče i 1/3 kod grede",
+      "Najviše 1/3 kod ploče i polovina kod grede",
+      "Najviše 1/4 u oba slučaja",
+      "Bez ograničenja"
+    ],
+    "correct": [0],
+    "explanation": "Član 101. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-074",
+    "law": "pzg",
+    "article": "Član 104",
+    "topic": "Noseće skele",
+    "type": "single",
+    "text": "Pod kojim uslovom se smije izvoditi skidanje oplate i demontaža noseće skele?",
+    "options": [
+      "Po usmenom dogovoru poslovođe",
+      "Samo uz pismeni nalog izdan od određene stručne osobe na gradilištu",
+      "Nakon 28 dana od betoniranja, bez naloga",
+      "Uz saglasnost investitora"
+    ],
+    "correct": [1],
+    "explanation": "Član 104. Pravilnika."
+  },
+  {
+    "id": "pzg-075",
+    "law": "pzg",
+    "article": "Član 105",
+    "topic": "Zaštitne nastrešnice",
+    "type": "single",
+    "text": "Koliko ispod mjesta izvođenja radova se smiju postavljati zaštitne nastrešnice i prihvatne skele?",
+    "options": ["Do najviše 200 cm ispod", "Do najviše 300 cm ispod", "Do najviše 500 cm ispod", "Bez ograničenja"],
+    "correct": [1],
+    "explanation": "Član 105. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-076",
+    "law": "pzg",
+    "article": "Član 105",
+    "topic": "Zaštitne nastrešnice",
+    "type": "single",
+    "text": "Kolika mora biti širina zaštitne nastrešnice za vertikalnu udaljenost od 200 cm, a kolika za 300 cm?",
+    "options": [
+      "Najmanje 100 cm odnosno 120 cm",
+      "Najmanje 130 cm odnosno 150 cm",
+      "Najmanje 150 cm odnosno 200 cm",
+      "Najmanje 80 cm odnosno 100 cm"
+    ],
+    "correct": [1],
+    "explanation": "Član 105. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-077",
+    "law": "pzg",
+    "article": "Član 106",
+    "topic": "Zaštitne nastrešnice",
+    "type": "single",
+    "text": "Kada se smije demontirati zaštitna nastrešnica odnosno prihvatna skela kod višekatnih objekata?",
+    "options": [
+      "Kad se završi kat iznad",
+      "Tek kad se izgradi nova na odgovarajućoj udaljenosti",
+      "Nakon završetka svih radova",
+      "Po nalogu investitora"
+    ],
+    "correct": [1],
+    "explanation": "Član 106. stav 1.; napadali materijal mora se redovno uklanjati."
+  },
+  {
+    "id": "pzg-078",
+    "law": "pzg",
+    "article": "Član 110",
+    "topic": "Metalne skele",
+    "type": "single",
+    "text": "Pod kojim kutem moraju biti postavljene dijagonalne veze vertikalnih štapova metalne skele?",
+    "options": ["Pod 30°", "Pod 45° u oba pravca", "Pod 60°", "Pod 90°"],
+    "correct": [1],
+    "explanation": "Član 110. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-079",
+    "law": "pzg",
+    "article": "Član 111",
+    "topic": "Metalne skele",
+    "type": "single",
+    "text": "Čime se vrši zatezanje vijaka spojnica metalne skele i šta je zabranjeno?",
+    "options": [
+      "Bilo kojim ključem; ništa nije zabranjeno",
+      "Momentnim ključevima odnosno prema uputi proizvođača; zatezanje nastavljenim ključevima (pomoću cijevi i slično) je zabranjeno",
+      "Udarnim čekićem",
+      "Ručno, bez alata"
+    ],
+    "correct": [1],
+    "explanation": "Član 111. st. 1. i 2. Pravilnika."
+  },
+  {
+    "id": "pzg-080",
+    "law": "pzg",
+    "article": "Član 112",
+    "topic": "Metalne skele",
+    "type": "single",
+    "text": "Kada metalne skele moraju biti zaštićene od udara groma?",
+    "options": [
+      "Uvijek",
+      "Kad su samostojeće i kad im je visina veća od objekta u gradnji ili drugog objekta u neposrednoj blizini",
+      "Samo ljeti",
+      "Nikad — to se odnosi samo na objekte"
+    ],
+    "correct": [1],
+    "explanation": "Član 112. Pravilnika."
+  },
+  {
+    "id": "pzg-081",
+    "law": "pzg",
+    "article": "Član 113",
+    "topic": "Betoniranje",
+    "type": "single",
+    "text": "Ko smije izvoditi betonske radove većeg opsega na visinama i u dubinama (hidrocentrale, brane, visokogradnje)?",
+    "options": [
+      "Svi radnici gradilišta",
+      "Samo stručno obučeni i zdravstveno sposobni radnici upoznati s opasnostima, pod nadzorom određene stručne osobe",
+      "Samo radnici stariji od 30 godina",
+      "Samo radnici sa položenim ispitom iz zaštite na radu"
+    ],
+    "correct": [1],
+    "explanation": "Član 113. Pravilnika."
+  },
+  {
+    "id": "pzg-082",
+    "law": "pzg",
+    "article": "Član 114",
+    "topic": "Betoniranje",
+    "type": "single",
+    "text": "Šta se mora učiniti sa oštrim vrhovima i rubovima sredstava za vezanje (čavli, spone, žice) prije početka betoniranja?",
+    "options": [
+      "Ništa posebno",
+      "Moraju se podviti ili pokriti",
+      "Moraju se odsjeći i baciti",
+      "Moraju se obojiti u žuto"
+    ],
+    "correct": [1],
+    "explanation": "Član 114. Pravilnika."
+  },
+  {
+    "id": "pzg-083",
+    "law": "pzg",
+    "article": "Član 116",
+    "topic": "Betoniranje",
+    "type": "multi",
+    "text": "Šta je zabranjeno pri radu sa oplatom? (više tačnih odgovora)",
+    "options": [
+      "Nasilno skidanje (čupanje) oplate pomoću dizalice ili drugih uređaja",
+      "Stajanje radnika na napravi za prihvaćanje oplate pri klizanju i skidanju oplate posebnim uređajima za dizanje",
+      "Skidanje oplate bez pismenog naloga stručne osobe",
+      "Pregled oplate prije betoniranja"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 116. i član 104. Pravilnika."
+  },
+  {
+    "id": "pzg-084",
+    "law": "pzg",
+    "article": "Član 118",
+    "topic": "Radovi na krovovima",
+    "type": "single",
+    "text": "Kako se, u pravilu, vrši osiguranje radnika od pada s krova?",
+    "options": [
+      "Samo postavljanjem ograde po rubu krova",
+      "Privezivanjem radnika na zaštitni pojas i zaštitno uže, ili pomoću prihvatnih skela, te drugim mjerama zavisno od vrste krova",
+      "Radom u paru",
+      "Radom samo pri suhom vremenu"
+    ],
+    "correct": [1],
+    "explanation": "Član 118. stav 2.; radove smiju vršiti samo stručno osposobljeni i zdravstveno sposobni radnici."
+  },
+  {
+    "id": "pzg-085",
+    "law": "pzg",
+    "article": "Član 119",
+    "topic": "Radovi na krovovima",
+    "type": "single",
+    "text": "Kolika mora biti najmanja širina prijelaza i radnih platformi na krovovima pokrivenim salonitom, limom i sličnim pokrivačima?",
+    "options": ["60 cm", "80 cm", "100 cm", "120 cm"],
+    "correct": [1],
+    "explanation": "Član 119. stav 3.; po potrebi moraju imati i čvrstu zaštitnu ogradu."
+  },
+  {
+    "id": "pzg-086",
+    "law": "pzg",
+    "article": "Član 120",
+    "topic": "Radovi na krovovima",
+    "type": "single",
+    "text": "Šta moraju imati svi industrijski krovovi, bez obzira na oblik i vrstu pokrivača?",
+    "options": [
+      "Gromobran",
+      "Siguran pristup i stalne sigurne prijelaze (metalne ljestve, rampe i slično)",
+      "Zaštitnu mrežu",
+      "Osvjetljenje"
+    ],
+    "correct": [1],
+    "explanation": "Član 120. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-087",
+    "law": "pzg",
+    "article": "Član 121",
+    "topic": "Montažno građenje",
+    "type": "single",
+    "text": "Na osnovu čega se smije izvoditi montažno građenje?",
+    "options": [
+      "Na osnovu usmenog dogovora",
+      "Samo na osnovu posebno izrađenog programa koji sadrži i mjere zaštite na radu pri svim radovima montažne gradnje, i to pod neposrednim nadzorom određene stručne osobe",
+      "Na osnovu elaborata o uređenju radilišta",
+      "Na osnovu uputa proizvođača elemenata"
+    ],
+    "correct": [1],
+    "explanation": "Član 121. Pravilnika."
+  },
+  {
+    "id": "pzg-088",
+    "law": "pzg",
+    "article": "Član 124",
+    "topic": "Montažno građenje",
+    "type": "single",
+    "text": "Ko smije vršiti sastavljanje i pričvršćivanje montažnih elemenata na objektu?",
+    "options": [
+      "Svi radnici na gradilištu",
+      "Samo osobe zdravstveno sposobne za rad na visinama koje su i stručno osposobljene za montažne radove",
+      "Samo radnici proizvođača elemenata",
+      "Samo dizaličari"
+    ],
+    "correct": [1],
+    "explanation": "Član 124. Pravilnika."
+  },
+  {
+    "id": "pzg-089",
+    "law": "pzg",
+    "article": "Član 125",
+    "topic": "Montažno građenje",
+    "type": "single",
+    "text": "Šta, osim oznake iz programa montaže, mora biti označeno na svakom montažnom elementu?",
+    "options": [
+      "Ime montera",
+      "Datum izrade i težina elementa u kilogramima",
+      "Broj objekta",
+      "Redni broj u nizu"
+    ],
+    "correct": [1],
+    "explanation": "Član 125. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-090",
+    "law": "pzg",
+    "article": "Član 128",
+    "topic": "Montažno građenje",
+    "type": "multi",
+    "text": "Šta vrijedi pri utovaru i istovaru montažnih elemenata dizalicom? (više tačnih odgovora)",
+    "options": [
+      "Zakačivanje i otkačivanje treba, u pravilu, vršiti bez penjanja radnika na prijevozno sredstvo ili elemente",
+      "Za vrijeme spuštanja i dizanja elementa na motorno vozilo vozač ne smije biti u kabini",
+      "Signalist ne smije stajati na vozilu za vrijeme dizanja, prenošenja i spuštanja elementa",
+      "Vozač mora ostati u kabini radi kontrole vozila"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 128. Pravilnika."
+  },
+  {
+    "id": "pzg-091",
+    "law": "pzg",
+    "article": "Član 129",
+    "topic": "Montažno građenje",
+    "type": "single",
+    "text": "Kada se smije početi montaža elemenata višeg kata na objektu?",
+    "options": [
+      "Odmah po završetku donjeg kata",
+      "Tek nakon što se osigura prilaz na taj kat (pomoćno stubište sa sigurnom ogradom i slično)",
+      "Nakon 24 sata",
+      "Po odobrenju investitora"
+    ],
+    "correct": [1],
+    "explanation": "Član 129. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-092",
+    "law": "pzg",
+    "article": "Član 131",
+    "topic": "Montažno građenje",
+    "type": "single",
+    "text": "Kako se postupa sa dijelovima armature koji izlaze iz elementa nakon montaže i mogu prouzrokovati zapinjanje odjeće i povređivanje?",
+    "options": [
+      "Ostavljaju se kako jesu i obilježe trakom",
+      "Moraju se na podesan način otkloniti (odsjecanjem, savijanjem i slično)",
+      "Prekrivaju se ceradom",
+      "Zavaruju se za konstrukciju"
+    ],
+    "correct": [1],
+    "explanation": "Član 131. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-093",
+    "law": "pzg",
+    "article": "Član 134",
+    "topic": "Građevinsko-zanatski radovi",
+    "type": "single",
+    "text": "Šta je dužna učiniti odgovorna osoba ako primijeti da izvođač građevinsko-zanatskih ili montažnih radova ne primjenjuje pojedine zaštitne mjere?",
+    "options": [
+      "Prijaviti ga inspekciji",
+      "Zabraniti mu dalji rad dok se te mjere zaštite ne provedu",
+      "Upisati zabilješku u dnevnik",
+      "Umanjiti mu naknadu"
+    ],
+    "correct": [1],
+    "explanation": "Član 134. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-094",
+    "law": "pzg",
+    "article": "Član 135",
+    "topic": "Rušenje objekta",
+    "type": "single",
+    "text": "Šta se mora prethodno izraditi za rušenje objekta ili nekog njegovog dijela?",
+    "options": [
+      "Samo prijava nadležnom organu",
+      "Odgovarajući program radova i mjera zaštite na radu, zavisno od vrste objekta i stupnja opasnosti — bez obzira da li se ruši ručno, strojevima ili miniranjem",
+      "Elaborat o uređenju radilišta",
+      "Statički proračun"
+    ],
+    "correct": [1],
+    "explanation": "Član 135. Pravilnika."
+  },
+  {
+    "id": "pzg-095",
+    "law": "pzg",
+    "article": "Član 138",
+    "topic": "Rušenje objekta",
+    "type": "open",
+    "text": "Kako se izvodi ručno rušenje objekta?",
+    "answer": "Postepeno, odozgo naniže. Pojedini dijelovi zidova i dimnjaka ne smiju se ostavljati neporušeni, nego se ruše istovremeno s ostalim dijelovima objekta. Rušenje međukatne odnosno tavanske konstrukcije smije početi tek po rušenju i uklanjanju svih porušenih dijelova iznad nivoa te konstrukcije. Ručno rušenje slobodno stojećeg zida smije se izvoditi samo pomoću odgovarajućih radnih skela. Rušenje zidova potkopavanjem je zabranjeno.",
+    "keywords": ["postepeno odozgo naniže", "ne ostavljati neporušene dijelove", "uklanjanje porušenog iznad konstrukcije", "radne skele", "potkopavanje zabranjeno"],
+    "explanation": "Član 138. Pravilnika."
+  },
+  {
+    "id": "pzg-096",
+    "law": "pzg",
+    "article": "Član 140",
+    "topic": "Rušenje objekta",
+    "type": "single",
+    "text": "Na kojoj se udaljenosti mora nalaziti stroj kojim se ruši objekat?",
+    "options": [
+      "Najmanje jednako visini objekta",
+      "Najmanje za 1,5 puta većoj od visine objekta odnosno dijela koji se ruši",
+      "Najmanje 10 m",
+      "Najmanje dvostruko većoj od visine objekta"
+    ],
+    "correct": [1],
+    "explanation": "Član 140. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-097",
+    "law": "pzg",
+    "article": "Član 140",
+    "topic": "Rušenje objekta",
+    "type": "single",
+    "text": "Kolika mora biti jačina na kidanje čeličnog užeta kojim se prenosi vučna snaga za rušenje objekta?",
+    "options": [
+      "Najmanje jednaka vučnoj snazi stroja",
+      "Najmanje dvostruko veća od vučne snage stroja",
+      "Najmanje triput veća od vučne snage stroja",
+      "Najmanje peterostruko veća"
+    ],
+    "correct": [2],
+    "explanation": "Član 140. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-098",
+    "law": "pzg",
+    "article": "Član 140",
+    "topic": "Rušenje objekta",
+    "type": "multi",
+    "text": "Šta je zabranjeno pri rušenju objekta strojevima? (više tačnih odgovora)",
+    "options": [
+      "Izvlačenje zatrpanih betonskih stupova i čeličnih nosača iz ruševine bez prethodnog oslobađanja od ostalog porušenog materijala",
+      "Korištenje traktora-točkaša za rušenje ili izvlačenje teških dijelova objekta",
+      "Prikupljanje porušenog materijala na pojedinim katovima pri rušenju višekatnih objekata",
+      "Upotreba traktora-gusjeničara"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Čl. 139. stav 3. i 140. st. 4. i 5. Pravilnika."
+  },
+  {
+    "id": "pzg-099",
+    "law": "pzg",
+    "article": "Član 139",
+    "topic": "Rušenje objekta",
+    "type": "single",
+    "text": "Kako se sa ruševine na tlo smije uklanjati rastresiti i prašinasti materijal?",
+    "options": [
+      "Slobodnim bacanjem u ograđeni prostor",
+      "Samo pomoću potpuno pokrivenih drvenih korita, kroz metalne limene cijevi ili na drugi način koji sprečava širenje prašine",
+      "Pomoću dizalice u otvorenoj posudi",
+      "Ručno, u vrećama"
+    ],
+    "correct": [1],
+    "explanation": "Član 139. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-100",
+    "law": "pzg",
+    "article": "Član 136",
+    "topic": "Rušenje objekta",
+    "type": "single",
+    "text": "Koliko dugo mora trajati zaštita ugroženog područja prije i za vrijeme rušenja?",
+    "options": [
+      "Samo prvog dana rušenja",
+      "Do završetka radova na rušenju",
+      "Dok traje uklanjanje materijala",
+      "Zaštita nije obavezna ako je objekt ograđen"
+    ],
+    "correct": [1],
+    "explanation": "Član 136. Pravilnika."
+  }
+]

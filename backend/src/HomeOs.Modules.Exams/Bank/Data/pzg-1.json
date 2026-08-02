@@ -1,0 +1,692 @@
+[
+  {
+    "id": "pzg-001",
+    "law": "pzg",
+    "article": "Član 1",
+    "topic": "Opće odredbe",
+    "type": "single",
+    "text": "Šta se propisuje Pravilnikom o zaštiti na radu u građevinarstvu?",
+    "options": [
+      "Opće mjere zaštite na radu za sve djelatnosti",
+      "Posebne mjere i normativi zaštite na radu koji se primjenjuju pri izvođenju radova iz oblasti građevinarstva",
+      "Samo mjere pri radu na visini",
+      "Postupak inspekcijskog nadzora na gradilištima"
+    ],
+    "correct": [1],
+    "explanation": "Član 1. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-002",
+    "law": "pzg",
+    "article": "Član 1",
+    "topic": "Opće odredbe",
+    "type": "single",
+    "text": "Koji radovi NE spadaju u radove iz oblasti građevinarstva u smislu ovog pravilnika?",
+    "options": [
+      "Radovi na visini",
+      "Radovi koji se izvode u pogonima ili pomoćnim radionicama na gradilištu i drugim mjestima radi pripreme, prerade i obrade građevnog materijala ili elemenata koji se ugrađuju u objekte",
+      "Zemljani radovi",
+      "Montažno građenje"
+    ],
+    "correct": [1],
+    "explanation": "Član 1. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-003",
+    "law": "pzg",
+    "article": "Član 3",
+    "topic": "Uređenje gradilišta",
+    "type": "open",
+    "text": "Šta izvođač radova sastavlja o uređenju gradilišta i navedite najmanje šest mjera koje taj akt obuhvata.",
+    "answer": "Izvođač radova sastavlja poseban elaborat o uređenju gradilišta i rada na gradilištu. On obuhvata: osiguranje granica gradilišta prema okolini; uređenje i održavanje saobraćajnica; određivanje mjesta i načina uskladištenja građevnog materijala; prostor za čuvanje opasnog materijala; način transportiranja, utovara, istovara i deponiranja materijala; obilježavanje i osiguranje opasnih zona; rad na mjestima sa štetnim plinovima, prašinom i parama; električne instalacije za pogon i osvjetljenje; vrstu i smještaj građevinskih strojeva; vrstu i izvođenje skela; zaštitu od pada s visine ili u dubinu; radna mjesta sa povećanom opasnošću i potrebna osobna zaštitna sredstva; protupožarne mjere; sanitarne čvorove; organiziranje prve pomoći; po potrebi smještaj, prehranu i prijevoz radnika.",
+    "keywords": ["elaborat o uređenju gradilišta", "granice gradilišta", "opasne zone", "zaštita od pada", "prva pomoć", "protupožarne mjere", "osobna zaštitna sredstva"],
+    "explanation": "Član 3. stav 2. Pravilnika (17 tačaka)."
+  },
+  {
+    "id": "pzg-004",
+    "law": "pzg",
+    "article": "Član 3",
+    "topic": "Uređenje gradilišta",
+    "type": "single",
+    "text": "Kako gradilište mora biti osigurano prema okolini?",
+    "options": [
+      "Samo obilježeno trakom",
+      "Uređeno tako da je omogućeno nesmetano i sigurno izvođenje svih radova i osigurano od pristupa osoba koje nisu zaposlene na gradilištu",
+      "Ograđeno samo noću",
+      "Nema posebnih zahtjeva"
+    ],
+    "correct": [1],
+    "explanation": "Član 3. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-005",
+    "law": "pzg",
+    "article": "Član 4",
+    "topic": "Uređenje gradilišta",
+    "type": "single",
+    "text": "Kada se smije otpočeti izvođenje radova na gradilištu?",
+    "options": [
+      "Odmah po dolasku radnika",
+      "Tek kad je gradilište uređeno prema odredbama ovog pravilnika",
+      "Nakon prijave inspekciji",
+      "Nakon isteka osam dana od početka pripreme"
+    ],
+    "correct": [1],
+    "explanation": "Član 4. Pravilnika."
+  },
+  {
+    "id": "pzg-006",
+    "law": "pzg",
+    "article": "Član 6",
+    "topic": "Uređenje gradilišta",
+    "type": "single",
+    "text": "Gdje se, u pravilu, smještaju pomoćni pogoni na gradilištu (tesarske, stolarske, bravarske radionice)?",
+    "options": [
+      "U središte gradilišta radi lakšeg pristupa",
+      "Izvan opasnih zona na gradilištu; ako to nije moguće, moraju se osigurati odgovarajuće mjere zaštite",
+      "Uz samu granicu gradilišta",
+      "Isključivo u zatvorenom objektu"
+    ],
+    "correct": [1],
+    "explanation": "Član 6. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-007",
+    "law": "pzg",
+    "article": "Član 8",
+    "topic": "Uređenje gradilišta",
+    "type": "single",
+    "text": "Šta se mora osigurati na svakom novom gradilištu prije početka građevinskih radova?",
+    "options": [
+      "Samo pitka voda",
+      "Higijensko-sanitarni uređaji: zahodi, umivaonici, instalacije za pitku vodu, prostorije za boravak radnika i za sušenje mokre odjeće",
+      "Kantina",
+      "Samo zahodi"
+    ],
+    "correct": [1],
+    "explanation": "Član 8. Pravilnika."
+  },
+  {
+    "id": "pzg-008",
+    "law": "pzg",
+    "article": "Član 9",
+    "topic": "Uređenje gradilišta",
+    "type": "single",
+    "text": "Šta se mora organizirati na svakom gradilištu u pogledu prve pomoći?",
+    "options": [
+      "Ništa, dovoljan je poziv hitnoj pomoći",
+      "Odgovarajuća i efikasna služba prve pomoći za hitnu intervenciju pri povredama, sa potrebnim sanitarnim sredstvima i stručnim osobljem",
+      "Samo kutija prve pomoći",
+      "Ambulanta sa doktorom na svakom gradilištu"
+    ],
+    "correct": [1],
+    "explanation": "Član 9. Pravilnika — obim zavisi od stupnja opasnosti, broja radnika i udaljenosti od zdravstvenih ustanova."
+  },
+  {
+    "id": "pzg-009",
+    "law": "pzg",
+    "article": "Član 10",
+    "topic": "Zemljani radovi",
+    "type": "multi",
+    "text": "Šta vrijedi pri izvođenju zemljanih radova prema članu 10. Pravilnika? (više tačnih odgovora)",
+    "options": [
+      "Na dubini većoj od 100 cm moraju se poduzeti zaštitne mjere protiv rušenja zemljanih naslaga i obrušavanja iskopanog materijala",
+      "Ručno otkopavanje zemlje mora se izvoditi odozgo naniže",
+      "Svako potkopavanje je zabranjeno, a kopanje dublje od 100 cm mora se izvoditi pod kontrolom određene osobe",
+      "Iskop se uvijek vrši isključivo mašinski"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 10. Pravilnika."
+  },
+  {
+    "id": "pzg-010",
+    "law": "pzg",
+    "article": "Član 14",
+    "topic": "Zemljani radovi",
+    "type": "single",
+    "text": "Šta se mora provjeriti prije iskopa zemlje ili čišćenja zemljom zatrpanih jama, bunara i kanala?",
+    "options": [
+      "Samo dubina iskopa",
+      "Da li eventualno ima ugljičnog monoksida odnosno drugih štetnih, zapaljivih ili eksplozivnih plinova",
+      "Vlažnost tla",
+      "Broj radnika na terenu"
+    ],
+    "correct": [1],
+    "explanation": "Član 14. Pravilnika."
+  },
+  {
+    "id": "pzg-011",
+    "law": "pzg",
+    "article": "Član 15",
+    "topic": "Zemljani radovi",
+    "type": "single",
+    "text": "Koliko ljestve za silaženje u iskop moraju prelaziti iznad ruba iskopa?",
+    "options": ["Najmanje 45 cm", "Najmanje 60 cm", "Najmanje 75 cm", "Najmanje 100 cm"],
+    "correct": [2],
+    "explanation": "Član 15. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-012",
+    "law": "pzg",
+    "article": "Član 18",
+    "topic": "Zemljani radovi",
+    "type": "single",
+    "text": "Do koje dubine se iskop zemlje može vršiti bez razupiranja, ako to čvrstoća zemlje dozvoljava?",
+    "options": ["Do 60 cm", "Do 100 cm", "Do 150 cm", "Do 200 cm"],
+    "correct": [1],
+    "explanation": "Član 18. stav 1.; dublje od 100 cm samo uz postepeno osiguravanje bočnih strana."
+  },
+  {
+    "id": "pzg-013",
+    "law": "pzg",
+    "article": "Član 19",
+    "topic": "Zemljani radovi",
+    "type": "single",
+    "text": "Kolika mora biti čista širina rova odnosno kanala dubljeg od 100 cm nakon izvršenog razupiranja?",
+    "options": ["Najmanje 40 cm", "Najmanje 60 cm", "Najmanje 80 cm", "Najmanje 100 cm"],
+    "correct": [1],
+    "explanation": "Član 19. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-014",
+    "law": "pzg",
+    "article": "Član 21",
+    "topic": "Zemljani radovi",
+    "type": "single",
+    "text": "Koliko oplata za podupiranje bočnih strana iskopa mora izlaziti iznad ruba iskopa?",
+    "options": ["Najmanje 10 cm", "Najmanje 20 cm", "Najmanje 30 cm", "Najmanje 50 cm"],
+    "correct": [1],
+    "explanation": "Član 21. stav 1. — da bi se spriječio pad materijala sa terena u iskop."
+  },
+  {
+    "id": "pzg-015",
+    "law": "pzg",
+    "article": "Član 21",
+    "topic": "Zemljani radovi",
+    "type": "single",
+    "text": "Od koje dubine se pri izbacivanju zemlje iz iskopa moraju upotrebljavati međupodovi?",
+    "options": ["Sa dubine preko 100 cm", "Sa dubine preko 150 cm", "Sa dubine preko 200 cm", "Sa dubine preko 300 cm"],
+    "correct": [2],
+    "explanation": "Član 21. stav 2.; međupodovi moraju imati ivičnu zaštitu visoku najmanje 20 cm."
+  },
+  {
+    "id": "pzg-016",
+    "law": "pzg",
+    "article": "Član 21",
+    "topic": "Zemljani radovi",
+    "type": "single",
+    "text": "Šta vrijedi za skidanje oplate i zasipanje iskopa?",
+    "options": [
+      "Vrši ga bilo koji radnik",
+      "Vrši se po uputi i pod nadzorom stručne osobe; ako bi vađenje oplate moglo ugroziti sigurnost radnika, oplata se mora ostaviti u iskopu",
+      "Oplata se uvijek mora izvaditi",
+      "Oplata se skida tek nakon 30 dana"
+    ],
+    "correct": [1],
+    "explanation": "Član 21. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-017",
+    "law": "pzg",
+    "article": "Član 26",
+    "topic": "Zemljani radovi",
+    "type": "single",
+    "text": "Koliki smije biti najveći nagib putova za odvođenje materijala iz širokih iskopa?",
+    "options": ["20%", "30%", "40%", "50%"],
+    "correct": [2],
+    "explanation": "Član 26. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-018",
+    "law": "pzg",
+    "article": "Član 30",
+    "topic": "Bunari, šahtovi i jame",
+    "type": "single",
+    "text": "Šta se mora učiniti prije ulaska u bunar, šaht ili jamu?",
+    "options": [
+      "Provjeriti dubinu",
+      "Provjeriti da se u njima ne nalaze opasni plinovi; ako ih ima, silazak je dozvoljen tek poslije njihovog otklanjanja i ponovne provjere",
+      "Postaviti rasvjetu",
+      "Obavijestiti inspekciju rada"
+    ],
+    "correct": [1],
+    "explanation": "Član 30. Pravilnika; provjeru vrši određena stručna osoba."
+  },
+  {
+    "id": "pzg-019",
+    "law": "pzg",
+    "article": "Član 33",
+    "topic": "Bunari, šahtovi i jame",
+    "type": "single",
+    "text": "Kakvu opremu moraju imati radnici koji rade u bunarima, šahtovima i jamama?",
+    "options": [
+      "Samo zaštitnu kacigu",
+      "Zaštitni pojas sa konopcem za izvlačenje i signalnim konopcem za davanje signala u slučaju opasnosti",
+      "Samo reflektirajući prsluk",
+      "Respirator"
+    ],
+    "correct": [1],
+    "explanation": "Član 33. Pravilnika."
+  },
+  {
+    "id": "pzg-020",
+    "law": "pzg",
+    "article": "Član 34",
+    "topic": "Bunari, šahtovi i jame",
+    "type": "single",
+    "text": "Na kojoj visini od dna iskopa mora se postaviti zaštitna nastrešnica za zaštitu radnika od materijala koji pada?",
+    "options": ["Najmanje 100 cm", "Najmanje 150 cm", "Najmanje 200 cm", "Najmanje 300 cm"],
+    "correct": [2],
+    "explanation": "Član 34. Pravilnika."
+  },
+  {
+    "id": "pzg-021",
+    "law": "pzg",
+    "article": "Član 35",
+    "topic": "Bunari, šahtovi i jame",
+    "type": "single",
+    "text": "Ako se pri kopanju bunara koriste betonski ili metalni obruči za potkopavanje, kolika smije biti visina potkopa?",
+    "options": ["Najviše 20 cm", "Najviše 40 cm", "Najviše 60 cm", "Najviše 100 cm"],
+    "correct": [0],
+    "explanation": "Član 35. Pravilnika."
+  },
+  {
+    "id": "pzg-022",
+    "law": "pzg",
+    "article": "Član 36",
+    "topic": "Bunari, šahtovi i jame",
+    "type": "single",
+    "text": "Kolika mora biti puna zaštitna ograda po opsegu ruba bunara, šahta ili jame?",
+    "options": ["Najmanje 60 cm", "Najmanje 80 cm", "Najmanje 100 cm", "Najmanje 120 cm"],
+    "correct": [2],
+    "explanation": "Član 36. Pravilnika; kao ograda može poslužiti i zid bunara koji se stalno dozidava."
+  },
+  {
+    "id": "pzg-023",
+    "law": "pzg",
+    "article": "Član 37",
+    "topic": "Bunari, šahtovi i jame",
+    "type": "single",
+    "text": "Šta je izričito zabranjeno pri silaženju na dno bunara, šahta ili jame?",
+    "options": [
+      "Korištenje ljestava",
+      "Korištenje košare naprave za izvlačenje materijala za silaženje i izlaženje",
+      "Korištenje zaštitnog pojasa",
+      "Korištenje električne lampe"
+    ],
+    "correct": [1],
+    "explanation": "Član 37. Pravilnika."
+  },
+  {
+    "id": "pzg-024",
+    "law": "pzg",
+    "article": "Član 39",
+    "topic": "Bunari, šahtovi i jame",
+    "type": "multi",
+    "text": "Koje se mjere primjenjuju ako se kopanje bunara, šahtova ili jama vrši miniranjem? (više tačnih odgovora)",
+    "options": [
+      "Paljenje mina smije se vršiti samo pomoću električnog uređaja sa površine",
+      "Prije ulaska poslije miniranja mora se izvršiti provjetravanje i provjeriti da nema plinova",
+      "Prije nastavljanja radova treba provjeriti stanje bočnih strana radi uklanjanja opasnosti od obrušavanja",
+      "Paljenje se vrši sporogorećim štapinom iz same jame"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 39. Pravilnika."
+  },
+  {
+    "id": "pzg-025",
+    "law": "pzg",
+    "article": "Član 43",
+    "topic": "Zidarski radovi",
+    "type": "single",
+    "text": "Kolika mora biti ograda vapnene jame sa strane kojom prolaze radnici?",
+    "options": ["Najmanje 80 cm", "Najmanje 100 cm", "Najmanje 120 cm", "Ograda nije obavezna"],
+    "correct": [1],
+    "explanation": "Član 43. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-026",
+    "law": "pzg",
+    "article": "Član 44",
+    "topic": "Zidarski radovi",
+    "type": "single",
+    "text": "Kolika je najveća dopuštena ukupna težina žbuke i posude pri ručnom prenošenju?",
+    "options": [
+      "20 kg za radnika-muškarca i 15 kg za radnicu-ženu ili omladinu",
+      "25 kg za sve radnike",
+      "30 kg za muškarca i 20 kg za ženu",
+      "Nije ograničena"
+    ],
+    "correct": [0],
+    "explanation": "Član 44. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-027",
+    "law": "pzg",
+    "article": "Član 46",
+    "topic": "Građenje iznad terena",
+    "type": "single",
+    "text": "Do koje visine iznad terena se građevinski radovi mogu izvoditi s upotrebom pomoćnih skela ili ljestava uz vezivanje radnika?",
+    "options": ["Do 200 cm", "Do 300 cm", "Do 450 cm", "Do 600 cm"],
+    "correct": [2],
+    "explanation": "Član 46. stav 1.; iznad 450 cm moraju se koristiti odgovarajuće skele ili drugi siguran način."
+  },
+  {
+    "id": "pzg-028",
+    "law": "pzg",
+    "article": "Član 47",
+    "topic": "Građenje iznad terena",
+    "type": "single",
+    "text": "Kolika smije biti najveća dužina konopca zaštitnog pojasa kad se radi na otvorenim rubovima katova, balkona i terasa bez zaštitne ograde?",
+    "options": ["Najviše 100 cm", "Najviše 150 cm", "Najviše 200 cm", "Najviše 300 cm"],
+    "correct": [1],
+    "explanation": "Član 47. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-029",
+    "law": "pzg",
+    "article": "Član 47",
+    "topic": "Građenje iznad terena",
+    "type": "single",
+    "text": "Kako se postavljaju zaštitne nastrešnice ako postoji mogućnost da radnici padnu izvan objekta?",
+    "options": [
+      "Tako da visina sa koje mogu pasti ne prelazi 300 cm, uz obavezno vezivanje radnika zaštitnim pojasom",
+      "Tako da visina pada ne prelazi 500 cm",
+      "Samo na prizemlju",
+      "Nastrešnice nisu obavezne ako radnici imaju pojas"
+    ],
+    "correct": [0],
+    "explanation": "Član 47. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-030",
+    "law": "pzg",
+    "article": "Član 48",
+    "topic": "Zidarski radovi",
+    "type": "single",
+    "text": "Do koje visine se, u pravilu, vrši zidanje sa radne skele ili tla?",
+    "options": ["Najviše 100 cm", "Najviše 150 cm", "Najviše 200 cm", "Najviše 250 cm"],
+    "correct": [1],
+    "explanation": "Član 48. stav 1. — mjereno od poda skele ili tla."
+  },
+  {
+    "id": "pzg-031",
+    "law": "pzg",
+    "article": "Član 49",
+    "topic": "Zidarski radovi",
+    "type": "single",
+    "text": "Ko smije vršiti zidarske i ostale građevinske radove na visini ili na mjestima gdje postoji opasnost od pada u dubinu?",
+    "options": [
+      "Svaki radnik uz nadzor",
+      "Samo kvalificirani zidari i građevinski radnici koji su zdravstveno sposobni za radove na visini",
+      "Samo radnici sa pet godina iskustva",
+      "Samo radnici stariji od 25 godina"
+    ],
+    "correct": [1],
+    "explanation": "Član 49. Pravilnika."
+  },
+  {
+    "id": "pzg-032",
+    "law": "pzg",
+    "article": "Član 51",
+    "topic": "Tvornički dimnjaci",
+    "type": "single",
+    "text": "Čemu se moraju podvrgnuti radnici prije početka radova na građenju ili popravcima visokih tvorničkih dimnjaka?",
+    "options": [
+      "Samo osposobljavanju za rad na visini",
+      "Specijalističkom liječničkom pregledu radi utvrđivanja zdravstvene sposobnosti za rad na visini",
+      "Testu iz protupožarne zaštite",
+      "Provjeri znanja iz prve pomoći"
+    ],
+    "correct": [1],
+    "explanation": "Član 51. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-033",
+    "law": "pzg",
+    "article": "Član 52",
+    "topic": "Tvornički dimnjaci",
+    "type": "multi",
+    "text": "Koji su zahtjevi za ljestve za penjanje na visoki tvornički dimnjak? (više tačnih odgovora)",
+    "options": [
+      "Prečke od okruglog željeza promjera najmanje 18 mm",
+      "Vertikalna udaljenost prečaka najviše 300 mm, širina ljestava najmanje 450 mm",
+      "Udaljenost prečke od zida 160 mm, a prva prečka na visini 300 cm iznad terena",
+      "Prečke od drveta promjera 30 mm"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 52. st. 2. i 3. Pravilnika."
+  },
+  {
+    "id": "pzg-034",
+    "law": "pzg",
+    "article": "Član 53",
+    "topic": "Tvornički dimnjaci",
+    "type": "single",
+    "text": "Ako se dimnjak gradi sa unutrašnje strane, na kojim razmacima se mora postavljati radna platforma?",
+    "options": ["Na svakih 100 cm visine", "Na svakih 200 cm visine", "Na svakih 300 cm visine", "Na svakih 500 cm visine"],
+    "correct": [1],
+    "explanation": "Član 53. stav 2. — platforma ujedno služi i kao zaštita od pada materijala."
+  },
+  {
+    "id": "pzg-035",
+    "law": "pzg",
+    "article": "Član 54",
+    "topic": "Zidarski radovi",
+    "type": "single",
+    "text": "Ko odobrava uklanjanje podupirača i oplate koji služe za građenje svodova i lukova?",
+    "options": [
+      "Poslovođa smjene",
+      "Uklanjanje se vrši samo po nalogu rukovodioca gradilišta i pod njegovim nadzorom",
+      "Bilo koji kvalificirani zidar",
+      "Inspektor rada"
+    ],
+    "correct": [1],
+    "explanation": "Član 54. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-036",
+    "law": "pzg",
+    "article": "Član 59",
+    "topic": "Tesarski radovi",
+    "type": "single",
+    "text": "Kolika, u pravilu, mora biti visina zaštitne nastrešnice od tla nad ulazima, prijelazima i prolazima oko objekta u građenju?",
+    "options": ["Najmanje 180 cm", "Najmanje 200 cm", "Najmanje 220 cm", "Najmanje 250 cm"],
+    "correct": [2],
+    "explanation": "Član 59. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-037",
+    "law": "pzg",
+    "article": "Član 60",
+    "topic": "Rampe i prilazi",
+    "type": "multi",
+    "text": "Koji zahtjevi vrijede za rampe i kose prilaze i prolaze? (više tačnih odgovora)",
+    "options": [
+      "Ako služe za prijenos materijala, širina im ne smije biti manja od 60 cm",
+      "Nagib ne smije biti veći od 40%",
+      "Na gornjoj površini moraju imati pričvršćene letvice 28 x 48 mm u razmacima najviše 35 cm",
+      "Ograda je obavezna tek iznad 300 cm visine"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 60. Pravilnika; ograda visine najmanje 100 cm obavezna je već iznad 100 cm visine."
+  },
+  {
+    "id": "pzg-038",
+    "law": "pzg",
+    "article": "Član 62",
+    "topic": "Rampe i prilazi",
+    "type": "single",
+    "text": "Kako se postupa sa mokrim i klizavim mjestima na rampama i kosim prilazima?",
+    "options": [
+      "Zabranjuje se rad do sušenja",
+      "Moraju se posipati pijeskom ili na drugi način osigurati od klizanja; oštećene i nedovršene rampe ne smiju se koristiti",
+      "Prekrivaju se ceradom",
+      "Nema posebnog zahtjeva"
+    ],
+    "correct": [1],
+    "explanation": "Član 62. Pravilnika."
+  },
+  {
+    "id": "pzg-039",
+    "law": "pzg",
+    "article": "Član 63",
+    "topic": "Ljestve",
+    "type": "multi",
+    "text": "Koji zahtjevi vrijede za ljestve koje se upotrebljavaju za pristup na skele? (više tačnih odgovora)",
+    "options": [
+      "Moraju prelaziti rub poda najmanje za 75 cm, mjereno vertikalno",
+      "Širina ljestava između strana mora biti najmanje 45 cm",
+      "Razmak između rubova prečaka ne smije biti veći od 32 cm, a ljestve duže od 400 cm osiguravaju se željeznim utezima",
+      "Strane ljestava mogu biti nastavljene prekovanim čavlima"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 63. Pravilnika; upotreba ljestava sa prekovanim čavlima je zabranjena (član 64. stav 3.)."
+  },
+  {
+    "id": "pzg-040",
+    "law": "pzg",
+    "article": "Član 64",
+    "topic": "Ljestve",
+    "type": "multi",
+    "text": "Upotreba kakvih ljestava je zabranjena? (više tačnih odgovora)",
+    "options": [
+      "Ljestava sa prekovanim čavlima za strane",
+      "Ljestava sa polomljenim ili nedostajućim prečkama",
+      "Ljestava sa napuklom stranom ili prečkom",
+      "Ljestava dužih od 300 cm"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Član 64. stav 3. Pravilnika."
+  },
+  {
+    "id": "pzg-041",
+    "law": "pzg",
+    "article": "Član 66",
+    "topic": "Radni pod",
+    "type": "single",
+    "text": "Kolika mora biti najmanja širina radnog poda ako se na njemu vrši rad bez pripremanja materijala?",
+    "options": ["40 cm", "60 cm", "80 cm", "100 cm"],
+    "correct": [1],
+    "explanation": "Član 66. stav 2.; ako se na podu odlaže ili priprema materijal, za kretanje radnika mora ostati najmanje 60 cm slobodnog prostora."
+  },
+  {
+    "id": "pzg-042",
+    "law": "pzg",
+    "article": "Član 66",
+    "topic": "Radni pod",
+    "type": "single",
+    "text": "Od koje visine radni pod mora biti izrađen od zdravih dasaka priljubljenih jedna uz drugu i položenih vodoravno na čvrste nosače?",
+    "options": ["Od visine veće od 50 cm", "Od visine veće od 100 cm", "Od visine veće od 150 cm", "Od visine veće od 200 cm"],
+    "correct": [1],
+    "explanation": "Član 66. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-043",
+    "law": "pzg",
+    "article": "Član 68",
+    "topic": "Radni pod",
+    "type": "single",
+    "text": "Koliko najviše smije rub radnog poda postavljenog uza zid biti udaljen od zida (na visini većoj od 100 cm)?",
+    "options": ["10 cm", "20 cm", "30 cm", "50 cm"],
+    "correct": [1],
+    "explanation": "Član 68. Pravilnika."
+  },
+  {
+    "id": "pzg-044",
+    "law": "pzg",
+    "article": "Član 70",
+    "topic": "Zaštitne ograde",
+    "type": "open",
+    "text": "Navedite zahtjeve koje mora ispunjavati zaštitna ograda na gradilištu.",
+    "answer": "Sva radna mjesta na visini većoj od 100 cm iznad terena ili poda, kao i prijelazi i prolazi s kojih se može pasti, moraju biti ograđena čvrstom zaštitnom ogradom visine najmanje 100 cm. Ograda mora biti od zdravog i neoštećenog drveta ili drugog podesnog materijala i podnijeti horizontalno opterećenje na rukohvatu od najmanje 30 kp/m. Razmak elemenata popune ne treba biti veći od 30 cm, a pri dnu se mora postaviti puna ivična zaštita (daska) visine najmanje 20 cm. Umjesto uzdužne popune može se koristiti žičana mreža sa okcima najviše 2 x 2 cm. Ako se ograda mora privremeno ukloniti, radnici moraju biti privezani zaštitnim pojasom, uz nadzor stručne osobe.",
+    "keywords": ["visina najmanje 100 cm", "30 kp/m", "razmak popune 30 cm", "ivična zaštita 20 cm", "žičana mreža 2 x 2 cm", "zaštitni pojas"],
+    "explanation": "Član 70. Pravilnika."
+  },
+  {
+    "id": "pzg-045",
+    "law": "pzg",
+    "article": "Član 70",
+    "topic": "Zaštitne ograde",
+    "type": "single",
+    "text": "Od koje visine radna mjesta moraju biti ograđena čvrstom zaštitnom ogradom?",
+    "options": [
+      "Od visine veće od 50 cm iznad terena ili poda",
+      "Od visine veće od 100 cm iznad terena ili poda",
+      "Od visine veće od 150 cm",
+      "Od visine veće od 200 cm"
+    ],
+    "correct": [1],
+    "explanation": "Član 70. stav 1. Pravilnika."
+  },
+  {
+    "id": "pzg-046",
+    "law": "pzg",
+    "article": "Član 72",
+    "topic": "Zaštita otvora",
+    "type": "single",
+    "text": "Na kojoj dubini se moraju postaviti prihvatne mreže ako otvore između nosača nije moguće osigurati platformama ili prijelazima?",
+    "options": ["Na dubini ne većoj od 100 cm", "Na dubini ne većoj od 200 cm", "Na dubini ne većoj od 300 cm", "Na dubini ne većoj od 500 cm"],
+    "correct": [2],
+    "explanation": "Član 72. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-047",
+    "law": "pzg",
+    "article": "Član 71",
+    "topic": "Zaštita otvora",
+    "type": "single",
+    "text": "Kako se osiguravaju otvori u međukatnim konstrukcijama koji ne služe za prolazak radnika ili prenošenje materijala?",
+    "options": [
+      "Obilježavaju se trakom",
+      "Moraju biti stalno pokriveni čvrstim poklopcem ugrađenim tako da se ne može pomicati, dimenzioniranim za predviđena opterećenja",
+      "Ograđuju se ogradom visine 60 cm",
+      "Ne osiguravaju se"
+    ],
+    "correct": [1],
+    "explanation": "Član 71. stav 2. Pravilnika."
+  },
+  {
+    "id": "pzg-048",
+    "law": "pzg",
+    "article": "Član 73",
+    "topic": "Skele",
+    "type": "single",
+    "text": "Šta se, u smislu ovog pravilnika, podrazumijeva pod skelama?",
+    "options": [
+      "Sve pomoćne konstrukcije na gradilištu",
+      "Pomoćne konstrukcije koje služe za vršenje radova u građevinarstvu na visini većoj od 150 cm iznad tla",
+      "Konstrukcije za nošenje oplate",
+      "Metalne konstrukcije bez obzira na visinu"
+    ],
+    "correct": [1],
+    "explanation": "Član 73. Pravilnika."
+  },
+  {
+    "id": "pzg-049",
+    "law": "pzg",
+    "article": "Član 74",
+    "topic": "Skele",
+    "type": "open",
+    "text": "Šta moraju sadržavati planovi prema kojima se grade i postavljaju skele?",
+    "answer": "Dimenzije skele i svih njenih sastavnih elemenata; sredstva za međusobno spajanje sastavnih elemenata; način pričvršćivanja skele za objekat odnosno tlo; najveće dopušteno opterećenje; vrste materijala i njihov kvalitet; statički proračun nosećih elemenata; te uputstvo za montažu i demontažu. Dokumentacija mora biti ovjerena potpisom projektanta skele odnosno odgovorne osobe na gradilištu i čuva se na gradilištu do demontaže skele.",
+    "keywords": ["dimenzije skele", "sredstva za spajanje", "način pričvršćivanja", "najveće dopušteno opterećenje", "statički proračun", "uputstvo za montažu i demontažu", "ovjerena potpisom"],
+    "explanation": "Član 74. Pravilnika."
+  },
+  {
+    "id": "pzg-050",
+    "law": "pzg",
+    "article": "Član 75",
+    "topic": "Skele",
+    "type": "single",
+    "text": "Ko smije postavljati, prepravljati, dopunjavati i demontirati skele?",
+    "options": [
+      "Svaki radnik na gradilištu",
+      "Samo stručno obučeni radnici, zdravstveno sposobni za rad na visini, i to pod nadzorom određene stručne osobe",
+      "Samo radnici izvođača, bez posebnih uslova",
+      "Samo radnici proizvođača skele"
+    ],
+    "correct": [1],
+    "explanation": "Član 75. Pravilnika."
+  }
+]

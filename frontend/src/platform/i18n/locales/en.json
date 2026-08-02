@@ -824,12 +824,12 @@
       "exam": "Exam",
       "study": "Study",
       "history": "History",
-      "laws": "Laws"
+      "laws": "Legislation"
     },
-    "pickLaws": "Choose the laws",
+    "pickLaws": "Choose the subjects",
     "bankSize": "{{n}} questions",
     "lawCounts": "{{total}} questions · {{choice}} multiple-choice · {{open}} written",
-    "allHint": "Pick nothing and questions are drawn from every law.",
+    "allHint": "Pick nothing and questions are drawn from every one of them.",
     "length": "Number of questions",
     "availableQuestions": "Available for this selection: {{n}}",
     "modeHint": {
@@ -899,7 +899,7 @@
       "emptyTitle": "No questions for this filter",
       "emptySub": "Try another law or search term.",
       "pick": "Revision — questions and answers",
-      "allHint": "Pick one law, several to mix them, or none for every law.",
+      "allHint": "Pick one, several to mix them, or none for everything.",
       "showAnswers": "Show answers",
       "hideAnswers": "Hide answers",
       "reveal": "Reveal the answer",
@@ -930,17 +930,17 @@
     "aiScope": "The AI is only used for questions you answer in your own words.",
     "article": {
       "open": "Open the article",
-      "openLaw": "Open the whole law",
+      "openLaw": "Open the whole text",
       "loading": "Loading the article…",
       "missing": "This article's text isn't available."
     },
     "laws": {
-      "title": "The laws — full text",
+      "title": "The legislation — full text",
       "articles": "{{n}} articles",
       "searchPlaceholder": "Search article text or heading…",
       "more": "Show more articles",
       "emptyTitle": "No article matches that term",
-      "emptySub": "Try another term or another law."
+      "emptySub": "Try another term or another one."
     }
   }
 }

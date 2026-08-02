@@ -72,6 +72,8 @@ public static class LawCatalog
                 "\"Službene novine FBiH\", br. 2/98, 48/99 i 61/22"),
             ["znr"] = ("Zakon o zaštiti na radu Federacije BiH", "Zaštita na radu",
                 "\"Službene novine FBiH\", br. 79/20"),
+            ["pzg"] = ("Pravilnik o zaštiti na radu u građevinarstvu", "Građevinarstvo",
+                "\"Službeni list SFRJ\", br. 42/68"),
             ["insp"] = ("Zakon o inspekcijama Tuzlanskog kantona", "Inspekcije TK",
                 "\"Sl. novine TK\", br. 12/20, 1/22, 5/22 - ispr. i 11/22"),
             ["ds"] = ("Zakon o državnoj službi u Tuzlanskom kantonu", "Državna služba TK",

@@ -15,7 +15,7 @@ public class QuestionBankTests
     public void Bank_loads_questions_for_every_law()
     {
         Bank.All.Count.ShouldBeGreaterThan(400);
-        Bank.Laws().Select(l => l.Code).ShouldBe(["zup", "znr", "insp", "ds"], ignoreOrder: true);
+        Bank.Laws().Select(l => l.Code).ShouldBe(["zup", "znr", "pzg", "insp", "ds"], ignoreOrder: true);
         Bank.Laws().ShouldAllBe(l => l.Total > 50);
     }
 

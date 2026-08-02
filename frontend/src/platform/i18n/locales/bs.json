@@ -826,12 +826,12 @@
       "exam": "Ispit",
       "study": "Učenje",
       "history": "Historija",
-      "laws": "Zakoni"
+      "laws": "Propisi"
     },
-    "pickLaws": "Izaberi zakone",
+    "pickLaws": "Izaberi oblasti",
     "bankSize": "{{n}} pitanja",
     "lawCounts": "{{total}} pitanja · {{choice}} zaokruživanje · {{open}} opisno",
-    "allHint": "Ako ne izabereš nijedan zakon, pitanja se vuku iz svih oblasti.",
+    "allHint": "Ako ne izabereš nijednu oblast, pitanja se vuku iz svih propisa.",
     "length": "Broj pitanja",
     "availableQuestions": "Dostupno za izabrano: {{n}}",
     "modeHint": {
@@ -901,7 +901,7 @@
       "emptyTitle": "Nema pitanja za ovaj filter",
       "emptySub": "Promijeni zakon ili pojam pretrage.",
       "pick": "Ponavljanje — pitanja i odgovori",
-      "allHint": "Izaberi jednu oblast, više njih za mix, ili nijednu za sve zakone.",
+      "allHint": "Izaberi jednu oblast, više njih za mix, ili nijednu za sve propise.",
       "showAnswers": "Prikaži odgovore",
       "hideAnswers": "Sakrij odgovore",
       "reveal": "Prikaži odgovor",
@@ -932,17 +932,17 @@
     "aiScope": "AI se koristi samo za pitanja koja se upisuju svojim riječima.",
     "article": {
       "open": "Otvori član",
-      "openLaw": "Otvori cijeli zakon",
+      "openLaw": "Otvori cijeli propis",
       "loading": "Član se učitava…",
       "missing": "Tekst ovog člana nije dostupan."
     },
     "laws": {
-      "title": "Zakoni — cijeli tekst",
+      "title": "Propisi — cijeli tekst",
       "articles": "{{n}} članova",
       "searchPlaceholder": "Traži po tekstu člana ili naslovu…",
       "more": "Prikaži još članova",
       "emptyTitle": "Nema člana za ovaj pojam",
-      "emptySub": "Probaj drugi pojam ili drugi zakon."
+      "emptySub": "Probaj drugi pojam ili drugi propis."
     }
   }
 }
